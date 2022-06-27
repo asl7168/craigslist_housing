@@ -28,7 +28,7 @@ class CraigslistScraper:
         self.today_base_url = 'https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s='
         self.number_of_pages = number_of_pages
         self.scrape_by_date = scrape_by_date
-        self.sleep_time = sleep_time
+        self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
 
 
     def check_url_status(self, url):
@@ -66,55 +66,6 @@ class CraigslistScraper:
                 file.write(filetext)
 
 
-    # def get_posts(self, one_page_of_results):
-    #     """ Takes a page of search results and returns a dictionary 
-
-    #     Parameters:
-    #         one_page_of_results (BeautifulSoup): a page of search results
-
-    #     Returns:
-    #         dict: {result id: [result url, result title]}
-    #     """
-        
-    #     print("Getting individual posts...")
-        
-    #     post_dict = {}
-    #     for one_post in one_page_of_results:
-    #         one_post_title = one_post.find('a',class_='result-title hdrlnk')
-    #         post_id = one_post_title['id']
-    #         url = one_post_title['href']
-    #         post_dict[post_id] = [url, one_post_title]
-        
-    #     init_len = len(post_dict)
-
-    #     for post_id in self.list_of_ids:
-    #         if post_id in post_dict.keys():
-    #             del post_dict[post_id]
-
-    #     print(f"Started with {init_len} posts, {init_len - len(post_dict)} duplicates removed")
-
-    #     return post_dict
-
-    # def check_id_list(self, dictionary_of_posts):
-    #     """ Removes all posts with ids already stored from a dictionary of posts
-
-    #     Parameters:
-    #         dictionary_of_posts (dict): a dictionary of posts
-
-    #     Returns:
-    #         dict: {result id: [result url, result title]}
-    #     """
-        
-    #     how_many = len(dictionary_of_posts)
-    #     for post_id in self.list_of_ids:
-    #         if post_id in dictionary_of_posts.keys():
-    #             del dictionary_of_posts[post_id]
-
-    #     num_remaining = len(dictionary_of_posts)
-    #     print(f"Started with {how_many} posts, {how_many-num_remaining} duplicates removed")
-    #     return dictionary_of_posts
-
-
     def get_page_of_posts(self, url):
         """ Takes the url of a page of search results and returns a dictionary of posts (after removing
             duplicate posts).
@@ -125,10 +76,12 @@ class CraigslistScraper:
 
         Returns
         ----------
-            dict: {result id: [result url, result title]}
+            tuple: 
+                dict: {result id: [result url, result title]}
+                bool: if scraping is finished (all duplicates or no remaining posts to check)
         """
         
-        print("Getting a search result page...")
+        print("\nGetting a search result page...")
 
         page_data = self.check_url_status(url)
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
@@ -178,10 +131,15 @@ class CraigslistScraper:
 
 
     def get_posts_by_number(self):        
-        print("Calling get_posts_by_number...")
+        print(f"Calling get_posts_by_number (for {self.number_of_pages} pages)...")
         
         current_page = 0
-        while (current_page/120) <= self.number_of_pages:
+        first = True 
+        while (current_page / 120) < self.number_of_pages:
+            if not first: 
+                print(f"Sleeping for: {str(self.sleep_time)} seconds between search page calls. {str(time.time())}")
+                time.sleep(self.sleep_time)
+
             page_url = self.base_url + str(current_page)
             current_page_dict = self.get_page_of_posts(page_url)[0]
             self.save_html_from_page(current_page_dict)
@@ -234,7 +192,8 @@ class CraigslistScraper:
 #%%
 if __name__ == '__main__':
     # print out start date/time
-    scraper = CraigslistScraper(filepath="html/", sleep_time=5)
+    # scraper = CraigslistScraper(filepath="html/", sleep_time=5)
+    scraper = CraigslistScraper(filepath="html/", sleep_time=20, scrape_by_date=False, number_of_pages=5)
     # scraper = CraigslistScraper(scrape_by_date=True, filepath="/projects/p31502/projects/craigslist_housing/html/")
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping on: {right_now} | for all posts made today" )
