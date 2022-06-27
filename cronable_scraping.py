@@ -35,10 +35,12 @@ class CraigslistScraper:
         """ Checks a url for errors; if there aren't any, returns the Request object of the url; otherwise, 
             outputs and logs the error
 
-        Parameters:
-            url (string): 
+        Parameters
+        ----------
+            url (string)
 
-        Returns:
+        Returns
+        ----------
             Request: the Request object of the parameter url
         """
         
@@ -117,10 +119,12 @@ class CraigslistScraper:
         """ Takes the url of a page of search results and returns a dictionary of posts (after removing
             duplicate posts).
 
-        Parameters:
+        Parameters
+        ----------
             url (string): the url for a page of search results
 
-        Returns:
+        Returns
+        ----------
             dict: {result id: [result url, result title]}
         """
         
@@ -133,7 +137,7 @@ class CraigslistScraper:
 
         posts_dict = {}
         for one_post in posts:
-            one_post_title = one_post.find('a',class_='result-title hdrlnk')
+            one_post_title = one_post.find('a', class_='result-title hdrlnk')
             post_id = one_post_title['id']
             url = one_post_title['href']
             posts_dict[post_id] = [url, one_post_title]
@@ -153,8 +157,12 @@ class CraigslistScraper:
     def save_html_from_page(self, dictionary_of_posts):
         """ Takes a dictionary of posts (see: get_page_of_posts) and saves each post's html to a file.
 
-        Parameters:
+        Parameters
+        ----------
             dictionary_of_posts (dict): a dictionary of posts
+
+        Returns: 
+            None
         """
 
         print("Saving html...")

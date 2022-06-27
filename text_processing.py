@@ -29,6 +29,7 @@ def find_strings(keywords, search_list):
         for s in keywords:
             if s in item:
                 match.append(item)
+    
     if len(match) == 0:
         return "NA"
     elif len(match) == 1:
@@ -38,7 +39,7 @@ def find_strings(keywords, search_list):
 
 
 def clean_if_exists(s):
-    """For some posting details such as rent period, app fee, flooring etc., we only need the
+    """ For some posting details such as rent period, app fee, flooring etc., we only need the
     info to the right of the ':'. This function checks if this info is included in post (i.e. not "NA")
     and if so, splits and cleans it.
 
@@ -52,7 +53,8 @@ def clean_if_exists(s):
     str
         Either "NA" if input string is "NA" or split/stripped string 
     """
-    if s != "NA":
+    
+    if s != 'NA':
         output = s.split(':')[1].strip()
         return output
     else:
@@ -60,7 +62,7 @@ def clean_if_exists(s):
 
 
 def yes_if_exists(s):
-    """For some posting details, such as pets, no smoking, furnished, if they aren't explicitly marked, 
+    """ For some posting details, such as pets, no smoking, furnished, if they aren't explicitly marked, 
     it doesn't neccessarily mean that's not true for the property. This function checks for the existence 
     of these details (checkbox options when making post) and assigns 'yes' if exists and 'NA' if not.
 
@@ -74,19 +76,19 @@ def yes_if_exists(s):
     str
         Either 'NA' if input string is 'NA' or 'yes'
     """
-    if s != "NA":
+    if s != 'NA':
         return True
     else:
         return s
 
 
 # open csv
-#if os.path.exists("data/csv_dumps/CL_housing.json"): 
+# if os.path.exists("data/csv_dumps/CL_housing.json"): 
 #    open_mode = "a"
-#else: 
- #   open_mode = "w"
+# else: 
+#   open_mode = "w"
 
-#with open('data/csv_dumps/CL_housing.json', open_mode) as outfile:
+# with open('data/csv_dumps/CL_housing.json', open_mode) as outfile:
 
 # get file path for each html file in directory
 
@@ -94,9 +96,9 @@ directory = 'html' # change this to whatever the directory of files is called
 counter = 0
 for idx, fname in enumerate(os.listdir(directory)):
     file_path = os.path.join(directory, fname)
+    
     if idx % 100 == 0: print(idx)
-    if not os.path.isfile(file_path):
-        continue
+    if not os.path.isfile(file_path): continue
     
     # open html and create soup
     with open(file_path, encoding='utf-8') as html_file:
@@ -117,7 +119,7 @@ for idx, fname in enumerate(os.listdir(directory)):
     
     # find pricing info, extract text, strip whitespace, remove non-integer characters
     pricing_info = title_text.find('span', class_="price")
-    if pricing_info is not None:
+    if pricing_info:
         price = int(pricing_info.text.strip().replace(
             "$", "").replace(",", ""))
     else:
@@ -125,7 +127,7 @@ for idx, fname in enumerate(os.listdir(directory)):
     
     # if neighborhood is included (doesn't have to be), will be found here in the title text
     post_hood = title_text.find('small')
-    if post_hood is not None:
+    if post_hood:
         neighborhood = post_hood.text.strip().strip('()')
     else:
         neighborhood = "NA"
@@ -134,14 +136,14 @@ for idx, fname in enumerate(os.listdir(directory)):
     # I choose to grab the actual date instead of the text 'available jul 1' for example
     availability = soup.find(
         class_="housing_movein_now property_date shared-line-bubble")
-    if availability is not None:
+    if availability:
         available = availability.get('data-date')
     else:
         available = "NA"
     
     # get map and address info
     mapbox = soup.find('div', class_='mapbox')
-    if mapbox is not None:
+    if mapbox:
         latitude = float(mapbox.find(id='map').get('data-latitude'))
         longitude = float(mapbox.find(id='map').get('data-longitude'))
         # Not sure exactly what data_accuracy means in this context,
@@ -150,13 +152,14 @@ for idx, fname in enumerate(os.listdir(directory)):
     
     # some posts just have street address, others include nearby cross streets formatted as
     # 'street address near street'. We account for both
-        address = mapbox.find('div',class_="mapaddress")
-        if address is not None:
+        address = mapbox.find('div', class_="mapaddress")
+        if address:
             map_address = address.text
         elif neighborhood[0].isdigit():
             map_address = neighborhood
         else:
             map_address = "NA"
+        
         if "near" in map_address:
             street_address = map_address.split('near')[0]
         else:
@@ -184,7 +187,7 @@ for idx, fname in enumerate(os.listdir(directory)):
     # get urls for images if post has them
     images = []
     imgList = soup.find('div', id='thumbs')
-    if imgList is not None:
+    if imgList:
         for tag in imgList.find_all('a'):
             img_url = tag.get('href')
             images.append(img_url)
@@ -218,6 +221,7 @@ for idx, fname in enumerate(os.listdir(directory)):
     housing = find_strings(housing_type, specs)
     if not isinstance(housing, str):
       housing = housing[0]
+    
     sqft = find_strings(['ft2'], specs).replace('ft2','')
     if sqft != 'NA':
       sqft = int(sqft)
@@ -253,8 +257,8 @@ for idx, fname in enumerate(os.listdir(directory)):
         "updated": updated.strip(),
         "available": available.strip(),
         "housing_type": housing,
-        "bedrooms": int(bedbath.split('/')[0].strip().replace('BR','')),
-        "bathrooms": float(bedbath.split('/')[1].strip().replace('Ba','')),
+        "bedrooms": int(bedbath.split('/')[0].strip().replace('BR', '')),
+        "bathrooms": float(bedbath.split('/')[1].strip().replace('Ba', '')),
         "laundry": laundry,
         "parking": parking,
         "sqft": sqft,
@@ -274,7 +278,7 @@ for idx, fname in enumerate(os.listdir(directory)):
         "url": url
     }
     
-    json_obj = json.dumps(post_details, indent = 1)
+    json_obj = json.dumps(post_details, indent=1)
     
-    with open("data/json_files/"+post_id+".json","w") as outfile:
+    with open("data/json_files/"+post_id+".json", "w") as outfile:
       outfile.write(json_obj)
