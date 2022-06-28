@@ -14,6 +14,8 @@ from requests import get
 from datetime import date
 import time, os
 from bs4 import BeautifulSoup
+from tqdm import tqdm, trange
+from math import ceil
 
 # note: any instance of the number 120 (being added, or dividing by) is due to Craigslist returning 120 results per page
 class CraigslistScraper:
@@ -21,7 +23,7 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, filepath=os.getcwd(), sleep_time=60, scrape_by_date=True, number_of_pages=1):
+    def __init__(self, filepath=os.getcwd(), sleep_time=20, scrape_by_date=True, number_of_pages=1):
         self.filepath = filepath  # this should be where all html documents have BEEN saved
         self.list_of_ids = set(os.listdir(self.filepath))
         self.base_url = 'https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s='
@@ -118,9 +120,7 @@ class CraigslistScraper:
             None
         """
 
-        print("Saving html...")
-
-        for key in dictionary_of_posts.keys():
+        for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page..."):
             post_id = key
             values = dictionary_of_posts[key]
             url = values[0]
@@ -129,77 +129,54 @@ class CraigslistScraper:
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)
 
+            time.sleep(self.sleep_time)
+
 
     def get_posts_by_number(self):        
-        print(f"Calling get_posts_by_number (for {self.number_of_pages} pages)...")
-        
-        current_page = 0
-        first = True 
-        while (current_page / 120) < self.number_of_pages:
-            if not first: 
-                print(f"Sleeping for: {str(self.sleep_time)} seconds between search page calls. {str(time.time())}")
-                time.sleep(self.sleep_time)
-            
-            if first: first = False
-
-            page_url = self.base_url + str(current_page)
+        for page in trange(self.number_of_pages, desc=f"Getting posts from {self.number_of_pages} page{'s' if total_pages > 1 else ''}..."):
+            page_url = self.base_url + str(page * 120)
             current_page_dict = self.get_page_of_posts(page_url)[0]
             self.save_html_from_page(current_page_dict)
-            current_page += 120
 
-
-    """def get_pages_until_break(self):
-        print("Calling get_pages_until_break...")
-        #this function takes in a list of post ids and returns a dictionary of each post that isn't in the list of post ids
-        #it does not limit the number of pages to search, so it will continue to loop through search pages
-        #until the search page doesn't exist (e.g. throws an error)
-        current_page = 0
-        page_url = self.base_url + str(current_page)
-        while get(page_url).ok == True:
-            current_page_dict = self.get_page_of_posts(page_url)
-            self.save_html_from_page(current_page_dict)
-            current_page += 120
-            page_url = self.base_url + str(current_page)
-            print("Sleeping for: ", str(self.sleep_time), " seconds between search page calls. ", str(time.time()))
-            time.sleep(self.sleep_time)"""
-    
 
     def get_posts_from_today(self):
-        print("Getting posts from today...")
-        
         current_page = 0
         page_url = self.today_base_url
+        total_pages = ceil(float(BeautifulSoup(get(page_url).text, 'html.parser').find("span", class_="totalcount").text) / 120)
         gpp = self.get_page_of_posts(page_url)
         first = True
 
-        while get(page_url).ok:
-            if not gpp[1]: break 
-            if not first: 
-                print(f"Sleeping for: {str(self.sleep_time)} seconds between search page calls. {str(time.time())}")
-                time.sleep(self.sleep_time)
+        with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
+            while get(page_url).ok:
+                if not gpp[1]: break
 
-            if first: first = False 
+                current_page_dict = gpp[0]
+                self.save_html_from_page(current_page_dict)
+                current_page += 120
+                page_url = self.today_base_url + str(current_page)
+                gpp = self.get_page_of_posts(page_url)
 
-            current_page_dict = gpp[0]
-            self.save_html_from_page(current_page_dict)
-            current_page += 120
-            page_url = self.today_base_url + str(current_page)
-            gpp = self.get_page_of_posts(page_url)
+                pbar.update(1)
 
 
     def scrape(self):
+        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)")
+
         # get search pages
         if self.scrape_by_date: self.get_posts_from_today()
         else: self.get_posts_by_number()
+
+        print("Scraping completed!")
 
 
 #%%
 if __name__ == '__main__':
     # print out start date/time
-    # scraper = CraigslistScraper(filepath="html/", sleep_time=5)
+    # scraper = CraigslistScraper(filepath="html/")
     scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
     # scraper = CraigslistScraper(scrape_by_date=True, filepath="/projects/p31502/projects/craigslist_housing/html/")
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping on: {right_now} | for all posts made today" )
+    
     scraper.scrape()
     print("Saving complete.")
