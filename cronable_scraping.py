@@ -139,6 +139,8 @@ class CraigslistScraper:
             if not first: 
                 print(f"Sleeping for: {str(self.sleep_time)} seconds between search page calls. {str(time.time())}")
                 time.sleep(self.sleep_time)
+            
+            if first: first = False
 
             page_url = self.base_url + str(current_page)
             current_page_dict = self.get_page_of_posts(page_url)[0]
@@ -176,6 +178,8 @@ class CraigslistScraper:
                 print(f"Sleeping for: {str(self.sleep_time)} seconds between search page calls. {str(time.time())}")
                 time.sleep(self.sleep_time)
 
+            if first: first = False 
+            
             current_page_dict = gpp[0]
             self.save_html_from_page(current_page_dict)
             current_page += 120
