@@ -21,7 +21,7 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, filepath=os.getcwd(), sleep_time=30, scrape_by_date=True, number_of_pages=1):
+    def __init__(self, filepath=os.getcwd(), sleep_time=60, scrape_by_date=True, number_of_pages=1):
         self.filepath = filepath  # this should be where all html documents have BEEN saved
         self.list_of_ids = set(os.listdir(self.filepath))
         self.base_url = 'https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s='
@@ -179,7 +179,7 @@ class CraigslistScraper:
                 time.sleep(self.sleep_time)
 
             if first: first = False 
-            
+
             current_page_dict = gpp[0]
             self.save_html_from_page(current_page_dict)
             current_page += 120
@@ -197,7 +197,7 @@ class CraigslistScraper:
 if __name__ == '__main__':
     # print out start date/time
     # scraper = CraigslistScraper(filepath="html/", sleep_time=5)
-    scraper = CraigslistScraper(filepath="html/", sleep_time=20, scrape_by_date=False, number_of_pages=5)
+    scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
     # scraper = CraigslistScraper(scrape_by_date=True, filepath="/projects/p31502/projects/craigslist_housing/html/")
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping on: {right_now} | for all posts made today" )
