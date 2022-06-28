@@ -133,7 +133,7 @@ class CraigslistScraper:
 
 
     def get_posts_by_number(self):        
-        for page in trange(self.number_of_pages, desc=f"Getting posts from {self.number_of_pages} page{'s' if total_pages > 1 else ''}..."):
+        for page in trange(self.number_of_pages, desc=f"Getting posts from {self.number_of_pages} page{'s' if self.number_of_pages > 1 else ''}..."):
             page_url = self.base_url + str(page * 120)
             current_page_dict = self.get_page_of_posts(page_url)[0]
             self.save_html_from_page(current_page_dict)
