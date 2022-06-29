@@ -172,9 +172,9 @@ class CraigslistScraper:
 #%%
 if __name__ == '__main__':
     # print out start date/time
-    # scraper = CraigslistScraper(filepath="html/")
-    scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
-    # scraper = CraigslistScraper(scrape_by_date=True, filepath="/projects/p31502/projects/craigslist_housing/html/")
+    scraper = CraigslistScraper(filepath="html/")
+    # scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
+    # scraper = CraigslistScraper(filepath="/projects/p31502/projects/craigslist_housing/html/")
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping on: {right_now} | for all posts made today" )
     
