@@ -92,7 +92,7 @@ def yes_if_exists(s):
 
 # get file path for each html file in directory
 
-directory = 'html' # change this to whatever the directory of files is called
+directory = 'html/' # change this to whatever the directory of files is called
 counter = 0
 for idx, fname in enumerate(os.listdir(directory)):
     file_path = os.path.join(directory, fname)
@@ -207,6 +207,22 @@ for idx, fname in enumerate(os.listdir(directory)):
     
     # required information:
     bedbath = find_strings(["BR"], specs)
+    if bedbath != "NA": 
+        bedbath_re = "(\.?[0-9]+)+"
+
+        bedbath = bedbath.split("/")
+        bed = bedbath[0]
+        bed = int(re.search(bedbath_re, bed).group())
+        # print(bed)
+        bath = bedbath[1]
+        bath = re.search(bedbath_re, bath)
+        if bath: bath = float(bath.group())
+        else: bath = re.search("share", bedbath[1])
+
+        if bath: bath = 1.0
+        else: bath = "NA"
+    else: 
+        bed = bath = bedbath
     
     # all possible laundry options from drop down menu include either 'w/d', or 'laundry' so searching
     # for just those strings will return all possible matches
@@ -230,7 +246,8 @@ for idx, fname in enumerate(os.listdir(directory)):
     # use our clean up function to makes things easier
     flooring = clean_if_exists(find_strings(['flooring'], specs))
     rent_period = clean_if_exists(find_strings(['rent period'], specs))
-    app_fee = clean_if_exists(find_strings(['application'], specs))
+    app_fee = find_strings(['application'], specs)
+    app_fee = clean_if_exists(app_fee[0]) if isinstance(app_fee, list) else clean_if_exists(app_fee)
     broker_fee = clean_if_exists(find_strings(['broker'], specs))
     
     # the group of features that we just want to know if True or 'unspecified'
@@ -257,8 +274,8 @@ for idx, fname in enumerate(os.listdir(directory)):
         "updated": updated.strip(),
         "available": available.strip(),
         "housing_type": housing,
-        "bedrooms": int(bedbath.split('/')[0].strip().replace('BR', '')),
-        "bathrooms": float(bedbath.split('/')[1].strip().replace('Ba', '')),
+        "bedrooms": bed,
+        "bathrooms": bath,
         "laundry": laundry,
         "parking": parking,
         "sqft": sqft,
@@ -280,5 +297,5 @@ for idx, fname in enumerate(os.listdir(directory)):
     
     json_obj = json.dumps(post_details, indent=1)
     
-    with open("data/json_files/"+post_id+".json", "w") as outfile:
+    with open("json/"+post_id+".json", "w") as outfile:
       outfile.write(json_obj)
