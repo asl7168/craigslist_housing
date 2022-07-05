@@ -144,7 +144,6 @@ class CraigslistScraper:
         page_url = self.today_base_url
         total_pages = ceil(float(BeautifulSoup(get(page_url).text, 'html.parser').find("span", class_="totalcount").text) / 120)
         gpp = self.get_page_of_posts(page_url)
-        first = True
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
             while get(page_url).ok:
