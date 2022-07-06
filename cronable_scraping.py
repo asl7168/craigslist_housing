@@ -23,11 +23,13 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, filepath=os.getcwd(), sleep_time=20, scrape_by_date=True, number_of_pages=1):
-        self.filepath = filepath  # this should be where all html documents have BEEN saved
+    def __init__(self, city, filepath=None, sleep_time=20, scrape_by_date=True, number_of_pages=1):
+        self.filepath = filepath or f"./html/{city}"  # this should be where all html documents have BEEN saved
+        if not os.path.exists(self.filepath): os.makedirs(self.filepath)
+        
         self.list_of_ids = set(os.listdir(self.filepath))
-        self.base_url = 'https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s='
-        self.today_base_url = 'https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s='
+        self.base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
+        self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
         self.number_of_pages = number_of_pages
         self.scrape_by_date = scrape_by_date
         self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
@@ -171,7 +173,7 @@ class CraigslistScraper:
 #%%
 if __name__ == '__main__':
     # print out start date/time
-    scraper = CraigslistScraper(filepath="html/")
+    scraper = CraigslistScraper("chicago")
     # scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
     # scraper = CraigslistScraper(filepath="/projects/p31502/projects/craigslist_housing/html/")
     right_now = str(date.today()) + " " + str(time.time())

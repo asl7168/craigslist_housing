@@ -1,0 +1,52 @@
+{
+ "post_id": 7494939068,
+ "title": "BUCKTOWN APARTMENT",
+ "price": 1900,
+ "neighborhood": "CHICAGO",
+ "map_address": "1751 N WESTERN AVE near NORTH AVE",
+ "street_address": "1751 N WESTERN AVE ",
+ "latitude": 41.913288,
+ "longitude": -87.687255,
+ "data_accuracy": 10,
+ "posted": "2022-06-18 13:57",
+ "updated": "2022-06-20 16:40",
+ "repost_dates": [
+  "2022-06-18 13:57"
+ ],
+ "available": "2022-07-02",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "w/d in unit",
+ "parking": "attached garage",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Beautiful 1st ft one bedroom loft in Bucktown neighborhood!",
+  "Private balcony, washer &amp; dryer in unit, secured garage parking space, central heating and cooling, hardwood floors, 13-foot wood bean ceilings, top summer deck,",
+  "Steps and next door to the 606-trail entrance, two blocks from the Western Blue Line Stop.",
+  "Easy access to 90/94 highway, walking distance to Bucktown and Wicker Park nightlife shops, restaurants, grocery stores, etc.",
+  "Pet friendly with extra fee applicable.",
+  "Moving day July 2nd."
+ ],
+ "images": [
+  "https://images.craigslist.org/00h0h_hkHQPyVMkOGz_0hq0d4_600x450.jpg",
+  "https://images.craigslist.org/00606_a4uQVhfcNz8z_0hq0d4_600x450.jpg",
+  "https://images.craigslist.org/00505_lUT2h1RPfxFz_0hq0d4_600x450.jpg",
+  "https://images.craigslist.org/00N0N_bxzaFss4iXwz_0d40hq_600x450.jpg",
+  "https://images.craigslist.org/00p0p_a45d48g1IIxz_0hq0d4_600x450.jpg",
+  "https://images.craigslist.org/00q0q_6rNWToZ9dpkz_0d40hq_600x450.jpg",
+  "https://images.craigslist.org/00U0U_h1YaSB53fhRz_0d40hq_600x450.jpg"
+ ],
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bucktown-apartment/7498224777.html"
+}

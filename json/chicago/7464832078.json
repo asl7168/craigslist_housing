@@ -1,0 +1,53 @@
+{
+ "post_id": 7464832078,
+ "title": "Beautiful 3 bed 1 bath apt",
+ "price": 1300,
+ "neighborhood": "Chicago",
+ "map_address": "Avers near Augusta",
+ "street_address": "Avers ",
+ "latitude": 41.899132,
+ "longitude": -87.722456,
+ "data_accuracy": 15,
+ "posted": "2022-06-21 19:26",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-21 19:26"
+ ],
+ "available": "2022-07-01",
+ "housing_type": "apartment",
+ "bedrooms": 3,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "street parking",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Offering this beautiful and spacious apartment for rent.",
+  "This unit features 3 bedrooms, 1 bathroom, separate living and dinning room, enclosed back porch.",
+  "Tons of recent updates.",
+  "Tenant pays for gas (heating, stove, hot water) and electricity.",
+  "Possible garage space rental for extra fee",
+  "Move in fee of $600 applies.",
+  "One time pet fee of $200/pet.",
+  "Ready to move in"
+ ],
+ "images": [
+  "https://images.craigslist.org/00X0X_iXEvituz5Jkz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00l0l_60GhroOW4VZz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00K0K_gVcY7bIYygWz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00g0g_15jFiZGjWcqz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00i0i_buyEhF8mHkXz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00n0n_dLLe4txUJt9z_0t20CI_600x450.jpg"
+ ],
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-bed-bath-apt/7499557054.html"
+}
