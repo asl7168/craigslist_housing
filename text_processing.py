@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import re
 import os
 import json
-import csv
 import spacy
+import pandas as pd
 
 # new comment
 def find_strings(keywords, search_list):
@@ -84,34 +84,17 @@ def yes_if_exists(s):
         return s
 
 
-def process_html(directory, to_csv=False):
+def process_html(directory):
     """ Processes every HTML file from the given directory to individual JSON files (default)
-    or one master CSV (when to_csv=True)
 
     Parameters
     ----------
         directory (string): filepath to directory of HTML files
-        to_csv (bool, optional): If the HTML files should be compiled into one large CSV (FOR MAPPING
-            SOFTWARE USE). Defaults to False.
     """
     city = directory.split("/")[-1]  # assumes directory name of form cityname_html (e.g. "chicago_html", "newyork_html")
     nlp = spacy.load("en_core_web_sm")
 
-    if to_csv: 
-        if not os.path.exists("./csv_dumps"): os.makedirs("./csv_dumps")
-        csv_path = f"./csv_dumps/{city}_csv_dump.csv"
-        open_mode = "a" if os.path.exists(csv_path) else "w"
-        csv_file = open(csv_path, open_mode, newline="", encoding="utf-8")
-        field_names = ["post_id", "title", "price", "neighborhood", "map_address", "street_address",
-                       "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates",
-                       "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft",
-                       "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking",
-                       "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"]
-
-        writer = csv.DictWriter(csv_file, fieldnames=field_names)
-        writer.writeheader()
-    else:
-        if not os.path.exists(f"./json/{city}"): os.makedirs(f"./json/{city}")
+    if not os.path.exists(f"./json/{city}"): os.makedirs(f"./json/{city}")
     
     for idx, fname in enumerate(os.listdir(directory)):
         file_path = os.path.join(directory, fname)
@@ -335,17 +318,32 @@ def process_html(directory, to_csv=False):
             "url": url
         }
         
-        if to_csv: 
-            writer.writerow(post_details)
-        else:
-            json_obj = json.dumps(post_details, indent=1)
-            json_path = f"./json/{city}/{repost_of}.json" if repost_of else f"json/{city}/{post_id}.json"
+        json_obj = json.dumps(post_details, indent=1)
+        json_path = f"./json/{city}/{repost_of}.json" if repost_of else f"json/{city}/{post_id}.json"
 
-            with open(json_path, "w") as outfile:
-                outfile.write(json_obj)
+        with open(json_path, "w") as outfile:
+            outfile.write(json_obj)
 
-    if to_csv: csv_file.close()
+
+def jsons_to_csv(directory):
+    result_df = pd.DataFrame(columns=["post_id", "title", "price", "neighborhood", "map_address", "street_address", 
+                                      "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates",
+                                      "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft",
+                                      "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking",
+                                      "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"])
+    
+    city = directory.split("/")[-1]
+    for idx, filename in enumerate(os.listdir(directory)):
+        if idx % 100 == 0: print(idx)
+
+        json_path = f"{directory}/{filename}"
+        with open(json_path, "r") as json_file: data = json.load(json_file)
+        df = pd.DataFrame([data], columns=data.keys())
+        result_df = pd.concat([result_df, df])
+
+    result_df.to_csv(f"./csv_dumps/{city}_csv_dump.csv", index=False)
+
 
 if __name__ == '__main__':
     process_html("./html/chicago")
-    # process_html("./html/chicago", to_csv=True)
+    jsons_to_csv("./json/chicago")
