@@ -1,5 +1,2 @@
-#!/user/bin/env bash
-source /projects/p31502/projects/craigslist/craig_env/etc/profile.d/conda.sh
-
-conda activate craig_env
-python "$@"
+#!/bin/bash
+source /projects/p31502/projects/craigslist/venv_craig_env/bin/activate

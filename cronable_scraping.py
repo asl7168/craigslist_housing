@@ -24,7 +24,7 @@ class CraigslistScraper:
     """
 
     def __init__(self, city, filepath=None, sleep_time=20, scrape_by_date=True, number_of_pages=1):
-        self.filepath = filepath or f"./html/{city}"  # this should be where all html documents have BEEN saved
+        self.filepath = filepath + "/" + city if filepath else f"./html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
         self.list_of_ids = set(os.listdir(self.filepath))
@@ -171,21 +171,21 @@ class CraigslistScraper:
 
 
 #%%
-def do_initial_scrape(city: str):
+def do_initial_scrape(city: str, filepath: str=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~16 hours")
     
-    scraper = CraigslistScraper(city, scrape_by_date=False, number_of_pages=30)
+    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30)
     scraper.scrape()
     
     print("Saving complete.")
 
 
-def do_cron_scrape(city: str):
+def do_cron_scrape(city: str, filepath: str=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts made today")
     
-    scraper = CraigslistScraper(city)
+    scraper = CraigslistScraper(city, filepath=filepath)
     scraper.scrape()
     
     print("Saving complete.")
