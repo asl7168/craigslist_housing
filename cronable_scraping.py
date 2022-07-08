@@ -171,13 +171,21 @@ class CraigslistScraper:
 
 
 #%%
-if __name__ == '__main__':
-    # print out start date/time
-    scraper = CraigslistScraper("chicago")
-    # scraper = CraigslistScraper(filepath="html/", scrape_by_date=False, number_of_pages=30)
-    # scraper = CraigslistScraper(filepath="/projects/p31502/projects/craigslist_housing/html/")
+def do_initial_scrape(city: str):
     right_now = str(date.today()) + " " + str(time.time())
-    print(f"Started scraping on: {right_now} | for all posts made today" )
+    print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~16 hours")
     
+    scraper = CraigslistScraper(city, scrape_by_date=False, number_of_pages=30)
     scraper.scrape()
+    
+    print("Saving complete.")
+
+
+def do_cron_scrape(city: str):
+    right_now = str(date.today()) + " " + str(time.time())
+    print(f"Started scraping for {city} on: {right_now} | for all posts made today")
+    
+    scraper = CraigslistScraper(city)
+    scraper.scrape()
+    
     print("Saving complete.")
