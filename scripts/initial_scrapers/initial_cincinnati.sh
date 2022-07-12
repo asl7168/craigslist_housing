@@ -11,4 +11,4 @@
 
 /projects/p31502/projects/craigslist/scripts/craig_env_runner
 
-python -c 'import sys; sys.path.append("/projects/p31502/projects/craigslist/"); from cronable_scraping import *; do_initial_scrape("cincinnati", filepath="../../html")'
+python -c 'import sys; sys.path.append("/projects/p31502/projects/craigslist/"); from cronable_scraping import *; do_initial_scrape("cincinnati", filepath="../../html", which_proxy=8)'

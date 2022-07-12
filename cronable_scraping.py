@@ -17,22 +17,38 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm, trange
 from math import ceil
 
+
+def get_proxies():
+    r = get("https://sslproxies.org/")
+    html_soup = BeautifulSoup(r.text, "html.parser")
+    table = html_soup.find("table", class_="table table-striped table-bordered")
+    rows = table.find_all("tr")[1:]
+    ips_and_ports = [row.find_all("td")[:2] for row in rows]
+    proxies = [iap[0].text + ":" + iap[1].text for iap in ips_and_ports]
+    return proxies
+
+
 # note: any instance of the number 120 (being added, or dividing by) is due to Craigslist returning 120 results per page
 class CraigslistScraper:
     """ Code to scrape html from craigslist and save, either as text files or in a csv
         the post data
     """
 
-    def __init__(self, city, filepath=None, sleep_time=20, scrape_by_date=True, number_of_pages=1):
+    def __init__(self, city, filepath: str=None, sleep_time: int=20, scrape_by_date: bool=True, number_of_pages: int=1, which_proxy: int=None):
+        proxy_list = get_proxies()
+        
         self.filepath = filepath + "/" + city if filepath else f"./html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
+        self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
+        self.scrape_by_date = scrape_by_date
+        self.number_of_pages = number_of_pages
+        proxy = proxy_list[which_proxy] if which_proxy else proxy_list[0]
+        self.proxies = {"http": proxy, "https": proxy}
+
         self.list_of_ids = set(os.listdir(self.filepath))
         self.base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
-        self.number_of_pages = number_of_pages
-        self.scrape_by_date = scrape_by_date
-        self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
 
 
     def check_url_status(self, url):
@@ -50,7 +66,7 @@ class CraigslistScraper:
         
         print(url)
 
-        get_object = get(url)
+        get_object = get(url, proxies=self.proxies)
         if get_object.ok:
             return get_object
         else:
@@ -127,7 +143,7 @@ class CraigslistScraper:
             values = dictionary_of_posts[key]
             url = values[0]
             filename = os.path.join(self.filepath, post_id)
-            raw_html = get(url)
+            raw_html = get(url, proxies=self.proxies)
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)
 
@@ -144,11 +160,11 @@ class CraigslistScraper:
     def get_posts_from_today(self):
         current_page = 0
         page_url = self.today_base_url
-        total_pages = ceil(float(BeautifulSoup(get(page_url).text, 'html.parser').find("span", class_="totalcount").text) / 120)
+        total_pages = ceil(float(BeautifulSoup(get(page_url, proxies=self.proxies).text, 'html.parser').find("span", class_="totalcount").text) / 120)
         gpp = self.get_page_of_posts(page_url)
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
-            while get(page_url).ok:
+            while get(page_url, proxies=self.proxies).ok:
                 if not gpp[1]: break
 
                 current_page_dict = gpp[0]
@@ -171,21 +187,21 @@ class CraigslistScraper:
 
 
 #%%
-def do_initial_scrape(city: str, filepath: str=None):
+def do_initial_scrape(city: str, filepath: str=None, which_proxy: int=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~16 hours")
     
-    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30)
+    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30, which_proxy=which_proxy)
     scraper.scrape()
     
     print("Saving complete.")
 
 
-def do_cron_scrape(city: str, filepath: str=None):
+def do_cron_scrape(city: str, filepath: str=None, which_proxy: int=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts made today")
     
-    scraper = CraigslistScraper(city, filepath=filepath)
+    scraper = CraigslistScraper(city, filepath=filepath, which_proxy=which_proxy)
     scraper.scrape()
     
     print("Saving complete.")
