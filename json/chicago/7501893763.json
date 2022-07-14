@@ -30,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Great location!",
   "This Spacious Studio is conveniently situated in Wrigleyville, on W. Patterson Ave.",
   "You will not be disappointed in what this thriving neighborhood has to offer.",
@@ -47,13 +48,12 @@
   "-Sundeck",
   "-Bike Storage",
   "*Virtual and in-person tours available*",
-  "<b>Evan Latture<b>",
+  "Evan Latture",
   "Leasing Consultant",
   "(224) 500-7945 (call or text)",
   "BJB Properties",
   "*Prices are subject to change.",
-  "Pictures are for marketing purposes only and may not reflect the actual unit.*",
-  "</b></b>"
+  "Pictures are for marketing purposes only and may not reflect the actual unit.*"
  ],
  "images": [
   "https://images.craigslist.org/00a0a_hFscAlcPrf1z_0ak06T_600x450.jpg",

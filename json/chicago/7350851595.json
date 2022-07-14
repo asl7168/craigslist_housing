@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 11:13",
  "updated": "2022-06-13 15:35",
- "repost_dates": [
-  "2022-06-13 11:13"
- ],
+ "repost_dates": null,
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Renovated 2 bedroom 1 bath.",
   " New kitchen, refinished hardwood floors.",
   " Parking and storage area included.",

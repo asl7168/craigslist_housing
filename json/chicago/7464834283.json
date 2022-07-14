@@ -10,9 +10,7 @@
  "data_accuracy": 15,
  "posted": "2022-06-12 11:31",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-12 11:31"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Call Apartment Guys and ask for reference #2202443.",
   "This remarkable building has been totally renovated with granite countertops and stainless steel appliances including a dishwasher and microwave.",
   "It has, high ceilings, exposed brick, exposed timber beams and enjoy having a washer and dryer in the unit.",

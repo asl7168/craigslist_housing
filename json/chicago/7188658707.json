@@ -32,9 +32,12 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
-  "<h2><b>3046 W. Lyndale, Chicago, IL, 60647</b></h2><h3>3 Bed - 1 Bath                    $925.00/moSq",
-  "Footage: 525                   $0.00/dep </h3>",
-  "Contact Us: Phone or via email                       <hr/>This unit is an attic unit and was a complete gut rehab several years ago.",
+  "QR Code Link to This Post",
+  "3046 W. Lyndale, Chicago, IL, 60647",
+  "3 Bed - 1 Bath                    $925.00/moSq",
+  "Footage: 525                   $0.00/dep",
+  "Contact Us: Phone or via email",
+  "This unit is an attic unit and was a complete gut rehab several years ago.",
   "Appliances are included.",
   "There is a coin-op washer and dryer in the building.",
   "Building is located 1 block off Blvd and 2 blks from blue line station.",
@@ -42,9 +45,14 @@
   "Pets are not allowed.",
   "A floor plan is attached to this listing to provide detail on general layout and room sizes.",
   "There is no security deposit but a $400 non-refundable move-in fee is required.",
-  "Property Features:<ul><li>Track Lighting</li><li>",
-  "Newer Fridge</li><li>Newer Stove</li><li>Recessed cans</li><li>Updated kitchen</li></ul>Lease Terms:   12 months @",
-  "$925<hr/>"
+  "Property Features:",
+  "Track Lighting",
+  "Newer Fridge",
+  "Newer Stove",
+  "Recessed cans",
+  "Updated kitchen",
+  "Lease Terms:   12 months @",
+  "$925"
  ],
  "images": [
   "https://images.craigslist.org/00R0R_3aPA4NC1fAoz_0Du0QE_600x450.jpg",

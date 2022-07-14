@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-12 12:35",
  "updated": "2022-06-12 12:35",
- "repost_dates": [
-  "2022-06-24 19:38"
- ],
+ "repost_dates": null,
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "About 2112 W Division St",
   "Stunning Rehab in the heart of Wicker Park on Division.",
   "This rehabbed unit features new granite/stainless kitchen with dishwasher, rehabbed bath, in-unit laundry, hardwood floors, dishwasher, central a/c, pets ok, and much more.",

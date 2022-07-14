@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:33",
  "updated": "2022-06-13 09:33",
- "repost_dates": [
-  "2022-06-28 10:05"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Located in Chicago's Edgewater neighborhood, the apartments at 1436 W. Thorndale are the perfect place to call home.",
   "This lovely vintage apartment building has well-maintained hardwood floors, new windows, ceiling fans and updated kitchens.",
   "You get the best of both worlds with a great mixture of the classic and modern.",
@@ -51,7 +50,7 @@
   "****No Dogs",
   "*****No Security Deposit",
   "Managed by:",
-  "Realty &amp; Mortgage Co",
+  "Realty & Mortgage Co",
   "1509 W. Berwyn Ave Suite.",
   "200",
   "Chicago IL. 60640",

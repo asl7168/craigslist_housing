@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 10:26",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 10:26"
- ],
+ "repost_dates": null,
  "available": "2022-06-13",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Call or text Slavica at (847) 431-7674",
   "-Beautifully maintained courtyards",
   "-Art Deco Inspired Complex",

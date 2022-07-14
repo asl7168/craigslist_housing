@@ -10,9 +10,7 @@
  "data_accuracy": 15,
  "posted": "2022-06-13 09:39",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 09:39"
- ],
+ "repost_dates": null,
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Live on Michigan Ave - 3 Bedroom/2 Bath Available!",
   "Building: Millennium Park Plaza",
   "151 N Michigan Ave, Chicago IL 60601",

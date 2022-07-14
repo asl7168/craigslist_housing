@@ -30,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "This massive 1bedroom unit is located in the stylish neighborhood of Wrigleyville.",
   "Conveniently situated just steps away from multiple grocery stores while being surrounded by countless great restaurants 3838 N Broadway provides a quintessential Chicago experience.",
   "Here at BJB Properties we strive to provide the best customer service possible, and this beauty won't be on the market long, so contact us today to schedule a showing!",
@@ -46,13 +47,12 @@
   "-Sundeck",
   "-Bike Storage",
   "*Virtual and in-person tours available*",
-  "<b>Evan Latture<b>",
+  "Evan Latture",
   "Leasing Consultant",
   "(224) 500-7945 (call or text)",
   "BJB Properties",
   "*Prices are subject to change.",
-  "Pictures are for marketing purposes only and may not reflect the actual unit.*",
-  "</b></b>"
+  "Pictures are for marketing purposes only and may not reflect the actual unit.*"
  ],
  "images": [
   "https://images.craigslist.org/00a0a_dTDCg0ZU4gaz_0CI0pI_600x450.jpg",

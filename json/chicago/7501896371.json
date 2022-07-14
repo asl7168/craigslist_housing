@@ -30,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Great location!",
   "This Spacious Studio apartment is located in the bustling neighborhood of Wrigleyville.",
   "Conveniently located down the street from multiple grocery stores, as well as countless fantastic restaurants.",
@@ -47,13 +48,12 @@
   "-Sundeck",
   "-Bike Storage",
   "*Virtual and in-person tours available*",
-  "<b>Evan Latture<b>",
+  "Evan Latture",
   "Leasing Consultant",
   "(224) 500-7945 (call or text)",
   "BJB Properties",
   "*Prices are subject to change.",
-  "Pictures are for marketing purposes only and may not reflect the actual unit.*",
-  "</b></b>"
+  "Pictures are for marketing purposes only and may not reflect the actual unit.*"
  ],
  "images": [
   "https://images.craigslist.org/00X0X_46j5Kn7dirz_0wg0lv_600x450.jpg",

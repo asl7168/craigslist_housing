@@ -10,9 +10,7 @@
  "data_accuracy": 22,
  "posted": "2022-06-12 13:26",
  "updated": "2022-06-26 09:38",
- "repost_dates": [
-  "2022-06-26 09:35"
- ],
+ "repost_dates": [],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Andersonville (60640) Vintage Greystone 3 unit, 2nd floor available starting August 1, 2022.",
   "Large, sunny living room, dining room, full bathroom, eat-in kitchen.",
   " Well-preserved, wood beam ceilings in dining room.",

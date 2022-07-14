@@ -10,9 +10,7 @@
  "data_accuracy": 5,
  "posted": "2022-06-13 09:26",
  "updated": "2022-06-13 09:26",
- "repost_dates": [
-  "2022-06-13 09:26"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -32,12 +30,13 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Great East Rogers Park Location Just Steps To The Morse Redline!",
-  "Heat, Hot Water, &amp; Cooking Gas Included!",
-  "Large Living Room, Separate Kitchen W/Dining Area, &amp; Massive Walk In Closet!",
-  "Hardwood Floors, Large Windows, &amp; &amp; Ceiling Fans W/Lighting!",
+  "Heat, Hot Water, & Cooking Gas Included!",
+  "Large Living Room, Separate Kitchen W/Dining Area, & Massive Walk In Closet!",
+  "Hardwood Floors, Large Windows, & & Ceiling Fans W/Lighting!",
   "Kitchen W/Dishwasher!",
-  "Secure Entry &amp; In Building Laundry!",
+  "Secure Entry & In Building Laundry!",
   "Email Or Txt",
   "Joseph Perez",
   "Landstar Realty Group, Inc.",

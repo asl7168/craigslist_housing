@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:09",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 09:09"
- ],
+ "repost_dates": null,
  "available": "2022-07-16",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,13 +30,14 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Beautiful and spacious two bedrooms/one baths condo on State/35th street.",
   "IIT campus.",
   "Tons of natural lights.",
   "Starbucks, Jimmy John, PNC Bank are just around the corner.",
   "5-minute walking distance to Sox/35th Red line station, Guaranteed Rate Field.",
   "Close to Downtown, Police HQ, Chinatown.",
-  "In unit washer &amp; dryer for your convenience.",
+  "In unit washer & dryer for your convenience.",
   "Wrap around balcony.",
   "Unit comes with one indoor parking space.",
   "This building is managed by professional management company-",

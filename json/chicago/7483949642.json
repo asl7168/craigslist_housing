@@ -10,7 +10,9 @@
  "data_accuracy": 15,
  "posted": "2022-06-13 09:22",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:22"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -30,11 +32,13 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Check Out This North Center 1bd Ready Now!",
-  "Large Living Room, Formal Dining Room, Major Closet Space, &amp; Large Bedroom!",
-  "Hardwood Floors, Deco Fireplace, &amp; Ceiling Fans W/Lighting!",
+  "Large Living Room, Formal Dining Room, Major Closet Space, & Large Bedroom!",
+  "Hardwood Floors, Deco Fireplace, & Ceiling Fans",
+  "W/Lighting!",
   "Kitchen W/Dishwasher!",
-  "Secure Entry, Bike Storage, &amp; Onsite Laundry!",
+  "Secure Entry, Bike Storage, & Onsite Laundry!",
   "Small Dog Under 35lbs",
   "Ok No Aggressive Breeds!",
   "Email Or Txt",

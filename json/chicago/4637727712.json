@@ -10,7 +10,9 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:17",
  "updated": "2022-06-13 09:17",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:17"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -30,6 +32,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "This vintage walk-up located at 1234 W. Loyola in Rogers Park features studio apartments in a number of different layouts.",
   "Each apartment has large closets, and thermal pane windows.",
   "Heat, hot water, and cooking gas are FREE here making these apartments a great value.",
@@ -61,7 +64,7 @@
   "***$400.00 Administrative Fee (refundable ONLY if denied)",
   "****$75.00 Credit/Criminal Background Check (per person over 18, including )",
   "Managed By:",
-  "Realty &amp; Mortgage Co.",
+  "Realty & Mortgage Co.",
   "1509 W. Berwyn Ave., #200",
   "Chicago, IL 60640",
   "P: 773-989-8000",

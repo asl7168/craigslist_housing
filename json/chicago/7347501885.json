@@ -10,7 +10,9 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:52",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:52"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 4,
@@ -30,6 +32,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "BRAND NEW 1, 2,3 and 4 br apts available.",
   "Stainless steel appliances, granite countertops, and MARBLE TILE bathrooms !",
   "Hardwood floors!",

@@ -10,7 +10,9 @@
  "data_accuracy": 22,
  "posted": "2022-06-13 09:57",
  "updated": "2022-06-21 16:01",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:57"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -30,6 +32,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "We are conveniently located near Edens, Metra and Swift.",
   "Near Old Orchard mall, restaurants, movies, live entertainment, and the award winning Skokie Library.",
   "Located in Skokie near both Old Orchard Shopping Center and the yellow line.",
@@ -54,7 +57,7 @@
   "***$400.00 Move In Fee",
   "****No Dogs",
   "Managed By:",
-  "Realty &amp; Mortgage Co.",
+  "Realty & Mortgage Co.",
   "1509 W. Berwyn Ave.",
   "Suite 200",
   "Chicago Il. 60640",

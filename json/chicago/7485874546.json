@@ -10,7 +10,9 @@
  "data_accuracy": 15,
  "posted": "2022-06-13 10:09",
  "updated": "2022-06-25 11:43",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 10:09"
+ ],
  "available": "2022-08-15",
  "housing_type": "apartment",
  "bedrooms": 4,
@@ -30,6 +32,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "1101 W. Cornelia, 3rd floor",
   "Brand new renovation!",
   " Drop dead gorgeous 4 bedroom / 3 bathroom apartment for rent in Lakeview!",

@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:15",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-28 10:10"
- ],
+ "repost_dates": null,
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Located about five miles south of Downtown Chicago, Bronzeville is a historic neighborhood known for its colorful history and dynamic allure.",
   "Filled with beautiful public art pieces, many of which sit along Martin Luther King Drive, this section of the city is a truly vibrant jewel and culturally significant .",
   "The Willard Square Apartments provide you with convenient one, two, and three bedroom apartment homes.",
@@ -62,7 +61,7 @@
   "****Credit/Background Check - $75.00 per person over 18, including co-signers",
   "*****NO Pets",
   "Managed By:",
-  "Realty &amp; Mortgage Co.",
+  "Realty & Mortgage Co.",
   "1509 W Berwyn Ave., #200",
   "Chicago, IL 60640",
   "(P) 773 989 8000",

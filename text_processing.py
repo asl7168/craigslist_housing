@@ -4,6 +4,8 @@ import os
 import json
 import spacy
 import pandas as pd
+from html import unescape
+
 
 # new comment
 def find_strings(keywords, search_list):
@@ -201,8 +203,8 @@ def process_html(directory):
         
         # get body of post
         posting_body = str(soup.find('section', id="postingbody"))
-        posting_body = [text.replace("\n", "").replace("</section>", "").strip() for text in re.split(r"<(\/div|br\/)>", 
-                        posting_body) if text not in ["/div", "br/", "\n"]][1:]  # split the body on div closing tags and br tags, then clean data
+        posting_body = [unescape(text.replace("\n", "").replace("</section>", "")).strip() for text in re.split(r"<[^>]+>", 
+                        posting_body)][1:]  # split the body on div closing tags and br tags, then clean data
         docs = [nlp(s).sents for s in posting_body]  # do sentence segmentation on every string/item from the split body text
         body_sents = [str(sent) for doc in docs for sent in doc]  # syntax looks werid, but it's getting every sentence from every doc in docs
 

@@ -10,9 +10,7 @@
  "data_accuracy": 15,
  "posted": "2022-06-13 09:17",
  "updated": "2022-06-24 07:59",
- "repost_dates": [
-  "2022-06-13 09:17"
- ],
+ "repost_dates": null,
  "available": "2022-06-14",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "BEAUTIFULLY UPDATE 2BR/ 1 BA with additional Sun Room/Storage Room",
   "$1250 monthly + security deposit to move in.",
   "Rent special if lease signed and move in by July 1.",

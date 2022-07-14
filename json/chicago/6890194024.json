@@ -10,7 +10,9 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 11:03",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 11:03"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -30,6 +32,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "LOCATION!",
   "LOCATION!",
   "LOCATION!",
@@ -46,7 +49,7 @@
   "-Granite Countertops",
   "-Pet-Friendly",
   "Beautiful GARDEN UNIT apartment with a clean and modern layout.",
-  "Two bedrooms, one bath with an updated kitchen that features a breakfast bar, granite countertops &amp; 42inch cabinets, stainless steel appliances, and a gas range.",
+  "Two bedrooms, one bath with an updated kitchen that features a breakfast bar, granite countertops & 42inch cabinets, stainless steel appliances, and a gas range.",
   "Essential amenities like in-unit laundry, central air, dishwasher, microwave, ice maker, and garbage disposal.",
   "Exposed brick, high ceilings, and large windows let in an amazing amount of natural sunlight.",
   "Both bedrooms have great closet space and can easily accommodate king-queen beds.",
@@ -58,7 +61,7 @@
   "We are not a rental agency or a management company.",
   "We are the owners of this property, which means you will get the best price, better service, and more honest information.",
   "All of our units are Pet-Friendly, with central A/C and Laundry.",
-  "We have more than 100 other apartments located throughout WestTown neighborhoods: Bucktown, Wicker Park, Ukrainian (UK) Village, &amp; Logan Square (60622, 60647, 60642, 60614, 60618).",
+  "We have more than 100 other apartments located throughout WestTown neighborhoods: Bucktown, Wicker Park, Ukrainian (UK) Village, & Logan Square (60622, 60647, 60642, 60614, 60618).",
   "You can view them all on our website which has pictures, floor plans, and lists of amenities.",
   "Hanging Out, LLC: www.hangingout.net"
  ],

@@ -10,9 +10,7 @@
  "data_accuracy": 22,
  "posted": "2022-06-13 10:22",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 10:22"
- ],
+ "repost_dates": null,
  "available": "2022-06-13",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Call or text Slavica at (847) 431-7674",
   "Unit Features:",
   "-New in unit A/C",

@@ -10,9 +10,7 @@
  "data_accuracy": 22,
  "posted": "2022-06-12 22:11",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-12 22:11"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Spacious 3BR!",
   "Want the luxury of apartment living with only one neighbor?",
   " Rent a nice, spacious three (3) bedroom apartment on the top level of a 2-flat property.",

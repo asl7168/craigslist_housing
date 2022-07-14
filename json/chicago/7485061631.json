@@ -10,9 +10,7 @@
  "data_accuracy": 5,
  "posted": "2022-06-13 09:43",
  "updated": "2022-06-13 09:43",
- "repost_dates": [
-  "2022-06-13 09:43"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,9 +30,10 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Literally 200 feet to the to Logan Blue line station at Spaulding and Milwaukee.",
   "Bright east and west exposure on the top floor",
-  "Close to Dill Pickle Grocery Co-Op, The Walk-In, Logan Theater, Gorilla Sushi, Intelligentsia Coffee, Longman &amp; Eagle, Chique\u00b0Latte, Reno, and so much more!",
+  "Close to Dill Pickle Grocery Co-Op, The Walk-In, Logan Theater, Gorilla Sushi, Intelligentsia Coffee, Longman & Eagle, Chique\u00b0Latte, Reno, and so much more!",
   "Hardwood floors throughout.",
   "Cable/internet ready.",
   "Laundry on site.",

@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 06:43",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 06:43"
- ],
+ "repost_dates": null,
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "3 bedroom corner unit near Loyola U, lakefront, red line train and shopping.",
   "-hardwood floors",
   "-separate dining room",

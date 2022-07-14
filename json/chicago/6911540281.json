@@ -10,9 +10,7 @@
  "data_accuracy": 15,
  "posted": "2022-06-12 10:15",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-12 10:15"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,
@@ -32,6 +30,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Available August 1st",
   "Desirable NW Evanston and Willard School District",
   "Quiet Tree Lined Street with Friendly Neighbors",

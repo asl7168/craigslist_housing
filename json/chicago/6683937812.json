@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:12",
  "updated": "2022-06-23 13:24",
- "repost_dates": [
-  "2022-06-28 10:10"
- ],
+ "repost_dates": null,
  "available": "2022-07-05",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "The apartments available at 914 Crain Street are a tasteful mixture of beautiful vintage charm and modern updates.",
   "These spacious apartments have separate dining rooms and hardwood floors.",
   "The kitchens have been remodeled with stainless steel appliances and come equipped with dishwashers and built in microwaves.",
@@ -66,7 +65,7 @@
   "***Pictures shown may not be of actual unit available***",
   "Don't miss out, make your appointment today!",
   "Managed By:",
-  "Realty &amp; Mortgage Co.",
+  "Realty & Mortgage Co.",
   "1509 W Berwyn Ave., #200",
   "Chicago, IL 60640",
   "(P) 773-989-8000",

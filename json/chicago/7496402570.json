@@ -30,8 +30,14 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
-  "<h4>PROPERTY INFO</h4><hr/>",
-  "<ul><li>ID: 135766458</li><li>Rent: $3,450 / Month</li><li>Beds: 2</li><li>Bath: 2</li><li>Pet: Pet Friendly</li><li>Parking:: attached garage</li></ul>",
+  "QR Code Link to This Post",
+  "PROPERTY INFO",
+  "ID: 135766458",
+  "Rent: $3,450 / Month",
+  "Beds: 2",
+  "Bath: 2",
+  "Pet: Pet Friendly",
+  "Parking:: attached garage",
   "Unbeatable price for a 2 bedroom 2 bathroom with washer and dryer in unit.",
   "It doesn't stop there.",
   "The building features a 24 hour doorman, on site management, business center, beautiful outdoor pool, and top of the line fitness center.",
@@ -43,7 +49,8 @@
   "One Real Estate Chicago",
   "630.802.5954 Call or Text",
   "Kinzie at Desplaines in the West Loop",
-  "<h4>FEATURES</h4><hr/><ul><li>Laundry in Unit</li></ul>"
+  "FEATURES",
+  "Laundry in Unit"
  ],
  "images": [
   "https://images.craigslist.org/00E0E_j4C8EPYfAtbz_0x20oM_600x450.jpg",

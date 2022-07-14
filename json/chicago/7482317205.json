@@ -10,9 +10,7 @@
  "data_accuracy": 5,
  "posted": "2022-06-12 17:03",
  "updated": "2022-06-13 15:17",
- "repost_dates": [
-  "2022-06-12 17:03"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "- AVAILABLE JULY 1",
   "- 1532 W. THOMAS - 1F",
   "- WICKER PARK",

@@ -10,9 +10,7 @@
  "data_accuracy": 5,
  "posted": "2022-06-13 09:21",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-13 09:21"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -32,11 +30,13 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Check Out This Very Large Studio In Horner Park!",
-  "Heat, Hot Water, &amp; Trash Included!",
-  "Hardwood Floors, Fresh Paint, &amp; Ceiling Fans W/Lighting!",
-  "Massive Living Area, Separate Kitchen W/Dining Area, &amp; 2 Large Walk In Closets!",
-  "Secure Entry, Bike Storage, &amp; Onsite Laundry!",
+  "Heat, Hot Water, & Trash Included!",
+  "Hardwood Floors, Fresh Paint, & Ceiling Fans",
+  "W/Lighting!",
+  "Massive Living Area, Separate Kitchen W/Dining Area, & 2 Large Walk In Closets!",
+  "Secure Entry, Bike Storage, & Onsite Laundry!",
   "Dogs Under 35lbs",
   "Ok No Aggressive Breeds!",
   "Email Or Txt",

@@ -10,9 +10,7 @@
  "data_accuracy": 5,
  "posted": "2022-06-13 07:44",
  "updated": "2022-06-21 12:44",
- "repost_dates": [
-  "2022-06-13 07:44"
- ],
+ "repost_dates": null,
  "available": "2022-07-01",
  "housing_type": "condo",
  "bedrooms": 2,
@@ -32,6 +30,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "2 Bed/2 Bath, hardwood floors, custom cabinets and countertops, master bedroom bath, in unit laundry, assigned parking space, central air/heat, elevator building.",
   " Steps to UIC Shuttle Bus, CTA buses and trains.",
   " Easy access to downtown and west suburbs.",

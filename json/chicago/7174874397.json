@@ -10,9 +10,7 @@
  "data_accuracy": 22,
  "posted": "2022-06-13 08:39",
  "updated": "2022-06-17 10:45",
- "repost_dates": [
-  "2022-06-15 08:53"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Interested in this property?",
   "Click on: Reply to this listing for more information",
   "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on",

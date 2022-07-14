@@ -10,7 +10,9 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 10:44",
  "updated": "2022-06-13 10:44",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 10:44"
+ ],
  "available": "2022-06-13",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -30,6 +32,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Call Bill to set up a showing at (847) 975-0642",
   "Beautiful 2 Bedroom recent Remodel in Rogers Park!",
   "Unit Features:",

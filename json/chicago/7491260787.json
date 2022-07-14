@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-12 22:12",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-12 22:12"
- ],
+ "repost_dates": null,
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Beautifully renovated large 1 bedroom, 1 bathroom apartment in Chicago's Little Village/Pilsen neighborhood.",
   "The apartment features an open floor plan, beautiful hardwood floors and an updated bathroom.",
   "Steps from California Pink Line stop and the 21 Cermak bus.",

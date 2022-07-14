@@ -10,9 +10,7 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 11:06",
  "updated": "2022-06-13 11:06",
- "repost_dates": [
-  "2022-06-13 11:06"
- ],
+ "repost_dates": null,
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 4,
@@ -32,6 +30,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "LOCATION!",
   "LOCATION!",
   "LOCATION!",
@@ -63,7 +62,7 @@
   "We are not a rental agency or a management company.",
   "We are the owners of this property, which means you will get the best price, better service, and more honest information.",
   "All of our units are Pet-Friendly, with central A/C and Laundry.",
-  "We have more than 100 other apartments located throughout WestTown neighborhoods: Bucktown, Wicker Park, Ukrainian (UK) Village, &amp; Logan Square (60622, 60647, 60642, 60614, 60618).",
+  "We have more than 100 other apartments located throughout WestTown neighborhoods: Bucktown, Wicker Park, Ukrainian (UK) Village, & Logan Square (60622, 60647, 60642, 60614, 60618).",
   "You can view them all on our website which has pictures, floor plans, and lists of amenities.",
   "Hanging Out, LLC: www.hangingout.net"
  ],

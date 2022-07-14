@@ -10,7 +10,9 @@
  "data_accuracy": 10,
  "posted": "2022-06-13 09:17",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:17"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -30,6 +32,7 @@
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
+  "QR Code Link to This Post",
   "Located in Itasca Illinois, Colonial Village Apartments offers residents unsurpassed amenities and large apartment floor plans.",
   "Nestled in a suburban park like setting complete with a lake, a walking trail and a dog park area, add a pool, basketball court, a mini turf childrens soccers field, and kids outdoor play area and the package is complete.",
   "Did we mention that heat and hot water are free!!!",
@@ -87,7 +90,7 @@
   "****$300.00 Pet Fee",
   "*****$50.00 Credit/Criminal Check (per person over 18)",
   "Managed By:",
-  "Realty &amp; Mortgage Co.",
+  "Realty & Mortgage Co.",
   "1509 W. Berwyn Ave., #200",
   "Chicago, IL 60640",
   "P: 773-989-8000",

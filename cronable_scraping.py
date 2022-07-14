@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue   Jun 01 2021
-Updated on Thurs Jun 23 2022
+Created on Tue   Jun 01   2021
+Updated          Jun-July 2022
 
 @author: lmcox, asl7168
 
@@ -187,21 +187,21 @@ class CraigslistScraper:
 
 
 #%%
-def do_initial_scrape(city: str, filepath: str=None, which_proxy: int=None):
+def do_initial_scrape(city: str, filepath: str=None, sleep_time: int=20, which_proxy: int=None):
     right_now = str(date.today()) + " " + str(time.time())
-    print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~16 hours")
+    print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~{sleep_time * 0.8} hours")
     
-    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30, which_proxy=which_proxy)
+    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, scrape_by_date=False, number_of_pages=30, which_proxy=which_proxy)
     scraper.scrape()
     
     print("Saving complete.")
 
 
-def do_cron_scrape(city: str, filepath: str=None, which_proxy: int=None):
+def do_cron_scrape(city: str, filepath: str=None, sleep_time: int=20, which_proxy: int=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts made today")
     
-    scraper = CraigslistScraper(city, filepath=filepath, which_proxy=which_proxy)
+    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, which_proxy=which_proxy)
     scraper.scrape()
     
     print("Saving complete.")
