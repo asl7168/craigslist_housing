@@ -8,9 +8,11 @@
  "latitude": 41.910732,
  "longitude": -87.662887,
  "data_accuracy": 10,
- "posted": "2022-06-13 15:53",
+ "posted": "2022-06-14 15:37",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-14 15:37"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -67,5 +69,5 @@
   "773.472.3713"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1433-wells-st-unit-3r/7496129161.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1433-wells-st-unit-3r/7496563392.html"
 }

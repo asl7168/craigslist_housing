@@ -1,16 +1,18 @@
 {
  "post_id": 7091993745,
  "title": "Renovated studio w indoor pool, gym, sundeck w grills, doorman",
- "price": 1620,
+ "price": 1700,
  "neighborhood": "River North",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8923,
  "longitude": -87.6373,
  "data_accuracy": 22,
- "posted": "2022-06-13 15:55",
- "updated": "2022-06-13 15:55",
- "repost_dates": null,
+ "posted": "2022-06-24 08:57",
+ "updated": "2022-06-24 08:57",
+ "repost_dates": [
+  "2022-06-24 08:57"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -50,5 +52,5 @@
   "https://images.craigslist.org/00E0E_hvOKhr6fuYe_0fq0ah_600x450.jpg",
   "https://images.craigslist.org/00o0o_gqYWd0XUUUT_0fq0ah_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-renovated-studio-indoor-pool/7496130105.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-renovated-studio-indoor-pool/7500565367.html"
 }

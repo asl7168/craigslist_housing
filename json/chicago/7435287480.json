@@ -1,6 +1,6 @@
 {
  "post_id": 7435287480,
- "title": "Lakeview Studio Apartment Available July 1st!",
+ "title": "Lakeview Studio Apartment Available Now!",
  "price": 995,
  "neighborhood": "NA",
  "map_address": "Belmont Ave near Orchard St",
@@ -8,10 +8,12 @@
  "latitude": 41.940132,
  "longitude": -87.647054,
  "data_accuracy": 15,
- "posted": "2022-06-19 15:18",
- "updated": "2022-06-19 15:18",
- "repost_dates": null,
- "available": "2022-07-01",
+ "posted": "2022-06-19 15:20",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-19 15:20"
+ ],
+ "available": "2022-06-20",
  "housing_type": "apartment",
  "bedrooms": 0,
  "bathrooms": 1.0,
@@ -33,7 +35,7 @@
   "QR Code Link to This Post",
   "Welcome to 721 W Belmont!",
   "The apartment has hardwood floors, stainless appliances and granite.",
-  "*Right now we are offering $500 off your second month of rent concession!",
+  "*Right now we are offering $500 off your second month of rent!",
   "Amenities and Features:",
   "-Laundry room",
   "-Intercom controlled entry",
@@ -66,16 +68,17 @@
   "Pictures are for marketing purposes only and may not reflect the actual unit"
  ],
  "images": [
-  "https://images.craigslist.org/00L0L_l7mtwNVDqt2z_0ak06R_600x450.jpg",
-  "https://images.craigslist.org/00O0O_3jIEHD6oZ8Fz_0ak073_600x450.jpg",
-  "https://images.craigslist.org/00f0f_i9txjy7Fbtz_0ak06L_600x450.jpg",
-  "https://images.craigslist.org/01313_huuqFSqAeEGz_07H0aj_600x450.jpg",
-  "https://images.craigslist.org/00q0q_b1vF9WSTI3Wz_0ak077_600x450.jpg",
-  "https://images.craigslist.org/00F0F_9qvFpzHD4oqz_0ak07p_600x450.jpg",
-  "https://images.craigslist.org/01010_3PE0klsLQnRz_0ak06T_600x450.jpg",
-  "https://images.craigslist.org/00a0a_baDIJONbbFvz_0ak06N_600x450.jpg",
+  "https://images.craigslist.org/00E0E_gChtN68tWRfz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/00g0g_gKi58pR3bgFz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/00u0u_3t95WfoRIgrz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/01717_b2o3ixgl4Lxz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/01616_27y05P9pJ6Uz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/00Y0Y_83uwCqvQn51z_06T0ak_600x450.jpg",
+  "https://images.craigslist.org/00A0A_702v4SqrKESz_0ak06T_600x450.jpg",
+  "https://images.craigslist.org/00K0K_bFjkyrCPOy9z_0ak06X_600x450.jpg",
+  "https://images.craigslist.org/00X0X_hOvcIY5V22fz_0ak06T_600x450.jpg",
   "https://images.craigslist.org/01313_kNZtKjxfyjYz_03c046_600x450.jpg",
   "https://images.craigslist.org/01212_1HQwVeZ9zqJz_0oc0g8_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-lakeview-studio-apartment/7498592652.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-lakeview-studio-apartment/7498593597.html"
 }

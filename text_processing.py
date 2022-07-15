@@ -94,7 +94,7 @@ def process_html(directory):
         directory (string): filepath to directory of HTML files
     """
     city = directory.split("/")[-1]  # assumes directory name of form cityname_html (e.g. "chicago_html", "newyork_html")
-    nlp = spacy.load("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")  # python -m spacy download en_core_web_sm
 
     if not os.path.exists(f"./json/{city}"): os.makedirs(f"./json/{city}")
     
@@ -139,8 +139,6 @@ def process_html(directory):
                 with open(json_path, "r") as json_file: data = json.load(json_file)
                 data["repost_dates"] = data["repost_dates"].append(posted) if data["repost_dates"] else [posted]
                 with open(json_path, "w") as json_file: json.dump(data, json_file, indent=1)
-                
-                continue
             else:  # otherwise, handle later (see L303, L314, L342)
                 pass
         

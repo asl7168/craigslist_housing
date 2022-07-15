@@ -1,16 +1,18 @@
 {
  "post_id": 7390870606,
- "title": "Lakeview Studio Apartment Available August 1st",
- "price": 1255,
+ "title": "1 BR Apartment Available August 1st",
+ "price": 1645,
  "neighborhood": "NA",
  "map_address": "Orchard St near Barry Ave",
  "street_address": "Orchard St ",
  "latitude": 41.932832,
  "longitude": -87.646854,
  "data_accuracy": 20,
- "posted": "2022-06-19 15:22",
+ "posted": "2022-06-19 15:27",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-19 15:27"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -32,8 +34,9 @@
  "posting_body": [
   "QR Code Link to This Post",
   "Welcome to 660 Barry Ave!",
-  "This studio apartment is available for a August 1st move in!",
-  "This apartment has hardwood floors- trash, heat, water and cooking gas are included!",
+  "This 1 BR apartment is available August 1st!",
+  "This apartment has hardwood floors!",
+  "Trash, heat, water and cooking gas is included!",
   "Amenities + Features:",
   "-Fitness Room",
   "- Internet Amenity",
@@ -64,19 +67,18 @@
   "Pictures are for marketing purposes only and may not reflect the actual unit"
  ],
  "images": [
-  "https://images.craigslist.org/00M0M_7loYoIgMIV7z_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00K0K_iff25P04Aesz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00p0p_gozBsS3ZkXBz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00t0t_eoAe5S7ZtMVz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00R0R_bOPt1g6k75fz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00202_1FhhAFrdEgEz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/01414_gPRKqx04QuKz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/01414_ji9ueiewFSnz_0ak06Q_600x450.jpg",
-  "https://images.craigslist.org/00I0I_awEG6EySRSIz_06G0aj_600x450.jpg",
+  "https://images.craigslist.org/00p0p_7uVdRgERHgyz_0ak06R_600x450.jpg",
+  "https://images.craigslist.org/00g0g_3A91MqHCy3gz_0ak08v_600x450.jpg",
+  "https://images.craigslist.org/00202_hTn6G8zZHvaz_0760ak_600x450.jpg",
+  "https://images.craigslist.org/00000_16itppyJVu0z_07f0ak_600x450.jpg",
+  "https://images.craigslist.org/00K0K_94Hkmy3NhL3z_0ak077_600x450.jpg",
+  "https://images.craigslist.org/00o0o_BjzFrr82IIz_0ak06R_600x450.jpg",
+  "https://images.craigslist.org/00V0V_3MujC2Pz9cTz_0ak06R_600x450.jpg",
+  "https://images.craigslist.org/00T0T_hPtI3FSUxRXz_06I0ak_600x450.jpg",
   "https://images.craigslist.org/00a0a_cirg9hhwXrgz_0ak06T_600x450.jpg",
   "https://images.craigslist.org/00505_j8Rt1mgRvZGz_0ak06T_600x450.jpg",
   "https://images.craigslist.org/01313_kNZtKjxfyjYz_03c046_600x450.jpg",
   "https://images.craigslist.org/01212_1HQwVeZ9zqJz_0oc0g8_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-lakeview-studio-apartment/7498594096.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-br-apartment-available-august/7498595981.html"
 }

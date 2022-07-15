@@ -1,16 +1,18 @@
 {
  "post_id": 7491078922,
  "title": "South Loop 1 Bedroom + Den, w/d, Floor to Ceiling Windows, Balcony",
- "price": 2315,
+ "price": 2270,
  "neighborhood": "South Loop",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8426,
  "longitude": -87.6306,
  "data_accuracy": 22,
- "posted": "2022-06-14 11:52",
+ "posted": "2022-06-23 13:51",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 13:51"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -33,7 +35,7 @@
   "QR Code Link to This Post",
   "PROPERTY INFO",
   "ID: 267299742",
-  "Rent: $2,315 / Month",
+  "Rent: $2,270 / Month",
   "Beds: 1",
   "Bath: 1",
   "Pet: Pet Friendly",
@@ -97,5 +99,5 @@
   "https://images.craigslist.org/00606_8L7V55ymlofz_0g80aL_600x450.jpg",
   "https://images.craigslist.org/01313_4FHnnf0Oz56z_0g80aL_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-south-loop-bedroom-den-d-floor/7496444421.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-south-loop-bedroom-den-d-floor/7500285088.html"
 }

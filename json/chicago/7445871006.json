@@ -8,9 +8,11 @@
  "latitude": 42.001696,
  "longitude": -87.65723,
  "data_accuracy": 5,
- "posted": "2022-06-16 08:05",
- "updated": "2022-06-28 08:00",
- "repost_dates": null,
+ "posted": "2022-06-28 08:01",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 08:01"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -57,5 +59,5 @@
   "https://images.craigslist.org/00u0u_khbsaukl3x9z_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/00505_gJMpuSmxaW5z_0lM0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-spacious-studio-near-loyola-and/7497200972.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-spacious-studio-near-loyola-and/7502177203.html"
 }

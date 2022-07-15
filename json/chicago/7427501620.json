@@ -1,19 +1,21 @@
 {
  "post_id": 7427501620,
- "title": "3- Unit Investor Opportunity!",
- "price": 2695,
+ "title": "4- Unit Investor Opportunity!",
+ "price": 2895,
  "neighborhood": "Chicago (South East",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.7257,
  "longitude": -87.556,
  "data_accuracy": 22,
- "posted": "2022-06-23 11:53",
+ "posted": "2022-06-23 11:54",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 11:54"
+ ],
  "available": "2022-06-23",
  "housing_type": "apartment",
- "bedrooms": 5,
+ "bedrooms": 8,
  "bathrooms": 1.0,
  "laundry": "w/d hookups",
  "parking": "street parking",
@@ -31,10 +33,10 @@
  "EV_charging": "NA",
  "posting_body": [
   "QR Code Link to This Post",
-  "3- Unit Investor Opportunity!",
-  "3 Unit Building",
+  "4- Unit Investor Opportunity!",
+  "4 Unit Building",
   "that consists of:",
-  "Two 2bd/1 ba units and One 1bd/1ba unit that are",
+  "Four 2bd/1 ba units that are",
   "presently fully rented.",
   "Purchase/Lease Option",
   "(Some upgrades are required)",
@@ -43,5 +45,5 @@
   "Thank you!"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-unit-investor-opportunity/7500220887.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-unit-investor-opportunity/7500221427.html"
 }

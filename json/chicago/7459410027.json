@@ -8,9 +8,11 @@
  "latitude": 41.972031,
  "longitude": -87.664856,
  "data_accuracy": 20,
- "posted": "2022-06-13 12:35",
+ "posted": "2022-06-21 11:27",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-21 11:27"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -54,5 +56,5 @@
   "https://images.craigslist.org/00I0I_8RrKe8KVfnwz_0f30cU_600x450.jpg",
   "https://images.craigslist.org/01313_2G0Jro8MRfwz_0jD0dh_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wonderfully-rehabbed-edgewater/7496022222.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wonderfully-rehabbed-edgewater/7499333013.html"
 }

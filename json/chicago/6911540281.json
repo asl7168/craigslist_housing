@@ -10,7 +10,9 @@
  "data_accuracy": 15,
  "posted": "2022-06-12 10:15",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-12 10:15"
+ ],
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,

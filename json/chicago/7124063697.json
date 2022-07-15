@@ -1,16 +1,18 @@
 {
  "post_id": 7124063697,
  "title": "1 Bed-hw floors, pets okay, gym, sundeck, dry cleaner, doorman",
- "price": 1810,
+ "price": 1820,
  "neighborhood": "Gold Coast",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8971,
  "longitude": -87.6223,
  "data_accuracy": 22,
- "posted": "2022-06-18 10:41",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-24 18:03",
+ "updated": "2022-06-24 18:03",
+ "repost_dates": [
+  "2022-06-24 18:03"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -50,5 +52,5 @@
   "https://images.craigslist.org/00N0N_EmCIVFxeHFz_0bi07x_600x450.jpg",
   "https://images.craigslist.org/00A0A_ihwYpuDn0o1z_0bi07x_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-hw-floors-pets-okay-gym/7498126022.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-hw-floors-pets-okay-gym/7500837987.html"
 }

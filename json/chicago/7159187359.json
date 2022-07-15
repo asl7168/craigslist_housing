@@ -1,16 +1,18 @@
 {
  "post_id": 7159187359,
  "title": "2bed in Lincoln Park-unit has w/d and hardwood floors",
- "price": 3690,
+ "price": 3660,
  "neighborhood": "Lincoln Park",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.9008,
  "longitude": -87.6528,
  "data_accuracy": 22,
- "posted": "2022-06-16 08:50",
+ "posted": "2022-06-19 10:09",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-19 10:09"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -53,5 +55,5 @@
   "https://images.craigslist.org/00Z0Z_kO8emT8WCVhz_0gw0aZ_600x450.jpg",
   "https://images.craigslist.org/00707_jfGpP8BaONuz_0gw0aZ_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-2bed-in-lincoln-park-unit-has-d/7497217665.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-2bed-in-lincoln-park-unit-has-d/7498478411.html"
 }

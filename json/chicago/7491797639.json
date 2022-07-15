@@ -8,9 +8,11 @@
  "latitude": 41.930677,
  "longitude": -87.645101,
  "data_accuracy": 10,
- "posted": "2022-06-13 15:52",
+ "posted": "2022-06-14 15:37",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-14 15:37"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -74,5 +76,5 @@
   "https://images.craigslist.org/00N0N_kBGQUKyxsmMz_0aZ0gw_600x450.jpg",
   "https://images.craigslist.org/00p0p_5NUUHpCzjcOz_0qj0x2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-638-drummond-unit-1r/7496128392.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-638-drummond-unit-1r/7496563187.html"
 }

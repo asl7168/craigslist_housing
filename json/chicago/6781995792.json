@@ -8,9 +8,11 @@
  "latitude": 41.8426,
  "longitude": -87.6306,
  "data_accuracy": 22,
- "posted": "2022-06-14 17:23",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-27 16:44",
+ "updated": "2022-06-27 16:44",
+ "repost_dates": [
+  "2022-06-27 16:44"
+ ],
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -54,5 +56,5 @@
   "https://images.craigslist.org/00909_8zk2NVQ06wAz_09G07g_600x450.jpg",
   "https://images.craigslist.org/01111_lQ3I6OGa7Vz_09G07g_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-apartment-for-rent-bedroom/7496611248.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-apartment-for-rent-bedroom/7501997597.html"
 }

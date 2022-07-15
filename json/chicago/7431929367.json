@@ -1,7 +1,7 @@
 {
  "post_id": 7431929367,
- "title": "Remodeled 3br By Northwestern Central Air, InUnit Laundry Start 9/1/22",
- "price": 2350,
+ "title": "Remodeled 2br By Northwestern Central Air, InUnit Laundry Start 9/1/22",
+ "price": 2150,
  "neighborhood": "Evanston - Northwestern University",
  "map_address": "2151 Ridge Ave near Noyes St",
  "street_address": "2151 Ridge Ave ",
@@ -10,10 +10,12 @@
  "data_accuracy": 5,
  "posted": "2022-06-20 10:30",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-20 10:30"
+ ],
  "available": "2022-06-20",
  "housing_type": "apartment",
- "bedrooms": 3,
+ "bedrooms": 2,
  "bathrooms": 1.0,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
@@ -32,7 +34,7 @@
  "posting_body": [
   "QR Code Link to This Post",
   "Lease starts 9/1/2022!!",
-  "Call of text Tim at (847) 424-0357",
+  "Call or text Tim at (847) 424-0357",
   "Newley Renovated!",
   "Apartment Features:",
   "-Central Air",
@@ -53,13 +55,13 @@
   "2nd month rent free for qualified applicants signing a 2 year lease!"
  ],
  "images": [
+  "https://images.craigslist.org/00M0M_141TtpWl8f9z_0fS0aB_600x450.jpg",
   "https://images.craigslist.org/00T0T_3dIWojVzIrRz_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00v0v_jZb8kduLzb4z_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00o0o_hXkXOlUfj48z_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00p0p_8pr20wVy9EDz_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00G0G_jI11q7QnFkFz_07K0ak_600x450.jpg",
-  "https://images.craigslist.org/01111_iDE2VU4dSgoz_07K0ak_600x450.jpg",
-  "https://images.craigslist.org/00M0M_141TtpWl8f9z_0fS0aB_600x450.jpg"
+  "https://images.craigslist.org/01111_iDE2VU4dSgoz_07K0ak_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/evanston-remodeled-3br-by-northwestern/7498842797.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/evanston-remodeled-2br-by-northwestern/7498843024.html"
 }

@@ -1,19 +1,21 @@
 {
  "post_id": 7379614777,
- "title": "Pet friendly 1 bed with hardwood floors and lots of bldg amenities",
- "price": 2000,
+ "title": "Pet friendly studio with hardwood floors and lots of bldg amenities",
+ "price": 1750,
  "neighborhood": "Loop",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8858,
  "longitude": -87.6181,
  "data_accuracy": 22,
- "posted": "2022-06-22 17:20",
+ "posted": "2022-06-23 09:14",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 09:14"
+ ],
  "available": "NA",
  "housing_type": "apartment",
- "bedrooms": 1,
+ "bedrooms": 0,
  "bathrooms": 1.0,
  "laundry": "w/d in unit",
  "parking": "attached garage",
@@ -43,21 +45,17 @@
   "Please contact agent for additional questions and information.",
   "Interested in this property?",
   "Click REPLY above and email us",
-  "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on",
-  "sspcresidential.com"
+  "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on"
  ],
  "images": [
-  "https://images.craigslist.org/00Z0Z_iWedKxGhxjfz_0ak07K_600x450.jpg",
-  "https://images.craigslist.org/00101_2XCbIi10ThQz_0ak07K_600x450.jpg",
-  "https://images.craigslist.org/00k0k_1nHhVaUmm2qz_0ak07K_600x450.jpg",
-  "https://images.craigslist.org/00c0c_g343DIzMAK0z_0ak07K_600x450.jpg",
-  "https://images.craigslist.org/00S0S_kB0uVJ1ZKYLz_0ak07K_600x450.jpg",
   "https://images.craigslist.org/00808_8L7Zfz4CMWSz_0ak07K_600x450.jpg",
   "https://images.craigslist.org/00q0q_ixkWQ60UX3yz_0ak07K_600x450.jpg",
   "https://images.craigslist.org/00000_6GfemVnhVXgz_0ak07K_600x450.jpg",
   "https://images.craigslist.org/00a0a_3uNcSzSJqsfz_0ak07K_600x450.jpg",
   "https://images.craigslist.org/00A0A_gLl0SuhDPLnz_0ak07K_600x450.jpg",
-  "https://images.craigslist.org/01616_dHF5iz2V4uxz_0ak07K_600x450.jpg"
+  "https://images.craigslist.org/01616_dHF5iz2V4uxz_0ak07K_600x450.jpg",
+  "https://images.craigslist.org/00c0c_g343DIzMAK0z_0ak07K_600x450.jpg",
+  "https://images.craigslist.org/00S0S_kB0uVJ1ZKYLz_0ak07K_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-pet-friendly-bed-with-hardwood/7499949509.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-pet-friendly-studio-with/7500136455.html"
 }

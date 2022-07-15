@@ -8,9 +8,11 @@
  "latitude": 41.96582,
  "longitude": -87.687886,
  "data_accuracy": 10,
- "posted": "2022-06-16 13:48",
- "updated": "2022-06-25 08:36",
- "repost_dates": null,
+ "posted": "2022-06-24 14:43",
+ "updated": "2022-06-25 08:35",
+ "repost_dates": [
+  "2022-06-24 14:43"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -34,9 +36,9 @@
   "Awesome 2 Bedroom/1 Bath located on top floor of 3 flat (up 2 flights of stairs) in the heart of Lincoln Square!",
   "No one above you!",
   "Has forced air heat and gets great light.",
-  "Large eat in kitchen with plenty of room for a kitchen table.",
+  "Large eat in kitchen with newer cabinets and newer bath.",
   "Sky light in 1 of the  bedrooms.",
-  "Bedrooms and living room have carpet, kitchen has linoleum flooring and bathroom has tile floor.",
+  "Bedrooms and living room have carpet kitchen has linoleum flooring.",
   "Has large storage closet, no laundry in building but privately owned laundry room located nearby.",
   "You pay your own gas and electric bills.",
   "Half block to the brown line Western stop and amid all that is happening in Lincoln Square.",
@@ -58,5 +60,5 @@
   "https://images.craigslist.org/00A0A_4uMRmAjXCm0z_0AE0ru_600x450.jpg",
   "https://images.craigslist.org/00J0J_hgdAs0uFbjZz_0lM0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-on-top-floor-in-heart/7497369607.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-on-top-floor-in-heart/7500746996.html"
 }

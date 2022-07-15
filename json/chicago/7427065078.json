@@ -8,9 +8,11 @@
  "latitude": 41.722,
  "longitude": -87.7024,
  "data_accuracy": 22,
- "posted": "2022-06-19 11:20",
- "updated": "2022-06-19 11:22",
- "repost_dates": null,
+ "posted": "2022-06-19 11:32",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-19 11:32"
+ ],
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,
@@ -41,5 +43,5 @@
   "3Bed $950"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/sox/apa/d/evergreen-park-second-chance-housing/7498504303.html"
+ "url": "https://chicago.craigslist.org/sox/apa/d/evergreen-park-second-chance-housing/7498508547.html"
 }

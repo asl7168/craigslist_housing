@@ -8,9 +8,11 @@
  "latitude": 41.943467,
  "longitude": -87.653596,
  "data_accuracy": 10,
- "posted": "2022-06-13 15:55",
+ "posted": "2022-06-14 15:39",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-14 15:39"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -66,5 +68,5 @@
   "https://images.craigslist.org/00b0b_dmK9mD033dGz_1y610e_600x450.jpg",
   "https://images.craigslist.org/00F0F_aHHCJELBqfZz_1z212w_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3369-clark-st-unit-2n/7496129988.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3369-clark-st-unit-2n/7496564148.html"
 }

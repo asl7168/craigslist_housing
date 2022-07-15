@@ -1,16 +1,18 @@
 {
  "post_id": 7062411441,
  "title": "Super unit in Gold Coast with amazing prices and allows pets",
- "price": 1510,
+ "price": 1490,
  "neighborhood": "Gold Coast",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8971,
  "longitude": -87.6223,
  "data_accuracy": 22,
- "posted": "2022-06-18 10:40",
- "updated": "2022-06-19 22:55",
- "repost_dates": null,
+ "posted": "2022-06-28 08:14",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 08:14"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -52,5 +54,5 @@
   "https://images.craigslist.org/00N0N_EmCIVFxeHFz_0bi07x_600x450.jpg",
   "https://images.craigslist.org/00A0A_ihwYpuDn0o1z_0bi07x_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-super-unit-in-gold-coast-with/7498125757.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-super-unit-in-gold-coast-with/7502181751.html"
 }

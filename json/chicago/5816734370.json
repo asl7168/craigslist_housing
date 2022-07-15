@@ -8,9 +8,11 @@
  "latitude": 41.986676,
  "longitude": -87.657003,
  "data_accuracy": 10,
- "posted": "2022-06-13 17:35",
+ "posted": "2022-06-23 11:32",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 11:32"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -58,5 +60,5 @@
   "https://images.craigslist.org/01717_5pNZF7dn1jQz_0Du0QE_600x450.jpg",
   "https://images.craigslist.org/01212_3gnqU0AmGZ1z_0Du0QE_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-studios-right-by-the-lake/7496176384.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-studios-right-by-the-lake/7500208926.html"
 }

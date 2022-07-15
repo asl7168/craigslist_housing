@@ -1,19 +1,21 @@
 {
  "post_id": 7177283939,
- "title": "Wonderful 1 bed in South Loop w/ ss appliances, plank floors, and w/d",
- "price": 1890,
+ "title": "Wonderful 2 bed in South Loop w/ ss appliances, plank floors, and w/d",
+ "price": 2890,
  "neighborhood": "South Loop",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8426,
  "longitude": -87.6306,
  "data_accuracy": 22,
- "posted": "2022-06-21 16:35",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-22 09:01",
+ "updated": "2022-06-22 09:01",
+ "repost_dates": [
+  "2022-06-22 09:01"
+ ],
  "available": "NA",
  "housing_type": "apartment",
- "bedrooms": 1,
+ "bedrooms": 2,
  "bathrooms": 1.0,
  "laundry": "w/d in unit",
  "parking": "attached garage",
@@ -47,7 +49,7 @@
   "sspcresidential.com"
  ],
  "images": [
-  "https://images.craigslist.org/00p0p_aiEJjf9XXfGz_0fi0ah_600x450.jpg",
+  "https://images.craigslist.org/00c0c_cN83oijChl6z_0fq0ah_600x450.jpg",
   "https://images.craigslist.org/00l0l_26NIK7966cfz_0fq0ah_600x450.jpg",
   "https://images.craigslist.org/00d0d_aQ6EaM5n1iuz_0ei0ah_600x450.jpg",
   "https://images.craigslist.org/00B0B_5Fp7g43dZAjz_0e10ah_600x450.jpg",
@@ -55,5 +57,5 @@
   "https://images.craigslist.org/00W0W_hPjSGWfpU69z_0fq0ah_600x450.jpg",
   "https://images.craigslist.org/00c0c_eMeqPUZ0Tm1z_0fq0ah_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wonderful-bed-in-south-loop-ss/7499491220.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wonderful-bed-in-south-loop-ss/7499695078.html"
 }

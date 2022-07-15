@@ -1,16 +1,18 @@
 {
  "post_id": 7466941383,
  "title": "Beautifully Updated 2 bed! Granite Countertops!",
- "price": 1800,
+ "price": 2000,
  "neighborhood": "Edgewater",
  "map_address": "Winthrop near Glenwood",
  "street_address": "Winthrop ",
  "latitude": 41.983931,
  "longitude": -87.658356,
  "data_accuracy": 20,
- "posted": "2022-06-13 12:36",
- "updated": "2022-06-13 12:36",
- "repost_dates": null,
+ "posted": "2022-06-21 11:28",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-21 11:28"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -42,5 +44,5 @@
   "https://images.craigslist.org/00h0h_gNIBm78HcgNz_0q80hq_600x450.jpg",
   "https://images.craigslist.org/00s0s_c1EZdKZET3uz_0q80hq_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautifully-updated-bed-granite/7496022454.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautifully-updated-bed-granite/7499333436.html"
 }

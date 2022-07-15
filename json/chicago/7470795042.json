@@ -8,9 +8,11 @@
  "latitude": 41.892259,
  "longitude": -87.612053,
  "data_accuracy": 5,
- "posted": "2022-06-14 09:57",
- "updated": "2022-06-24 09:26",
- "repost_dates": null,
+ "posted": "2022-06-24 09:22",
+ "updated": "2022-06-24 09:22",
+ "repost_dates": [
+  "2022-06-24 09:22"
+ ],
  "available": "NA",
  "housing_type": "condo",
  "bedrooms": 1,
@@ -35,8 +37,8 @@
   "One of kind corner unit with LAKE, SKYLINE, and Lake Shore Drive VIEWS (N&W&NE).",
   "Offering a perfect blend of lake & city skyline",
   "15 floor to ceiling windows with panoramic views north up the shoreline with dazzling city light views",
-  "Open living & dining area perfect for entertaining along with the gourmet kitchen",
-  "Floor plan perfect for entertaining and enjoying the lake and city views.",
+  "Open living & dining area perfect for entertaining along with the gourme kitchen",
+  "Floor plan perfect for entertaining & enjoying the lake views.",
   "New gorgeous open kitchen with granite counters is perfect for your inner chef with white cabinets with ample storage space",
   "Washer & dryer in-unit,",
   "Storage locker included",
@@ -73,5 +75,5 @@
   "https://images.craigslist.org/00606_4PHmdhyFhXyz_0CI0lM_600x450.jpg",
   "https://images.craigslist.org/00707_jV71sKLz9Qvz_0CI0lM_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-sunny-large-bedroom-bath-lake/7496381344.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-sunny-large-bedroom-bath-lake/7500577418.html"
 }

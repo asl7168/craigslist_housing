@@ -1,17 +1,19 @@
 {
  "post_id": 7351352493,
  "title": "1bed/1bath CLOSETS!!! elevator, gym, bike room, PARKING, CTA Red",
- "price": 1525,
+ "price": 1475,
  "neighborhood": "Edgewater",
  "map_address": "Kenmore Ave. near Glenlake Ave.",
  "street_address": "Kenmore Ave. ",
  "latitude": 41.992631,
  "longitude": -87.657256,
  "data_accuracy": 15,
- "posted": "2022-06-13 11:48",
- "updated": "2022-06-13 11:48",
- "repost_dates": null,
- "available": "2022-06-15",
+ "posted": "2022-06-22 13:01",
+ "updated": "2022-06-22 13:01",
+ "repost_dates": [
+  "2022-06-22 13:01"
+ ],
+ "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 1,
  "bathrooms": 1.0,
@@ -34,7 +36,7 @@
   "Please TEXT for FASTER response!!",
   "312-857-8306",
   "De' Xeunxom",
-  "Market rate: $1525-$1778 (best pricing for immediate move in date with 16-17 months for best pricing)",
+  "Market rate: $1475-$1778 (best pricing for immediate move in date with 16-17 months for best pricing)",
   "GUT REHABBED building with Amenities accessible",
   "1 bedroom / 1 bathroom with elevator, gym, bike room, intercom entry",
   "-1 bedroom / 1 bathroom",
@@ -66,9 +68,9 @@
   "1249 W. Devon Ave, Chicago, IL 60660, Tel: 312-722-6773"
  ],
  "images": [
-  "https://images.craigslist.org/00Y0Y_86u3VUKeUXQz_0CI0t2_600x450.jpg",
-  "https://images.craigslist.org/00v0v_4W46bGfITnmz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00505_4x9qumi5aNMz_0lM0t2_600x450.jpg",
+  "https://images.craigslist.org/00v0v_4W46bGfITnmz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00Y0Y_86u3VUKeUXQz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00D0D_gI3XmJkqyCCz_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/00b0b_hXwHHs4GNWJz_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/00M0M_97DDkFwaGPFz_0CI0t2_600x450.jpg",
@@ -87,5 +89,5 @@
   "https://images.craigslist.org/00505_lwsMia0r1yUz_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/01313_e1CZ8q0PbAsz_0ew0ew_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-1bath-closets-elevator-gym/7495994455.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-1bath-closets-elevator-gym/7499822190.html"
 }

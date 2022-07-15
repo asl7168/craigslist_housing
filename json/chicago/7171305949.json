@@ -8,9 +8,11 @@
  "latitude": 41.8713,
  "longitude": -87.6277,
  "data_accuracy": 22,
- "posted": "2022-06-20 08:45",
- "updated": "2022-06-20 08:45",
- "repost_dates": null,
+ "posted": "2022-06-28 08:12",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 08:12"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -53,5 +55,5 @@
   "https://images.craigslist.org/00f0f_b24WeTTN0C2z_0bi07E_600x450.jpg",
   "https://images.craigslist.org/00r0r_7SDzIprYNsfz_0bi07x_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxury-south-loop-hi-rise-1bed/7498789359.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxury-south-loop-hi-rise-1bed/7502181207.html"
 }

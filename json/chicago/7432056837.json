@@ -1,19 +1,21 @@
 {
  "post_id": 7432056837,
- "title": "2br Near Northwestern - Dishwasher, On-site Laundry -Start 9/1/22",
- "price": 1550,
+ "title": "1br Near Northwestern - Dishwasher, On-site Laundry -Start 9/1/22",
+ "price": 1150,
  "neighborhood": "Evanston - Northwestern University",
  "map_address": "2201 Ridge Ave near Noyes St",
  "street_address": "2201 Ridge Ave ",
  "latitude": 42.057383,
  "longitude": -87.685897,
  "data_accuracy": 5,
- "posted": "2022-06-27 16:42",
+ "posted": "2022-06-27 16:43",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-27 16:43"
+ ],
  "available": "2022-06-27",
  "housing_type": "apartment",
- "bedrooms": 2,
+ "bedrooms": 1,
  "bathrooms": 1.0,
  "laundry": "laundry on site",
  "parking": "off-street parking",
@@ -47,18 +49,18 @@
   "-On-Site Laundry",
   "-On-Site Management and Maintenance",
   "Parking Available!",
-  "Close to Lake Michigan, this 2 bedroom Evanston apartment is walking distance to Northwestern University, Downtown Evanston and public transportation.",
+  "Close to Lake Michigan, this 1 bedroom Evanston apartment is walking distance to Northwestern University, Downtown Evanston and public transportation.",
   "2nd month rent free for qualified applicants signing a 2 year lease!",
-  "Utility package additional $70 covers heat, water, and trash.",
+  "Utility package additional $58 covers heat, water, and trash.",
   "Tenants pays electricity and cooking gas separately.",
   "Visit our website at www.2201ridge.com for more information and similar apartments."
  ],
  "images": [
-  "https://images.craigslist.org/00I0I_5VXkVsxwLcrz_0hn086_600x450.jpg",
-  "https://images.craigslist.org/00Q0Q_9svo9wMnMEbz_07K0ak_600x450.jpg",
-  "https://images.craigslist.org/00505_estMFwABdClz_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00x0x_736lQup2EOMz_07K0ak_600x450.jpg",
-  "https://images.craigslist.org/00s0s_hi8UtSMsZgez_07K0ak_600x450.jpg"
+  "https://images.craigslist.org/00505_estMFwABdClz_07K0ak_600x450.jpg",
+  "https://images.craigslist.org/00Q0Q_9svo9wMnMEbz_07K0ak_600x450.jpg",
+  "https://images.craigslist.org/00s0s_hi8UtSMsZgez_07K0ak_600x450.jpg",
+  "https://images.craigslist.org/00I0I_5VXkVsxwLcrz_0hn086_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/evanston-2br-near-northwestern/7501996475.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/evanston-1br-near-northwestern/7501996887.html"
 }

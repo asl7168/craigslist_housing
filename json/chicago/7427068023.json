@@ -8,9 +8,11 @@
  "latitude": 41.8378,
  "longitude": -87.7602,
  "data_accuracy": 22,
- "posted": "2022-06-19 11:24",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-19 11:25",
+ "updated": "2022-06-19 11:25",
+ "repost_dates": [
+  "2022-06-19 11:25"
+ ],
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 2,
@@ -44,5 +46,5 @@
   "Text for quicker response"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/sox/apa/d/cicero-homeless-today-home-tomorrow/7498505602.html"
+ "url": "https://chicago.craigslist.org/sox/apa/d/cicero-homeless-today-home-tomorrow/7498505915.html"
 }

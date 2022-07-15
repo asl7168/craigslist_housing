@@ -8,9 +8,11 @@
  "latitude": 41.878933,
  "longitude": -87.837691,
  "data_accuracy": 10,
- "posted": "2022-06-13 09:14",
- "updated": "2022-06-23 10:18",
- "repost_dates": null,
+ "posted": "2022-06-28 10:08",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 10:08"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -41,7 +43,7 @@
   " It is open to the public from sunrise to sunset in the warmer months, and from 10 a.m. to 10 p.m. in the winter.",
   " Miller Meadow offers family picnic areas, walking trails, snowmobiling areas, cross-country skiing trails and sledding hills.",
   "**Available Units **",
-  "Available Now .........................One Bedroom..................................",
+  "Available Now ........................One Bedroom..................................",
   "Rent starting at $795.00 /Monthly",
   "Available June 30, 2022.........................One Bedroom with Den ..................",
   "Rent starting at $845.00 /Monthly",
@@ -63,5 +65,5 @@
   "Equal Housing Opportunity"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/wcl/apa/d/maywood-awesome-one-bedroom-apartments/7495911648.html"
+ "url": "https://chicago.craigslist.org/wcl/apa/d/maywood-awesome-one-bedroom-apartments/7502230921.html"
 }

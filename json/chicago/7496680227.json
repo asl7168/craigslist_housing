@@ -8,9 +8,11 @@
  "latitude": 41.77019,
  "longitude": -88.158503,
  "data_accuracy": 5,
- "posted": "2022-06-14 20:43",
+ "posted": "2022-06-25 06:53",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-25 06:53"
+ ],
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -51,5 +53,5 @@
   "https://images.craigslist.org/00r0r_eNvdd9jAdXcz_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00H0H_9Nq0AWjmPzLz_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/wcl/apa/d/naperville-sublease-bed-den-bathroom/7496680227.html"
+ "url": "https://chicago.craigslist.org/wcl/apa/d/naperville-sublease-bed-den-bathroom/7500960783.html"
 }

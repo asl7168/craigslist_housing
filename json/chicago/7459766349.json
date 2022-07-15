@@ -10,7 +10,9 @@
  "data_accuracy": 22,
  "posted": "2022-06-13 09:15",
  "updated": "2022-06-28 10:17",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:15"
+ ],
  "available": "NA",
  "housing_type": "cottage/cabin",
  "bedrooms": 1,

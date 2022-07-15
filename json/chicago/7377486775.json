@@ -10,7 +10,9 @@
  "data_accuracy": 5,
  "posted": "2022-06-13 07:44",
  "updated": "2022-06-21 12:44",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 07:44"
+ ],
  "available": "2022-07-01",
  "housing_type": "condo",
  "bedrooms": 2,

@@ -8,10 +8,12 @@
  "latitude": 41.865532,
  "longitude": -87.694654,
  "data_accuracy": 15,
- "posted": "2022-06-18 06:40",
- "updated": "NA",
- "repost_dates": null,
- "available": "2022-06-18",
+ "posted": "2022-06-24 06:04",
+ "updated": "2022-06-24 06:04",
+ "repost_dates": [
+  "2022-06-24 06:04"
+ ],
+ "available": "2022-06-24",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -27,7 +29,7 @@
  "no_smoking": "NA",
  "furnished": "NA",
  "wheelchair_access": "NA",
- "AC": true,
+ "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
   "QR Code Link to This Post",
@@ -66,5 +68,5 @@
   "https://images.craigslist.org/01111_fxBbJk5c3Jgz_0ae07E_600x450.jpg",
   "https://images.craigslist.org/01212_67OIaoYnPo4z_0ae07E_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-superb-vintage-with-modern/7498041139.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-superb-vintage-with-modern/7500519391.html"
 }

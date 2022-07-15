@@ -8,9 +8,11 @@
  "latitude": 41.984581,
  "longitude": -87.655548,
  "data_accuracy": 10,
- "posted": "2022-06-27 14:48",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-27 16:36",
+ "updated": "2022-06-28 11:39",
+ "repost_dates": [
+  "2022-06-27 16:36"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -61,5 +63,5 @@
   "https://images.craigslist.org/00x0x_cX0xdflSWIEz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00j0j_jrjam9QdXPfz_0g80c6_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1br-steps-from-red-lineno/7501940929.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1br-steps-from-red-lineno/7501994007.html"
 }

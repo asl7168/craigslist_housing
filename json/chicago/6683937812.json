@@ -8,10 +8,12 @@
  "latitude": 42.03943,
  "longitude": -87.684172,
  "data_accuracy": 10,
- "posted": "2022-06-13 09:12",
- "updated": "2022-06-23 13:24",
- "repost_dates": null,
- "available": "2022-07-05",
+ "posted": "2022-06-28 10:10",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 10:10"
+ ],
+ "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -78,5 +80,5 @@
   "https://images.craigslist.org/00v0v_1d2YuM1FjbSz_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00F0F_eBrNIBn1MRQz_0CI0p3_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/nch/apa/d/evanston-amazing-two-bedroom-apartments/7495910884.html"
+ "url": "https://chicago.craigslist.org/nch/apa/d/evanston-amazing-two-bedroom-apartments/7502231623.html"
 }

@@ -1,16 +1,18 @@
 {
  "post_id": 7488696526,
- "title": "Awesome Gold Coast Studio with Amazing Rooftop Deck!",
- "price": 1623,
+ "title": "Awesome Gold Coast Studio with Amazing Rooftop Deck Available Now!",
+ "price": 1626,
  "neighborhood": "Gold Coast",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.907146,
  "longitude": -87.626374,
  "data_accuracy": 5,
- "posted": "2022-06-14 11:56",
- "updated": "2022-06-23 13:36",
- "repost_dates": null,
+ "posted": "2022-06-23 13:35",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-23 13:35"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -33,7 +35,7 @@
   "QR Code Link to This Post",
   "PROPERTY INFO",
   "ID: 9049510",
-  "Rent: $1,623 / Month",
+  "Rent: $1,626 / Month",
   "Beds: 0",
   "Bath: 1",
   "Available Date: 05/27/2022",
@@ -88,5 +90,5 @@
   "https://images.craigslist.org/00C0C_4X7Jha0cYDwz_0mq0eX_600x450.jpg",
   "https://images.craigslist.org/01414_HcWmDxQ5KEz_0fZ0aF_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-gold-coast-studio-with/7496446781.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-gold-coast-studio-with/7500276940.html"
 }

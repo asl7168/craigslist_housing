@@ -8,9 +8,11 @@
  "latitude": 41.948767,
  "longitude": -87.731495,
  "data_accuracy": 5,
- "posted": "2022-06-14 11:55",
- "updated": "2022-06-26 10:41",
- "repost_dates": null,
+ "posted": "2022-06-24 10:22",
+ "updated": "2022-06-26 10:40",
+ "repost_dates": [
+  "2022-06-24 10:22"
+ ],
  "available": "2022-07-01",
  "housing_type": "duplex",
  "bedrooms": 3,
@@ -85,5 +87,5 @@
   "Available July 1st"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-spacious-bed-bath-plus-office/7496445781.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-spacious-bed-bath-plus-office/7500606797.html"
 }

@@ -1,16 +1,18 @@
 {
  "post_id": 7491109551,
  "title": "Medical District/Rush Studio w/Balcony, Upscale kitchen, Gym/Pool",
- "price": 1883,
+ "price": 1943,
  "neighborhood": "Medical District",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.870181,
  "longitude": -87.666156,
  "data_accuracy": 5,
- "posted": "2022-06-14 11:51",
+ "posted": "2022-06-23 13:31",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 13:31"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -33,7 +35,7 @@
   "QR Code Link to This Post",
   "PROPERTY INFO",
   "ID: 72570257",
-  "Rent: $1,883 / Month",
+  "Rent: $1,943 / Month",
   "Beds: 0",
   "Bath: 1",
   "Pet: Pet Friendly",
@@ -94,5 +96,5 @@
   "https://images.craigslist.org/00U0U_95f4UQ5lLyhz_0fZ0aF_600x450.jpg",
   "https://images.craigslist.org/00B0B_cW87pmI2zIuz_0g80aL_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-medical-district-rush-studio/7496443845.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-medical-district-rush-studio/7500274419.html"
 }

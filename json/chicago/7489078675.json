@@ -8,9 +8,11 @@
  "latitude": 41.934019,
  "longitude": -87.72083,
  "data_accuracy": 5,
- "posted": "2022-06-21 13:13",
+ "posted": "2022-06-26 09:46",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-26 09:46"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -70,5 +72,5 @@
   "https://images.craigslist.org/00S0S_fVGVUTJIlkJz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00k0k_482KwBzAMIqz_0CI0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-avondale-3br-top-floor-central/7499390615.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-avondale-3br-top-floor-central/7501401599.html"
 }

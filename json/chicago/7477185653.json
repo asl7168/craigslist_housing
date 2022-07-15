@@ -10,7 +10,9 @@
  "data_accuracy": 15,
  "posted": "2022-06-13 09:17",
  "updated": "2022-06-24 07:59",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-13 09:17"
+ ],
  "available": "2022-06-14",
  "housing_type": "apartment",
  "bedrooms": 2,

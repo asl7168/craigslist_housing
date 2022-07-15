@@ -8,9 +8,11 @@
  "latitude": 41.910537,
  "longitude": -87.685908,
  "data_accuracy": 5,
- "posted": "2022-06-18 19:11",
- "updated": "2022-06-25 20:39",
- "repost_dates": null,
+ "posted": "2022-06-25 20:49",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-25 20:49"
+ ],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -45,5 +47,5 @@
   "Thanks."
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-cheap/7498344310.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-cheap/7501295221.html"
 }

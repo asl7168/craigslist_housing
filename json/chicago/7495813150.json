@@ -8,9 +8,11 @@
  "latitude": 41.8515,
  "longitude": -87.6694,
  "data_accuracy": 22,
- "posted": "2022-06-12 22:11",
- "updated": "NA",
- "repost_dates": [],
+ "posted": "2022-06-20 16:03",
+ "updated": "2022-06-20 16:03",
+ "repost_dates": [
+  "2022-06-20 16:03"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -58,5 +60,5 @@
   "https://images.craigslist.org/00V0V_74EfTgDSVY6z_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/01515_g31AgX5z0I2z_0lM0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-pilsen-bedroom/7495813150.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-pilsen-bedroom/7499031256.html"
 }

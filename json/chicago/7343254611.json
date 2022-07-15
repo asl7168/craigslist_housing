@@ -1,16 +1,18 @@
 {
  "post_id": 7343254611,
  "title": "Beautiful 1 bed with washer dryer in unit &bldg amenities",
- "price": 2490,
+ "price": 2460,
  "neighborhood": "Gold Coast/Old Town",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.9033,
  "longitude": -87.6336,
  "data_accuracy": 22,
- "posted": "2022-06-12 09:28",
- "updated": "NA",
- "repost_dates": null,
+ "posted": "2022-06-26 10:05",
+ "updated": "2022-06-26 23:23",
+ "repost_dates": [
+  "2022-06-26 10:05"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -54,5 +56,5 @@
   "https://images.craigslist.org/00u0u_afRgPHnHa06z_07K0ak_600x450.jpg",
   "https://images.craigslist.org/01616_8bcokbCt52qz_07K0ak_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-bed-with-washer-dryer/7495531978.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-bed-with-washer-dryer/7501409208.html"
 }

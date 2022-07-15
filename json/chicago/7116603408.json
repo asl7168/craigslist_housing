@@ -8,9 +8,11 @@
  "latitude": 41.9543,
  "longitude": -87.6575,
  "data_accuracy": 22,
- "posted": "2022-06-17 09:03",
+ "posted": "2022-06-26 10:18",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-26 10:18"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -54,5 +56,5 @@
   "https://images.craigslist.org/00K0K_3zApu5Xi9tyz_0g80ao_600x450.jpg",
   "https://images.craigslist.org/00h0h_52rqiq7xqJNz_0g80aL_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-d-in-unit-hw-floors-heated/7497646694.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-d-in-unit-hw-floors-heated/7501414127.html"
 }

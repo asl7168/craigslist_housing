@@ -8,10 +8,12 @@
  "latitude": 41.90322,
  "longitude": -87.67996,
  "data_accuracy": 10,
- "posted": "2022-06-12 12:35",
- "updated": "2022-06-12 12:35",
- "repost_dates": null,
- "available": "2022-08-01",
+ "posted": "2022-06-24 19:38",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-24 19:38"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -56,5 +58,5 @@
   "https://images.craigslist.org/00505_jEuPnIEEoxZz_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00z0z_7bk20DtKUkWz_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-hot-wicker-park/7495611334.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-hot-wicker-park/7500872090.html"
 }

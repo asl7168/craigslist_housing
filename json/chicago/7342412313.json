@@ -1,6 +1,6 @@
 {
  "post_id": 7342412313,
- "title": "EAST GARFIELD PARK - Large 5 Rm 2 Bd - Heated - FULTON AND CALIFORNIA",
+ "title": "EAST GARFIELD 2 BED ( UKRAINIAN VILLAGE and HUMBOLDT PARK ALT )",
  "price": 995,
  "neighborhood": "East Garfield Park",
  "map_address": "Fulton near California",
@@ -8,10 +8,12 @@
  "latitude": 41.886544,
  "longitude": -87.696755,
  "data_accuracy": 5,
- "posted": "2022-06-20 06:56",
- "updated": "2022-06-20 06:56",
- "repost_dates": null,
- "available": "2022-06-30",
+ "posted": "2022-06-28 07:18",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-28 07:18"
+ ],
+ "available": "2022-07-15",
  "housing_type": "apartment",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -25,15 +27,18 @@
  "cats_ok": true,
  "dogs_ok": true,
  "no_smoking": true,
- "furnished": "NA",
+ "furnished": true,
  "wheelchair_access": "NA",
  "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
   "QR Code Link to This Post",
+  "FULTON AND CALIFORNIA - 2 BED - 2ND FLR - HEATED - HARDWOOD FLOORS - GREAT BACK YARD",
   "(WE DO NOT check EMAIL regularly)",
   "PLEASE CALL  (WE DO NOT check EMAIL regularly)",
-  "JULY 1 MOVE IN - Unit should be ready  2-5 days before Month End -",
+  "EAST GARFIELD PARK - GREAT WEST LOOP / LOGAN SQUARE / HYDE PARK / BRONZEVILLE / UKRAINIAN VILLAGE / PILSEN / DOUGLAS PARK / HUMBOLDT PARK ALTERNATIVE.",
+  " Very Quiet area with Excellent transportation options.",
+  "JULY 15 - AUGUST 1 MOVE IN",
   "NO MOVE IN FEE - NO SECURITY DEPOSIT AND NO APPLICATION FEE WITH GREAT CREDIT INCOME AND SAVINGS",
   "East Garfield Park  - Near Fulton and California - 5 Room 2 Bed Room - HEAT INCLUDED - Hardwood Floors - Remodeled - IN UNIT LAUNDRY - Cats Ok - Dog's Considered - 2 Blks to California Green Line (West Loop and UIC) -",
   "Apartment may be ready by mid September.",
@@ -43,8 +48,8 @@
   "NO DEPOSIT OR MOVE IN FEE WITH GREAT CREDIT AND STRONG VERIFIABLE INCOME AND SAVINGS preferred.",
   "Very Quiet Area great for Walking / Biking and Dog Walking.",
   "Excellent Credit Required (720+ CREDIT GREATLY PREFERRED ) -",
-  "Income must be verifiable and meet a minimum threshold based on your living situation - PROOF OF SAVINGS 5K+ PREFERRED.",
-  "All adults authorized to occupy the apartment MAY BE required to have credit AND background checked.",
+  "Income must be verifiable and meet a minimum threshold based on your living situation - PROOF OF SAVINGS 5K+ PER ADULT PREFERRED.",
+  "All adults authorized to occupy the apartment MAY BE required to have credit AND background checked AND proof of savings.",
   "WE DO NOT Check EMAIL regularly.",
   " Please call 312-241-2682 for more information and to schedule a showing."
  ],
@@ -53,5 +58,5 @@
   "https://images.craigslist.org/00u0u_r0ECojsSP7z_07K0ak_600x450.jpg",
   "https://images.craigslist.org/00L0L_doYB5rKN0kAz_07K0ak_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/nch/apa/d/chicago-east-garfield-park-large-rm-bd/7498754195.html"
+ "url": "https://chicago.craigslist.org/nch/apa/d/chicago-east-garfield-bed-ukrainian/7502166106.html"
 }

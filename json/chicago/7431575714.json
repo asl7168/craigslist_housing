@@ -1,7 +1,7 @@
 {
  "post_id": 7431575714,
- "title": "Studio in Evanston Steps to Northwestern - Starting 9/1/2022",
- "price": 1140,
+ "title": "1 Bedroom in Evanston Steps to Northwestern - Starting 9/1/2022",
+ "price": 1230,
  "neighborhood": "Evanston - Northwestern University, Rogers Park, Edgewater",
  "map_address": "1009 Davis St near Ridge Ave",
  "street_address": "1009 Davis St ",
@@ -10,10 +10,12 @@
  "data_accuracy": 10,
  "posted": "2022-06-20 10:27",
  "updated": "2022-06-20 10:27",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-20 10:27"
+ ],
  "available": "2022-06-20",
  "housing_type": "apartment",
- "bedrooms": 0,
+ "bedrooms": 1,
  "bathrooms": 1.0,
  "laundry": "laundry on site",
  "parking": "off-street parking",
@@ -50,15 +52,15 @@
   "You can not be more centrally located in Evanston than this!",
   "Easy commute to Rogers Park, Edgewater, West Ridge, Lincoln Square and Downtown Chicago.",
   "2nd month rent free for qualified applicants signing a 2 year lease!",
-  "Utility package additional $80 covers heat, water, and trash.",
+  "Utility package additional $86 covers heat, water, and trash.",
   "Tenants pays electricity and cooking gas separately.",
   "Visit our website at www.1009davis.com for more information and similar apartments."
  ],
  "images": [
-  "https://images.craigslist.org/00707_hVOA1wpO5tFz_0fn0ax_600x450.jpg",
   "https://images.craigslist.org/00D0D_jI6Gy9klz3bz_09G05r_600x450.jpg",
   "https://images.craigslist.org/00W0W_geN1WLAWN1z_09G05r_600x450.jpg",
-  "https://images.craigslist.org/01010_iIcykXR1xP5z_09G05r_600x450.jpg"
+  "https://images.craigslist.org/01010_iIcykXR1xP5z_09G05r_600x450.jpg",
+  "https://images.craigslist.org/00707_hVOA1wpO5tFz_0fn0ax_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/evanston-studio-in-evanston-steps-to/7498841145.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/evanston-bedroom-in-evanston-steps-to/7498841351.html"
 }

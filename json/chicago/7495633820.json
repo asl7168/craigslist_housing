@@ -1,6 +1,6 @@
 {
  "post_id": 7495633820,
- "title": "3bdr/1ba, Sunny large rooms",
+ "title": "3bdr/1ba, Sunny, large rooms",
  "price": 1895,
  "neighborhood": "Andersonville",
  "map_address": "NA",
@@ -8,10 +8,12 @@
  "latitude": 41.9719,
  "longitude": -87.6624,
  "data_accuracy": 22,
- "posted": "2022-06-12 13:26",
- "updated": "2022-06-26 09:38",
- "repost_dates": [],
- "available": "2022-08-01",
+ "posted": "2022-06-26 09:35",
+ "updated": "2022-06-26 09:37",
+ "repost_dates": [
+  "2022-06-26 09:35"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -51,5 +53,5 @@
   "https://images.craigslist.org/01010_85hJ5BYjC7pz_0iA0oM_600x450.jpg",
   "https://images.craigslist.org/01212_g6VZS9gz50Ez_0iA0oM_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3bdr-1ba-sunny-large-rooms/7495633820.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3bdr-1ba-sunny-large-rooms/7501397733.html"
 }

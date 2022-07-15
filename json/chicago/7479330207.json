@@ -8,10 +8,12 @@
  "latitude": 42.368089,
  "longitude": -87.834449,
  "data_accuracy": 5,
- "posted": "2022-06-14 12:10",
- "updated": "2022-06-14 12:10",
- "repost_dates": null,
- "available": "NA",
+ "posted": "2022-06-25 08:02",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-25 08:02"
+ ],
+ "available": "2022-06-25",
  "housing_type": "apartment",
  "bedrooms": 1,
  "bathrooms": 1.0,
@@ -51,5 +53,5 @@
   "https://images.craigslist.org/00v0v_kHuz24sSc4Wz_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/00Y0Y_7KO02CTKnTAz_0u40k4_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/nch/apa/d/waukegan-waukegan-one-bedroom-925/7496454753.html"
+ "url": "https://chicago.craigslist.org/nch/apa/d/waukegan-waukegan-one-bedroom-925/7500977358.html"
 }

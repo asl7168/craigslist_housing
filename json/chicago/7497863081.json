@@ -8,9 +8,11 @@
  "latitude": 41.8725,
  "longitude": -87.9016,
  "data_accuracy": 22,
- "posted": "2022-06-17 15:54",
- "updated": "2022-06-25 14:19",
- "repost_dates": null,
+ "posted": "2022-06-22 17:56",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-22 17:56"
+ ],
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,
@@ -24,26 +26,23 @@
  "broker_fee": "NA",
  "cats_ok": "NA",
  "dogs_ok": "NA",
- "no_smoking": true,
- "furnished": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
  "wheelchair_access": "NA",
- "AC": true,
+ "AC": "NA",
  "EV_charging": "NA",
  "posting_body": [
   "QR Code Link to This Post",
   "***THIS IS FOR SHARED LIVING***",
   "Our organization, Assisting Angels has affordable housing for folks that are in need.",
-  "House is fully furnished!",
   "Assisting Angels provides all-inclusive living arrangements throughout Cook, Will, DuPage Counties that includes cable television, telephone, linens, washer-dryer, therapy, and food in an all-bills-paid environment.",
   "We accept a wide range of tenants (homeless, sober living, veterans, etc... MHMR and have multiple properties for both men and women.",
   "All properties are located on bus-lines.",
   "Starting at $795 per month.",
   "We accept SSI / SSDI and other vouchers for a SHARED LIVING environment.",
-  "PLEASE DO NOT CONTACT if you are not open to shared living and have a family.",
-  "This program is for single adults that are ok to sharing the living place.",
-  "Text  the word \"SINGLE\" to 6308023006 and we will respond within minutes.",
+  "Call or Text 6308023006.",
   "Term for rent is 1yr lease..."
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/wcl/apa/d/hillside-affordable-housing-all-bills/7497863081.html"
+ "url": "https://chicago.craigslist.org/wcl/apa/d/hillside-affordable-housing-all-bills/7499963579.html"
 }

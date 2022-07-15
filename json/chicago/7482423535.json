@@ -1,23 +1,25 @@
 {
  "post_id": 7482423535,
- "title": "LARGE STUDIO- FIRST MONTH'S RENT ONLY $600.00",
- "price": 1295,
+ "title": "ONE BEDROOM- FIRST MONTH'S RENT ONLY $750",
+ "price": 1550,
  "neighborhood": "BOLINGBROOK, IL",
  "map_address": "601 PRESTON DR. near BOUGHTON RD.",
  "street_address": "601 PRESTON DR. ",
  "latitude": 41.717844,
  "longitude": -88.046463,
  "data_accuracy": 10,
- "posted": "2022-06-13 10:29",
- "updated": "2022-06-27 09:16",
- "repost_dates": null,
+ "posted": "2022-06-13 10:50",
+ "updated": "2022-06-27 09:15",
+ "repost_dates": [
+  "2022-06-13 10:50"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
  "bathrooms": 1.0,
  "laundry": "w/d in unit",
  "parking": "detached garage",
- "sqft": 660,
+ "sqft": 735,
  "flooring": "NA",
  "rent_period": "monthly",
  "app_fee": "NA",
@@ -51,5 +53,5 @@
   "Community Features: Controlled Access, Elevator, Laundry Facility, Playground, Public Transportation, Pond Views, Out Door Pool, Fitness Center, Walking/Jogging Paths."
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/nwc/apa/d/woodridge-large-studio-first-months/7495949627.html"
+ "url": "https://chicago.craigslist.org/nwc/apa/d/woodridge-one-bedroom-first-months-rent/7495961401.html"
 }

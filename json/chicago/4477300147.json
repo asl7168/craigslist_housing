@@ -8,9 +8,11 @@
  "latitude": 41.783857,
  "longitude": -87.599509,
  "data_accuracy": 5,
- "posted": "2022-06-16 07:38",
- "updated": "2022-06-19 23:26",
- "repost_dates": null,
+ "posted": "2022-06-22 15:01",
+ "updated": "2022-06-22 15:01",
+ "repost_dates": [
+  "2022-06-22 15:01"
+ ],
  "available": "2022-07-01",
  "housing_type": "condo",
  "bedrooms": 4,
@@ -74,5 +76,5 @@
   "https://images.craigslist.org/00g0g_l4kKzWJeKsoz_0lM0t2_600x450.jpg",
   "https://images.craigslist.org/00R0R_hUBmK9pQ02Jz_0lM0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-gut-rehab-bedrm-bath-condo-at/7497193137.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-gut-rehab-bedrm-bath-condo-at/7499884945.html"
 }

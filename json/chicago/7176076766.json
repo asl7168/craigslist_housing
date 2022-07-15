@@ -1,16 +1,18 @@
 {
  "post_id": 7176076766,
  "title": "Great 1 bed with w/d in unit, pet friendly, sundeck, pool",
- "price": 2470,
+ "price": 2510,
  "neighborhood": "West Loop/fulton",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8814,
  "longitude": -87.643,
  "data_accuracy": 22,
- "posted": "2022-06-19 09:59",
+ "posted": "2022-06-26 10:28",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-26 10:28"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -65,5 +67,5 @@
   "https://images.craigslist.org/00v0v_eDesUSe0CDQz_0jm0cU_600x450.jpg",
   "https://images.craigslist.org/00Z0Z_gScr47q1xZUz_0jm0cU_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-great-bed-with-d-in-unit-pet/7498474637.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-great-bed-with-d-in-unit-pet/7501417724.html"
 }

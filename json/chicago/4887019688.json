@@ -1,23 +1,25 @@
 {
  "post_id": 4887019688,
- "title": "3 bed, 2 bath, 1 blk to bus, 3 blks to train - incl. heat",
- "price": 1450,
+ "title": "Large 2 bed, 1 blk to bus, 3 blks to train - incl. heat",
+ "price": 1150,
  "neighborhood": "Ridge Ave - Rogers Park",
- "map_address": "7035 N. Ridge",
- "street_address": "7035 N. Ridge",
- "latitude": 42.0086,
- "longitude": -87.6947,
- "data_accuracy": 22,
- "posted": "2022-06-24 06:51",
+ "map_address": "2052 W. Estes",
+ "street_address": "2052 W. Estes",
+ "latitude": 42.011241,
+ "longitude": -87.682698,
+ "data_accuracy": 10,
+ "posted": "2022-06-24 06:52",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-24 06:52"
+ ],
  "available": "2022-06-24",
  "housing_type": "apartment",
- "bedrooms": 3,
+ "bedrooms": 2,
  "bathrooms": 1.0,
  "laundry": "laundry in bldg",
  "parking": "street parking",
- "sqft": 1200,
+ "sqft": 900,
  "flooring": "NA",
  "rent_period": "monthly",
  "app_fee": "NA",
@@ -36,14 +38,15 @@
   "- Rent includes heat and water.",
   "Call 773-929-6007 or email.",
   " Available now!",
-  "Please reference that you're interested in the 3 bed at 7035 N. Ridge and your desired move date.",
+  " Please reference that you're interested in the 2 bed at 2052 W. Estes and your desired move date.",
   "  Leave a call back number for response."
  ],
  "images": [
-  "https://images.craigslist.org/00Y0Y_jAHEXqnfdMR_0lM0t2_600x450.jpg",
-  "https://images.craigslist.org/00000_fKyFzpqbmza_0lM0t2_600x450.jpg",
-  "https://images.craigslist.org/01111_5XFqjX5dwKe_0nf0dO_600x450.jpg",
-  "https://images.craigslist.org/00I0I_6Cl8THuMi6w_0lM0t2_600x450.jpg"
+  "https://images.craigslist.org/01111_eHDg8jcFBhg_600x450.jpg",
+  "https://images.craigslist.org/01616_ePXtc0ilEXI_600x450.jpg",
+  "https://images.craigslist.org/00z0z_dLjBHgH8Mso_600x450.jpg",
+  "https://images.craigslist.org/00d0d_fiMrkYSLjOD_600x450.jpg",
+  "https://images.craigslist.org/01010_2YsNwZJVmPT_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-blk-to-bus-blks-to/7500526825.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-large-bed-blk-to-bus-blks-to/7500527032.html"
 }

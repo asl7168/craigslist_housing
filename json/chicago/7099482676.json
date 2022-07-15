@@ -1,16 +1,18 @@
 {
  "post_id": 7099482676,
  "title": "Great Furnished Rooms!!!!!!",
- "price": 2180,
+ "price": 2250,
  "neighborhood": "Lansing",
  "map_address": "2520 173rd street near Torrence Ave",
  "street_address": "2520 173rd street ",
  "latitude": 41.580935,
  "longitude": -87.555553,
  "data_accuracy": 10,
- "posted": "2022-06-20 09:59",
- "updated": "2022-06-20 09:59",
- "repost_dates": null,
+ "posted": "2022-06-27 12:52",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-27 12:52"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -84,5 +86,5 @@
   "https://images.craigslist.org/00000_6VcPxysXIJH_600x450.jpg",
   "https://images.craigslist.org/00b0b_lq7jRKIx2CT_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/sox/apa/d/lansing-great-furnished-rooms/7498825784.html"
+ "url": "https://chicago.craigslist.org/sox/apa/d/lansing-great-furnished-rooms/7501877283.html"
 }

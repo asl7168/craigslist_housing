@@ -8,12 +8,12 @@
  "latitude": 41.975557,
  "longitude": -87.658026,
  "data_accuracy": 15,
- "posted": "2022-06-17 15:25",
+ "posted": "2022-06-21 10:11",
  "updated": "NA",
  "repost_dates": [
   "2022-06-21 10:11"
  ],
- "available": "2022-06-17",
+ "available": "2022-07-15",
  "housing_type": "apartment",
  "bedrooms": 1,
  "bathrooms": 1.0,
@@ -67,9 +67,9 @@
   "1249 W. Devon Ave, Chicago, IL 60660, Tel: 312-722-6773"
  ],
  "images": [
+  "https://images.craigslist.org/00G0G_blRienBYo0Sz_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00M0M_aLRFD0Yjnnkz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/01414_bo1RzMyiMmaz_0CI0t2_600x450.jpg",
-  "https://images.craigslist.org/00G0G_blRienBYo0Sz_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00D0D_cTkSOTfmjpez_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00o0o_8Xyas9d55pTz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/01313_fcSpIkfnIBQz_0t20CI_600x450.jpg",
@@ -82,5 +82,5 @@
   "https://images.craigslist.org/00A0A_lan3AeYWd8Lz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00Y0Y_7j3Z278DLPIz_0ew0ew_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-1bath-near-cta-red-line/7497849167.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-1bed-1bath-near-cta-red-line/7499291054.html"
 }

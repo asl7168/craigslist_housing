@@ -1,19 +1,21 @@
 {
  "post_id": 7092593165,
- "title": "Awesome unit with w/d in unit, hw floors,& whirlpool appliances",
- "price": 2350,
+ "title": "Awesome studio in West Loop w w/d in unit, hw floors,& walkin closets",
+ "price": 1825,
  "neighborhood": "West Loop",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8868,
  "longitude": -87.6386,
  "data_accuracy": 22,
- "posted": "2022-06-12 18:06",
- "updated": "2022-06-12 18:06",
- "repost_dates": null,
+ "posted": "2022-06-12 18:14",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-06-12 18:14"
+ ],
  "available": "NA",
  "housing_type": "apartment",
- "bedrooms": 1,
+ "bedrooms": 0,
  "bathrooms": 1.0,
  "laundry": "w/d in unit",
  "parking": "attached garage",
@@ -34,20 +36,6 @@
   "Interested in this property?",
   "Click on: Reply to this listing for more information",
   "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on",
-  "Convertible apartment features include:",
-  "-W/D in unit",
-  "-Quartz countertops",
-  "-Hardwood floors",
-  "-Walk in closets",
-  "-Whirlpool appliances",
-  "Building features include:",
-  "-Resident lounge and entertainment room",
-  "-Pool deck with cabanas",
-  "-Grill area and fire pit",
-  "-Pet spa with grooming areas",
-  "-Dog run",
-  "-24 hour fitness center",
-  "-Pet Friendly",
   "Velocity Apartment Group",
   "312-253-7403",
   "*****For faster response from one of our Agents, please provide your cell phone number, move date and email address when inquiring.",
@@ -60,12 +48,12 @@
   "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on"
  ],
  "images": [
-  "https://images.craigslist.org/00x0x_5KogQXcvmTvz_0CI0pP_600x450.jpg",
-  "https://images.craigslist.org/00V0V_erHqgnypFAZz_0CI0pP_600x450.jpg",
-  "https://images.craigslist.org/00H0H_cOq5K0ysDuYz_0CI0pP_600x450.jpg",
-  "https://images.craigslist.org/00I0I_5S5jN4olcE8z_0cU07K_600x450.jpg",
   "https://images.craigslist.org/00000_hjsBKQ4q42wz_0cU07K_600x450.jpg",
-  "https://images.craigslist.org/00c0c_6dvPwAAzb5Lz_0cU07K_600x450.jpg"
+  "https://images.craigslist.org/00c0c_6dvPwAAzb5Lz_0cU07K_600x450.jpg",
+  "https://images.craigslist.org/00I0I_5S5jN4olcE8z_0cU07K_600x450.jpg",
+  "https://images.craigslist.org/00x0x_5KogQXcvmTvz_0CI0pP_600x450.jpg",
+  "https://images.craigslist.org/00H0H_fUBmX6wg5Jsz_0CI0pP_600x450.jpg",
+  "https://images.craigslist.org/00H0H_cOq5K0ysDuYz_0CI0pP_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-unit-with-d-in-unit-hw/7495746812.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-studio-in-west-loop-w/7495749233.html"
 }

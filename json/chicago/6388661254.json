@@ -1,19 +1,21 @@
 {
  "post_id": 6388661254,
  "title": "Beautiful Bedroom for Rent",
- "price": 600,
+ "price": 700,
  "neighborhood": "Chicago",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.729065,
  "longitude": -87.613964,
  "data_accuracy": 5,
- "posted": "2022-06-21 04:09",
- "updated": "NA",
- "repost_dates": null,
- "available": "2022-07-02",
+ "posted": "2022-06-21 04:37",
+ "updated": "2022-06-21 04:42",
+ "repost_dates": [
+  "2022-06-21 04:37"
+ ],
+ "available": "NA",
  "housing_type": "house",
- "bedrooms": 1,
+ "bedrooms": 2,
  "bathrooms": 1.0,
  "laundry": "laundry on site",
  "parking": "street parking",
@@ -32,10 +34,11 @@
  "posting_body": [
   "QR Code Link to This Post",
   "Beautiful, Furnished Bedroom.",
+  "(not apartment)",
   "Located in West Chester",
   "Looking for respectful, friendly, employed, SSI, SSA or Retired Individual to RENT BEDROOM.",
   "Beautiful home with homey bedrooms.",
-  "Your bedroom will come with bed, bedding, dresser, closet, and lamp.",
+  "Your 1large room and smaller room will come with bed, bedding, dresser, closet, and lamp.",
   "The neighborhood is well kept, neighbors friendly and very respectful.",
   "Located on a quiet street in West Chester.",
   "No car needed, easily connected with many buses on 95th and short 10 minute walk to the CTA Red Line.",
@@ -58,7 +61,7 @@
   "FEATURES FOR YOU",
   "ADT Security / Cameras",
   "Personal ADT Entry Code",
-  "Non-refundable earnest\u2026$150",
+  "Non-refundable deposit.. ($150)",
   "Lease:",
   "Monthly",
   "Must receive, SSI, SSA, presently Employed or Retirement Income.",
@@ -67,5 +70,5 @@
   "No Issues"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-bedroom-for-rent/7499199913.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-bedroom-for-rent/7499201330.html"
 }

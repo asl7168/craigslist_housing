@@ -1,16 +1,18 @@
 {
  "post_id": 7116585644,
  "title": "Awesome 2 Bed in River North-w/d in unit walkin closets ss appliances",
- "price": 3590,
+ "price": 3600,
  "neighborhood": "River North",
  "map_address": "NA",
  "street_address": "NA",
  "latitude": 41.8923,
  "longitude": -87.6373,
  "data_accuracy": 22,
- "posted": "2022-06-15 15:45",
+ "posted": "2022-06-23 09:21",
  "updated": "NA",
- "repost_dates": null,
+ "repost_dates": [
+  "2022-06-23 09:21"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -59,5 +61,5 @@
   "https://images.craigslist.org/00x0x_5pkvBk9jBC3z_0bi07x_600x450.jpg",
   "https://images.craigslist.org/00l0l_h9Zr9Q5x1rlz_0bi07x_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-bed-in-river-north-d-in/7496999424.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-awesome-bed-in-river-north-d-in/7500139385.html"
 }
