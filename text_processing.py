@@ -337,7 +337,9 @@ def jsons_to_csv(directory):
         if idx % 100 == 0: print(idx)
 
         json_path = f"{directory}/{filename}"
-        with open(json_path, "r") as json_file: data = json.load(json_file)
+        with open(json_path, "r") as json_file: 
+            data = json.load(json_file)
+        
         df = pd.DataFrame([data], columns=data.keys())
         result_df = pd.concat([result_df, df])
 
