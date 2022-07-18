@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=1     # Number of Cores (Processors)
 #SBATCH --output=../outfiles/topcities/topcities.out    # Path for output must already exist
 #SBATCH --error=../outfiles/topcities/topcities.err     # Path for errors must already exist
-#SBATCH --job-name="top cities initial scrape"       # Name of job
+#SBATCH --job-name="top cities initial scrape"          # Name of job
 
 /projects/p31502/projects/craigslist/scripts/craig_env_runner
 
