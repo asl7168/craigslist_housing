@@ -37,7 +37,9 @@ def setup(init: bool=False):
         for loc in sublists[i]:
             output += f"python -c 'import sys; sys.path.append(\"/projects/p31502/projects/craigslist/\"); " + \
             f"from cronable_scraping import *; do_{init_or_cron}_scrape(\"{loc}\", filepath=\"../html\", proxy=\"{proxies[i]}\")' " + \
-            f"> /projects/p31502/projects/craigslist/scripts/outfiles/{loc}_out.out\n"
+            f"> /projects/p31502/projects/craigslist/scripts/outfiles/{loc}/{loc}_out.out\n"
 
         with open(f"{initcron_dir}/{name}.sh", "w") as outfile:
             outfile.write(output)
+
+        if not os.path.exists(f"../outfiles/{name}"): os.mkdir(f"../outfiles/{name}")
