@@ -95,6 +95,5 @@ def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", re
 
     return reverified_proxies
     
-# get_proxies()
-# reverify_proxies()
-get_apiproxy()
+get_proxies()
+reverify_proxies()
