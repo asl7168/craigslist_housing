@@ -202,10 +202,12 @@ def process_html(directory):
         # get body of post
         posting_body = str(soup.find('section', id="postingbody"))
         posting_body = [unescape(text.replace("\n", "").replace("</section>", "")).strip() for text in re.split(r"<[^>]+>", 
-                        posting_body)][1:]  # split the body on div closing tags and br tags, then clean data
+                        posting_body)]
+        posting_body = [text for text in posting_body if text != ""]
         docs = [nlp(s).sents for s in posting_body]  # do sentence segmentation on every string/item from the split body text
-        body_sents = [str(sent) for doc in docs for sent in doc]  # syntax looks werid, but it's getting every sentence from every doc in docs
-
+        sents = [str(sent) for doc in docs for sent in doc]  # syntax looks werid, but it's getting every sentence from every doc in docs
+        posting_body = sents[1:]
+        
         # get urls for images if post has them
         images = []
         imgList = soup.find('div', id='thumbs')
@@ -313,7 +315,7 @@ def process_html(directory):
             "wheelchair_access": wheelchair_access,
             "AC": AC,
             "EV_charging": EV_charging,
-            "posting_body": body_sents,
+            "posting_body": posting_body,
             "images": images,
             "url": url
         }
@@ -326,6 +328,7 @@ def process_html(directory):
 
 
 def jsons_to_csv(directory):
+    print("\nMAKING CSV")
     result_df = pd.DataFrame(columns=["post_id", "title", "price", "neighborhood", "map_address", "street_address", 
                                       "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates",
                                       "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft",
