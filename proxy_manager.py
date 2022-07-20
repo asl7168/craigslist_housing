@@ -84,11 +84,15 @@ def get_proxies(proxies_outfilename: str = "proxies/verified_proxies.json") -> l
     return proxies
 
 
-def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", rever_filename: str = "proxies/reverified_proxies.json") -> list: 
+def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", rever_filename: str = "proxies/reverified_proxies.json", n: int = 5) -> list: 
     with open(proxies_filename, "r") as proxies_file: 
         proxies = json.load(proxies_file)
 
-    reverified_proxies = list({proxy for proxy in proxies if verify_proxy(proxy)})
+    reverifieds = []
+    [reverifieds.extend([proxy for proxy in proxies if verify_proxy(proxy)]) for _ in range(n)]  # verify each n times
+    revs_set = set(reverifieds)
+    reverified_proxies = [r for r in revs_set if reverifieds.count(r) == n]  # if a proxy was successfully verified n times, keep it
+    
     json_obj = json.dumps(reverified_proxies, indent=1)
     with open(rever_filename, "w") as outfile:
         outfile.write(json_obj)  
