@@ -52,15 +52,15 @@ def get_spysone() -> set:
 
 def get_apiproxy() -> set:
     html_files = ["proxies/Free Proxy API Access.html", "proxies/Free Proxy API Access (2).html"]
-    proxies = {}
+    proxies = set()
 
     for hf in html_files:
         with open(hf, "r") as html_file:
             html_soup = BeautifulSoup(html_file.read(), "html.parser")
-            rows = {row.find_all("td")[:2] for row in html_soup.find("tbody").find_all("tr")}
-            rows = {{cell.text.strip() for cell in row} for row in rows}
+            rows = [row.find_all("td")[:2] for row in html_soup.find("tbody").find_all("tr")]
+            rows = [[cell.text.strip() for cell in row] for row in rows]
             page_proxies = {":".join(row) for row in rows}
-            proxies += page_proxies
+            proxies |= page_proxies
 
     print(f"--------------------\nVERIFYING {len(proxies)} PROXIES FROM 'https://apiproxyfree.com/'")
 
@@ -95,6 +95,6 @@ def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", re
 
     return reverified_proxies
     
-if __name__ == "main":
-    get_proxies()
-    reverify_proxies()
+# get_proxies()
+# reverify_proxies()
+get_apiproxy()
