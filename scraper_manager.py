@@ -42,4 +42,4 @@ def setup(init: bool=False):
         with open(f"{initcron_dir}/{name}.sh", "w") as outfile:
             outfile.write(output)
 
-        if not os.path.exists(f"../outfiles/{name}"): os.mkdir(f"../outfiles/{name}")
+        if not os.path.exists(f".scripts/outfiles/{name}"): os.mkdir(f"./scripts/outfiles/{name}")
