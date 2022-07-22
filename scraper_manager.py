@@ -17,7 +17,7 @@ def setup(init: bool=False):
     # f = open("proxies/reverified_proxies.json")
     # proxies = json.load(f)
     proxies = reverify_proxies()  # reverify proxies, then store them here
-    f.close()
+    # f.close()
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
