@@ -21,6 +21,7 @@ def verify_proxy(proxy: str) -> bool:
         print(f"{proxy} FAILED")
         return False
 
+
 def get_sslproxies() -> set:
     r = get("https://sslproxies.org/")
     html_soup = BeautifulSoup(r.text, "html.parser")
@@ -98,7 +99,22 @@ def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", re
         outfile.write(json_obj)  
 
     return reverified_proxies
-    
+
+
+def clean_wesbshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt") -> list:
+    with open(proxies_filename, "r") as proxies_file:
+        init_proxies = proxies_file.readlines()
+
+    r = re.compile("[\d\.]+:\d+")
+
+    cleaned_proxies = [r.search(proxy)[0] for proxy in init_proxies]
+
+    with open(proxies_filename, "w") as proxies_file:
+        [proxies_file.write(proxy + "\n") for proxy in cleaned_proxies]
+
+    return cleaned_proxies
+
 if __name__ == "__main__":
-    get_proxies()
-    reverify_proxies()
+    # get_proxies()
+    # reverify_proxies()
+    clean_wesbshare_proxies()

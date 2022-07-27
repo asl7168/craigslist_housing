@@ -1,3 +1,4 @@
 *_env
 __pycache__
 */__pycache__
+webshare_credentials.py
