@@ -1,1 +1,3 @@
 proxies/Free* linguist-vendored
+scripts/DEPRECATED/* linguist-vendored
+scripts/DEPRECATED/initial_scrapers/* linguist-vendored
