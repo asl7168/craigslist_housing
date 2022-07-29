@@ -47,7 +47,7 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
                   f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
                   f"proxies={proxies}\n\n"
         for location in locations:
-            output += f"do_{init_or_cron}_scrape(city=\"{location}\", sleep_time={sleep_time}, proxies=proxies)\n"
+            output += f"do_{init_or_cron}_scrape(city=\"{location}\", filepath=\"./html\", sleep_time={sleep_time}, proxies=proxies)\n"
 
     with open(f"{initcron_dir}/{init_or_cron}_scrape.{filetype}", "w") as script:
         script.write(output)

@@ -44,41 +44,6 @@ class CraigslistScraper:
             self.curr_proxy = False
 
 
-    def check_url_status(self, url):
-        """ Checks a url for errors; if there aren't any, returns the Request object of the url; otherwise, 
-            outputs and logs the error
-
-        Parameters
-        ----------
-            url (string)
-
-        Returns
-        ----------
-            Request: the Request object of the parameter url
-        """
-        
-        print(url)
-
-        get_object = get(url, proxies=self.curr_proxy)
-        if get_object.ok:
-            return get_object
-        else:
-            # create an error message
-            error_status = "Error: " + url
-            # get the time and date, for more info about the error/timed out
-            thisdate = date.today()
-            timestamp = time.time()
-            # create a file title (including save path)
-            filetitle = self.filepath + "error_log" + str(thisdate) + str(timestamp)
-            # create a block of text to put in an error log file
-            filetext = error_status + " | " + str(get_object)
-            # prints out the error and time info to the screen
-            print(error_status + ' at ' + str(thisdate) + str(timestamp))
-            # saves a file with error information to the current directory
-            with open(filetitle, 'w') as file:
-                file.write(filetext)
-
-
     def get_page_of_posts(self, url):
         """ Takes the url of a page of search results and returns a dictionary of posts (after removing
             duplicate posts).
@@ -94,9 +59,9 @@ class CraigslistScraper:
                 bool: if scraping is finished (all duplicates or no remaining posts to check)
         """
         
-        print("\nGetting a search result page...")
+        print("\n\nGetting a search result page...")
 
-        page_data = self.check_url_status(url)
+        page_data = get(url, proxies=self.curr_proxy)
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
         posts = html_soup.find_all('li', class_= 'result-row')
         posts = posts if len(posts) <= 120 else posts[:int(html_soup.find(class_="rangeTo").getText())]
@@ -136,7 +101,7 @@ class CraigslistScraper:
                 self.avail_proxies = self.unavail_proxies
                 self.unavail_proxies = []
 
-            proxy_holder = self.avail_proxies.pop()
+            proxy_holder = self.avail_proxies.pop(0)
             self.curr_proxy = {"http": f"http://{user}:{password}@{proxy_holder}", "https": f"http://{user}:{password}@{proxy_holder}"}
             self.unavail_proxies.append(proxy_holder)
             
@@ -179,7 +144,7 @@ class CraigslistScraper:
 
 
     def scrape(self):
-        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)")
+        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n")
 
         # get search pages
         if self.scrape_by_date: self.get_posts_from_today()
