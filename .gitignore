@@ -1,4 +1,8 @@
 *_env
 __pycache__
 */__pycache__
+scripts/cron_scrapers/*.sh
+scripts/cron_scrapers/*.py
+scripts/init_scrapers/*.sh
+scripts/init_scrapers/*.py
 webshare_credentials.py

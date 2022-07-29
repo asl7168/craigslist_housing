@@ -25,7 +25,7 @@ class CraigslistScraper:
     """
 
     def __init__(self, city, filepath: str=None, sleep_time: int=20, scrape_by_date: bool=True, number_of_pages: int=1, proxy: str=None):
-        self.filepath = filepath + "/" + city if filepath else f"./html/{city}"  # this should be where all html documents have BEEN saved
+        self.filepath = filepath + "/" + city if filepath else f"../../html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
         self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
