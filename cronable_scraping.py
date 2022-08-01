@@ -24,8 +24,8 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, city, filepath: str=None, sleep_time: int=20, scrape_by_date: bool=True, number_of_pages: int=1, proxy: str=None):
-        self.filepath = filepath + "/" + city if filepath else f"./html/{city}"  # this should be where all html documents have BEEN saved
+    def __init__(self, city, filepath: str=None, sleep_time: int=20, scrape_by_date: bool=True, number_of_pages: int=1, proxies: list=None):
+        self.filepath = filepath + "/" + city if filepath else f"../../html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
         self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
@@ -36,6 +36,7 @@ class CraigslistScraper:
         self.base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
 
+<<<<<<< HEAD
         if proxy: self.proxy = {"http": f"http://{user}:{password}@{proxy}", "https": f"http://{user}:{password}@{proxy}"}
 
     def check_url_status(self, url):
@@ -71,6 +72,14 @@ class CraigslistScraper:
             # saves a file with error information to the current directory
             with open(filetitle, 'w') as file:
                 file.write(filetext)
+=======
+        if proxies: 
+            self.curr_proxy = dict()
+            self.avail_proxies = proxies
+            self.unavail_proxies = []
+        else: 
+            self.curr_proxy = False
+>>>>>>> 8469b6ec4da47573047110c5ec137d58e16c4d00
 
 
     def get_page_of_posts(self, url):
@@ -88,9 +97,9 @@ class CraigslistScraper:
                 bool: if scraping is finished (all duplicates or no remaining posts to check)
         """
         
-        print("\nGetting a search result page...")
+        print("\n\nGetting a search result page...")
 
-        page_data = self.check_url_status(url)
+        page_data = get(url, proxies=self.curr_proxy)
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
         posts = html_soup.find_all('li', class_= 'result-row')
         posts = posts if len(posts) <= 120 else posts[:int(html_soup.find(class_="rangeTo").getText())]
@@ -126,11 +135,20 @@ class CraigslistScraper:
         """
 
         for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page..."):
+            if not self.avail_proxies:
+                self.avail_proxies = self.unavail_proxies
+                self.unavail_proxies = []
+
+            proxy_holder = self.avail_proxies.pop(0)
+            self.curr_proxy = {"http": f"http://{user}:{password}@{proxy_holder}", "https": f"http://{user}:{password}@{proxy_holder}"}
+            self.unavail_proxies.append(proxy_holder)
+            
             post_id = key
             values = dictionary_of_posts[key]
             url = values[0]
             filename = os.path.join(self.filepath, post_id)
-            raw_html = get(url, proxies=self.proxy)
+            
+            raw_html = get(url, proxies=self.curr_proxy)
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)
 
@@ -147,11 +165,11 @@ class CraigslistScraper:
     def get_posts_from_today(self):
         current_page = 0
         page_url = self.today_base_url
-        total_pages = ceil(float(BeautifulSoup(get(page_url, proxies=self.proxy).text, 'html.parser').find("span", class_="totalcount").text) / 120)
+        total_pages = ceil(float(BeautifulSoup(get(page_url, proxies=self.curr_proxy).text, 'html.parser').find("span", class_="totalcount").text) / 120)
         gpp = self.get_page_of_posts(page_url)
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
-            while get(page_url, proxies=self.proxy).ok:
+            while get(page_url, proxies=self.curr_proxy).ok:
                 if not gpp[1]: break
 
                 current_page_dict = gpp[0]
@@ -164,7 +182,7 @@ class CraigslistScraper:
 
 
     def scrape(self):
-        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)")
+        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n")
 
         # get search pages
         if self.scrape_by_date: self.get_posts_from_today()
@@ -174,21 +192,21 @@ class CraigslistScraper:
 
 
 #%%
-def do_init_scrape(city: str, filepath: str=None, sleep_time: int=20, proxy: str=None):
+def do_init_scrape(city: str, filepath: str=None, sleep_time: int=20, proxies: str=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~{sleep_time * 0.8} hours")
     
-    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, scrape_by_date=False, number_of_pages=30, proxy=proxy)
+    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, scrape_by_date=False, number_of_pages=30, proxies=proxies)
     scraper.scrape()
     
     print("Saving complete.")
 
 
-def do_cron_scrape(city: str, filepath: str=None, sleep_time: int=20, proxy: str=None):
+def do_cron_scrape(city: str, filepath: str=None, sleep_time: int=20, proxies: str=None):
     right_now = str(date.today()) + " " + str(time.time())
     print(f"Started scraping for {city} on: {right_now} | for all posts made today")
     
-    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, proxy=proxy)
+    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, proxies=proxies)
     scraper.scrape()
     
     print("Saving complete.")
