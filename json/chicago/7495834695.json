@@ -5,14 +5,12 @@
  "neighborhood": "Chicago",
  "map_address": "NA",
  "street_address": "NA",
- "latitude": 41.9719,
- "longitude": -87.6624,
+ "latitude": 41.9399,
+ "longitude": -87.6528,
  "data_accuracy": 22,
- "posted": "2022-06-13 15:49",
- "updated": "2022-06-13 15:49",
- "repost_dates": [
-  "2022-06-13 15:49"
- ],
+ "posted": "2022-06-13 00:53",
+ "updated": "NA",
+ "repost_dates": [],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -41,5 +39,5 @@
   "Chicago IL"
  ],
  "images": "NA",
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-why-rent-when-you-can-buy/7496126899.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-why-rent-when-you-can-buy/7495834695.html"
 }

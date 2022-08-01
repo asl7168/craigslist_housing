@@ -8,11 +8,9 @@
  "latitude": 42.015257,
  "longitude": -87.665899,
  "data_accuracy": 5,
- "posted": "2022-06-28 09:33",
+ "posted": "2022-06-23 10:57",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-28 09:33"
- ],
+ "repost_dates": [],
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
@@ -22,7 +20,7 @@
  "sqft": 1700,
  "flooring": "NA",
  "rent_period": "monthly",
- "app_fee": "$60 Application Fee per Applicant",
+ "app_fee": "NA",
  "broker_fee": "NA",
  "cats_ok": true,
  "dogs_ok": "NA",
@@ -53,5 +51,5 @@
   "https://images.craigslist.org/00202_jI8huZnuAB5z_0CI0pQ_600x450.jpg",
   "https://images.craigslist.org/00101_8Mvx1VWACHmz_0CI0pQ_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/nch/apa/d/chicago-large-3br-2bth-in-desirable/7502213414.html"
+ "url": "https://chicago.craigslist.org/nch/apa/d/chicago-large-3br-2bth-in-desirable/7500188693.html"
 }

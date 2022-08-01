@@ -8,20 +8,137 @@ import geopandas
 
 
 def get_data(state,county,tract):
-    r = requests.get('https://api.census.gov/data/2020/acs/acs5/profile?get=DP05_0064PE,DP05_0065PE,DP05_0067PE,DP05_0071PE,DP03_0052PE,DP03_0053PE,DP03_0054PE,DP03_0062E&for=tract:'+tract+'&in=state:'+state+'%20county:'+county+'&key=901e1c41a36cd6bbee390e6cc013021757d66ffd')
+    r_new = requests.get('https://api.census.gov/data/2020/acs/acs5/profile?get=DP05_0064PE,DP05_0065PE,DP05_0067PE,DP05_0071PE,DP03_0119PE,DP03_0062E,DP02_0068PE,DP02_0094PE,DP04_0047PE,DP04_0018PE,DP04_0017PE,DP04_0003PE,DP03_0027PE,DP03_0029PE,DP03_0025E,DP04_0052PE,DP04_0051PE,DP04_0134E,DP02_0114PE&for=tract:'+tract+'&in=state:'+state+'%20county:'+county+'&key=901e1c41a36cd6bbee390e6cc013021757d66ffd')
     try:
-        data = r.json()
+        data = r_new.json()
     except requests.exceptions.JSONDecodeError:
-        return {},{}
-    if(len(data)<100):
-      print(data)
-    race = {}
-    income = {}
+        return {},{},{},{}
+    
+    race,income,other = sort_into_objects(data,True)
+    
+    r_old = requests.get('https://api.census.gov/data/2010/acs/acs5/profile?get=DP05_0059PE,DP05_0060PE,DP05_0062PE,DP05_0066PE,DP03_0119PE,DP03_0062E,DP02_0067PE,DP02_0092PE,DP04_0046PE,DP04_0017PE,DP04_0018PE,DP04_0003PE,DP03_0027PE,DP03_0029PE,DP03_0025E,DP04_0050PE,DP04_0050PE,DP04_0132E,DP02_0112PE&for=tract:'+tract+'&in=state:'+state+'%20county:'+county+'&key=901e1c41a36cd6bbee390e6cc013021757d66ffd')
+    try:
+        data_old = r_old.json()
+    except requests.exceptions.JSONDecodeError:
+        return {},{},{},{}
+    
+    race_old,income_old,other_old = sort_into_objects(data_old,False) 
+    
+    race_diff={}
+    total_income={}
+    total_other={}
+    for key in income.keys():
+      if income.get(key,None) and income_old.get(key,None):
+        race_diff[key]={
+          'white_diff': race[key]['white']-race_old[key]['white'],
+          'black_diff': race[key]['black']-race_old[key]['black'],
+          'asian_diff': race[key]['asian']-race_old[key]['asian'],
+          'latinx_diff': race[key]['latinx']-race_old[key]['latinx'],
+          'white_old': race_old[key]['white'],
+          'black_old': race_old[key]['black'],
+          'asian_old': race_old[key]['asian'],
+          'latinx_old': race_old[key]['latinx']
+        }
+        total_income[key]= {
+          'poverty': income[key]['poverty'],
+          'poverty_diff': income[key]['poverty']-income_old[key]['poverty'],
+          'median_income': income[key]['median_income'],
+          'median_income_diff': income[key]['median_income']-1.19*income_old[key]['median_income'],
+          'poverty_old': income_old[key]['poverty'],
+          'median_income_old': 1.19*income_old[key]['median_income']
+        }
+        total_other[key]={
+          'college': other[key]['college'],
+          'college_diff': other[key]['college']-other_old[key]['college'],
+          'foreignborn': other[key]['foreignborn'],
+          'foreignborn_diff': other[key]['foreignborn']-other_old[key]['foreignborn'],
+          'renteroccupied': other[key]['renteroccupied'],
+          'renteroccupied_diff': other[key]['renteroccupied']-other_old[key]['renteroccupied'],
+          'last10yrs': other[key]['last10yrs'],
+          'last10yrs_diff': other[key]['last10yrs']-other_old[key]['last10yrs'],
+          'vacancy': other[key]['vacancy'],
+          'vacancy_diff': other[key]['vacancy']-other_old[key]['vacancy'],
+          'college_old':other_old[key]['college'],
+          'foreignborn_old':other_old[key]['foreignborn'],
+          'renteroccupied_old':other_old[key]['renteroccupied'],
+          'last10yrs_old':other_old[key]['last10yrs'],
+          'vacancy_old': other_old[key]['vacancy'],
+          'professional':other[key]['professional'],
+          'professional_diff':other[key]['professional']-other_old[key]['professional'],
+          'professional_old':other_old[key]['professional'],
+          'travel_time':other[key]['travel_time'],
+          'travel_time_diff':other[key]['travel_time']-other_old[key]['travel_time'],
+          'travel_time_old':other_old[key]['travel_time'],
+          'new_residents': other[key]['new_residents'],
+          'avg_rent': other[key]['avg_rent'],
+          'non_english': other[key]['non_english'],
+          'new_residents_diff': other[key]['new_residents']-other_old[key]['new_residents'],
+          'avg_rent_diff': other[key]['avg_rent']-1.19*other_old[key]['avg_rent'],
+          'non_english_diff': other[key]['non_english']-other_old[key]['non_english'],
+          'new_residents_old': other_old[key]['new_residents'],
+          'avg_rent_old': 1.19*other_old[key]['avg_rent'],
+          'non_english_old': other_old[key]['non_english']
+        }
+      else:
+        race_diff[key]={
+          'white_diff':'NA',
+          'black_diff':'NA',
+          'asian_diff':'NA',
+          'latinx_diff':'NA',
+          'white_old': 'NA',
+          'black_old': 'NA',
+          'asian_old': 'NA',
+          'latinx_old': 'NA'
+        }
+        total_income[key]={
+          'poverty': income[key]['poverty'],
+          'poverty_diff': 'NA',
+          'median_income': income[key]['median_income'],
+          'median_income_diff':'NA',
+          'poverty_old': 'NA',
+          'median_income_old': 'NA'
+        }
+        total_other[key]={
+          'college': other[key]['college'],
+          'college_diff': 'NA',
+          'foreignborn': other[key]['foreignborn'],
+          'foreignborn_diff': 'NA',
+          'renteroccupied': other[key]['renteroccupied'],
+          'renteroccupied_diff': 'NA',
+          'last10yrs': other[key]['last10yrs'],
+          'last10yrs_diff': 'NA',
+          'vacancy': other[key]['vacancy'],
+          'vacancy_diff': 'NA',
+          'college_old':'NA',
+          'foreignborn_old':'NA',
+          'renteroccupied_old':'NA',
+          'last10yrs_old':'NA',
+          'vacancy_old':'NA',
+          'professional':other[key]['professional'],
+          'professional_diff':'NA',
+          'professional_old':'NA',
+          'travel_time':other[key]['travel_time'],
+          'travel_time_diff':'NA',
+          'travel_time_old':'NA',
+          'new_residents': other[key]['new_residents'],
+          'avg_rent': other[key]['rent_burdened'],
+          'non_english': other[key]['non_english'],
+          'new_residents_diff': 'NA',
+          'avg_rent_diff': 'NA',
+          'non_english_diff': 'NA',
+          'new_residents_old': 'NA',
+          'avg_rent_old': 'NA',
+          'non_english_old': 'NA'
+        }
+    return race,total_income,total_other,race_diff
+
+def sort_into_objects(data,is2020):
+    race={}
+    income={}
+    other={}
     for items in data[1:]:
       
-      name = items[8]+items[9]+items[10]
-      if items[8]== '17' and items[9]=='031' and items[10]=='320100':
-          print("A")
+      name = items[19]+items[20]+items[21]
       race[name] = {
         'white': float(items[0]),
         'black': float(items[1]),
@@ -29,13 +146,25 @@ def get_data(state,county,tract):
         'latinx': float(items[3])
       }
       income[name] = {
-        'poverty': float(items[4])+float(items[5])+float(items[6]),
-        'median_income': float(items[7])
+        'poverty': float(items[4]),
+        'median_income': float(items[5])
       }
-    return race,income
+      other[name] = {
+        'college': float(items[6]),
+        'foreignborn': float(items[7]),
+        'renteroccupied': float(items[8]),
+        'last10yrs': float(items[9])+float(items[10]),
+        'vacancy': float(items[11]),
+        'professional': float(items[12])+float(items[13]),
+        'travel_time': float(items[14]),
+        'new_residents': float(items[15])+float(items[16]) if is2020 else float(items[15]),
+        'avg_rent': float(items[17]),
+        'non_english': float(items[18])
+      }
+    return race,income,other
       
 
-def assign_categories(race,income):
+def assign_categories(race,income,other,race_diff):
     demographics = {}
     for i in race.keys():
         if income[i]['poverty'] > 30:
@@ -48,9 +177,52 @@ def assign_categories(race,income):
           'asian':race[i]['asian'],
           'latinx':race[i]['latinx'],
           'race': max(race[i],key = race[i].get),
+          'white_diff':race_diff[i]['white_diff'],
+          'black_diff':race_diff[i]['black_diff'],
+          'asian_diff':race_diff[i]['asian_diff'],
+          'latinx_diff':race_diff[i]['latinx_diff'],
+          'white_old':race_diff[i]['white_old'],
+          'black_old':race_diff[i]['black_old'],
+          'asian_old':race_diff[i]['asian_old'],
+          'latinx_old':race_diff[i]['latinx_old'],
+          'race_diff': max(race_diff[i],key = race_diff[i].get),
           'below25k':income[i]['poverty'],
           'median_income':income[i]['median_income'],
-          'poverty': poverty
+          'below25k_old':income[i]['poverty_old'],
+          'median_income_old':income[i]['median_income_old'],
+          'poverty': poverty,
+          'college': other[i]['college'],
+          'foreignborn':other[i]['foreignborn'],
+          'renteroccupied':other[i]['renteroccupied'],
+          'last10yrs':other[i]['last10yrs'],
+          'vacancy':other[i]['vacancy'],
+          'below25k_diff':income[i]['poverty_diff'],
+          'median_income_diff':income[i]['median_income_diff'],
+          'college_diff': other[i]['college_diff'],
+          'foreignborn_diff':other[i]['foreignborn_diff'],
+          'renteroccupied_diff':other[i]['renteroccupied_diff'],
+          'last10yrs_diff':other[i]['last10yrs_diff'],
+          'vacancy_diff':other[i]['vacancy_diff'],
+          'college_old': other[i]['college_old'],
+          'foreignborn_old':other[i]['foreignborn_old'],
+          'renteroccupied_old':other[i]['renteroccupied_old'],
+          'last10yrs_old':other[i]['last10yrs_old'],
+          'vacancy_old':other[i]['vacancy_old'],
+          'professional':other[i]['professional'],
+          'professional_diff':other[i]['professional_diff'],
+          'professional_old':other[i]['professional_old'],
+          'travel_time':other[i]['travel_time'],
+          'travel_time_diff':other[i]['travel_time_diff'],
+          'travel_time_old':other[i]['travel_time_old'],
+          'new_residents': other[i]['new_residents'],
+          'avg_rent': other[i]['avg_rent'],
+          'non_english': other[i]['non_english'],
+          'new_residents_diff': other[i]['new_residents_diff'],
+          'avg_rent_diff': other[i]['avg_rent_diff'],
+          'non_english_diff': other[i]['non_english_diff'],
+          'new_residents_old': other[i]['new_residents_old'],
+          'avg_rent_old': other[i]['avg_rent_old'],
+          'non_english_old': other[i]['non_english_old']
         }
     return demographics
 
@@ -81,10 +253,8 @@ def get_geoid(csv_read_path,csv_write_path,states):
     df = geopandas.read_file(csv_write_path)
     geometry = geopandas.points_from_xy(df.longitude, df.latitude,crs = 'EPSG:4269')
     ads = geopandas.GeoDataFrame(data = df,geometry = geometry)
-
     
     for state in states:
-    
       with_typology = state in ['13','17','08','06','53']
     
       map_path = 'GIS_data/'+state+'/tl_2018_'+state+'_tract.shp'
@@ -125,9 +295,52 @@ def add_fields(data,key,demographics,repeat = False):
       d['latinx'] = demographics[d['GEOID']]['latinx']
       d['below25k'] = demographics[d['GEOID']]['below25k']
       d['median_income'] = demographics[d['GEOID']]['median_income']
+      d['college'] = demographics[d['GEOID']]['college']
+      d['foreignborn'] = demographics[d['GEOID']]['foreignborn']
+      d['renteroccupied'] = demographics[d['GEOID']]['renteroccupied']
+      d['last10yrs'] = demographics[d['GEOID']]['last10yrs']
+      d['vacancy'] = demographics[d['GEOID']]['vacancy']
+      d['race_diff'] = demographics[d['GEOID']]['race_diff']
+      d['white_diff'] = demographics[d['GEOID']]['white_diff']
+      d['black_diff'] = demographics[d['GEOID']]['black_diff']
+      d['asian_diff'] = demographics[d['GEOID']]['asian_diff']
+      d['latinx_diff'] = demographics[d['GEOID']]['latinx_diff']
+      d['below25k_diff'] = demographics[d['GEOID']]['below25k_diff']
+      d['median_income_diff'] = demographics[d['GEOID']]['median_income_diff']
+      d['college_diff'] = demographics[d['GEOID']]['college_diff']
+      d['foreignborn_diff'] = demographics[d['GEOID']]['foreignborn_diff']
+      d['renteroccupied_diff'] = demographics[d['GEOID']]['renteroccupied_diff']
+      d['last10yrs_diff'] = demographics[d['GEOID']]['last10yrs_diff']
+      d['vacancy_diff'] = demographics[d['GEOID']]['vacancy_diff']
+      d['white_old'] = demographics[d['GEOID']]['white_old']
+      d['black_old'] = demographics[d['GEOID']]['black_old']
+      d['asian_old'] = demographics[d['GEOID']]['asian_old']
+      d['latinx_old'] = demographics[d['GEOID']]['latinx_old']
+      d['below25k_old'] = demographics[d['GEOID']]['below25k_old']
+      d['median_income_old'] = demographics[d['GEOID']]['median_income_old']
+      d['college_old'] = demographics[d['GEOID']]['college_old']
+      d['foreignborn_old'] = demographics[d['GEOID']]['foreignborn_old']
+      d['renteroccupied_old'] = demographics[d['GEOID']]['renteroccupied_old']
+      d['last10yrs_old'] = demographics[d['GEOID']]['last10yrs_old']
+      d['vacancy_old'] = demographics[d['GEOID']]['vacancy_old']
+      d['professional'] = demographics[d['GEOID']]['professional']
+      d['professional_old'] = demographics[d['GEOID']]['professional_old']
+      d['professional_diff'] = demographics[d['GEOID']]['professional_diff']
+      d['travel_time'] = demographics[d['GEOID']]['travel_time']
+      d['travel_time_old'] = demographics[d['GEOID']]['travel_time_old']
+      d['travel_time_diff'] = demographics[d['GEOID']]['travel_time_diff']
+      d['new_residents'] = demographics[d['GEOID']]['new_residents']
+      d['new_residents_diff'] = demographics[d['GEOID']]['new_residents_diff']
+      d['new_residents_old'] = demographics[d['GEOID']]['new_residents_old']
+      d['non_english'] = demographics[d['GEOID']]['non_english']
+      d['non_english_diff'] = demographics[d['GEOID']]['non_english_diff']
+      d['non_english_old'] = demographics[d['GEOID']]['non_english_old']
+      d['avg_rent'] = demographics[d['GEOID']]['avg_rent']
+      d['avg_rent_diff'] = demographics[d['GEOID']]['avg_rent_diff']
+      d['avg_rent_old'] = demographics[d['GEOID']]['avg_rent_old']
     elif d.get('GEOID') and not repeat:
-      temp_race,temp_income = get_data(d['GEOID'][:2],d['GEOID'][2:5],d['GEOID'][5:])
-      temp_demographics = assign_categories(temp_race,temp_income)
+      temp_race,temp_income,temp_other,temp_race_diff = get_data(d['GEOID'][:2],d['GEOID'][2:5],d['GEOID'][5:])
+      temp_demographics = assign_categories(temp_race,temp_income,temp_other,temp_race_diff)
       d = add_fields(data,key,temp_demographics,repeat = True)
     else:
       d['poverty'] = 'NA'
@@ -138,6 +351,49 @@ def add_fields(data,key,demographics,repeat = False):
       d['latinx'] = 'NA'
       d['below25k'] = 'NA'
       d['median_income'] = 'NA'
+      d['college'] = 'NA'
+      d['foreignborn'] = 'NA'
+      d['renteroccupied'] = 'NA'
+      d['last10yrs'] = 'NA'
+      d['vacancy'] = 'NA'
+      d['white_diff'] = 'NA'
+      d['black_diff'] = 'NA'
+      d['asian_diff'] = 'NA'
+      d['latinx_diff'] = 'NA'
+      d['race_diff'] = 'NA'
+      d['below25k_diff'] = 'NA'
+      d['median_income_diff'] = 'NA'
+      d['college_diff'] = 'NA'
+      d['foreignborn_diff'] = 'NA'
+      d['renteroccupied_diff'] = 'NA'
+      d['last10yrs_diff'] = 'NA'
+      d['vacancy_diff'] = 'NA'
+      d['white_old'] = 'NA'
+      d['black_old'] = 'NA'
+      d['asian_old'] = 'NA'
+      d['latinx_old'] = 'NA'
+      d['below25k_old'] = 'NA'
+      d['median_income_old'] = 'NA'
+      d['college_old'] = 'NA'
+      d['foreignborn_old'] = 'NA'
+      d['renteroccupied_old'] = 'NA'
+      d['last10yrs_old'] = 'NA'
+      d['vacancy_old'] = 'NA'
+      d['professional'] = 'NA'
+      d['professional_old'] = 'NA'
+      d['professional_diff'] = 'NA'
+      d['travel_time'] = 'NA'
+      d['travel_time_old'] = 'NA'
+      d['travel_time_diff'] = 'NA'
+      d['new_residents'] = 'NA'
+      d['new_residents_diff'] = 'NA'
+      d['new_residents_old'] = 'NA'
+      d['non_english'] = 'NA'
+      d['non_english_diff'] = 'NA'
+      d['non_english_old'] = 'NA'
+      d['avg_rent'] ='NA'
+      d['avg_rent_diff'] = 'NA'
+      d['avg_rent_old'] = 'NA'
     return d
       
 def get_demographics(metro_area,states):
@@ -145,8 +401,8 @@ def get_demographics(metro_area,states):
   csv_write = 'csv_dumps/'+metro_area+'_filtered.csv'
   demographics={}
   for state in states:
-    race,income = get_data(state,'*','*')
-    demographics_state = assign_categories(race,income)
+    race,income,other,race_diff = get_data(state,'*','*')
+    demographics_state = assign_categories(race,income,other,race_diff)
     demographics.update(demographics_state)
   data = get_geoid(csv_read,csv_write,states)
   

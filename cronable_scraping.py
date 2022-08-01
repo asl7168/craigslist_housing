@@ -16,7 +16,7 @@ import time, os
 from bs4 import BeautifulSoup
 from tqdm import tqdm, trange
 from math import ceil
-
+from webshare_credentials import user, password
 
 # note: any instance of the number 120 (being added, or dividing by) is due to Craigslist returning 120 results per page
 class CraigslistScraper:
@@ -36,7 +36,7 @@ class CraigslistScraper:
         self.base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
 
-        if proxy: self.proxy = {"http": proxy, "https": proxy}
+        if proxy: self.proxy = {"http": f"http://{user}:{password}@{proxy}", "https": f"http://{user}:{password}@{proxy}"}
 
     def check_url_status(self, url):
         """ Checks a url for errors; if there aren't any, returns the Request object of the url; otherwise, 

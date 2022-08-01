@@ -8,12 +8,10 @@
  "latitude": 41.833141,
  "longitude": -87.679283,
  "data_accuracy": 5,
- "posted": "2022-06-27 21:29",
+ "posted": "2022-06-16 23:42",
  "updated": "NA",
- "repost_dates": [
-  "2022-06-27 21:29"
- ],
- "available": "NA",
+ "repost_dates": [],
+ "available": "2022-06-16",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -63,5 +61,5 @@
   "https://images.craigslist.org/00u0u_dAUryHwOoZaz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00404_jSwTwAzNES7z_0CI0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3br-in-mckinley-park-recently/7502098256.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3br-in-mckinley-park-recently/7497568445.html"
 }

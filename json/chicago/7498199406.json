@@ -8,12 +8,10 @@
  "latitude": 41.9909,
  "longitude": -87.6629,
  "data_accuracy": 22,
- "posted": "2022-06-25 11:03",
- "updated": "2022-06-25 12:18",
- "repost_dates": [
-  "2022-06-25 11:03"
- ],
- "available": "NA",
+ "posted": "2022-06-18 13:04",
+ "updated": "2022-06-18 13:20",
+ "repost_dates": [],
+ "available": "2022-06-19",
  "housing_type": "apartment",
  "bedrooms": 1,
  "bathrooms": 1.0,
@@ -46,11 +44,10 @@
   "Use of backyard area not included",
   "Includes free use of washer/dryer.",
   "Street parking always available.",
-  "Utilities are an additional flat-fee of $200 for one person, or $250 for two.",
+  "Utilities are an additional flat-fee of $225 for one person, or $275 for two.",
   " ",
   "That includes all electricty, heating, cooling, and water.",
-  " Heating a place with cathedral ceilings and skylights is not cheap.",
-  " Internet and TV/cable is the responsibility of the tenant, if desired."
+  " Internet and TV/cable is the resonsibility of the tenant, if desired."
  ],
  "images": [
   "https://images.craigslist.org/00909_8tjOmTMRqAqz_0t20CI_600x450.jpg",
@@ -75,5 +72,5 @@
   "https://images.craigslist.org/00h0h_8ICxKMEZVoSz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00s0s_jAzPjCBykCVz_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxury-bedroom-with-oversized/7501055960.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxury-bedroom-with-oversized/7498199406.html"
 }

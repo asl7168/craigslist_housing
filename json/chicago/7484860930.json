@@ -1,19 +1,19 @@
 {
  "post_id": 7484860930,
- "title": "3 bd/br - South Loop",
- "price": 3395,
+ "title": "3 bd - South Loop - Especially Ideal for Students & Families",
+ "price": 3495,
  "neighborhood": "South Loop",
  "map_address": "1115 S Plymouth CT Apt 113",
  "street_address": "1115 S Plymouth CT Apt 113",
  "latitude": 41.869694,
  "longitude": -87.628636,
  "data_accuracy": 10,
- "posted": "2022-06-17 11:16",
- "updated": "2022-06-18 15:21",
+ "posted": "2022-06-14 12:27",
+ "updated": "NA",
  "repost_dates": [
-  "2022-06-17 11:16"
+  "2022-06-14 12:27"
  ],
- "available": "2022-07-01",
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -24,8 +24,8 @@
  "rent_period": "monthly",
  "app_fee": "$600 move-in + $200 administrative fee = $800",
  "broker_fee": "$30 application fee",
- "cats_ok": "NA",
- "dogs_ok": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
  "no_smoking": true,
  "furnished": "NA",
  "wheelchair_access": true,
@@ -71,5 +71,5 @@
   "https://images.craigslist.org/00202_64wEP2LeNH5z_0e50eO_600x450.jpg",
   "https://images.craigslist.org/00L0L_3dRW67cZ71dz_0nb0ii_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bd-br-south-loop/7497715166.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-bd-south-loop-especially-ideal/7496463553.html"
 }
