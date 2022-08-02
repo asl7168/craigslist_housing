@@ -30,8 +30,6 @@ class CraigslistScraper:
         self.filepath = filepath + "/" + city if filepath else f"../../html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
-        # quick Google says 0.015s is the min for an avg spec Windows PC
-        self.sleep_time = 20 / len(proxies) if 20 / len(proxies) > 0.015 else 0.015  
         self.scrape_by_date = scrape_by_date
         self.number_of_pages = number_of_pages
 
@@ -40,10 +38,13 @@ class CraigslistScraper:
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
 
         if proxies: 
+            self.sleep_time = 20 / len(proxies) if 20 / len(proxies) > 0.015 else 0.015  # ~0.015s is the min for an avg spec Win PC
+            
             self.curr_proxy = True
             self.avail_proxies = proxies
             self.unavail_proxies = []
         else: 
+            self.sleep_time = 20  # defaults to 20  
             self.curr_proxy = False
 
 
