@@ -8,10 +8,12 @@
  "latitude": 41.900432,
  "longitude": -87.678381,
  "data_accuracy": 10,
- "posted": "2022-06-12 13:40",
- "updated": "2022-06-12 13:43",
- "repost_dates": [],
- "available": "2022-08-01",
+ "posted": "2022-07-27 10:45",
+ "updated": "2022-07-27 10:50",
+ "repost_dates": [
+  "2022-07-27 10:45"
+ ],
+ "available": "2022-09-01",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -30,6 +32,7 @@
  "AC": true,
  "EV_charging": "NA",
  "posting_body": [
+  "*** September 1st lease with early move-in (mid August) available ***",
   "Beautifully restored vintage 3 bedroom 1 bath \u201cowner\u2019s unit\u201d in gorgeous vintage walk-up on historic tree-lined street in sought-after East Ukrainian Village.",
   "This 3rd floor apartment in a four-unit building has lots of refinement and loads of character!",
   "In this top floor apartment you\u2019ll enjoy lots of natural light; perfect for a variety of houseplants.",
@@ -52,8 +55,9 @@
   "easy street parking",
   "BUILDING IS NO SMOKING, NO PETS (no exceptions)",
   "$2650 per month",
-  "$300/tenant non-refundable move-in fee",
-  "$35/applicant application fee",
+  "12 month lease",
+  "$300 per tenant non-refundable move-in fee",
+  "$35 per applicant application fee",
   "background, credit and reference checks required"
  ],
  "images": [
@@ -73,5 +77,5 @@
   "https://images.craigslist.org/00H0H_hbN17XFcIIMz_0ev09G_600x450.jpg",
   "https://images.craigslist.org/00m0m_1kSBoKEXXsTz_0iN0t2_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3rd-floor-bedroom-bath/7495640208.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-3rd-floor-bedroom-bath/7513999229.html"
 }

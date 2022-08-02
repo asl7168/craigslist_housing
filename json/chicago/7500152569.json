@@ -8,9 +8,11 @@
  "latitude": 41.891732,
  "longitude": -87.628252,
  "data_accuracy": 15,
- "posted": "2022-06-23 09:48",
+ "posted": "2022-07-20 10:37",
  "updated": "NA",
- "repost_dates": [],
+ "repost_dates": [
+  "2022-07-20 10:37"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
@@ -63,5 +65,5 @@
   "https://images.craigslist.org/00N0N_e01Z2UVJMVBz_0ak099_600x450.jpg",
   "https://images.craigslist.org/00s0s_8Ql9cYrei52z_0ak099_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxurious-two-bedroom-two-bath/7500152569.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-luxurious-two-bedroom-two-bath/7511143202.html"
 }

@@ -1,16 +1,18 @@
 {
  "post_id": 7497258945,
  "title": "Pets Welcome! We accept indoor cats and dogs! Ask for details!",
- "price": 1400,
+ "price": 1499,
  "neighborhood": "Lombard",
  "map_address": "830 Foxworth Blvd",
  "street_address": "830 Foxworth Blvd",
  "latitude": 41.846154,
  "longitude": -88.030746,
  "data_accuracy": 10,
- "posted": "2022-06-16 10:19",
+ "posted": "2022-07-19 11:45",
  "updated": "NA",
- "repost_dates": [],
+ "repost_dates": [
+  "2022-07-19 11:45"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -117,5 +119,5 @@
   "https://images.craigslist.org/00B0B_8c5kxQFUvmVz_0jm0aT_600x450.jpg",
   "https://images.craigslist.org/00G0G_bWRpZcCGbzoz_0uY0kE_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/nwc/apa/d/glen-ellyn-pets-welcome-we-accept/7497258945.html"
+ "url": "https://chicago.craigslist.org/nwc/apa/d/glen-ellyn-pets-welcome-we-accept/7510751973.html"
 }

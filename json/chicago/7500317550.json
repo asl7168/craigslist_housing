@@ -5,13 +5,15 @@
  "neighborhood": "Chicago",
  "map_address": "21st Street near Kildare",
  "street_address": "21st Street ",
- "latitude": 41.782743,
- "longitude": -88.28971,
+ "latitude": 41.853432,
+ "longitude": -87.732055,
  "data_accuracy": 15,
- "posted": "2022-06-23 14:55",
- "updated": "2022-06-26 16:55",
- "repost_dates": [],
- "available": "2022-07-01",
+ "posted": "2022-07-24 14:42",
+ "updated": "2022-07-24 14:42",
+ "repost_dates": [
+  "2022-07-24 14:42"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
  "bathrooms": 1.0,
@@ -31,17 +33,17 @@
  "EV_charging": "NA",
  "posting_body": [
   "Qualifying Applicants:",
-  "No smokers only, no pets;",
+  "Non-smokers only, no pets;",
   "Minimum credit score 600;",
-  "Household income must be at least 3 times monthly rent, unverificable income will not be considered;",
+  "Household income must be at least 3 times monthly rent, unverifiable income will not be considered;",
   "Must complete rental application and employment verification form;",
   "No prior evictions or unpaid landlord judgements;",
   "Positive references from previous landlords;",
-  "Credit / Background check;",
+  "Credit / Criminal Background check;",
   "Photo I.D. and Valid SSN;",
   "Security Deposit.",
   "Tenants pays electric and cooking gas.",
-  "Please call."
+  "IF INTERESTED, PLEASE CALL, NO EMAILS: 224-764-0246"
  ],
  "images": [
   "https://images.craigslist.org/00I0I_79xrA0xtaRPz_0CI0t2_600x450.jpg",
@@ -56,5 +58,5 @@
   "https://images.craigslist.org/00R0R_5cU2l4adxNYz_0CI0t2_600x450.jpg",
   "https://images.craigslist.org/00e0e_1lTek3But1oz_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/aurora-steps-from-the-pink-line/7500317550.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-steps-from-the-pink-line/7512869039.html"
 }

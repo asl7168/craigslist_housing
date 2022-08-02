@@ -8,10 +8,12 @@
  "latitude": 41.974647,
  "longitude": -87.676595,
  "data_accuracy": 5,
- "posted": "2022-06-20 10:41",
- "updated": "2022-06-21 08:11",
- "repost_dates": [],
- "available": "2022-08-01",
+ "posted": "2022-07-25 07:45",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-07-25 07:45"
+ ],
+ "available": "2022-07-25",
  "housing_type": "condo",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -72,7 +74,11 @@
   "https://images.craigslist.org/00W0W_jZbS97E0exiz_0gw0co_600x450.jpg",
   "https://images.craigslist.org/00R0R_dc9OmuwNUTqz_0gw0co_600x450.jpg",
   "https://images.craigslist.org/00H0H_fPDfUzvsedaz_0gw0ch_600x450.jpg",
-  "https://images.craigslist.org/00505_iDGC99vpqfvz_0gw0co_600x450.jpg"
+  "https://images.craigslist.org/00505_iDGC99vpqfvz_0gw0co_600x450.jpg",
+  "https://images.craigslist.org/00O0O_1B1NSqhQVYdz_0gw0co_600x450.jpg",
+  "https://images.craigslist.org/00f0f_iLgKsiRWrgmz_0gw0ch_600x450.jpg",
+  "https://images.craigslist.org/00T0T_3IfPDNsWBB9z_0gw0co_600x450.jpg",
+  "https://images.craigslist.org/00000_5d3G12VbiDVz_0gw0bS_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-free-heat-in-ravenswood-modern/7498848861.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-free-heat-in-ravenswood-modern/7513070020.html"
 }

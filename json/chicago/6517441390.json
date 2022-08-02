@@ -1,17 +1,17 @@
 {
  "post_id": 6517441390,
  "title": "FOUR STORY ELEVATOR BUILDING",
- "price": 729,
+ "price": 740,
  "neighborhood": "EDGEWATER/Loyola  University",
- "map_address": "NA",
- "street_address": "NA",
- "latitude": 41.9909,
- "longitude": -87.6629,
- "data_accuracy": 22,
- "posted": "2022-06-23 11:28",
- "updated": "NA",
+ "map_address": "5830 N.Kenmore",
+ "street_address": "5830 N.Kenmore",
+ "latitude": 41.988267,
+ "longitude": -87.657079,
+ "data_accuracy": 10,
+ "posted": "2022-07-25 16:46",
+ "updated": "2022-07-25 16:46",
  "repost_dates": [
-  "2022-06-23 11:28"
+  "2022-07-25 16:46"
  ],
  "available": "NA",
  "housing_type": "apartment",
@@ -49,11 +49,11 @@
  ],
  "images": [
   "https://images.craigslist.org/00m0m_kd0Fg7OSShMz_0bC0fu_600x450.jpg",
+  "https://images.craigslist.org/00o0o_4eLWmxSdElcz_0bC0fu_600x450.jpg",
   "https://images.craigslist.org/01313_iLbRdmyNeVGz_0bC0fu_600x450.jpg",
   "https://images.craigslist.org/00w0w_24IaW7iJaSgz_0bC0fu_600x450.jpg",
-  "https://images.craigslist.org/00a0a_lcXLU551fLKz_0Du0QE_600x450.jpg",
-  "https://images.craigslist.org/01717_5pNZF7dn1jQz_0Du0QE_600x450.jpg",
-  "https://images.craigslist.org/01111_lMeP2j1LAJgz_0Du0QE_600x450.jpg"
+  "https://images.craigslist.org/01111_lMeP2j1LAJgz_0Du0QE_600x450.jpg",
+  "https://images.craigslist.org/01717_5pNZF7dn1jQz_0Du0QE_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-four-story-elevator-building/7500206503.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-four-story-elevator-building/7513336290.html"
 }

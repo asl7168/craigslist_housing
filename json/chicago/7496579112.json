@@ -8,9 +8,11 @@
  "latitude": 41.9019,
  "longitude": -87.6779,
  "data_accuracy": 22,
- "posted": "2022-06-14 16:11",
- "updated": "2022-06-15 10:16",
- "repost_dates": [],
+ "posted": "2022-07-17 06:59",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-07-17 06:59"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -66,5 +68,5 @@
   "https://images.craigslist.org/00v0v_1lzvigROCFNz_0ew09G_600x450.jpg",
   "https://images.craigslist.org/00y0y_5QEQH0kj3dAz_0ew09G_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wicker-park-studio-charming-and/7496579112.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-wicker-park-studio-charming-and/7509822818.html"
 }

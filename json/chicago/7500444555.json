@@ -2,16 +2,18 @@
  "post_id": 7500444555,
  "title": "BUENA PARK STUDIO UPDATED KITCHEN Only Pay Electric! Cats OK",
  "price": 1000,
- "neighborhood": "Buena Park",
- "map_address": "4241 North Kenmore near Buena",
- "street_address": "4241 North Kenmore ",
- "latitude": 41.959458,
- "longitude": -87.656455,
+ "neighborhood": "CHICAGO",
+ "map_address": "4116 N Sheridan",
+ "street_address": "4116 N Sheridan",
+ "latitude": 41.956999,
+ "longitude": -87.654788,
  "data_accuracy": 10,
- "posted": "2022-06-23 20:13",
+ "posted": "2022-07-25 10:14",
  "updated": "NA",
- "repost_dates": [],
- "available": "2022-08-01",
+ "repost_dates": [
+  "2022-07-25 10:14"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
  "bathrooms": 1.0,
@@ -20,7 +22,7 @@
  "sqft": "NA",
  "flooring": "NA",
  "rent_period": "monthly",
- "app_fee": "NA",
+ "app_fee": "60",
  "broker_fee": "NA",
  "cats_ok": true,
  "dogs_ok": "NA",
@@ -66,7 +68,6 @@
   "Daniel Ennion",
   "Broker 881730",
   "Square One Realty",
-  "(781) 799 9750",
   "hellosq1.com"
  ],
  "images": [
@@ -78,5 +79,5 @@
   "https://images.craigslist.org/00707_2dANSaEZsNcz_0g80c6_600x450.jpg",
   "https://images.craigslist.org/01616_aEx5wHCo29Mz_0g80c6_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-buena-park-studio-updated/7500444555.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-buena-park-studio-updated/7513132976.html"
 }

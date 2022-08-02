@@ -1,16 +1,18 @@
 {
  "post_id": 7497695661,
- "title": "Newly remodeled studio in full amenity building- Lincoln Park - $1,600",
- "price": 1600,
+ "title": "Newly remodeled studio in full amenity building- Lincoln Park - $1,500",
+ "price": 1500,
  "neighborhood": "Lincoln Park",
  "map_address": "Lakeview near Wrightwood",
  "street_address": "Lakeview ",
  "latitude": 41.930938,
  "longitude": -87.639935,
  "data_accuracy": 5,
- "posted": "2022-06-17 10:42",
+ "posted": "2022-07-19 20:15",
  "updated": "NA",
- "repost_dates": [],
+ "repost_dates": [
+  "2022-07-19 20:15"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 0,
@@ -48,5 +50,5 @@
   "https://images.craigslist.org/00c0c_dWU4HS7OFzBz_0q80hq_600x450.jpg",
   "https://images.craigslist.org/00S0S_3MbjUTpBYVGz_0q80hq_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-newly-remodeled-studio-in-full/7497695661.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-newly-remodeled-studio-in-full/7510981066.html"
 }

@@ -1,17 +1,19 @@
 {
  "post_id": 7496727627,
  "title": "BEAUTIFUL LOGAN SQUARE 2 BEDROOM~SS, Modern,W/D,Gym,Near Blue line!",
- "price": 3100,
+ "price": 3095,
  "neighborhood": "Logan Square",
  "map_address": "campbell near milwaukee",
  "street_address": "campbell ",
  "latitude": 41.918032,
  "longitude": -87.689355,
  "data_accuracy": 15,
- "posted": "2022-06-15 01:35",
+ "posted": "2022-07-25 01:27",
  "updated": "NA",
- "repost_dates": [],
- "available": "2022-06-16",
+ "repost_dates": [
+  "2022-07-25 01:27"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -32,7 +34,7 @@
  "posting_body": [
   "PROPERTY INFO",
   "ID: 250830468",
-  "Rent: $3,100 / Month",
+  "Rent: $3,095 / Month",
   "Beds: 2",
   "Bath: 2",
   "[[",
@@ -96,5 +98,5 @@
   "https://images.craigslist.org/00e0e_5P8RAzSc24jz_09205R_600x450.jpg",
   "https://images.craigslist.org/00o0o_aNMacKqYffPz_07K051_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-logan-square/7496727627.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-logan-square/7513033513.html"
 }

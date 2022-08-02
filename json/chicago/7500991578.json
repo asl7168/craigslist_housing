@@ -8,9 +8,11 @@
  "latitude": 41.976431,
  "longitude": -87.665056,
  "data_accuracy": 15,
- "posted": "2022-06-25 08:44",
+ "posted": "2022-07-19 11:36",
  "updated": "NA",
- "repost_dates": [],
+ "repost_dates": [
+  "2022-07-19 11:36"
+ ],
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 1,
@@ -49,7 +51,8 @@
   "https://images.craigslist.org/00X0X_apwaOPX09D4z_0cU08B_600x450.jpg",
   "https://images.craigslist.org/00202_cqu84v1Yilez_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00i0i_4eoshc5SgzFz_0t20CI_600x450.jpg",
-  "https://images.craigslist.org/00x0x_fMXJaLT20toz_0t20CI_600x450.jpg"
+  "https://images.craigslist.org/00x0x_fMXJaLT20toz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/01717_kcArjvSvc36z_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/chc/apa/d/chicago-rare-bedroom-in-heart-of/7500991578.html"
+ "url": "https://chicago.craigslist.org/chc/apa/d/chicago-rare-bedroom-in-heart-of/7510747301.html"
 }

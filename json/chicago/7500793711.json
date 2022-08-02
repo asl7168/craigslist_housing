@@ -8,10 +8,12 @@
  "latitude": 41.872731,
  "longitude": -87.779257,
  "data_accuracy": 15,
- "posted": "2022-06-24 16:18",
- "updated": "NA",
- "repost_dates": [],
- "available": "2022-08-01",
+ "posted": "2022-07-20 19:29",
+ "updated": "2022-07-20 19:29",
+ "repost_dates": [
+  "2022-07-20 19:29"
+ ],
+ "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
  "bathrooms": 1.0,
@@ -46,5 +48,5 @@
   "https://images.craigslist.org/00y0y_dEw5ox7ardvz_0t20CI_600x450.jpg",
   "https://images.craigslist.org/00u0u_eUQfuBqlqoaz_0t20CI_600x450.jpg"
  ],
- "url": "https://chicago.craigslist.org/wcl/apa/d/oak-park-oak-park-arts-district/7500793711.html"
+ "url": "https://chicago.craigslist.org/wcl/apa/d/oak-park-oak-park-arts-district/7511385930.html"
 }
