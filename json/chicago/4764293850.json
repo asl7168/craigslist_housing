@@ -1,0 +1,50 @@
+{
+ "post_id": 4764293850,
+ "title": "Downers Grove",
+ "price": "NA",
+ "neighborhood": "One Block to Train",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 41.8034,
+ "longitude": -88.0138,
+ "data_accuracy": 22,
+ "posted": "2022-07-23 08:41",
+ "updated": "2022-07-23 08:43",
+ "repost_dates": [
+  "2022-07-23 08:41"
+ ],
+ "available": "2022-09-01",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "off-street parking",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "One-bedroom apartment in clean quiet building.",
+  " Approx.",
+  "680 square feet.",
+  " Close to train.",
+  " Heat, water and trash included.",
+  " No Smoking No Pets.",
+  " Please call 630-961-3151 for additional information."
+ ],
+ "images": [
+  "https://images.craigslist.org/00808_44oST37Hv0lz_0pO0jm_600x450.jpg",
+  "https://images.craigslist.org/00i0i_90R1kn0BBgcz_0pO0jm_600x450.jpg",
+  "https://images.craigslist.org/00J0J_6Ru5ll5fCk5z_0jm0pO_600x450.jpg",
+  "https://images.craigslist.org/00i0i_8VBfuCLLtALz_0jm0pO_600x450.jpg"
+ ],
+ "url": "https://chicago.craigslist.org/wcl/apa/d/downers-grove-downers-grove/7512340166.html"
+}
