@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="1 bedroom going FAST! Get yours NOW! - apts/housing for rent -...">
+	<meta name="description" content="Alton Green Apartments in Denver, CO Alton Green Apartments in Denver, Colorado offers peaceful, secluded living just minutes from the urban vibe of Cherry Creek Shopping Center or an easy commute...">
+	<meta property="og:description" content="Alton Green Apartments in Denver, CO Alton Green Apartments in Denver, Colorado offers peaceful, secluded living just minutes from the urban vibe of Cherry Creek Shopping Center or an easy commute...">
+	<meta property="og:url" content="https://denver.craigslist.org/apa/d/denver-bedroom-going-fast-get-yours-now/7516113224.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 15-Sep-22 14:23:19 MDT">
+	<meta name="geo.position" content="39.697100;-104.881900">
+	<meta name="ICBM" content="39.697100, -104.881900">
+	<meta name="geo.placename" content="Denver">
+	<meta name="geo.region" content="US-CO">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>1 bedroom going FAST! Get yours NOW! - apts/housing for rent -...</title>
+	<link rel="canonical" href="https://denver.craigslist.org/apa/d/denver-bedroom-going-fast-get-yours-now/7516113224.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"denver.craigslist.org","@id":"https://denver.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://denver.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://denver.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"1 bedroom going FAST! Get yours NOW!","@id":"https://denver.craigslist.org/apa/d/denver-bedroom-going-fast-get-yours-now/7516113224.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-104.881900","name":"1 bedroom going FAST! Get yours NOW!","@context":"http://schema.org","latitude":"39.697100","numberOfBathroomsTotal":1,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Denver","postalCode":"80247","addressRegion":"CO","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516113224
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">denver</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/den">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+denver            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/den/apa/7516113224/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-01T14:19:19-0600">
+                        2022-08-01 14:19
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,559</span> <span class="housing">/ 1br - </span><span id="titletextonly">1 bedroom going FAST! Get yours NOW!</span><small> (Denver)</small>    </span>
+</h1>
+<section class="userbody">
+    
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="39.697100" data-longitude="-104.881900" data-accuracy="22"></div>
+    
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-08-01" data-today_msg="available now">available aug 1</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>detached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://denver.craigslist.org/apa/d/denver-bedroom-going-fast-get-yours-now/7516113224.html"></div>
+        </div>
+<br><b>Alton Green Apartments in Denver, CO</b><br> Alton Green Apartments in Denver, Colorado offers peaceful, secluded living just minutes from the urban vibe of Cherry Creek Shopping Center or an easy commute to Downtown Denver or the Denver Tech Center. You'll be wonderfully close to some of the city's best shopping centers, boutique shopping, dining, coffee shops and more. Or, if you'd rather walk or ride than shop, we're located along the beautiful Highline Canal Trail, just minutes from several parks and the Cherry Creek Reservoir. Alton Green is in the Cherry Creek School District and is located in close proximity to the Bel-Rea Institute. Our welcoming neighborhood will make you feel at home, and our unprecedented commitment to service will keep you happy to live here, long after you move in. <br><br>All of our one and two bedroom apartments are newly renovated and feature contemporary stainless steel appliances with espresso cabinetry or modern black appliances with oak cabinetry, lighting, and plumbing, two-tone paint, and brushed nickel finishes for a sleek, modern look. Our residents enjoy our exceptionally spacious floor plans - some of the largest in the area - which feature sunny over-sized windows, huge walk-in closets, central heat and air conditioning, high-speed internet capability, and the convenience of a full-size washer/dryer set. We've added wood-burning fireplaces to keep things cozy and a private patio or balcony with extra storage for your enjoyment (available in most homes). <br><br>Just outside your door you'll find lush, mature landscaping, and plenty of amenities: a beautiful clubhouse with an executive business center, complete with free wi-fi, printer, and fax; delicious coffee and tea at our Starbucks coffee bar, 24-hour fitness center, complimentary tanning booth, off-leash dog park, and sparkling pool and spa. We are only minutes away from plenty of shopping and restaurants, and pets are welcome (call for details). Come visit us in person; we'll be happy to show you around. After you have moved into Alton Green, be sure to take advantage of our resident referral program and get paid to choose your own neighbors! <br><br>Our leasing office is conveniently open during the week from 9am to 6pm Monday through Friday and from 10am to 5pm on Saturdays to assist you in any way we can. We invite you to preview our community by viewing our photo gallery. Schedule a personalized tour of apartments by calling  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/den/apa/7516113224/__SERVICE_ID__" rel="nofollow">show contact info</a>
+, or stop by Alton Green Apartments today and see why so many other people chose us as their place to call home! <br><br><hr> Call Now: <b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/den/apa/7516113224/__SERVICE_ID__" rel="nofollow">show contact info</a>
+</b><br><br><br>See our property details here:<br>https://leasing.amcllc.net/03vrxb<br><br><br> This is a 1 Bedroom, 1 Bath, approximately 780 Sq. Ft. <br><br><b>Features</b><br> - Enjoy newly renovated interior upgrades <br> - All newer Electric Appliances <br> - Updated Lighting Fixtures <br> - Brushed Nickel Hardware <br> - Ceiling Fan <br> - Two Tone Paint <br> - W/D Included <br> - Updated Plumbing Fixtures <br> - Oversized Windows <br> - Espresso Cabinetry <br> - Stainless Steel Appliances* <br> - Central A/C &amp; Heat <br> - Berber Carpet <br> - Black Appliances* <br> - Huge Walk-In Closets <br> - Private Patio / Balcony * <br> - Custom Wood-Burning Fireplaces <br>*Select units only <br><br><b>Community Amenities</b><br> - Online Payments Accepted <br> - Cherry Creek School District <br> - Recycling bins located throughout the community <br> - 24-Hour Package Pick-Up <br> - Secluded Living <br> - Resident BBQ Area <br> - Sparkling Pool &amp; Spa <br> - Internet Lounge <br> - Clubhouse with Starbucks Coffee Bar <br> - Responsive Maintenance Team <br> - 24-Hour Fitness Center <br> - Located on Highline Canal Trail <br> - Pets Welcome* <br> - Pet Exercise Park <br> - Reserved Garage Parking Available <br> - Washer and Dryer <br> - Beautiful Landscaping <br> - Located on the RTD Bus-line <br><br><b>Pet Policy</b><br> Up to three pets allowed. Combination of cats and dogs. $250 non-refundable fee for first pet, $250 refundable deposit for first pet, $125 non-refundable fee for each additional pet. $25/month pet rent. No weight or age restrictions! Some breed restrictions apply. <br><br><br><b>Driving Directions</b><br> * From 225 &amp; Parker: Go north on Parker to Florida; east on Florida about half a mile. Alton Green is on your left.<br>* From 225 &amp; Mississippi: Go west on Mississippi to Havana; south on Havana to Florida; west on Florida about one mile. Alton Green is on your right. <br><br><b>Office Hours</b><br> Monday:	9 am - 6 pm<br>Tuesday:	9 am - 6 pm<br>Wednesday:	9 am - 6 pm<br>Thursday:	9 am - 6 pm<br>Friday:	9 am - 6 pm<br>Saturday:	10 am - 4 pm<br>Sunday:	Closed <br><br><b>Alton Green</b><br> 8965 East Florida Avenue, Denver, CO, 80247<br> Prices are subject to change, based on availability and qualification of the applicant, additional fees may apply.<br><br><p><br><br>YX1crlL6Q
+</p>    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516113224</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-01T14:19:19-0600">2022-08-01 14:19</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
