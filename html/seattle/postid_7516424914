@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Live by Juanita Beach! 15+ Shops and restaurants right outside! -...">
+	<meta name="description" content="Welcome to Chelsea Living! Chelsea at Juanita Village is a beautiful community in a European Village setting. The village offers a great selection of restaurants, shops, Starbucks and water views....">
+	<meta property="og:description" content="Welcome to Chelsea Living! Chelsea at Juanita Village is a beautiful community in a European Village setting. The village offers a great selection of restaurants, shops, Starbucks and water views....">
+	<meta property="og:image" content="https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_600x450.jpg">
+	<meta property="og:url" content="https://seattle.craigslist.org/est/apa/d/kirkland-live-by-juanita-beach-15-shops/7516424914.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 01-Sep-22 09:52:49 PDT">
+	<meta name="geo.position" content="47.705233;-122.210541">
+	<meta name="ICBM" content="47.705233, -122.210541">
+	<meta name="geo.placename" content="Kirkland">
+	<meta name="geo.region" content="US-WA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Live by Juanita Beach! 15+ Shops and restaurants right outside! -...</title>
+	<link rel="canonical" href="https://seattle.craigslist.org/est/apa/d/kirkland-live-by-juanita-beach-15-shops/7516424914.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"seattle.craigslist.org","@id":"https://seattle.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"eastside","@id":"https://seattle.craigslist.org/est/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://seattle.craigslist.org/search/est/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://seattle.craigslist.org/search/est/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Live by Juanita Beach! 15+ Shops and restaurants right outside!","@id":"https://seattle.craigslist.org/est/apa/d/kirkland-live-by-juanita-beach-15-shops/7516424914.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"longitude":"-122.210541","name":"Live by Juanita Beach! 15+ Shops and restaurants right outside!","@context":"http://schema.org","latitude":"47.705233","numberOfBathroomsTotal":1,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Kirkland","postalCode":"98034","addressRegion":"WA","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516424914
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">seattle</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/est/">eastside</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/est/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/est/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/sea">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+eastside            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/sea/apa/7516424914/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-02T09:48:49-0700">
+                        2022-08-02 09:48
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,902</span> <span class="housing">/ 500ft<sup>2</sup> - </span><span id="titletextonly">Live by Juanita Beach! 15+ Shops and restaurants right outside!</span><small> (Kirkland)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 15</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_5uVqoVJtqUOz_0iB0eT" data-imgid="5uVqoVJtqUOz_0iB0eT" class="slide first visible">
+                    <img src="https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_2taZyGtCYqgz_0cN0ev" data-imgid="2taZyGtCYqgz_0cN0ev" class="slide">
+                </div>
+                <div id="3_image_kYjVbSe7TBgz_0gC0b5" data-imgid="kYjVbSe7TBgz_0gC0b5" class="slide">
+                </div>
+                <div id="4_image_5KqN3NxeIBPz_0gC0b5" data-imgid="5KqN3NxeIBPz_0gC0b5" class="slide">
+                </div>
+                <div id="5_image_dUEYI5XMUkGz_0gC0b5" data-imgid="dUEYI5XMUkGz_0gC0b5" class="slide">
+                </div>
+                <div id="6_image_ffkziQcJWYhz_0Ai0oc" data-imgid="ffkziQcJWYhz_0Ai0oc" class="slide">
+                </div>
+                <div id="7_image_lBScxt0uvT6z_0iA0co" data-imgid="lBScxt0uvT6z_0iA0co" class="slide">
+                </div>
+                <div id="8_image_5dzhPoNRPSQz_0iA0co" data-imgid="5dzhPoNRPSQz_0iA0co" class="slide">
+                </div>
+                <div id="9_image_5ljqzHZcXs2z_0iA0co" data-imgid="5ljqzHZcXs2z_0iA0co" class="slide">
+                </div>
+                <div id="10_image_6bNqyLLamrQz_0iA0co" data-imgid="6bNqyLLamrQz_0iA0co" class="slide">
+                </div>
+                <div id="11_image_aTqnYhteTJYz_0iA0co" data-imgid="aTqnYhteTJYz_0iA0co" class="slide">
+                </div>
+                <div id="12_image_d8tXsAdnNUz_0iA0co" data-imgid="d8tXsAdnNUz_0iA0co" class="slide">
+                </div>
+                <div id="13_image_1PQ3hSxUZE6z_0iA0co" data-imgid="1PQ3hSxUZE6z_0iA0co" class="slide">
+                </div>
+                <div id="14_image_ckldP5FqfIJz_0iA0co" data-imgid="ckldP5FqfIJz_0iA0co" class="slide">
+                </div>
+                <div id="15_image_imS4LbApPD8z_0iA0co" data-imgid="imS4LbApPD8z_0iA0co" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_5uVqoVJtqUOz_0iB0eT" class="thumb" data-imgid="5uVqoVJtqUOz_0iB0eT" href="https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_600x450.jpg" title="1"><img src="https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_2taZyGtCYqgz_0cN0ev" class="thumb" data-imgid="2taZyGtCYqgz_0cN0ev" href="https://images.craigslist.org/01010_2taZyGtCYqgz_0cN0ev_600x450.jpg" title="2"><img src="https://images.craigslist.org/01010_2taZyGtCYqgz_0cN0ev_50x50c.jpg" alt="2"></a><a id="3_thumb_kYjVbSe7TBgz_0gC0b5" class="thumb" data-imgid="kYjVbSe7TBgz_0gC0b5" href="https://images.craigslist.org/00A0A_kYjVbSe7TBgz_0gC0b5_600x450.jpg" title="3"><img src="https://images.craigslist.org/00A0A_kYjVbSe7TBgz_0gC0b5_50x50c.jpg" alt="3"></a><a id="4_thumb_5KqN3NxeIBPz_0gC0b5" class="thumb" data-imgid="5KqN3NxeIBPz_0gC0b5" href="https://images.craigslist.org/00G0G_5KqN3NxeIBPz_0gC0b5_600x450.jpg" title="4"><img src="https://images.craigslist.org/00G0G_5KqN3NxeIBPz_0gC0b5_50x50c.jpg" alt="4"></a><a id="5_thumb_dUEYI5XMUkGz_0gC0b5" class="thumb" data-imgid="dUEYI5XMUkGz_0gC0b5" href="https://images.craigslist.org/00000_dUEYI5XMUkGz_0gC0b5_600x450.jpg" title="5"><img src="https://images.craigslist.org/00000_dUEYI5XMUkGz_0gC0b5_50x50c.jpg" alt="5"></a><a id="6_thumb_ffkziQcJWYhz_0Ai0oc" class="thumb" data-imgid="ffkziQcJWYhz_0Ai0oc" href="https://images.craigslist.org/00G0G_ffkziQcJWYhz_0Ai0oc_600x450.jpg" title="6"><img src="https://images.craigslist.org/00G0G_ffkziQcJWYhz_0Ai0oc_50x50c.jpg" alt="6"></a><a id="7_thumb_lBScxt0uvT6z_0iA0co" class="thumb" data-imgid="lBScxt0uvT6z_0iA0co" href="https://images.craigslist.org/01414_lBScxt0uvT6z_0iA0co_600x450.jpg" title="7"><img src="https://images.craigslist.org/01414_lBScxt0uvT6z_0iA0co_50x50c.jpg" alt="7"></a><a id="8_thumb_5dzhPoNRPSQz_0iA0co" class="thumb" data-imgid="5dzhPoNRPSQz_0iA0co" href="https://images.craigslist.org/00909_5dzhPoNRPSQz_0iA0co_600x450.jpg" title="8"><img src="https://images.craigslist.org/00909_5dzhPoNRPSQz_0iA0co_50x50c.jpg" alt="8"></a><a id="9_thumb_5ljqzHZcXs2z_0iA0co" class="thumb" data-imgid="5ljqzHZcXs2z_0iA0co" href="https://images.craigslist.org/00C0C_5ljqzHZcXs2z_0iA0co_600x450.jpg" title="9"><img src="https://images.craigslist.org/00C0C_5ljqzHZcXs2z_0iA0co_50x50c.jpg" alt="9"></a><a id="10_thumb_6bNqyLLamrQz_0iA0co" class="thumb" data-imgid="6bNqyLLamrQz_0iA0co" href="https://images.craigslist.org/00t0t_6bNqyLLamrQz_0iA0co_600x450.jpg" title="10"><img src="https://images.craigslist.org/00t0t_6bNqyLLamrQz_0iA0co_50x50c.jpg" alt="10"></a><a id="11_thumb_aTqnYhteTJYz_0iA0co" class="thumb" data-imgid="aTqnYhteTJYz_0iA0co" href="https://images.craigslist.org/00Q0Q_aTqnYhteTJYz_0iA0co_600x450.jpg" title="11"><img src="https://images.craigslist.org/00Q0Q_aTqnYhteTJYz_0iA0co_50x50c.jpg" alt="11"></a><a id="12_thumb_d8tXsAdnNUz_0iA0co" class="thumb" data-imgid="d8tXsAdnNUz_0iA0co" href="https://images.craigslist.org/00s0s_d8tXsAdnNUz_0iA0co_600x450.jpg" title="12"><img src="https://images.craigslist.org/00s0s_d8tXsAdnNUz_0iA0co_50x50c.jpg" alt="12"></a><a id="13_thumb_1PQ3hSxUZE6z_0iA0co" class="thumb" data-imgid="1PQ3hSxUZE6z_0iA0co" href="https://images.craigslist.org/00m0m_1PQ3hSxUZE6z_0iA0co_600x450.jpg" title="13"><img src="https://images.craigslist.org/00m0m_1PQ3hSxUZE6z_0iA0co_50x50c.jpg" alt="13"></a><a id="14_thumb_ckldP5FqfIJz_0iA0co" class="thumb" data-imgid="ckldP5FqfIJz_0iA0co" href="https://images.craigslist.org/00909_ckldP5FqfIJz_0iA0co_600x450.jpg" title="14"><img src="https://images.craigslist.org/00909_ckldP5FqfIJz_0iA0co_50x50c.jpg" alt="14"></a><a id="15_thumb_imS4LbApPD8z_0iA0co" class="thumb" data-imgid="imS4LbApPD8z_0iA0co" href="https://images.craigslist.org/00W0W_imS4LbApPD8z_0iA0co_600x450.jpg" title="15"><img src="https://images.craigslist.org/00W0W_imS4LbApPD8z_0iA0co_50x50c.jpg" alt="15"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"5uVqoVJtqUOz_0iB0eT","url":"https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_600x450.jpg","thumb":"https://images.craigslist.org/00V0V_5uVqoVJtqUOz_0iB0eT_50x50c.jpg","imgid":"3:00V0V_5uVqoVJtqUOz_0iB0eT"},{"shortid":"2taZyGtCYqgz_0cN0ev","url":"https://images.craigslist.org/01010_2taZyGtCYqgz_0cN0ev_600x450.jpg","thumb":"https://images.craigslist.org/01010_2taZyGtCYqgz_0cN0ev_50x50c.jpg","imgid":"3:01010_2taZyGtCYqgz_0cN0ev"},{"shortid":"kYjVbSe7TBgz_0gC0b5","url":"https://images.craigslist.org/00A0A_kYjVbSe7TBgz_0gC0b5_600x450.jpg","thumb":"https://images.craigslist.org/00A0A_kYjVbSe7TBgz_0gC0b5_50x50c.jpg","imgid":"3:00A0A_kYjVbSe7TBgz_0gC0b5"},{"shortid":"5KqN3NxeIBPz_0gC0b5","url":"https://images.craigslist.org/00G0G_5KqN3NxeIBPz_0gC0b5_600x450.jpg","thumb":"https://images.craigslist.org/00G0G_5KqN3NxeIBPz_0gC0b5_50x50c.jpg","imgid":"3:00G0G_5KqN3NxeIBPz_0gC0b5"},{"shortid":"dUEYI5XMUkGz_0gC0b5","url":"https://images.craigslist.org/00000_dUEYI5XMUkGz_0gC0b5_600x450.jpg","thumb":"https://images.craigslist.org/00000_dUEYI5XMUkGz_0gC0b5_50x50c.jpg","imgid":"3:00000_dUEYI5XMUkGz_0gC0b5"},{"shortid":"ffkziQcJWYhz_0Ai0oc","url":"https://images.craigslist.org/00G0G_ffkziQcJWYhz_0Ai0oc_600x450.jpg","thumb":"https://images.craigslist.org/00G0G_ffkziQcJWYhz_0Ai0oc_50x50c.jpg","imgid":"3:00G0G_ffkziQcJWYhz_0Ai0oc"},{"shortid":"lBScxt0uvT6z_0iA0co","url":"https://images.craigslist.org/01414_lBScxt0uvT6z_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/01414_lBScxt0uvT6z_0iA0co_50x50c.jpg","imgid":"3:01414_lBScxt0uvT6z_0iA0co"},{"shortid":"5dzhPoNRPSQz_0iA0co","url":"https://images.craigslist.org/00909_5dzhPoNRPSQz_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00909_5dzhPoNRPSQz_0iA0co_50x50c.jpg","imgid":"3:00909_5dzhPoNRPSQz_0iA0co"},{"shortid":"5ljqzHZcXs2z_0iA0co","url":"https://images.craigslist.org/00C0C_5ljqzHZcXs2z_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00C0C_5ljqzHZcXs2z_0iA0co_50x50c.jpg","imgid":"3:00C0C_5ljqzHZcXs2z_0iA0co"},{"shortid":"6bNqyLLamrQz_0iA0co","url":"https://images.craigslist.org/00t0t_6bNqyLLamrQz_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00t0t_6bNqyLLamrQz_0iA0co_50x50c.jpg","imgid":"3:00t0t_6bNqyLLamrQz_0iA0co"},{"shortid":"aTqnYhteTJYz_0iA0co","url":"https://images.craigslist.org/00Q0Q_aTqnYhteTJYz_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00Q0Q_aTqnYhteTJYz_0iA0co_50x50c.jpg","imgid":"3:00Q0Q_aTqnYhteTJYz_0iA0co"},{"shortid":"d8tXsAdnNUz_0iA0co","url":"https://images.craigslist.org/00s0s_d8tXsAdnNUz_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00s0s_d8tXsAdnNUz_0iA0co_50x50c.jpg","imgid":"3:00s0s_d8tXsAdnNUz_0iA0co"},{"shortid":"1PQ3hSxUZE6z_0iA0co","url":"https://images.craigslist.org/00m0m_1PQ3hSxUZE6z_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00m0m_1PQ3hSxUZE6z_0iA0co_50x50c.jpg","imgid":"3:00m0m_1PQ3hSxUZE6z_0iA0co"},{"shortid":"ckldP5FqfIJz_0iA0co","url":"https://images.craigslist.org/00909_ckldP5FqfIJz_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00909_ckldP5FqfIJz_0iA0co_50x50c.jpg","imgid":"3:00909_ckldP5FqfIJz_0iA0co"},{"shortid":"imS4LbApPD8z_0iA0co","url":"https://images.craigslist.org/00W0W_imS4LbApPD8z_0iA0co_600x450.jpg","thumb":"https://images.craigslist.org/00W0W_imS4LbApPD8z_0iA0co_50x50c.jpg","imgid":"3:00W0W_imS4LbApPD8z_0iA0co"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="47.705233" data-longitude="-122.210541" data-accuracy="5"></div>
+    
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/47.705233,-122.210541">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>0BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>500</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-08-08" data-today_msg="available now">available aug 8</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+
+
+
+            <span>wheelchair accessible</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://seattle.craigslist.org/est/apa/d/kirkland-live-by-juanita-beach-15-shops/7516424914.html"></div>
+        </div>
+<br><b>Welcome to Chelsea Living!</b><br> Chelsea at Juanita Village is a beautiful community in a European Village setting. The village offers a great selection of restaurants, shops, Starbucks and water views. The Social lounge with shuffleboard, full-size modern kitchen and conference room, fitness center, and Wi-Fi Lounge, equipped with Computers and Printers, are just a few ways that the Chelsea at Juanita Village offers convenient and luxury living. Come tour our beautiful apartment homes now, so you too can experience convenience and luxury in your new home.<br>We pride ourselves in providing you with all the amenities you need for the lifestyle you deserve, all without asking you to compromise your commitment to value. We provide the resources for you to come home to luxurious resort-style living every day. <br><br><hr> Call Now: <b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/sea/apa/7516424914/__SERVICE_ID__" rel="nofollow">show contact info</a>
+</b><br><br><br>Follow The Link Below:<br>https://thrive.touraptnow.com/95hz21<br><br><br> This is a Studio, 1 Bath, approximately 552 Sq. Ft. <br><br><b>Features</b><br> - Computer niches <br> - Quartz Countertops <br> - Walk-in closets <br> - 9 Foot ceilings <br> - Stainless steel appliance package <br> - Full-Size Washer/dryer <br> - European lighting <br> - Controlled access parking garage <br> - Linen closets <br>*Views of Lake Washington and the Seattle skyline <br>*Fireplaces available in some homes <br><br><b>Community Amenities</b><br> - 24-hour fitness center <br> - Parcel Pending Package Lockers <br> - Guest Suite <br> - Chelsea Social Lounge w/ wifi <br> - Guest Parking <br> - Multiple Courtyards with Dog Runs <br> - Valet Living Garbage Service <br> - Business Center equipped w/ printer <br><br><b>Pet Policy</b><br> $200 Pet Deposit per pet<br>$300 Non-Refundable Fee per pet<br>$50 a month per dog, $35a month per cat<br>**Some Breed Restrictions Apply <br><br><br><b>Driving Directions</b><br> ONE BLOCK from Juanita Beach Park-<br>Take 116th Exit off 405 to the water! <br><br><b>Office Hours</b><br> Monday, Wednesday, Friday:9:00AM-6:00PM<br>Tuesday &amp; Thursday 10:00AM-6:00PM<br>Saturday &amp; Sunday :10:00AM-5:00PM <br><br><b>The Chelsea at Juanita Village</b><br> 11718 97th Lane NE, Kirkland, WA, 98034<br><br><i>Photos and/or floor plans shown are representational and may not depict the exact layout or features of the available unit. If currently occupied, the individual unit you've selected may not be available to tour. Please contact our leasing team with any questions.</i><br><br><p><br><br>QTrp2Z45Du
+</p>    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516424914</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-02T09:48:49-0700">2022-08-02 09:48</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
