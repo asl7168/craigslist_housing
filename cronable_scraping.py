@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm, trange
 from math import ceil
 from webshare_credentials import user, password
+from cprint import cprint
 
 # note: any instance of the number 120 (being added, or dividing by) is due to Craigslist returning 120 results per page
 class CraigslistScraper:
@@ -24,11 +25,13 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, city, filepath: str=None, sleep_time: int=20, scrape_by_date: bool=True, number_of_pages: int=1, proxies: list=None):
+    def __init__(self, city, filepath: str=None, scrape_by_date: bool=True, number_of_pages: int=1, proxies: list=None):
+        self.city = city
         self.filepath = filepath + "/" + city if filepath else f"../../html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
         
-        self.sleep_time = sleep_time  # IF THIS IS TOO LOW, YOU MIGHT SEND TOO MANY REQUESTS AND BE BLOCKED BY CRAIGSLIST
+        # quick Google says 0.015s is the min for an avg spec Windows PC
+        self.sleep_time = 20 / len(proxies) if 20 / len(proxies) > 0.015 else 0.015  
         self.scrape_by_date = scrape_by_date
         self.number_of_pages = number_of_pages
 
@@ -37,11 +40,22 @@ class CraigslistScraper:
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
 
         if proxies: 
-            self.curr_proxy = dict()
+            self.curr_proxy = True
             self.avail_proxies = proxies
             self.unavail_proxies = []
         else: 
             self.curr_proxy = False
+
+
+    def change_proxy(self):
+        if self.curr_proxy:
+            if not self.avail_proxies:
+                    self.avail_proxies = self.unavail_proxies
+                    self.unavail_proxies = []
+
+            proxy_holder = self.avail_proxies.pop(0)
+            self.curr_proxy = {"http": f"http://{user}:{password}@{proxy_holder}", "https": f"http://{user}:{password}@{proxy_holder}"}
+            self.unavail_proxies.append(proxy_holder)
 
 
     def get_page_of_posts(self, url):
@@ -59,7 +73,8 @@ class CraigslistScraper:
                 bool: if scraping is finished (all duplicates or no remaining posts to check)
         """
         
-        print(f"\n\nGetting a search result page at url '{url}'...")
+        self.change_proxy()
+        print(f"\n\nGetting a search result page at url '{url}' with proxy {self.curr_proxy}")
 
         try:
             page_data = get(url, proxies=self.curr_proxy)
@@ -69,6 +84,19 @@ class CraigslistScraper:
             
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
         posts = html_soup.find_all('li', class_= 'result-row')
+        
+        if len(posts) == 0 and not html_soup.find("pre", id="moon"):  # a harvest moon is shown when we're out of search results
+            body = html_soup.find("body")
+            if body and "blocked" in body.text:
+                self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
+                cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                
+                new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))
+                self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
+                cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='g')
+
+            return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
+
 
         posts_dict = {}
         for post in posts:
@@ -103,13 +131,7 @@ class CraigslistScraper:
         """
 
         for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page..."):
-            if not self.avail_proxies:
-                self.avail_proxies = self.unavail_proxies
-                self.unavail_proxies = []
-
-            proxy_holder = self.avail_proxies.pop(0)
-            self.curr_proxy = {"http": f"http://{user}:{password}@{proxy_holder}", "https": f"http://{user}:{password}@{proxy_holder}"}
-            self.unavail_proxies.append(proxy_holder)
+            self.change_proxy()
             
             post_id = key
             url = dictionary_of_posts[key]
@@ -154,31 +176,31 @@ class CraigslistScraper:
 
 
     def scrape(self):
-        print(f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n")
+        right_now = str(date.today()) + " " + str(time.time())
+        scrape_msg = f"Started scraping for {self.city} on: {right_now} | for all posts " 
+        sleep_msg = f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n"
 
         # get search pages
-        if self.scrape_by_date: self.get_posts_from_today()
-        else: self.get_posts_by_number()
+        if self.scrape_by_date: 
+            print(scrape_msg + f"today\n{sleep_msg}")
+            self.get_posts_from_today()
+        else: 
+            print(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}")
+            self.get_posts_by_number()
 
         print("Scraping completed!")
 
 
 #%%
-def do_init_scrape(city: str, filepath: str=None, sleep_time: int=20, proxies: str=None):
-    right_now = str(date.today()) + " " + str(time.time())
-    print(f"Started scraping for {city} on: {right_now} | for all posts currently up. Should take ~{sleep_time * 0.8} hours")
-    
-    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, scrape_by_date=False, number_of_pages=30, proxies=proxies)
+def do_init_scrape(city: str, filepath: str=None, proxies: str=None):
+    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30, proxies=proxies)
     scraper.scrape()
     
     print("Saving complete.")
 
 
-def do_cron_scrape(city: str, filepath: str=None, sleep_time: int=20, proxies: str=None):
-    right_now = str(date.today()) + " " + str(time.time())
-    print(f"Started scraping for {city} on: {right_now} | for all posts made today")
-    
-    scraper = CraigslistScraper(city, filepath=filepath, sleep_time=sleep_time, proxies=proxies)
+def do_cron_scrape(city: str, filepath: str=None, proxies: str=None):
+    scraper = CraigslistScraper(city, filepath=filepath, proxies=proxies)
     scraper.scrape()
     
     print("Saving complete.")

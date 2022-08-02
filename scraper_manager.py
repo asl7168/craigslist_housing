@@ -22,10 +22,6 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
                 "sandiego", "washingtondc"]  # ordered by priority
 
     [locations.append(l) for l in list(state_codes.keys()) if l not in locations]  # add non-priority locations
-
-    sleep_time = 20 / len(proxies)
-    if sleep_time < 0.015:  # on a quick Google, the minimum time.sleep() works on base spec Windows is ~10-13ms
-        sleep_time = 0.015  # there's probably something smarter to do here, but I can't think of it right now...
     
     # instead of giving one proxy to each location, give all proxies to every location and run them in sequence
     # e.g. if we have 20 proxies, instead of making 20 scripts to run concurrently, just make the wait time
@@ -40,14 +36,14 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
         output += path_to_venv + "\n\n"
         for location in locations:
             output += f'python -c "import sys; sys.path.append(\'./\'); from cronable_scraping import do_{init_or_cron}_scrape;' \
-                      f'do_{init_or_cron}_scrape(city=\'{location}\', sleep_time={sleep_time}, proxies={proxies})"\n'
+                      f'do_{init_or_cron}_scrape(city=\'{location}\', proxies={proxies})"\n'
     else:
         output += f"# please run this file from the root directory, not {initcron_dir[2:]}\n" \
                   f"import sys\nsys.path.append('./')\n\n" \
                   f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
                   f"proxies = {proxies}\n\n"
         for location in locations:
-            output += f"do_{init_or_cron}_scrape(city=\"{location}\", filepath=\"./html\", sleep_time={sleep_time}, proxies=proxies.copy())\n"
+            output += f"do_{init_or_cron}_scrape(city=\"{location}\", filepath=\"./html\", proxies=proxies.copy())\n"
 
     with open(f"{initcron_dir}/{init_or_cron}_scrape.{filetype}", "w") as script:
         script.write(output)
