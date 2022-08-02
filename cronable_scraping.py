@@ -74,7 +74,7 @@ class CraigslistScraper:
         """
         
         self.change_proxy()
-        print(f"\n\nGetting a search result page at url '{url}' with proxy {self.curr_proxy}")
+        print(f"\n\nGetting a search result page at url '{url}'")
 
         try:
             page_data = get(url, proxies=self.curr_proxy)
@@ -93,7 +93,7 @@ class CraigslistScraper:
                 
                 new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))
                 self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
-                cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='g')
+                cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
 
             return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
 
@@ -182,25 +182,21 @@ class CraigslistScraper:
 
         # get search pages
         if self.scrape_by_date: 
-            print(scrape_msg + f"today\n{sleep_msg}")
+            cprint(scrape_msg + f"today\n{sleep_msg}", c="c")
             self.get_posts_from_today()
         else: 
-            print(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}")
+            cprint(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}", c="c")
             self.get_posts_by_number()
 
-        print("Scraping completed!")
+        cprint("Scraping completed!\n", c="gB")
 
 
 #%%
 def do_init_scrape(city: str, filepath: str=None, proxies: str=None):
     scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30, proxies=proxies)
     scraper.scrape()
-    
-    print("Saving complete.")
 
 
 def do_cron_scrape(city: str, filepath: str=None, proxies: str=None):
     scraper = CraigslistScraper(city, filepath=filepath, proxies=proxies)
     scraper.scrape()
-    
-    print("Saving complete.")
