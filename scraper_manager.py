@@ -32,7 +32,7 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
     # quarter of QUEST's 168 hr max jobtime
 
     output = ""
-    if sh: 
+    if sh: # TODO: add loop capability, though I don't think it'd be remotely as good as the .py version
         output += path_to_venv + "\n\n"
         for location in locations:
             output += f'python -c "import sys; sys.path.append(\'./\'); from cronable_scraping import do_{init_or_cron}_scrape;' \
@@ -40,10 +40,17 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
     else:
         output += f"# please run this file from the root directory, not {initcron_dir[2:]}\n" \
                   f"import sys\nsys.path.append('./')\n\n" \
+                  f"from time import sleep\n" \
                   f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
-                  f"proxies = {proxies}\n\n"
-        for location in locations:
-            output += f"do_{init_or_cron}_scrape(city=\"{location}\", filepath=\"./html\", proxies=proxies.copy())\n"
+                  f"locations = {locations}\n" \
+                  f"proxies = {proxies}\n\n" \
+                  f"for location in locations:\n" \
+                  f"\tpcpy = proxies.copy()\n"  \
+                  f"\ttry:\n"  \
+                  f"\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"./html\", proxies=pcpy)\n" \
+                  f"\texcept:\n" \
+                  f"\t\tsleep(20)\n" \
+                  f"\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"./html\", proxies=pcpy)\n" \
 
     with open(f"{initcron_dir}/{init_or_cron}_scrape.{filetype}", "w") as script:
         script.write(output)
