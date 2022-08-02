@@ -85,15 +85,19 @@ class CraigslistScraper:
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
         posts = html_soup.find_all('li', class_= 'result-row')
         
-        if len(posts) == 0 and not html_soup.find("pre", id="moon"):  # a harvest moon is shown when we're out of search results
-            body = html_soup.find("body")
-            if body and "blocked" in body.text:
-                self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
-                cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
-                
-                new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))
-                self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
-                cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+        if len(posts) == 0: 
+            if not html_soup.find("pre", id="moon"):  # a harvest moon is shown when we're out of search results
+                body = html_soup.find("body")
+                if body and "blocked" in body.text:
+                    self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
+                    cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                    
+                    new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))
+                    self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
+                    cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+            else:
+                cprint(f"No more search results!", c="y")
+                return [0, True, 0]
 
             return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
 
@@ -116,7 +120,7 @@ class CraigslistScraper:
         updated_len = len(posts_dict)
         print(f"Started with {init_len} posts, {init_len - updated_len} duplicates removed")
 
-        return (posts_dict, updated_len != 0)
+        return [posts_dict, init_len == 0, updated_len != 0]
     
 
     def save_html_from_page(self, dictionary_of_posts):
@@ -152,7 +156,10 @@ class CraigslistScraper:
     def get_posts_by_number(self):        
         for page in trange(self.number_of_pages, desc=f"Getting posts from {self.number_of_pages} page{'s' if self.number_of_pages > 1 else ''}..."):
             page_url = self.base_url + str(page * 120)
-            current_page_dict = self.get_page_of_posts(page_url)[0]
+            gpp = self.get_page_of_posts(page_url)
+            if gpp[1]: break  # if there are no more results/posts, break
+            
+            current_page_dict = gpp[0]
             self.save_html_from_page(current_page_dict)
 
 
@@ -164,7 +171,7 @@ class CraigslistScraper:
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
             while get(page_url, proxies=self.curr_proxy).ok:
-                if not gpp[1]: break
+                if not gpp[2]: break  # if all we have are duplicates, break
 
                 current_page_dict = gpp[0]
                 self.save_html_from_page(current_page_dict)
