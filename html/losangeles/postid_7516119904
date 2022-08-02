@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Welcome To The Stanley, Historic Pasadena Apt - apts/housing for...">
+	<meta name="description" content="Welcome To The Stanley, Historic Pasadena Apt Property Address 149 S Los Robles Ave # 101 | Pasadena, CA 91101Available: Now Offered By SGV Management, LLC Description INCREDIBLE Old Town Pasadena...">
+	<meta property="og:description" content="Welcome To The Stanley, Historic Pasadena Apt Property Address 149 S Los Robles Ave # 101 | Pasadena, CA 91101Available: Now Offered By SGV Management, LLC Description INCREDIBLE Old Town Pasadena...">
+	<meta property="og:image" content="https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_600x450.jpg">
+	<meta property="og:url" content="https://losangeles.craigslist.org/sgv/apa/d/pasadena-welcome-to-the-stanley/7516119904.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 31-Aug-22 13:37:17 PDT">
+	<meta name="geo.position" content="34.143404;-118.141587">
+	<meta name="ICBM" content="34.143404, -118.141587">
+	<meta name="geo.placename" content="Pasadena">
+	<meta name="geo.region" content="US-CA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Welcome To The Stanley, Historic Pasadena Apt - apts/housing for...</title>
+	<link rel="canonical" href="https://losangeles.craigslist.org/sgv/apa/d/pasadena-welcome-to-the-stanley/7516119904.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"losangeles.craigslist.org","@id":"https://losangeles.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"san gabriel valley","@id":"https://losangeles.craigslist.org/sgv/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://losangeles.craigslist.org/search/sgv/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://losangeles.craigslist.org/search/sgv/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Welcome To The Stanley, Historic Pasadena Apt","@id":"https://losangeles.craigslist.org/sgv/apa/d/pasadena-welcome-to-the-stanley/7516119904.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"longitude":"-118.141587","name":"Welcome To The Stanley, Historic Pasadena Apt","@context":"http://schema.org","latitude":"34.143404","numberOfBathroomsTotal":1,"address":{"streetAddress":"149 S Los Robles Ave","addressCountry":"US","addressLocality":"Pasadena","postalCode":"91114","addressRegion":"CA","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516119904
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">los angeles</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/sgv/">san gabriel valley</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/sgv/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/sgv/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/lax">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+san gabriel valley            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/lax/apa/7516119904/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-01T13:33:17-0700">
+                        2022-08-01 13:33
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$2,550</span> <span id="titletextonly">Welcome To The Stanley, Historic Pasadena Apt</span><small> (Pasadena)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 18</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_en3YNkkgyq2z_09G07g" data-imgid="en3YNkkgyq2z_09G07g" class="slide first visible">
+                    <img src="https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_bwUT9cSszsPz_0wg0lv" data-imgid="bwUT9cSszsPz_0wg0lv" class="slide">
+                </div>
+                <div id="3_image_68qnmWug4bZz_0wg0lv" data-imgid="68qnmWug4bZz_0wg0lv" class="slide">
+                </div>
+                <div id="4_image_73lN4EzVnUPz_0wg0lv" data-imgid="73lN4EzVnUPz_0wg0lv" class="slide">
+                </div>
+                <div id="5_image_cq9nfhfYBGjz_0wg0lv" data-imgid="cq9nfhfYBGjz_0wg0lv" class="slide">
+                </div>
+                <div id="6_image_gWul99I6teOz_0wg0lv" data-imgid="gWul99I6teOz_0wg0lv" class="slide">
+                </div>
+                <div id="7_image_63VkRH1m6Izz_0wg0lv" data-imgid="63VkRH1m6Izz_0wg0lv" class="slide">
+                </div>
+                <div id="8_image_heOEi42zU4cz_0wg0lv" data-imgid="heOEi42zU4cz_0wg0lv" class="slide">
+                </div>
+                <div id="9_image_9wjhOQOiOSUz_0wg0lv" data-imgid="9wjhOQOiOSUz_0wg0lv" class="slide">
+                </div>
+                <div id="10_image_8jC3lmSU1f7z_0jm0t2" data-imgid="8jC3lmSU1f7z_0jm0t2" class="slide">
+                </div>
+                <div id="11_image_cReqbuGOAGiz_0wg0lv" data-imgid="cReqbuGOAGiz_0wg0lv" class="slide">
+                </div>
+                <div id="12_image_6BEsWctdIqPz_0jm0t2" data-imgid="6BEsWctdIqPz_0jm0t2" class="slide">
+                </div>
+                <div id="13_image_fApAUXxJmpPz_0jm0t2" data-imgid="fApAUXxJmpPz_0jm0t2" class="slide">
+                </div>
+                <div id="14_image_lNYlFgEfOAdz_0wg0lv" data-imgid="lNYlFgEfOAdz_0wg0lv" class="slide">
+                </div>
+                <div id="15_image_9Ag6bdv6P5Kz_0wg0lw" data-imgid="9Ag6bdv6P5Kz_0wg0lw" class="slide">
+                </div>
+                <div id="16_image_aPZJJWOIwlNz_0nT0t2" data-imgid="aPZJJWOIwlNz_0nT0t2" class="slide">
+                </div>
+                <div id="17_image_6O8j9U0HeGgz_0wg0lv" data-imgid="6O8j9U0HeGgz_0wg0lv" class="slide">
+                </div>
+                <div id="18_image_aUtxFEg0boBz_0wg0lv" data-imgid="aUtxFEg0boBz_0wg0lv" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_en3YNkkgyq2z_09G07g" class="thumb" data-imgid="en3YNkkgyq2z_09G07g" href="https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_600x450.jpg" title="1"><img src="https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_bwUT9cSszsPz_0wg0lv" class="thumb" data-imgid="bwUT9cSszsPz_0wg0lv" href="https://images.craigslist.org/00101_bwUT9cSszsPz_0wg0lv_600x450.jpg" title="2"><img src="https://images.craigslist.org/00101_bwUT9cSszsPz_0wg0lv_50x50c.jpg" alt="2"></a><a id="3_thumb_68qnmWug4bZz_0wg0lv" class="thumb" data-imgid="68qnmWug4bZz_0wg0lv" href="https://images.craigslist.org/00n0n_68qnmWug4bZz_0wg0lv_600x450.jpg" title="3"><img src="https://images.craigslist.org/00n0n_68qnmWug4bZz_0wg0lv_50x50c.jpg" alt="3"></a><a id="4_thumb_73lN4EzVnUPz_0wg0lv" class="thumb" data-imgid="73lN4EzVnUPz_0wg0lv" href="https://images.craigslist.org/00x0x_73lN4EzVnUPz_0wg0lv_600x450.jpg" title="4"><img src="https://images.craigslist.org/00x0x_73lN4EzVnUPz_0wg0lv_50x50c.jpg" alt="4"></a><a id="5_thumb_cq9nfhfYBGjz_0wg0lv" class="thumb" data-imgid="cq9nfhfYBGjz_0wg0lv" href="https://images.craigslist.org/00B0B_cq9nfhfYBGjz_0wg0lv_600x450.jpg" title="5"><img src="https://images.craigslist.org/00B0B_cq9nfhfYBGjz_0wg0lv_50x50c.jpg" alt="5"></a><a id="6_thumb_gWul99I6teOz_0wg0lv" class="thumb" data-imgid="gWul99I6teOz_0wg0lv" href="https://images.craigslist.org/00k0k_gWul99I6teOz_0wg0lv_600x450.jpg" title="6"><img src="https://images.craigslist.org/00k0k_gWul99I6teOz_0wg0lv_50x50c.jpg" alt="6"></a><a id="7_thumb_63VkRH1m6Izz_0wg0lv" class="thumb" data-imgid="63VkRH1m6Izz_0wg0lv" href="https://images.craigslist.org/00M0M_63VkRH1m6Izz_0wg0lv_600x450.jpg" title="7"><img src="https://images.craigslist.org/00M0M_63VkRH1m6Izz_0wg0lv_50x50c.jpg" alt="7"></a><a id="8_thumb_heOEi42zU4cz_0wg0lv" class="thumb" data-imgid="heOEi42zU4cz_0wg0lv" href="https://images.craigslist.org/00u0u_heOEi42zU4cz_0wg0lv_600x450.jpg" title="8"><img src="https://images.craigslist.org/00u0u_heOEi42zU4cz_0wg0lv_50x50c.jpg" alt="8"></a><a id="9_thumb_9wjhOQOiOSUz_0wg0lv" class="thumb" data-imgid="9wjhOQOiOSUz_0wg0lv" href="https://images.craigslist.org/00F0F_9wjhOQOiOSUz_0wg0lv_600x450.jpg" title="9"><img src="https://images.craigslist.org/00F0F_9wjhOQOiOSUz_0wg0lv_50x50c.jpg" alt="9"></a><a id="10_thumb_8jC3lmSU1f7z_0jm0t2" class="thumb" data-imgid="8jC3lmSU1f7z_0jm0t2" href="https://images.craigslist.org/00F0F_8jC3lmSU1f7z_0jm0t2_600x450.jpg" title="10"><img src="https://images.craigslist.org/00F0F_8jC3lmSU1f7z_0jm0t2_50x50c.jpg" alt="10"></a><a id="11_thumb_cReqbuGOAGiz_0wg0lv" class="thumb" data-imgid="cReqbuGOAGiz_0wg0lv" href="https://images.craigslist.org/00101_cReqbuGOAGiz_0wg0lv_600x450.jpg" title="11"><img src="https://images.craigslist.org/00101_cReqbuGOAGiz_0wg0lv_50x50c.jpg" alt="11"></a><a id="12_thumb_6BEsWctdIqPz_0jm0t2" class="thumb" data-imgid="6BEsWctdIqPz_0jm0t2" href="https://images.craigslist.org/00U0U_6BEsWctdIqPz_0jm0t2_600x450.jpg" title="12"><img src="https://images.craigslist.org/00U0U_6BEsWctdIqPz_0jm0t2_50x50c.jpg" alt="12"></a><a id="13_thumb_fApAUXxJmpPz_0jm0t2" class="thumb" data-imgid="fApAUXxJmpPz_0jm0t2" href="https://images.craigslist.org/00Q0Q_fApAUXxJmpPz_0jm0t2_600x450.jpg" title="13"><img src="https://images.craigslist.org/00Q0Q_fApAUXxJmpPz_0jm0t2_50x50c.jpg" alt="13"></a><a id="14_thumb_lNYlFgEfOAdz_0wg0lv" class="thumb" data-imgid="lNYlFgEfOAdz_0wg0lv" href="https://images.craigslist.org/00R0R_lNYlFgEfOAdz_0wg0lv_600x450.jpg" title="14"><img src="https://images.craigslist.org/00R0R_lNYlFgEfOAdz_0wg0lv_50x50c.jpg" alt="14"></a><a id="15_thumb_9Ag6bdv6P5Kz_0wg0lw" class="thumb" data-imgid="9Ag6bdv6P5Kz_0wg0lw" href="https://images.craigslist.org/00E0E_9Ag6bdv6P5Kz_0wg0lw_600x450.jpg" title="15"><img src="https://images.craigslist.org/00E0E_9Ag6bdv6P5Kz_0wg0lw_50x50c.jpg" alt="15"></a><a id="16_thumb_aPZJJWOIwlNz_0nT0t2" class="thumb" data-imgid="aPZJJWOIwlNz_0nT0t2" href="https://images.craigslist.org/00N0N_aPZJJWOIwlNz_0nT0t2_600x450.jpg" title="16"><img src="https://images.craigslist.org/00N0N_aPZJJWOIwlNz_0nT0t2_50x50c.jpg" alt="16"></a><a id="17_thumb_6O8j9U0HeGgz_0wg0lv" class="thumb" data-imgid="6O8j9U0HeGgz_0wg0lv" href="https://images.craigslist.org/00h0h_6O8j9U0HeGgz_0wg0lv_600x450.jpg" title="17"><img src="https://images.craigslist.org/00h0h_6O8j9U0HeGgz_0wg0lv_50x50c.jpg" alt="17"></a><a id="18_thumb_aUtxFEg0boBz_0wg0lv" class="thumb" data-imgid="aUtxFEg0boBz_0wg0lv" href="https://images.craigslist.org/00O0O_aUtxFEg0boBz_0wg0lv_600x450.jpg" title="18"><img src="https://images.craigslist.org/00O0O_aUtxFEg0boBz_0wg0lv_50x50c.jpg" alt="18"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"en3YNkkgyq2z_09G07g","url":"https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_en3YNkkgyq2z_09G07g_50x50c.jpg","imgid":"3:00F0F_en3YNkkgyq2z_09G07g"},{"shortid":"bwUT9cSszsPz_0wg0lv","url":"https://images.craigslist.org/00101_bwUT9cSszsPz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00101_bwUT9cSszsPz_0wg0lv_50x50c.jpg","imgid":"3:00101_bwUT9cSszsPz_0wg0lv"},{"shortid":"68qnmWug4bZz_0wg0lv","url":"https://images.craigslist.org/00n0n_68qnmWug4bZz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00n0n_68qnmWug4bZz_0wg0lv_50x50c.jpg","imgid":"3:00n0n_68qnmWug4bZz_0wg0lv"},{"shortid":"73lN4EzVnUPz_0wg0lv","url":"https://images.craigslist.org/00x0x_73lN4EzVnUPz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00x0x_73lN4EzVnUPz_0wg0lv_50x50c.jpg","imgid":"3:00x0x_73lN4EzVnUPz_0wg0lv"},{"shortid":"cq9nfhfYBGjz_0wg0lv","url":"https://images.craigslist.org/00B0B_cq9nfhfYBGjz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00B0B_cq9nfhfYBGjz_0wg0lv_50x50c.jpg","imgid":"3:00B0B_cq9nfhfYBGjz_0wg0lv"},{"shortid":"gWul99I6teOz_0wg0lv","url":"https://images.craigslist.org/00k0k_gWul99I6teOz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00k0k_gWul99I6teOz_0wg0lv_50x50c.jpg","imgid":"3:00k0k_gWul99I6teOz_0wg0lv"},{"shortid":"63VkRH1m6Izz_0wg0lv","url":"https://images.craigslist.org/00M0M_63VkRH1m6Izz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00M0M_63VkRH1m6Izz_0wg0lv_50x50c.jpg","imgid":"3:00M0M_63VkRH1m6Izz_0wg0lv"},{"shortid":"heOEi42zU4cz_0wg0lv","url":"https://images.craigslist.org/00u0u_heOEi42zU4cz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00u0u_heOEi42zU4cz_0wg0lv_50x50c.jpg","imgid":"3:00u0u_heOEi42zU4cz_0wg0lv"},{"shortid":"9wjhOQOiOSUz_0wg0lv","url":"https://images.craigslist.org/00F0F_9wjhOQOiOSUz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_9wjhOQOiOSUz_0wg0lv_50x50c.jpg","imgid":"3:00F0F_9wjhOQOiOSUz_0wg0lv"},{"shortid":"8jC3lmSU1f7z_0jm0t2","url":"https://images.craigslist.org/00F0F_8jC3lmSU1f7z_0jm0t2_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_8jC3lmSU1f7z_0jm0t2_50x50c.jpg","imgid":"3:00F0F_8jC3lmSU1f7z_0jm0t2"},{"shortid":"cReqbuGOAGiz_0wg0lv","url":"https://images.craigslist.org/00101_cReqbuGOAGiz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00101_cReqbuGOAGiz_0wg0lv_50x50c.jpg","imgid":"3:00101_cReqbuGOAGiz_0wg0lv"},{"shortid":"6BEsWctdIqPz_0jm0t2","url":"https://images.craigslist.org/00U0U_6BEsWctdIqPz_0jm0t2_600x450.jpg","thumb":"https://images.craigslist.org/00U0U_6BEsWctdIqPz_0jm0t2_50x50c.jpg","imgid":"3:00U0U_6BEsWctdIqPz_0jm0t2"},{"shortid":"fApAUXxJmpPz_0jm0t2","url":"https://images.craigslist.org/00Q0Q_fApAUXxJmpPz_0jm0t2_600x450.jpg","thumb":"https://images.craigslist.org/00Q0Q_fApAUXxJmpPz_0jm0t2_50x50c.jpg","imgid":"3:00Q0Q_fApAUXxJmpPz_0jm0t2"},{"shortid":"lNYlFgEfOAdz_0wg0lv","url":"https://images.craigslist.org/00R0R_lNYlFgEfOAdz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_lNYlFgEfOAdz_0wg0lv_50x50c.jpg","imgid":"3:00R0R_lNYlFgEfOAdz_0wg0lv"},{"shortid":"9Ag6bdv6P5Kz_0wg0lw","url":"https://images.craigslist.org/00E0E_9Ag6bdv6P5Kz_0wg0lw_600x450.jpg","thumb":"https://images.craigslist.org/00E0E_9Ag6bdv6P5Kz_0wg0lw_50x50c.jpg","imgid":"3:00E0E_9Ag6bdv6P5Kz_0wg0lw"},{"shortid":"aPZJJWOIwlNz_0nT0t2","url":"https://images.craigslist.org/00N0N_aPZJJWOIwlNz_0nT0t2_600x450.jpg","thumb":"https://images.craigslist.org/00N0N_aPZJJWOIwlNz_0nT0t2_50x50c.jpg","imgid":"3:00N0N_aPZJJWOIwlNz_0nT0t2"},{"shortid":"6O8j9U0HeGgz_0wg0lv","url":"https://images.craigslist.org/00h0h_6O8j9U0HeGgz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00h0h_6O8j9U0HeGgz_0wg0lv_50x50c.jpg","imgid":"3:00h0h_6O8j9U0HeGgz_0wg0lv"},{"shortid":"aUtxFEg0boBz_0wg0lv","url":"https://images.craigslist.org/00O0O_aUtxFEg0boBz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00O0O_aUtxFEg0boBz_0wg0lv_50x50c.jpg","imgid":"3:00O0O_aUtxFEg0boBz_0wg0lv"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="34.143404" data-longitude="-118.141587" data-accuracy="5"></div>
+    <div class="mapaddress">149 S Los Robles Ave</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/34.143404,-118.141587">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>0BR</b> / <b>1Ba</b></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-08-01" data-today_msg="available now">available aug 1</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>application fee details: <b>App fee $25.00 for credit check – 720+ credit score required</b></span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>laundry on site</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>carport</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://losangeles.craigslist.org/sgv/apa/d/pasadena-welcome-to-the-stanley/7516119904.html"></div>
+        </div>
+<big>
+    <big>
+      <b>Welcome To The Stanley, Historic Pasadena Apt</b>
+    </big>
+  </big>
+  <br>
+  <br>
+<b>Property Address</b>
+<br>
+149 S Los Robles Ave # 101 | Pasadena, CA 91101
+<br>
+
+  Available: Now
+
+<br>
+<br>
+<b>Offered By</b>
+<br>
+SGV Management, LLC
+<br>
+<br>
+<hr>
+<br>
+  <b>Description</b>
+  <blockquote>
+    INCREDIBLE Old Town Pasadena location
+<br>STUDIO, 1 bathroom apartment
+<br>LOADED with character, exposed red brick, old-world charm
+<br>COMPLETELY NEW kitchen w/ stainless steel stove, stainless microhood and stainless refrigerator
+<br>COMPLETLEY NEW bathroom including tub, tile flooring, tile walls, pedestal sink, etc.
+<br>NEW Dual-Zone mini-split air conditioning and heating for maximum year-round comfort
+<br>REFINISHED - Original oak hardwood floors
+<br>
+<br>Ground-level unit
+<br>Card-operated community laundry room
+<br>94 Walk Score – A “Walkers Paradise”
+<br>Water, gas and trash paid by ownership
+<br>One covered controlled-access parking space is included as a leasing concession for the first year only
+<br>
+<br>The Stanley was designed by famous architect Myron Hunt, who also designed other enduring masterpieces including the Rose Bowl, Pasadena Central Library, Huntington Hotel, Huntington Library, and Occidental College, among others
+<br>
+<br>Across the street from Kaiser Permanente School of Medicine or a short distance to Paseo Colorado, Central Park, Pasadena Civic Auditorium, Pasadena Playhouse, Rose Bowl, Pasadena Central Library, Brookside &amp; Arroyo golf courses, Huntington Hospital, Pasadena City College, Cal Tech, Art Center College of Design South Campus, Memorial Park Rail Station
+<br>
+<br>Smoke / Vape / Tobacco-free property
+<br>Sorry! No dogs allowed
+<br>One indoor cat allowed with additional pet deposit
+<br>
+<br><b>A 720 OR HIGHER CREDIT SCORE IS REQUIRED FOR EACH ADULT
+<br>
+<br>TO SCHEDULE A VIEWING CALL:  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/lax/apa/7516119904/__SERVICE_ID__" rel="nofollow">show contact info</a>
+
+<br>OR VISIT: https://sgvmanagement.com/availability</b>
+<br>
+<br>149 S. Los Robles Ave., Pasadena, CA 91101 
+<br>Apartment # 101 
+<br>One (1) year lease required with security deposit
+<br>
+<br>We manage several other Pasadena properties. If this unit isn’t quite what you’re looking for, inquire about other availabilities!
+<br>
+<br>Avoid Scammers! SGV Management, LLC only accepts 
+<br>online applications and online payment through our website
+<br>or by cashiers check at our office at 133 E Duarte Rd in Arcadia
+<br>
+<br>Find an Apartment - Book a Viewing - Apply Online at:
+<br>www.sgvmanagement.com
+  </blockquote>
+
+  <b>Rental Terms</b>
+  <ul>
+<li>Lease: One year
+    </li><li>Rent: $2,550.00 
+
+    </li><li>Available: Now
+    </li><li>Application Fee: $25.00
+    </li><li>Security Deposit: $2,000.00
+
+  </li></ul>
+
+  <b>Pet Policy</b>
+  <ul>
+
+      <li>Cats allowed</li>
+      <li>Dogs not allowed</li>
+
+  </ul>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516119904</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-01T13:33:17-0700">2022-08-01 13:33</time></p>
+
+                <p class="postinginfo reveal">updated: <time class="date timeago" datetime="2022-08-01T14:33:53-0700">2022-08-01 14:33</time></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
