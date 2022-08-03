@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Awesome Location - Live, Work, Play. Lease Special! - apts/housing...">
+	<meta name="description" content="Living here means coming home a luxury lifestyle that has been graced with the perfect balance of contemporary features and unparalleled community amenities. Located in thriving Uptown - you can...">
+	<meta property="og:description" content="Living here means coming home a luxury lifestyle that has been graced with the perfect balance of contemporary features and unparalleled community amenities. Located in thriving Uptown - you can...">
+	<meta property="og:image" content="https://images.craigslist.org/01717_4OpZshj5ova_600x450.jpg">
+	<meta property="og:url" content="https://dallas.craigslist.org/dal/apa/d/dallas-awesome-location-live-work-play/7516663073.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noindex">
+	<meta name="geo.position" content="32.790400;-96.804400">
+	<meta name="ICBM" content="32.790400, -96.804400">
+	<meta name="geo.placename" content="Dallas">
+	<meta name="geo.region" content="US-TX">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Awesome Location - Live, Work, Play. Lease Special! - apts/housing...</title>
+	<link rel="canonical" href="https://dallas.craigslist.org/dal/apa/d/dallas-awesome-location-live-work-play/7516663073.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"dallas.craigslist.org","@id":"https://dallas.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"dallas","@id":"https://dallas.craigslist.org/dal/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://dallas.craigslist.org/search/dal/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://dallas.craigslist.org/search/dal/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Awesome Location - Live, Work, Play. Lease Special!","@id":"https://dallas.craigslist.org/dal/apa/d/dallas-awesome-location-live-work-play/7516663073.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-96.804400","name":"Awesome Location - Live, Work, Play. Lease Special!","@context":"http://schema.org","latitude":"32.790400","numberOfBathroomsTotal":1,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Dallas","postalCode":"75201","addressRegion":"TX","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516663073,
+repost_of: 7068281553
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">dallas</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/dal/">dallas</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/dal/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/dal/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/dal">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+dallas            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/dal/apa/7516663073/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-02T21:09:32-0500">
+                        2022-08-02 21:09
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,899</span> <span class="housing">/ 1br - </span><span id="titletextonly">Awesome Location - Live, Work, Play. Lease Special!</span><small> (Uptown Dallas)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 12</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_4OpZshj5ova" data-imgid="4OpZshj5ova" class="slide first visible">
+                    <img src="https://images.craigslist.org/01717_4OpZshj5ova_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_4BIUtxVletg" data-imgid="4BIUtxVletg" class="slide">
+                </div>
+                <div id="3_image_fqTMpvMZBjL" data-imgid="fqTMpvMZBjL" class="slide">
+                </div>
+                <div id="4_image_fRewcj6JNYq" data-imgid="fRewcj6JNYq" class="slide">
+                </div>
+                <div id="5_image_6EgltpB9Tol" data-imgid="6EgltpB9Tol" class="slide">
+                </div>
+                <div id="6_image_7HkQgIXG8N9" data-imgid="7HkQgIXG8N9" class="slide">
+                </div>
+                <div id="7_image_b490APa4Jb4" data-imgid="b490APa4Jb4" class="slide">
+                </div>
+                <div id="8_image_5OyDDUhzA4C" data-imgid="5OyDDUhzA4C" class="slide">
+                </div>
+                <div id="9_image_dCbocJIKMsL" data-imgid="dCbocJIKMsL" class="slide">
+                </div>
+                <div id="10_image_5Z8546CMGng" data-imgid="5Z8546CMGng" class="slide">
+                </div>
+                <div id="11_image_57X5x9fDFoj" data-imgid="57X5x9fDFoj" class="slide">
+                </div>
+                <div id="12_image_5v4ryc3CFzI" data-imgid="5v4ryc3CFzI" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_4OpZshj5ova" class="thumb" data-imgid="4OpZshj5ova" href="https://images.craigslist.org/01717_4OpZshj5ova_600x450.jpg" title="1"><img src="https://images.craigslist.org/01717_4OpZshj5ova_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_4BIUtxVletg" class="thumb" data-imgid="4BIUtxVletg" href="https://images.craigslist.org/00i0i_4BIUtxVletg_600x450.jpg" title="2"><img src="https://images.craigslist.org/00i0i_4BIUtxVletg_50x50c.jpg" alt="2"></a><a id="3_thumb_fqTMpvMZBjL" class="thumb" data-imgid="fqTMpvMZBjL" href="https://images.craigslist.org/00S0S_fqTMpvMZBjL_600x450.jpg" title="3"><img src="https://images.craigslist.org/00S0S_fqTMpvMZBjL_50x50c.jpg" alt="3"></a><a id="4_thumb_fRewcj6JNYq" class="thumb" data-imgid="fRewcj6JNYq" href="https://images.craigslist.org/00d0d_fRewcj6JNYq_600x450.jpg" title="4"><img src="https://images.craigslist.org/00d0d_fRewcj6JNYq_50x50c.jpg" alt="4"></a><a id="5_thumb_6EgltpB9Tol" class="thumb" data-imgid="6EgltpB9Tol" href="https://images.craigslist.org/00I0I_6EgltpB9Tol_600x450.jpg" title="5"><img src="https://images.craigslist.org/00I0I_6EgltpB9Tol_50x50c.jpg" alt="5"></a><a id="6_thumb_7HkQgIXG8N9" class="thumb" data-imgid="7HkQgIXG8N9" href="https://images.craigslist.org/00L0L_7HkQgIXG8N9_600x450.jpg" title="6"><img src="https://images.craigslist.org/00L0L_7HkQgIXG8N9_50x50c.jpg" alt="6"></a><a id="7_thumb_b490APa4Jb4" class="thumb" data-imgid="b490APa4Jb4" href="https://images.craigslist.org/00g0g_b490APa4Jb4_600x450.jpg" title="7"><img src="https://images.craigslist.org/00g0g_b490APa4Jb4_50x50c.jpg" alt="7"></a><a id="8_thumb_5OyDDUhzA4C" class="thumb" data-imgid="5OyDDUhzA4C" href="https://images.craigslist.org/00m0m_5OyDDUhzA4C_600x450.jpg" title="8"><img src="https://images.craigslist.org/00m0m_5OyDDUhzA4C_50x50c.jpg" alt="8"></a><a id="9_thumb_dCbocJIKMsL" class="thumb" data-imgid="dCbocJIKMsL" href="https://images.craigslist.org/00707_dCbocJIKMsL_600x450.jpg" title="9"><img src="https://images.craigslist.org/00707_dCbocJIKMsL_50x50c.jpg" alt="9"></a><a id="10_thumb_5Z8546CMGng" class="thumb" data-imgid="5Z8546CMGng" href="https://images.craigslist.org/00r0r_5Z8546CMGng_600x450.jpg" title="10"><img src="https://images.craigslist.org/00r0r_5Z8546CMGng_50x50c.jpg" alt="10"></a><a id="11_thumb_57X5x9fDFoj" class="thumb" data-imgid="57X5x9fDFoj" href="https://images.craigslist.org/00r0r_57X5x9fDFoj_600x450.jpg" title="11"><img src="https://images.craigslist.org/00r0r_57X5x9fDFoj_50x50c.jpg" alt="11"></a><a id="12_thumb_5v4ryc3CFzI" class="thumb" data-imgid="5v4ryc3CFzI" href="https://images.craigslist.org/01515_5v4ryc3CFzI_600x450.jpg" title="12"><img src="https://images.craigslist.org/01515_5v4ryc3CFzI_50x50c.jpg" alt="12"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"4OpZshj5ova","url":"https://images.craigslist.org/01717_4OpZshj5ova_600x450.jpg","thumb":"https://images.craigslist.org/01717_4OpZshj5ova_50x50c.jpg","imgid":"1:01717_4OpZshj5ova"},{"shortid":"4BIUtxVletg","url":"https://images.craigslist.org/00i0i_4BIUtxVletg_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_4BIUtxVletg_50x50c.jpg","imgid":"1:00i0i_4BIUtxVletg"},{"shortid":"fqTMpvMZBjL","url":"https://images.craigslist.org/00S0S_fqTMpvMZBjL_600x450.jpg","thumb":"https://images.craigslist.org/00S0S_fqTMpvMZBjL_50x50c.jpg","imgid":"1:00S0S_fqTMpvMZBjL"},{"shortid":"fRewcj6JNYq","url":"https://images.craigslist.org/00d0d_fRewcj6JNYq_600x450.jpg","thumb":"https://images.craigslist.org/00d0d_fRewcj6JNYq_50x50c.jpg","imgid":"1:00d0d_fRewcj6JNYq"},{"shortid":"6EgltpB9Tol","url":"https://images.craigslist.org/00I0I_6EgltpB9Tol_600x450.jpg","thumb":"https://images.craigslist.org/00I0I_6EgltpB9Tol_50x50c.jpg","imgid":"1:00I0I_6EgltpB9Tol"},{"shortid":"7HkQgIXG8N9","url":"https://images.craigslist.org/00L0L_7HkQgIXG8N9_600x450.jpg","thumb":"https://images.craigslist.org/00L0L_7HkQgIXG8N9_50x50c.jpg","imgid":"1:00L0L_7HkQgIXG8N9"},{"shortid":"b490APa4Jb4","url":"https://images.craigslist.org/00g0g_b490APa4Jb4_600x450.jpg","thumb":"https://images.craigslist.org/00g0g_b490APa4Jb4_50x50c.jpg","imgid":"1:00g0g_b490APa4Jb4"},{"shortid":"5OyDDUhzA4C","url":"https://images.craigslist.org/00m0m_5OyDDUhzA4C_600x450.jpg","thumb":"https://images.craigslist.org/00m0m_5OyDDUhzA4C_50x50c.jpg","imgid":"1:00m0m_5OyDDUhzA4C"},{"shortid":"dCbocJIKMsL","url":"https://images.craigslist.org/00707_dCbocJIKMsL_600x450.jpg","thumb":"https://images.craigslist.org/00707_dCbocJIKMsL_50x50c.jpg","imgid":"1:00707_dCbocJIKMsL"},{"shortid":"5Z8546CMGng","url":"https://images.craigslist.org/00r0r_5Z8546CMGng_600x450.jpg","thumb":"https://images.craigslist.org/00r0r_5Z8546CMGng_50x50c.jpg","imgid":"1:00r0r_5Z8546CMGng"},{"shortid":"57X5x9fDFoj","url":"https://images.craigslist.org/00r0r_57X5x9fDFoj_600x450.jpg","thumb":"https://images.craigslist.org/00r0r_57X5x9fDFoj_50x50c.jpg","imgid":"1:00r0r_57X5x9fDFoj"},{"shortid":"5v4ryc3CFzI","url":"https://images.craigslist.org/01515_5v4ryc3CFzI_600x450.jpg","thumb":"https://images.craigslist.org/01515_5v4ryc3CFzI_50x50c.jpg","imgid":"1:01515_5v4ryc3CFzI"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="32.790400" data-longitude="-96.804400" data-accuracy="22"></div>
+    
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://dallas.craigslist.org/dal/apa/d/dallas-awesome-location-live-work-play/7516663073.html"></div>
+        </div>
+Living here means coming home a luxury lifestyle that has been graced with the perfect balance of contemporary features and unparalleled community amenities. Located in thriving Uptown - you can live, work and play without ever getting in a car or setting foot out of the neighborhood. And, you will have immediate access to Dallas’ finest restaurants and trendiest nightspots. Scale the heights!<br>
+<br>
+<b>Call/text Lori at Spirit Real Estate Group  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/dal/apa/7516663073/__SERVICE_ID__" rel="nofollow">show contact info</a>
+ // Refer to U-MIR-1</b> <br>
+<br>
+ApartmentLocatingServiceDallas.com<br>
+<br>
+Facebook: Dallas Upscale Apartment Locators<br>
+<br>
+Not all units have the same features or amenities pictured.  Availability, pricing, and specials are subject to change daily depending on market conditions. Pricing or specials in the ads are not always updated accordingly.<br>
+<br>
+*Uptown Dallas*<br><br>
+We service Downtown Dallas, Uptown Dallas, Richardson, Highland Village, Old East Dallas, East Dallas, Frisco, Plano, Mckinney, Allen, North Dallas, Carrollton, Farmers Branch, Lewisville, Grapevine, Las Colinas, and all of the DFW Metroplex.<br><br>
+
+**Ask us how to receive a cash rebate**
+
+
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516663073</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-02T21:09:32-0500">2022-08-02 21:09</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
