@@ -1,9 +1,9 @@
 require("stm")
-require("sjPlot")
+#require("sjPlot")
 #require("igraph")
-data <- read.csv("./csv_dumps/chicago_complete.csv")
+data <- read.csv("./csv_dumps/all_complete.csv")
 processed <- textProcessor(data$documents, metadata = data)
-out <- prepDocuments(processed$documents, processed$vocab, processed$meta,lower.thresh = 5)
+out <- prepDocuments(processed$documents, processed$vocab, processed$meta,lower.thresh = 15)
 meta <- out$meta
 #contrasts(meta$class) = contr.sum(8)
 prevFit <- stm(documents = out$documents, vocab = out$vocab, K = 7, prevalence =~ race * poverty, max.em.its = 80, data = meta, init.type = "Spectral")
@@ -12,4 +12,4 @@ prep <- estimateEffect(1:7 ~ race * poverty, prevFit, meta = meta, uncertainty =
 summary(prep)
 #plot_model(prevFit, type='int')
 #mod.out.corr <- topicCorr(prevFit)
-plot(prevFit,type="perspectives")
+#plot(prevFit,type="perspectives")

@@ -233,7 +233,10 @@ def process_html(directory):
         bedbath = find_strings(["BR"], specs)
         if bedbath != "NA": 
             bedbath_re = r"(\.?[0-9]+)+"
-
+            
+            if not isinstance(bedbath,str):
+                bedbath = bedbath[0]
+            
             bedbath = bedbath.split("/")
             bed = bedbath[0]
             bed = int(re.search(bedbath_re, bed).group())

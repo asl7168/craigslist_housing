@@ -1,5 +1,5 @@
 from text_processing import process_html,jsons_to_csv 
-from demographics_multistate import get_demographics 
+from demographics_multistate import get_demographics,demographics_by_tract 
 from state_codes import state_codes
 import json
 import os
@@ -9,10 +9,10 @@ from collections import defaultdict
 #state codes: https://www.nlsinfo.org/content/cohorts/nlsy97/other-documentation/geocode-codebook-supplement/attachment-100-census-bureau
 
 def metro_area_data(metro_area):
-  process_html("./html/"+metro_area)
-  print("1")
-  jsons_to_csv("./json/"+metro_area)
-  print("2")
+  #process_html("./html/"+metro_area)
+  #print("1")
+  #jsons_to_csv("./json/"+metro_area)
+  #print("2")
   states = state_codes[metro_area]
   data = get_demographics(metro_area,states)
   #print(data['3790493246'])
@@ -54,7 +54,8 @@ def metro_area_data(metro_area):
 
 def testing(metro_area):
     states = state_codes[metro_area]
-    data = get_demographics(metro_area,states)
+    data = demographics_by_tract(metro_area,states)
+    #data = get_demographics(metro_area,states)
     typologies = ['Advanced Gentrification','At Risk of Becoming Exclusive','At Risk of Gentrification','Becoming Exclusive','Early/Ongoing Gentrification','High Student Population','Low-Income/Susceptible to Displacement','Ongoing Displacement','Stable Moderate/Mixed Income','Advanced Exclusive','Unavailable or Unreliable Data','Stable/Advanced Exclusive','None']
     new = {}
     old={}
@@ -64,7 +65,7 @@ def testing(metro_area):
     print("here")
     for key in data:
       i = data[key]
-      if i['white']!='NA' and i['white_diff']!='NA':
+      if i != None and i['white']!='NA' and i['white_old']!='NA':
         t = i['typology']
         new[t]['count'] += 1
         new[t]['white'] += i['white']
@@ -72,14 +73,14 @@ def testing(metro_area):
         new[t]['asian'] += i['asian']
         new[t]['latinx'] += i['latinx']
         new[t]['below25k'] += i['below25k']
-        new[t]['college_diff'] += i['college_diff']
-        new[t]['foreignborn_diff'] += i['foreignborn_diff']
-        new[t]['renteroccupied_diff'] += i['renteroccupied_diff']      
-        new[t]['last10yrs_diff'] += i['last10yrs_diff'] 
-        new[t]['vacancy_diff'] += i['vacancy_diff']  
-        new[t]['professional_diff'] += i['professional_diff'] 
-        new[t]['new_residents_diff'] += i['new_residents_diff']
-        new[t]['non_english_diff'] += i['non_english_diff']
+        new[t]['college'] += i['college']
+        new[t]['foreignborn'] += i['foreignborn']
+        new[t]['renteroccupied'] += i['renteroccupied']      
+        new[t]['last10yrs'] += i['last10yrs'] 
+        new[t]['vacancy'] += i['vacancy']  
+        new[t]['professional'] += i['professional'] 
+        new[t]['new_residents'] += i['new_residents']
+        new[t]['non_english'] += i['non_english']
 
         if i['median_income'] > 0:
           new[t]['median_income'] += i['median_income']
@@ -125,19 +126,43 @@ def testing(metro_area):
           
     for t in typologies:
         print(t)
-        for key in totals[t]:
+        for key in new[t]:
             if key=='count':
               print(key,new[t][key])
             else:
-              print(key,(new[t][key]-old[t][key])/(old[t][key]))
+              result = (new[t][key]-old[t][key])/old[t][key] if old[t][key]!=0 else 0
+              print(key,result)
+    for t in typologies:
+        print(t)
+        for key in new[t]:
+            if key=='count':
+              print(key,new[t][key])
+            else:
+              print(key,new[t][key]/new[t]['count'])
 
+    for t in typologies:
+        print(t)
+        for key in new[t]:
+            if key=='count':
+              print(key,new[t][key])
+            else:
+              print(key,new[t][key]/new[t]['count'] - old[t][key]/old[t]['count'])
 
 
 if __name__ == '__main__':
   for metro_area in os.listdir('./html'):
+      if metro_area not in ['seattle','dallas','memphis','chicago','boston','denver']:
+        print(metro_area)
+        process_html("./html/"+metro_area)
+  for metro_area in os.listdir('./html'):
+      print(metro_area)
+      jsons_to_csv("./json/"+metro_area)
+  for metro_area in os.listdir('./html'):
       print(metro_area)
       metro_area_data(metro_area)
-
-
+  
+  #process_html("./html/chicago")
+  #print("1")
+  #jsons_to_csv("./json/chicago")
   #testing('chicago')
-  #metro_area_data('chicago')
+  #metro_area_data('dallas')

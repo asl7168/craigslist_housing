@@ -221,7 +221,7 @@ def get_geoid(csv_read_path,csv_write_path,states):
           typology = typology.split('\n')[0].split(' ')
         else:
           typology = 'NA'.split(' ')
-        geoid = str(combined.at[i,'GEOID_dbl'])
+        geoid = str(combined.at[i,'GEOID'])
         geoid = geoid.split('\n')[0].split(' ')
         if len(post_id)>1:
           post_id = post_id[4]
@@ -312,6 +312,27 @@ def add_fields(data,key,demographics,repeat = False):
       d['avg_rent'] ='NA'
       d['avg_rent_old'] = 'NA'
     return d
+    
+def demographics_by_tract(metro_area,states):
+  tracts = {}
+  data = {}
+  with open ('./GIS_data/displacement-typologies/data/downloads_for_public/'+metro_area+".csv") as csv_file:
+    reader = csv.DictReader(csv_file)
+    for row in reader:
+      tracts[row['GEOID']] = {'typology': row['Typology']}
+  for state in states:
+    race,income,other,race_diff = get_data(state,'*','*')
+    data = assign_categories(race,income,other,race_diff)
+  for key in tracts:
+      #print(data)
+      obj = data.get(key,None)
+      if obj != None:
+          obj['typology'] = tracts[key]['typology']
+      tracts[key] = obj
+  return tracts
+      
+    
+      
       
 def get_demographics(metro_area,states):
   csv_read='csv_dumps/'+metro_area+'_csv_dump.csv'
