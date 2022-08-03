@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Need Help Moving? - apts/housing for rent - apartment rent">
+	<meta name="description" content="Need help moving out or into a new place, apartment, condo, house, storage unit, etc? Need help moving a single item; couch, bed, mattress, washer, dryer, refrigerator, hutch, table, armoire etc? I...">
+	<meta property="og:description" content="Need help moving out or into a new place, apartment, condo, house, storage unit, etc? Need help moving a single item; couch, bed, mattress, washer, dryer, refrigerator, hutch, table, armoire etc? I...">
+	<meta property="og:image" content="https://images.craigslist.org/00E0E_jILLddn2NwBz_09G04H_600x450.jpg">
+	<meta property="og:url" content="https://sfbay.craigslist.org/pen/apa/d/san-mateo-need-help-moving/7513039398.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 02-Sep-22 01:17:40 PDT">
+	<meta name="geo.position" content="37.539500;-122.299800">
+	<meta name="ICBM" content="37.539500, -122.299800">
+	<meta name="geo.placename" content="San Mateo">
+	<meta name="geo.region" content="US-CA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Need Help Moving? - apts/housing for rent - apartment rent</title>
+	<link rel="canonical" href="https://sfbay.craigslist.org/pen/apa/d/san-mateo-need-help-moving/7513039398.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"sfbay.craigslist.org","@id":"https://sfbay.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"peninsula","@id":"https://sfbay.craigslist.org/pen/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://sfbay.craigslist.org/search/pen/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://sfbay.craigslist.org/search/pen/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Need Help Moving?","@id":"https://sfbay.craigslist.org/pen/apa/d/san-mateo-need-help-moving/7513039398.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"longitude":"-122.299800","@context":"http://schema.org","latitude":"37.539500","numberOfBathroomsTotal":1,"name":"Need Help Moving?","address":{"streetAddress":"","addressCountry":"US","addressLocality":"San Mateo","postalCode":"94403","addressRegion":"CA","@type":"PostalAddress"},"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7513039398
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">SF bay area</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/pen/">peninsula</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/pen/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/pen/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/sfo">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+peninsula            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/sfo/apa/7513039398/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-25T01:10:35-0700">
+                        2022-07-25 01:10
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$60</span> <span id="titletextonly">Need Help Moving?</span><small> (san mateo)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw oneimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 1</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_jILLddn2NwBz_09G04H" data-imgid="jILLddn2NwBz_09G04H" class="slide first visible">
+                    <img src="https://images.craigslist.org/00E0E_jILLddn2NwBz_09G04H_600x450.jpg" title="1" alt="1">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"jILLddn2NwBz_09G04H","url":"https://images.craigslist.org/00E0E_jILLddn2NwBz_09G04H_600x450.jpg","thumb":"https://images.craigslist.org/00E0E_jILLddn2NwBz_09G04H_50x50c.jpg","imgid":"3:00E0E_jILLddn2NwBz_09G04H"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="37.539500" data-longitude="-122.299800" data-accuracy="22"></div>
+    
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>0BR</b> / <b>1Ba</b></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>no laundry on site</span>
+            <br>
+
+
+
+
+            <span>no parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>daily</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://sfbay.craigslist.org/pen/apa/d/san-mateo-need-help-moving/7513039398.html"></div>
+        </div>
+Need help moving out or into a new place, apartment, condo, house, storage unit, etc?<br>
+<br>
+Need help moving a single item; couch, bed, mattress, washer, dryer, refrigerator, hutch, table, armoire etc?<br>
+<br>
+I have a 10 foot box truck and can help with your moving needs.<br>
+<br>
+Very affordable. $60/hr + gas + travel time if not local to San Mateo. Cash<br>
+<br>
+Text move date, pickup &amp; drop off city locations. Will get back within the hour.<br>
+<br>
+Thanks,<br>
+Doug: 650<br>
+two zero four<br>
+zero three eight three<br>
+<br>
+<br>
+<br>
+<br>
+mover movers couch sofa bed mattress twin double queen king washer dryer refrigerator hutch table armoire cabinet bookcase dresser boxes pack packing materials move blanket blankets Italian crafted dining kitchen tables chairs living room bedroom dresser king queen bed amoire sofa couch tv china cabinet hutch vanity media center entertainment console buffet closet ikea vintage art deco postmodern modern midcentury mid-century mid century west elm sectional dinette booth Grey sofa, Divano Roma Furniture, versatile Sofa, king size bed, antique sofa, black sofa, flexform sofa, livingroom, living room furniture, livingroom furnitures, living room chairs, gray sofa, white sofa, couch sofa, lazy boy sofa, leather sofa, antique couch, couch +leather + delivery, futon bed, couch and loveseat, couch set, couch vintage, free couch, futon, Divano Roma Furniture, Modern Soft, Sectional Sofa, sofa bed, pull-out bed, charcoal, polyester futon, beautiful couches, new couch, studio couch, Ottoman sofa, loveseat, good condition couch, 2 piece, 3 piece, chair set, sofa chair, 3pc, Ikea sofa, 2pc, 4pc, brand new, 3 pieces, good quality, blue sofa, couch sofa sectional, crate &amp; barrel sofa, crate and barrel, ethan allen sofa, ikea sleeper sofa, black leather couch, brown couch, brown leather couch, couch and chair, couch cambridge, couch delivery, accent table, bar height table, bed side table, bedside table, bistro table, black coffee table, buffet table, changing table, cherry table, coffee table, 4 dining chairs, 6 chairs, 6 dining chairs, accent chair adirondack chair, arm chair, arm chairs, armchair, armchairs, chair and ottoman, chesterfield sofa, convertible sofa, couch sofa set, cb2 couch, corner couch, 2 drawer file cabinet, 3 drawer, 3 drawer dresser, 5 drawer chest, 6 drawer chest, bedroom chest of drawers, chest drawers, black tv stand, corner tv stand, fireplace tv stand, flat screen tv stand, glass tv stand, ikea tv stand, modern tv stand, stand tv, tv media stand, rocking chair, rocking chairs, baby rocking chair, free futon, futon bed, futon couch, futon frame, futon mattress, futons, reclining chair, reclining sofa, La-Z-boy sofa, small space, linen, living room couch. outdoor, outdoor patio furniture, outdoor furniture, summer, poolside, outdoor patio, outdoor sectional, outdoor chair, patio, patio furniture, outdoor patio furniture, patio set, outdoor patio, patio table, patio chairs, patio umbrella, patio sectional. office chair, chairs, dinging chairs, chair, table and chairs, dining room table &amp; chairs, arm chair, accent chair, leather chair, black chair, crate &amp; barrel, crate and barrel, gaming chair, computer desk, ikea desk, ikea chair, office desk, corner desk, white desk, small desk, studio desk, studio chair, wood desk, office furniture, office desks, office chairs, Recliner, recliners, recliner chair, leather recliner, power recliner, love seat recliner, lazy boy recliner, lift recline, recliner couch, recliner loveseat, couch, corner couch, glass tv stand, ikea tv stand, modern tv stand, stand tv, tv media stand, rocking chair, rocking chairs, baby rocking chair, free futon, futon bed, futon couch, futon frame, futon mattress, futons, reclining chair, reclining sofa, La-Z-boy sofa, small space, linen, living room couch. , outdoor patio furniture, outdoor furniture, outdoor patio, outdoor sectional, outdoor chair, patio, patio furniture, summer, outdoor patio furniture, patio set, outdoor patio, patio table, patio chairs, patio umbrella, patio sectional. memory foam, memory foam mattress, single bed, bed, queen bed, bed frame queen, bedroom set, king bed, full bed, bed frame. twin bed, queen bed frame, bunk bed, bed frame full, loft bed, sofa, curved sofa, couch sofa, leather sofa, sofa table, sleeper sofa, sofa bed, sofas, king bed frame, bed frame king, rocking chair, bedroom set king, king headboard, king mattress, king bedroom set, headboard king, king size bed, California king, guest bed, queen bed bed frame queen, queen, queen mattress, bed queen, queen headboard, queen bedroom set, double bed, double bed frame, bunk beds, bed bunk, bunk, bunkbeds, crate &amp; barrel, crate and barrel, mattress twin, Linenspa, wood frame, wooden frame, wooden bed frame, wood bed frame, steel bed frame, portable bed, Office chair, office desk, office furniture, office chairs, office, office desks, office table, office trailer, leather office chair, wood table, wood desk, coffee table, dining table, side table, L-shape table, L shape desk, folding table, crate &amp; barrel, crate and barrel, corner desk, corner table, study desk, study table, ikea desk, standing desk, white desk, gaming desk, laptop desk, computer desk, metal desk, steel desk. Dining table, coffee table, table, wooden table, wood table, steel table, black table, white table, stainless table, kitchen table, dining room table, dining room table, dining room chairs, chair, dining chairs, office chair, leather chair, kitchen cabinets, furniture, crate &amp; barrel, rate and barrel furnitures, kitchen island, kitchen, kitchen sink, cabinets kitchen, living room furniture, living room chair, dining set, ding room table and chairs, outdoor, outdoor patio furniture4 dining chairs, 6 chairs, 6 dining chairs, accent chair adirondack chair, arm chair, arm chairs, armchair, armchairs, chair and ottoman, chesterfield sofa, convertible sofa, couch sofa set, cb2 couch, corner couch, 2 drawer, 3 drawer, 5 drawer chest, 6 drawer chest, bedroom chest of drawers, chest drawers, black tv stand, corner tv stand, fireplace tv stand, flat screen tv stand, ikea tv stand, modern tv stand, stand tv, tv media stand, rocking chair, rocking chairs, baby rocking chair, free futon, futon bed, futon couch, futon frame, futon mattress, futons, reclining chair, reclining sofa, La-Z-boy sofa, small space, linen, living room couch. outdoor, outdoor patio furniture, outdoor furniture, summer, poolside, outdoor patio, outdoor sectional, outdoor chair, patio, patio furniture, outdoor patio furniture, patio set, outdoor patio, patio table, patio chairs, patio umbrella, patio sectional.atio umbrella, patio sectional. Shelving, book shelf, shelves, storage, book shelves, corner shelf, ikea shelving, Shelton, storage shelves, wall shelf, wood shelving, steel shelving, white shelving. Metal shelving, shelving case. Garage shelving, garage shelves. Office shelf, kitchen shelving, ikea garage shelf. Drawers, chest, bookcase, home metal shelves cabinet. rack, heavy duty, metro, metal shelves, kitchen cart, cart on wheels, metal 4-tier, ladder shelf bookcase storage rack. Adjustable open wire, heavy-duty storage, wide span storage rack, certified 5-shelf resin rack, Sturdy shelving. bookshelf, bookcase, multi-purpose organizer, kitchen shelf, rack. Danby dehumidifier, mini dehumidifier, noma dehumidifier, air conditioning, air condition, portable air conditioner, portable dehumidifier, carpet, carpet cleaner, area carpet, carpet cleaning, area carpet rug, new carpet, carpets, Persian carpet, carpet runner, carpet tile, carpet extractor, wool carpet, Ikea dresser, Ikea rocking chair, ikea desk, ikea lamp, ikea rocking, ikea chest, ikea shelf, ikea chair, ikea bed, ikea table, ikea pax, heater, patio heater, propane heater, home theatre, oil heater, electric heater, space heater, portable heater, heaters, white dresser, dressers, hemnes dresser, tall dresser, bedroom dresser, dresser ikea, malm dresser ikea dressers, antique dresser, hemnes, ikea hemnes, hemnes bed, hemnes daybed, hemnes desk, hemnes shoe, china cabinet, filing cabinet, metal cabinet, display cabinet, cabinets, glass cabinet, ikea cabinet, storage cabinet, murphy bed, lamp, floor lamp, lamps, pendant lamp, table lamp, desk lamp, table lamps, floor lamps, vintage lamp, tripod lamp, lamp shade, classy furniture
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7513039398</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-25T01:10:35-0700">2022-07-25 01:10</time></p>
+
+                <p class="postinginfo reveal">updated: <time class="date timeago" datetime="2022-08-03T01:12:40-0700">2022-08-03 01:12</time></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

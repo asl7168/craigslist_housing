@@ -96,11 +96,12 @@ class CraigslistScraper:
                     new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))
                     self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
                     cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+                    
+                    return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
             else:
                 cprint(f"No more search results!", c="y")
                 return [0, True, 0]
 
-            return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
 
 
         posts_dict = {}

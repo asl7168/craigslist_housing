@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Apartment with views of the Magnolia Trees/55+ Adult Community -...">
+	<meta name="description" content="Victoria Gardens...Our Senior Community is just what you are looking for, if you are 55 yrs or older. We offer 1 Bedroom Apartments designed for an independent lifestyle....">
+	<meta property="og:description" content="Victoria Gardens...Our Senior Community is just what you are looking for, if you are 55 yrs or older. We offer 1 Bedroom Apartments designed for an independent lifestyle....">
+	<meta property="og:image" content="https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_600x450.jpg">
+	<meta property="og:url" content="https://sfbay.craigslist.org/eby/apa/d/fremont-apartment-with-views-of-the/7516650048.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 01-Sep-22 18:24:08 PDT">
+	<meta name="geo.position" content="37.530115;-121.962233">
+	<meta name="ICBM" content="37.530115, -121.962233">
+	<meta name="geo.placename" content="Fremont">
+	<meta name="geo.region" content="US-CA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Apartment with views of the Magnolia Trees/55+ Adult Community -...</title>
+	<link rel="canonical" href="https://sfbay.craigslist.org/eby/apa/d/fremont-apartment-with-views-of-the/7516650048.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"sfbay.craigslist.org","@id":"https://sfbay.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"east bay","@id":"https://sfbay.craigslist.org/eby/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://sfbay.craigslist.org/search/eby/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://sfbay.craigslist.org/search/eby/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Apartment with views of the Magnolia Trees/55+ Adult Community","@id":"https://sfbay.craigslist.org/eby/apa/d/fremont-apartment-with-views-of-the/7516650048.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-121.962233","name":"Apartment with views of the Magnolia Trees/55+ Adult Community","@context":"http://schema.org","latitude":"37.530115","numberOfBathroomsTotal":1,"address":{"streetAddress":"4243 Laurel Street","addressCountry":"US","addressLocality":"Fremont","postalCode":"94538","addressRegion":"CA","@type":"PostalAddress"},"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516650048
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">SF bay area</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/eby/">east bay</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/eby/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/eby/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/sfo">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+east bay            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/sfo/apa/7516650048/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-02T18:20:08-0700">
+                        2022-08-02 18:20
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,895</span> <span class="housing">/ 1br - 577ft<sup>2</sup> - </span><span id="titletextonly">Apartment with views of the Magnolia Trees/55+ Adult Community</span><small> (fremont / union city / newark)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 20</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_f2ZKnmKCm9Hz_0CI0t2" data-imgid="f2ZKnmKCm9Hz_0CI0t2" class="slide first visible">
+                    <img src="https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_d7p7bmh5Fsnz_0CI0t2" data-imgid="d7p7bmh5Fsnz_0CI0t2" class="slide">
+                </div>
+                <div id="3_image_c6Adj6gXItKz_0CI0t2" data-imgid="c6Adj6gXItKz_0CI0t2" class="slide">
+                </div>
+                <div id="4_image_yW2tztEX4zz_0CI0t2" data-imgid="yW2tztEX4zz_0CI0t2" class="slide">
+                </div>
+                <div id="5_image_dl5DDhcESbxz_0t20CI" data-imgid="dl5DDhcESbxz_0t20CI" class="slide">
+                </div>
+                <div id="6_image_cLiST5iXRD2z_0CI0t2" data-imgid="cLiST5iXRD2z_0CI0t2" class="slide">
+                </div>
+                <div id="7_image_8GZnXe2eq4Bz_0CI0t2" data-imgid="8GZnXe2eq4Bz_0CI0t2" class="slide">
+                </div>
+                <div id="8_image_3NXNLffmZ2Zz_0CI0t2" data-imgid="3NXNLffmZ2Zz_0CI0t2" class="slide">
+                </div>
+                <div id="9_image_48o9hWSeoQHz_0CI0t2" data-imgid="48o9hWSeoQHz_0CI0t2" class="slide">
+                </div>
+                <div id="10_image_93HaOm07MHRz_0CI0t2" data-imgid="93HaOm07MHRz_0CI0t2" class="slide">
+                </div>
+                <div id="11_image_lYtJ9aGjThez_0CI0t2" data-imgid="lYtJ9aGjThez_0CI0t2" class="slide">
+                </div>
+                <div id="12_image_a2hS2Z0nyeNz_0CI0t2" data-imgid="a2hS2Z0nyeNz_0CI0t2" class="slide">
+                </div>
+                <div id="13_image_cUpL1I0LSljz_0CI0t2" data-imgid="cUpL1I0LSljz_0CI0t2" class="slide">
+                </div>
+                <div id="14_image_9g9DPgkh8Maz_0CI0t2" data-imgid="9g9DPgkh8Maz_0CI0t2" class="slide">
+                </div>
+                <div id="15_image_dMpLTpsPpQUz_0CI0t2" data-imgid="dMpLTpsPpQUz_0CI0t2" class="slide">
+                </div>
+                <div id="16_image_aSC5vu0bQKFz_0CI0t2" data-imgid="aSC5vu0bQKFz_0CI0t2" class="slide">
+                </div>
+                <div id="17_image_9ESI0AXwzvWz_0CI0t2" data-imgid="9ESI0AXwzvWz_0CI0t2" class="slide">
+                </div>
+                <div id="18_image_aDfWaqNBmnQz_0CI0t2" data-imgid="aDfWaqNBmnQz_0CI0t2" class="slide">
+                </div>
+                <div id="19_image_1F7C6L0ijrlz_0CI0t2" data-imgid="1F7C6L0ijrlz_0CI0t2" class="slide">
+                </div>
+                <div id="20_image_6vxCdm13eHYz_0CI0t2" data-imgid="6vxCdm13eHYz_0CI0t2" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_f2ZKnmKCm9Hz_0CI0t2" class="thumb" data-imgid="f2ZKnmKCm9Hz_0CI0t2" href="https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_600x450.jpg" title="1"><img src="https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_d7p7bmh5Fsnz_0CI0t2" class="thumb" data-imgid="d7p7bmh5Fsnz_0CI0t2" href="https://images.craigslist.org/00i0i_d7p7bmh5Fsnz_0CI0t2_600x450.jpg" title="2"><img src="https://images.craigslist.org/00i0i_d7p7bmh5Fsnz_0CI0t2_50x50c.jpg" alt="2"></a><a id="3_thumb_c6Adj6gXItKz_0CI0t2" class="thumb" data-imgid="c6Adj6gXItKz_0CI0t2" href="https://images.craigslist.org/00d0d_c6Adj6gXItKz_0CI0t2_600x450.jpg" title="3"><img src="https://images.craigslist.org/00d0d_c6Adj6gXItKz_0CI0t2_50x50c.jpg" alt="3"></a><a id="4_thumb_yW2tztEX4zz_0CI0t2" class="thumb" data-imgid="yW2tztEX4zz_0CI0t2" href="https://images.craigslist.org/01111_yW2tztEX4zz_0CI0t2_600x450.jpg" title="4"><img src="https://images.craigslist.org/01111_yW2tztEX4zz_0CI0t2_50x50c.jpg" alt="4"></a><a id="5_thumb_dl5DDhcESbxz_0t20CI" class="thumb" data-imgid="dl5DDhcESbxz_0t20CI" href="https://images.craigslist.org/00y0y_dl5DDhcESbxz_0t20CI_600x450.jpg" title="5"><img src="https://images.craigslist.org/00y0y_dl5DDhcESbxz_0t20CI_50x50c.jpg" alt="5"></a><a id="6_thumb_cLiST5iXRD2z_0CI0t2" class="thumb" data-imgid="cLiST5iXRD2z_0CI0t2" href="https://images.craigslist.org/00Q0Q_cLiST5iXRD2z_0CI0t2_600x450.jpg" title="6"><img src="https://images.craigslist.org/00Q0Q_cLiST5iXRD2z_0CI0t2_50x50c.jpg" alt="6"></a><a id="7_thumb_8GZnXe2eq4Bz_0CI0t2" class="thumb" data-imgid="8GZnXe2eq4Bz_0CI0t2" href="https://images.craigslist.org/00404_8GZnXe2eq4Bz_0CI0t2_600x450.jpg" title="7"><img src="https://images.craigslist.org/00404_8GZnXe2eq4Bz_0CI0t2_50x50c.jpg" alt="7"></a><a id="8_thumb_3NXNLffmZ2Zz_0CI0t2" class="thumb" data-imgid="3NXNLffmZ2Zz_0CI0t2" href="https://images.craigslist.org/01515_3NXNLffmZ2Zz_0CI0t2_600x450.jpg" title="8"><img src="https://images.craigslist.org/01515_3NXNLffmZ2Zz_0CI0t2_50x50c.jpg" alt="8"></a><a id="9_thumb_48o9hWSeoQHz_0CI0t2" class="thumb" data-imgid="48o9hWSeoQHz_0CI0t2" href="https://images.craigslist.org/00505_48o9hWSeoQHz_0CI0t2_600x450.jpg" title="9"><img src="https://images.craigslist.org/00505_48o9hWSeoQHz_0CI0t2_50x50c.jpg" alt="9"></a><a id="10_thumb_93HaOm07MHRz_0CI0t2" class="thumb" data-imgid="93HaOm07MHRz_0CI0t2" href="https://images.craigslist.org/00l0l_93HaOm07MHRz_0CI0t2_600x450.jpg" title="10"><img src="https://images.craigslist.org/00l0l_93HaOm07MHRz_0CI0t2_50x50c.jpg" alt="10"></a><a id="11_thumb_lYtJ9aGjThez_0CI0t2" class="thumb" data-imgid="lYtJ9aGjThez_0CI0t2" href="https://images.craigslist.org/01717_lYtJ9aGjThez_0CI0t2_600x450.jpg" title="11"><img src="https://images.craigslist.org/01717_lYtJ9aGjThez_0CI0t2_50x50c.jpg" alt="11"></a><a id="12_thumb_a2hS2Z0nyeNz_0CI0t2" class="thumb" data-imgid="a2hS2Z0nyeNz_0CI0t2" href="https://images.craigslist.org/00q0q_a2hS2Z0nyeNz_0CI0t2_600x450.jpg" title="12"><img src="https://images.craigslist.org/00q0q_a2hS2Z0nyeNz_0CI0t2_50x50c.jpg" alt="12"></a><a id="13_thumb_cUpL1I0LSljz_0CI0t2" class="thumb" data-imgid="cUpL1I0LSljz_0CI0t2" href="https://images.craigslist.org/00o0o_cUpL1I0LSljz_0CI0t2_600x450.jpg" title="13"><img src="https://images.craigslist.org/00o0o_cUpL1I0LSljz_0CI0t2_50x50c.jpg" alt="13"></a><a id="14_thumb_9g9DPgkh8Maz_0CI0t2" class="thumb" data-imgid="9g9DPgkh8Maz_0CI0t2" href="https://images.craigslist.org/00W0W_9g9DPgkh8Maz_0CI0t2_600x450.jpg" title="14"><img src="https://images.craigslist.org/00W0W_9g9DPgkh8Maz_0CI0t2_50x50c.jpg" alt="14"></a><a id="15_thumb_dMpLTpsPpQUz_0CI0t2" class="thumb" data-imgid="dMpLTpsPpQUz_0CI0t2" href="https://images.craigslist.org/00c0c_dMpLTpsPpQUz_0CI0t2_600x450.jpg" title="15"><img src="https://images.craigslist.org/00c0c_dMpLTpsPpQUz_0CI0t2_50x50c.jpg" alt="15"></a><a id="16_thumb_aSC5vu0bQKFz_0CI0t2" class="thumb" data-imgid="aSC5vu0bQKFz_0CI0t2" href="https://images.craigslist.org/01414_aSC5vu0bQKFz_0CI0t2_600x450.jpg" title="16"><img src="https://images.craigslist.org/01414_aSC5vu0bQKFz_0CI0t2_50x50c.jpg" alt="16"></a><a id="17_thumb_9ESI0AXwzvWz_0CI0t2" class="thumb" data-imgid="9ESI0AXwzvWz_0CI0t2" href="https://images.craigslist.org/00G0G_9ESI0AXwzvWz_0CI0t2_600x450.jpg" title="17"><img src="https://images.craigslist.org/00G0G_9ESI0AXwzvWz_0CI0t2_50x50c.jpg" alt="17"></a><a id="18_thumb_aDfWaqNBmnQz_0CI0t2" class="thumb" data-imgid="aDfWaqNBmnQz_0CI0t2" href="https://images.craigslist.org/00X0X_aDfWaqNBmnQz_0CI0t2_600x450.jpg" title="18"><img src="https://images.craigslist.org/00X0X_aDfWaqNBmnQz_0CI0t2_50x50c.jpg" alt="18"></a><a id="19_thumb_1F7C6L0ijrlz_0CI0t2" class="thumb" data-imgid="1F7C6L0ijrlz_0CI0t2" href="https://images.craigslist.org/00t0t_1F7C6L0ijrlz_0CI0t2_600x450.jpg" title="19"><img src="https://images.craigslist.org/00t0t_1F7C6L0ijrlz_0CI0t2_50x50c.jpg" alt="19"></a><a id="20_thumb_6vxCdm13eHYz_0CI0t2" class="thumb" data-imgid="6vxCdm13eHYz_0CI0t2" href="https://images.craigslist.org/00k0k_6vxCdm13eHYz_0CI0t2_600x450.jpg" title="20"><img src="https://images.craigslist.org/00k0k_6vxCdm13eHYz_0CI0t2_50x50c.jpg" alt="20"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"f2ZKnmKCm9Hz_0CI0t2","url":"https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00d0d_f2ZKnmKCm9Hz_0CI0t2_50x50c.jpg","imgid":"3:00d0d_f2ZKnmKCm9Hz_0CI0t2"},{"shortid":"d7p7bmh5Fsnz_0CI0t2","url":"https://images.craigslist.org/00i0i_d7p7bmh5Fsnz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_d7p7bmh5Fsnz_0CI0t2_50x50c.jpg","imgid":"3:00i0i_d7p7bmh5Fsnz_0CI0t2"},{"shortid":"c6Adj6gXItKz_0CI0t2","url":"https://images.craigslist.org/00d0d_c6Adj6gXItKz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00d0d_c6Adj6gXItKz_0CI0t2_50x50c.jpg","imgid":"3:00d0d_c6Adj6gXItKz_0CI0t2"},{"shortid":"yW2tztEX4zz_0CI0t2","url":"https://images.craigslist.org/01111_yW2tztEX4zz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/01111_yW2tztEX4zz_0CI0t2_50x50c.jpg","imgid":"3:01111_yW2tztEX4zz_0CI0t2"},{"shortid":"dl5DDhcESbxz_0t20CI","url":"https://images.craigslist.org/00y0y_dl5DDhcESbxz_0t20CI_600x450.jpg","thumb":"https://images.craigslist.org/00y0y_dl5DDhcESbxz_0t20CI_50x50c.jpg","imgid":"3:00y0y_dl5DDhcESbxz_0t20CI"},{"shortid":"cLiST5iXRD2z_0CI0t2","url":"https://images.craigslist.org/00Q0Q_cLiST5iXRD2z_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00Q0Q_cLiST5iXRD2z_0CI0t2_50x50c.jpg","imgid":"3:00Q0Q_cLiST5iXRD2z_0CI0t2"},{"shortid":"8GZnXe2eq4Bz_0CI0t2","url":"https://images.craigslist.org/00404_8GZnXe2eq4Bz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00404_8GZnXe2eq4Bz_0CI0t2_50x50c.jpg","imgid":"3:00404_8GZnXe2eq4Bz_0CI0t2"},{"shortid":"3NXNLffmZ2Zz_0CI0t2","url":"https://images.craigslist.org/01515_3NXNLffmZ2Zz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/01515_3NXNLffmZ2Zz_0CI0t2_50x50c.jpg","imgid":"3:01515_3NXNLffmZ2Zz_0CI0t2"},{"shortid":"48o9hWSeoQHz_0CI0t2","url":"https://images.craigslist.org/00505_48o9hWSeoQHz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00505_48o9hWSeoQHz_0CI0t2_50x50c.jpg","imgid":"3:00505_48o9hWSeoQHz_0CI0t2"},{"shortid":"93HaOm07MHRz_0CI0t2","url":"https://images.craigslist.org/00l0l_93HaOm07MHRz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_93HaOm07MHRz_0CI0t2_50x50c.jpg","imgid":"3:00l0l_93HaOm07MHRz_0CI0t2"},{"shortid":"lYtJ9aGjThez_0CI0t2","url":"https://images.craigslist.org/01717_lYtJ9aGjThez_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/01717_lYtJ9aGjThez_0CI0t2_50x50c.jpg","imgid":"3:01717_lYtJ9aGjThez_0CI0t2"},{"shortid":"a2hS2Z0nyeNz_0CI0t2","url":"https://images.craigslist.org/00q0q_a2hS2Z0nyeNz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00q0q_a2hS2Z0nyeNz_0CI0t2_50x50c.jpg","imgid":"3:00q0q_a2hS2Z0nyeNz_0CI0t2"},{"shortid":"cUpL1I0LSljz_0CI0t2","url":"https://images.craigslist.org/00o0o_cUpL1I0LSljz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00o0o_cUpL1I0LSljz_0CI0t2_50x50c.jpg","imgid":"3:00o0o_cUpL1I0LSljz_0CI0t2"},{"shortid":"9g9DPgkh8Maz_0CI0t2","url":"https://images.craigslist.org/00W0W_9g9DPgkh8Maz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00W0W_9g9DPgkh8Maz_0CI0t2_50x50c.jpg","imgid":"3:00W0W_9g9DPgkh8Maz_0CI0t2"},{"shortid":"dMpLTpsPpQUz_0CI0t2","url":"https://images.craigslist.org/00c0c_dMpLTpsPpQUz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00c0c_dMpLTpsPpQUz_0CI0t2_50x50c.jpg","imgid":"3:00c0c_dMpLTpsPpQUz_0CI0t2"},{"shortid":"aSC5vu0bQKFz_0CI0t2","url":"https://images.craigslist.org/01414_aSC5vu0bQKFz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/01414_aSC5vu0bQKFz_0CI0t2_50x50c.jpg","imgid":"3:01414_aSC5vu0bQKFz_0CI0t2"},{"shortid":"9ESI0AXwzvWz_0CI0t2","url":"https://images.craigslist.org/00G0G_9ESI0AXwzvWz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00G0G_9ESI0AXwzvWz_0CI0t2_50x50c.jpg","imgid":"3:00G0G_9ESI0AXwzvWz_0CI0t2"},{"shortid":"aDfWaqNBmnQz_0CI0t2","url":"https://images.craigslist.org/00X0X_aDfWaqNBmnQz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00X0X_aDfWaqNBmnQz_0CI0t2_50x50c.jpg","imgid":"3:00X0X_aDfWaqNBmnQz_0CI0t2"},{"shortid":"1F7C6L0ijrlz_0CI0t2","url":"https://images.craigslist.org/00t0t_1F7C6L0ijrlz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00t0t_1F7C6L0ijrlz_0CI0t2_50x50c.jpg","imgid":"3:00t0t_1F7C6L0ijrlz_0CI0t2"},{"shortid":"6vxCdm13eHYz_0CI0t2","url":"https://images.craigslist.org/00k0k_6vxCdm13eHYz_0CI0t2_600x450.jpg","thumb":"https://images.craigslist.org/00k0k_6vxCdm13eHYz_0CI0t2_50x50c.jpg","imgid":"3:00k0k_6vxCdm13eHYz_0CI0t2"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="37.530115" data-longitude="-121.962233" data-accuracy="5"></div>
+    <div class="mapaddress">4243 Laurel Street near Chapel Way</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/37.530115,-121.962233">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>577</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>application fee details: <b>$40 credit and background check</b></span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>laundry on site</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://sfbay.craigslist.org/eby/apa/d/fremont-apartment-with-views-of-the/7516650048.html"></div>
+        </div>
+Victoria Gardens...Our Senior Community is just what you are looking for, if you are 55 yrs or older.  We offer 1 Bedroom Apartments designed for an independent lifestyle.<br>
+<br>
+www.VictoriaGardensApartments.com (visit our website for additional information and rental criteria)<br>
+<br>
+Apartment – Amenities - Available in September<br>
+   Open Floor Plan with New Carpet in the Livingroom and Bedroom<br>
+   Full-size Modern Kitchen with New Cabinets<br>
+   Walk-in Pantry<br>
+   Electric Appliances<br>
+   New Vinyl in Kitchen, Dining Area and Bath<br>
+   Built-In Bookshelf in Livingroom<br>
+   Large Closets / Linen Closet<br>
+   Internet/Cable Ready<br>
+   Large Patio<br>
+   1 Assigned Parking Space <br>
+   No Smoking <br>
+<br>
+Community – Amenities<br>
+   Elevator in each Building<br>
+   2 Laundry Room Facilities<br>
+   Clubhouse, Library, and Billiard Room<br>
+   Courtyard with Sitting Areas / Beautiful Gazebo<br>
+   Park-Like Landscaped Areas<br>
+   On-site Management Team<br>
+   On-site Maintenance / 24-Hr Maintenance<br>
+<br>
+Enjoy a breath of fresh air and sit among mature trees at this peaceful garden setting community.  <br>
+Socialize in the beautifully decorated and comfortable clubhouse; enjoy a game of billiards with friends and neighbors.  If some quiet time is what you require, retreat to its reading room and library with your favorite novel or catch up on current events from your newspaper.<br>
+<br>
+Walking distance to the Irvington Farmers Market, coffee shops, supermarket, restaurants and other services. It's a quick trip to the Pacific Commons Shopping Center and the Fremont Hub. Near Hwy 880 and 680.<br>
+<br>
+Rent $1895 (1 year lease)<br>
+Utilities $65 (monthly flat rate for: electricity, gas, water and trash)<br>
+Security Deposit $800 (on approved credit)<br>
+Application Fee per Adult $40<br>
+<br>
+Leasing office: 4243 Laurel Street, Fremont  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/sfo/apa/7516650048/__SERVICE_ID__" rel="nofollow">show contact info</a>
+ office<br>
+Office Hours: 9a to 6p Monday - Friday. Closed Saturday and Sunday<br>
+<br>
+All rents, deposits, leasing terms and availability are subject to change without notice. Please call us for current rental rates, availability, deposits and leasing terms.
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516650048</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-02T18:20:08-0700">2022-08-02 18:20</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
