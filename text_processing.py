@@ -5,7 +5,7 @@ import json
 import spacy
 import pandas as pd
 from html import unescape
-
+from tqdm import tqdm
 
 # new comment
 def find_strings(keywords, search_list):
@@ -28,16 +28,12 @@ def find_strings(keywords, search_list):
     str
         Either the full string from the list or "NA" if doesn't exisit  
     """
-    match = []
-    for item in search_list:
-        for s in keywords:
-            if s in item:
-                match.append(item)
+    match = [item for item in search_list for keyword in keywords if keyword in item] 
     
     if len(match) == 0:
         return "NA"
     elif len(match) == 1:
-        return ''.join(match)
+        return match[0]
     else:
         return match
 
@@ -98,14 +94,13 @@ def process_html(directory):
 
     if not os.path.exists(f"./json/{city}"): os.makedirs(f"./json/{city}")
     
-    for idx, fname in enumerate(os.listdir(directory)):
-        file_path = os.path.join(directory, fname)
+    for filename in tqdm(os.listdir(directory), desc=f"Processing html from {directory}..."):
+        filepath = os.path.join(directory, filename)
         
-        if idx % 100 == 0: print(idx)
-        if not os.path.isfile(file_path): continue
-        
+        if not os.path.isfile(filepath): continue
+
         # open html and create soup
-        with open(file_path, encoding='utf-8') as html_file:
+        with open(filepath, encoding='utf-8') as html_file:
             soup = BeautifulSoup(html_file, 'lxml')
         
         # get unique post ID
@@ -114,19 +109,12 @@ def process_html(directory):
         except:
             continue
         
-        # posting/updating dates and times
-        posting_infos = soup.find('div', class_='postinginfos')
+        posting_infos = soup.find('div', class_='postinginfos')  # posting/updating dates and times
+        
         timing = posting_infos.find_all('time', class_='date timeago')
-        datetime = []
-        for item in timing:
-            datetime.append(item.text)
-        # first item in list will be posting datetime
-        posted = datetime[0]
-        # any additional datetimes will be updates
-        if len(datetime) > 1:
-            updated = datetime[1]
-        else:
-            updated = "NA"
+        datetime = [item.text for item in timing]
+        posted = datetime[0]  # first item in list will be posting datetime
+        updated = datetime[1] if len(datetime) > 1 else "NA"  # any additional datetimes will be updates
 
         # handle if a post is a repost
         repost_of_script = str(soup('script')[3])
@@ -142,8 +130,7 @@ def process_html(directory):
             else:  # otherwise, handle later (see L303, L314, L342)
                 pass
         
-        # get post url
-        url = soup.find('link', rel='canonical').get('href')
+        url = soup.find('link', rel='canonical').get('href')  # get post url
         
         # find posting title text which will include pricing, post title, and neighborhood (optional)
         title_text = soup.find('span', class_="postingtitletext")
@@ -152,38 +139,30 @@ def process_html(directory):
         # find pricing info, extract text, strip whitespace, remove non-integer characters
         pricing_info = title_text.find('span', class_="price")
         if pricing_info:
-            price = int(pricing_info.text.strip().replace(
-                "$", "").replace(",", ""))
+            price = int(pricing_info.text.strip().replace("$", "").replace(",", ""))
         else:
             price = "NA"
         
         # if neighborhood is included (doesn't have to be), will be found here in the title text
         post_hood = title_text.find('small')
-        if post_hood:
-            neighborhood = post_hood.text.strip().strip('()')
-        else:
-            neighborhood = "NA"
+        neighborhood = post_hood.text.strip().strip('()') if post_hood else "NA"
         
         # get availability date
-        # I choose to grab the actual date instead of the text 'available jul 1' for example
-        availability = soup.find(
-            class_="housing_movein_now property_date shared-line-bubble")
-        if availability:
-            available = availability.get('data-date')
-        else:
-            available = "NA"
+        # choose to grab the actual date instead of the text 'available jul 1' for example
+        availability = soup.find(class_="housing_movein_now property_date shared-line-bubble")
+        available = availability.get('data-date') if availability else "NA"
         
         # get map and address info
         mapbox = soup.find('div', class_='mapbox')
         if mapbox:
             latitude = float(mapbox.find(id='map').get('data-latitude'))
             longitude = float(mapbox.find(id='map').get('data-longitude'))
-            # Not sure exactly what data_accuracy means in this context,
-            # but it varies a lot by post, so may be useful later
+            
+            # not sure exactly what data_accuracy means in this context, but it varies a lot by post
             data_accuracy = int(mapbox.find(id='map').get('data-accuracy'))
         
-        # some posts just have street address, others include nearby cross streets formatted as
-        # 'street address near street'. We account for both
+            # some posts just have street address, others include nearby cross streets formatted as
+            # 'street address near street'. We account for both
             address = mapbox.find('div', class_="mapaddress")
             if address:
                 map_address = address.text
@@ -205,9 +184,9 @@ def process_html(directory):
                         posting_body)]
         posting_body = [text for text in posting_body if text != ""]
         docs = [nlp(s).sents for s in posting_body]  # do sentence segmentation on every string/item from the split body text
-        sents = [str(sent) for doc in docs for sent in doc]  # syntax looks werid, but it's getting every sentence from every doc in docs
+        sents = [str(sent) for doc in docs for sent in doc]  # get every sentence from every doc in docs
         posting_body = sents[1:]
-        
+
         # get urls for images if post has them
         images = []
         imgList = soup.find('div', id='thumbs')
@@ -224,34 +203,37 @@ def process_html(directory):
         # the first is always just the bed/bath, sqft(if provided), and availability. The second has all
         # the other apt features.
         attrgroup = soup.find_all('p', class_="attrgroup")
-        specs = []
-        for group in attrgroup:
-            for item in group.find_all("span"):
-                specs.append(item.text)
+        specs = [item.text for group in attrgroup for item in group.find_all("span")]
+        # for group in attrgroup:
+        #     for item in group.find_all("span"):
+        #         specs.append(item.text)
         
         # required information:
         bedbath = find_strings(["BR"], specs)
         if bedbath != "NA": 
             bedbath_re = r"(\.?[0-9]+)+"
             
-            if not isinstance(bedbath,str):
-                bedbath = bedbath[0]
+            if not isinstance(bedbath, str): bedbath = bedbath[0]
             
             bedbath = bedbath.split("/")
             bed = bedbath[0]
             bed = int(re.search(bedbath_re, bed).group())
-            # print(bed)
+            
             bath = bedbath[1]
             bath = re.search(bedbath_re, bath)
-            if bath: bath = float(bath.group())
-            else: bath = re.search(r"share", bedbath[1])
+            
+            if bath: 
+                bath = float(bath.group())
+            else if re.search(r"shared", bedbath[1]): 
+                bath = "shared"
+            else if re.search(r"split", bedbath[1]):
+                bath = "split"
 
-            if bath: bath = 1.0
-            else: bath = "NA"
+            bath = bath if bath else "NA"  # if there isn't an X.Y number of baths or
         else: 
             bed = bath = bedbath
         
-        # all possible laundry options from drop down menu include either 'w/d', or 'laundry' so searching
+        # all possible laundry options from drop down menu include either 'w/d' or 'laundry' so searching
         # for just those strings will return all possible matches
         laundry = find_strings(['w/d', 'laundry'], specs)
         # same for parking: there are a number of options but all accounted for by these 3 strings.
@@ -262,12 +244,10 @@ def process_html(directory):
         housing_type = ['apartment', 'condo', 'cottage', 'duplex', 'flat', 'house',
                         'in-law', 'loft', 'townhouse', 'manufactured', 'assisted', 'land']
         housing = find_strings(housing_type, specs)
-        if not isinstance(housing, str):
-            housing = housing[0]
+        if not isinstance(housing, str): housing = housing[0]
         
         sqft = find_strings(['ft2'], specs).replace('ft2','')
-        if sqft != 'NA':
-            sqft = int(sqft)
+        if sqft != 'NA': sqft = int(sqft)
         
         # the group of features/specifications that are formatted name: details
         # use our clean up function to makes things easier
@@ -331,7 +311,6 @@ def process_html(directory):
 
 
 def jsons_to_csv(directory):
-    print("\nMAKING CSV")
     result_df = pd.DataFrame(columns=["post_id", "title", "price", "neighborhood", "map_address", "street_address", 
                                       "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates",
                                       "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft",
@@ -339,7 +318,7 @@ def jsons_to_csv(directory):
                                       "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"])
     
     city = directory.split("/")[-1]
-    for idx, filename in enumerate(os.listdir(directory)):
+    for filename in tqdm(os.listdir(directory), desc=f"Making csv from json in {directory}..."):
         if idx % 100 == 0: print(idx)
 
         json_path = f"{directory}/{filename}"
