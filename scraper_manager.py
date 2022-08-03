@@ -45,11 +45,12 @@ def setup(init: bool=False, sh: bool=True, path_to_venv: str=None):
                   f"locations = {locations}\n" \
                   f"proxies = {proxies}\n\n" \
                   f"for location in locations:\n" \
-                  f"\tpcpy = proxies.copy()\n"  \
                   f"\ttry:\n"  \
+                  f"\t\tpcpy = proxies.copy()\n"  \
                   f"\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"./html\", proxies=pcpy)\n" \
                   f"\texcept:\n" \
                   f"\t\tsleep(20)\n" \
+                  f"\t\tpcpy = proxies.copy()\n"  \
                   f"\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"./html\", proxies=pcpy)\n" \
 
     with open(f"{initcron_dir}/{init_or_cron}_scrape.{filetype}", "w") as script:
