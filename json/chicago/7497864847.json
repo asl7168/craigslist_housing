@@ -16,7 +16,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
  "sqft": 1042,
@@ -105,7 +105,7 @@
   "Ready to Lease?",
   "Call our office at (630) 883-0344",
   "Website:",
-  "https://www.residencesatlakeside.com/",
+  "<URL>/",
   "Proudly managed by JRK Property Holdings",
   "EQUAL HOUSING OPPORTUNITY",
   "85B4718D3DBC474"

@@ -1,0 +1,49 @@
+{
+ "post_id": 7381950067,
+ "title": "a room with private bathroom",
+ "price": 800,
+ "neighborhood": "Lewisville",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 33.0525,
+ "longitude": -97.012,
+ "data_accuracy": 99,
+ "posted": "2022-08-03 01:18",
+ "updated": "2022-08-03 02:29",
+ "repost_dates": [
+  "2022-08-03 01:18"
+ ],
+ "available": "2022-08-03",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 2.0,
+ "laundry": "w/d in unit",
+ "parking": "carport",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "Two bedroom Apartment both bedrooms have a private bathroom, all utilities included"
+ ],
+ "images": [
+  "https://images.craigslist.org/00f0f_2hvhXMoz78sz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00L0L_7LpDyuhnJpLz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00909_h6rrrtVLtLzz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00e0e_9ibxKegtk12z_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00n0n_f0Y5bs0s62dz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/01616_2cmAKfue90sz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00h0h_v8ZmPy1pfgz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00T0T_5rKcgKdDVfLz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00c0c_8MUUfnp8q6Fz_0t20CI_600x450.jpg"
+ ],
+ "url": "https://dallas.craigslist.org/ndf/apa/d/lewisville-room-with-private-bathroom/7516701849.html"
+}

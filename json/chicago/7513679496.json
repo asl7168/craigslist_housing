@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "detached garage",
  "sqft": 1400,
@@ -37,7 +37,7 @@
   "Please Call Gabriela Cubero at 312/927-0788 to schedule an appointment to view this apartment and mention Apartment ID: 46655.",
   "Urban Abodes",
   "312/927-0788",
-  "www.urbanabodes.com",
+  "<URL>",
   "3923 N. Ashland Avenue",
   "Chicago, IL 60613",
   "Equal Opportunity Housing"

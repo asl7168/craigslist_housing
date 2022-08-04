@@ -16,7 +16,7 @@
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 4,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
  "sqft": "NA",
@@ -60,7 +60,7 @@
   "All of our units are Pet-Friendly, with central A/C and Laundry.",
   "We have more than 100 other apartments located throughout WestTown neighborhoods: Bucktown, Wicker Park, Ukrainian (UK) Village, & Logan Square (60622, 60647, 60642, 60614, 60618).",
   "You can view them all on our website which has pictures, floor plans, and lists of amenities.",
-  "Hanging Out, LLC: www.hangingout.net"
+  "Hanging Out, LLC: <URL>"
  ],
  "images": [
   "https://images.craigslist.org/00S0S_1dgK4kmyMmbz_0CI0pO_600x450.jpg",

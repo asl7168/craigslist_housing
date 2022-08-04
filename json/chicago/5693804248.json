@@ -16,7 +16,7 @@
  "available": "2022-07-01",
  "housing_type": "house",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.5,
  "laundry": "w/d hookups",
  "parking": "off-street parking",
  "sqft": 1800,
@@ -64,7 +64,7 @@
   "Podmajersky, Inc.",
   "312-738-8000 x1, office",
   "312-377-6000, direct",
-  "www.podmajersky.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00L0L_gROu0TaOmktz_0CI0t2_600x450.jpg",

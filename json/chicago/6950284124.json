@@ -16,7 +16,7 @@
  "available": "2022-07-29",
  "housing_type": "house",
  "bedrooms": 4,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d hookups",
  "parking": "street parking",
  "sqft": "NA",
@@ -40,7 +40,7 @@
   "It is only $1,095 a month!!",
   "Friendly and dependable landlord.",
   "Contact us today before it is too late!",
-  "For all questions call our office at (219) 922-2229 or visit our website at www.nwirentalproperties.com"
+  "For all questions call our office at (219) 922-2229 or visit our website at <URL>"
  ],
  "images": [
   "https://images.craigslist.org/01212_6ZYP0dT8Kqiz_0oo0ww_600x450.jpg",

@@ -1,0 +1,39 @@
+{
+ "post_id": 7456736079,
+ "title": "Townhouse",
+ "price": 3000,
+ "neighborhood": "Glendale",
+ "map_address": "601 Palm Drive",
+ "street_address": "601 Palm Drive",
+ "latitude": 34.161606,
+ "longitude": -118.268508,
+ "data_accuracy": 10,
+ "posted": "2022-08-01 20:44",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-01 20:44"
+ ],
+ "available": "NA",
+ "housing_type": "townhouse",
+ "bedrooms": 3,
+ "bathrooms": 2.5,
+ "laundry": "w/d in unit",
+ "parking": "detached garage",
+ "sqft": 1200,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "Remodeled (new kitchen cabinets, hardwood flooring, quartz countertop), balcony, central A/C and heat, 2 assigned parking spaces, washer/dryer, elevator."
+ ],
+ "images": "NA",
+ "url": "https://losangeles.craigslist.org/lac/apa/d/glendale-townhouse/7516261825.html"
+}

@@ -1,0 +1,42 @@
+{
+ "post_id": 7516600677,
+ "title": "1-bedroom",
+ "price": 1125,
+ "neighborhood": "Las Vegas",
+ "map_address": "3149 E Desert Inn Rd",
+ "street_address": "3149 E Desert Inn Rd",
+ "latitude": 36.129742,
+ "longitude": -115.106471,
+ "data_accuracy": 10,
+ "posted": "2022-08-02 15:55",
+ "updated": "NA",
+ "repost_dates": [],
+ "available": "2022-08-20",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry on site",
+ "parking": "no parking",
+ "sqft": 840,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Close to the Strip**",
+  "Pet friendly"
+ ],
+ "images": [
+  "https://images.craigslist.org/00Q0Q_bS5pK37egphz_0x20iA_600x450.jpg",
+  "https://images.craigslist.org/00w0w_6CK0x8rfgxlz_0gl0t2_600x450.jpg",
+  "https://images.craigslist.org/00P0P_aGx5w8L1suoz_0gl0t2_600x450.jpg"
+ ],
+ "url": "https://lasvegas.craigslist.org/apa/d/las-vegas-bedroom/7516600677.html"
+}

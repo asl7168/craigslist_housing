@@ -16,7 +16,7 @@
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 4,
- "bathrooms": 1.0,
+ "bathrooms": 3.0,
  "laundry": "w/d in unit",
  "parking": "street parking",
  "sqft": "NA",
@@ -34,7 +34,7 @@
  "posting_body": [
   "Wrigleyville 4 Bedroom, 3 bath",
   "3740 N. Magnolia",
-  "https://my.matterport.com/show/?m=eoSn3mToG6u",
+  "<URL>",
   "(3D TOUR)",
   "Amenities:",
   "- Yard",

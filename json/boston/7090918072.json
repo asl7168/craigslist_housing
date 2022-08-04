@@ -1,0 +1,50 @@
+{
+ "post_id": 7090918072,
+ "title": "Large one bedroom condo",
+ "price": 1600,
+ "neighborhood": "Holliston",
+ "map_address": "Turner Road near Ashland Street",
+ "street_address": "Turner Road ",
+ "latitude": 42.231933,
+ "longitude": -71.43508,
+ "data_accuracy": 5,
+ "posted": "2022-07-28 09:31",
+ "updated": "2022-07-28 09:35",
+ "repost_dates": [
+  "2022-07-28 09:31"
+ ],
+ "available": "2022-08-01",
+ "housing_type": "condo",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "off-street parking",
+ "sqft": 700,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Large first floor front Crestview condo with stove, dishwasher and refrigerator with easy access to the laundry and rear parking lot.",
+  "Close to Route 126, and the Ashland \"T\" is only a few miles away.",
+  "First, Last and Security are required, and no smoking/no pets, please.",
+  "Owner, no fee."
+ ],
+ "images": [
+  "https://images.craigslist.org/01313_4aRxXUV2QUBz_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/00c0c_48vJXiXnZPXz_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/00H0H_9kczD7ufLm2z_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/00k0k_knwd4HSSxQSz_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/01717_htmyv0OON10z_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/00f0f_gP27b0RMxMWz_0cU09G_600x450.jpg",
+  "https://images.craigslist.org/00808_hg03F0srFmqz_0cU09G_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/bmw/apa/d/holliston-large-one-bedroom-condo/7514358353.html"
+}

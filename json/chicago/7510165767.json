@@ -14,7 +14,7 @@
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "street parking",
  "sqft": "NA",
@@ -32,7 +32,7 @@
  "posting_body": [
   "TEXT 847-220-2948 FOR FASTEST RESPONSE!!",
   "--",
-  "SEE VIDEO TOUR:  https://www.youtube.com/watch?v=lgX_IersFxE",
+  "SEE VIDEO TOUR:  <URL>",
   "PROPERTY INFO",
   "ID: 275930324",
   "Rent: $2,395 / Month",

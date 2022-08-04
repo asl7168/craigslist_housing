@@ -40,8 +40,8 @@
   "Pricing is between $1,025.00-$1,100.00",
   "To view the apartment, please contact Jacob at 773-491-2348.",
   "Copy the link >>",
-  "https://my.matterport.com/show/?ref=em&m=WBgKCH46pM1&brand=0 << to take a virtual tour of this unit!",
-  "Visit our website for more information: www.aptrentals.com.",
+  "<URL> << to take a virtual tour of this unit!",
+  "Visit our website for more information: <URL>.",
   "**Photos are a representation**",
   "Lease Terms:",
   "$400 Move-In Fee",
@@ -52,7 +52,7 @@
   "1509 W. Berwyn Ave., Suite 200",
   "Chicago, IL 60640",
   "Ph: 773-989-8000 /Fax: 773-989-6979",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00r0r_fiMxZbR37aR_600x450.jpg",

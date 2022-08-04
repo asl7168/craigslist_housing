@@ -39,7 +39,7 @@
   "Public transportation is practically at your doorstep!",
   "Apartments Available between 8/1/22-9/1/22.",
   "Prices between $1,275.00-$1,375.00",
-  "Call Mario to take a look at 312-933-1660 or visit our website at www.aptrentals.com.",
+  "Call Mario to take a look at 312-933-1660 or visit our website at <URL>.",
   "**Photos may be of representation**",
   "We look forward to serving your housing needs!",
   "Brand New Fitness Center and easy to use bike room!",
@@ -55,7 +55,7 @@
   "Chicago, IL 60640",
   "(P) 773-989-8000",
   "(F) 773-989-6979",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00404_dM6MdBAnzn6z_0pO0hd_600x450.jpg",

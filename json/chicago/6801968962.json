@@ -40,7 +40,7 @@
   "Apartment Available 9/1/2022",
   "To schedule a showing for this amazing property, please call Eric at 773-570-1685.",
   "**PICTURES ARE REPRESENTATIVE**",
-  "To see our other availability please visit our website at www.aptrentals.com.",
+  "To see our other availability please visit our website at <URL>.",
   "We look forward to serving your housing needs!",
   "Equal Housing Opportunity",
   "LEASE TERMS:",
@@ -56,7 +56,7 @@
   "Ph: 773-989-8000",
   "Fax: 773-989-6979",
   "Chicago, IL 60640",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00w0w_4OFJ1gQCRXPz_0pO0hd_600x450.jpg",

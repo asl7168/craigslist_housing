@@ -1,0 +1,53 @@
+{
+ "post_id": 7455306972,
+ "title": "Very large, clean condo, wd in unit",
+ "price": 2750,
+ "neighborhood": "Dorchester",
+ "map_address": "470 warren st",
+ "street_address": "470 warren st",
+ "latitude": 42.2973,
+ "longitude": -71.0745,
+ "data_accuracy": 22,
+ "posted": "2022-08-01 13:09",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-01 13:09"
+ ],
+ "available": "NA",
+ "housing_type": "condo",
+ "bedrooms": 3,
+ "bathrooms": 1.0,
+ "laundry": "w/d in unit",
+ "parking": "street parking",
+ "sqft": 1565,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Renovated condo in 3-family building.",
+  " Other units occupied by owners.",
+  " Very large unit (could be a 4-bedroom).",
+  " New kitchen including new washer/dryer, cabinets, counters and dishwasher.",
+  " Hardwood floors throughout, newly sanded.",
+  " Fresh paint.",
+  " Bright with large windows and high ceilings.",
+  " Call or text:  617-512-2338",
+  "No fees."
+ ],
+ "images": [
+  "https://images.craigslist.org/00e0e_BZPdvQfcV2z_1320MM_600x450.jpg",
+  "https://images.craigslist.org/01111_iI8x5gGsRtpz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00J0J_hYgA3Qt8RbHz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00C0C_gA4VVco7nDyz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00Y0Y_d0gHmhsmNMSz_1320MM_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/dorchester-center-very-large-clean/7516014140.html"
+}

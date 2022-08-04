@@ -1,0 +1,41 @@
+{
+ "post_id": 7485257867,
+ "title": "1 BR Apartment for Rent",
+ "price": 1695,
+ "neighborhood": "Reading",
+ "map_address": "Green Street near High Street",
+ "street_address": "Green Street ",
+ "latitude": 42.521737,
+ "longitude": -71.106735,
+ "data_accuracy": 15,
+ "posted": "2022-07-08 10:13",
+ "updated": "2022-07-22 12:25",
+ "repost_dates": [
+  "2022-07-08 10:13"
+ ],
+ "available": "2022-08-01",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "off-street parking",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "Heat-Hot Water included",
+  "Off Street Parking",
+  "Newly renovated - flooring, SS appliances, granite countertops"
+ ],
+ "images": "NA",
+ "url": "https://boston.craigslist.org/nos/apa/d/reading-br-apartment-for-rent/7506224417.html"
+}

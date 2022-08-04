@@ -42,7 +42,7 @@
   "Apartment Available on 11/1/2022",
   "**Photos are representative**",
   "To view the apartment, please contact Arpy at 773-255-9040.",
-  "For information on similar properties, please visit our website at www.aptrentals.com.",
+  "For information on similar properties, please visit our website at <URL>.",
   "We look forward to serving your housing needs!",
   "Equal Housing Opportunity",
   "Lease Terms",
@@ -55,7 +55,7 @@
   "Chicago, IL 60640",
   "(P) 773-989-8000",
   "(F) 773-989-6979",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00F0F_9bLNgJjishaz_0pO0hd_600x450.jpg",

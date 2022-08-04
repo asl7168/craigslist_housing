@@ -1,0 +1,41 @@
+{
+ "post_id": 7509887492,
+ "title": "16419 Liberal St",
+ "price": 850,
+ "neighborhood": "Detroit",
+ "map_address": "16419 Liberal st near Kelly Rd",
+ "street_address": "16419 Liberal st ",
+ "latitude": 42.440149,
+ "longitude": -82.95068,
+ "data_accuracy": 10,
+ "posted": "2022-07-17 11:42",
+ "updated": "2022-07-24 18:16",
+ "repost_dates": [],
+ "available": "2022-07-31",
+ "housing_type": "house",
+ "bedrooms": 3,
+ "bathrooms": 1.0,
+ "laundry": "w/d hookups",
+ "parking": "detached garage",
+ "sqft": 1200,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "$30 dollars",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Beautiful three bedroom home new flooring, new plumbing, new electrical, rent is $850 dollars a month security deposit application fee only $30 dollars"
+ ],
+ "images": [
+  "https://images.craigslist.org/00L0L_5TgGQi1QLtRz_0d40t2_600x450.jpg",
+  "https://images.craigslist.org/00f0f_lQkLrM0CeW7z_0d40t2_600x450.jpg",
+  "https://images.craigslist.org/00808_iKaEasvoCt0z_0d40t2_600x450.jpg"
+ ],
+ "url": "https://detroit.craigslist.org/wyn/apa/d/harper-woods-liberal-st/7509887492.html"
+}

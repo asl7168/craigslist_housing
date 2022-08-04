@@ -14,7 +14,7 @@
  "available": "2022-06-25",
  "housing_type": "condo",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "street parking",
  "sqft": 1200,
@@ -43,7 +43,7 @@
   "Third Bedroom 10X9",
   "3105 W. Argyle St, Chicago",
   "For info Call 630-775-9700",
-  "or go to Franklinprop.com"
+  "or go to <URL>"
  ],
  "images": "NA",
  "url": "https://chicago.craigslist.org/chc/apa/d/chicago-condo-for-rent-3105-argyle-st/7499462981.html"

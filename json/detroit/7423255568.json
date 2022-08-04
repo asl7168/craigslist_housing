@@ -1,0 +1,49 @@
+{
+ "post_id": 7423255568,
+ "title": "Home for rent",
+ "price": 1800,
+ "neighborhood": "Westland",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 42.3358,
+ "longitude": -83.3846,
+ "data_accuracy": 22,
+ "posted": "2022-07-16 14:59",
+ "updated": "2022-07-23 11:40",
+ "repost_dates": [
+  "2022-07-16 14:59"
+ ],
+ "available": "NA",
+ "housing_type": "house",
+ "bedrooms": 4,
+ "bathrooms": 2.0,
+ "laundry": "laundry on site",
+ "parking": "detached garage",
+ "sqft": 18000,
+ "flooring": "NA",
+ "rent_period": "weekly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "2 story ,4 bedrooms ,, two kitchens, and big garage.",
+  "Excellent location.",
+  "close by shopping stores.",
+  "  In the border of Westland and Lavonia .Livonia district school."
+ ],
+ "images": [
+  "https://images.craigslist.org/00L0L_54mpBHAyMSPz_0bC0kE_600x450.jpg",
+  "https://images.craigslist.org/00Z0Z_7LyDJf1zPCDz_0bC0kE_600x450.jpg",
+  "https://images.craigslist.org/00E0E_beS8vEf9riUz_0bC0kE_600x450.jpg",
+  "https://images.craigslist.org/00S0S_5wxj6xcwBc5z_0bC0kE_600x450.jpg",
+  "https://images.craigslist.org/00K0K_5k1bnyAAEXIz_0bC0kE_600x450.jpg",
+  "https://images.craigslist.org/00O0O_1cvvLRgstK9z_0bC0kE_600x450.jpg"
+ ],
+ "url": "https://detroit.craigslist.org/wyn/apa/d/westland-home-for-rent/7509616402.html"
+}

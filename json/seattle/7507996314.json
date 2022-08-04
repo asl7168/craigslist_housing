@@ -1,0 +1,43 @@
+{
+ "post_id": 7507996314,
+ "title": "Remodeled Duplex",
+ "price": 1725,
+ "neighborhood": "NA",
+ "map_address": "1725 Anderson Street",
+ "street_address": "1725 Anderson Street",
+ "latitude": 47.577528,
+ "longitude": -122.647628,
+ "data_accuracy": 10,
+ "posted": "2022-07-12 13:45",
+ "updated": "2022-08-02 10:36",
+ "repost_dates": [],
+ "available": "2022-07-12",
+ "housing_type": "duplex",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "w/d in unit",
+ "parking": "street parking",
+ "sqft": 783,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "$46.00 per person",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Beautifully remodeled duplex close to Walker Park, fenced back yard, hardwood floors, street parking and more",
+  "Puget Sound Property Management",
+  "Please visit us at <URL> for more information and photos"
+ ],
+ "images": [
+  "https://images.craigslist.org/00C0C_kefXedzpuL0z_0lM0t2_600x450.jpg",
+  "https://images.craigslist.org/00505_7XJWbZJMxhQz_0lM0t2_600x450.jpg",
+  "https://images.craigslist.org/00P0P_97MZGBRtKPDz_0oI0t2_600x450.jpg"
+ ],
+ "url": "https://seattle.craigslist.org/kit/apa/d/bremerton-remodeled-duplex/7507996314.html"
+}

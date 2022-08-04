@@ -1,0 +1,42 @@
+{
+ "post_id": 7510938348,
+ "title": "Freshly painted inside",
+ "price": 2200,
+ "neighborhood": "Puyallup",
+ "map_address": "12903 130th Avenue",
+ "street_address": "12903 130th Avenue",
+ "latitude": 47.127,
+ "longitude": -122.253,
+ "data_accuracy": 99,
+ "posted": "2022-07-19 16:10",
+ "updated": "2022-08-02 05:38",
+ "repost_dates": [],
+ "available": "NA",
+ "housing_type": "house",
+ "bedrooms": 3,
+ "bathrooms": 1.5,
+ "laundry": "w/d in unit",
+ "parking": "off-street parking",
+ "sqft": 1734,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Fully updated 3 bedroom home in an amazing neighborhood.",
+  "Custom kitchen cabinets w/ quartz countertop, full Tile backsplash and all new SS appliances."
+ ],
+ "images": [
+  "https://images.craigslist.org/00A0A_3PuC0uIJAgmz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00Z0Z_hIfKgKBQYqjz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00404_lD7UHOA9UsVz_0CI0t2_600x450.jpg"
+ ],
+ "url": "https://seattle.craigslist.org/tac/apa/d/puyallup-freshly-painted-inside/7510938348.html"
+}

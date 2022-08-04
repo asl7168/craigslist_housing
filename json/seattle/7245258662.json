@@ -1,0 +1,48 @@
+{
+ "post_id": 7245258662,
+ "title": "townhome",
+ "price": 2195,
+ "neighborhood": "broadview noth seattle.",
+ "map_address": "223 north 143rd street.B near Greenwood ave north",
+ "street_address": "223 north 143rd street.B ",
+ "latitude": 47.7377,
+ "longitude": -122.3431,
+ "data_accuracy": 22,
+ "posted": "2022-08-01 20:31",
+ "updated": "2022-08-01 21:13",
+ "repost_dates": [
+  "2022-08-01 20:31"
+ ],
+ "available": "2022-08-31",
+ "housing_type": "townhouse",
+ "bedrooms": 2,
+ "bathrooms": 1.5,
+ "laundry": "w/d in unit",
+ "parking": "off-street parking",
+ "sqft": 1200,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": true,
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "two bedroom one and a half bath.",
+  "Great location deck washerdryer yard"
+ ],
+ "images": [
+  "https://images.craigslist.org/00w0w_7jIxYEVoAGlz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00Y0Y_lniq3wGPrfFz_0MM132_600x450.jpg",
+  "https://images.craigslist.org/01414_3MeGVQqabgnz_0MM132_600x450.jpg",
+  "https://images.craigslist.org/00u0u_21MxL7pMmiez_0MM132_600x450.jpg",
+  "https://images.craigslist.org/00G0G_5ZY7jtHGUciz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00q0q_ksn3PJ1xfORz_1320MM_600x450.jpg",
+  "https://images.craigslist.org/00N0N_5Nz9iCixoFsz_1320MM_600x450.jpg"
+ ],
+ "url": "https://seattle.craigslist.org/see/apa/d/seattle-townhome/7516259347.html"
+}

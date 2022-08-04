@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "laundry on site",
  "parking": "street parking",
  "sqft": 924,
@@ -104,7 +104,7 @@
   "2134 S Goebbert Rd",
   "Arlington Heights, IL 60005",
   "Website:",
-  "https://www.theresidencesatarlingtonheights.com/",
+  "<URL>/",
   "Professionally managed by JRK Property Holdings",
   "EQUAL HOUSING OPPORTUNITY",
   "32E5EC2EB8714CD"

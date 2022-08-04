@@ -1,0 +1,48 @@
+{
+ "post_id": 7323105450,
+ "title": "beautiful Apt near Harvard Sq",
+ "price": 3200,
+ "neighborhood": "Cambridge",
+ "map_address": "Magnolia near Roberts Rd",
+ "street_address": "Magnolia ",
+ "latitude": 42.376955,
+ "longitude": -71.108284,
+ "data_accuracy": 15,
+ "posted": "2022-07-07 20:37",
+ "updated": "2022-07-07 20:56",
+ "repost_dates": [
+  "2022-07-07 20:37"
+ ],
+ "available": "NA",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "street parking",
+ "sqft": 1000,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Two bedrooms Apt in a nice quite Neighborhood close to Harvard university/ square.",
+  "This unit is sunny with outdoor garden and sitting area.",
+  "Ideal for graduate and post graduate student."
+ ],
+ "images": [
+  "https://images.craigslist.org/00l0l_5ZYnFkbRmHbz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/01717_9jMiijxNKVcz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00O0O_cjxganOCxklz_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00Q0Q_4gUFzE2nv66z_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00C0C_fWUKr0VyxUCz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00F0F_ecsYuMmWikYz_0t20CI_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/somerville-beautiful-apt-near-harvard-sq/7506085517.html"
+}

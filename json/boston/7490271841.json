@@ -1,0 +1,50 @@
+{
+ "post_id": 7490271841,
+ "title": "modern, spacious 3bd rm",
+ "price": 2500,
+ "neighborhood": "Roxbury",
+ "map_address": "Emrose Terrace near Magnolia Street",
+ "street_address": "Emrose Terrace ",
+ "latitude": 42.3187,
+ "longitude": -71.0714,
+ "data_accuracy": 99,
+ "posted": "2022-07-29 20:23",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-07-29 20:23"
+ ],
+ "available": "2022-08-01",
+ "housing_type": "apartment",
+ "bedrooms": 3,
+ "bathrooms": 1.0,
+ "laundry": "w/d in unit",
+ "parking": "off-street parking",
+ "sqft": 1100,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Modern 3 bed room, 2nd floor of a 3 family house.",
+  "New kitchen and bathroom with washer and dryer in unit.",
+  "Hardwood floors, large yard, dishwasher, garbage disposal and limited parking."
+ ],
+ "images": [
+  "https://images.craigslist.org/01212_eoC9zpiqn2cz_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00e0e_eUjhPTcZ00sz_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00X0X_5nvcx6ACgHxz_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00606_cTPVFUljDPsz_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00k0k_5g2KB7Scei2z_0hr0CI_600x450.jpg",
+  "https://images.craigslist.org/00606_fedJ36LVPs6z_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00V0V_7uazThWN9eEz_0CI0hr_600x450.jpg",
+  "https://images.craigslist.org/00r0r_aI8GFDpRogrz_0hr0CI_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/roxbury-modern-spacious-3bd-rm/7515059272.html"
+}

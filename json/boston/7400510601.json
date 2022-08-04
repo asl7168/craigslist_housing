@@ -1,0 +1,51 @@
+{
+ "post_id": 7400510601,
+ "title": "FURNISHED INLAW APT.",
+ "price": 2300,
+ "neighborhood": "BROOKLINE",
+ "map_address": "Russell Street near Harvard",
+ "street_address": "Russell Street ",
+ "latitude": 42.34733,
+ "longitude": -71.12878,
+ "data_accuracy": 15,
+ "posted": "2022-07-18 17:21",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-07-18 17:21"
+ ],
+ "available": "2022-08-14",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry on site",
+ "parking": "detached garage",
+ "sqft": 500,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": true,
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "Furnished sunny 3rd floor inlaw apartment located in Coolidge Corner and convenient to the T and bus lines.",
+  " All hardwood floors.",
+  " Rent includes all utilities, plus internet, TV, shared laundry space, and one parking spot.",
+  " There is A/C and central vac.",
+  "  Rental is on a month-to-month basis."
+ ],
+ "images": [
+  "https://images.craigslist.org/00101_7nVbBh45hy2z_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/00707_3EJxP6F8MtWz_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/00C0C_7NNvKogykL3z_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/00B0B_5gOqY4LGofqz_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/01515_762kSnkvw6Jz_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/00X0X_1sRenyhFlpHz_0CI0sU_600x450.jpg",
+  "https://images.craigslist.org/00m0m_gxuisx9wwCpz_0CI0sU_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/brookline-furnished-inlaw-apt/7510455189.html"
+}

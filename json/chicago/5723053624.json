@@ -16,7 +16,7 @@
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 0,
- "bathrooms": 1.0,
+ "bathrooms": "shared",
  "laundry": "no laundry on site",
  "parking": "street parking",
  "sqft": 280,

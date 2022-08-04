@@ -1,0 +1,42 @@
+{
+ "post_id": 7511795738,
+ "title": "THIS A SINGLE FAMILY HOME",
+ "price": 1000,
+ "neighborhood": "Sterling Heights",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 42.5648,
+ "longitude": -83.0701,
+ "data_accuracy": 22,
+ "posted": "2022-07-21 20:15",
+ "updated": "NA",
+ "repost_dates": [],
+ "available": "2022-07-21",
+ "housing_type": "house",
+ "bedrooms": 3,
+ "bathrooms": 2.5,
+ "laundry": "w/d in unit",
+ "parking": "attached garage",
+ "sqft": 1436,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Nice and clean, move-in ready, 3 bedrooms and 2 1/2 bath ranch, wood flooring throughout the house, updated kitchen with ceramic flooring and all appliances included!"
+ ],
+ "images": [
+  "https://images.craigslist.org/01111_8dr24DiSohWz_0co09i_600x450.jpg",
+  "https://images.craigslist.org/00606_b9zWxitGNV9z_06c04E_600x450.jpg",
+  "https://images.craigslist.org/01010_kHlyyp2XKbtz_09i06Y_600x450.jpg",
+  "https://images.craigslist.org/00A0A_k5siM4E7ijWz_06c04E_600x450.jpg"
+ ],
+ "url": "https://detroit.craigslist.org/mcb/apa/d/sterling-heights-this-single-family-home/7511795738.html"
+}

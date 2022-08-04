@@ -1,0 +1,40 @@
+{
+ "post_id": 5636111187,
+ "title": "2 Bedroom",
+ "price": 900,
+ "neighborhood": "Oberlin",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 41.2899,
+ "longitude": -82.2229,
+ "data_accuracy": 22,
+ "posted": "2022-06-20 10:43",
+ "updated": "2022-06-21 09:47",
+ "repost_dates": [
+  "2022-06-20 10:43"
+ ],
+ "available": "2022-06-20",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "w/d in unit",
+ "parking": "off-street parking",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": true,
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "Includes All Utilities",
+  "2 Bedroom"
+ ],
+ "images": "NA",
+ "url": "https://cleveland.craigslist.org/apa/d/bedroom/7498817893.html"
+}

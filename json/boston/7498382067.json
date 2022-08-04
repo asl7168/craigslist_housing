@@ -1,0 +1,49 @@
+{
+ "post_id": 7498382067,
+ "title": "Gloucester 2 bedroom, 1 bath Unit 3",
+ "price": 1995,
+ "neighborhood": "Gloucester",
+ "map_address": "34 Warner Street",
+ "street_address": "34 Warner Street",
+ "latitude": 42.618411,
+ "longitude": -70.660445,
+ "data_accuracy": 10,
+ "posted": "2022-07-25 17:18",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-07-25 17:18"
+ ],
+ "available": "NA",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "laundry on site",
+ "parking": "street parking",
+ "sqft": 900,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Newly painted and remodeled apartment with two bedrooms and one bath.",
+  " New kitchen cabinets, all new flooring, new appliances and new bathroom vanity.",
+  " All countertops are top of the line quartz and all appliances brand new stainless."
+ ],
+ "images": [
+  "https://images.craigslist.org/00s0s_6gDbiOEWcCKz_0xj0md_600x450.jpg",
+  "https://images.craigslist.org/00K0K_5dY05TXKOkoz_0CI0pO_600x450.jpg",
+  "https://images.craigslist.org/00B0B_be7No7HCVVHz_0jm0t2_600x450.jpg",
+  "https://images.craigslist.org/00z0z_fqpQWjbaNAEz_0CI0pO_600x450.jpg",
+  "https://images.craigslist.org/00E0E_4NjAquQJetSz_0t20jm_600x450.jpg",
+  "https://images.craigslist.org/00m0m_e86sjIoRh0iz_0CI0pO_600x450.jpg",
+  "https://images.craigslist.org/00y0y_1LmfS5Ssfezz_0CI0pO_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/nos/apa/d/gloucester-gloucester-bedroom-bath-unit/7513324063.html"
+}

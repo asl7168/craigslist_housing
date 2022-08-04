@@ -1,0 +1,40 @@
+{
+ "post_id": 7510324130,
+ "title": "2 Bedroom Apartment for Rent",
+ "price": 1950,
+ "neighborhood": "Reading",
+ "map_address": "Washington Street near Main Street",
+ "street_address": "Washington Street ",
+ "latitude": 42.521113,
+ "longitude": -71.103212,
+ "data_accuracy": 15,
+ "posted": "2022-07-18 13:16",
+ "updated": "NA",
+ "repost_dates": [],
+ "available": "2022-08-01",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "laundry on site",
+ "parking": "off-street parking",
+ "sqft": 850,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "2 bdrm-heat-hot water included, off street parking, recently renovated, hw flrs, ss appliances, granite counters"
+ ],
+ "images": [
+  "https://images.craigslist.org/00909_ZRFyJZFty7z_0CI0t2_600x450.jpg",
+  "https://images.craigslist.org/00V0V_2GMnDODNpKiz_0lM0t2_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/nos/apa/d/reading-bedroom-apartment-for-rent/7510324130.html"
+}

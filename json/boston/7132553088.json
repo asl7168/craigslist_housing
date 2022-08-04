@@ -1,0 +1,52 @@
+{
+ "post_id": 7132553088,
+ "title": "Single bedroom in Medford Heights (Utilities included)",
+ "price": 1750,
+ "neighborhood": "Medford",
+ "map_address": "NA",
+ "street_address": "NA",
+ "latitude": 42.438034,
+ "longitude": -71.08842,
+ "data_accuracy": 5,
+ "posted": "2022-08-01 13:05",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-01 13:05"
+ ],
+ "available": "2022-09-01",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "no laundry on site",
+ "parking": "off-street parking",
+ "sqft": 1000,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": "NA",
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Available Sept 1.",
+  "Public transit available minutes away.",
+  "Off street parking space.",
+  "Utilities included.",
+  "No laundry available on premise.",
+  "First and last month required.",
+  "No pets.",
+  "Background and credit check required for final approval."
+ ],
+ "images": [
+  "https://images.craigslist.org/00l0l_e58lFDe8lOsz_0fu0kE_600x450.jpg",
+  "https://images.craigslist.org/01111_6aS9xpIE2ZQz_0fu0kE_600x450.jpg",
+  "https://images.craigslist.org/00E0E_i3u9NhLW1Uzz_0fu0kE_600x450.jpg",
+  "https://images.craigslist.org/00101_9a2sI4sbOatz_0fu0kE_600x450.jpg",
+  "https://images.craigslist.org/00W0W_ga5o6tblSHiz_0hq0ne_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/medford-single-bedroom-in-medford/7516012216.html"
+}

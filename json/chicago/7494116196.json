@@ -16,7 +16,7 @@
  "available": "2022-08-01",
  "housing_type": "house",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "detached garage",
  "sqft": 1300,
@@ -50,7 +50,7 @@
   "- High speed internet",
   "- Water, Trash",
   "- Security system with Video doorbell.",
-  "More Information and to apply: https://www.apartments.com/1519-darrow-ave-evanston-il/0n827m2/"
+  "More Information and to apply: <URL>"
  ],
  "images": [
   "https://images.craigslist.org/00C0C_fyZiI6uo9DBz_0cU08B_600x450.jpg",

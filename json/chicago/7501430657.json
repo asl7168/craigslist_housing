@@ -14,7 +14,7 @@
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 4,
- "bathrooms": 1.0,
+ "bathrooms": 3.0,
  "laundry": "w/d in unit",
  "parking": "carport",
  "sqft": "NA",
@@ -65,7 +65,7 @@
   "The Square One Team",
   "3223 N. Sheffield",
   "Chicago, IL 60657",
-  "www.hellosq1.com",
+  "<URL>",
   "Leasing Agent:  Absalom Givens",
   "License #: 473018524",
   "Phone: (708) 495 -1137"

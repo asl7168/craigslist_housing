@@ -38,7 +38,7 @@
   "Apartments Available between 8/1/2022-9/1/2022.",
   "Priced between $900.00-$925.00",
   "To view the apartment, please contact Teddy at 773-617-1026.",
-  "For information on similar properties, please visit our website at www.aptrentals.com.",
+  "For information on similar properties, please visit our website at <URL>.",
   "We look forward to serving your housing needs!",
   "Lease terms:",
   "$400 Move-in fee",
@@ -52,7 +52,7 @@
   "Chicago, IL 60640",
   "Ph: 773-989-8000",
   "Fax: 773-989-6979",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00606_jVwiuTFpoaj_600x450.jpg",

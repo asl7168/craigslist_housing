@@ -320,8 +320,6 @@ def jsons_to_csv(directory):
     
     city = directory.split("/")[-1]
     for filename in tqdm(os.listdir(directory), desc=f"Making csv from json in {directory}..."):
-        if idx % 100 == 0: print(idx)
-
         json_path = f"{directory}/{filename}"
         with open(json_path, "r") as json_file: 
             data = json.load(json_file)

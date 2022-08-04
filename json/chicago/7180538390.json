@@ -16,7 +16,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "attached garage",
  "sqft": "NA",
@@ -50,7 +50,7 @@
   "Interested in this property?",
   "Click REPLY above and email us",
   "** if you are texting us, please include the link to the listing so we can identify what you are inquiring on",
-  "sspcresidential.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00n0n_7EqtFZcLOdvz_0g808v_600x450.jpg",

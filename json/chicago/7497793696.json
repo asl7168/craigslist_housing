@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "attached garage",
  "sqft": 2000,
@@ -35,7 +35,7 @@
   "I am a licensed real estate agent that handles both rentals and sales.",
   "Must pass credit check, income, employment and references.",
   "Please cut and paste this link to see Homes for Rent on the MLS",
-  "https://gniarmls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Gniarmls&PRGNAME=MLSLogin&ARGUMENT=T72bNvE2Wf0ggibqlhDpV2%2B93cdhtloOEdMaz2Nx3C8%3D&KeyRid=1&MLS_Origin=GNIM&HM=Y"
+  "<URL>"
  ],
  "images": "NA",
  "url": "https://chicago.craigslist.org/nwi/apa/d/crown-point-home-for-rent/7497793696.html"

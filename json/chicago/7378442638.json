@@ -41,7 +41,7 @@
   "Pricing is between $1,150.00-$1,175.00 and $1,225.00",
   "To schedule a showing for this amazing property, please call Lee at 773-747-9542.",
   "**PICTURES MAY BE A REPRESENTATION**",
-  "To see our other availability please visit our website at www.aptrentals.com.",
+  "To see our other availability please visit our website at <URL>.",
   "We look forward to serving your housing needs!",
   "Equal Housing Opportunity",
   "LEASE TERMS:",
@@ -55,7 +55,7 @@
   "Ph: 773-989-8000",
   "Fax: 773-989-6979",
   "Chicago, IL 60640",
-  "www.aptrentals.com"
+  "<URL>"
  ],
  "images": [
   "https://images.craigslist.org/00U0U_hMSMeOW7QUyz_0ex0ie_600x450.jpg",

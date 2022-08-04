@@ -16,7 +16,7 @@
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 1,
- "bathrooms": 1.0,
+ "bathrooms": "shared",
  "laundry": "w/d in unit",
  "parking": "street parking",
  "sqft": "NA",

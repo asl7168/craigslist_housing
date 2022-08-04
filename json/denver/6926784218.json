@@ -1,0 +1,46 @@
+{
+ "post_id": 6926784218,
+ "title": "Littleton 4 bedroom house",
+ "price": 3200,
+ "neighborhood": "Littleton",
+ "map_address": "broadway near county line rd",
+ "street_address": "broadway ",
+ "latitude": 39.568068,
+ "longitude": -104.980502,
+ "data_accuracy": 5,
+ "posted": "2022-08-01 11:11",
+ "updated": "2022-08-01 18:14",
+ "repost_dates": [
+  "2022-08-01 11:11"
+ ],
+ "available": "2022-08-01",
+ "housing_type": "house",
+ "bedrooms": 4,
+ "bathrooms": 2.5,
+ "laundry": "laundry on site",
+ "parking": "attached garage",
+ "sqft": 2230,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "4 bedrooms, 2.5 baths, vaulted-ceiling master bedroom, walk-in closet, custom home office, full unfinished basement, 1/3 acre, huge park-like back yard, mountain view, quiet cul-de-sac, Littleton schools, near C470, close to light rail"
+ ],
+ "images": [
+  "https://images.craigslist.org/00Z0Z_eHjvhRNvbNHz_0x20oM_600x450.jpg",
+  "https://images.craigslist.org/00m0m_d1V61VTppSoz_0x20oM_600x450.jpg",
+  "https://images.craigslist.org/01414_8smHNcZBB8Az_0x20oM_600x450.jpg",
+  "https://images.craigslist.org/00J0J_fztmE0AQOUuz_0x20oM_600x450.jpg",
+  "https://images.craigslist.org/00j0j_aAh6aLloO2uz_0lM0t2_600x450.jpg",
+  "https://images.craigslist.org/00b0b_3J25olHGS2Hz_0x20oM_600x450.jpg"
+ ],
+ "url": "https://denver.craigslist.org/apa/d/littleton-littleton-bedroom-house/7516015112.html"
+}

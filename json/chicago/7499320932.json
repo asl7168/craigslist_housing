@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
  "sqft": 1042,
@@ -92,7 +92,7 @@
   "Mon - Fri: 9:00 AM - 6:00 PM",
   "Sat: 10:00 AM - 5:00 PM",
   "Website:",
-  "https://www.residencesatlakeside.com/",
+  "<URL>/",
   "EQUAL HOUSING OPPORTUNITY",
   "85B4718D3DBC474"
  ],

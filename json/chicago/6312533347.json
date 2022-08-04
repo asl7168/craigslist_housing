@@ -16,7 +16,7 @@
  "available": "2022-06-22",
  "housing_type": "duplex",
  "bedrooms": 2,
- "bathrooms": 1.0,
+ "bathrooms": 1.5,
  "laundry": "laundry in bldg",
  "parking": "off-street parking",
  "sqft": "NA",
@@ -48,7 +48,7 @@
   "Credit score of 550",
   "No prior evictions",
   "Monthly income 2.5X rent amount",
-  "Feel free to apply at rentbutter.com/janko"
+  "Feel free to apply at <URL>"
  ],
  "images": [
   "https://images.craigslist.org/00F0F_iA3UozB3mVFz_0kE0fu_600x450.jpg",

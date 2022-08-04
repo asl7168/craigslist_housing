@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "apartment",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "laundry on site",
  "parking": "street parking",
  "sqft": 1128,
@@ -90,7 +90,7 @@
   "Arlington Heights, IL 60005",
   "(847) 305-3424",
   "Website:",
-  "https://www.theresidencesatarlingtonheights.com/",
+  "<URL>/",
   "EQUAL HOUSING OPPORTUNITY",
   "6918FA4012C343B"
  ],

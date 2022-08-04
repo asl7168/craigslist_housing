@@ -156,12 +156,10 @@ def testing(metro_area):
 
 
 if __name__ == '__main__':
-    for metro_area in os.listdir('./html'):
-        print(metro_area)
-        process_html("./html/"+metro_area)
+    # for metro_area in os.listdir('./html'):
+        # process_html("./html/"+metro_area)
 
     for metro_area in os.listdir('./html'):
-        print(metro_area)
         jsons_to_csv("./json/"+metro_area)
     
     for metro_area in os.listdir('./html'):

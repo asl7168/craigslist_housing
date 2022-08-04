@@ -1,0 +1,53 @@
+{
+ "post_id": 2306039585,
+ "title": "Upper Glenview",
+ "price": 1900,
+ "neighborhood": "oakland piedmont / montclair",
+ "map_address": "4856 Park Blvd near Trestle Glen Rd.",
+ "street_address": "4856 Park Blvd ",
+ "latitude": 37.812636,
+ "longitude": -122.215169,
+ "data_accuracy": 10,
+ "posted": "2022-08-02 12:41",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-02 12:41"
+ ],
+ "available": "NA",
+ "housing_type": "apartment",
+ "bedrooms": 1,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "off-street parking",
+ "sqft": 630,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "credit check - $20",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": true,
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "1-bedroom apartment in 4-plex located on Park Blvd.",
+  "in upper Glenview district.",
+  "Easy commute to San Francisco, close to Montclair and Glenview shops.",
+  "Lower unit apartment has carpets, off-street parking and shared laundry onsite.",
+  "Tenant pays water and PG&E.",
+  "Available mid July.",
+  "$1900/month; $2500 deposit, 1 year lease",
+  "Please do not disturb tenants"
+ ],
+ "images": [
+  "https://images.craigslist.org/00V0V_bsrEZ1E2IF1z_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00W0W_eFn7QJHSSPDz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00i0i_1Cf88qlKtCKz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00y0y_fNISFcniUH0z_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00F0F_cW1ExbHwLQz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00606_4tderWVlMoHz_0t20CI_600x450.jpg"
+ ],
+ "url": "https://sfbay.craigslist.org/eby/apa/d/oakland-upper-glenview/7516514634.html"
+}

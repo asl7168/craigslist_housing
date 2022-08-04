@@ -14,7 +14,7 @@
  "available": "2022-08-01",
  "housing_type": "apartment",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "street parking",
  "sqft": 1950,
@@ -36,7 +36,7 @@
   "The building has an elevator and apartment is on the 3rd floor.",
   "The sublet will be until December 31st, at $2575 per month with the option to extend the lease.",
   "If required, monthly parking space behind the building could be bought for $150.",
-  "https://www.apartments.com/2515-w-lawrence-ave-chicago-il-unit-3n/l6dmwne/"
+  "<URL>"
  ],
  "images": "NA",
  "url": "https://chicago.craigslist.org/chc/apa/d/chicago-lincoln-square-bd-bth/7497803070.html"

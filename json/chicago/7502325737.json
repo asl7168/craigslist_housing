@@ -14,7 +14,7 @@
  "available": "2022-07-01",
  "housing_type": "apartment",
  "bedrooms": 1,
- "bathrooms": 1.0,
+ "bathrooms": 2.0,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
  "sqft": "NA",
@@ -44,7 +44,7 @@
   "Available JULY 1st.",
   "Moffat/Campbell.",
   "This apartment is advertised by the great folks at the North Clybourn Group.",
-  "Check our website at http://www.ncgchicago.com.",
+  "Check our website at <URL>.",
   "We've been specializing in Real Estate apartment rentals & sales in Chicago for almost 30 years.",
   "We have apartments ranging from studios to 4 bedrooms with monthly rents starting at $700, going as high as $4900/mo.",
   "Give us a call at 773-252-0600 or e-mail us to schedule an appointment."

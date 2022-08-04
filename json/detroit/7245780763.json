@@ -1,0 +1,49 @@
+{
+ "post_id": 7245780763,
+ "title": "2 Bedroom Apartment - Water & Heat Included",
+ "price": 1250,
+ "neighborhood": "Royal Oak",
+ "map_address": "Hunter near Woodward",
+ "street_address": "Hunter ",
+ "latitude": 42.523947,
+ "longitude": -83.191887,
+ "data_accuracy": 15,
+ "posted": "2022-08-02 16:39",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-02 16:39"
+ ],
+ "available": "2022-08-05",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "laundry on site",
+ "parking": "off-street parking",
+ "sqft": 750,
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": "NA",
+ "no_smoking": "NA",
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": true,
+ "EV_charging": "NA",
+ "posting_body": [
+  "2 Bedroom Apartment",
+  "North Royal Oak Location",
+  "Private Front & Back Entrance",
+  "Heat and Water included",
+  "$ 1250.00/month"
+ ],
+ "images": [
+  "https://images.craigslist.org/00404_3lbNnSQu67oz_0lM0CI_600x450.jpg",
+  "https://images.craigslist.org/00P0P_e1tmCsKa6AHz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00k0k_5bklkedL0zCz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00N0N_hu5zJFpfx8Sz_0t20CI_600x450.jpg",
+  "https://images.craigslist.org/00I0I_3hvg1wDJwoNz_0lM0t2_600x450.jpg"
+ ],
+ "url": "https://detroit.craigslist.org/okl/apa/d/royal-oak-bedroom-apartment-water-heat/7516542707.html"
+}

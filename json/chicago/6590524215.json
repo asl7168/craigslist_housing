@@ -38,7 +38,7 @@
   "Apartment Available from 9/1/2022-3/31/2023 priced at $925.00.",
   "Also another studio available 10/1/2022 priced at $980.00",
   "To view the apartment, please contact Teddy at 773-617-1026",
-  "For more information on similar properties please visit our website www.aptrentals.com.",
+  "For more information on similar properties please visit our website <URL>.",
   "Lease terms:",
   "$400 Move-in fee",
   "$75 Application fee per person and co-signer if required",
@@ -49,7 +49,7 @@
   "Chicago, IL 60640",
   "(P) 773-989-8000",
   "(F) 773-989-6979",
-  "www.aptrentals.com",
+  "<URL>",
   "Equal Housing Opportunity"
  ],
  "images": [

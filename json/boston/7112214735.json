@@ -1,0 +1,52 @@
+{
+ "post_id": 7112214735,
+ "title": "2 Bedroom on Chauncy St. Walk to Harvard Sq.",
+ "price": 2500,
+ "neighborhood": "Cambridge",
+ "map_address": "Chauncy",
+ "street_address": "Chauncy",
+ "latitude": 42.37961,
+ "longitude": -71.12125,
+ "data_accuracy": 5,
+ "posted": "2022-08-01 13:28",
+ "updated": "NA",
+ "repost_dates": [
+  "2022-08-01 13:28"
+ ],
+ "available": "2022-09-01",
+ "housing_type": "apartment",
+ "bedrooms": 2,
+ "bathrooms": 1.0,
+ "laundry": "laundry in bldg",
+ "parking": "street parking",
+ "sqft": "NA",
+ "flooring": "NA",
+ "rent_period": "monthly",
+ "app_fee": "NA",
+ "broker_fee": "NA",
+ "cats_ok": true,
+ "dogs_ok": "NA",
+ "no_smoking": true,
+ "furnished": "NA",
+ "wheelchair_access": "NA",
+ "AC": "NA",
+ "EV_charging": "NA",
+ "posting_body": [
+  "Apartment on Third floor of a Charming older building, very close to Harvard and Porter Square and just steps from Harvard Law School and Lesley College.",
+  "This apartment features High ceilings, Hardwood floors, galley kitchen, large bedrooms, and spacious living room.",
+  "Heat and hot water are included with the rent.",
+  "Parking is on street with city permit.",
+  "It also features tremendous, closet space, Live in Superintendent and laundry room in basement.",
+  "Available  now or September 1st.",
+  " 1 cat ok, no dogs.",
+  "First, last month's rent and broker fee due with lease."
+ ],
+ "images": [
+  "https://images.craigslist.org/01616_deNvSkFQ6k1z_0CI0lM_600x450.jpg",
+  "https://images.craigslist.org/00b0b_gq5fJFcwEvfz_0lM0CI_600x450.jpg",
+  "https://images.craigslist.org/00l0l_d92opje1Untz_0x20oM_600x450.jpg",
+  "https://images.craigslist.org/00b0b_Qjbo527M9Jz_0lM0CI_600x450.jpg",
+  "https://images.craigslist.org/00w0w_8X3yskpuu6Lz_0CI0lM_600x450.jpg"
+ ],
+ "url": "https://boston.craigslist.org/gbs/apa/d/cambridge-bedroom-on-chauncy-st-walk-to/7516024538.html"
+}

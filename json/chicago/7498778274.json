@@ -14,7 +14,7 @@
  "available": "NA",
  "housing_type": "house",
  "bedrooms": 3,
- "bathrooms": 1.0,
+ "bathrooms": 1.5,
  "laundry": "w/d in unit",
  "parking": "off-street parking",
  "sqft": 1250,
@@ -32,7 +32,7 @@
  "posting_body": [
   "3 Bdrm Flat in Downtown Naperville Historic District.",
   "Walk to train and Downtown Shopping.",
-  "Visit 206nellsworth.com for details/photos."
+  "Visit <URL> for details/photos."
  ],
  "images": "NA",
  "url": "https://chicago.craigslist.org/wcl/apa/d/naperville-bdrm-in-downtown-naperville/7498778274.html"
