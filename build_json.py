@@ -7,9 +7,9 @@ import csv
 from collections import defaultdict
 
 # state codes: https://www.nlsinfo.org/content/cohorts/nlsy97/other-documentation/geocode-codebook-supplement/attachment-100-census-bureau
+#list of variables: https://api.census.gov/data/2020/acs/acs5/profile/variables.html
 
-
-def metro_area_data(metro_area):
+def metro_area_data(metro_area,mode):
     # process_html("./html/"+metro_area)
     # print("1")
     # jsons_to_csv("./json/"+metro_area)
@@ -18,15 +18,17 @@ def metro_area_data(metro_area):
     data = get_demographics(metro_area, states)
     # print(data['3790493246'])
 
-    #if not os.path.exists(f"./json_complete/{metro_area}"): os.makedirs(f"./json_complete/{metro_area}")
+    if not os.path.exists(f"./json/{metro_area}"): os.makedirs(f"./json/{metro_area}")
 
-    # for key in data:
-    #json_obj = json.dumps(data[key], indent=1)
-    #json_path = f"./json_complete/{metro_area}/{key}.json"
+    for key in data:
+      json_obj = json.dumps(data[key], indent=1)
+      json_path = f"./json/{metro_area}/{key}.json"
 
-    # with open(json_path, "w") as outfile:
-    #    outfile.write(json_obj)
-    with open(f'./csv_dumps/all_complete.csv', 'a') as csvfile:
+      with open(json_path, "w") as outfile:
+        outfile.write(json_obj)
+
+def write_csv(mode,data):
+    with open(f'./csv_dumps/all_complete.csv', mode) as csvfile:
         fieldnames = ['documents', 'poverty', 'race', 'class', 'is_white',
                       'college', 'foreignborn', 'renteroccupied', 'last10yrs', 'vacancy', 'rent']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -159,12 +161,15 @@ if __name__ == '__main__':
     # for metro_area in os.listdir('./html'):
         # process_html("./html/"+metro_area)
 
-    for metro_area in os.listdir('./html'):
-        jsons_to_csv("./json/"+metro_area)
+    #for metro_area in os.listdir('./html'):
+          #jsons_to_csv("./json/"+metro_area)
+
     
+    mode = 'w'
     for metro_area in os.listdir('./html'):
         print(metro_area)
-        metro_area_data(metro_area)
+        metro_area_data(metro_area,mode)
+        mode = 'a'
 
     # process_html("./html/chicago")
     # print("1")

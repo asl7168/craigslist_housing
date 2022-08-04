@@ -55,6 +55,8 @@ def clean_if_exists(s):
     """
     
     if s != 'NA':
+        if not isinstance(s,str):
+            s = s[0]
         output = s.split(':')[1].strip()
         return output
     else:
@@ -139,7 +141,7 @@ def process_html(directory):
         # find pricing info, extract text, strip whitespace, remove non-integer characters
         pricing_info = title_text.find('span', class_="price")
         if pricing_info:
-            price = int(pricing_info.text.strip().replace("$", "").replace(",", ""))
+            price = round(float(pricing_info.text.strip().replace("$", "").replace(",", "")))
         else:
             price = "NA"
         
@@ -319,6 +321,9 @@ def jsons_to_csv(directory):
                                       "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"])
     
     city = directory.split("/")[-1]
+    
+    if not os.path.exists(f"./json/{city}"): os.makedirs(f"./json/{city}")
+    
     for filename in tqdm(os.listdir(directory), desc=f"Making csv from json in {directory}..."):
         json_path = f"{directory}/{filename}"
         with open(json_path, "r") as json_file: 
