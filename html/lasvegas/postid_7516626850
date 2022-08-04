@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="It&#39;s time to start living the good life! Luxury 1 Bed / 1 Bath! -...">
+	<meta name="description" content="Avanti Apartments Leasing Office: 10697 W Centennial Pky Las Vegas, NV 89166 Take a look at what Avanti Apartments has to offer! Avanti is the only housing option that will exceed all your...">
+	<meta property="og:description" content="Avanti Apartments Leasing Office: 10697 W Centennial Pky Las Vegas, NV 89166 Take a look at what Avanti Apartments has to offer! Avanti is the only housing option that will exceed all your...">
+	<meta property="og:image" content="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg">
+	<meta property="og:url" content="https://lasvegas.craigslist.org/apa/d/las-vegas-its-time-to-start-living-the/7516626850.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 16-Sep-22 17:11:29 PDT">
+	<meta name="geo.position" content="36.277262;-115.331057">
+	<meta name="ICBM" content="36.277262, -115.331057">
+	<meta name="geo.placename" content="Las Vegas">
+	<meta name="geo.region" content="US-NV">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>It&#39;s time to start living the good life! Luxury 1 Bed / 1 Bath! -...</title>
+	<link rel="canonical" href="https://lasvegas.craigslist.org/apa/d/las-vegas-its-time-to-start-living-the/7516626850.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"lasvegas.craigslist.org","@id":"https://lasvegas.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://lasvegas.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://lasvegas.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"It's time to start living the good life! Luxury 1 Bed / 1 Bath!","@id":"https://lasvegas.craigslist.org/apa/d/las-vegas-its-time-to-start-living-the/7516626850.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-115.331057","name":"It's time to start living the good life! Luxury 1 Bed / 1 Bath!","@context":"http://schema.org","latitude":"36.277262","numberOfBathroomsTotal":1,"address":{"streetAddress":"10697 W Centennial Pky","addressCountry":"US","addressLocality":"Las Vegas","postalCode":"89149","addressRegion":"NV","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7516626850
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">las vegas</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/lvg">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+las vegas            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/lvg/apa/7516626850/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-02T17:07:29-0700">
+                        2022-08-02 17:07
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,433</span> <span class="housing">/ 1br - 820ft<sup>2</sup> - </span><span id="titletextonly">It&#39;s time to start living the good life! Luxury 1 Bed / 1 Bath!</span><small> (Las Vegas)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 23</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_kuTnEJ0xfw1z_0ew0ew" data-imgid="kuTnEJ0xfw1z_0ew0ew" class="slide first visible">
+                    <img src="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_kQ6nl0PLaPhz_0dw090" data-imgid="kQ6nl0PLaPhz_0dw090" class="slide">
+                </div>
+                <div id="3_image_kuTnEJ0xfw1z_0ew0ew" data-imgid="kuTnEJ0xfw1z_0ew0ew" class="slide">
+                </div>
+                <div id="4_image_kQ6nl0PLaPhz_0dw090" data-imgid="kQ6nl0PLaPhz_0dw090" class="slide">
+                </div>
+                <div id="5_image_cP3rfFJzpfnz_0dw090" data-imgid="cP3rfFJzpfnz_0dw090" class="slide">
+                </div>
+                <div id="6_image_3nV0tW7JJLnz_0dw090" data-imgid="3nV0tW7JJLnz_0dw090" class="slide">
+                </div>
+                <div id="7_image_eAGQYDKn526z_0kY0kY" data-imgid="eAGQYDKn526z_0kY0kY" class="slide">
+                </div>
+                <div id="8_image_3oRoZyHh5Ucz_0ew0ew" data-imgid="3oRoZyHh5Ucz_0ew0ew" class="slide">
+                </div>
+                <div id="9_image_7QtGn6MWJ3Dz_0dw090" data-imgid="7QtGn6MWJ3Dz_0dw090" class="slide">
+                </div>
+                <div id="10_image_fDcMClkgSXAz_0dw090" data-imgid="fDcMClkgSXAz_0dw090" class="slide">
+                </div>
+                <div id="11_image_lam1RA6orYGz_0dw090" data-imgid="lam1RA6orYGz_0dw090" class="slide">
+                </div>
+                <div id="12_image_1HG9VHv2tCnz_0dw090" data-imgid="1HG9VHv2tCnz_0dw090" class="slide">
+                </div>
+                <div id="13_image_2GoJLEnFzhIz_0dw090" data-imgid="2GoJLEnFzhIz_0dw090" class="slide">
+                </div>
+                <div id="14_image_bULBHu1eeIdz_0dw090" data-imgid="bULBHu1eeIdz_0dw090" class="slide">
+                </div>
+                <div id="15_image_fSziGcRSLbyz_0dw090" data-imgid="fSziGcRSLbyz_0dw090" class="slide">
+                </div>
+                <div id="16_image_8SKfEaQY89xz_0dw090" data-imgid="8SKfEaQY89xz_0dw090" class="slide">
+                </div>
+                <div id="17_image_jM6umXgzkRdz_0dw090" data-imgid="jM6umXgzkRdz_0dw090" class="slide">
+                </div>
+                <div id="18_image_5xGngQ83rTqz_09h06s" data-imgid="5xGngQ83rTqz_09h06s" class="slide">
+                </div>
+                <div id="19_image_j47IVY4Al7Rz_0dw090" data-imgid="j47IVY4Al7Rz_0dw090" class="slide">
+                </div>
+                <div id="20_image_dfbpEmaPZcXz_0dw098" data-imgid="dfbpEmaPZcXz_0dw098" class="slide">
+                </div>
+                <div id="21_image_3t3QkuBK44dz_0dw090" data-imgid="3t3QkuBK44dz_0dw090" class="slide">
+                </div>
+                <div id="22_image_82lzZ9M5wO8z_0dw090" data-imgid="82lzZ9M5wO8z_0dw090" class="slide">
+                </div>
+                <div id="23_image_gpeFjKET8Olz_0dw090" data-imgid="gpeFjKET8Olz_0dw090" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_kuTnEJ0xfw1z_0ew0ew" class="thumb" data-imgid="kuTnEJ0xfw1z_0ew0ew" href="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg" title="1"><img src="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_kQ6nl0PLaPhz_0dw090" class="thumb" data-imgid="kQ6nl0PLaPhz_0dw090" href="https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_600x450.jpg" title="2"><img src="https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_50x50c.jpg" alt="2"></a><a id="3_thumb_kuTnEJ0xfw1z_0ew0ew" class="thumb" data-imgid="kuTnEJ0xfw1z_0ew0ew" href="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg" title="3"><img src="https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_50x50c.jpg" alt="3"></a><a id="4_thumb_kQ6nl0PLaPhz_0dw090" class="thumb" data-imgid="kQ6nl0PLaPhz_0dw090" href="https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_600x450.jpg" title="4"><img src="https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_50x50c.jpg" alt="4"></a><a id="5_thumb_cP3rfFJzpfnz_0dw090" class="thumb" data-imgid="cP3rfFJzpfnz_0dw090" href="https://images.craigslist.org/00h0h_cP3rfFJzpfnz_0dw090_600x450.jpg" title="5"><img src="https://images.craigslist.org/00h0h_cP3rfFJzpfnz_0dw090_50x50c.jpg" alt="5"></a><a id="6_thumb_3nV0tW7JJLnz_0dw090" class="thumb" data-imgid="3nV0tW7JJLnz_0dw090" href="https://images.craigslist.org/00u0u_3nV0tW7JJLnz_0dw090_600x450.jpg" title="6"><img src="https://images.craigslist.org/00u0u_3nV0tW7JJLnz_0dw090_50x50c.jpg" alt="6"></a><a id="7_thumb_eAGQYDKn526z_0kY0kY" class="thumb" data-imgid="eAGQYDKn526z_0kY0kY" href="https://images.craigslist.org/00y0y_eAGQYDKn526z_0kY0kY_600x450.jpg" title="7"><img src="https://images.craigslist.org/00y0y_eAGQYDKn526z_0kY0kY_50x50c.jpg" alt="7"></a><a id="8_thumb_3oRoZyHh5Ucz_0ew0ew" class="thumb" data-imgid="3oRoZyHh5Ucz_0ew0ew" href="https://images.craigslist.org/00101_3oRoZyHh5Ucz_0ew0ew_600x450.jpg" title="8"><img src="https://images.craigslist.org/00101_3oRoZyHh5Ucz_0ew0ew_50x50c.jpg" alt="8"></a><a id="9_thumb_7QtGn6MWJ3Dz_0dw090" class="thumb" data-imgid="7QtGn6MWJ3Dz_0dw090" href="https://images.craigslist.org/00s0s_7QtGn6MWJ3Dz_0dw090_600x450.jpg" title="9"><img src="https://images.craigslist.org/00s0s_7QtGn6MWJ3Dz_0dw090_50x50c.jpg" alt="9"></a><a id="10_thumb_fDcMClkgSXAz_0dw090" class="thumb" data-imgid="fDcMClkgSXAz_0dw090" href="https://images.craigslist.org/00v0v_fDcMClkgSXAz_0dw090_600x450.jpg" title="10"><img src="https://images.craigslist.org/00v0v_fDcMClkgSXAz_0dw090_50x50c.jpg" alt="10"></a><a id="11_thumb_lam1RA6orYGz_0dw090" class="thumb" data-imgid="lam1RA6orYGz_0dw090" href="https://images.craigslist.org/00l0l_lam1RA6orYGz_0dw090_600x450.jpg" title="11"><img src="https://images.craigslist.org/00l0l_lam1RA6orYGz_0dw090_50x50c.jpg" alt="11"></a><a id="12_thumb_1HG9VHv2tCnz_0dw090" class="thumb" data-imgid="1HG9VHv2tCnz_0dw090" href="https://images.craigslist.org/00l0l_1HG9VHv2tCnz_0dw090_600x450.jpg" title="12"><img src="https://images.craigslist.org/00l0l_1HG9VHv2tCnz_0dw090_50x50c.jpg" alt="12"></a><a id="13_thumb_2GoJLEnFzhIz_0dw090" class="thumb" data-imgid="2GoJLEnFzhIz_0dw090" href="https://images.craigslist.org/00x0x_2GoJLEnFzhIz_0dw090_600x450.jpg" title="13"><img src="https://images.craigslist.org/00x0x_2GoJLEnFzhIz_0dw090_50x50c.jpg" alt="13"></a><a id="14_thumb_bULBHu1eeIdz_0dw090" class="thumb" data-imgid="bULBHu1eeIdz_0dw090" href="https://images.craigslist.org/01616_bULBHu1eeIdz_0dw090_600x450.jpg" title="14"><img src="https://images.craigslist.org/01616_bULBHu1eeIdz_0dw090_50x50c.jpg" alt="14"></a><a id="15_thumb_fSziGcRSLbyz_0dw090" class="thumb" data-imgid="fSziGcRSLbyz_0dw090" href="https://images.craigslist.org/00j0j_fSziGcRSLbyz_0dw090_600x450.jpg" title="15"><img src="https://images.craigslist.org/00j0j_fSziGcRSLbyz_0dw090_50x50c.jpg" alt="15"></a><a id="16_thumb_8SKfEaQY89xz_0dw090" class="thumb" data-imgid="8SKfEaQY89xz_0dw090" href="https://images.craigslist.org/00H0H_8SKfEaQY89xz_0dw090_600x450.jpg" title="16"><img src="https://images.craigslist.org/00H0H_8SKfEaQY89xz_0dw090_50x50c.jpg" alt="16"></a><a id="17_thumb_jM6umXgzkRdz_0dw090" class="thumb" data-imgid="jM6umXgzkRdz_0dw090" href="https://images.craigslist.org/00i0i_jM6umXgzkRdz_0dw090_600x450.jpg" title="17"><img src="https://images.craigslist.org/00i0i_jM6umXgzkRdz_0dw090_50x50c.jpg" alt="17"></a><a id="18_thumb_5xGngQ83rTqz_09h06s" class="thumb" data-imgid="5xGngQ83rTqz_09h06s" href="https://images.craigslist.org/00i0i_5xGngQ83rTqz_09h06s_600x450.jpg" title="18"><img src="https://images.craigslist.org/00i0i_5xGngQ83rTqz_09h06s_50x50c.jpg" alt="18"></a><a id="19_thumb_j47IVY4Al7Rz_0dw090" class="thumb" data-imgid="j47IVY4Al7Rz_0dw090" href="https://images.craigslist.org/00F0F_j47IVY4Al7Rz_0dw090_600x450.jpg" title="19"><img src="https://images.craigslist.org/00F0F_j47IVY4Al7Rz_0dw090_50x50c.jpg" alt="19"></a><a id="20_thumb_dfbpEmaPZcXz_0dw098" class="thumb" data-imgid="dfbpEmaPZcXz_0dw098" href="https://images.craigslist.org/00o0o_dfbpEmaPZcXz_0dw098_600x450.jpg" title="20"><img src="https://images.craigslist.org/00o0o_dfbpEmaPZcXz_0dw098_50x50c.jpg" alt="20"></a><a id="21_thumb_3t3QkuBK44dz_0dw090" class="thumb" data-imgid="3t3QkuBK44dz_0dw090" href="https://images.craigslist.org/00s0s_3t3QkuBK44dz_0dw090_600x450.jpg" title="21"><img src="https://images.craigslist.org/00s0s_3t3QkuBK44dz_0dw090_50x50c.jpg" alt="21"></a><a id="22_thumb_82lzZ9M5wO8z_0dw090" class="thumb" data-imgid="82lzZ9M5wO8z_0dw090" href="https://images.craigslist.org/00R0R_82lzZ9M5wO8z_0dw090_600x450.jpg" title="22"><img src="https://images.craigslist.org/00R0R_82lzZ9M5wO8z_0dw090_50x50c.jpg" alt="22"></a><a id="23_thumb_gpeFjKET8Olz_0dw090" class="thumb" data-imgid="gpeFjKET8Olz_0dw090" href="https://images.craigslist.org/00t0t_gpeFjKET8Olz_0dw090_600x450.jpg" title="23"><img src="https://images.craigslist.org/00t0t_gpeFjKET8Olz_0dw090_50x50c.jpg" alt="23"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"kuTnEJ0xfw1z_0ew0ew","url":"https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg","thumb":"https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_50x50c.jpg","imgid":"3:00T0T_kuTnEJ0xfw1z_0ew0ew"},{"shortid":"kQ6nl0PLaPhz_0dw090","url":"https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_50x50c.jpg","imgid":"3:00202_kQ6nl0PLaPhz_0dw090"},{"shortid":"kuTnEJ0xfw1z_0ew0ew","url":"https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_600x450.jpg","thumb":"https://images.craigslist.org/00T0T_kuTnEJ0xfw1z_0ew0ew_50x50c.jpg","imgid":"3:00T0T_kuTnEJ0xfw1z_0ew0ew"},{"shortid":"kQ6nl0PLaPhz_0dw090","url":"https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00202_kQ6nl0PLaPhz_0dw090_50x50c.jpg","imgid":"3:00202_kQ6nl0PLaPhz_0dw090"},{"shortid":"cP3rfFJzpfnz_0dw090","url":"https://images.craigslist.org/00h0h_cP3rfFJzpfnz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00h0h_cP3rfFJzpfnz_0dw090_50x50c.jpg","imgid":"3:00h0h_cP3rfFJzpfnz_0dw090"},{"shortid":"3nV0tW7JJLnz_0dw090","url":"https://images.craigslist.org/00u0u_3nV0tW7JJLnz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00u0u_3nV0tW7JJLnz_0dw090_50x50c.jpg","imgid":"3:00u0u_3nV0tW7JJLnz_0dw090"},{"shortid":"eAGQYDKn526z_0kY0kY","url":"https://images.craigslist.org/00y0y_eAGQYDKn526z_0kY0kY_600x450.jpg","thumb":"https://images.craigslist.org/00y0y_eAGQYDKn526z_0kY0kY_50x50c.jpg","imgid":"3:00y0y_eAGQYDKn526z_0kY0kY"},{"shortid":"3oRoZyHh5Ucz_0ew0ew","url":"https://images.craigslist.org/00101_3oRoZyHh5Ucz_0ew0ew_600x450.jpg","thumb":"https://images.craigslist.org/00101_3oRoZyHh5Ucz_0ew0ew_50x50c.jpg","imgid":"3:00101_3oRoZyHh5Ucz_0ew0ew"},{"shortid":"7QtGn6MWJ3Dz_0dw090","url":"https://images.craigslist.org/00s0s_7QtGn6MWJ3Dz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00s0s_7QtGn6MWJ3Dz_0dw090_50x50c.jpg","imgid":"3:00s0s_7QtGn6MWJ3Dz_0dw090"},{"shortid":"fDcMClkgSXAz_0dw090","url":"https://images.craigslist.org/00v0v_fDcMClkgSXAz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00v0v_fDcMClkgSXAz_0dw090_50x50c.jpg","imgid":"3:00v0v_fDcMClkgSXAz_0dw090"},{"shortid":"lam1RA6orYGz_0dw090","url":"https://images.craigslist.org/00l0l_lam1RA6orYGz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_lam1RA6orYGz_0dw090_50x50c.jpg","imgid":"3:00l0l_lam1RA6orYGz_0dw090"},{"shortid":"1HG9VHv2tCnz_0dw090","url":"https://images.craigslist.org/00l0l_1HG9VHv2tCnz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_1HG9VHv2tCnz_0dw090_50x50c.jpg","imgid":"3:00l0l_1HG9VHv2tCnz_0dw090"},{"shortid":"2GoJLEnFzhIz_0dw090","url":"https://images.craigslist.org/00x0x_2GoJLEnFzhIz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00x0x_2GoJLEnFzhIz_0dw090_50x50c.jpg","imgid":"3:00x0x_2GoJLEnFzhIz_0dw090"},{"shortid":"bULBHu1eeIdz_0dw090","url":"https://images.craigslist.org/01616_bULBHu1eeIdz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/01616_bULBHu1eeIdz_0dw090_50x50c.jpg","imgid":"3:01616_bULBHu1eeIdz_0dw090"},{"shortid":"fSziGcRSLbyz_0dw090","url":"https://images.craigslist.org/00j0j_fSziGcRSLbyz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00j0j_fSziGcRSLbyz_0dw090_50x50c.jpg","imgid":"3:00j0j_fSziGcRSLbyz_0dw090"},{"shortid":"8SKfEaQY89xz_0dw090","url":"https://images.craigslist.org/00H0H_8SKfEaQY89xz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00H0H_8SKfEaQY89xz_0dw090_50x50c.jpg","imgid":"3:00H0H_8SKfEaQY89xz_0dw090"},{"shortid":"jM6umXgzkRdz_0dw090","url":"https://images.craigslist.org/00i0i_jM6umXgzkRdz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_jM6umXgzkRdz_0dw090_50x50c.jpg","imgid":"3:00i0i_jM6umXgzkRdz_0dw090"},{"shortid":"5xGngQ83rTqz_09h06s","url":"https://images.craigslist.org/00i0i_5xGngQ83rTqz_09h06s_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_5xGngQ83rTqz_09h06s_50x50c.jpg","imgid":"3:00i0i_5xGngQ83rTqz_09h06s"},{"shortid":"j47IVY4Al7Rz_0dw090","url":"https://images.craigslist.org/00F0F_j47IVY4Al7Rz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_j47IVY4Al7Rz_0dw090_50x50c.jpg","imgid":"3:00F0F_j47IVY4Al7Rz_0dw090"},{"shortid":"dfbpEmaPZcXz_0dw098","url":"https://images.craigslist.org/00o0o_dfbpEmaPZcXz_0dw098_600x450.jpg","thumb":"https://images.craigslist.org/00o0o_dfbpEmaPZcXz_0dw098_50x50c.jpg","imgid":"3:00o0o_dfbpEmaPZcXz_0dw098"},{"shortid":"3t3QkuBK44dz_0dw090","url":"https://images.craigslist.org/00s0s_3t3QkuBK44dz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00s0s_3t3QkuBK44dz_0dw090_50x50c.jpg","imgid":"3:00s0s_3t3QkuBK44dz_0dw090"},{"shortid":"82lzZ9M5wO8z_0dw090","url":"https://images.craigslist.org/00R0R_82lzZ9M5wO8z_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_82lzZ9M5wO8z_0dw090_50x50c.jpg","imgid":"3:00R0R_82lzZ9M5wO8z_0dw090"},{"shortid":"gpeFjKET8Olz_0dw090","url":"https://images.craigslist.org/00t0t_gpeFjKET8Olz_0dw090_600x450.jpg","thumb":"https://images.craigslist.org/00t0t_gpeFjKET8Olz_0dw090_50x50c.jpg","imgid":"3:00t0t_gpeFjKET8Olz_0dw090"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="36.277262" data-longitude="-115.331057" data-accuracy="10"></div>
+    <div class="mapaddress">10697 W Centennial Pky</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/36.277262,-115.331057">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>820</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>EV charging</span>
+            <br>
+
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>application fee details: <b>$60</b></span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://lasvegas.craigslist.org/apa/d/las-vegas-its-time-to-start-living-the/7516626850.html"></div>
+        </div>
+<h2><b>Avanti Apartments</b></h2> Leasing Office: <br> 10697 W Centennial Pky<br> Las Vegas, NV 89166<br> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/lvg/apa/7516626850/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br><br><b>Take a look at what Avanti Apartments has to offer!</b><br><br> Avanti is the only housing option that will exceed all your expectations when it comes to apartment living, and it all starts by picking the floor plan that is perfect for you! Browse our options of 1 and 2 bedroom apartments to find the style that will fit your life. These Las Vegas, NV apartments are designed with you, the renter, in mind.<br><br>$0 deposit required OAC<br><br><b>Rental Information: </b>1 Bedroom / 1 Bathroom / 820 sq ft / $1433 - $1673/Month  <br><br><b>Lease Terms:</b> 6-Month, 7-Month, 8-Month, 9-Month, 10-Month, 11-Month, 12-Month<br><br><b>Apartment Amenities:</b><ul>❖ Breakfast Bar<br>❖ Ceiling Fans<br>❖ Central Air Conditioning<br>❖ Crown Molding<br>❖ Double Pane Windows<br>❖ Granite Countertops<br>❖ Microwave<br>❖ Oversized Bathtubs<br>❖ Range<br>❖ Stainless Steel Appliances<br>❖ Bay Windows In Select Homes<br>❖ Breakfast Bars In Select Homes<br>❖ Brushed Nickel Accents<br>❖ Built-In Linen Storage<br>❖ Built-in Microwave<br>❖ Double Stainless Sinks<br>❖ Frost Free Refrigerator with Ice Maker<br>❖ Large Vanities and Relaxing Garden Tubs<br>❖ Newly Renovated Homes<br>❖ Preinstalled Wi-Fi with 1st Month Free from COX<br></ul><b>Additional Information:</b><ul>❖ BBQ/Picnic Area<br>❖ Clubhouse<br>❖ Fitness Center with Free Weights<br>❖ Lounge<br>❖ Online Payments Available<br>❖ On-Site Maintenance<br>❖ On-Site Management<br>❖ Private Cabanas<br>❖ Resident Clubhouse and TV Lounge<br>❖ Spa<br>❖ Electric Car Charging Stations<br>❖ Green Globes Certified<br>❖ Night Patrol<br>❖ No Security Deposit Required OAC<br>❖ Resident Coffee Bar<br>❖ Self-Guided Tours<br>❖ Smoke-Free Community<br>❖ Sparkling Pool/Spa with Large Sundeck<br></ul><br> <b>Leasing Hours:</b> <br>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat - Sun: 8:00 AM - 5:00 PM<br><br><b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/lvg/apa/7516626850/__SERVICE_ID__" rel="nofollow">show contact info</a>
+</b><br><br><b>Pet Policy: </b>Avanti Apartments is a pet-friendly community. We allow two (2) pets max per household. Monthly pet rent is $30/month for one pet, $50/month for two pets. $200 refundable deposit for one pet, and $300 for the second pet refundable deposit. For completed breed restrictions please contact our leasing team.<br>  <br><b>Website: </b><u>https://www.securityproperties.com/avanti/?switch_cls[id]=65366&amp;utm_knock=cl</u><br> <br> <b>Management Company: </b>Security Properties<br><br><br>Availability and pricing are subject to change without notice.<br><br> EQUAL HOUSING OPPORTUNITY<br><br><br>SPRCL13<br>4E193F2A256D43
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7516626850</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-02T17:07:29-0700">2022-08-02 17:07</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
