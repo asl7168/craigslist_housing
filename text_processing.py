@@ -184,8 +184,9 @@ def process_html(directory):
                         posting_body)]
         posting_body = [text for text in posting_body if text != ""]
         docs = [nlp(s).sents for s in posting_body]  # do sentence segmentation on every string/item from the split body text
-        sents = [str(sent) for doc in docs for sent in doc]  # get every sentence from every doc in docs
-        posting_body = sents[1:]
+        sents = [str(sent) for doc in docs for sent in doc][1:]  # get every sentence from every doc in docs; [1:] to exclude "QR..." bit
+        posting_body = [re.sub(r"(http|www)?[^\s]+\.(com|org|net)(\/[^\s]+)*", "<URL>", sent) for sent in sents]  # basic URL tokenization
+
 
         # get urls for images if post has them
         images = []
@@ -224,9 +225,9 @@ def process_html(directory):
             
             if bath: 
                 bath = float(bath.group())
-            else if re.search(r"shared", bedbath[1]): 
+            elif re.search(r"shared", bedbath[1]): 
                 bath = "shared"
-            else if re.search(r"split", bedbath[1]):
+            elif re.search(r"split", bedbath[1]):
                 bath = "split"
 
             bath = bath if bath else "NA"  # if there isn't an X.Y number of baths or
