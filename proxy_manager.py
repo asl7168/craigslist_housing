@@ -118,13 +118,13 @@ def clean_wesbshare_proxies(proxies_filename: str = "proxies/webshare_proxies.tx
     return cleaned_proxies
 
 
-def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt"):
+def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt", n: int=5):
     with open(proxies_filename, "r") as proxies_file:
         proxies = proxies_file.readlines()
     
     base_url = "https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
-    pbar = tqdm(total=5, desc="Testing proxies against 5 craigslist pages")
-    for page in range(5):
+    pbar = tqdm(total=n, desc=f"Testing proxies against {n} craigslist pages")
+    for page in range(n):
         url = base_url + str(page * 120)
         
         for proxy in tqdm(proxies, leave=False):
@@ -142,8 +142,9 @@ def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt"
                     if body and "blocked" in body.text:
                         pbar.write(f"\n\nPROXY {proxy} IS BLOCKED, AND SHOULD BE REMOVED FROM {proxies_filename}")
 
+            sleep(20/len(proxies))
+            
         pbar.update(1)
-        sleep(2)
 
 
 if __name__ == "__main__":
