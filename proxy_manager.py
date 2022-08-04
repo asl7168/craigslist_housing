@@ -2,7 +2,10 @@ from requests import get
 from bs4 import BeautifulSoup
 import re
 import json 
-
+from tqdm import tqdm
+from time import sleep
+from cprint import cprint
+from newacc_webshare_credentials import user, password
 
 def verify_proxy(proxy: str) -> bool:
     try:
@@ -113,6 +116,35 @@ def clean_wesbshare_proxies(proxies_filename: str = "proxies/webshare_proxies.tx
         [proxies_file.write(proxy + "\n") for proxy in cleaned_proxies]
 
     return cleaned_proxies
+
+
+def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt"):
+    with open(proxies_filename, "r") as proxies_file:
+        proxies = proxies_file.readlines()
+    
+    base_url = "https://chicago.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
+    pbar = tqdm(total=5, desc="Testing proxies against 5 craigslist pages")
+    for page in range(5):
+        url = base_url + str(page * 120)
+        
+        for proxy in tqdm(proxies, leave=False):
+            p = {"http": f"http://{user}:{password}@{proxy}", "https": f"http://{user}:{password}@{proxy}"}
+            try:
+                r = get(url, proxies=p)
+            except:
+                sleep(10)
+                r = get(url, proxies=p)
+
+            soup = BeautifulSoup(r.text, "html.parser")
+            if len(soup.find_all('li', class_= 'result-row')) == 0:
+                if not soup.find("pre", id="moon"):  # a harvest moon is shown when we're out of search results
+                    body = soup.find("body")
+                    if body and "blocked" in body.text:
+                        pbar.write(f"\n\nPROXY {proxy} IS BLOCKED, AND SHOULD BE REMOVED FROM {proxies_filename}")
+
+        pbar.update(1)
+        sleep(2)
+
 
 if __name__ == "__main__":
     # get_proxies()

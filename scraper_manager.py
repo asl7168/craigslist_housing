@@ -5,9 +5,10 @@ from math import floor, ceil
 import json
 
 
-def setup(init: bool=False, filepath: str="./html"):
+def setup(init: bool=False, filepath: str="./html", webshare_proxies: str=None):
     init_or_cron = "init" if init else "cron"  
-    proxies = clean_wesbshare_proxies()  # clean proxies, then store them here
+    if webshare_proxies: proxies = clean_wesbshare_proxies(webshare_proxies)  # clean proxies, then store them here
+    else: proxies = clean_wesbshare_proxies()
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
