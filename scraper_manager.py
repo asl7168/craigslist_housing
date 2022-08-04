@@ -5,12 +5,9 @@ from math import floor, ceil
 import json
 
 
-def setup(init: bool=False):
-    init_or_cron = "init" if init else "cron"
-    initcron_dir = f"./scripts/{init_or_cron}_scrapers"
-    if not os.path.exists(initcron_dir): os.mkdir(initcron_dir)
-        
-    proxies = clean_wesbshare_proxies()  # reverify proxies, then store them here
+def setup(init: bool=False, filepath: str="./html"):
+    init_or_cron = "init" if init else "cron"  
+    proxies = clean_wesbshare_proxies()  # clean proxies, then store them here
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
@@ -26,7 +23,7 @@ def setup(init: bool=False):
     # though, even if we could, at 48 min for ~55 locations, that's only 44 hrs of total run time, which is a 
     # quarter of QUEST's 168 hr max jobtime
 
-    output = f"# please run this file from the root directory, not {initcron_dir[2:]}\n" \
+    output = f"# to avoid issues with the html directory being in the wrong location, please use an absolute filepath\n" \
              "import sys\nsys.path.append('./')\n\n" \
              "from time import sleep\n" \
              "from cprint import cprint\n" \
@@ -37,7 +34,7 @@ def setup(init: bool=False):
              "\tfor location in locations[idx:]:\n" \
              "\t\ttry:\n"  \
              "\t\t\tpcpy = proxies.copy()\n"  \
-             f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"./html\", proxies=pcpy)\n" \
+             f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}\", proxies=pcpy)\n" \
              "\t\texcept Exception as e:\n" \
              "\t\t\tcprint(f'Encountered exception \"{e}\"\\nTrying again in 30 seconds', c=\"r\")\n" \
              "\t\t\tsleep(30)\n" \
@@ -45,5 +42,5 @@ def setup(init: bool=False):
              "scrape_from()"
              
 
-    with open(f"{initcron_dir}/{init_or_cron}_scrape.py", "w") as script:
+    with open(f"scripts/{init_or_cron}_scrape.py", "w") as script:
         script.write(output)
