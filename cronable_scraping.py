@@ -54,8 +54,8 @@ class CraigslistScraper:
     def change_proxy(self):
         if self.curr_proxy:
             if not self.avail_proxies:
-                    self.avail_proxies = self.unavail_proxies
-                    self.unavail_proxies = []
+                self.avail_proxies = self.unavail_proxies
+                self.unavail_proxies = []
 
             proxy_holder = self.avail_proxies.pop(0)
             self.curr_proxy = {"http": f"http://{user}:{password}@{proxy_holder}", "https": f"http://{user}:{password}@{proxy_holder}"}
@@ -146,7 +146,7 @@ class CraigslistScraper:
             
             try:
                 raw_html = get(url, proxies=self.curr_proxy)
-            except:
+            except Exception:
                 time.sleep(10)
                 raw_html = get(url, proxies=self.curr_proxy)
             
@@ -172,10 +172,10 @@ class CraigslistScraper:
             pbar.update(1)
 
 
-    def get_posts_from_today(self):  # TODO: update the logic of how this works; don't need the extra get in the while, clean this whole block up
+    def get_posts_from_today(self):
         current_page = 0
         page_url = self.today_base_url
-        total_pages = ceil(float(BeautifulSoup(get(page_url, proxies=self.curr_proxy).text, 'html.parser').find("span", class_="totalcount").text) / 120)
+        total_pages = ceil(float(BeautifulSoup(get(page_url).text, "html.parser").find("span", class_="totalcount").text) / 120)
         gpp = self.get_page_of_posts(page_url)
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
