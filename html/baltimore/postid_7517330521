@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Ready For Mid-August!!! - apts/housing for rent - apartment rent">
+	<meta name="description" content="Chase Lea&#39;s professional onsite staff will graciously provide you with award-winning service from your first leasing inquiry through the efficient maintenance of your home. You are within minutes of...">
+	<meta property="og:description" content="Chase Lea&#39;s professional onsite staff will graciously provide you with award-winning service from your first leasing inquiry through the efficient maintenance of your home. You are within minutes of...">
+	<meta property="og:image" content="https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_600x450.jpg">
+	<meta property="og:url" content="https://baltimore.craigslist.org/apa/d/pikesville-ready-for-mid-august/7517330521.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 18-Sep-22 15:07:15 EDT">
+	<meta name="geo.position" content="39.399045;-76.758419">
+	<meta name="ICBM" content="39.399045, -76.758419">
+	<meta name="geo.placename" content="Owings Mills">
+	<meta name="geo.region" content="US-MD">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Ready For Mid-August!!! - apts/housing for rent - apartment rent</title>
+	<link rel="canonical" href="https://baltimore.craigslist.org/apa/d/pikesville-ready-for-mid-august/7517330521.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"baltimore.craigslist.org","@id":"https://baltimore.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://baltimore.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://baltimore.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"Ready For Mid-August!!!","@id":"https://baltimore.craigslist.org/apa/d/pikesville-ready-for-mid-august/7517330521.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-76.758419","name":"Ready For Mid-August!!!","@context":"http://schema.org","latitude":"39.399045","numberOfBathroomsTotal":1,"address":{"streetAddress":"1 Hartley Circle","addressCountry":"US","addressLocality":"Pikesville","postalCode":"21208","addressRegion":"MD","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7517330521
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">baltimore</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/bal">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+baltimore            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/bal/apa/7517330521/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-04T15:03:15-0400">
+                        2022-08-04 15:03
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,710</span> <span class="housing">/ 1br - 715ft<sup>2</sup> - </span><span id="titletextonly">Ready For Mid-August!!!</span><small> (Owings Mills)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 13</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_avNuncQiUATz_0aT0ew" data-imgid="avNuncQiUATz_0aT0ew" class="slide first visible">
+                    <img src="https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_dLGgnTFd67fz_0il0ew" data-imgid="dLGgnTFd67fz_0il0ew" class="slide">
+                </div>
+                <div id="3_image_f6pXQy7D4FKz_0jm0ew" data-imgid="f6pXQy7D4FKz_0jm0ew" class="slide">
+                </div>
+                <div id="4_image_ezcxpNFhCtPz_0gO0ew" data-imgid="ezcxpNFhCtPz_0gO0ew" class="slide">
+                </div>
+                <div id="5_image_hrKcmj9Y7xmz_0aT0ew" data-imgid="hrKcmj9Y7xmz_0aT0ew" class="slide">
+                </div>
+                <div id="6_image_hQCzgQUdvUlz_0jm0cU" data-imgid="hQCzgQUdvUlz_0jm0cU" class="slide">
+                </div>
+                <div id="7_image_8Zk6Wg7dNzz_0jm0cU" data-imgid="8Zk6Wg7dNzz_0jm0cU" class="slide">
+                </div>
+                <div id="8_image_ek2Ygfw9xftz_0jm0cU" data-imgid="ek2Ygfw9xftz_0jm0cU" class="slide">
+                </div>
+                <div id="9_image_54abke8DZ17z_0jm0cU" data-imgid="54abke8DZ17z_0jm0cU" class="slide">
+                </div>
+                <div id="10_image_i0RSN6608NAz_0jm0bC" data-imgid="i0RSN6608NAz_0jm0bC" class="slide">
+                </div>
+                <div id="11_image_1IaZg9NOJQHz_08I05O" data-imgid="1IaZg9NOJQHz_08I05O" class="slide">
+                </div>
+                <div id="12_image_jficG2MZak5z_0jm0cU" data-imgid="jficG2MZak5z_0jm0cU" class="slide">
+                </div>
+                <div id="13_image_64wd8NITgJ2z_0i90ew" data-imgid="64wd8NITgJ2z_0i90ew" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_avNuncQiUATz_0aT0ew" class="thumb" data-imgid="avNuncQiUATz_0aT0ew" href="https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_600x450.jpg" title="1"><img src="https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_dLGgnTFd67fz_0il0ew" class="thumb" data-imgid="dLGgnTFd67fz_0il0ew" href="https://images.craigslist.org/00101_dLGgnTFd67fz_0il0ew_600x450.jpg" title="2"><img src="https://images.craigslist.org/00101_dLGgnTFd67fz_0il0ew_50x50c.jpg" alt="2"></a><a id="3_thumb_f6pXQy7D4FKz_0jm0ew" class="thumb" data-imgid="f6pXQy7D4FKz_0jm0ew" href="https://images.craigslist.org/00a0a_f6pXQy7D4FKz_0jm0ew_600x450.jpg" title="3"><img src="https://images.craigslist.org/00a0a_f6pXQy7D4FKz_0jm0ew_50x50c.jpg" alt="3"></a><a id="4_thumb_ezcxpNFhCtPz_0gO0ew" class="thumb" data-imgid="ezcxpNFhCtPz_0gO0ew" href="https://images.craigslist.org/00U0U_ezcxpNFhCtPz_0gO0ew_600x450.jpg" title="4"><img src="https://images.craigslist.org/00U0U_ezcxpNFhCtPz_0gO0ew_50x50c.jpg" alt="4"></a><a id="5_thumb_hrKcmj9Y7xmz_0aT0ew" class="thumb" data-imgid="hrKcmj9Y7xmz_0aT0ew" href="https://images.craigslist.org/00Z0Z_hrKcmj9Y7xmz_0aT0ew_600x450.jpg" title="5"><img src="https://images.craigslist.org/00Z0Z_hrKcmj9Y7xmz_0aT0ew_50x50c.jpg" alt="5"></a><a id="6_thumb_hQCzgQUdvUlz_0jm0cU" class="thumb" data-imgid="hQCzgQUdvUlz_0jm0cU" href="https://images.craigslist.org/01515_hQCzgQUdvUlz_0jm0cU_600x450.jpg" title="6"><img src="https://images.craigslist.org/01515_hQCzgQUdvUlz_0jm0cU_50x50c.jpg" alt="6"></a><a id="7_thumb_8Zk6Wg7dNzz_0jm0cU" class="thumb" data-imgid="8Zk6Wg7dNzz_0jm0cU" href="https://images.craigslist.org/00N0N_8Zk6Wg7dNzz_0jm0cU_600x450.jpg" title="7"><img src="https://images.craigslist.org/00N0N_8Zk6Wg7dNzz_0jm0cU_50x50c.jpg" alt="7"></a><a id="8_thumb_ek2Ygfw9xftz_0jm0cU" class="thumb" data-imgid="ek2Ygfw9xftz_0jm0cU" href="https://images.craigslist.org/00x0x_ek2Ygfw9xftz_0jm0cU_600x450.jpg" title="8"><img src="https://images.craigslist.org/00x0x_ek2Ygfw9xftz_0jm0cU_50x50c.jpg" alt="8"></a><a id="9_thumb_54abke8DZ17z_0jm0cU" class="thumb" data-imgid="54abke8DZ17z_0jm0cU" href="https://images.craigslist.org/00606_54abke8DZ17z_0jm0cU_600x450.jpg" title="9"><img src="https://images.craigslist.org/00606_54abke8DZ17z_0jm0cU_50x50c.jpg" alt="9"></a><a id="10_thumb_i0RSN6608NAz_0jm0bC" class="thumb" data-imgid="i0RSN6608NAz_0jm0bC" href="https://images.craigslist.org/00707_i0RSN6608NAz_0jm0bC_600x450.jpg" title="10"><img src="https://images.craigslist.org/00707_i0RSN6608NAz_0jm0bC_50x50c.jpg" alt="10"></a><a id="11_thumb_1IaZg9NOJQHz_08I05O" class="thumb" data-imgid="1IaZg9NOJQHz_08I05O" href="https://images.craigslist.org/00B0B_1IaZg9NOJQHz_08I05O_600x450.jpg" title="11"><img src="https://images.craigslist.org/00B0B_1IaZg9NOJQHz_08I05O_50x50c.jpg" alt="11"></a><a id="12_thumb_jficG2MZak5z_0jm0cU" class="thumb" data-imgid="jficG2MZak5z_0jm0cU" href="https://images.craigslist.org/00K0K_jficG2MZak5z_0jm0cU_600x450.jpg" title="12"><img src="https://images.craigslist.org/00K0K_jficG2MZak5z_0jm0cU_50x50c.jpg" alt="12"></a><a id="13_thumb_64wd8NITgJ2z_0i90ew" class="thumb" data-imgid="64wd8NITgJ2z_0i90ew" href="https://images.craigslist.org/00202_64wd8NITgJ2z_0i90ew_600x450.jpg" title="13"><img src="https://images.craigslist.org/00202_64wd8NITgJ2z_0i90ew_50x50c.jpg" alt="13"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"avNuncQiUATz_0aT0ew","url":"https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_avNuncQiUATz_0aT0ew_50x50c.jpg","imgid":"3:00R0R_avNuncQiUATz_0aT0ew"},{"shortid":"dLGgnTFd67fz_0il0ew","url":"https://images.craigslist.org/00101_dLGgnTFd67fz_0il0ew_600x450.jpg","thumb":"https://images.craigslist.org/00101_dLGgnTFd67fz_0il0ew_50x50c.jpg","imgid":"3:00101_dLGgnTFd67fz_0il0ew"},{"shortid":"f6pXQy7D4FKz_0jm0ew","url":"https://images.craigslist.org/00a0a_f6pXQy7D4FKz_0jm0ew_600x450.jpg","thumb":"https://images.craigslist.org/00a0a_f6pXQy7D4FKz_0jm0ew_50x50c.jpg","imgid":"3:00a0a_f6pXQy7D4FKz_0jm0ew"},{"shortid":"ezcxpNFhCtPz_0gO0ew","url":"https://images.craigslist.org/00U0U_ezcxpNFhCtPz_0gO0ew_600x450.jpg","thumb":"https://images.craigslist.org/00U0U_ezcxpNFhCtPz_0gO0ew_50x50c.jpg","imgid":"3:00U0U_ezcxpNFhCtPz_0gO0ew"},{"shortid":"hrKcmj9Y7xmz_0aT0ew","url":"https://images.craigslist.org/00Z0Z_hrKcmj9Y7xmz_0aT0ew_600x450.jpg","thumb":"https://images.craigslist.org/00Z0Z_hrKcmj9Y7xmz_0aT0ew_50x50c.jpg","imgid":"3:00Z0Z_hrKcmj9Y7xmz_0aT0ew"},{"shortid":"hQCzgQUdvUlz_0jm0cU","url":"https://images.craigslist.org/01515_hQCzgQUdvUlz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/01515_hQCzgQUdvUlz_0jm0cU_50x50c.jpg","imgid":"3:01515_hQCzgQUdvUlz_0jm0cU"},{"shortid":"8Zk6Wg7dNzz_0jm0cU","url":"https://images.craigslist.org/00N0N_8Zk6Wg7dNzz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00N0N_8Zk6Wg7dNzz_0jm0cU_50x50c.jpg","imgid":"3:00N0N_8Zk6Wg7dNzz_0jm0cU"},{"shortid":"ek2Ygfw9xftz_0jm0cU","url":"https://images.craigslist.org/00x0x_ek2Ygfw9xftz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00x0x_ek2Ygfw9xftz_0jm0cU_50x50c.jpg","imgid":"3:00x0x_ek2Ygfw9xftz_0jm0cU"},{"shortid":"54abke8DZ17z_0jm0cU","url":"https://images.craigslist.org/00606_54abke8DZ17z_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00606_54abke8DZ17z_0jm0cU_50x50c.jpg","imgid":"3:00606_54abke8DZ17z_0jm0cU"},{"shortid":"i0RSN6608NAz_0jm0bC","url":"https://images.craigslist.org/00707_i0RSN6608NAz_0jm0bC_600x450.jpg","thumb":"https://images.craigslist.org/00707_i0RSN6608NAz_0jm0bC_50x50c.jpg","imgid":"3:00707_i0RSN6608NAz_0jm0bC"},{"shortid":"1IaZg9NOJQHz_08I05O","url":"https://images.craigslist.org/00B0B_1IaZg9NOJQHz_08I05O_600x450.jpg","thumb":"https://images.craigslist.org/00B0B_1IaZg9NOJQHz_08I05O_50x50c.jpg","imgid":"3:00B0B_1IaZg9NOJQHz_08I05O"},{"shortid":"jficG2MZak5z_0jm0cU","url":"https://images.craigslist.org/00K0K_jficG2MZak5z_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00K0K_jficG2MZak5z_0jm0cU_50x50c.jpg","imgid":"3:00K0K_jficG2MZak5z_0jm0cU"},{"shortid":"64wd8NITgJ2z_0i90ew","url":"https://images.craigslist.org/00202_64wd8NITgJ2z_0i90ew_600x450.jpg","thumb":"https://images.craigslist.org/00202_64wd8NITgJ2z_0i90ew_50x50c.jpg","imgid":"3:00202_64wd8NITgJ2z_0i90ew"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="39.399045" data-longitude="-76.758419" data-accuracy="10"></div>
+    <div class="mapaddress">1 Hartley Circle</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/39.399045,-76.758419">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>715</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-08-17" data-today_msg="available now">available aug 17</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://baltimore.craigslist.org/apa/d/pikesville-ready-for-mid-august/7517330521.html"></div>
+        </div>
+Chase Lea's professional onsite staff will graciously provide you with award-winning service from your first leasing inquiry through the efficient maintenance of your home. You are within minutes of the Owings Mill Metro Station, just 2 miles from I-695 and I-795 and a short 25 minute drive to Baltimore Washington International Airport.  Chase Lea is also close to downtown Baltimore, Hunt Valley, Towson and Anne Arundel Mills along with multiple dining options and a variety of other retail opportunities.  Don't forget to ask about our newly renovated homes with brand new cabinetry, granite countertops, stainless steel appliances, ceramic tile backsplashes and beautifully remodeled bathrooms. Tour the photo gallery or call us to schedule a personal tour and see where top notch apartment living and exceptional customer service become one at Chase Lea Apartments.<br>
+<br>
+Newly remodeled Carlyle floorplan includes wood-burning fireplace, stainless steel appliances, real granite countertops, and full sized washer and dryer.  Limited Availability!<br>
+<br>
+Rental rates, availability, deposits, apartment features and specials are subject to change without notice. <br>
+<br>
+Chase Lea Apartment Homes, managed by Morgan Properties<br>
+1 Hartley Circle<br>
+Owings Mills, MD 21117<br>
+ <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/bal/apa/7517330521/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br>
+<br>
+VIEW OUR WEBSITE:<br>
+<br>
+http://morgan-properties.com/morganlocations/PropertyDetail.asp?propertyID=3008<br>
+<br>
+Apartment Features<br>
+* Walk-in Closet<br>
+* Refrigerator, Microwave, Dishwasher &amp; Electric Stove<br>
+* Refrigerator<br>
+* Pre-wired for internet and cable<br>
+* Dishwasher<br>
+* Roommate Friendly Floor Plan<br>
+* Full sized Washer and Dryer in unit<br>
+* Vertical Blinds<br>
+* Lofty Vaulted Ceilings<br>
+* Electric Stove<br>
+* Stainless Steel Appliances<br>
+* Air Conditioning<br>
+* Extra Storage<br>
+* Central Heat and Air<br>
+* Fireplace<br>
+* Disposal<br>
+* Private Patio or Private Balcony (on select apartments)<br>
+* Linen Closet<br>
+* Granite Countertops<br>
+* Breakfast Bar<br>
+<br>
+<br>
+<br>
+<br>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7517330521</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-04T15:03:15-0400">2022-08-04 15:03</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

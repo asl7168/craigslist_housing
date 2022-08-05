@@ -13,7 +13,7 @@ def scrape_from(idx: int=0):
 	for location in locations[idx:]:
 		try:
 			pcpy = proxies.copy()
-			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist", proxies=pcpy)
+			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)
 		except Exception as e:
 			cprint(f"Encountered exception '{e}'\nTrying again in 30 seconds", c="r")
 			sleep(30)

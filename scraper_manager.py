@@ -1,4 +1,4 @@
-from proxy_manager import clean_wesbshare_proxies
+from proxy_manager import clean_webshare_proxies
 from state_codes import state_codes
 import os
 from math import floor, ceil
@@ -7,8 +7,8 @@ import json
 
 def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_quest: bool=False):
     init_or_cron = "init" if init else "cron"  
-    if webshare_proxies: proxies = clean_wesbshare_proxies(webshare_proxies)  # clean proxies, then store them here
-    else: proxies = clean_wesbshare_proxies()
+    if webshare_proxies: proxies = clean_webshare_proxies(webshare_proxies)  # clean proxies, then store them here
+    else: proxies = clean_webshare_proxies()
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
@@ -42,7 +42,7 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
              "\tfor location in locations[idx:]:\n" \
              "\t\ttry:\n"  \
              "\t\t\tpcpy = proxies.copy()\n"  \
-             f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}\", proxies=pcpy)\n" \
+             f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}/html\", proxies=pcpy)\n" \
              "\t\texcept Exception as e:\n" \
              "\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
              "\t\t\tsleep(30)\n" \
