@@ -131,7 +131,7 @@ def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt"
             p = {"http": f"http://{user}:{password}@{proxy}", "https": f"http://{user}:{password}@{proxy}"}
             try:
                 r = get(url, proxies=p)
-            except:
+            except Exception:
                 sleep(10)
                 r = get(url, proxies=p)
 
