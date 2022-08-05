@@ -86,7 +86,9 @@ class CraigslistScraper:
             page_data = get(url, proxies=self.curr_proxy)
             
         html_soup = BeautifulSoup(page_data.text, 'html.parser')
-        posts = html_soup.find_all('li', class_= 'result-row')
+        search_results = html_soup.find("ul", id="search-results")
+        posts = html_soup.find_all('li', class_='result-row')
+        posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
         
         if len(posts) == 0: 
             # a harvest moon is shown when we're out of results for non-daily; a train  is shown when we're out of results for daily

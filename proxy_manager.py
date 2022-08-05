@@ -104,7 +104,7 @@ def reverify_proxies(proxies_filename: str = "proxies/verified_proxies.json", re
     return reverified_proxies
 
 
-def clean_wesbshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt") -> list:
+def clean_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt") -> list:
     with open(proxies_filename, "r") as proxies_file:
         init_proxies = proxies_file.readlines()
 
