@@ -5,7 +5,7 @@ from math import floor, ceil
 import json
 
 
-def setup(init: bool=False, filepath: str="./html", webshare_proxies: str=None):
+def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_quest: bool=False):
     init_or_cron = "init" if init else "cron"  
     if webshare_proxies: proxies = clean_wesbshare_proxies(webshare_proxies)  # clean proxies, then store them here
     else: proxies = clean_wesbshare_proxies()
@@ -24,8 +24,14 @@ def setup(init: bool=False, filepath: str="./html", webshare_proxies: str=None):
     # though, even if we could, at 48 min for ~55 locations, that's only 44 hrs of total run time, which is a 
     # quarter of QUEST's 168 hr max jobtime
 
+    if not filepath:
+        if for_quest: filepath = "/projects/p31502/projects/craigslist"
+        else: filepath = "./html"
+    else:
+        filepath = filepath
+
     output = f"# to avoid issues with the html directory being in the wrong location, please use an absolute filepath\n" \
-             "import sys\nsys.path.append('./')\n\n" \
+             f"import sys\nsys.path.append(\"{'./' if not for_quest else '/projects/p31502/projects/craigslist'}\")\n\n" \
              "from time import sleep\n" \
              "from cprint import cprint\n" \
              f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
@@ -37,7 +43,7 @@ def setup(init: bool=False, filepath: str="./html", webshare_proxies: str=None):
              "\t\t\tpcpy = proxies.copy()\n"  \
              f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}\", proxies=pcpy)\n" \
              "\t\texcept Exception as e:\n" \
-             "\t\t\tcprint(f'Encountered exception \"{e}\"\\nTrying again in 30 seconds', c=\"r\")\n" \
+             "\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
              "\t\t\tsleep(30)\n" \
              "\t\t\tscrape_from(locations.index(location))\n\n" \
              "scrape_from()"

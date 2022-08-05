@@ -1,6 +1,6 @@
 # to avoid issues with the html directory being in the wrong location, please use an absolute filepath
 import sys
-sys.path.append('./')
+sys.path.append("/projects/p31502/projects/craigslist")
 
 from time import sleep
 from cprint import cprint
@@ -13,9 +13,9 @@ def scrape_from(idx: int=0):
 	for location in locations[idx:]:
 		try:
 			pcpy = proxies.copy()
-			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)
+			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist", proxies=pcpy)
 		except Exception as e:
-			cprint(f'Encountered exception "{e}"\nTrying again in 30 seconds', c="r")
+			cprint(f"Encountered exception '{e}'\nTrying again in 30 seconds", c="r")
 			sleep(30)
 			scrape_from(locations.index(location))
 

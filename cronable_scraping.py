@@ -25,7 +25,7 @@ class CraigslistScraper:
         the post data
     """
 
-    def __init__(self, city, filepath: str=None, scrape_by_date: bool=True, number_of_pages: int=1, proxies: list=None):
+    def __init__(self, city, filepath: str=None, scrape_by_date: bool=True, number_of_pages: int=25, proxies: list=None):
         self.city = city
         self.filepath = filepath + "/" + city if filepath else f"../../html/{city}"  # this should be where all html documents have BEEN saved
         if not os.path.exists(self.filepath): os.makedirs(self.filepath)
@@ -207,7 +207,7 @@ class CraigslistScraper:
 
 #%%
 def do_init_scrape(city: str, filepath: str=None, proxies: str=None):
-    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, number_of_pages=30, proxies=proxies)
+    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, proxies=proxies)
     scraper.scrape()
 
 

@@ -5,7 +5,7 @@ import json
 from tqdm import tqdm
 from time import sleep
 from cprint import cprint
-from newacc_webshare_credentials import user, password
+from webshare_credentials import user, password
 
 def verify_proxy(proxy: str) -> bool:
     try:
@@ -148,6 +148,4 @@ def test_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt"
 
 
 if __name__ == "__main__":
-    # get_proxies()
-    # reverify_proxies()
     clean_wesbshare_proxies()
