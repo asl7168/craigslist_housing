@@ -7,10 +7,10 @@ from cprint import cprint
 from cronable_scraping import do_cron_scrape
 
 locations = ['chicago', 'atlanta', 'boston', 'cleveland', 'denver', 'losangeles', 'memphis', 'seattle', 'sfbay', 'austin', 'dallas', 'detroit', 'houston', 'lasvegas', 'miami', 'minneapolis', 'newyork', 'orangecounty', 'philadelphia', 'phoenix', 'portland', 'raleigh', 'sacramento', 'sandiego', 'washingtondc', 'baltimore', 'bham', 'buffalo', 'charlotte', 'cincinnati', 'columbus', 'hartford', 'indianapolis', 'inlandempire', 'jacksonville', 'kansascity', 'louisville', 'milwaukee', 'muncie', 'nashville', 'newjersey', 'niagara', 'norfolk', 'oklahomacity', 'orlando', 'pittsburgh', 'providence', 'richmond', 'saltlakecity', 'sanantonio', 'sanmarcos', 'stlouis', 'stpetersburg', 'tampa', 'watertown']
-with open("./proxies/webshare_proxies.txt") as f: proxies = f.readlines()
+with open("/projects/p31502/projects/craigslist/proxies/webshare_proxies.txt") as f: proxies = f.readlines()
 
 def scrape_from(idx: int=0):
-	for location in locations[idx:]:
+	for location in locations[idx:30]:
 		try:
 			pcpy = proxies.copy()
 			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)

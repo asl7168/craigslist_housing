@@ -36,7 +36,7 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
              "from cprint import cprint\n" \
              f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
              f"locations = {locations}\n" \
-             f"with open(\"{'./proxies/webshare_proxies.txt' if not webshare_proxies else webshare_proxies}\") " \
+             f"with open(\"{f'{filepath}/proxies/webshare_proxies.txt' if not webshare_proxies else webshare_proxies}\") " \
              "as f: proxies = f.readlines()\n\n" \
              "def scrape_from(idx: int=0):\n" \
              "\tfor location in locations[idx:]:\n" \
