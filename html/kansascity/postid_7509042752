@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Pet Friendly, Fireplace, Patio - apts/housing for rent - apartment...">
+	<meta name="description" content="Wingfield Club Apartments offers both convenience and value within the thriving city of Olathe. Our residents enjoy the convenience of city living with the comfort and tranquility of a neighborhood...">
+	<meta property="og:description" content="Wingfield Club Apartments offers both convenience and value within the thriving city of Olathe. Our residents enjoy the convenience of city living with the comfort and tranquility of a neighborhood...">
+	<meta property="og:image" content="https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_600x450.jpg">
+	<meta property="og:url" content="https://kansascity.craigslist.org/apa/d/olathe-pet-friendly-fireplace-patio/7509042752.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 29-Aug-22 08:54:40 CDT">
+	<meta name="geo.position" content="38.896290;-94.770736">
+	<meta name="ICBM" content="38.896290, -94.770736">
+	<meta name="geo.placename" content="Olathe">
+	<meta name="geo.region" content="US-MO">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Pet Friendly, Fireplace, Patio - apts/housing for rent - apartment...</title>
+	<link rel="canonical" href="https://kansascity.craigslist.org/apa/d/olathe-pet-friendly-fireplace-patio/7509042752.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"kansascity.craigslist.org","@id":"https://kansascity.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://kansascity.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://kansascity.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"Pet Friendly, Fireplace, Patio","@id":"https://kansascity.craigslist.org/apa/d/olathe-pet-friendly-fireplace-patio/7509042752.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-94.770736","name":"Pet Friendly, Fireplace, Patio","@context":"http://schema.org","latitude":"38.896290","numberOfBathroomsTotal":1,"address":{"streetAddress":"15901 W 127th Street","addressCountry":"US","addressLocality":"Olathe","postalCode":"66051","addressRegion":"KS","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7509042752
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">kansas city</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/ksc">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+kansas city            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/ksc/apa/7509042752/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-15T08:50:40-0500">
+                        2022-07-15 08:50
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,064</span> <span class="housing">/ 1br - 576ft<sup>2</sup> - </span><span id="titletextonly">Pet Friendly, Fireplace, Patio</span>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 15</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_jBFCtIEEbgXz_0cU05P" data-imgid="jBFCtIEEbgXz_0cU05P" class="slide first visible">
+                    <img src="https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_aZiXNqRhseOz_09w06n" data-imgid="aZiXNqRhseOz_09w06n" class="slide">
+                </div>
+                <div id="3_image_7GGokqbZwmQz_0cU084" data-imgid="7GGokqbZwmQz_0cU084" class="slide">
+                </div>
+                <div id="4_image_eU8Pgf5ng74z_0cU05P" data-imgid="eU8Pgf5ng74z_0cU05P" class="slide">
+                </div>
+                <div id="5_image_jMuVHfH6MYmz_09x06q" data-imgid="jMuVHfH6MYmz_09x06q" class="slide">
+                </div>
+                <div id="6_image_2KrJwq9ykk8z_09y06j" data-imgid="2KrJwq9ykk8z_09y06j" class="slide">
+                </div>
+                <div id="7_image_4nRnbhnK98lz_09v06i" data-imgid="4nRnbhnK98lz_09v06i" class="slide">
+                </div>
+                <div id="8_image_eXeSAvT5N3jz_03E03B" data-imgid="eXeSAvT5N3jz_03E03B" class="slide">
+                </div>
+                <div id="9_image_4QiEXWsIQTPz_0cU05P" data-imgid="4QiEXWsIQTPz_0cU05P" class="slide">
+                </div>
+                <div id="10_image_8emW0KD6OIQz_0cU05P" data-imgid="8emW0KD6OIQz_0cU05P" class="slide">
+                </div>
+                <div id="11_image_15airUTxeqMz_09A06q" data-imgid="15airUTxeqMz_09A06q" class="slide">
+                </div>
+                <div id="12_image_1dFOPKho0oyz_0cU05P" data-imgid="1dFOPKho0oyz_0cU05P" class="slide">
+                </div>
+                <div id="13_image_dXaassrGMOWz_03c01P" data-imgid="dXaassrGMOWz_03c01P" class="slide">
+                </div>
+                <div id="14_image_hDxbDRRJHgKz_0cU08a" data-imgid="hDxbDRRJHgKz_0cU08a" class="slide">
+                </div>
+                <div id="15_image_es8CGx5VQnez_0cU0hd" data-imgid="es8CGx5VQnez_0cU0hd" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_jBFCtIEEbgXz_0cU05P" class="thumb" data-imgid="jBFCtIEEbgXz_0cU05P" href="https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_600x450.jpg" title="1"><img src="https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_aZiXNqRhseOz_09w06n" class="thumb" data-imgid="aZiXNqRhseOz_09w06n" href="https://images.craigslist.org/00r0r_aZiXNqRhseOz_09w06n_600x450.jpg" title="2"><img src="https://images.craigslist.org/00r0r_aZiXNqRhseOz_09w06n_50x50c.jpg" alt="2"></a><a id="3_thumb_7GGokqbZwmQz_0cU084" class="thumb" data-imgid="7GGokqbZwmQz_0cU084" href="https://images.craigslist.org/00C0C_7GGokqbZwmQz_0cU084_600x450.jpg" title="3"><img src="https://images.craigslist.org/00C0C_7GGokqbZwmQz_0cU084_50x50c.jpg" alt="3"></a><a id="4_thumb_eU8Pgf5ng74z_0cU05P" class="thumb" data-imgid="eU8Pgf5ng74z_0cU05P" href="https://images.craigslist.org/00i0i_eU8Pgf5ng74z_0cU05P_600x450.jpg" title="4"><img src="https://images.craigslist.org/00i0i_eU8Pgf5ng74z_0cU05P_50x50c.jpg" alt="4"></a><a id="5_thumb_jMuVHfH6MYmz_09x06q" class="thumb" data-imgid="jMuVHfH6MYmz_09x06q" href="https://images.craigslist.org/00b0b_jMuVHfH6MYmz_09x06q_600x450.jpg" title="5"><img src="https://images.craigslist.org/00b0b_jMuVHfH6MYmz_09x06q_50x50c.jpg" alt="5"></a><a id="6_thumb_2KrJwq9ykk8z_09y06j" class="thumb" data-imgid="2KrJwq9ykk8z_09y06j" href="https://images.craigslist.org/00i0i_2KrJwq9ykk8z_09y06j_600x450.jpg" title="6"><img src="https://images.craigslist.org/00i0i_2KrJwq9ykk8z_09y06j_50x50c.jpg" alt="6"></a><a id="7_thumb_4nRnbhnK98lz_09v06i" class="thumb" data-imgid="4nRnbhnK98lz_09v06i" href="https://images.craigslist.org/00808_4nRnbhnK98lz_09v06i_600x450.jpg" title="7"><img src="https://images.craigslist.org/00808_4nRnbhnK98lz_09v06i_50x50c.jpg" alt="7"></a><a id="8_thumb_eXeSAvT5N3jz_03E03B" class="thumb" data-imgid="eXeSAvT5N3jz_03E03B" href="https://images.craigslist.org/00B0B_eXeSAvT5N3jz_03E03B_600x450.jpg" title="8"><img src="https://images.craigslist.org/00B0B_eXeSAvT5N3jz_03E03B_50x50c.jpg" alt="8"></a><a id="9_thumb_4QiEXWsIQTPz_0cU05P" class="thumb" data-imgid="4QiEXWsIQTPz_0cU05P" href="https://images.craigslist.org/01313_4QiEXWsIQTPz_0cU05P_600x450.jpg" title="9"><img src="https://images.craigslist.org/01313_4QiEXWsIQTPz_0cU05P_50x50c.jpg" alt="9"></a><a id="10_thumb_8emW0KD6OIQz_0cU05P" class="thumb" data-imgid="8emW0KD6OIQz_0cU05P" href="https://images.craigslist.org/00p0p_8emW0KD6OIQz_0cU05P_600x450.jpg" title="10"><img src="https://images.craigslist.org/00p0p_8emW0KD6OIQz_0cU05P_50x50c.jpg" alt="10"></a><a id="11_thumb_15airUTxeqMz_09A06q" class="thumb" data-imgid="15airUTxeqMz_09A06q" href="https://images.craigslist.org/00p0p_15airUTxeqMz_09A06q_600x450.jpg" title="11"><img src="https://images.craigslist.org/00p0p_15airUTxeqMz_09A06q_50x50c.jpg" alt="11"></a><a id="12_thumb_1dFOPKho0oyz_0cU05P" class="thumb" data-imgid="1dFOPKho0oyz_0cU05P" href="https://images.craigslist.org/00P0P_1dFOPKho0oyz_0cU05P_600x450.jpg" title="12"><img src="https://images.craigslist.org/00P0P_1dFOPKho0oyz_0cU05P_50x50c.jpg" alt="12"></a><a id="13_thumb_dXaassrGMOWz_03c01P" class="thumb" data-imgid="dXaassrGMOWz_03c01P" href="https://images.craigslist.org/01515_dXaassrGMOWz_03c01P_600x450.jpg" title="13"><img src="https://images.craigslist.org/01515_dXaassrGMOWz_03c01P_50x50c.jpg" alt="13"></a><a id="14_thumb_hDxbDRRJHgKz_0cU08a" class="thumb" data-imgid="hDxbDRRJHgKz_0cU08a" href="https://images.craigslist.org/00O0O_hDxbDRRJHgKz_0cU08a_600x450.jpg" title="14"><img src="https://images.craigslist.org/00O0O_hDxbDRRJHgKz_0cU08a_50x50c.jpg" alt="14"></a><a id="15_thumb_es8CGx5VQnez_0cU0hd" class="thumb" data-imgid="es8CGx5VQnez_0cU0hd" href="https://images.craigslist.org/00404_es8CGx5VQnez_0cU0hd_600x450.jpg" title="15"><img src="https://images.craigslist.org/00404_es8CGx5VQnez_0cU0hd_50x50c.jpg" alt="15"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"jBFCtIEEbgXz_0cU05P","url":"https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_600x450.jpg","thumb":"https://images.craigslist.org/00J0J_jBFCtIEEbgXz_0cU05P_50x50c.jpg","imgid":"3:00J0J_jBFCtIEEbgXz_0cU05P"},{"shortid":"aZiXNqRhseOz_09w06n","url":"https://images.craigslist.org/00r0r_aZiXNqRhseOz_09w06n_600x450.jpg","thumb":"https://images.craigslist.org/00r0r_aZiXNqRhseOz_09w06n_50x50c.jpg","imgid":"3:00r0r_aZiXNqRhseOz_09w06n"},{"shortid":"7GGokqbZwmQz_0cU084","url":"https://images.craigslist.org/00C0C_7GGokqbZwmQz_0cU084_600x450.jpg","thumb":"https://images.craigslist.org/00C0C_7GGokqbZwmQz_0cU084_50x50c.jpg","imgid":"3:00C0C_7GGokqbZwmQz_0cU084"},{"shortid":"eU8Pgf5ng74z_0cU05P","url":"https://images.craigslist.org/00i0i_eU8Pgf5ng74z_0cU05P_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_eU8Pgf5ng74z_0cU05P_50x50c.jpg","imgid":"3:00i0i_eU8Pgf5ng74z_0cU05P"},{"shortid":"jMuVHfH6MYmz_09x06q","url":"https://images.craigslist.org/00b0b_jMuVHfH6MYmz_09x06q_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_jMuVHfH6MYmz_09x06q_50x50c.jpg","imgid":"3:00b0b_jMuVHfH6MYmz_09x06q"},{"shortid":"2KrJwq9ykk8z_09y06j","url":"https://images.craigslist.org/00i0i_2KrJwq9ykk8z_09y06j_600x450.jpg","thumb":"https://images.craigslist.org/00i0i_2KrJwq9ykk8z_09y06j_50x50c.jpg","imgid":"3:00i0i_2KrJwq9ykk8z_09y06j"},{"shortid":"4nRnbhnK98lz_09v06i","url":"https://images.craigslist.org/00808_4nRnbhnK98lz_09v06i_600x450.jpg","thumb":"https://images.craigslist.org/00808_4nRnbhnK98lz_09v06i_50x50c.jpg","imgid":"3:00808_4nRnbhnK98lz_09v06i"},{"shortid":"eXeSAvT5N3jz_03E03B","url":"https://images.craigslist.org/00B0B_eXeSAvT5N3jz_03E03B_600x450.jpg","thumb":"https://images.craigslist.org/00B0B_eXeSAvT5N3jz_03E03B_50x50c.jpg","imgid":"3:00B0B_eXeSAvT5N3jz_03E03B"},{"shortid":"4QiEXWsIQTPz_0cU05P","url":"https://images.craigslist.org/01313_4QiEXWsIQTPz_0cU05P_600x450.jpg","thumb":"https://images.craigslist.org/01313_4QiEXWsIQTPz_0cU05P_50x50c.jpg","imgid":"3:01313_4QiEXWsIQTPz_0cU05P"},{"shortid":"8emW0KD6OIQz_0cU05P","url":"https://images.craigslist.org/00p0p_8emW0KD6OIQz_0cU05P_600x450.jpg","thumb":"https://images.craigslist.org/00p0p_8emW0KD6OIQz_0cU05P_50x50c.jpg","imgid":"3:00p0p_8emW0KD6OIQz_0cU05P"},{"shortid":"15airUTxeqMz_09A06q","url":"https://images.craigslist.org/00p0p_15airUTxeqMz_09A06q_600x450.jpg","thumb":"https://images.craigslist.org/00p0p_15airUTxeqMz_09A06q_50x50c.jpg","imgid":"3:00p0p_15airUTxeqMz_09A06q"},{"shortid":"1dFOPKho0oyz_0cU05P","url":"https://images.craigslist.org/00P0P_1dFOPKho0oyz_0cU05P_600x450.jpg","thumb":"https://images.craigslist.org/00P0P_1dFOPKho0oyz_0cU05P_50x50c.jpg","imgid":"3:00P0P_1dFOPKho0oyz_0cU05P"},{"shortid":"dXaassrGMOWz_03c01P","url":"https://images.craigslist.org/01515_dXaassrGMOWz_03c01P_600x450.jpg","thumb":"https://images.craigslist.org/01515_dXaassrGMOWz_03c01P_50x50c.jpg","imgid":"3:01515_dXaassrGMOWz_03c01P"},{"shortid":"hDxbDRRJHgKz_0cU08a","url":"https://images.craigslist.org/00O0O_hDxbDRRJHgKz_0cU08a_600x450.jpg","thumb":"https://images.craigslist.org/00O0O_hDxbDRRJHgKz_0cU08a_50x50c.jpg","imgid":"3:00O0O_hDxbDRRJHgKz_0cU08a"},{"shortid":"es8CGx5VQnez_0cU0hd","url":"https://images.craigslist.org/00404_es8CGx5VQnez_0cU0hd_600x450.jpg","thumb":"https://images.craigslist.org/00404_es8CGx5VQnez_0cU0hd_50x50c.jpg","imgid":"3:00404_es8CGx5VQnez_0cU0hd"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="38.896290" data-longitude="-94.770736" data-accuracy="5"></div>
+    <div class="mapaddress">15901 W 127th Street near 127th St and Strang Line</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/38.896290,-94.770736">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>576</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-07-15" data-today_msg="available now">available jul 15</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>laundry in bldg</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+
+
+
+            <span>wheelchair accessible</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://kansascity.craigslist.org/apa/d/olathe-pet-friendly-fireplace-patio/7509042752.html"></div>
+        </div>
+Wingfield Club Apartments offers both convenience and value within the thriving city of Olathe. Our residents enjoy the convenience of city living with the comfort and tranquility of a neighborhood community. Wingfield now offers newly renovated apartment homes with upgraded kitchen and fixture packages. Wingfield Club offers nine unique floorplans, patios/balconies, laundry centers, wood burning fireplaces (select floor plans) and secluded courtyards. Come visit us today to see which design best fits your lifestyle.<br>
+<br>
+-On-Site Management<br>
+-Wired for Technology<br>
+-Custom Cabinetry<br>
+-On-site Management<br>
+-Online Payments Available<br>
+-Flexible Lease Terms Available<br>
+-Spacious Clubhouse<br>
+-Platinum Renovation 2 Bedroom<br>
+-Security Camera<br>
+-Stainless Steel Appliances<br>
+-Private Balcony<br>
+-Laundry Center in Each Building<br>
+<br>
+Call:  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/ksc/apa/7509042752/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br>
+<br>
+For more information, visit us at: https://livecohenesrey.com/4mun3mgx/wingfield-club-apartments
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7509042752</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-15T08:50:40-0500">2022-07-15 08:50</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

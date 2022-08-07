@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Academic Rental Westbrook CT - apts/housing for rent - apartment rent">
+	<meta name="description" content="This is an Academic Rental NOT a Year Round lease. The lease runs from Sept. 2022 thru May 2023. The home is fully furnished and there is no storage for furnishings etc other than clothing. *To...">
+	<meta property="og:description" content="This is an Academic Rental NOT a Year Round lease. The lease runs from Sept. 2022 thru May 2023. The home is fully furnished and there is no storage for furnishings etc other than clothing. *To...">
+	<meta property="og:image" content="https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_600x450.jpg">
+	<meta property="og:url" content="https://hartford.craigslist.org/apa/d/westbrook-academic-rental-westbrook-ct/7498875588.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 03-Sep-22 08:05:27 EDT">
+	<meta name="geo.position" content="41.292700;-72.456300">
+	<meta name="ICBM" content="41.292700, -72.456300">
+	<meta name="geo.placename" content="Westbrook">
+	<meta name="geo.region" content="US-CT">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Academic Rental Westbrook CT - apts/housing for rent - apartment rent</title>
+	<link rel="canonical" href="https://hartford.craigslist.org/apa/d/westbrook-academic-rental-westbrook-ct/7498875588.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"hartford.craigslist.org","@id":"https://hartford.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://hartford.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://hartford.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"Academic Rental Westbrook CT","@id":"https://hartford.craigslist.org/apa/d/westbrook-academic-rental-westbrook-ct/7498875588.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"3","longitude":"-72.456300","name":"Academic Rental Westbrook CT","@context":"http://schema.org","latitude":"41.292700","numberOfBathroomsTotal":1,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Westbrook","postalCode":"06498","addressRegion":"CT","@type":"PostalAddress"},"@type":"House","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7498875588,
+repost_of: 7474446532
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">hartford</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/htf">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+hartford            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/htf/apa/7498875588/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-06-20T12:27:20-0400">
+                        2022-06-20 12:27
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,350</span> <span class="housing">/ 3br - 1000ft<sup>2</sup> - </span><span id="titletextonly">Academic Rental Westbrook CT</span><small> (Chapman Beach)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 8</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_1eff1Zrc1Jtz_0hq0d4" data-imgid="1eff1Zrc1Jtz_0hq0d4" class="slide first visible">
+                    <img src="https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_aEN5v4V1adhz_0lM0t2" data-imgid="aEN5v4V1adhz_0lM0t2" class="slide">
+                </div>
+                <div id="3_image_cTyCTIIvfP4z_0hq0d4" data-imgid="cTyCTIIvfP4z_0hq0d4" class="slide">
+                </div>
+                <div id="4_image_bJNeh8fJt4Lz_0hq0d4" data-imgid="bJNeh8fJt4Lz_0hq0d4" class="slide">
+                </div>
+                <div id="5_image_b5T1algKm0Cz_0hq0d4" data-imgid="b5T1algKm0Cz_0hq0d4" class="slide">
+                </div>
+                <div id="6_image_1ZLGHjM2WhHz_0d40hq" data-imgid="1ZLGHjM2WhHz_0d40hq" class="slide">
+                </div>
+                <div id="7_image_8pp3RPssIi5z_0hq0d4" data-imgid="8pp3RPssIi5z_0hq0d4" class="slide">
+                </div>
+                <div id="8_image_5WmMJ8GFA9Gz_0hq0d4" data-imgid="5WmMJ8GFA9Gz_0hq0d4" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_1eff1Zrc1Jtz_0hq0d4" class="thumb" data-imgid="1eff1Zrc1Jtz_0hq0d4" href="https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_600x450.jpg" title="1"><img src="https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_aEN5v4V1adhz_0lM0t2" class="thumb" data-imgid="aEN5v4V1adhz_0lM0t2" href="https://images.craigslist.org/01212_aEN5v4V1adhz_0lM0t2_600x450.jpg" title="2"><img src="https://images.craigslist.org/01212_aEN5v4V1adhz_0lM0t2_50x50c.jpg" alt="2"></a><a id="3_thumb_cTyCTIIvfP4z_0hq0d4" class="thumb" data-imgid="cTyCTIIvfP4z_0hq0d4" href="https://images.craigslist.org/00b0b_cTyCTIIvfP4z_0hq0d4_600x450.jpg" title="3"><img src="https://images.craigslist.org/00b0b_cTyCTIIvfP4z_0hq0d4_50x50c.jpg" alt="3"></a><a id="4_thumb_bJNeh8fJt4Lz_0hq0d4" class="thumb" data-imgid="bJNeh8fJt4Lz_0hq0d4" href="https://images.craigslist.org/00O0O_bJNeh8fJt4Lz_0hq0d4_600x450.jpg" title="4"><img src="https://images.craigslist.org/00O0O_bJNeh8fJt4Lz_0hq0d4_50x50c.jpg" alt="4"></a><a id="5_thumb_b5T1algKm0Cz_0hq0d4" class="thumb" data-imgid="b5T1algKm0Cz_0hq0d4" href="https://images.craigslist.org/00w0w_b5T1algKm0Cz_0hq0d4_600x450.jpg" title="5"><img src="https://images.craigslist.org/00w0w_b5T1algKm0Cz_0hq0d4_50x50c.jpg" alt="5"></a><a id="6_thumb_1ZLGHjM2WhHz_0d40hq" class="thumb" data-imgid="1ZLGHjM2WhHz_0d40hq" href="https://images.craigslist.org/00W0W_1ZLGHjM2WhHz_0d40hq_600x450.jpg" title="6"><img src="https://images.craigslist.org/00W0W_1ZLGHjM2WhHz_0d40hq_50x50c.jpg" alt="6"></a><a id="7_thumb_8pp3RPssIi5z_0hq0d4" class="thumb" data-imgid="8pp3RPssIi5z_0hq0d4" href="https://images.craigslist.org/01111_8pp3RPssIi5z_0hq0d4_600x450.jpg" title="7"><img src="https://images.craigslist.org/01111_8pp3RPssIi5z_0hq0d4_50x50c.jpg" alt="7"></a><a id="8_thumb_5WmMJ8GFA9Gz_0hq0d4" class="thumb" data-imgid="5WmMJ8GFA9Gz_0hq0d4" href="https://images.craigslist.org/00a0a_5WmMJ8GFA9Gz_0hq0d4_600x450.jpg" title="8"><img src="https://images.craigslist.org/00a0a_5WmMJ8GFA9Gz_0hq0d4_50x50c.jpg" alt="8"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"1eff1Zrc1Jtz_0hq0d4","url":"https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/00a0a_1eff1Zrc1Jtz_0hq0d4_50x50c.jpg","imgid":"3:00a0a_1eff1Zrc1Jtz_0hq0d4"},{"shortid":"aEN5v4V1adhz_0lM0t2","url":"https://images.craigslist.org/01212_aEN5v4V1adhz_0lM0t2_600x450.jpg","thumb":"https://images.craigslist.org/01212_aEN5v4V1adhz_0lM0t2_50x50c.jpg","imgid":"3:01212_aEN5v4V1adhz_0lM0t2"},{"shortid":"cTyCTIIvfP4z_0hq0d4","url":"https://images.craigslist.org/00b0b_cTyCTIIvfP4z_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_cTyCTIIvfP4z_0hq0d4_50x50c.jpg","imgid":"3:00b0b_cTyCTIIvfP4z_0hq0d4"},{"shortid":"bJNeh8fJt4Lz_0hq0d4","url":"https://images.craigslist.org/00O0O_bJNeh8fJt4Lz_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/00O0O_bJNeh8fJt4Lz_0hq0d4_50x50c.jpg","imgid":"3:00O0O_bJNeh8fJt4Lz_0hq0d4"},{"shortid":"b5T1algKm0Cz_0hq0d4","url":"https://images.craigslist.org/00w0w_b5T1algKm0Cz_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/00w0w_b5T1algKm0Cz_0hq0d4_50x50c.jpg","imgid":"3:00w0w_b5T1algKm0Cz_0hq0d4"},{"shortid":"1ZLGHjM2WhHz_0d40hq","url":"https://images.craigslist.org/00W0W_1ZLGHjM2WhHz_0d40hq_600x450.jpg","thumb":"https://images.craigslist.org/00W0W_1ZLGHjM2WhHz_0d40hq_50x50c.jpg","imgid":"3:00W0W_1ZLGHjM2WhHz_0d40hq"},{"shortid":"8pp3RPssIi5z_0hq0d4","url":"https://images.craigslist.org/01111_8pp3RPssIi5z_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/01111_8pp3RPssIi5z_0hq0d4_50x50c.jpg","imgid":"3:01111_8pp3RPssIi5z_0hq0d4"},{"shortid":"5WmMJ8GFA9Gz_0hq0d4","url":"https://images.craigslist.org/00a0a_5WmMJ8GFA9Gz_0hq0d4_600x450.jpg","thumb":"https://images.craigslist.org/00a0a_5WmMJ8GFA9Gz_0hq0d4_50x50c.jpg","imgid":"3:00a0a_5WmMJ8GFA9Gz_0hq0d4"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="41.292700" data-longitude="-72.456300" data-accuracy="22"></div>
+    
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>3BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>1000</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>furnished</span>
+            <br>
+
+
+
+
+            <span>house</span>
+            <br>
+
+
+
+
+            <span>no laundry on site</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://hartford.craigslist.org/apa/d/westbrook-academic-rental-westbrook-ct/7498875588.html"></div>
+        </div>
+This is an Academic Rental NOT a Year Round lease. The lease runs from Sept. 2022 thru May 2023.<br>
+The home is fully furnished and there is no storage for furnishings etc other than clothing.<br>
+*To receive a response Please Include Contact Number With Inquiry *<br>
+Tenant pays utilities - Wifi, propane heat..<br>
+Owner pays metered water, lawn and yard maintenance.<br>
+<br>
+Charming shoreline beach house available for Academic Rental only (Not available for year round rental).<br>
+Sept. 2022 thru May/June 2023<br>
+This lovely home is located just a short 3 minute stroll to the private beach community of Chapman Beach in Westbrook CT (on the Old Saybrook border).<br>
+<br>
+This FULLY Furnished (only available as fully furnished) cozy year round beach home has three bedrooms - 2 queen beds, one of which is a memory foam mattress and 1 full sized bed in the other. The M/Bdrm has a large flat screened tv.<br>
+Mattresses are encased in zippered covers.<br>
+The living room has a comfy couch, chairs, and a large flat screen t.v.<br>
+The kitchen is well-equipped with every gadget you could need and a generous assortment of pots, pans and bake ware. Located off the kitchen is a cheery 3 season porch. Comfy furniture make this the perfect spot to curl up with a good book or relax with friends for coffee and conversation.<br>
+The grassy back yard is spacious and inviting and has a picnic table, outdoor chairs and a gas grill. There is hot and cold running water in the spacious outside shower.<br>
+The neighborhood is perfect for leisurely afternoon walks and bike riding.<br>
+A long stretch of private sandy beach is just a short 3 minute stroll away.<br>
+Easy access to I-95 and Rte 9, Westbrook and Old Saybrook Train Stations<br>
+Saybrook Center Boutiques and "The Kate", Boston Post Road shops and a variety of Ethnic Restaurants, Westbook and Clinton Shopping Outlets and The Casinos<br>
+Watch Hill, Rhode Island and it's infamous oldest running Carousel are just a 45 minute drive away.<br>
+The area is quiet and calming yet quickly accessible to many restaurants and entertainment.<br>
+No Pets<br>
+No Smoking, Vaping Etc.<br>
+* TO RECEIVE A REPLY PLEASE INCLUDE A CONTACT NUMBER WITH YOUR INQUIRY.<br>
+<br>
+REVIEWS BELOW:<br>
+<br>
+A peaceful, charming beach cottage with the beauty of the beach year round! This beach house is located in a family friendly neighborhood. The home is clean, updated and move in ready. A large backyard and a stone’s throw from the beach, Chapman Beach has it all.<br>
+K. Academic Renter<br>
+<br>
+<br>
+Stay Aug.1 thru 31, 2020<br>
+This 3-bedroom cottage is adorable and roomy. The furnishings are perfect for a cottage and the decorations are beach themed. The kitchen is well-equipped, and the beds are extremely comfortable.<br>
+It is well-ventilated with many windows to catch the sea breeze. Each room has a ceiling fan which will also keep you comfortable and cool.<br>
+There is outdoor seating in both the front and back yards and an inviting enclosed porch which is perfect for a rainy day.<br>
+There are many free movies available on the T.V. and, of course, there is Wi-Fi. Although, quite honestly, this is the perfect cottage to unplug and totally relax. There are so many beach communities nearby where you can just walk or bike to from the cottage and enjoy the views of the sound.<br>
+My family enjoyed our one-month stay, especially as the cottage is such a short walk to beach.<br>
+Pat G. and family<br>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7498875588</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-06-20T12:27:20-0400">2022-06-20 12:27</time></p>
+
+                <p class="postinginfo reveal">updated: <time class="date timeago" datetime="2022-07-20T08:00:27-0400">2022-07-20 08:00</time></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
