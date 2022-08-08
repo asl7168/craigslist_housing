@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="A place for all your things! Great closets, plenty of cabinet space....">
+	<meta name="description" content="1 Bedroom 1 Bathroom | 732 - 742 sq ft | $1950/Month IMT Germantown 1100 3rd Ave N Nashville, TN 37208 Description: **Walk-ins welcome &amp;amp; choose from 3 tour options.** Where you lay your head...">
+	<meta property="og:description" content="1 Bedroom 1 Bathroom | 732 - 742 sq ft | $1950/Month IMT Germantown 1100 3rd Ave N Nashville, TN 37208 Description: **Walk-ins welcome &amp;amp; choose from 3 tour options.** Where you lay your head...">
+	<meta property="og:image" content="https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_600x450.jpg">
+	<meta property="og:url" content="https://nashville.craigslist.org/apa/d/nashville-place-for-all-your-things/7514787028.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 12-Sep-22 09:43:01 CDT">
+	<meta name="geo.position" content="36.175110;-86.784672">
+	<meta name="ICBM" content="36.175110, -86.784672">
+	<meta name="geo.placename" content="Nashville">
+	<meta name="geo.region" content="US-TN">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>A place for all your things! Great closets, plenty of cabinet space....</title>
+	<link rel="canonical" href="https://nashville.craigslist.org/apa/d/nashville-place-for-all-your-things/7514787028.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"nashville.craigslist.org","@id":"https://nashville.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://nashville.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://nashville.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"A place for all your things! Great closets, plenty of cabinet space.","@id":"https://nashville.craigslist.org/apa/d/nashville-place-for-all-your-things/7514787028.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"1","longitude":"-86.784672","name":"A place for all your things! Great closets, plenty of cabinet space.","@context":"http://schema.org","latitude":"36.175110","numberOfBathroomsTotal":1,"address":{"streetAddress":"1100 3rd Ave N","addressCountry":"US","addressLocality":"Nashville","postalCode":"37219","addressRegion":"TN","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment","smokingAllowed":false}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7514787028
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">nashville</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/nsh">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+nashville            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/nsh/apa/7514787028/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-29T09:39:01-0500">
+                        2022-07-29 09:39
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,950</span> <span class="housing">/ 1br - 732ft<sup>2</sup> - </span><span id="titletextonly">A place for all your things! Great closets, plenty of cabinet space.</span><small> (Downtown Germantown)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 23</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_3GoDUD3xoCnz_0jm0cU" data-imgid="3GoDUD3xoCnz_0jm0cU" class="slide first visible">
+                    <img src="https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_kpJ4zyqiYvzz_0jE0eD" data-imgid="kpJ4zyqiYvzz_0jE0eD" class="slide">
+                </div>
+                <div id="3_image_8TtYWfHbyrSz_0jm0cU" data-imgid="8TtYWfHbyrSz_0jm0cU" class="slide">
+                </div>
+                <div id="4_image_SEreuVtvypz_0jm0cU" data-imgid="SEreuVtvypz_0jm0cU" class="slide">
+                </div>
+                <div id="5_image_k2hB1wEcqd4z_0jm0cU" data-imgid="k2hB1wEcqd4z_0jm0cU" class="slide">
+                </div>
+                <div id="6_image_cfOIkAS4u4Xz_0jm0cU" data-imgid="cfOIkAS4u4Xz_0jm0cU" class="slide">
+                </div>
+                <div id="7_image_5ELVeRw43eiz_0pO0he" data-imgid="5ELVeRw43eiz_0pO0he" class="slide">
+                </div>
+                <div id="8_image_44Hs2iE3sZfz_0jm0cT" data-imgid="44Hs2iE3sZfz_0jm0cT" class="slide">
+                </div>
+                <div id="9_image_fgSPK2hzRYMz_0jm0cT" data-imgid="fgSPK2hzRYMz_0jm0cT" class="slide">
+                </div>
+                <div id="10_image_9KU6jdQSwsez_0pO0he" data-imgid="9KU6jdQSwsez_0pO0he" class="slide">
+                </div>
+                <div id="11_image_1XUmAc9YO2Wz_0jm0cT" data-imgid="1XUmAc9YO2Wz_0jm0cT" class="slide">
+                </div>
+                <div id="12_image_7sl8o8Wv4MWz_0jm0cU" data-imgid="7sl8o8Wv4MWz_0jm0cU" class="slide">
+                </div>
+                <div id="13_image_hVqBSTI0KMLz_0pO0he" data-imgid="hVqBSTI0KMLz_0pO0he" class="slide">
+                </div>
+                <div id="14_image_hp8nSxfF3xLz_0jm0cU" data-imgid="hp8nSxfF3xLz_0jm0cU" class="slide">
+                </div>
+                <div id="15_image_l3YI9012JwTz_0jm0cU" data-imgid="l3YI9012JwTz_0jm0cU" class="slide">
+                </div>
+                <div id="16_image_cU7oCtcvbHCz_0pO0he" data-imgid="cU7oCtcvbHCz_0pO0he" class="slide">
+                </div>
+                <div id="17_image_783MITR4grlz_0jm0cU" data-imgid="783MITR4grlz_0jm0cU" class="slide">
+                </div>
+                <div id="18_image_iv8HzyHP4Xdz_0jm0cU" data-imgid="iv8HzyHP4Xdz_0jm0cU" class="slide">
+                </div>
+                <div id="19_image_iNkAq1z59AMz_0pO0he" data-imgid="iNkAq1z59AMz_0pO0he" class="slide">
+                </div>
+                <div id="20_image_cl6IEGg3dVzz_0jm0cU" data-imgid="cl6IEGg3dVzz_0jm0cU" class="slide">
+                </div>
+                <div id="21_image_l3wtr6okhPoz_0jm0cU" data-imgid="l3wtr6okhPoz_0jm0cU" class="slide">
+                </div>
+                <div id="22_image_kzfcChq7UWuz_0jm0cU" data-imgid="kzfcChq7UWuz_0jm0cU" class="slide">
+                </div>
+                <div id="23_image_janmCSql6Svz_0wg0gN" data-imgid="janmCSql6Svz_0wg0gN" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_3GoDUD3xoCnz_0jm0cU" class="thumb" data-imgid="3GoDUD3xoCnz_0jm0cU" href="https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_600x450.jpg" title="1"><img src="https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_kpJ4zyqiYvzz_0jE0eD" class="thumb" data-imgid="kpJ4zyqiYvzz_0jE0eD" href="https://images.craigslist.org/00b0b_kpJ4zyqiYvzz_0jE0eD_600x450.jpg" title="2"><img src="https://images.craigslist.org/00b0b_kpJ4zyqiYvzz_0jE0eD_50x50c.jpg" alt="2"></a><a id="3_thumb_8TtYWfHbyrSz_0jm0cU" class="thumb" data-imgid="8TtYWfHbyrSz_0jm0cU" href="https://images.craigslist.org/01616_8TtYWfHbyrSz_0jm0cU_600x450.jpg" title="3"><img src="https://images.craigslist.org/01616_8TtYWfHbyrSz_0jm0cU_50x50c.jpg" alt="3"></a><a id="4_thumb_SEreuVtvypz_0jm0cU" class="thumb" data-imgid="SEreuVtvypz_0jm0cU" href="https://images.craigslist.org/00C0C_SEreuVtvypz_0jm0cU_600x450.jpg" title="4"><img src="https://images.craigslist.org/00C0C_SEreuVtvypz_0jm0cU_50x50c.jpg" alt="4"></a><a id="5_thumb_k2hB1wEcqd4z_0jm0cU" class="thumb" data-imgid="k2hB1wEcqd4z_0jm0cU" href="https://images.craigslist.org/00T0T_k2hB1wEcqd4z_0jm0cU_600x450.jpg" title="5"><img src="https://images.craigslist.org/00T0T_k2hB1wEcqd4z_0jm0cU_50x50c.jpg" alt="5"></a><a id="6_thumb_cfOIkAS4u4Xz_0jm0cU" class="thumb" data-imgid="cfOIkAS4u4Xz_0jm0cU" href="https://images.craigslist.org/00000_cfOIkAS4u4Xz_0jm0cU_600x450.jpg" title="6"><img src="https://images.craigslist.org/00000_cfOIkAS4u4Xz_0jm0cU_50x50c.jpg" alt="6"></a><a id="7_thumb_5ELVeRw43eiz_0pO0he" class="thumb" data-imgid="5ELVeRw43eiz_0pO0he" href="https://images.craigslist.org/00606_5ELVeRw43eiz_0pO0he_600x450.jpg" title="7"><img src="https://images.craigslist.org/00606_5ELVeRw43eiz_0pO0he_50x50c.jpg" alt="7"></a><a id="8_thumb_44Hs2iE3sZfz_0jm0cT" class="thumb" data-imgid="44Hs2iE3sZfz_0jm0cT" href="https://images.craigslist.org/00W0W_44Hs2iE3sZfz_0jm0cT_600x450.jpg" title="8"><img src="https://images.craigslist.org/00W0W_44Hs2iE3sZfz_0jm0cT_50x50c.jpg" alt="8"></a><a id="9_thumb_fgSPK2hzRYMz_0jm0cT" class="thumb" data-imgid="fgSPK2hzRYMz_0jm0cT" href="https://images.craigslist.org/00P0P_fgSPK2hzRYMz_0jm0cT_600x450.jpg" title="9"><img src="https://images.craigslist.org/00P0P_fgSPK2hzRYMz_0jm0cT_50x50c.jpg" alt="9"></a><a id="10_thumb_9KU6jdQSwsez_0pO0he" class="thumb" data-imgid="9KU6jdQSwsez_0pO0he" href="https://images.craigslist.org/00B0B_9KU6jdQSwsez_0pO0he_600x450.jpg" title="10"><img src="https://images.craigslist.org/00B0B_9KU6jdQSwsez_0pO0he_50x50c.jpg" alt="10"></a><a id="11_thumb_1XUmAc9YO2Wz_0jm0cT" class="thumb" data-imgid="1XUmAc9YO2Wz_0jm0cT" href="https://images.craigslist.org/00S0S_1XUmAc9YO2Wz_0jm0cT_600x450.jpg" title="11"><img src="https://images.craigslist.org/00S0S_1XUmAc9YO2Wz_0jm0cT_50x50c.jpg" alt="11"></a><a id="12_thumb_7sl8o8Wv4MWz_0jm0cU" class="thumb" data-imgid="7sl8o8Wv4MWz_0jm0cU" href="https://images.craigslist.org/00J0J_7sl8o8Wv4MWz_0jm0cU_600x450.jpg" title="12"><img src="https://images.craigslist.org/00J0J_7sl8o8Wv4MWz_0jm0cU_50x50c.jpg" alt="12"></a><a id="13_thumb_hVqBSTI0KMLz_0pO0he" class="thumb" data-imgid="hVqBSTI0KMLz_0pO0he" href="https://images.craigslist.org/00d0d_hVqBSTI0KMLz_0pO0he_600x450.jpg" title="13"><img src="https://images.craigslist.org/00d0d_hVqBSTI0KMLz_0pO0he_50x50c.jpg" alt="13"></a><a id="14_thumb_hp8nSxfF3xLz_0jm0cU" class="thumb" data-imgid="hp8nSxfF3xLz_0jm0cU" href="https://images.craigslist.org/00Y0Y_hp8nSxfF3xLz_0jm0cU_600x450.jpg" title="14"><img src="https://images.craigslist.org/00Y0Y_hp8nSxfF3xLz_0jm0cU_50x50c.jpg" alt="14"></a><a id="15_thumb_l3YI9012JwTz_0jm0cU" class="thumb" data-imgid="l3YI9012JwTz_0jm0cU" href="https://images.craigslist.org/00Y0Y_l3YI9012JwTz_0jm0cU_600x450.jpg" title="15"><img src="https://images.craigslist.org/00Y0Y_l3YI9012JwTz_0jm0cU_50x50c.jpg" alt="15"></a><a id="16_thumb_cU7oCtcvbHCz_0pO0he" class="thumb" data-imgid="cU7oCtcvbHCz_0pO0he" href="https://images.craigslist.org/00303_cU7oCtcvbHCz_0pO0he_600x450.jpg" title="16"><img src="https://images.craigslist.org/00303_cU7oCtcvbHCz_0pO0he_50x50c.jpg" alt="16"></a><a id="17_thumb_783MITR4grlz_0jm0cU" class="thumb" data-imgid="783MITR4grlz_0jm0cU" href="https://images.craigslist.org/00h0h_783MITR4grlz_0jm0cU_600x450.jpg" title="17"><img src="https://images.craigslist.org/00h0h_783MITR4grlz_0jm0cU_50x50c.jpg" alt="17"></a><a id="18_thumb_iv8HzyHP4Xdz_0jm0cU" class="thumb" data-imgid="iv8HzyHP4Xdz_0jm0cU" href="https://images.craigslist.org/00U0U_iv8HzyHP4Xdz_0jm0cU_600x450.jpg" title="18"><img src="https://images.craigslist.org/00U0U_iv8HzyHP4Xdz_0jm0cU_50x50c.jpg" alt="18"></a><a id="19_thumb_iNkAq1z59AMz_0pO0he" class="thumb" data-imgid="iNkAq1z59AMz_0pO0he" href="https://images.craigslist.org/00909_iNkAq1z59AMz_0pO0he_600x450.jpg" title="19"><img src="https://images.craigslist.org/00909_iNkAq1z59AMz_0pO0he_50x50c.jpg" alt="19"></a><a id="20_thumb_cl6IEGg3dVzz_0jm0cU" class="thumb" data-imgid="cl6IEGg3dVzz_0jm0cU" href="https://images.craigslist.org/00p0p_cl6IEGg3dVzz_0jm0cU_600x450.jpg" title="20"><img src="https://images.craigslist.org/00p0p_cl6IEGg3dVzz_0jm0cU_50x50c.jpg" alt="20"></a><a id="21_thumb_l3wtr6okhPoz_0jm0cU" class="thumb" data-imgid="l3wtr6okhPoz_0jm0cU" href="https://images.craigslist.org/00m0m_l3wtr6okhPoz_0jm0cU_600x450.jpg" title="21"><img src="https://images.craigslist.org/00m0m_l3wtr6okhPoz_0jm0cU_50x50c.jpg" alt="21"></a><a id="22_thumb_kzfcChq7UWuz_0jm0cU" class="thumb" data-imgid="kzfcChq7UWuz_0jm0cU" href="https://images.craigslist.org/00R0R_kzfcChq7UWuz_0jm0cU_600x450.jpg" title="22"><img src="https://images.craigslist.org/00R0R_kzfcChq7UWuz_0jm0cU_50x50c.jpg" alt="22"></a><a id="23_thumb_janmCSql6Svz_0wg0gN" class="thumb" data-imgid="janmCSql6Svz_0wg0gN" href="https://images.craigslist.org/00w0w_janmCSql6Svz_0wg0gN_600x450.jpg" title="23"><img src="https://images.craigslist.org/00w0w_janmCSql6Svz_0wg0gN_50x50c.jpg" alt="23"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"3GoDUD3xoCnz_0jm0cU","url":"https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00404_3GoDUD3xoCnz_0jm0cU_50x50c.jpg","imgid":"3:00404_3GoDUD3xoCnz_0jm0cU"},{"shortid":"kpJ4zyqiYvzz_0jE0eD","url":"https://images.craigslist.org/00b0b_kpJ4zyqiYvzz_0jE0eD_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_kpJ4zyqiYvzz_0jE0eD_50x50c.jpg","imgid":"3:00b0b_kpJ4zyqiYvzz_0jE0eD"},{"shortid":"8TtYWfHbyrSz_0jm0cU","url":"https://images.craigslist.org/01616_8TtYWfHbyrSz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/01616_8TtYWfHbyrSz_0jm0cU_50x50c.jpg","imgid":"3:01616_8TtYWfHbyrSz_0jm0cU"},{"shortid":"SEreuVtvypz_0jm0cU","url":"https://images.craigslist.org/00C0C_SEreuVtvypz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00C0C_SEreuVtvypz_0jm0cU_50x50c.jpg","imgid":"3:00C0C_SEreuVtvypz_0jm0cU"},{"shortid":"k2hB1wEcqd4z_0jm0cU","url":"https://images.craigslist.org/00T0T_k2hB1wEcqd4z_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00T0T_k2hB1wEcqd4z_0jm0cU_50x50c.jpg","imgid":"3:00T0T_k2hB1wEcqd4z_0jm0cU"},{"shortid":"cfOIkAS4u4Xz_0jm0cU","url":"https://images.craigslist.org/00000_cfOIkAS4u4Xz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00000_cfOIkAS4u4Xz_0jm0cU_50x50c.jpg","imgid":"3:00000_cfOIkAS4u4Xz_0jm0cU"},{"shortid":"5ELVeRw43eiz_0pO0he","url":"https://images.craigslist.org/00606_5ELVeRw43eiz_0pO0he_600x450.jpg","thumb":"https://images.craigslist.org/00606_5ELVeRw43eiz_0pO0he_50x50c.jpg","imgid":"3:00606_5ELVeRw43eiz_0pO0he"},{"shortid":"44Hs2iE3sZfz_0jm0cT","url":"https://images.craigslist.org/00W0W_44Hs2iE3sZfz_0jm0cT_600x450.jpg","thumb":"https://images.craigslist.org/00W0W_44Hs2iE3sZfz_0jm0cT_50x50c.jpg","imgid":"3:00W0W_44Hs2iE3sZfz_0jm0cT"},{"shortid":"fgSPK2hzRYMz_0jm0cT","url":"https://images.craigslist.org/00P0P_fgSPK2hzRYMz_0jm0cT_600x450.jpg","thumb":"https://images.craigslist.org/00P0P_fgSPK2hzRYMz_0jm0cT_50x50c.jpg","imgid":"3:00P0P_fgSPK2hzRYMz_0jm0cT"},{"shortid":"9KU6jdQSwsez_0pO0he","url":"https://images.craigslist.org/00B0B_9KU6jdQSwsez_0pO0he_600x450.jpg","thumb":"https://images.craigslist.org/00B0B_9KU6jdQSwsez_0pO0he_50x50c.jpg","imgid":"3:00B0B_9KU6jdQSwsez_0pO0he"},{"shortid":"1XUmAc9YO2Wz_0jm0cT","url":"https://images.craigslist.org/00S0S_1XUmAc9YO2Wz_0jm0cT_600x450.jpg","thumb":"https://images.craigslist.org/00S0S_1XUmAc9YO2Wz_0jm0cT_50x50c.jpg","imgid":"3:00S0S_1XUmAc9YO2Wz_0jm0cT"},{"shortid":"7sl8o8Wv4MWz_0jm0cU","url":"https://images.craigslist.org/00J0J_7sl8o8Wv4MWz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00J0J_7sl8o8Wv4MWz_0jm0cU_50x50c.jpg","imgid":"3:00J0J_7sl8o8Wv4MWz_0jm0cU"},{"shortid":"hVqBSTI0KMLz_0pO0he","url":"https://images.craigslist.org/00d0d_hVqBSTI0KMLz_0pO0he_600x450.jpg","thumb":"https://images.craigslist.org/00d0d_hVqBSTI0KMLz_0pO0he_50x50c.jpg","imgid":"3:00d0d_hVqBSTI0KMLz_0pO0he"},{"shortid":"hp8nSxfF3xLz_0jm0cU","url":"https://images.craigslist.org/00Y0Y_hp8nSxfF3xLz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00Y0Y_hp8nSxfF3xLz_0jm0cU_50x50c.jpg","imgid":"3:00Y0Y_hp8nSxfF3xLz_0jm0cU"},{"shortid":"l3YI9012JwTz_0jm0cU","url":"https://images.craigslist.org/00Y0Y_l3YI9012JwTz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00Y0Y_l3YI9012JwTz_0jm0cU_50x50c.jpg","imgid":"3:00Y0Y_l3YI9012JwTz_0jm0cU"},{"shortid":"cU7oCtcvbHCz_0pO0he","url":"https://images.craigslist.org/00303_cU7oCtcvbHCz_0pO0he_600x450.jpg","thumb":"https://images.craigslist.org/00303_cU7oCtcvbHCz_0pO0he_50x50c.jpg","imgid":"3:00303_cU7oCtcvbHCz_0pO0he"},{"shortid":"783MITR4grlz_0jm0cU","url":"https://images.craigslist.org/00h0h_783MITR4grlz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00h0h_783MITR4grlz_0jm0cU_50x50c.jpg","imgid":"3:00h0h_783MITR4grlz_0jm0cU"},{"shortid":"iv8HzyHP4Xdz_0jm0cU","url":"https://images.craigslist.org/00U0U_iv8HzyHP4Xdz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00U0U_iv8HzyHP4Xdz_0jm0cU_50x50c.jpg","imgid":"3:00U0U_iv8HzyHP4Xdz_0jm0cU"},{"shortid":"iNkAq1z59AMz_0pO0he","url":"https://images.craigslist.org/00909_iNkAq1z59AMz_0pO0he_600x450.jpg","thumb":"https://images.craigslist.org/00909_iNkAq1z59AMz_0pO0he_50x50c.jpg","imgid":"3:00909_iNkAq1z59AMz_0pO0he"},{"shortid":"cl6IEGg3dVzz_0jm0cU","url":"https://images.craigslist.org/00p0p_cl6IEGg3dVzz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00p0p_cl6IEGg3dVzz_0jm0cU_50x50c.jpg","imgid":"3:00p0p_cl6IEGg3dVzz_0jm0cU"},{"shortid":"l3wtr6okhPoz_0jm0cU","url":"https://images.craigslist.org/00m0m_l3wtr6okhPoz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00m0m_l3wtr6okhPoz_0jm0cU_50x50c.jpg","imgid":"3:00m0m_l3wtr6okhPoz_0jm0cU"},{"shortid":"kzfcChq7UWuz_0jm0cU","url":"https://images.craigslist.org/00R0R_kzfcChq7UWuz_0jm0cU_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_kzfcChq7UWuz_0jm0cU_50x50c.jpg","imgid":"3:00R0R_kzfcChq7UWuz_0jm0cU"},{"shortid":"janmCSql6Svz_0wg0gN","url":"https://images.craigslist.org/00w0w_janmCSql6Svz_0wg0gN_600x450.jpg","thumb":"https://images.craigslist.org/00w0w_janmCSql6Svz_0wg0gN_50x50c.jpg","imgid":"3:00w0w_janmCSql6Svz_0wg0gN"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="36.175110" data-longitude="-86.784672" data-accuracy="10"></div>
+    <div class="mapaddress">1100 3rd Ave N</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/36.175110,-86.784672">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>732</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>EV charging</span>
+            <br>
+
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>no smoking</span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+
+
+
+            <span>wheelchair accessible</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://nashville.craigslist.org/apa/d/nashville-place-for-all-your-things/7514787028.html"></div>
+        </div>
+<b>1 Bedroom  1 Bathroom | 732 - 742 sq ft | $1950/Month</b> <br><br><b>IMT Germantown</b><br>1100 3rd Ave N<br> Nashville, TN 37208<br> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/nsh/apa/7514787028/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br><br><b>Description:</b><br> <b>**Walk-ins welcome &amp; choose from 3 tour options.**</b> <br> <br>Where you lay your head should be more than an address. It should be an extension of your world. Vibrant. Energetic. Authentic. Welcoming relaxation. Embracing creativity. It should be a conduit for making connections. A tight-knit community of professionals, musicians and techies. IMT Germantown is the place to be, not just a place to live. Experience luxury apartment living for yourself and Live Soulfully.<br><br> <b>Apartment Amenities:</b><br>− Built-In Bookshelves<br>− Custom Cabinetry<br>− Elegant Baths with Porcelain Tile &amp; Frameless Glass Showers in Select Homes<br>− Elegant Culinary Kitchens<br>− Fully Equipped Kitchen Quartz Countertops<br>− In-Home Washer/Dryer<br>− Island Kitchen<br>− Spacious Walk-In Closets<br>− Stainless Steel Appliances<br>− Wood-Style Flooring in Kitchen &amp; Living Areas<br><br><b>Our Residents Enjoy:</b><br>− Business Center<br>− Complimentary Bike-Share Program<br>− Covered Parking<br>− Dry Cleaning Service<br>− Energy Star Certified<br>− Meeting Spaces &amp; Conference Room<br>− Nine-Screen Media Wall<br>− Planned Social Activities<br>− Renters Insurance Program<br>− Songwriter's Room<br>− 24-Hour Electronic Package Pick-Up Service<br>− Business Center with Coffee Bar<br>− Dog-Friendly Homes with Fenced Courtyards<br>− Fully Equipped Fitness Center<br>− High Walkability to Shops, Dining &amp; Entertainment<br>− IMT Active Featuring Peloton™<br>− IMT Active with Cardio &amp; Weight Training Equipment<br>− Resort-Style Salt Water Pool with Expansive Lounge Deck<br>− Rooftop Sky Lounge Entertainment Venue<br>− Walk to a Baseball Game &amp; Local Restaurants<br><br><b>Additional Details:</b><br>Deposit: Call<br>Terms: 12-Month<br>Pets: No weight restriction. Some breed restrictions apply. Please call our Leasing Center for complete Pet Policy information.<br><br><b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/nsh/apa/7514787028/__SERVICE_ID__" rel="nofollow">show contact info</a>
+</b><br><br><b>Website: </b><u>https://liveimt.com/imtGermantownCraigslist</u><br><br><br><br><br>EQUAL HOUSING OPPORTUNITY<br><br><br><br>F6687DAF938B4C5
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7514787028</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-29T09:39:01-0500">2022-07-29 09:39</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

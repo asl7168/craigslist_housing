@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="2 bedroom and 2 bathroom - apts/housing for rent - apartment rent">
+	<meta name="description" content="2 BRs AND 2 BATHS. NEW VINYL SIDING INSTALLED IN 2022, NEW ROOF INSTALLED IN 2021, NEW HOT WATER HEATER INSTALLED IN 2021. UPDATED KITCHEN AND BATHROOMS. PRIVACY FENCED PATIO. CONDO FEE COVERS WATER...">
+	<meta property="og:description" content="2 BRs AND 2 BATHS. NEW VINYL SIDING INSTALLED IN 2022, NEW ROOF INSTALLED IN 2021, NEW HOT WATER HEATER INSTALLED IN 2021. UPDATED KITCHEN AND BATHROOMS. PRIVACY FENCED PATIO. CONDO FEE COVERS WATER...">
+	<meta property="og:image" content="https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_600x450.jpg">
+	<meta property="og:url" content="https://norfolk.craigslist.org/apa/d/virginia-beach-bedroom-and-bathroom/7513900186.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 10-Sep-22 06:47:21 EDT">
+	<meta name="geo.position" content="36.789738;-76.186924">
+	<meta name="ICBM" content="36.789738, -76.186924">
+	<meta name="geo.placename" content="Virginia Beach">
+	<meta name="geo.region" content="US-VA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>2 bedroom and 2 bathroom - apts/housing for rent - apartment rent</title>
+	<link rel="canonical" href="https://norfolk.craigslist.org/apa/d/virginia-beach-bedroom-and-bathroom/7513900186.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"norfolk.craigslist.org","@id":"https://norfolk.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://norfolk.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://norfolk.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"2 bedroom and 2 bathroom","@id":"https://norfolk.craigslist.org/apa/d/virginia-beach-bedroom-and-bathroom/7513900186.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"2","longitude":"-76.186924","name":"2 bedroom and 2 bathroom","@context":"http://schema.org","latitude":"36.789738","numberOfBathroomsTotal":2,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Virginia Beach","postalCode":"23463","addressRegion":"VA","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7513900186
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">norfolk</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/nfk">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+norfolk            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/nfk/apa/7513900186/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-27T06:30:21-0400">
+                        2022-07-27 06:30
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$900</span> <span class="housing">/ 2br - 900ft<sup>2</sup> - </span><span id="titletextonly">2 bedroom and 2 bathroom</span>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 4</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_h2CldZc7R23z_0eS0b8" data-imgid="h2CldZc7R23z_0eS0b8" class="slide first visible">
+                    <img src="https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_kfebHdHS0SLz_06c04E" data-imgid="kfebHdHS0SLz_06c04E" class="slide">
+                </div>
+                <div id="3_image_6coiDQCviCMz_06c04E" data-imgid="6coiDQCviCMz_06c04E" class="slide">
+                </div>
+                <div id="4_image_f0a9TnbzgI4z_06c04E" data-imgid="f0a9TnbzgI4z_06c04E" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_h2CldZc7R23z_0eS0b8" class="thumb" data-imgid="h2CldZc7R23z_0eS0b8" href="https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_600x450.jpg" title="1"><img src="https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_kfebHdHS0SLz_06c04E" class="thumb" data-imgid="kfebHdHS0SLz_06c04E" href="https://images.craigslist.org/00X0X_kfebHdHS0SLz_06c04E_600x450.jpg" title="2"><img src="https://images.craigslist.org/00X0X_kfebHdHS0SLz_06c04E_50x50c.jpg" alt="2"></a><a id="3_thumb_6coiDQCviCMz_06c04E" class="thumb" data-imgid="6coiDQCviCMz_06c04E" href="https://images.craigslist.org/00101_6coiDQCviCMz_06c04E_600x450.jpg" title="3"><img src="https://images.craigslist.org/00101_6coiDQCviCMz_06c04E_50x50c.jpg" alt="3"></a><a id="4_thumb_f0a9TnbzgI4z_06c04E" class="thumb" data-imgid="f0a9TnbzgI4z_06c04E" href="https://images.craigslist.org/00A0A_f0a9TnbzgI4z_06c04E_600x450.jpg" title="4"><img src="https://images.craigslist.org/00A0A_f0a9TnbzgI4z_06c04E_50x50c.jpg" alt="4"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"h2CldZc7R23z_0eS0b8","url":"https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_600x450.jpg","thumb":"https://images.craigslist.org/00Z0Z_h2CldZc7R23z_0eS0b8_50x50c.jpg","imgid":"3:00Z0Z_h2CldZc7R23z_0eS0b8"},{"shortid":"kfebHdHS0SLz_06c04E","url":"https://images.craigslist.org/00X0X_kfebHdHS0SLz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00X0X_kfebHdHS0SLz_06c04E_50x50c.jpg","imgid":"3:00X0X_kfebHdHS0SLz_06c04E"},{"shortid":"6coiDQCviCMz_06c04E","url":"https://images.craigslist.org/00101_6coiDQCviCMz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00101_6coiDQCviCMz_06c04E_50x50c.jpg","imgid":"3:00101_6coiDQCviCMz_06c04E"},{"shortid":"f0a9TnbzgI4z_06c04E","url":"https://images.craigslist.org/00A0A_f0a9TnbzgI4z_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00A0A_f0a9TnbzgI4z_06c04E_50x50c.jpg","imgid":"3:00A0A_f0a9TnbzgI4z_06c04E"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="36.789738" data-longitude="-76.186924" data-accuracy="5"></div>
+    
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/36.789738,-76.186924">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>2BR</b> / <b>2Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>900</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>valet parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://norfolk.craigslist.org/apa/d/virginia-beach-bedroom-and-bathroom/7513900186.html"></div>
+        </div>
+2 BRs AND 2 BATHS.  NEW VINYL SIDING INSTALLED IN 2022, NEW ROOF INSTALLED IN 2021, NEW HOT WATER HEATER INSTALLED IN 2021.  UPDATED KITCHEN AND BATHROOMS.  PRIVACY FENCED PATIO.  CONDO FEE COVERS WATER BILL, TWICE-A-WEEK TRASH PICK-UP, LANDSCAPING &amp; ALL OUTSIDE MAINTENANCE.  HOMEOWNERS' FEES COVER THE SWIMMING POOL, TENNIS COURTS, AND PLAYGROUND.  2 CARS ASSIGNED RESERVED PARKING SPACES AS WELL AS COMMON PARKING.<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<big><big><big><big><big><big><big><big><big><big><big><big><big><big><big><big><big><big><big><big>I run my own business as an esthetician, I already graduated college, i'm not much of a party girl, but I do enjoy night outs here and there. I work every single day!! so you won't see much </big></big></big></big></big></big></big></big></big></big></big></big></big></big></big></big></big></big></big></big><br>
+<br>
+<br>
+-I’m a business owner for 40 years. I just relocated from Blue Island to Alsip this month. I work seven days a week. I’m looking for a private room and bath, a studio or a one bedroom apartment. I prefer to be in the area of 3700 West and 127th street. I need a clean peaceful environment, drug and alcohol free. Please respond with your phone number, address and information about what you have to rent. Thank You.I am a looking for a room to rent, let me tell you about myself!<br>
+I run my own business as an esthetician, I already graduated college, i'm not much of a party girl, but I do enjoy night outs here and there. I work every single day!! so you won't see much of me and i'm a bit of a hermit because i'm usually so busy. I also work as a server in the restaurant industry. I have a cat that has been with me through a lot and I can not leave her behind, so I must need a pet friendly home. I have a good income and good credit. I am looking to relocate somewhere close to the city (wicker park, logan square, bucktown, river north and areas as such) I am also very artistic and I am a every day herb smoker so somewhere 4/20 friendly would also be nice, if not, i can take a walk ;) I am a tidy person, i just have a lot of clothes so an on-site laundry unit is a MUST for me or else my clothes will devour me. thank you for reading this far I really hope you consider me as a new addition to your home :) My Insta: @RUMANELLI if you'd like to reach out to me or see my vibesLooking for a studio, one bedroom or two bedroom.<br>
+Going through a divorce, credit is not so hot. I have a great job and great reliable income.<br>
+I've been renting for the last two years, no issues, no evictions ever.<br>
+My budget is 1500.My name is Allen and my girlfriend and I and our 3 have been staying with my sister but she is on the verge of losing her place to live. We have been applying to low income housing with no success we are not looking for a hand out I work doing under the table jobs we are just looking for anyone who can help us out pleaseI am in an urgent situation and need to move immediately. My apartment has been broken into twice in one week through the windows. I'm met with ambivalence by my landlord who told me it wasn't within the budget to secure or purchase safer windows. I cannot afford the current market rent but can comfortably pay $600 a month. That's the MAX that I can go. I would also ask that a month to month agreement be signed and acknowledged by the both of us for our own safety and trust. I am a mature  and I have a BA degree. I have $600 to move now. I don't have two months, because I have just paid July rent. I have a professional background, it's just I'm not making a ton of money since COVID. Please ONLY serious inquiries only. Thanks for your help in advance.My name is Brock (29, he/him) and I am looking for housing by August 1st or sooner. I have migrated to NYC this past January (from South Florida) and have been subletting an apartment in Queens for the past 6 months.<br>
+<br>
+A little about me: I’m a model/writer while currently working as an associate @ CoS stores. Kind, bubbly, and tidy are three words I would use to describe myself. Love to read and cook and usually keep to myself for the most part but I’m a great listener and always up for great conversation!<br>
+<br>
+<br>
+Hit me up if you think I’d be a good fit for your space! I’d definitely like to settle on something as soon as I can as I need to vacate the apartment I'm currently in by 8/1. x ✨🌷Hello, my name is Robert and I'm the owner of Manufacturing Connection LLC in Troy, MI. G13<br>
+<br>
+I have clients who need to visit Manhattan only on business days or split schedules part of the week for approximately 2-3 months and I need to accommodate their stay in the city on a consistent basis. One of my clients is a 26 year old that currently is studying law at Georgetown but interning at a law firm in NYC for the summer. Her parents live in Jersey right out of the city so she would split her time between Jersey and the city, but she does want a place so that she doesn't have to do the GW Bridge commute every morning.<br>
+<br>
+It may be a good fit for you if you travel during the business days and have your apartment sitting empty during that time while it could bring you extra income.<br>
+<br>
+Please contact me if you have a property in middle or lower Manhattan and may be interested in leasing your space.<br>
+<br>
+Thanks<br>
+Robert SchmertzlerI will not respond to texts or emails due to the people who's goals are not on the up and up.<br>
+Do not waste time if you can not call me and make an appointment to see your place.<br>
+<br>
+******We are a couple with no pets and we do not smoke, and we are seeking to live on the upper w. side but open to other areas in Manhattan Move in date flexible but Sept or Oct is good.<br>
+Preferred furnished.<br>
+The lease can be a few months or a year or two.<br>
+If you are snow birds we will care for your place with kid gloves and vacate for your return and then return the next year if you wish. This is our second residence.<br>
+References available. Long term job as a data scientist and horticulturalist. Credit score is a bit below 800. Income verification available.<br>
+No co ops please. We speak English, Italian and Spanish.<br>
+Many references.Hi! My name is Grey, I am 21 years old and I really need a room to rent by August 1st. I am respectful, clean and have no pets. I’m unable to put down a security deposit due to being told to move last minute, though I able to pay $500 a month for a room that has utilities included starting August 1st. I’m looking for a room in the Forest Hills area, though am open to something in Corona, Flushing, Elmhurst, and Rego-Park. I pay my rent on the first of each month, and have never missed a payment. Feel free to reach out to me if you know of/have something, thank you.Hello! My name is Shelbi Dawkins and I am relocating to the area from Idaho for an internship at West Point. I plan on arriving on August 12th and the housing I had initially secured just fell through. I am now in a pickle where I am uprooting my entire life for this opportunity of a lifetime, but have nowhere to live. I am seeking a furnished room in a house, apartment or condo (by furnished I mean you could literally throw a mattress on a floor and I can work with it). I'm quiet, clean, super friendly and will be gone the vast majority of the time for work or travel so you will hardly know I am there. I'm also happy to help out with cleaning, yard work, cooking and anything else you or your family may need. I am living off of a graduate student budget so I would like to keep rent below $1,000 a month. If you or anyone you know can help me out feel free to contact me at your nearest convenience. Thank you and I hope you have a better day than I have just had lol.I am an actor seeking a place for rent, lease terms for me are flexible. I will be with my wife.<br>
+NOTE:<br>
+I will not respond to texts or emails due to the people who's goals are not on the up and up.<br>
+Do not waste time if you can not call me and make an appointment to see your place.<br>
+<br>
+Price range is below 4K per mo. No realtors please.<br>
+So call me if you have something. References and income verifiable.<br>
+We have no pets, and do not smoke or drink.<br>
+Very clean. Only furnished.<br>
+No co op boards, they are a drag.Hey yall! I realize this is a bit premature, but given what a mess the rental market is nowadays I figured I'd put some feelers out early rather than later.<br>
+<br>
+I'm a young  professional looking for a private room in a shared apartment to move in October/November at the earliest. My rent budget is around $1400 or less (including utilities) and furnished is a big plus. Transit is a high priority for me; I need good subway access to mid/downtown Manhattan, although the specific neighborhood/borough isn't as relevant.<br>
+<br>
+About me: I'm a fairly reserved, quiet person who keeps to himself for the most part. I enjoy socializing with my roommates if we hit it off, but I'm also happy to be strangers who live together - whichever works best. I don't smoke or own any pets, and I'll keep my mess strictly out of the common areas. I do a mixture of WFH freelance and part time jobs outside the house, which gives me a somewhat erratic schedule, but I'm generally either out and about or in my room. I'm cautious with Covid and fully vaccinated + boostered, looking for same.<br>
+<br>
+I am basically always naked at home as a matter of comfort and would ideally like to live with other nudists, but as long as you're chill with me doing my thing it's irrelevant to me whether you're clothed or not. It is a requirement for me, but I promise there's no euphemisms or other meanings intended here!<br>
+<br>
+If I sound like a possible match, shoot me a *detailed* reply with information about you, the available room and price, the neighborhood, etc., and let me know if you have any questions for me. I'll want to meet in person to discuss a few more things and see the room.Hello, everyone!<br>
+My name is Brock (29, he/him) and I am looking for housing/room to rent by August 1st or ASAP. I have migrated to NYC this past January (from South Florida) and have been subletting an apartment in Queens for the past 6 months. My budget is around $700-$1200<br>
+A little about me: I’m a model/writer while currently working as an associate @ CoS stores. Kind, bubbly, and tidy are three words I would use to describe myself. Love to read and cook and usually keep to myself for the most part but I’m a great listener and always up for great conversation!<br>
+Hit me up if you think I’d be a good fit for your space! I’d definitely like to settle on something as soon as I can as I need to vacate the apartment I'm currently in by 8/1. x ✨🌷<br>
+My IG: @brockwakerHi there, I’m looking for an apartment that is immediately available. I am in a position where I have to move out and the apartments I have viewed want several thousands of dollars up front for security or brokers fee. I am a union construction worker and have consistent pay and great credit, just don’t have that much money to put down due to covid and taking care of loved ones. Now that I am settled back into work for a few months I need a new home.<br>
+<br>
+Looking for something 1,200-1,500 a month. I live alone. Please let me know if there is any availability to move in and waive the brokers fee. I can possibly get together enough for 1 month rent + 1 month security.I’m a single mom to a Wonderful 8yr old! Seeking another single mom with  (preferably) around the same age to share Apt. with!<br>
+<br>
+I have 50/50 split with father and in these ever expensive times seek someone else in the same circumstances to explore co-living!<br>
+<br>
+Professional mom, who spends all her time “Momming” in some capacity. We do have a lovely small (10lb) puppy who just loves to cuddle. Completely housebroken, never any messes, sleeps with us every night.<br>
+<br>
+I know this idea may sound a bit crazy…but thought to give it a shot!<br>
+<br>
+Split all utilities and Rent. Kids could share a room- mine could be very excited at the prospect of having a “roommate”<br>
+<br>
+Looking for a professional Mom who would be up for the company of another single mom, someone else who understands all the challenges that come with, being a single Mom.<br>
+<br>
+If interested in exploring, please email me your information, including:My name is Brock (29, he/him) and my roommate/best friends name is Jake (32, they/them) both queer and looking for housing by August 1st or sooner. We’ve both migrated to NYC this past January (me from South Florida and Jake from New Jersey) and have been subletting an apartment in Queens for the past 6 months.<br>
+<br>
+A little about us: I’m a model/writer while currently working as an associate @ CoS stores. Kind, bubbly, and tidy are three words I would use to describe myself. Love to read and cook and usually keep to myself for the most part but I’m a great listener and always up for great conversation!<br>
+Jake has a background in drafting and is currently working as a service representative for Acne Studios. Loves to draw/illustrate as well as doing yoga and exploring the city.<br>
+<br>
+Hit me up if you think we’d be a good fit for your space! We’d definitely like to settle on something as soon as we can.We are a family looking for a 2 or more bedroom apartment in Ulster County, NY. We can pay $1600 if all utilities are included in rent and up to $1400 if some utilities are included. ex:Heat &amp; hot water. Please contact us ASAP if you are a landlord that accepts HCV formerly known as Section 8 or if you are a landlord willing to accept that. Rent will be paid directly to you each month on time. We are looking to move into a CLEAN &amp; SAFE neighborhood and Place ASAP!!! Please reach out at anytime! Via email or text.We are a responsible couple in our 30s seeking a furnished 1 BR sublet from 9/1-9/30 in Washington Heights or nearby. Michael is a medical student doing an away rotation at Columbia. Katie works remotely for an ed tech company. We are clean, responsible, and have excellent credit. Please reach out if you have a place that would work and we are happy to answer any questions!Located in the heart of Chesterfield, and minutes from the Chesterfield Valley, St. Louis Premium Outlets, Mercy Hospital, Chesterfield Amphitheater, walking trails and so much more. Westmont at Chesterfield offers upgraded 1 and 2 bedroom apartments with custom finishes like granite countertops, plank flooring, stainless steel appliances, white cabinetry, and more. Just moments from your apartment you’ll enjoy dining and entertainment destinations, with convenient access to interstate 40/64. When it’s time to stay in, you won’t be disappointed!! Westmont at Chesterfield offers A+ amenities like a resort style swimming pool, community clubroom, covered parking, fitness center, racquetball court, tennis courts, and a sand volleyball court. Your apartment also includes conveniences like a full-sized washer and dryer in every home, fireplaces, valet trash, and ceiling fans. Westmont at Chesterfield is a pet friendly community, so we have you covered. Our community is located in the A+ school districts of Rockford and Parkway. Your new home awaits at Westmont at Chesterfield.
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7513900186</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-27T06:30:21-0400">2022-07-27 06:30</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

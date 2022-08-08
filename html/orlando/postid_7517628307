@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Two Bedroom Apartments - apts/housing for rent - apartment rent">
+	<meta name="description" content="2x2 – Starting at $1,645-1,795Equal Housing Opportunity Contact info: Village Lakes Apartments 500 W Airport Blvd Sanford, FL 32773 Renovated apartments starting at $1,645/month plus utilities...">
+	<meta property="og:description" content="2x2 – Starting at $1,645-1,795Equal Housing Opportunity Contact info: Village Lakes Apartments 500 W Airport Blvd Sanford, FL 32773 Renovated apartments starting at $1,645/month plus utilities...">
+	<meta property="og:image" content="https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_600x450.jpg">
+	<meta property="og:url" content="https://orlando.craigslist.org/apa/d/sanford-two-bedroom-apartments/7517628307.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 19-Sep-22 11:25:39 EDT">
+	<meta name="geo.position" content="28.773584;-81.286511">
+	<meta name="ICBM" content="28.773584, -81.286511">
+	<meta name="geo.placename" content="Sanford">
+	<meta name="geo.region" content="US-FL">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Two Bedroom Apartments - apts/housing for rent - apartment rent</title>
+	<link rel="canonical" href="https://orlando.craigslist.org/apa/d/sanford-two-bedroom-apartments/7517628307.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"orlando.craigslist.org","@id":"https://orlando.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://orlando.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://orlando.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"Two Bedroom Apartments","@id":"https://orlando.craigslist.org/apa/d/sanford-two-bedroom-apartments/7517628307.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"2","longitude":"-81.286511","name":"Two Bedroom Apartments","@context":"http://schema.org","latitude":"28.773584","numberOfBathroomsTotal":2,"address":{"streetAddress":"500 West Airport Blvd","addressCountry":"US","addressLocality":"Sanford","postalCode":"32772","addressRegion":"FL","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7517628307
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">orlando</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/orl">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+orlando            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/orl/apa/7517628307/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-05T11:21:39-0400">
+                        2022-08-05 11:21
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,645</span> <span class="housing">/ 2br - 862ft<sup>2</sup> - </span><span id="titletextonly">Two Bedroom Apartments</span><small> (Sanford)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 7</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_SchZNPJ7THz_0gv0aY" data-imgid="SchZNPJ7THz_0gv0aY" class="slide first visible">
+                    <img src="https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_bi2Zf9kItsfz_0gu0aY" data-imgid="bi2Zf9kItsfz_0gu0aY" class="slide">
+                </div>
+                <div id="3_image_3vpsjMRicovz_0cu0aS" data-imgid="3vpsjMRicovz_0cu0aS" class="slide">
+                </div>
+                <div id="4_image_fQSlkxmgsSGz_0gu0aU" data-imgid="fQSlkxmgsSGz_0gu0aU" class="slide">
+                </div>
+                <div id="5_image_jfYIRYXWnfwz_0gp0aU" data-imgid="jfYIRYXWnfwz_0gp0aU" class="slide">
+                </div>
+                <div id="6_image_4fY0yUiLXkEz_0gs0aY" data-imgid="4fY0yUiLXkEz_0gs0aY" class="slide">
+                </div>
+                <div id="7_image_3GbfxYi8hMaz_0hq0hq" data-imgid="3GbfxYi8hMaz_0hq0hq" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_SchZNPJ7THz_0gv0aY" class="thumb" data-imgid="SchZNPJ7THz_0gv0aY" href="https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_600x450.jpg" title="1"><img src="https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_bi2Zf9kItsfz_0gu0aY" class="thumb" data-imgid="bi2Zf9kItsfz_0gu0aY" href="https://images.craigslist.org/00l0l_bi2Zf9kItsfz_0gu0aY_600x450.jpg" title="2"><img src="https://images.craigslist.org/00l0l_bi2Zf9kItsfz_0gu0aY_50x50c.jpg" alt="2"></a><a id="3_thumb_3vpsjMRicovz_0cu0aS" class="thumb" data-imgid="3vpsjMRicovz_0cu0aS" href="https://images.craigslist.org/01111_3vpsjMRicovz_0cu0aS_600x450.jpg" title="3"><img src="https://images.craigslist.org/01111_3vpsjMRicovz_0cu0aS_50x50c.jpg" alt="3"></a><a id="4_thumb_fQSlkxmgsSGz_0gu0aU" class="thumb" data-imgid="fQSlkxmgsSGz_0gu0aU" href="https://images.craigslist.org/01111_fQSlkxmgsSGz_0gu0aU_600x450.jpg" title="4"><img src="https://images.craigslist.org/01111_fQSlkxmgsSGz_0gu0aU_50x50c.jpg" alt="4"></a><a id="5_thumb_jfYIRYXWnfwz_0gp0aU" class="thumb" data-imgid="jfYIRYXWnfwz_0gp0aU" href="https://images.craigslist.org/00808_jfYIRYXWnfwz_0gp0aU_600x450.jpg" title="5"><img src="https://images.craigslist.org/00808_jfYIRYXWnfwz_0gp0aU_50x50c.jpg" alt="5"></a><a id="6_thumb_4fY0yUiLXkEz_0gs0aY" class="thumb" data-imgid="4fY0yUiLXkEz_0gs0aY" href="https://images.craigslist.org/00F0F_4fY0yUiLXkEz_0gs0aY_600x450.jpg" title="6"><img src="https://images.craigslist.org/00F0F_4fY0yUiLXkEz_0gs0aY_50x50c.jpg" alt="6"></a><a id="7_thumb_3GbfxYi8hMaz_0hq0hq" class="thumb" data-imgid="3GbfxYi8hMaz_0hq0hq" href="https://images.craigslist.org/01515_3GbfxYi8hMaz_0hq0hq_600x450.jpg" title="7"><img src="https://images.craigslist.org/01515_3GbfxYi8hMaz_0hq0hq_50x50c.jpg" alt="7"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"SchZNPJ7THz_0gv0aY","url":"https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_600x450.jpg","thumb":"https://images.craigslist.org/00c0c_SchZNPJ7THz_0gv0aY_50x50c.jpg","imgid":"3:00c0c_SchZNPJ7THz_0gv0aY"},{"shortid":"bi2Zf9kItsfz_0gu0aY","url":"https://images.craigslist.org/00l0l_bi2Zf9kItsfz_0gu0aY_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_bi2Zf9kItsfz_0gu0aY_50x50c.jpg","imgid":"3:00l0l_bi2Zf9kItsfz_0gu0aY"},{"shortid":"3vpsjMRicovz_0cu0aS","url":"https://images.craigslist.org/01111_3vpsjMRicovz_0cu0aS_600x450.jpg","thumb":"https://images.craigslist.org/01111_3vpsjMRicovz_0cu0aS_50x50c.jpg","imgid":"3:01111_3vpsjMRicovz_0cu0aS"},{"shortid":"fQSlkxmgsSGz_0gu0aU","url":"https://images.craigslist.org/01111_fQSlkxmgsSGz_0gu0aU_600x450.jpg","thumb":"https://images.craigslist.org/01111_fQSlkxmgsSGz_0gu0aU_50x50c.jpg","imgid":"3:01111_fQSlkxmgsSGz_0gu0aU"},{"shortid":"jfYIRYXWnfwz_0gp0aU","url":"https://images.craigslist.org/00808_jfYIRYXWnfwz_0gp0aU_600x450.jpg","thumb":"https://images.craigslist.org/00808_jfYIRYXWnfwz_0gp0aU_50x50c.jpg","imgid":"3:00808_jfYIRYXWnfwz_0gp0aU"},{"shortid":"4fY0yUiLXkEz_0gs0aY","url":"https://images.craigslist.org/00F0F_4fY0yUiLXkEz_0gs0aY_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_4fY0yUiLXkEz_0gs0aY_50x50c.jpg","imgid":"3:00F0F_4fY0yUiLXkEz_0gs0aY"},{"shortid":"3GbfxYi8hMaz_0hq0hq","url":"https://images.craigslist.org/01515_3GbfxYi8hMaz_0hq0hq_600x450.jpg","thumb":"https://images.craigslist.org/01515_3GbfxYi8hMaz_0hq0hq_50x50c.jpg","imgid":"3:01515_3GbfxYi8hMaz_0hq0hq"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="28.773584" data-longitude="-81.286511" data-accuracy="5"></div>
+    <div class="mapaddress">500 West Airport Blvd near 17-92</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/28.773584,-81.286511">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>2BR</b> / <b>2Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>862</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-08-26" data-today_msg="available now">available aug 26</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>application fee details: <b>$100 Per Applicant 18+</b></span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://orlando.craigslist.org/apa/d/sanford-two-bedroom-apartments/7517628307.html"></div>
+        </div>
+2x2 – Starting at $1,645-1,795
+
+<br><br><br><i>Equal Housing Opportunity</i><br><b><u>Contact info:</u></b><br><b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/orl/apa/7517628307/__SERVICE_ID__" rel="nofollow">show contact info</a>
+ </b><h1>Village Lakes Apartments</h1><h2>500 W Airport Blvd Sanford, FL 32773 </h2><h2> Renovated apartments starting at $1,645/month plus utilities</h2><h2>Luxury Apartments starting at $1,795/month plus utilities </h2><p><b><big><u>KEY FEATURES</u></big></b><br><b>Sq Footage: </b> 862 sqft.<br><b>Bedrooms: </b> 2 Bed<br><b>Bathrooms: </b> 2 Bath<br><b>Lease Duration: </b> 12-13 Months or 7 Months w/ additional fee<br><b>Deposit: </b> Starting at $500<br><b>Pets Policy: </b> Cats &amp; Dogs Welcome! $300-$500 one-time pet fee plus $20 monthly pet rent per pet, no aggressive breeds permitted <br><b>Laundry: </b> Two Facilities on Site, Washers &amp; Dryers provided in 2x2 and 3x2 Units!!! <br><b>Parking: </b> Onsite Parking <br><b>Property Type: </b> Apartment<br><br><b><u>DESCRIPTION</u></b><hr> Apply with in 2 days of an appointment or tour for 50% off application fees. Call us for more information! Nestled in a lakefront oasis, Village Lakes Apartments in the heart of Sanford provides the perfect backdrop to first class amenities. Experience a difference with a one of a kind remodel. Our one, two and three bedroom apartments feature upgraded wood vinyl flooring, black or white appliances, updated cabinetry and second story vaulted ceilings. Relax by our glistening lake front pool, enjoy our on-site fitness center, outdoor sports court and two laundry facilities at your leisure. <p>
+Village Lakes Apartments is conveniently located in Sanford about 25 miles northeast of Downtown Orlando. We are minutes to fine dining, Seminole Town Center, Aerosim Flight Academy, Sanford Airport, Seminole State College, Interstate 4 and 417. You will find yourself close to everything Sanford has to offer! With its stylish decor and easy living, this property will be sure to take you over the edge of modern living. We invite you to tour our property today and look forward to you making Village Lakes Apartments your new home. Your Florida paradise awaits you!
+<hr> <br><br><b><u>COMMUNITY FEATURES</u></b><ul><li>Lake Front Glistening Pool</li><li>Sports Court</li><li>Fitness Center</li><li>Car Wash Station</li><li>Near Transportation</li></ul><br><br><b><u>Leasing Hours: </u><br><b>Monday-Friday: </b> 9:30 am - 6 pm<br><b>Saturday: </b> 12 pm - 3 pm<br></b><p><b><u>Contact info:</u></b><br><b> <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/orl/apa/7517628307/__SERVICE_ID__" rel="nofollow">show contact info</a>
+ </b><p>
+Online application: Please copy and paste the following link into your web browser to apply online today! <p> http://www-bms.bluemoonforms.com/application/index/61287
+
+</p></p></p></p></p>    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7517628307</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-05T11:21:39-0400">2022-08-05 11:21</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

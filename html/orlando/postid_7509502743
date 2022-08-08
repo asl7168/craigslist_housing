@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Rent to Own or Just Rent - 12121 Still Meadow Drive - apts/housing...">
+	<meta name="description" content="HOW WE WORK: We have the least expensive, least complicated, and most transparent application process in the real estate rental market anywhere in the US! Plus, we preserve: 1. Your credit score by...">
+	<meta property="og:description" content="HOW WE WORK: We have the least expensive, least complicated, and most transparent application process in the real estate rental market anywhere in the US! Plus, we preserve: 1. Your credit score by...">
+	<meta property="og:image" content="https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_600x450.jpg">
+	<meta property="og:url" content="https://orlando.craigslist.org/apa/d/clermont-rent-to-own-or-just-rent-still/7509502743.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 20-Sep-22 10:15:48 EDT">
+	<meta name="geo.position" content="28.552500;-81.757400">
+	<meta name="ICBM" content="28.552500, -81.757400">
+	<meta name="geo.placename" content="Clermont">
+	<meta name="geo.region" content="US-FL">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Rent to Own or Just Rent - 12121 Still Meadow Drive - apts/housing...</title>
+	<link rel="canonical" href="https://orlando.craigslist.org/apa/d/clermont-rent-to-own-or-just-rent-still/7509502743.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"orlando.craigslist.org","@id":"https://orlando.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://orlando.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://orlando.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"Rent to Own or Just Rent - 12121 Still Meadow Drive","@id":"https://orlando.craigslist.org/apa/d/clermont-rent-to-own-or-just-rent-still/7509502743.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"3","longitude":"-81.757400","name":"Rent to Own or Just Rent - 12121 Still Meadow Drive","@context":"http://schema.org","latitude":"28.552500","numberOfBathroomsTotal":2,"address":{"streetAddress":"12121 Meadow Drive","addressCountry":"US","addressLocality":"Clermont","postalCode":"34713","addressRegion":"FL","@type":"PostalAddress"},"petsAllowed":true,"@type":"House"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7509502743
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">orlando</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/orl">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+orlando            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/orl/apa/7509502743/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-16T11:14:06-0400">
+                        2022-07-16 11:14
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$2,630</span> <span class="housing">/ 3br - 1755ft<sup>2</sup> - </span><span id="titletextonly">Rent to Own or Just Rent - 12121 Still Meadow Drive</span><small> (Clermont)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 13</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_5tU7rziylbCz_0gw09i" data-imgid="5tU7rziylbCz_0gw09i" class="slide first visible">
+                    <img src="https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_88zBbe76Laez_0gw09i" data-imgid="88zBbe76Laez_0gw09i" class="slide">
+                </div>
+                <div id="3_image_1M90KaBQgfNz_0gw09i" data-imgid="1M90KaBQgfNz_0gw09i" class="slide">
+                </div>
+                <div id="4_image_2T4Zfs4BjzFz_0gw09i" data-imgid="2T4Zfs4BjzFz_0gw09i" class="slide">
+                </div>
+                <div id="5_image_nHlfGQGGyoz_0gw09i" data-imgid="nHlfGQGGyoz_0gw09i" class="slide">
+                </div>
+                <div id="6_image_jzaP0BuOsCQz_0gw09i" data-imgid="jzaP0BuOsCQz_0gw09i" class="slide">
+                </div>
+                <div id="7_image_591win5GRHBz_0gw09i" data-imgid="591win5GRHBz_0gw09i" class="slide">
+                </div>
+                <div id="8_image_jgEObLiUAeEz_0gw09i" data-imgid="jgEObLiUAeEz_0gw09i" class="slide">
+                </div>
+                <div id="9_image_gGrKxWqP22Pz_0gw09i" data-imgid="gGrKxWqP22Pz_0gw09i" class="slide">
+                </div>
+                <div id="10_image_5Z3VBRXRpvnz_0gw09i" data-imgid="5Z3VBRXRpvnz_0gw09i" class="slide">
+                </div>
+                <div id="11_image_h0sddCxvLAsz_0gw09i" data-imgid="h0sddCxvLAsz_0gw09i" class="slide">
+                </div>
+                <div id="12_image_7KtXhqrpfAwz_0gw09i" data-imgid="7KtXhqrpfAwz_0gw09i" class="slide">
+                </div>
+                <div id="13_image_diz2wEgN0vqz_0gw09i" data-imgid="diz2wEgN0vqz_0gw09i" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_5tU7rziylbCz_0gw09i" class="thumb" data-imgid="5tU7rziylbCz_0gw09i" href="https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_600x450.jpg" title="1"><img src="https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_88zBbe76Laez_0gw09i" class="thumb" data-imgid="88zBbe76Laez_0gw09i" href="https://images.craigslist.org/00f0f_88zBbe76Laez_0gw09i_600x450.jpg" title="2"><img src="https://images.craigslist.org/00f0f_88zBbe76Laez_0gw09i_50x50c.jpg" alt="2"></a><a id="3_thumb_1M90KaBQgfNz_0gw09i" class="thumb" data-imgid="1M90KaBQgfNz_0gw09i" href="https://images.craigslist.org/00v0v_1M90KaBQgfNz_0gw09i_600x450.jpg" title="3"><img src="https://images.craigslist.org/00v0v_1M90KaBQgfNz_0gw09i_50x50c.jpg" alt="3"></a><a id="4_thumb_2T4Zfs4BjzFz_0gw09i" class="thumb" data-imgid="2T4Zfs4BjzFz_0gw09i" href="https://images.craigslist.org/00y0y_2T4Zfs4BjzFz_0gw09i_600x450.jpg" title="4"><img src="https://images.craigslist.org/00y0y_2T4Zfs4BjzFz_0gw09i_50x50c.jpg" alt="4"></a><a id="5_thumb_nHlfGQGGyoz_0gw09i" class="thumb" data-imgid="nHlfGQGGyoz_0gw09i" href="https://images.craigslist.org/01616_nHlfGQGGyoz_0gw09i_600x450.jpg" title="5"><img src="https://images.craigslist.org/01616_nHlfGQGGyoz_0gw09i_50x50c.jpg" alt="5"></a><a id="6_thumb_jzaP0BuOsCQz_0gw09i" class="thumb" data-imgid="jzaP0BuOsCQz_0gw09i" href="https://images.craigslist.org/00202_jzaP0BuOsCQz_0gw09i_600x450.jpg" title="6"><img src="https://images.craigslist.org/00202_jzaP0BuOsCQz_0gw09i_50x50c.jpg" alt="6"></a><a id="7_thumb_591win5GRHBz_0gw09i" class="thumb" data-imgid="591win5GRHBz_0gw09i" href="https://images.craigslist.org/00404_591win5GRHBz_0gw09i_600x450.jpg" title="7"><img src="https://images.craigslist.org/00404_591win5GRHBz_0gw09i_50x50c.jpg" alt="7"></a><a id="8_thumb_jgEObLiUAeEz_0gw09i" class="thumb" data-imgid="jgEObLiUAeEz_0gw09i" href="https://images.craigslist.org/00f0f_jgEObLiUAeEz_0gw09i_600x450.jpg" title="8"><img src="https://images.craigslist.org/00f0f_jgEObLiUAeEz_0gw09i_50x50c.jpg" alt="8"></a><a id="9_thumb_gGrKxWqP22Pz_0gw09i" class="thumb" data-imgid="gGrKxWqP22Pz_0gw09i" href="https://images.craigslist.org/00j0j_gGrKxWqP22Pz_0gw09i_600x450.jpg" title="9"><img src="https://images.craigslist.org/00j0j_gGrKxWqP22Pz_0gw09i_50x50c.jpg" alt="9"></a><a id="10_thumb_5Z3VBRXRpvnz_0gw09i" class="thumb" data-imgid="5Z3VBRXRpvnz_0gw09i" href="https://images.craigslist.org/00I0I_5Z3VBRXRpvnz_0gw09i_600x450.jpg" title="10"><img src="https://images.craigslist.org/00I0I_5Z3VBRXRpvnz_0gw09i_50x50c.jpg" alt="10"></a><a id="11_thumb_h0sddCxvLAsz_0gw09i" class="thumb" data-imgid="h0sddCxvLAsz_0gw09i" href="https://images.craigslist.org/00C0C_h0sddCxvLAsz_0gw09i_600x450.jpg" title="11"><img src="https://images.craigslist.org/00C0C_h0sddCxvLAsz_0gw09i_50x50c.jpg" alt="11"></a><a id="12_thumb_7KtXhqrpfAwz_0gw09i" class="thumb" data-imgid="7KtXhqrpfAwz_0gw09i" href="https://images.craigslist.org/00R0R_7KtXhqrpfAwz_0gw09i_600x450.jpg" title="12"><img src="https://images.craigslist.org/00R0R_7KtXhqrpfAwz_0gw09i_50x50c.jpg" alt="12"></a><a id="13_thumb_diz2wEgN0vqz_0gw09i" class="thumb" data-imgid="diz2wEgN0vqz_0gw09i" href="https://images.craigslist.org/00b0b_diz2wEgN0vqz_0gw09i_600x450.jpg" title="13"><img src="https://images.craigslist.org/00b0b_diz2wEgN0vqz_0gw09i_50x50c.jpg" alt="13"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"5tU7rziylbCz_0gw09i","url":"https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_5tU7rziylbCz_0gw09i_50x50c.jpg","imgid":"3:00b0b_5tU7rziylbCz_0gw09i"},{"shortid":"88zBbe76Laez_0gw09i","url":"https://images.craigslist.org/00f0f_88zBbe76Laez_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00f0f_88zBbe76Laez_0gw09i_50x50c.jpg","imgid":"3:00f0f_88zBbe76Laez_0gw09i"},{"shortid":"1M90KaBQgfNz_0gw09i","url":"https://images.craigslist.org/00v0v_1M90KaBQgfNz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00v0v_1M90KaBQgfNz_0gw09i_50x50c.jpg","imgid":"3:00v0v_1M90KaBQgfNz_0gw09i"},{"shortid":"2T4Zfs4BjzFz_0gw09i","url":"https://images.craigslist.org/00y0y_2T4Zfs4BjzFz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00y0y_2T4Zfs4BjzFz_0gw09i_50x50c.jpg","imgid":"3:00y0y_2T4Zfs4BjzFz_0gw09i"},{"shortid":"nHlfGQGGyoz_0gw09i","url":"https://images.craigslist.org/01616_nHlfGQGGyoz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/01616_nHlfGQGGyoz_0gw09i_50x50c.jpg","imgid":"3:01616_nHlfGQGGyoz_0gw09i"},{"shortid":"jzaP0BuOsCQz_0gw09i","url":"https://images.craigslist.org/00202_jzaP0BuOsCQz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00202_jzaP0BuOsCQz_0gw09i_50x50c.jpg","imgid":"3:00202_jzaP0BuOsCQz_0gw09i"},{"shortid":"591win5GRHBz_0gw09i","url":"https://images.craigslist.org/00404_591win5GRHBz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00404_591win5GRHBz_0gw09i_50x50c.jpg","imgid":"3:00404_591win5GRHBz_0gw09i"},{"shortid":"jgEObLiUAeEz_0gw09i","url":"https://images.craigslist.org/00f0f_jgEObLiUAeEz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00f0f_jgEObLiUAeEz_0gw09i_50x50c.jpg","imgid":"3:00f0f_jgEObLiUAeEz_0gw09i"},{"shortid":"gGrKxWqP22Pz_0gw09i","url":"https://images.craigslist.org/00j0j_gGrKxWqP22Pz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00j0j_gGrKxWqP22Pz_0gw09i_50x50c.jpg","imgid":"3:00j0j_gGrKxWqP22Pz_0gw09i"},{"shortid":"5Z3VBRXRpvnz_0gw09i","url":"https://images.craigslist.org/00I0I_5Z3VBRXRpvnz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00I0I_5Z3VBRXRpvnz_0gw09i_50x50c.jpg","imgid":"3:00I0I_5Z3VBRXRpvnz_0gw09i"},{"shortid":"h0sddCxvLAsz_0gw09i","url":"https://images.craigslist.org/00C0C_h0sddCxvLAsz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00C0C_h0sddCxvLAsz_0gw09i_50x50c.jpg","imgid":"3:00C0C_h0sddCxvLAsz_0gw09i"},{"shortid":"7KtXhqrpfAwz_0gw09i","url":"https://images.craigslist.org/00R0R_7KtXhqrpfAwz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_7KtXhqrpfAwz_0gw09i_50x50c.jpg","imgid":"3:00R0R_7KtXhqrpfAwz_0gw09i"},{"shortid":"diz2wEgN0vqz_0gw09i","url":"https://images.craigslist.org/00b0b_diz2wEgN0vqz_0gw09i_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_diz2wEgN0vqz_0gw09i_50x50c.jpg","imgid":"3:00b0b_diz2wEgN0vqz_0gw09i"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="28.552500" data-longitude="-81.757400" data-accuracy="22"></div>
+    <div class="mapaddress">12121 Meadow Drive</div>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>3BR</b> / <b>2Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>1755</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-07-16" data-today_msg="available now">available jul 16</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>application fee details: <b>$75.00 Application Fee: Includes Entire Family</b></span>
+            <br>
+
+
+
+
+            <span>broker fee details: <b>0</b></span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>house</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>listed by: <b>Terry Real Estate Services, PLLC</b></span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://orlando.craigslist.org/apa/d/clermont-rent-to-own-or-just-rent-still/7509502743.html"></div>
+        </div>
+HOW WE WORK:<br>
+We have the least expensive, least complicated, and most transparent application process in the real estate rental market anywhere in the US! Plus, we preserve:<br>
+1. Your credit score by only "soft pulling" your credit which doesn’t hurt your credit score.<br>
+2. Your cash, by only charge a one-time low application fee. No non-refundable deposits!<br>
+3. Your time, by working with us until you find your perfect home. Don't jump from agency to agency!<br>
+<br>
+PLEASE NOTE:<br>
+This property is for sale not for rent from the current owner. However, if you like this home or any home for sale, we will purchase it and rent to you for 1 year and allow you to renew your lease for 4 more years one year at a time. Yes, you have the option to stay in your new rental for five years with an option to purchase the home from us at any time within the 5 years. After five years, you may stay if you would like but you will not have the right to purchase your home from us after the 5th year.<br>
+<br>
+OUR SMALL APPLICATION FEE:<br>
+Our small $75.00 application fee (call Len Terry for a 50% reduction in this low fee) includes all members of your household over the age of 18 (not each person, but the entire household regardless of how many applicants you have). Plus, we NEVER hard pull your credit - SOFT PULL ONLY, on TransUnion (not all three bureaus - only TransUnion).<br>
+<br>
+THE BENEFIT OF WORKING WITH US:<br>
+You may view and consider an unlimited number of houses for six months for free with NO hard credit pulls or additional fees! OTHER RENTAL AGENCIES hard pull your credit on all three bureaus and charge $75.00 to $99.00 for every member of your household that's over 18 years old, times every rental property that you consider. We have one discounted fee for the whole family, we will not hurt your credit, and we search for your perfect home until we find it! Deal?<br>
+____________________________________________________________________________<br>
+<br>
+ABOUT OUR PROGRAM:<br>
+This Lease with a Right to Purchase Program allows you to find a home that you want to rent now but allows you to purchase from us later if you want (without obligation - you are NOT required to purchase - just renting is fine!). We believe that there are many households who may be thinking about buying a home, but for whatever reason would like to at least rent for now keeping options open in the future.<br>
+<br>
+You can lease this home or any home for five years, one year at a time, and you may purchase the home at any time at a predetermined price. However, you are never obligated to purchase the home. You are only obligated to a one-year lease, so this program gives a lot for flexibility by renting for now or buying later, or if you would like to stay the whole five years as a tenant, that option is also available to you (again, only obligated for one year at a time). You may vacate at the end of any annual lease term and get the security deposit back providing you are compliant with the terms of your lease.<br>
+<br>
+For additional information call Len Terry at  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/orl/apa/7509502743/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br>
+or visit us at Rent2own-centralfl.com/renting-2-own<br>
+<br>
+WHAT SITUATIONS HAVE WE WORKED WITH?<br>
+* Relocations from outside Florida<br>
+* Current rental home being sold by owner<br>
+* Current lease expiring<br>
+* Low credit scores<br>
+* Inadequate down payment to buy<br>
+* Previous Foreclosure, Bankruptcy<br>
+* Temporary housing for college<br>
+* Building - need temporary housing<br>
+* Divorce<br>
+<br>
+MINIMUM QUALIFICATIONS:<br>
+* Minimum Equifax FICO score of 620<br>
+* Min Family income of $40,000/year<br>
+* No recent evictions<br>
+* No felony convictions in past 6 years<br>
+* Six months of stable employment<br>
+* Offer letter for relocation applicants<br>
+* No down payment (only 2-months' rent for Security Deposit)<br>
+* No Option to Purchase costs, fees, or deposits!<br>
+<br>
+Disclaimer: Properties listed are for sale by private sellers but will be purchased by Home Partners of America and rented to the approved client.<br>
+_____________________________________________________________________<br>
+<br>
+ABOUT THIS HOME:<br>
+It is easy to fall in love with this super home, located in desirable Bent Tree Subdivision. Exceptionally light and spacious floor plan with 3 beds and 3 bed 2 bath. Ceramic tile throughout the whole house adds to the clean and fresh feel. Don't delay because in this market it will not last long.<br>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7509502743</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-16T11:14:06-0400">2022-07-16 11:14</time></p>
+
+                <p class="postinginfo reveal">updated: <time class="date timeago" datetime="2022-08-06T10:10:48-0400">2022-08-06 10:10</time></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

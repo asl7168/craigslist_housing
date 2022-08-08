@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="A 3/2 with a split layout so you can have ample privacy from rest of...">
+	<meta name="description" content="A 3/2 with a split layout so you can have ample privacy from rest of family. Featuring stainless steel appliances, large double-hung windows that can open from top to bottom, a bright kitchen with a...">
+	<meta property="og:description" content="A 3/2 with a split layout so you can have ample privacy from rest of family. Featuring stainless steel appliances, large double-hung windows that can open from top to bottom, a bright kitchen with a...">
+	<meta property="og:image" content="https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_600x450.jpg">
+	<meta property="og:url" content="https://richmond.craigslist.org/apa/d/richmond-3-with-split-layout-so-you-can/7517269296.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 18-Sep-22 13:16:05 EDT">
+	<meta name="geo.position" content="37.546863;-77.469921">
+	<meta name="ICBM" content="37.546863, -77.469921">
+	<meta name="geo.placename" content="Richmond">
+	<meta name="geo.region" content="US-VA">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>A 3/2 with a split layout so you can have ample privacy from rest of...</title>
+	<link rel="canonical" href="https://richmond.craigslist.org/apa/d/richmond-3-with-split-layout-so-you-can/7517269296.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"richmond.craigslist.org","@id":"https://richmond.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://richmond.craigslist.org/search/hhh"},"position":2,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://richmond.craigslist.org/search/apa"},"position":3,"@type":"ListItem"},{"item":{"name":"A 3/2 with a split layout so you can have ample privacy from rest of","@id":"https://richmond.craigslist.org/apa/d/richmond-3-with-split-layout-so-you-can/7517269296.html"},"position":4,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"3","longitude":"-77.469921","name":"A 3/2 with a split layout so you can have ample privacy from rest of","@context":"http://schema.org","latitude":"37.546863","numberOfBathroomsTotal":2,"address":{"streetAddress":"","addressCountry":"US","addressLocality":"Richmond","postalCode":"23290","addressRegion":"VA","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7517269296
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">richmond, VA</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/ric">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+richmond, VA            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/ric/apa/7517269296/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-08-04T13:05:05-0400">
+                        2022-08-04 13:05
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,100</span> <span class="housing">/ 3br - 1340ft<sup>2</sup> - </span><span id="titletextonly">A 3/2 with a split layout so you can have ample privacy from rest of</span>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 5</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_7NPsz7bx3Uwz_08H066" data-imgid="7NPsz7bx3Uwz_08H066" class="slide first visible">
+                    <img src="https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_98cIhyLnFs4z_0a005w" data-imgid="98cIhyLnFs4z_0a005w" class="slide">
+                </div>
+                <div id="3_image_ezkdXS0qtsEz_0es0aF" data-imgid="ezkdXS0qtsEz_0es0aF" class="slide">
+                </div>
+                <div id="4_image_5pCS8Knn83Oz_0f30at" data-imgid="5pCS8Knn83Oz_0f30at" class="slide">
+                </div>
+                <div id="5_image_9VfnJjghyPXz_0f60bp" data-imgid="9VfnJjghyPXz_0f60bp" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_7NPsz7bx3Uwz_08H066" class="thumb" data-imgid="7NPsz7bx3Uwz_08H066" href="https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_600x450.jpg" title="1"><img src="https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_98cIhyLnFs4z_0a005w" class="thumb" data-imgid="98cIhyLnFs4z_0a005w" href="https://images.craigslist.org/00v0v_98cIhyLnFs4z_0a005w_600x450.jpg" title="2"><img src="https://images.craigslist.org/00v0v_98cIhyLnFs4z_0a005w_50x50c.jpg" alt="2"></a><a id="3_thumb_ezkdXS0qtsEz_0es0aF" class="thumb" data-imgid="ezkdXS0qtsEz_0es0aF" href="https://images.craigslist.org/00C0C_ezkdXS0qtsEz_0es0aF_600x450.jpg" title="3"><img src="https://images.craigslist.org/00C0C_ezkdXS0qtsEz_0es0aF_50x50c.jpg" alt="3"></a><a id="4_thumb_5pCS8Knn83Oz_0f30at" class="thumb" data-imgid="5pCS8Knn83Oz_0f30at" href="https://images.craigslist.org/00D0D_5pCS8Knn83Oz_0f30at_600x450.jpg" title="4"><img src="https://images.craigslist.org/00D0D_5pCS8Knn83Oz_0f30at_50x50c.jpg" alt="4"></a><a id="5_thumb_9VfnJjghyPXz_0f60bp" class="thumb" data-imgid="9VfnJjghyPXz_0f60bp" href="https://images.craigslist.org/00O0O_9VfnJjghyPXz_0f60bp_600x450.jpg" title="5"><img src="https://images.craigslist.org/00O0O_9VfnJjghyPXz_0f60bp_50x50c.jpg" alt="5"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"7NPsz7bx3Uwz_08H066","url":"https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_600x450.jpg","thumb":"https://images.craigslist.org/00V0V_7NPsz7bx3Uwz_08H066_50x50c.jpg","imgid":"3:00V0V_7NPsz7bx3Uwz_08H066"},{"shortid":"98cIhyLnFs4z_0a005w","url":"https://images.craigslist.org/00v0v_98cIhyLnFs4z_0a005w_600x450.jpg","thumb":"https://images.craigslist.org/00v0v_98cIhyLnFs4z_0a005w_50x50c.jpg","imgid":"3:00v0v_98cIhyLnFs4z_0a005w"},{"shortid":"ezkdXS0qtsEz_0es0aF","url":"https://images.craigslist.org/00C0C_ezkdXS0qtsEz_0es0aF_600x450.jpg","thumb":"https://images.craigslist.org/00C0C_ezkdXS0qtsEz_0es0aF_50x50c.jpg","imgid":"3:00C0C_ezkdXS0qtsEz_0es0aF"},{"shortid":"5pCS8Knn83Oz_0f30at","url":"https://images.craigslist.org/00D0D_5pCS8Knn83Oz_0f30at_600x450.jpg","thumb":"https://images.craigslist.org/00D0D_5pCS8Knn83Oz_0f30at_50x50c.jpg","imgid":"3:00D0D_5pCS8Knn83Oz_0f30at"},{"shortid":"9VfnJjghyPXz_0f60bp","url":"https://images.craigslist.org/00O0O_9VfnJjghyPXz_0f60bp_600x450.jpg","thumb":"https://images.craigslist.org/00O0O_9VfnJjghyPXz_0f60bp_50x50c.jpg","imgid":"3:00O0O_9VfnJjghyPXz_0f60bp"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="37.546863" data-longitude="-77.469921" data-accuracy="5"></div>
+    
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/37.546863,-77.469921">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>3BR</b> / <b>2Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>1340</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://richmond.craigslist.org/apa/d/richmond-3-with-split-layout-so-you-can/7517269296.html"></div>
+        </div>
+A 3/2 with a split layout so you can have ample privacy from rest of family. Featuring stainless steel appliances, large double-hung windows that can open from top to bottom, a bright kitchen with a skylight, modern zebra blinds in each room, a security system, and gorgeous crown molding throughout. There is a large front porch with recessed lED lighting for those cool summer nights. A 2-car driveway was recently added (another rarity). It is very convenient to take advantage of the best Richmond has to offer. House is a must see!!<br>
+<br>
+<br>
+<br>
+Contact :-   <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/ric/apa/7517269296/__SERVICE_ID__" rel="nofollow">show contact info</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+-<br>
+<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+-<br>
+<br>
+<br>
+Hi there<br>
+<br>
+I am looking for unfurnished room to rent for my massage and body healing business. my budget is $700 a month. I have a massage business, so some clients come over for treatments and go.<br>
+I am looking for private room with shower and nice nature surroundings.<br>
+Mid thirties couple who doesn't party or cause trouble seeking 2 bedroom with budget of about 2000<br>
+We have 2 small French bulldogs and 1 small English bulldog<br>
+We have never missed a rent payment but our credit is not great because I was laid off my last job and spend of rent first<br>
+I now have a new great job and ready to catch up<br>
+Seeking the extra room because most my work is work from home due to a hybrid remote schedule<br>
+Seeking someone more interested in income than credit<br>
+Please send pictures, location, cost to move in, rent cost to move in, and any requirementsLooking for a room to rent in the LA area, other surrounding citys are ok too! Lil but out me: im 27, introvert, work downtown LA as a bartender, moved from San Diego bout a year ago &amp; need a room to rent since my roommate is moving out. Max budget is $750 &amp; will most likely stay 6+ months, hopefully i hear from you soon thanks! Gotta be out of here September 1st!We are searching for a responsible and reliable host for Japanese students asap. We are an agency that places hundreds of international students, and we are searching for immediate homes, The international students are vaccinated and will be attending Citrus College asap. We are looking for the right matching people that enjoys cultural exchange, long lasting memories and long term friendship from all over the world to host our international students and provide furnished private room with a study desk, chair, lamp, internet connection, 2 meals per day; a continental breakfast example as yogurt, toast, bagel, muffin, tea, coffee, milk, juice etc. self-prepared by the student every morning and an extra plate hot meals at night served by the host.<br>
+If you are interested, we want to talk to you immediately for a preliminary phone interview, application review, discuss the compensation follow up with a personal visit and inspection of the room. Please email us now! We are selecting today to host our student so reply asap as we can only reserve as few students, or it will be taken by the next interested host. Contact us Now!<br>
+<br>
+We have a referral fee of $200 each that will accept our students! Share the news with your family, friends, neighbors and co-workers that are needing extra money each month.Greetings, and thank You warmly. i am seeking a quiet &amp; inexpensive home from which to prepare, as i travel outside of said home to see &amp; meet with patients; as a healing Shaman, practicing &amp; providing Psycho-Spiritual/Emotional guidance counseling to Those in need. This ideally will be seperate, single living (house, bungalow, apartment) but am open to other possibilities too. Am an educated, middle age  with NO PETS. Very clean, very quiet, simple, respectful, caring &amp; friendly, with few possessions &amp; i pay cash on time. Am flexible with move in date &amp; any 'arrangements.'<br>
+Best Wishes :-DI am an Airbnb Superhost located in Los Angeles, CA. I’m looking to host more 1-2 BDR units, so if you have any units available, please message me, and I can break down how I operate a successful business (rental arbitrage) with no hassles.hello! I am a young professional looking for housing on the west side!<br>
+<br>
+My budget is flexible but under 2300 (would like to be well under that!!)<br>
+<br>
+I would prefer places with a garbage disposal for the sink :)<br>
+<br>
+I am very nice and clean, and am looking for the right place for me and my small, non-shedding, well-behaved emotional support poodle!<br>
+<br>
+I would prefer housing in Venice/Marina Del Ray/Santa Monica but am potentially open to the South Bay as well!Hello, my name is Greg and I am a working professional in Torrance. I am looking for a room to share in a house in the area. I am a clean, respectful non-drama type roomate. I have stable income and pay my rent on time. No drugs, no craziness... Can afford $1150 rent. Thanks.We are searching for a responsible and reliable host for Japanese students asap. We are an agency that places hundreds of international students, and we are searching for immediate homes, The international students are vaccinated and will be attending CSUN, Northridge, California State University Northridge asap. We are looking for the right matching people that enjoys cultural exchange, long lasting memories and long term friendship from all over the world to host our international students and provide furnished private room with a study desk, chair, lamp, internet connection, 2 meals per day; a continental breakfast example as yogurt, toast, bagel, muffin, tea, coffee, milk, juice etc. self-prepared by the student every morning and an extra plate hot meals at night served by the host.<br>
+If you are interested, we want to talk to you immediately for a preliminary phone interview, application review, discuss the compensation follow up with a personal visit and inspection of the room. Please email us now! We are selecting today to host our student so reply asap as we can only reserve as few students, or it will be taken by the next interested host. Contact us Now!<br>
+<br>
+We have a referral fee of $200 each that will accept our students! Share the news with your family, friends, neighbors and co-workers that are needing extra money each month.Looking for a safe place for me and my kid only with me on weekends. Hard times made me lose my house. Anyplace in OC I can rent I have a full time job and do no drugs. I'm a  modelHey! I'm 23yo, super chill, like going out occasionally in WeHo, surfing, meditating, tanning on the beach and some gym.<br>
+I work in SMC and i dont drive so I'd prefer a place near there and long term aswell!. I want to live in a place with like minded people and get to meet each other well 😊 but also need my time off from people sometimes and protect my energy. Just a heads up beforehand I'm from Greece - I don't have credit score - not able to get one -.<br>
+The most valid thing to check on me would be my Insta LMAO<br>
+You can contact me there or my number thanks!My names Dan Gennaro. I’m originally from Pennsylvania. I’m 33 years old. Single, Non smoker, excellent credit score, model tenant with excellent rental history and references. I was all set to move in to a different apartment and they went with a close friend at last minute. So now I’m scrambling. I’m hoping to live in the Santa Monica or Venice area.<br>
+<br>
+I am relocating from Arizona to Los Angeles to work for a nonprofit called Jewish family services, my start date is the second week of August. I have a bachelors in communication and a master's in public affairs. I’ve worked in various nonprofits and human service organizations for 9+ years in different roles involving case management/community outreach/job coaching.<br>
+<br>
+I describe myself as an introvert, but most ppl who know me wouldn’t say so… my mom used to call me “friendly freedo,” cause I talk to everyone. I relax by playing my acoustic guitar, writing, hiking, longboarding, slacklining. I also enjoy natural health and wellness. I love my tea and coffee and I also like learning about the health benefits of herbs and other natural remedies. I mountain bike on weekends and I'm hoping to try surfing. Regardless of what I'm doing, I'm typically outside and on the go. Weekends I like to go camping or take spontaneous road trips to new places. I would descrive myself as being pretty open minded, laid-back, non-confrontational. I'm a Pisces so I tend to go with the flow. I enjoy meeting ppl from different cultures and background and I have friends from all across the world that have been a blessing.<br>
+<br>
+Month to month is what I’m hoping to find, but I’m willing to sign lease if need be.<br>
+<br>
+Please lmk if you’re in need of a roomate situation. We can FaceTime or meet in person. Thanks so much<br>
+My husband and I are seeking a room for rent, studio, or guest house ranging anywhere from 700-1000. Month to month preferably or lease for up to six months to a year or more. Anywhere in Los Angeles, Burbank, Glendale, Pasadena, or San Fernando Valley. Move in date near the end of August or September 1st.<br>
+<br>
+We’re 31 and 23 years of age, drug free, Covid vaccinated, we have no pets, and no . We’re easy going, keep busy, active, kind friendly, clean people. He’s a personal trainer and work other jobs so barely in the house, and I work for a hotel as a live in associate, so I would only be at the room for rent 2 days out of each month for a 9 month contract beginning late August.<br>
+<br>
+Please serious inquiries only, no odd requests, and please be straight forward with your response. Let’s not waste each other’s time. We’ve come across way too many scams. Also, we won’t send you any money before seeing the room in person.I'm a senior , looking for a compatible roommate in same age range to look for and share a 2bd/2ba apt. in the Los Angeles County area. I have to move from the apt. I’m in because the rent is being consistently raised and is now out of my range. I would prefer my half of the rent to be between $600 - $700/mo.<br>
+<br>
+I am friendly and have a great sense of humor. I keep the apt. neat and clean and am looking for a roommate who will do the same. I do volunteer work for a non-profit org. I meditate and I'm somewhat of a writer. I have a friendly, adorable kitty and would prefer a kitty friendly roommate.<br>
+<br>
+Would love to hear from you if you think this is a situation that might work for you and discuss more details by phone or by personal email.<br>
+<br>
+PLEASE DO NOT REPLY WITH LINKS TO OTHER SITES. I don’t put my personal information on “roommate” sites or any other sites.Working at 's Hospital in Los Feliz area, looking for a 6 month lease from OCT22 - April23.<br>
+1 bedroom apartment with parking and indoor laundry. Happy to buy furnishings if included or semi-furnished apartment. No pets, my  might visit over Christmas. Ideal if utilities are included in rent. Looking for a hassle free 6 month lease or take over lease.
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7517269296</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-08-04T13:05:05-0400">2022-08-04 13:05</time></p>
+
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
