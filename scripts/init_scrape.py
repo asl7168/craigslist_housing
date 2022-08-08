@@ -19,4 +19,4 @@ def scrape_from(idx: int=0):
 			sleep(30)
 			scrape_from(locations.index(location))
 
-scrape_from(50)
+scrape_from()

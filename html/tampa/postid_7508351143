@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Beautiful brand new villa in Hudson! - apts/housing for rent -...">
+	<meta name="description" content="Beautiful brand new villa in Hudson! Property Address 13504 Crest Lake Drive | Hudson, FL 34669Available: 08/10/2022 Offered By Rent Solutions | Description To schedule a showing you may call German...">
+	<meta property="og:description" content="Beautiful brand new villa in Hudson! Property Address 13504 Crest Lake Drive | Hudson, FL 34669Available: 08/10/2022 Offered By Rent Solutions | Description To schedule a showing you may call German...">
+	<meta property="og:image" content="https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_600x450.jpg">
+	<meta property="og:url" content="https://tampa.craigslist.org/psc/apa/d/hudson-beautiful-brand-new-villa-in/7508351143.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 18-Sep-22 10:54:47 EDT">
+	<meta name="geo.position" content="28.350600;-82.628800">
+	<meta name="ICBM" content="28.350600, -82.628800">
+	<meta name="geo.placename" content="HUDSON">
+	<meta name="geo.region" content="US-FL">
+	<meta name="smartbanner:api" content="true">
+	<meta name="smartbanner:title" content="the craigslist app">
+	<meta name="smartbanner:author" content="what&#39;s old is new">
+	<meta name="smartbanner:icon-apple" content="/images/app_icon.png">
+	<meta name="smartbanner:icon-google" content="/images/app_icon.png">
+	<meta name="smartbanner:button" content="view">
+	<meta name="smartbanner:close-label" content="close">
+	<meta name="smartbanner:button-url-apple" content="https://apps.apple.com/us/app/craigslist/id1336642410">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<title>Beautiful brand new villa in Hudson! - apts/housing for rent -...</title>
+	<link rel="canonical" href="https://tampa.craigslist.org/psc/apa/d/hudson-beautiful-brand-new-villa-in/7508351143.html">
+
+
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"tampa.craigslist.org","@id":"https://tampa.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"pasco co","@id":"https://tampa.craigslist.org/psc/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://tampa.craigslist.org/search/psc/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://tampa.craigslist.org/search/psc/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Beautiful brand new villa in Hudson!","@id":"https://tampa.craigslist.org/psc/apa/d/hudson-beautiful-brand-new-villa-in/7508351143.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+<script type="application/ld+json" id="ld_posting_data" >
+    {"numberOfBedrooms":"3","longitude":"-82.628800","name":"Beautiful brand new villa in Hudson!","@context":"http://schema.org","latitude":"28.350600","numberOfBathroomsTotal":2,"address":{"streetAddress":"13504 Crest Lake Dr","addressCountry":"US","addressLocality":"Hudson","postalCode":"34669","addressRegion":"FL","@type":"PostalAddress"},"petsAllowed":true,"@type":"Apartment"}
+</script>
+
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        #no-js,
+        #unsupported-browser {
+            position: fixed;
+            z-index: 10000;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        #no-js p,
+        #unsupported-browser p {
+            color: black;
+            background-color: #FA8787;
+            opacity: 0.8;
+            text-align: center;
+            margin: 0;
+            border: 0;
+            padding: 1em;
+        }
+
+        #unsupported-browser {
+            display: none;
+        }
+
+        .unsupported-browser #unsupported-browser {
+            display: block;
+        }
+
+        .no-js header,
+        .no-js form,
+        .no-js .tsb,
+        .unsupported-browser header,
+        .unsupported-browser form,
+        .unsupported-browser .tsb {
+            display: none;
+        }
+
+        #curtain {
+            display: none;
+            position: fixed;
+            z-index: 9000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .show-curtain #curtain {
+            display: block;
+        }
+
+        #curtain .cover,
+        #curtain .content {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #curtain .cover {
+            z-index: 1;
+            background-color: white;
+        }
+
+        .show-curtain #curtain .cover {
+            opacity: 0.7;
+        }
+
+        .show-curtain.clear #curtain .cover {
+            opacity: 0;
+        }
+
+        .show-curtain.opaque #curtain .cover {
+            opacity: 1;
+        }
+
+        #curtain .content {
+            z-index: 2;
+            background: transparent;
+            color: #00E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+
+        .pacify #curtain .icom- {
+            font-size: 3em;
+            animation: rotate 2s infinite linear;
+        }
+
+        .pacify #curtain .icom-:after {
+            content: "\eb23";
+        }
+
+        #curtain .text {
+            display: none;
+            font-size: 2em;
+        }
+
+        .loading #curtain .text.loading,
+        .reading #curtain .text.reading,
+        .writing #curtain .text.writing,
+        .saving #curtain .text.saving,
+        .searching #curtain .text.searching,
+        .unrecoverable #curtain .text.unrecoverable,
+        .message #curtain .text.message {
+            display: block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/4aa05aa5430548804d0c2c9dc3363f638c857c1f.js" ></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+defaultLocale: "en_US",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7508351143
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="no-js show-curtain opaque posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+
+    <div id="curtain">
+        <div class="cover"></div>
+        <div class="content">
+            <div class="icom-"></div>
+            <div class="text loading">loading</div>
+            <div class="text reading">reading</div>
+            <div class="text writing">writing</div>
+            <div class="text saving">saving</div>
+            <div class="text searching">searching</div>
+            <div class="text unrecoverable">
+                There was an error loading the page; please try to
+                <a id="cl-unrecoverable-hard-refresh" href="#" onclick="location.reload(true);">refresh the page.</a>
+            </div>
+            <div class="text message"></div>
+        </div>
+    </div>
+    <noscript id="no-js"><div>
+        <p>We've detected that JavaScript is not enabled in your browser.</p>
+        <p>You must enable JavaScript to use craigslist.</p>
+    </div></noscript>
+    <div id="unsupported-browser">
+        <p>We've detected you are using a browser that is missing critical features.</p>
+        <p>Please visit craigslist from a modern browser.</p>
+    </div>
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">tampa bay</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/psc/">pasco co</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/psc/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/psc/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/tpa">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <div class="to-banish-page">
+                <a href="#" class="to-banish-page-link">
+                    <span class="icon icon-trash red" aria-hidden="true"></span>
+                    <span class="banished_count"></span>
+                    <span class="discards-label"> hidden</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+    <div class="breadcrumbs">
+
+pasco co            &gt;
+
+apartments / housing for rent    </div>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/tpa/apa/7508351143/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    <div class="action share-action">
+        <div class="share" id="sharebutton-container" ></div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2022-07-13T14:38:36-0400">
+                        2022-07-13 14:38
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$2,050</span> <span class="housing">/ 3br - 1337ft<sup>2</sup> - </span><span id="titletextonly">Beautiful brand new villa in Hudson!</span><small> (HUDSON)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lsaquo;</span>
+        <span class="slider-info">image 1 of 17</span>
+        <span class="slider-forward arrow">&rsaquo;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_gJ7ookYg3NRz_08o06i" data-imgid="gJ7ookYg3NRz_08o06i" class="slide first visible">
+                    <img src="https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_fUgEmLSYgAXz_08o06i" data-imgid="fUgEmLSYgAXz_08o06i" class="slide">
+                </div>
+                <div id="3_image_gQIToGkwg3Nz_08o06i" data-imgid="gQIToGkwg3Nz_08o06i" class="slide">
+                </div>
+                <div id="4_image_dVGaRiwwWk2z_08o06i" data-imgid="dVGaRiwwWk2z_08o06i" class="slide">
+                </div>
+                <div id="5_image_7o7OcLwybcKz_08o06i" data-imgid="7o7OcLwybcKz_08o06i" class="slide">
+                </div>
+                <div id="6_image_dYBmkxOsUSgz_08o06i" data-imgid="dYBmkxOsUSgz_08o06i" class="slide">
+                </div>
+                <div id="7_image_63YwZB1akW0z_08o06i" data-imgid="63YwZB1akW0z_08o06i" class="slide">
+                </div>
+                <div id="8_image_9GV049cIumcz_08o06i" data-imgid="9GV049cIumcz_08o06i" class="slide">
+                </div>
+                <div id="9_image_94mYKo6pan5z_08o06i" data-imgid="94mYKo6pan5z_08o06i" class="slide">
+                </div>
+                <div id="10_image_aEiFvTZLbzAz_08o06i" data-imgid="aEiFvTZLbzAz_08o06i" class="slide">
+                </div>
+                <div id="11_image_671XvAgU1fxz_08o06i" data-imgid="671XvAgU1fxz_08o06i" class="slide">
+                </div>
+                <div id="12_image_a4OeL2N6fOuz_08o06i" data-imgid="a4OeL2N6fOuz_08o06i" class="slide">
+                </div>
+                <div id="13_image_1wTepJ0K7fLz_08o06i" data-imgid="1wTepJ0K7fLz_08o06i" class="slide">
+                </div>
+                <div id="14_image_iYah0P3qaT5z_08o06i" data-imgid="iYah0P3qaT5z_08o06i" class="slide">
+                </div>
+                <div id="15_image_f8h6RLAg3fSz_08o06i" data-imgid="f8h6RLAg3fSz_08o06i" class="slide">
+                </div>
+                <div id="16_image_h1RiRHaKFs5z_08o06i" data-imgid="h1RiRHaKFs5z_08o06i" class="slide">
+                </div>
+                <div id="17_image_kdBJZ2VE0wOz_08o06i" data-imgid="kdBJZ2VE0wOz_08o06i" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_gJ7ookYg3NRz_08o06i" class="thumb" data-imgid="gJ7ookYg3NRz_08o06i" href="https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_600x450.jpg" title="1"><img src="https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_fUgEmLSYgAXz_08o06i" class="thumb" data-imgid="fUgEmLSYgAXz_08o06i" href="https://images.craigslist.org/00o0o_fUgEmLSYgAXz_08o06i_600x450.jpg" title="2"><img src="https://images.craigslist.org/00o0o_fUgEmLSYgAXz_08o06i_50x50c.jpg" alt="2"></a><a id="3_thumb_gQIToGkwg3Nz_08o06i" class="thumb" data-imgid="gQIToGkwg3Nz_08o06i" href="https://images.craigslist.org/00L0L_gQIToGkwg3Nz_08o06i_600x450.jpg" title="3"><img src="https://images.craigslist.org/00L0L_gQIToGkwg3Nz_08o06i_50x50c.jpg" alt="3"></a><a id="4_thumb_dVGaRiwwWk2z_08o06i" class="thumb" data-imgid="dVGaRiwwWk2z_08o06i" href="https://images.craigslist.org/00s0s_dVGaRiwwWk2z_08o06i_600x450.jpg" title="4"><img src="https://images.craigslist.org/00s0s_dVGaRiwwWk2z_08o06i_50x50c.jpg" alt="4"></a><a id="5_thumb_7o7OcLwybcKz_08o06i" class="thumb" data-imgid="7o7OcLwybcKz_08o06i" href="https://images.craigslist.org/00n0n_7o7OcLwybcKz_08o06i_600x450.jpg" title="5"><img src="https://images.craigslist.org/00n0n_7o7OcLwybcKz_08o06i_50x50c.jpg" alt="5"></a><a id="6_thumb_dYBmkxOsUSgz_08o06i" class="thumb" data-imgid="dYBmkxOsUSgz_08o06i" href="https://images.craigslist.org/00w0w_dYBmkxOsUSgz_08o06i_600x450.jpg" title="6"><img src="https://images.craigslist.org/00w0w_dYBmkxOsUSgz_08o06i_50x50c.jpg" alt="6"></a><a id="7_thumb_63YwZB1akW0z_08o06i" class="thumb" data-imgid="63YwZB1akW0z_08o06i" href="https://images.craigslist.org/00b0b_63YwZB1akW0z_08o06i_600x450.jpg" title="7"><img src="https://images.craigslist.org/00b0b_63YwZB1akW0z_08o06i_50x50c.jpg" alt="7"></a><a id="8_thumb_9GV049cIumcz_08o06i" class="thumb" data-imgid="9GV049cIumcz_08o06i" href="https://images.craigslist.org/00L0L_9GV049cIumcz_08o06i_600x450.jpg" title="8"><img src="https://images.craigslist.org/00L0L_9GV049cIumcz_08o06i_50x50c.jpg" alt="8"></a><a id="9_thumb_94mYKo6pan5z_08o06i" class="thumb" data-imgid="94mYKo6pan5z_08o06i" href="https://images.craigslist.org/00f0f_94mYKo6pan5z_08o06i_600x450.jpg" title="9"><img src="https://images.craigslist.org/00f0f_94mYKo6pan5z_08o06i_50x50c.jpg" alt="9"></a><a id="10_thumb_aEiFvTZLbzAz_08o06i" class="thumb" data-imgid="aEiFvTZLbzAz_08o06i" href="https://images.craigslist.org/00303_aEiFvTZLbzAz_08o06i_600x450.jpg" title="10"><img src="https://images.craigslist.org/00303_aEiFvTZLbzAz_08o06i_50x50c.jpg" alt="10"></a><a id="11_thumb_671XvAgU1fxz_08o06i" class="thumb" data-imgid="671XvAgU1fxz_08o06i" href="https://images.craigslist.org/01414_671XvAgU1fxz_08o06i_600x450.jpg" title="11"><img src="https://images.craigslist.org/01414_671XvAgU1fxz_08o06i_50x50c.jpg" alt="11"></a><a id="12_thumb_a4OeL2N6fOuz_08o06i" class="thumb" data-imgid="a4OeL2N6fOuz_08o06i" href="https://images.craigslist.org/00q0q_a4OeL2N6fOuz_08o06i_600x450.jpg" title="12"><img src="https://images.craigslist.org/00q0q_a4OeL2N6fOuz_08o06i_50x50c.jpg" alt="12"></a><a id="13_thumb_1wTepJ0K7fLz_08o06i" class="thumb" data-imgid="1wTepJ0K7fLz_08o06i" href="https://images.craigslist.org/00Q0Q_1wTepJ0K7fLz_08o06i_600x450.jpg" title="13"><img src="https://images.craigslist.org/00Q0Q_1wTepJ0K7fLz_08o06i_50x50c.jpg" alt="13"></a><a id="14_thumb_iYah0P3qaT5z_08o06i" class="thumb" data-imgid="iYah0P3qaT5z_08o06i" href="https://images.craigslist.org/00q0q_iYah0P3qaT5z_08o06i_600x450.jpg" title="14"><img src="https://images.craigslist.org/00q0q_iYah0P3qaT5z_08o06i_50x50c.jpg" alt="14"></a><a id="15_thumb_f8h6RLAg3fSz_08o06i" class="thumb" data-imgid="f8h6RLAg3fSz_08o06i" href="https://images.craigslist.org/00F0F_f8h6RLAg3fSz_08o06i_600x450.jpg" title="15"><img src="https://images.craigslist.org/00F0F_f8h6RLAg3fSz_08o06i_50x50c.jpg" alt="15"></a><a id="16_thumb_h1RiRHaKFs5z_08o06i" class="thumb" data-imgid="h1RiRHaKFs5z_08o06i" href="https://images.craigslist.org/00W0W_h1RiRHaKFs5z_08o06i_600x450.jpg" title="16"><img src="https://images.craigslist.org/00W0W_h1RiRHaKFs5z_08o06i_50x50c.jpg" alt="16"></a><a id="17_thumb_kdBJZ2VE0wOz_08o06i" class="thumb" data-imgid="kdBJZ2VE0wOz_08o06i" href="https://images.craigslist.org/00V0V_kdBJZ2VE0wOz_08o06i_600x450.jpg" title="17"><img src="https://images.craigslist.org/00V0V_kdBJZ2VE0wOz_08o06i_50x50c.jpg" alt="17"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"gJ7ookYg3NRz_08o06i","url":"https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00U0U_gJ7ookYg3NRz_08o06i_50x50c.jpg","imgid":"3:00U0U_gJ7ookYg3NRz_08o06i"},{"shortid":"fUgEmLSYgAXz_08o06i","url":"https://images.craigslist.org/00o0o_fUgEmLSYgAXz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00o0o_fUgEmLSYgAXz_08o06i_50x50c.jpg","imgid":"3:00o0o_fUgEmLSYgAXz_08o06i"},{"shortid":"gQIToGkwg3Nz_08o06i","url":"https://images.craigslist.org/00L0L_gQIToGkwg3Nz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00L0L_gQIToGkwg3Nz_08o06i_50x50c.jpg","imgid":"3:00L0L_gQIToGkwg3Nz_08o06i"},{"shortid":"dVGaRiwwWk2z_08o06i","url":"https://images.craigslist.org/00s0s_dVGaRiwwWk2z_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00s0s_dVGaRiwwWk2z_08o06i_50x50c.jpg","imgid":"3:00s0s_dVGaRiwwWk2z_08o06i"},{"shortid":"7o7OcLwybcKz_08o06i","url":"https://images.craigslist.org/00n0n_7o7OcLwybcKz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00n0n_7o7OcLwybcKz_08o06i_50x50c.jpg","imgid":"3:00n0n_7o7OcLwybcKz_08o06i"},{"shortid":"dYBmkxOsUSgz_08o06i","url":"https://images.craigslist.org/00w0w_dYBmkxOsUSgz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00w0w_dYBmkxOsUSgz_08o06i_50x50c.jpg","imgid":"3:00w0w_dYBmkxOsUSgz_08o06i"},{"shortid":"63YwZB1akW0z_08o06i","url":"https://images.craigslist.org/00b0b_63YwZB1akW0z_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00b0b_63YwZB1akW0z_08o06i_50x50c.jpg","imgid":"3:00b0b_63YwZB1akW0z_08o06i"},{"shortid":"9GV049cIumcz_08o06i","url":"https://images.craigslist.org/00L0L_9GV049cIumcz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00L0L_9GV049cIumcz_08o06i_50x50c.jpg","imgid":"3:00L0L_9GV049cIumcz_08o06i"},{"shortid":"94mYKo6pan5z_08o06i","url":"https://images.craigslist.org/00f0f_94mYKo6pan5z_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00f0f_94mYKo6pan5z_08o06i_50x50c.jpg","imgid":"3:00f0f_94mYKo6pan5z_08o06i"},{"shortid":"aEiFvTZLbzAz_08o06i","url":"https://images.craigslist.org/00303_aEiFvTZLbzAz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00303_aEiFvTZLbzAz_08o06i_50x50c.jpg","imgid":"3:00303_aEiFvTZLbzAz_08o06i"},{"shortid":"671XvAgU1fxz_08o06i","url":"https://images.craigslist.org/01414_671XvAgU1fxz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/01414_671XvAgU1fxz_08o06i_50x50c.jpg","imgid":"3:01414_671XvAgU1fxz_08o06i"},{"shortid":"a4OeL2N6fOuz_08o06i","url":"https://images.craigslist.org/00q0q_a4OeL2N6fOuz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00q0q_a4OeL2N6fOuz_08o06i_50x50c.jpg","imgid":"3:00q0q_a4OeL2N6fOuz_08o06i"},{"shortid":"1wTepJ0K7fLz_08o06i","url":"https://images.craigslist.org/00Q0Q_1wTepJ0K7fLz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00Q0Q_1wTepJ0K7fLz_08o06i_50x50c.jpg","imgid":"3:00Q0Q_1wTepJ0K7fLz_08o06i"},{"shortid":"iYah0P3qaT5z_08o06i","url":"https://images.craigslist.org/00q0q_iYah0P3qaT5z_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00q0q_iYah0P3qaT5z_08o06i_50x50c.jpg","imgid":"3:00q0q_iYah0P3qaT5z_08o06i"},{"shortid":"f8h6RLAg3fSz_08o06i","url":"https://images.craigslist.org/00F0F_f8h6RLAg3fSz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00F0F_f8h6RLAg3fSz_08o06i_50x50c.jpg","imgid":"3:00F0F_f8h6RLAg3fSz_08o06i"},{"shortid":"h1RiRHaKFs5z_08o06i","url":"https://images.craigslist.org/00W0W_h1RiRHaKFs5z_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00W0W_h1RiRHaKFs5z_08o06i_50x50c.jpg","imgid":"3:00W0W_h1RiRHaKFs5z_08o06i"},{"shortid":"kdBJZ2VE0wOz_08o06i","url":"https://images.craigslist.org/00V0V_kdBJZ2VE0wOz_08o06i_600x450.jpg","thumb":"https://images.craigslist.org/00V0V_kdBJZ2VE0wOz_08o06i_50x50c.jpg","imgid":"3:00V0V_kdBJZ2VE0wOz_08o06i"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="28.350600" data-longitude="-82.628800" data-accuracy="22"></div>
+    <div class="mapaddress">13504 Crest Lake Dr</div>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>3BR</b> / <b>2Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>1337</b>ft<sup>2</sup></span>
+
+
+
+
+            <span class="housing_movein_now property_date shared-line-bubble" data-date="2022-07-13" data-today_msg="available now">available jul 13</span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>duplex</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>attached garage</span>
+            <br>
+
+
+
+
+            <span>rent period: <b>monthly</b></span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://tampa.craigslist.org/psc/apa/d/hudson-beautiful-brand-new-villa-in/7508351143.html"></div>
+        </div>
+<big>
+    <big>
+      <b>Beautiful brand new villa in Hudson!</b>
+    </big>
+  </big>
+  <br>
+  <br>
+<b>Property Address</b>
+<br>
+13504 Crest Lake Drive | Hudson, FL 34669
+<br>
+
+  Available: 08/10/2022
+
+<br>
+<br>
+<b>Offered By</b>
+<br>
+Rent Solutions |  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/tpa/apa/7508351143/__SERVICE_ID__" rel="nofollow">show contact info</a>
+
+<br>
+<br>
+<hr>
+<br>
+  <b>Description</b>
+  <blockquote>
+    To schedule a showing you may call German at  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/tpa/apa/7508351143/__SERVICE_ID__" rel="nofollow">show contact info</a>
+
+<br>
+<br>Beautiful like new 3 bedroom 2 bathroom 2 car garage villa in nice Lakeside community in Hudson!  The master bedroom has a walk-in closet and master bath with double sinks. Laundry room is equipped with washer and dryer. Enjoy family dinners in the eat-in kitchen which features pretty white cabinets and stainless steel appliances. Nice living/dining room open floor plan that leads to the brick paved patio with great views of the pond. Easy access to supermarket and Suncoast Parkway which puts you minutes away from Tampa.
+<br>
+<br>If you decide to apply for one of our properties, there is a $75 per adult application fee that is non-refundable. There is also a $150.00 Lease Admin Fee due at move in along with the Security Deposit and non-refundable pet fee if applicable.  Anyone aged 18 or above who will be residing at the property must apply. Please note the following: (1) we will check your credit report; (2) we will check for any past evictions; (3) we will verify your employment, if applicable; (4) your personal income must be sufficient and verifiable; (5) we will verify your previous landlord references; (6) we will perform a background screening; (7) some associations also have application fees. We encourage you not to apply if you have credit scores below 550, have ever been evicted or have bad rental history.
+<br>
+<br>For any additional questions contact German with Rent Solutions at  <a href="#" class="show-contact" title="click to show contact info" data-href="/reply/tpa/apa/7508351143/__SERVICE_ID__" rel="nofollow">show contact info</a>
+.
+  </blockquote>
+
+  <b>Amenities</b>
+  <ul>
+      <li>Ceiling fans</li>
+      <li>Eat-in Kitchen</li>
+      <li>Large Closets</li>
+      <li>Mini Blinds</li>
+      <li>Pantry</li>
+      <li>Patio</li>
+      <li>Walk in Closets</li>
+      <li>Community Pool</li>
+      <li>Attached Garage</li>
+  </ul>
+
+  <b>Details</b>
+  <ul>
+
+      <li>Beds/Baths: 3BD/2.0BA</li>
+      <li>Square Feet: 1,337</li>
+
+  </ul>
+
+  <b>Rental Terms</b>
+  <ul>
+
+    <li>Rent: $2,050.00 
+
+    </li><li>Available: 08/10/2022
+    </li><li>Application Fee: $75.00
+    </li><li>Security Deposit: $2,050.00
+
+  </li></ul>
+
+  <b>Pet Policy: Max of 2 dogs 25 Lbs or under with owners approval with a $350 non refundable pet fee.</b>
+  <ul>
+
+      <li>Cats not allowed</li>
+      <li>Small dogs allowed</li>
+
+  </ul>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7508351143</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2022-07-13T14:38:36-0400">2022-07-13 14:38</time></p>
+
+                <p class="postinginfo reveal">updated: <time class="date timeago" datetime="2022-08-04T10:49:47-0400">2022-08-04 10:49</time></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2022 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist app</a></li>
+        <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl is hiring</a></li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

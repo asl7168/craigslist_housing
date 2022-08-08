@@ -10,7 +10,7 @@ locations = ['chicago', 'atlanta', 'boston', 'cleveland', 'denver', 'losangeles'
 with open("/projects/p31502/projects/craigslist/proxies/webshare_proxies.txt") as f: proxies = f.readlines()
 
 def scrape_from(idx: int=0):
-	for location in locations[idx:50]:
+	for location in locations[idx:]:
 		try:
 			pcpy = proxies.copy()
 			do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)
