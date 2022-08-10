@@ -1,0 +1,262 @@
+﻿OBJECTID *,mention,pri_neigh,FREQUENCY,COUNT_pri_neigh,COUNT_mention
+1,Albany Park,Albany Park,37,37,37
+2,Andersonville,Andersonville,5,5,5
+3,Andersonville,Edgewater,5,5,5
+4,Andersonville,Lake View,1,1,1
+5,Andersonville,Lincoln Square,3,3,3
+6,Andersonville,North Park,2,2,2
+7,Andersonville,Uptown,7,7,7
+8,Andersonville,West Ridge,1,1,1
+9,Ashburn,<Null>,1,<Null>,1
+10,Auburn Gresham,Auburn Gresham,1,1,1
+11,Austin,<Null>,4,<Null>,4
+12,Austin,Auburn Gresham,5,5,5
+13,Austin,Austin,8,8,8
+14,Austin,Belmont Cragin,1,1,1
+15,Austin,Chatham,1,1,1
+16,Austin,Garfield Park,3,3,3
+17,Austin,Humboldt Park,3,3,3
+18,Austin,Jefferson Park,1,1,1
+19,Austin,Kenwood,2,2,2
+20,Austin,Roseland,2,2,2
+21,Austin,South Chicago,1,1,1
+22,Austin,South Shore,6,6,6
+23,Austin,Washington Park,1,1,1
+24,Austin,Woodlawn,1,1,1
+25,Avalon Park,Chatham,1,1,1
+26,Avondale,Avondale,5,5,5
+27,Avondale,Irving Park,1,1,1
+28,Belmont Cragin,Belmont Cragin,6,6,6
+29,Belmont Cragin,Portage Park,1,1,1
+30,Beverly,<Null>,3,<Null>,3
+31,Beverly,Beverly,1,1,1
+32,Boystown,Boystown,2,2,2
+33,Boystown,Lake View,1,1,1
+34,Bridgeport,<Null>,1,<Null>,1
+35,Bridgeport,Armour Square,1,1,1
+36,Bridgeport,Bridgeport,5,5,5
+37,Bridgeport,Kenwood,1,1,1
+38,Bridgeport,Mckinley Park,1,1,1
+39,Bridgeport,New City,1,1,1
+40,Bucktown,<Null>,1,<Null>,1
+41,Bucktown,Avondale,3,3,3
+42,Bucktown,Bucktown,19,19,19
+43,Bucktown,Humboldt Park,10,10,10
+44,Bucktown,Logan Square,17,17,17
+45,Bucktown,Wicker Park,8,8,8
+46,Chatham,Auburn Gresham,2,2,2
+47,Chatham,Chatham,5,5,5
+48,Chatham,Grand Crossing,1,1,1
+49,Chicago Lawn,Chicago Lawn,3,3,3
+50,Chinatown,Armour Square,6,6,6
+51,Chinatown,Douglas,1,1,1
+52,Chinatown,Lower West Side,3,3,3
+53,Clearing,<Null>,1,<Null>,1
+54,Clearing,Chicago Lawn,1,1,1
+55,Clearing,Clearing,1,1,1
+56,Clearing,Garfield Ridge,1,1,1
+57,Clearing,West Elsdon,1,1,1
+58,Douglas,Grand Boulevard,11,11,11
+59,Douglas,Little Village,3,3,3
+60,Douglas,North Lawndale,2,2,2
+61,East Side,Humboldt Park,1,1,1
+62,East Side,Loop,1,1,1
+63,East Village,East Village,1,1,1
+64,Edgewater,Edgewater,48,48,48
+65,Edgewater,Rogers Park,1,1,1
+66,Edgewater,Uptown,6,6,6
+67,Edgewater,West Ridge,4,4,4
+68,Edison Park,Edison Park,2,2,2
+69,Edison Park,Norwood Park,1,1,1
+70,Englewood,Englewood,1,1,1
+71,Gage Park,Gage Park,1,1,1
+72,Galewood,Belmont Cragin,1,1,1
+73,Garfield Park,Garfield Park,1,1,1
+74,Garfield Park,Humboldt Park,1,1,1
+75,Gold Coast,Edgewater,3,3,3
+76,Gold Coast,Gold Coast,12,12,12
+77,Gold Coast,Lake View,1,1,1
+78,Gold Coast,Old Town,3,3,3
+79,Gold Coast,River North,7,7,7
+80,Gold Coast,Rush & Division,8,8,8
+81,Gold Coast,Streeterville,5,5,5
+82,Grand Crossing,Grand Crossing,2,2,2
+83,Grant Park,Loop,3,3,3
+84,Grant Park,Near South Side,3,3,3
+85,Grant Park,Printers Row,6,6,6
+86,Greektown,West Loop,1,1,1
+87,Humboldt Park,Humboldt Park,7,7,7
+88,Humboldt Park,Lake View,1,1,1
+89,Humboldt Park,Logan Square,1,1,1
+90,Hyde Park,Andersonville,1,1,1
+91,Hyde Park,Hyde Park,6,6,6
+92,Hyde Park,Jackson Park,1,1,1
+93,Hyde Park,Kenwood,1,1,1
+94,Hyde Park,South Shore,7,7,7
+95,Hyde Park,Woodlawn,2,2,2
+96,Irving Park,<Null>,3,<Null>,3
+97,Irving Park,Albany Park,1,1,1
+98,Irving Park,Avondale,5,5,5
+99,Irving Park,Irving Park,6,6,6
+100,Irving Park,Lake View,13,13,13
+101,Irving Park,Lincoln Square,1,1,1
+102,Irving Park,Logan Square,1,1,1
+103,Irving Park,North Center,1,1,1
+104,Irving Park,Wrigleyville,2,2,2
+105,Jackson Park,Chatham,1,1,1
+106,Jefferson Park,Jefferson Park,3,3,3
+107,Jefferson Park,Portage Park,4,4,4
+108,Kenwood,Grand Boulevard,1,1,1
+109,Kenwood,Woodlawn,1,1,1
+110,Lake View,<Null>,1,<Null>,1
+111,Lake View,Boystown,2,2,2
+112,Lake View,Edgewater,3,3,3
+113,Lake View,Lake View,7,7,7
+114,Lake View,Near South Side,2,2,2
+115,Lake View,North Center,1,1,1
+116,Lake View,Printers Row,1,1,1
+117,Lake View,Streeterville,3,3,3
+118,Lake View,Uptown,2,2,2
+119,Lincoln Park,Lake View,23,23,23
+120,Lincoln Park,Lincoln Park,77,77,77
+121,Lincoln Park,North Center,4,4,4
+122,Lincoln Park,Old Town,3,3,3
+123,Lincoln Park,River North,1,1,1
+124,Lincoln Park,Sheffield & DePaul,11,11,11
+125,Lincoln Park,Uptown,2,2,2
+126,Lincoln Square,Albany Park,2,2,2
+127,Lincoln Square,Lincoln Square,17,17,17
+128,Lincoln Square,North Center,2,2,2
+129,Little Village,Little Village,2,2,2
+130,Little Village,Lower West Side,1,1,1
+131,Logan Square,Avondale,14,14,14
+132,Logan Square,Bucktown,1,1,1
+133,Logan Square,Hermosa,2,2,2
+134,Logan Square,Humboldt Park,3,3,3
+135,Logan Square,Logan Square,61,61,61
+136,Logan Square,Wrigleyville,1,1,1
+137,Loop,<Null>,2,<Null>,2
+138,Loop,Albany Park,1,1,1
+139,Loop,Armour Square,2,2,2
+140,Loop,Belmont Cragin,2,2,2
+141,Loop,Calumet Heights,1,1,1
+142,Loop,Humboldt Park,1,1,1
+143,Loop,Lake View,8,8,8
+144,Loop,"Little Italy, UIC",2,2,2
+145,Loop,Logan Square,1,1,1
+146,Loop,Loop,7,7,7
+147,Loop,Lower West Side,2,2,2
+148,Loop,Near South Side,1,1,1
+149,Loop,Printers Row,13,13,13
+150,Loop,River North,3,3,3
+151,Loop,Streeterville,1,1,1
+152,Loop,United Center,1,1,1
+153,Loop,West Loop,3,3,3
+154,Lower West Side,"Little Italy, UIC",2,2,2
+155,Magnificent Mile,Loop,1,1,1
+156,Millenium Park,River North,1,1,1
+157,North Center,Lake View,1,1,1
+158,North Center,North Center,4,4,4
+159,North Park,Albany Park,1,1,1
+160,North Park,North Park,1,1,1
+161,Norwood Park,Norwood Park,1,1,1
+162,O'Hare,<Null>,30,<Null>,30
+163,O'Hare,Humboldt Park,1,1,1
+164,O'Hare,Wicker Park,1,1,1
+165,O'Hare,Woodlawn,1,1,1
+166,Old Town,Edgewater,2,2,2
+167,Old Town,Old Town,8,8,8
+168,Old Town,River North,6,6,6
+169,Old Town,West Town,2,2,2
+170,Portage Park,Portage Park,4,4,4
+171,Printers Row,Printers Row,1,1,1
+172,Pullman,Pullman,1,1,1
+173,River North,<Null>,1,<Null>,1
+174,River North,Armour Square,2,2,2
+175,River North,Boystown,2,2,2
+176,River North,Bucktown,1,1,1
+177,River North,Edgewater,5,5,5
+178,River North,Gold Coast,3,3,3
+179,River North,Lake View,1,1,1
+180,River North,"Little Italy, UIC",7,7,7
+181,River North,Little Village,1,1,1
+182,River North,Logan Square,1,1,1
+183,River North,Loop,10,10,10
+184,River North,Lower West Side,4,4,4
+185,River North,Near South Side,12,12,12
+186,River North,North Park,1,1,1
+187,River North,Old Town,1,1,1
+188,River North,Printers Row,7,7,7
+189,River North,River North,56,56,56
+190,River North,Rogers Park,4,4,4
+191,River North,Rush & Division,7,7,7
+192,River North,Streeterville,7,7,7
+193,River North,Uptown,4,4,4
+194,River North,West Loop,17,17,17
+195,River North,West Ridge,2,2,2
+196,River North,West Town,4,4,4
+197,River North,Wrigleyville,1,1,1
+198,Riverdale,<Null>,2,<Null>,2
+199,Riverdale,Riverdale,1,1,1
+200,Rogers Park,<Null>,5,<Null>,5
+201,Rogers Park,North Park,1,1,1
+202,Rogers Park,Rogers Park,57,57,57
+203,Rogers Park,West Ridge,10,10,10
+204,Roseland,Roseland,1,1,1
+205,South Chicago,<Null>,2,<Null>,2
+206,South Deering,<Null>,11,<Null>,11
+207,South Shore,South Shore,30,30,30
+208,Streeterville,Loop,5,5,5
+209,Streeterville,Magnificent Mile,1,1,1
+210,Streeterville,North Lawndale,2,2,2
+211,Streeterville,Streeterville,11,11,11
+212,Streeterville,West Loop,1,1,1
+213,Ukrainian Village,East Village,5,5,5
+214,Ukrainian Village,Garfield Park,6,6,6
+215,Ukrainian Village,Humboldt Park,4,4,4
+216,Ukrainian Village,Ukrainian Village,6,6,6
+217,Ukrainian Village,United Center,2,2,2
+218,Ukrainian Village,West Town,7,7,7
+219,United Center,United Center,3,3,3
+220,Uptown,Edgewater,4,4,4
+221,Uptown,Lake View,1,1,1
+222,Uptown,Rogers Park,2,2,2
+223,Uptown,Uptown,26,26,26
+224,Washington Park,Washington Park,1,1,1
+225,Washington Park,Woodlawn,2,2,2
+226,West Loop,<Null>,2,<Null>,2
+227,West Loop,"Little Italy, UIC",5,5,5
+228,West Loop,Loop,2,2,2
+229,West Loop,Lower West Side,3,3,3
+230,West Loop,River North,1,1,1
+231,West Loop,West Loop,17,17,17
+232,West Loop,West Town,3,3,3
+233,West Loop,Wicker Park,1,1,1
+234,West Ridge,<Null>,2,<Null>,2
+235,West Ridge,Lincoln Square,1,1,1
+236,West Ridge,West Ridge,2,2,2
+237,West Town,Humboldt Park,2,2,2
+238,West Town,River North,1,1,1
+239,West Town,Ukrainian Village,7,7,7
+240,West Town,West Town,6,6,6
+241,Wicker Park,Avondale,1,1,1
+242,Wicker Park,Bucktown,3,3,3
+243,Wicker Park,East Village,3,3,3
+244,Wicker Park,Humboldt Park,3,3,3
+245,Wicker Park,Irving Park,3,3,3
+246,Wicker Park,Logan Square,1,1,1
+247,Wicker Park,North Center,1,1,1
+248,Wicker Park,River North,1,1,1
+249,Wicker Park,Ukrainian Village,4,4,4
+250,Wicker Park,West Town,5,5,5
+251,Wicker Park,Wicker Park,37,37,37
+252,Woodlawn,Chatham,1,1,1
+253,Woodlawn,Grand Crossing,8,8,8
+254,Woodlawn,Kenwood,1,1,1
+255,Woodlawn,Woodlawn,2,2,2
+256,Wrigleyville,Boystown,2,2,2
+257,Wrigleyville,Edgewater,3,3,3
+258,Wrigleyville,Lake View,21,21,21
+259,Wrigleyville,North Center,3,3,3
+260,Wrigleyville,Uptown,3,3,3
+261,Wrigleyville,Wrigleyville,15,15,15

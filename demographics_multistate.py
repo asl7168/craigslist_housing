@@ -186,15 +186,48 @@ def remove_NA(read_path,write_path):
          rows.append(row)
          data[str(row['post_id'])] = row
     
-    count = 0
     with open(write_path,'w') as outfile:
         fieldnames = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"]
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
         
         for row in rows:
-          if row['latitude'] != 'NA' and row['longitude'] !='NA':
-            count +=1
+          if row['latitude'] != 'NA' and row['longitude'] !='NA' and row.get('GEOID',None)==None:
+            obj = {
+              "post_id":row['post_id'],
+              'title':row['title'],
+              'price':row['price'],
+              'neighborhood':row['neighborhood'],
+              'map_address':row['map_address'],
+              'street_address':row['street_address'],
+              'latitude':row['latitude'],
+              'longitude':row['longitude'],
+              'data_accuracy':row['data_accuracy'],
+              'posted':row['posted'],
+              'updated':row['updated'],
+              'repost_dates':row['repost_dates'],
+              'available':row['available'],
+              'housing_type':row['housing_type'],
+              'bedrooms':row['bedrooms'],
+              'bathrooms':row['bathrooms'],
+              'laundry':row['laundry'],
+              'parking':row['parking'],
+              'sqft':row['sqft'],
+              'flooring':row['flooring'],
+              'rent_period':row['rent_period'],
+              'app_fee':row['app_fee'],
+              'broker_fee':row['broker_fee'],
+              'cats_ok':row['cats_ok'],
+              'dogs_ok':row['dogs_ok'],
+              "no_smoking":row['no_smoking'], 
+              "furnished":row['furnished'], 
+              "wheelchair_access":row['wheelchair_access'], 
+              "AC":row['AC'], 
+              "EV_charging":row['EV_charging'], 
+              "posting_body":row['posting_body'], 
+              "images":row['images'], 
+              "url":row['url']
+            }
             writer.writerow(row)
     return data
 

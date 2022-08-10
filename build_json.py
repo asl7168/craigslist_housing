@@ -4,10 +4,14 @@ from state_codes import state_codes
 import json
 import os
 import csv
+import pandas as pd
+from tqdm import tqdm
 from collections import defaultdict
 
 # state codes: https://www.nlsinfo.org/content/cohorts/nlsy97/other-documentation/geocode-codebook-supplement/attachment-100-census-bureau
 #list of variables: https://api.census.gov/data/2020/acs/acs5/profile/variables.html
+
+fieldnames = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url","typology","GEOID","poverty","race","white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old"]
 
 def metro_area_data(metro_area,mode):
     # process_html("./html/"+metro_area)
@@ -18,30 +22,82 @@ def metro_area_data(metro_area,mode):
     data = get_demographics(metro_area, states)
     # print(data['3790493246'])
 
-    if not os.path.exists(f"./json/{metro_area}"): os.makedirs(f"./json/{metro_area}")
+    #if not os.path.exists(f"./json_complete/{metro_area}"): os.makedirs(f"./json_complete/{metro_area}")
 
-    for key in data:
-      json_obj = json.dumps(data[key], indent=1)
-      json_path = f"./json/{metro_area}/{key}.json"
+#    for key in data:
+ #     json_obj = json.dumps(data[key], indent=1)
+  #    json_path = f"./json/{metro_area}/{key}.json"
 
-      with open(json_path, "w") as outfile:
-        outfile.write(json_obj)
+   #   with open(json_path, "w") as outfile:
+    #    outfile.write(json_obj)
+        
 
-def write_csv(mode,data):
-    with open(f'./csv_dumps/all_complete.csv', mode) as csvfile:
+    ids = []
+    
+    isnew =  os.path.exists(f"./csv/{metro_area}_complete.csv")
+    if isnew:
+        with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
+          reader = csv.DictReader(csvfile)
+          for row in reader:
+            ids.append(row['post_id'])
+    
+    with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        if not isnew:
+          writer.writeheader()
+        for key in data:
+            if key not in ids:
+                writer.writerow(data[key])
+        
+          
+
+
+def json_to_dict(metro_area):
+    data = {}
+    for filename in tqdm(os.listdir("./json/"+metro_area), desc=f"Making dict from json for {metro_area}..."):
+        with open(f"./json/{metro_area}/{filename}", "r") as json_file: 
+            item = json.load(json_file)
+            data[item['post_id']] = item
+    return data
+    
+    
+def add_header(metro_area):
+    csvfile = pd.read_csv(f"./csv/{metro_area}_complete.csv")
+    csvfile.to_csv(f"./csv/{metro_area}_complete.csv",header=fieldnames,index=False)
+#        reader = csv.reader(csvfile)
+ #       for row in reader:
+  #          data.append(row)
+   # with open(f"./csv/{metro_area}_complete.csv","w") as csvfile:
+    #    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+     #   writer.writeheader()
+      #  for row in data:
+       #     writer.writerow(row)
+
+def write_csv():
+    data = {}
+    for metro_area in os.listdir('./csv'):
+        print(metro_area)
+        with open(f"./csv/{metro_area}","r") as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                data[row['post_id']] = row
+    
+    with open(f'./csv_dumps/all_complete.csv', 'w') as csvfile:
         fieldnames = ['documents', 'poverty', 'race', 'class', 'is_white',
                       'college', 'foreignborn', 'renteroccupied', 'last10yrs', 'vacancy', 'rent']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-
+        
         for key in data:
             item = data[key]
-            orig_doc = item['posting_body']
-            orig_doc.replace("[\'", '').replace("\']", '')
-            doc = orig_doc.split('\', \'')
+            orig_doc = str(item['posting_body'])
+            
+            doc = orig_doc.replace('\', \'',' ')
+            doc.replace("[\'", '')
+            doc.replace("\']", '')
             race = item['race'] if item['race'] != 'white' else 'aawhite'
             obj = {
-                'documents': ' '.join(doc[1:]),
+                'documents': doc,
                 'poverty': item['poverty'],
                 'race': race,
                 'class': item['poverty']+"_"+race,
@@ -51,13 +107,13 @@ def write_csv(mode,data):
                 'renteroccupied': item['renteroccupied'],
                 'last10yrs': item['last10yrs'],
                 'vacancy': item['vacancy'],
-                'rent': 'NA' if item['price'] == 'NA' else float(item['price'])/1000
+                'rent': 'NA' if item['price'] == 'NA' or item['price']=='' else float(item['price'])/1000
             }
             if item['poverty'] != 'NA' and obj['rent'] != 'NA' and obj['rent'] <= 10:
                 writer.writerow(obj)
 
 
-def testing(metro_area):
+def stats_by_gentrification_status(metro_area):
     states = state_codes[metro_area]
     data = demographics_by_tract(metro_area, states)
     #data = get_demographics(metro_area,states)
@@ -158,18 +214,32 @@ def testing(metro_area):
 
 
 if __name__ == '__main__':
-    # for metro_area in os.listdir('./html'):
-        # process_html("./html/"+metro_area)
+#    write_csv()
 
-    #for metro_area in os.listdir('./html'):
-          #jsons_to_csv("./json/"+metro_area)
-
-    
-    mode = 'w'
     for metro_area in os.listdir('./html'):
-        print(metro_area)
-        metro_area_data(metro_area,mode)
-        mode = 'a'
+        process_html("./html/"+metro_area)
+
+#    for metro_area in os.listdir('./json'):
+ #       jsons_to_csv("./json/"+metro_area)
+    
+  #  mode = 'w'
+   # for metro_area in os.listdir('./json'):
+    #    print(metro_area)
+     #   metro_area_data(metro_area,'w')
+      #  mode = 'a'
+    
+#    for metro_area in ['lasvegas','cincinnati','buffalo','seattle']:
+ #       process_html("./html/"+metro_area)
+  #      jsons_to_csv("./json/"+metro_area)
+   #     print(metro_area)
+    #    metro_area_data(metro_area,'w')
+    
+    #mode = 'w'
+    #for metro_area in os.listdir('./json'):
+     #   print(metro_area)
+      #  data = json_to_dict(metro_area)
+       # write_csv(mode,data)
+        #mode = 'a'
 
     # process_html("./html/chicago")
     # print("1")

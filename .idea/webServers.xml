@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2b024468-9b26-4b81-b24f-703ed12b6e98" name="p31502_craigslist">
+        <fileTransfer rootFolder="/projects/p31502/projects/craigslist" accessType="SFTP" host="quest.it.northwestern.edu" port="22" sshConfigId="6cacee48-f65e-4513-ab04-e593d0462251" sshConfig="asl7168@quest.it.northwestern.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
