@@ -8,6 +8,7 @@ webshare*
 stm-env*
 html
 json*
+csv_dumps
 bin
 Rthings
 .RData

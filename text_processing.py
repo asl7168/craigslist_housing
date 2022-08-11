@@ -94,28 +94,34 @@ def yes_if_exists(s):
 
 
 def process_html(directory):
-    """ Processes every HTML file from the given directory to individual JSON files (default)
+    """ Processes every new html file from the given directory to a csv_dump; if reposts are found,
+    updates the repost_dates in a ./csv/{city}_complete.csv file
 
     Parameters
     ----------
-        directory (string): filepath to directory of HTML files
+        directory (string): filepath to directory of html files
     """
     dir_split = directory.split("/")
     city = dir_split[-1] 
     nlp = spacy.load("en_core_web_sm")  # python -m spacy download en_core_web_sm
 
-    csv_path = f"{'/'.join(dir_split[:-2])}/csv_dumps/{city}_csv_dump.csv"
-    if os.path.exists(csv_path): 
-        csv_df = pd.read_csv(csv_path, usecols=cols, keep_default_na=False)
+    csv_dump_path = f"{'/'.join(dir_split[:-2])}/csv_dumps/{city}_csv_dump.csv"
+    csv_complete_path = f"{'/'.join(dir_split[:-2])}/csv/{city}_complete.csv"
+    if os.path.exists(csv_complete_path): 
+        csv_complete_exists = True
+        csv_complete_df = pd.read_csv(csv_complete_path, usecols=cols, keep_default_na=False)
     else: 
-        csv_df = pd.DataFrame(columns=cols)
+        csv_complete_exists = False
+
+    csv_dump_df = pd.DataFrame(columns=cols)  # csv_dumps are a staging area; only store *new* posts in them
 
     for filename in tqdm(os.listdir(directory), desc=f"Processing html from {directory}..."):
         filepath = os.path.join(directory, filename)
         
         if not os.path.isfile(filepath): continue
 
-        processed_ids = list(csv_df["post_id"])
+        updatable_df = csv_dump_df if not csv_complete_exists else csv_complete_df  # df to update repost_dates in
+        processed_ids = list(updatable_df["post_id"])
         if int(filename.split("_")[-1]) in processed_ids: 
             continue  # if post has been processed, don't reprocess
                 
@@ -143,12 +149,12 @@ def process_html(directory):
         
         if repost_of:
             if repost_of in processed_ids:  # if original has already been processed, append to repost_dates
-                repost_list = csv_df.loc[csv_df["post_id"] == repost_of]["repost_dates"].values[0]
+                repost_list = updatable_df.loc[updatable_df["post_id"] == repost_of]["repost_dates"].values[0]
 
                 if isinstance(repost_list, str): repost_list = literal_eval(repost_list)  # get list from str
 
                 repost_list.append(posted)
-                csv_df.loc[csv_df["post_id"] == repost_of]["repost_dates"] = [repost_list]
+                updatable_df.loc[updatable_df["post_id"] == repost_of]["repost_dates"] = [repost_list]
                 continue  # then go to the next post
             else:  # otherwise, handle later (see L277, L288)
                 pass
@@ -325,11 +331,11 @@ def process_html(directory):
         }
 
         post_details_df = pd.DataFrame(post_details)
-        csv_df = pd.concat([csv_df, post_details_df], ignore_index=True)
+        csv_dump_df = pd.concat([csv_dump_df, post_details_df], ignore_index=True)
  
-    print(csv_df)
-    csv_df.to_csv(csv_path, index=False)
-
+    print(csv_dump_df)
+    csv_dump_df.to_csv(csv_dump_path, index=False)
+    if csv_complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False)
 
 if __name__ == '__main__':
     process_html("./html/chicago")
