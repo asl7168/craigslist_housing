@@ -1,9 +1,14 @@
 *_env
 __pycache__
 */__pycache__
+.idea
+.vscode
 webshare*
 */webshare*
 stm-env*
 html
-csv_dumps
-json_complete
+json*
+bin
+Rthings
+.RData
+.Rhistory

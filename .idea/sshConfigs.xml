@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="PASSWORD" host="quest.it.northwestern.edu" id="6cacee48-f65e-4513-ab04-e593d0462251" port="22" nameFormat="DESCRIPTIVE" username="asl7168" />
-    </configs>
-  </component>
-</project>
