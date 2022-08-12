@@ -1,5 +1,5 @@
 from proxy_manager import clean_webshare_proxies
-from state_codes import state_codes
+from GIS_data.state_codes import state_codes
 import os
 from math import floor, ceil
 import json
@@ -44,10 +44,11 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
              "\t\t\tpcpy = proxies.copy()\n"  \
              f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}/html\", proxies=pcpy)\n" \
              "\t\texcept Exception as e:\n" \
-             "\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
+             "\t\t\ttry:\n\t\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
+             "\t\t\texcept Exception:\n\t\t\t\tcprint(\"Encountered an unprintable exception. Trying again in 30 seconds\", c=\"r\")\n" \
              "\t\t\tsleep(30)\n" \
              "\t\t\tscrape_from(locations.index(location))\n\n" \
-             "scrape_from()"
+             "scrape_from()\n"
              
 
     with open(f"scripts/{init_or_cron}_scrape.py", "w") as script:
