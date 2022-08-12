@@ -1,3 +1,13 @@
+from text_processing import process_html
+
+from GIS_data.state_codes import state_codes
+import json
+import os
+import csv
+import pandas as pd
+from tqdm import tqdm
+from collections import defaultdict
+
 import requests
 import csv
 import geopandas
@@ -5,6 +15,10 @@ import geopandas
 #census variables: https://api.census.gov/data/2020/acs/acs5/profile/variables.html
 #state codes: https://www.nlsinfo.org/content/cohorts/nlsy97/other-documentation/geocode-codebook-supplement/attachment-100-census-bureau
 #maps source: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=Census+Tracts
+
+fieldnames = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url","typology","GEOID","poverty","race","white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old"]
+
+new_fieldnames = ["poverty","race","white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old"]
 
 
 def get_data(state,county,tract):
@@ -193,41 +207,9 @@ def remove_NA(read_path,write_path):
         
         for row in rows:
           if row['latitude'] != 'NA' and row['longitude'] !='NA' and row.get('GEOID',None)==None:
-            obj = {
-              "post_id":row['post_id'],
-              'title':row['title'],
-              'price':row['price'],
-              'neighborhood':row['neighborhood'],
-              'map_address':row['map_address'],
-              'street_address':row['street_address'],
-              'latitude':row['latitude'],
-              'longitude':row['longitude'],
-              'data_accuracy':row['data_accuracy'],
-              'posted':row['posted'],
-              'updated':row['updated'],
-              'repost_dates':row['repost_dates'],
-              'available':row['available'],
-              'housing_type':row['housing_type'],
-              'bedrooms':row['bedrooms'],
-              'bathrooms':row['bathrooms'],
-              'laundry':row['laundry'],
-              'parking':row['parking'],
-              'sqft':row['sqft'],
-              'flooring':row['flooring'],
-              'rent_period':row['rent_period'],
-              'app_fee':row['app_fee'],
-              'broker_fee':row['broker_fee'],
-              'cats_ok':row['cats_ok'],
-              'dogs_ok':row['dogs_ok'],
-              "no_smoking":row['no_smoking'], 
-              "furnished":row['furnished'], 
-              "wheelchair_access":row['wheelchair_access'], 
-              "AC":row['AC'], 
-              "EV_charging":row['EV_charging'], 
-              "posting_body":row['posting_body'], 
-              "images":row['images'], 
-              "url":row['url']
-            }
+            obj={}
+            for key in fieldnames:
+                obj[key]=row[key]
             writer.writerow(row)
     return data
 
@@ -271,79 +253,15 @@ def get_geoid(csv_read_path,csv_write_path,states):
 def add_fields(data,key,demographics,repeat = False):
     d = data[key]
     if d.get('GEOID') and demographics.get(d['GEOID']):
-      d['poverty'] = demographics[d['GEOID']]['poverty']
-      d['race'] = demographics[d['GEOID']]['race']
-      d['white'] = demographics[d['GEOID']]['white']
-      d['black'] = demographics[d['GEOID']]['black']
-      d['asian'] = demographics[d['GEOID']]['asian']
-      d['latinx'] = demographics[d['GEOID']]['latinx']
-      d['below25k'] = demographics[d['GEOID']]['below25k']
-      d['median_income'] = demographics[d['GEOID']]['median_income']
-      d['college'] = demographics[d['GEOID']]['college']
-      d['foreignborn'] = demographics[d['GEOID']]['foreignborn']
-      d['renteroccupied'] = demographics[d['GEOID']]['renteroccupied']
-      d['last10yrs'] = demographics[d['GEOID']]['last10yrs']
-      d['vacancy'] = demographics[d['GEOID']]['vacancy']
-      d['white_old'] = demographics[d['GEOID']]['white_old']
-      d['black_old'] = demographics[d['GEOID']]['black_old']
-      d['asian_old'] = demographics[d['GEOID']]['asian_old']
-      d['latinx_old'] = demographics[d['GEOID']]['latinx_old']
-      d['below25k_old'] = demographics[d['GEOID']]['below25k_old']
-      d['median_income_old'] = demographics[d['GEOID']]['median_income_old']
-      d['college_old'] = demographics[d['GEOID']]['college_old']
-      d['foreignborn_old'] = demographics[d['GEOID']]['foreignborn_old']
-      d['renteroccupied_old'] = demographics[d['GEOID']]['renteroccupied_old']
-      d['last10yrs_old'] = demographics[d['GEOID']]['last10yrs_old']
-      d['vacancy_old'] = demographics[d['GEOID']]['vacancy_old']
-      d['professional'] = demographics[d['GEOID']]['professional']
-      d['professional_old'] = demographics[d['GEOID']]['professional_old']
-      d['travel_time'] = demographics[d['GEOID']]['travel_time']
-      d['travel_time_old'] = demographics[d['GEOID']]['travel_time_old']
-      d['new_residents'] = demographics[d['GEOID']]['new_residents']
-      d['new_residents_old'] = demographics[d['GEOID']]['new_residents_old']
-      d['non_english'] = demographics[d['GEOID']]['non_english']
-      d['non_english_old'] = demographics[d['GEOID']]['non_english_old']
-      d['avg_rent'] = demographics[d['GEOID']]['avg_rent']
-      d['avg_rent_old'] = demographics[d['GEOID']]['avg_rent_old']
+      for key in new_fieldnames:
+          d[key] = demographics[d['GEOID']][key]
     elif d.get('GEOID') and not repeat:
       temp_race,temp_income,temp_other,temp_race_diff = get_data(d['GEOID'][:2],d['GEOID'][2:5],d['GEOID'][5:])
       temp_demographics = assign_categories(temp_race,temp_income,temp_other,temp_race_diff)
       d = add_fields(data,key,temp_demographics,repeat = True)
     else:
-      d['poverty'] = 'NA'
-      d['race'] = 'NA'
-      d['white'] = 'NA'
-      d['black'] = 'NA'
-      d['asian'] = 'NA'
-      d['latinx'] = 'NA'
-      d['below25k'] = 'NA'
-      d['median_income'] = 'NA'
-      d['college'] = 'NA'
-      d['foreignborn'] = 'NA'
-      d['renteroccupied'] = 'NA'
-      d['last10yrs'] = 'NA'
-      d['vacancy'] = 'NA'
-      d['white_old'] = 'NA'
-      d['black_old'] = 'NA'
-      d['asian_old'] = 'NA'
-      d['latinx_old'] = 'NA'
-      d['below25k_old'] = 'NA'
-      d['median_income_old'] = 'NA'
-      d['college_old'] = 'NA'
-      d['foreignborn_old'] = 'NA'
-      d['renteroccupied_old'] = 'NA'
-      d['last10yrs_old'] = 'NA'
-      d['vacancy_old'] = 'NA'
-      d['professional'] = 'NA'
-      d['professional_old'] = 'NA'
-      d['travel_time'] = 'NA'
-      d['travel_time_old'] = 'NA'
-      d['new_residents'] = 'NA'
-      d['new_residents_old'] = 'NA'
-      d['non_english'] = 'NA'
-      d['non_english_old'] = 'NA'
-      d['avg_rent'] ='NA'
-      d['avg_rent_old'] = 'NA'
+      for key in new_fieldnames:
+          d[key]='NA'
     return d
     
 def demographics_by_tract(metro_area,states):
@@ -363,9 +281,7 @@ def demographics_by_tract(metro_area,states):
           obj['typology'] = tracts[key]['typology']
       tracts[key] = obj
   return tracts
-      
-    
-      
+       
       
 def get_demographics(metro_area,states):
   csv_read='csv_dumps/'+metro_area+'_csv_dump.csv'
@@ -380,7 +296,110 @@ def get_demographics(metro_area,states):
   for key in data:
       data[key] = add_fields(data,key,demographics)
   return data
-  
-  
 
-#data = get_demographics('chicago',['17'])
+def metro_area_data(metro_area,mode):
+    states = state_codes[metro_area]
+    data = get_demographics(metro_area, states)
+        
+    ids = []
+    isnew =  os.path.exists(f"./csv/{metro_area}_complete.csv")
+    if isnew:
+        with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
+          reader = csv.DictReader(csvfile)
+          for row in reader:
+            ids.append(row['post_id'])
+    
+    with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        if not isnew:
+          writer.writeheader()
+        for key in data:
+            if key not in ids:
+                writer.writerow(data[key]) 
+    
+def add_header(metro_area):
+    csvfile = pd.read_csv(f"./csv/{metro_area}_complete.csv")
+    csvfile.to_csv(f"./csv/{metro_area}_complete.csv",header=fieldnames,index=False)
+
+
+def write_csv():
+    data = {}
+    for metro_area in os.listdir('./csv'):
+        print(metro_area)
+        with open(f"./csv/{metro_area}","r") as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                data[row['post_id']] = row
+    
+    with open(f'./csv_dumps/all_complete.csv', 'w') as csvfile:
+        fieldnames = ['documents', 'poverty', 'race', 'class', 'is_white',
+                      'college', 'foreignborn', 'renteroccupied', 'last10yrs', 'vacancy', 'rent']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for key in data:
+            item = data[key]
+            orig_doc = str(item['posting_body'])
+            
+            doc = orig_doc.replace('\', \'',' ')
+            doc.replace("[\'", '')
+            doc.replace("\']", '')
+            race = item['race'] if item['race'] != 'white' else 'aawhite'
+            obj = {
+                'documents': doc,
+                'poverty': item['poverty'],
+                'race': race,
+                'class': item['poverty']+"_"+race,
+                'is_white': 'white' if item['race'] == 'white' else 'nonwhite',
+                'college': item['college'],
+                'foreignborn': item['foreignborn'],
+                'renteroccupied': item['renteroccupied'],
+                'last10yrs': item['last10yrs'],
+                'vacancy': item['vacancy'],
+                'rent': 'NA' if item['price'] == 'NA' or item['price']=='' else float(item['price'])/1000
+            }
+            if item['poverty'] != 'NA' and obj['rent'] != 'NA' and obj['rent'] <= 10:
+                writer.writerow(obj)
+
+
+
+
+
+if __name__ == '__main__':
+#    write_csv()
+    a=False
+    for metro_area in os.listdir('./html'):
+      if metro_area=='tampa':
+        a=True
+      if a:
+        process_html("./html/"+metro_area)
+ 
+ 
+#    for metro_area in os.listdir('./json'):
+ #       jsons_to_csv("./json/"+metro_area)
+    
+#    a=False
+ #   for metro_area in os.listdir('./html'):
+  #      if metro_area == 'houston': a = True
+   #     if a:
+    #      print(metro_area)
+     #     metro_area_data(metro_area,'a')
+    
+#    for metro_area in ['lasvegas','cincinnati','buffalo','seattle']:
+ #      process_html("./html/"+metro_area)
+  #      jsons_to_csv("./json/"+metro_area)
+   #     print(metro_area)
+    #    metro_area_data(metro_area,'w')
+    
+    #mode = 'w'
+    #for metro_area in os.listdir('./json'):
+     #   print(metro_area)
+      #  data = json_to_dict(metro_area)
+       # write_csv(mode,data)
+        #mode = 'a'
+
+    # process_html("./html/chicago")
+    # print("1")
+    # jsons_to_csv("./json/chicago")
+    # testing('chicago')
+    # metro_area_data('dallas')

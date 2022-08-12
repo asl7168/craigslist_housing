@@ -112,6 +112,9 @@ def clean_webshare_proxies(proxies_filename: str = "proxies/webshare_proxies.txt
 
     cleaned_proxies = [r.search(proxy)[0] for proxy in init_proxies]
 
+    bad_starts = ["177.234", "181.177", "185.230", "186.179"]  # some proxies are blocked by quest
+    cleaned_proxies = [proxy for proxy in cleaned_proxies if proxy[:7] not in bad_starts]
+
     with open(proxies_filename, "w") as proxies_file:
         [proxies_file.write(proxy + "\n") for proxy in cleaned_proxies]
 
