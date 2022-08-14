@@ -367,23 +367,16 @@ def write_csv():
 
 if __name__ == '__main__':
 #    write_csv()
-    a=False
-    for metro_area in os.listdir('./html'):
-      if metro_area=='tampa':
-        a=True
-      if a:
-        process_html("./html/"+metro_area)
+#    for metro_area in os.listdir('./html'):
+ #       process_html("./html/"+metro_area)
  
- 
-#    for metro_area in os.listdir('./json'):
- #       jsons_to_csv("./json/"+metro_area)
     
 #    a=False
- #   for metro_area in os.listdir('./html'):
+    for metro_area in os.listdir('./html'):
   #      if metro_area == 'houston': a = True
    #     if a:
-    #      print(metro_area)
-     #     metro_area_data(metro_area,'a')
+          print(metro_area)
+          metro_area_data(metro_area,'w')
     
 #    for metro_area in ['lasvegas','cincinnati','buffalo','seattle']:
  #      process_html("./html/"+metro_area)

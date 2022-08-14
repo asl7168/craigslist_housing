@@ -17,7 +17,7 @@ def scrape_from(idx: int=0):
 		except Exception as e:
 			try:
 				cprint(f"Encountered exception '{e}'\nTrying again in 30 seconds", c="r")
-			except Exception:
+			except:
 				cprint("Encountered an unprintable exception. Trying again in 30 seconds", c="r")
 			sleep(30)
 			scrape_from(locations.index(location))
