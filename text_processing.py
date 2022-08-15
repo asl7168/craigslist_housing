@@ -14,8 +14,14 @@ cols = ["post_id", "title", "price", "neighborhood", "map_address", "street_addr
         "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", 
         "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", 
         "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", 
-        "images", "url"]
-
+        "images", "url", "poverty", "race", "white", "black", "asian", "latinx", "below25k",
+        "median_income", "college", "foreignborn", "renteroccupied", "last10yrs", "vacancy", 
+        "white_old", "black_old", "asian_old", "latinx_old", "below25k_old", "median_income_old",
+        "college_old", "foreignborn_old", "renteroccupied_old", "last10yrs_old", "vacancy_old",
+        "professional", "travel_time", "new_residents", "non_english", "avg_rent",
+        "professional_old", "travel_time_old", "new_residents_old", "non_english_old",
+        "avg_rent_old"]
+ 
 
 def find_strings(keywords, search_list):
     """ Searches for strings in a list and returns matches. This will be used to find 
@@ -331,11 +337,11 @@ def process_html(directory):
         }
 
         post_details_df = pd.DataFrame(post_details)
-        csv_dump_df = pd.concat([csv_dump_df, post_details_df], ignore_index=True)
+        csv_dump_df = pd.concat([csv_dump_df, post_details_df], ignore_index=True).fillna("")
  
     print(csv_dump_df)
     csv_dump_df.to_csv(csv_dump_path, index=False)
-    if csv_complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False)
+    if csv_complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False).fillna("")
 
 if __name__ == '__main__':
     process_html("./html/chicago")
