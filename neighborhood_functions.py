@@ -10,7 +10,10 @@ from shapely.geometry import Point
 from demographics_multistate import get_demographics, demographics_by_tract
 from GIS_data/state_codes import state_codes
 
+fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathrooms', 'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url','mention','neighborhood_id']
 
+#generate average statistics for census tracts of each gentrification typology
+#results are printed to the console
 def stats_by_gentrification_status(metro_area):
     states = state_codes[metro_area]
     data = demographics_by_tract(metro_area, states)
@@ -110,6 +113,8 @@ def stats_by_gentrification_status(metro_area):
                 print(key, new[t][key]/new[t]['count'] -
                       old[t][key]/old[t]['count'])
 
+
+#generate csv of all posts that mention NEIGHBORHOOD
 def filter_rows(path, neighborhood):
     rows = []
     
@@ -120,15 +125,13 @@ def filter_rows(path, neighborhood):
              rows.append(row)
     
     with open('csv/temp.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        # these were generated from the dictionary keys at the end of all this code and just copied up here
-        fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathrooms', 'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url','mention','neighborhood_id']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         
         for row in rows:
             writer.writerow(row)
 
-
+#generate heatmap of posts mentioning NEIGHBORHOOD
 def get_heatmap(csv_path, shp_path, neighborhood):
     filter_rows(csv_path, neighborhood)
     ads_csv = pd.read_csv('csv/temp.csv')
@@ -145,14 +148,15 @@ def get_heatmap(csv_path, shp_path, neighborhood):
         plt.savefig("./heatmaps/"+title+str(len(ads_csv))+".png")
         plt.close()
     
-#filter_rows('csv/CL_housing.csv','Pullman')
-#get_heatmap('csv/CL_housing.csv','GIS_data/chicago_neighborhoods.shp','Albany Park')
-with open('csv/chicago_neighborhood_names.csv') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        get_heatmap('csv/CL_housing.csv','GIS_data/chicago_neighborhoods.shp',row['PRI_NEIGH'])
+#generate heatmaps for every neighborhood in Chicago
+def generate_chicago():
+    with open('csv/chicago_neighborhood_names.csv') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            get_heatmap('csv/CL_housing.csv','GIS_data/chicago_neighborhoods.shp',row['PRI_NEIGH'])
 
-def gis_functions():
+#add GIS neighborhood classification to posts
+def add_neighborhood():
     ads = []
     neighborhoods = []
     name_dict = {}
@@ -183,8 +187,6 @@ def gis_functions():
                 ad['neighborhood_id'] = len_dict[name_dict[n]]
                 
     with open('csv/CL_housing_with_mentions.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        # these were generated from the dictionary keys at the end of all this code and just copied up here
-        fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathrooms', 'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url','mention','neighborhood_id']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         

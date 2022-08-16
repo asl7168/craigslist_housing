@@ -1,0 +1,998 @@
+Loading required package: stm
+stm v1.3.6 successfully loaded. See ?stm for help. 
+ Papers, resources, and other materials at structuraltopicmodel.com
+Building corpus... 
+Converting to Lower Case... 
+Removing punctuation... 
+Removing stopwords... 
+Removing numbers... 
+Stemming... 
+Creating Output... 
+Removing 44910 of 54775 terms (139772 of 9412920 tokens) due to frequency 
+Your corpus now has 102170 documents, 9865 terms and 9273148 tokens.Beginning Spectral Initialization 
+	 Calculating the gram matrix...
+	 Finding anchor words...
+ 	.......
+	 Recovering initialization...
+ 	..................................................................................................
+Initialization complete.
+....................................................................................................
+Completed E-Step (36 seconds). 
+Completed M-Step. 
+Completing Iteration 1 (approx. per word bound = -6.944) 
+....................................................................................................
+Completed E-Step (38 seconds). 
+Completed M-Step. 
+Completing Iteration 2 (approx. per word bound = -6.724, relative change = 3.160e-02) 
+....................................................................................................
+Completed E-Step (36 seconds). 
+Completed M-Step. 
+Completing Iteration 3 (approx. per word bound = -6.665, relative change = 8.758e-03) 
+....................................................................................................
+Completed E-Step (34 seconds). 
+Completed M-Step. 
+Completing Iteration 4 (approx. per word bound = -6.647, relative change = 2.779e-03) 
+....................................................................................................
+Completed E-Step (32 seconds). 
+Completed M-Step. 
+Completing Iteration 5 (approx. per word bound = -6.637, relative change = 1.419e-03) 
+Topic 1: contact, apart, communiti, show, info 
+ Topic 2: pet, month, fee, leas, per 
+ Topic 3: apart, pet, center, communiti, home 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: floor, bedroom, room, park, includ 
+ Topic 6: apart, home, communiti, call, free 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (31 seconds). 
+Completed M-Step. 
+Completing Iteration 6 (approx. per word bound = -6.632, relative change = 8.892e-04) 
+....................................................................................................
+Completed E-Step (31 seconds). 
+Completed M-Step. 
+Completing Iteration 7 (approx. per word bound = -6.627, relative change = 6.567e-04) 
+....................................................................................................
+Completed E-Step (31 seconds). 
+Completed M-Step. 
+Completing Iteration 8 (approx. per word bound = -6.624, relative change = 5.265e-04) 
+....................................................................................................
+Completed E-Step (30 seconds). 
+Completed M-Step. 
+Completing Iteration 9 (approx. per word bound = -6.621, relative change = 4.252e-04) 
+....................................................................................................
+Completed E-Step (29 seconds). 
+Completed M-Step. 
+Completing Iteration 10 (approx. per word bound = -6.619, relative change = 3.374e-04) 
+Topic 1: contact, apart, communiti, info, show 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, center, home, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, includ 
+ Topic 6: apart, home, free, call, includ 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (29 seconds). 
+Completed M-Step. 
+Completing Iteration 11 (approx. per word bound = -6.617, relative change = 2.708e-04) 
+....................................................................................................
+Completed E-Step (28 seconds). 
+Completed M-Step. 
+Completing Iteration 12 (approx. per word bound = -6.615, relative change = 2.261e-04) 
+....................................................................................................
+Completed E-Step (29 seconds). 
+Completed M-Step. 
+Completing Iteration 13 (approx. per word bound = -6.614, relative change = 1.939e-04) 
+....................................................................................................
+Completed E-Step (29 seconds). 
+Completed M-Step. 
+Completing Iteration 14 (approx. per word bound = -6.613, relative change = 1.701e-04) 
+....................................................................................................
+Completed E-Step (28 seconds). 
+Completed M-Step. 
+Completing Iteration 15 (approx. per word bound = -6.612, relative change = 1.550e-04) 
+Topic 1: contact, apart, communiti, info, show 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, includ 
+ Topic 6: apart, home, free, includ, call 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 16 (approx. per word bound = -6.611, relative change = 1.397e-04) 
+....................................................................................................
+Completed E-Step (28 seconds). 
+Completed M-Step. 
+Completing Iteration 17 (approx. per word bound = -6.610, relative change = 1.248e-04) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 18 (approx. per word bound = -6.609, relative change = 1.241e-04) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 19 (approx. per word bound = -6.609, relative change = 1.241e-04) 
+....................................................................................................
+Completed E-Step (28 seconds). 
+Completed M-Step. 
+Completing Iteration 20 (approx. per word bound = -6.608, relative change = 1.092e-04) 
+Topic 1: contact, apart, communiti, info, show 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, includ 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 21 (approx. per word bound = -6.607, relative change = 8.937e-05) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 22 (approx. per word bound = -6.607, relative change = 7.347e-05) 
+....................................................................................................
+Completed E-Step (26 seconds). 
+Completed M-Step. 
+Completing Iteration 23 (approx. per word bound = -6.606, relative change = 6.204e-05) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+Completed M-Step. 
+Completing Iteration 24 (approx. per word bound = -6.606, relative change = 4.467e-05) 
+....................................................................................................
+Completed E-Step (26 seconds). 
+Completed M-Step. 
+Completing Iteration 25 (approx. per word bound = -6.606, relative change = 3.421e-05) 
+Topic 1: contact, communiti, apart, info, show 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, unit 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (26 seconds). 
+Completed M-Step. 
+Completing Iteration 26 (approx. per word bound = -6.606, relative change = 3.004e-05) 
+....................................................................................................
+Completed E-Step (25 seconds). 
+Completed M-Step. 
+Completing Iteration 27 (approx. per word bound = -6.605, relative change = 2.553e-05) 
+....................................................................................................
+Completed E-Step (25 seconds). 
+Completed M-Step. 
+Completing Iteration 28 (approx. per word bound = -6.605, relative change = 2.359e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 29 (approx. per word bound = -6.605, relative change = 2.374e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 30 (approx. per word bound = -6.605, relative change = 2.296e-05) 
+Topic 1: contact, communiti, apart, show, info 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, unit 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 31 (approx. per word bound = -6.605, relative change = 1.934e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 32 (approx. per word bound = -6.605, relative change = 1.802e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 33 (approx. per word bound = -6.605, relative change = 1.878e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 34 (approx. per word bound = -6.604, relative change = 1.836e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+Completed M-Step. 
+Completing Iteration 35 (approx. per word bound = -6.604, relative change = 1.982e-05) 
+Topic 1: contact, communiti, apart, show, info 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, unit 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (24 seconds). 
+Completed M-Step. 
+Completing Iteration 36 (approx. per word bound = -6.604, relative change = 2.068e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+Completed M-Step. 
+Completing Iteration 37 (approx. per word bound = -6.604, relative change = 1.928e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+Completed M-Step. 
+Completing Iteration 38 (approx. per word bound = -6.604, relative change = 1.749e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+Completed M-Step. 
+Completing Iteration 39 (approx. per word bound = -6.604, relative change = 1.509e-05) 
+....................................................................................................
+Completed E-Step (22 seconds). 
+Completed M-Step. 
+Completing Iteration 40 (approx. per word bound = -6.604, relative change = 1.307e-05) 
+Topic 1: contact, communiti, apart, show, info 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, unit 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (22 seconds). 
+Completed M-Step. 
+Completing Iteration 41 (approx. per word bound = -6.604, relative change = 1.181e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Completing Iteration 42 (approx. per word bound = -6.604, relative change = 1.072e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Completing Iteration 43 (approx. per word bound = -6.604, relative change = 1.070e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Completing Iteration 44 (approx. per word bound = -6.603, relative change = 1.148e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Completing Iteration 45 (approx. per word bound = -6.603, relative change = 1.535e-05) 
+Topic 1: contact, communiti, apart, show, info 
+ Topic 2: pet, month, fee, per, leas 
+ Topic 3: apart, home, center, communiti, fit 
+ Topic 4: hotel, economi, includ, fee, para 
+ Topic 5: bedroom, floor, room, park, unit 
+ Topic 6: apart, free, home, includ, rate 
+ Topic 7: apart, rent, bedroom, near, rental 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Completing Iteration 46 (approx. per word bound = -6.603, relative change = 1.556e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+Completed M-Step. 
+Model Converged 
+Topic 1 Top Words:
+ 	 Highest Prob: contact, communiti, apart, show, info, manag, avail 
+ 	 FREX: brickel, goldol, gracious, surpass, biscayn, olentangi, daili 
+ 	 Lift: -sitelaundri, “tot, 💗privat, allxaofxaitsxamanagedxacommun, anddryer, autumn, axayellowxaribbon 
+ 	 Score: -month, communiti, chang, goldol, price, brickel, subject 
+Topic 2 Top Words:
+ 	 Highest Prob: pet, month, fee, per, leas, dog, park 
+ 	 FREX: heatingcool, rangeoven, self-schedul, cable-readi, none, terrier, lakota 
+ 	 Lift: “just, •built, •lawn, •oven, acceptedoff-leash, allowed•, allowed•restrict 
+ 	 Score: note, per, pet, self-schedul, breed, cost, heatingcool 
+Topic 3 Top Words:
+ 	 Highest Prob: apart, home, center, communiti, fit, park, pool 
+ 	 FREX: -home, imt, -foot, rosedal, boca, canterburi, poolsid 
+ 	 Lift: -art, -hole, -lane, -personself, -pool, -water, “paw 
+ 	 Score: communiti, featur, ceil, clubhous, floor, washer, select 
+Topic 4 Top Words:
+ 	 Highest Prob: hotel, economi, includ, fee, para, apart, save 
+ 	 FREX: economi, intend, struggl, indianápoli, más, ucanduc, uctheuc 
+ 	 Lift: ¡bienvenido, ☀️renta, ☎️llame, 🌸🌸veranda, 🌹pregunta, 🎇✨renta, 💡🔌🔋 
+ 	 Score: economi, hotel, para, struggl, una, indianápoli, apartamento 
+Topic 5 Top Words:
+ 	 Highest Prob: bedroom, floor, room, park, unit, includ, avail 
+ 	 FREX: broker, backyard, lower, nyc, messag, rear, sorri 
+ 	 Lift: -age, -bathroom, -burner, -flat, -ground, -hors, -uc 
+ 	 Score: floor, room, unit, build, bathroom, tenant, rent 
+Topic 6 Top Words:
+ 	 Highest Prob: apart, free, home, includ, rate, special, call 
+ 	 FREX: siegel, extend, reward, abney, channel, housekeep, check- 
+ 	 Lift: cabledish, fessenden, greenmar, kingsway, level-balconi, libbi, montana 
+ 	 Score: siegel, budget, rate, vega, free, reward, abney 
+Topic 7 Top Words:
+ 	 Highest Prob: apart, rent, bedroom, near, rental, lake, park 
+ 	 FREX: cheap, alquilar, reynoldsburg, barrington, macarthur, westminst, buscar 
+ 	 Lift: •tbalconi, •tcall, •tindoor, ✅hablamo, ⭐brand, ⭐elev, ⭐id 
+ 	 Score: apartamento, alquil, cerca, rent, alquilar, cheap, rental 
+
+Call:
+estimateEffect(formula = 1:7 ~ race * poverty, stmobj = prevFit, 
+    metadata = meta, uncertainty = "Global")
+
+
+Topic 1:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.2100910  0.0009831 213.707  < 2e-16 ***
+raceasian              -0.1237562  0.0116161 -10.654  < 2e-16 ***
+raceblack               0.0508554  0.0028039  18.137  < 2e-16 ***
+racelatinx             -0.0680607  0.0050443 -13.493  < 2e-16 ***
+povertypoor            -0.0556354  0.0056323  -9.878  < 2e-16 ***
+raceasian:povertypoor   0.0197410  0.0772718   0.255    0.798    
+raceblack:povertypoor  -0.0961353  0.0078435 -12.257  < 2e-16 ***
+racelatinx:povertypoor  0.0951759  0.0142499   6.679 2.42e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 2:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.1138652  0.0007754 146.847  < 2e-16 ***
+raceasian              -0.0378856  0.0089734  -4.222 2.42e-05 ***
+raceblack              -0.0137632  0.0021209  -6.489 8.66e-11 ***
+racelatinx             -0.0267925  0.0042280  -6.337 2.35e-10 ***
+povertypoor            -0.0519896  0.0043804 -11.869  < 2e-16 ***
+raceasian:povertypoor   0.0936591  0.0692955   1.352    0.177    
+raceblack:povertypoor   0.0307427  0.0062618   4.910 9.14e-07 ***
+racelatinx:povertypoor  0.0797124  0.0115712   6.889 5.66e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 3:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.289428   0.001125 257.333  < 2e-16 ***
+raceasian               0.131605   0.013553   9.710  < 2e-16 ***
+raceblack              -0.105316   0.002904 -36.261  < 2e-16 ***
+racelatinx             -0.077895   0.005753 -13.540  < 2e-16 ***
+povertypoor            -0.106344   0.006393 -16.636  < 2e-16 ***
+raceasian:povertypoor  -0.268154   0.085664  -3.130  0.00175 ** 
+raceblack:povertypoor   0.020802   0.009034   2.303  0.02131 *  
+racelatinx:povertypoor  0.029727   0.016517   1.800  0.07190 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 4:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.0212277  0.0006114  34.718   <2e-16 ***
+raceasian              -0.0051608  0.0078058  -0.661    0.509    
+raceblack               0.1047804  0.0017259  60.710   <2e-16 ***
+racelatinx              0.0400249  0.0034135  11.725   <2e-16 ***
+povertypoor             0.0439709  0.0039271  11.197   <2e-16 ***
+raceasian:povertypoor  -0.0552548  0.0480469  -1.150    0.250    
+raceblack:povertypoor   0.0575050  0.0057573   9.988   <2e-16 ***
+racelatinx:povertypoor -0.0836730  0.0095415  -8.769   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 5:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.235112   0.001144 205.564  < 2e-16 ***
+raceasian               0.088053   0.014685   5.996 2.03e-09 ***
+raceblack              -0.006148   0.002994  -2.054 0.040016 *  
+racelatinx              0.050428   0.005680   8.878  < 2e-16 ***
+povertypoor             0.017029   0.006738   2.527 0.011500 *  
+raceasian:povertypoor   0.357354   0.103017   3.469 0.000523 ***
+raceblack:povertypoor   0.127300   0.009671  13.162  < 2e-16 ***
+racelatinx:povertypoor  0.029773   0.016635   1.790 0.073492 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 6:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.0896167  0.0007482 119.784  < 2e-16 ***
+raceasian              -0.0476396  0.0084828  -5.616 1.96e-08 ***
+raceblack              -0.0097243  0.0020236  -4.805 1.55e-06 ***
+racelatinx              0.0922241  0.0046522  19.824  < 2e-16 ***
+povertypoor             0.1752704  0.0044250  39.609  < 2e-16 ***
+raceasian:povertypoor  -0.1719418  0.0574436  -2.993  0.00276 ** 
+raceblack:povertypoor  -0.1783784  0.0064143 -27.809  < 2e-16 ***
+racelatinx:povertypoor -0.2075651  0.0113047 -18.361  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 7:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.0406543  0.0004765  85.320  < 2e-16 ***
+raceasian              -0.0050290  0.0058828  -0.855    0.393    
+raceblack              -0.0206258  0.0011262 -18.314  < 2e-16 ***
+racelatinx             -0.0100622  0.0023050  -4.365 1.27e-05 ***
+povertypoor            -0.0225409  0.0025068  -8.992  < 2e-16 ***
+raceasian:povertypoor   0.0247917  0.0409101   0.606    0.545    
+raceblack:povertypoor   0.0383852  0.0035996  10.664  < 2e-16 ***
+racelatinx:povertypoor  0.0573325  0.0071345   8.036 9.38e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+There were 24 warnings (use warnings() to see them)
+Beginning Spectral Initialization 
+	 Calculating the gram matrix...
+	 Finding anchor words...
+ 	.......
+	 Recovering initialization...
+ 	..................................................................................................
+Initialization complete.
+....................................................................................................
+Completed E-Step (44 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 1 (approx. per word bound = -6.944) 
+....................................................................................................
+Completed E-Step (37 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 2 (approx. per word bound = -6.679, relative change = 3.816e-02) 
+....................................................................................................
+Completed E-Step (35 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 3 (approx. per word bound = -6.616, relative change = 9.454e-03) 
+....................................................................................................
+Completed E-Step (33 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 4 (approx. per word bound = -6.596, relative change = 2.979e-03) 
+....................................................................................................
+Completed E-Step (32 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 5 (approx. per word bound = -6.586, relative change = 1.487e-03) 
+Topic 1: surpass, care-fre, forgiv, ach, floorplanunitu 
+ Topic 2: shepherd, terrier, staffordshir, hybrid, thereaft 
+ Topic 3: gigstreem, excelsior, undeni, matcher, thu 
+ Topic 4: nosotro, correo, televisión, tamaño, año 
+ Topic 5: bed-stuy, lorim, adt, flatbush, rittenhous 
+ Topic 6: springdal, navfac, stress-fre, fashionista, sentara 
+ Topic 7: osceola, catonsvill, lavandera, paddock, estn 
+Aspect 1: employ, museum, airheat, habla, fashion 
+ Aspect 2: gastonia, west, aquat, dream, phase 
+....................................................................................................
+Completed E-Step (31 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 6 (approx. per word bound = -6.580, relative change = 9.644e-04) 
+....................................................................................................
+Completed E-Step (30 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 7 (approx. per word bound = -6.575, relative change = 7.135e-04) 
+....................................................................................................
+Completed E-Step (30 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 8 (approx. per word bound = -6.571, relative change = 5.650e-04) 
+....................................................................................................
+Completed E-Step (29 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 9 (approx. per word bound = -6.568, relative change = 4.534e-04) 
+....................................................................................................
+Completed E-Step (29 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 10 (approx. per word bound = -6.566, relative change = 3.742e-04) 
+Topic 1: forgiv, surpass, care-fre, gracious, ach 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: lerner, undeni, excelsior, freeweight, gigstreem 
+ Topic 4: nosotro, verificación, crédito, completo, luminoso 
+ Topic 5: bed-stuy, marci, magnet, adt, lorim 
+ Topic 6: stress-fre, springdal, safer, sentara, reminisc 
+ Topic 7: waukegan, estn, catonsvill, yelp, lnea 
+Aspect 1: museum, mail, fashion, employ, vertic 
+ Aspect 2: belvoir, west, person, rock, avail 
+....................................................................................................
+Completed E-Step (28 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 11 (approx. per word bound = -6.564, relative change = 3.105e-04) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 12 (approx. per word bound = -6.562, relative change = 2.528e-04) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 13 (approx. per word bound = -6.561, relative change = 2.132e-04) 
+....................................................................................................
+Completed E-Step (26 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 14 (approx. per word bound = -6.560, relative change = 1.705e-04) 
+....................................................................................................
+Completed E-Step (26 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 15 (approx. per word bound = -6.559, relative change = 1.293e-04) 
+Topic 1: care-fre, forgiv, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: lerner, thermal-pan, undeni, imac, excelsior 
+ Topic 4: nosotro, cubierto, ven, crédito, utilidad 
+ Topic 5: pink, ububno, guarantor, rockaway, magnet 
+ Topic 6: stress-fre, springdal, family-own, safer, fashionista 
+ Topic 7: estn, waukegan, lnea, pblico, twitter 
+Aspect 1: grillpicn, fashion, museum, •topen, miss 
+ Aspect 2: west, mover, avail, person, exton 
+....................................................................................................
+Completed E-Step (26 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 16 (approx. per word bound = -6.558, relative change = 1.101e-04) 
+....................................................................................................
+Completed E-Step (27 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 17 (approx. per word bound = -6.557, relative change = 9.237e-05) 
+....................................................................................................
+Completed E-Step (26 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 18 (approx. per word bound = -6.557, relative change = 8.254e-05) 
+....................................................................................................
+Completed E-Step (25 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 19 (approx. per word bound = -6.556, relative change = 7.574e-05) 
+....................................................................................................
+Completed E-Step (25 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 20 (approx. per word bound = -6.556, relative change = 6.636e-05) 
+Topic 1: care-fre, forgiv, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, lerner, imac, bocc, thermal-pan 
+ Topic 4: nosotro, utilidad, verificación, amueblado, completo 
+ Topic 5: pink, guarantor, ububno, queen-siz, rockaway 
+ Topic 6: stress-fre, family-own, safer, springdal, fashionista 
+ Topic 7: estn, waukegan, lnea, pblico, guardar 
+Aspect 1: fashion, museum, miss, indoor, meet 
+ Aspect 2: west, ballpark, avail, now, person 
+....................................................................................................
+Completed E-Step (24 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 21 (approx. per word bound = -6.556, relative change = 6.225e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 22 (approx. per word bound = -6.555, relative change = 6.674e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 23 (approx. per word bound = -6.555, relative change = 6.888e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 24 (approx. per word bound = -6.554, relative change = 6.339e-05) 
+....................................................................................................
+Completed E-Step (24 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 25 (approx. per word bound = -6.554, relative change = 5.850e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, terrier, staffordshir, chow, akita 
+ Topic 3: clubroom, lerner, imac, bocc, thermal-pan 
+ Topic 4: nosotro, utilidad, verificación, días, amueblado 
+ Topic 5: pink, guarantor, queen-siz, jersey, uic 
+ Topic 6: family-own, stress-fre, safer, springdal, liebherr 
+ Topic 7: estn, catonsvill, waukegan, lnea, pblico 
+Aspect 1: bishop, museum, fashion, habla, alic 
+ Aspect 2: west, avail, creek, chi, person 
+....................................................................................................
+Completed E-Step (23 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 26 (approx. per word bound = -6.554, relative change = 5.809e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 27 (approx. per word bound = -6.553, relative change = 4.472e-05) 
+....................................................................................................
+Completed E-Step (23 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 28 (approx. per word bound = -6.553, relative change = 3.741e-05) 
+....................................................................................................
+Completed E-Step (22 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 29 (approx. per word bound = -6.553, relative change = 3.205e-05) 
+....................................................................................................
+Completed E-Step (22 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 30 (approx. per word bound = -6.553, relative change = 2.757e-05) 
+Topic 1: care-fre, forgiv, surpass, pair, gracious 
+ Topic 2: shepherd, terrier, staffordshir, chow, akita 
+ Topic 3: clubroom, lerner, imac, bocc, thermal-pan 
+ Topic 4: nosotro, verificación, utilidad, días, remodelado 
+ Topic 5: pink, guarantor, queen-siz, schuylkil, lirr 
+ Topic 6: stress-fre, family-own, safer, springdal, liebherr 
+ Topic 7: estn, waukegan, catonsvill, lnea, pblico 
+Aspect 1: museum, habla, hope, meet, miss 
+ Aspect 2: west, age, avail, properti, chi 
+....................................................................................................
+Completed E-Step (22 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 31 (approx. per word bound = -6.552, relative change = 2.423e-05) 
+....................................................................................................
+Completed E-Step (22 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 32 (approx. per word bound = -6.552, relative change = 2.400e-05) 
+....................................................................................................
+Completed E-Step (22 seconds). 
+....................................................................................................
+Completed M-Step (20 seconds). 
+Completing Iteration 33 (approx. per word bound = -6.552, relative change = 2.397e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 34 (approx. per word bound = -6.552, relative change = 2.979e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 35 (approx. per word bound = -6.552, relative change = 2.704e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, lerner, imac, bocc, thermal-pan 
+ Topic 4: nosotro, verificación, utilidad, días, remodelado 
+ Topic 5: pink, guarantor, schuylkil, lirr, queen-siz 
+ Topic 6: stress-fre, family-own, safer, springdal, liebherr 
+ Topic 7: waukegan, estn, verona, catonsvill, lnea 
+Aspect 1: museum, habla, hope, meet, miss 
+ Aspect 2: west, age, avail, properti, rock 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 36 (approx. per word bound = -6.552, relative change = 1.989e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 37 (approx. per word bound = -6.551, relative change = 2.018e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 38 (approx. per word bound = -6.551, relative change = 2.098e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 39 (approx. per word bound = -6.551, relative change = 2.256e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 40 (approx. per word bound = -6.551, relative change = 2.278e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, terrier, staffordshir, chow, akita 
+ Topic 3: clubroom, lerner, imac, undeni, bocc 
+ Topic 4: nosotro, utilidad, verificación, completo, días 
+ Topic 5: pink, guarantor, schuylkil, jersey, uic 
+ Topic 6: stress-fre, family-own, safer, springdal, navfac 
+ Topic 7: waukegan, estn, verona, catonsvill, paddock 
+Aspect 1: habla, museum, hope, meet, miss 
+ Aspect 2: arnold, west, avail, age, properti 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 41 (approx. per word bound = -6.551, relative change = 1.963e-05) 
+....................................................................................................
+Completed E-Step (21 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 42 (approx. per word bound = -6.551, relative change = 1.842e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 43 (approx. per word bound = -6.551, relative change = 1.388e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 44 (approx. per word bound = -6.551, relative change = 1.168e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 45 (approx. per word bound = -6.551, relative change = 1.031e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, imac, lerner, undeni, bocc 
+ Topic 4: nosotro, utilidad, verificación, completo, días 
+ Topic 5: pink, guarantor, schuylkil, uic, jersey 
+ Topic 6: stress-fre, family-own, safer, springdal, liebherr 
+ Topic 7: waukegan, estn, verona, catonsvill, paddock 
+Aspect 1: habla, museum, hope, meet, employ 
+ Aspect 2: west, thirteen, avail, rock, age 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 46 (approx. per word bound = -6.551, relative change = 1.017e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 47 (approx. per word bound = -6.550, relative change = 1.003e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 48 (approx. per word bound = -6.550, relative change = 1.371e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 49 (approx. per word bound = -6.550, relative change = 1.108e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 50 (approx. per word bound = -6.550, relative change = 1.291e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, cir 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, undeni, imac, lerner, bocc 
+ Topic 4: nosotro, verificación, completo, utilidad, días 
+ Topic 5: pink, guarantor, schuylkil, uic, jersey 
+ Topic 6: stress-fre, family-own, safer, springdal, liebherr 
+ Topic 7: waukegan, estn, verona, catonsvill, paddock 
+Aspect 1: museum, habla, meet, hope, credit 
+ Aspect 2: thirteen, west, avail, rock, properti 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 51 (approx. per word bound = -6.550, relative change = 1.239e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 52 (approx. per word bound = -6.550, relative change = 2.175e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 53 (approx. per word bound = -6.550, relative change = 1.691e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 54 (approx. per word bound = -6.550, relative change = 1.359e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 55 (approx. per word bound = -6.550, relative change = 1.159e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, cir 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, undeni, imac, lerner, bocc 
+ Topic 4: nosotro, completo, utilidad, días, verificación 
+ Topic 5: pink, guarantor, schuylkil, uic, ububno 
+ Topic 6: stress-fre, family-own, safer, springdal, navfac 
+ Topic 7: waukegan, estn, verona, catonsvill, paddock 
+Aspect 1: museum, meet, hope, credit, children 
+ Aspect 2: thirteen, west, avail, rock, properti 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 56 (approx. per word bound = -6.550, relative change = 1.203e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 57 (approx. per word bound = -6.550, relative change = 1.355e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 58 (approx. per word bound = -6.549, relative change = 1.460e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 59 (approx. per word bound = -6.549, relative change = 1.582e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 60 (approx. per word bound = -6.549, relative change = 2.365e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, undeni, imac, lerner, bocc 
+ Topic 4: nosotro, completo, días, verificación, tamaño 
+ Topic 5: pink, guarantor, schuylkil, ububno, uic 
+ Topic 6: stress-fre, family-own, safer, springdal, liebherr 
+ Topic 7: waukegan, estn, catonsvill, verona, antioch 
+Aspect 1: museum, meet, bring, hope, need 
+ Aspect 2: thirteen, west, rock, avail, properti 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 61 (approx. per word bound = -6.549, relative change = 2.854e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 62 (approx. per word bound = -6.549, relative change = 1.894e-05) 
+....................................................................................................
+Completed E-Step (20 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 63 (approx. per word bound = -6.549, relative change = 1.414e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 64 (approx. per word bound = -6.549, relative change = 1.388e-05) 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 65 (approx. per word bound = -6.549, relative change = 1.236e-05) 
+Topic 1: forgiv, care-fre, surpass, pair, gracious 
+ Topic 2: shepherd, staffordshir, terrier, chow, akita 
+ Topic 3: clubroom, imac, undeni, bocc, lerner 
+ Topic 4: nosotro, completo, tamaño, días, verificación 
+ Topic 5: pink, guarantor, schuylkil, uic, stabil 
+ Topic 6: stress-fre, family-own, safer, springdal, navfac 
+ Topic 7: waukegan, estn, verona, catonsvill, paddock 
+Aspect 1: museum, bring, meet, need, mani 
+ Aspect 2: west, avail, properti, rock, thirteen 
+....................................................................................................
+Completed E-Step (19 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Completing Iteration 66 (approx. per word bound = -6.549, relative change = 1.196e-05) 
+....................................................................................................
+Completed E-Step (18 seconds). 
+....................................................................................................
+Completed M-Step (21 seconds). 
+Model Converged 
+
+Call:
+estimateEffect(formula = 1:7 ~ race * poverty, stmobj = contentFit, 
+    metadata = meta, uncertainty = "Global")
+
+
+Topic 1:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.197741   0.001023 193.302  < 2e-16 ***
+raceasian              -0.088206   0.012290  -7.177 7.17e-13 ***
+raceblack               0.080004   0.002850  28.071  < 2e-16 ***
+racelatinx             -0.069026   0.005374 -12.845  < 2e-16 ***
+povertypoor            -0.052948   0.006317  -8.381  < 2e-16 ***
+raceasian:povertypoor   0.026515   0.085710   0.309    0.757    
+raceblack:povertypoor  -0.099030   0.008691 -11.395  < 2e-16 ***
+racelatinx:povertypoor  0.062482   0.015176   4.117 3.84e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 2:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.1136918  0.0008379 135.687  < 2e-16 ***
+raceasian              -0.0367217  0.0092454  -3.972 7.14e-05 ***
+raceblack              -0.0180743  0.0021391  -8.450  < 2e-16 ***
+racelatinx             -0.0251210  0.0044047  -5.703 1.18e-08 ***
+povertypoor            -0.0488931  0.0046112 -10.603  < 2e-16 ***
+raceasian:povertypoor   0.0832429  0.0710013   1.172 0.241034    
+raceblack:povertypoor   0.0469823  0.0067015   7.011 2.38e-12 ***
+racelatinx:povertypoor  0.0423286  0.0121663   3.479 0.000503 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 3:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.307239   0.001206 254.709  < 2e-16 ***
+raceasian               0.078825   0.013775   5.722 1.05e-08 ***
+raceblack              -0.185306   0.002962 -62.558  < 2e-16 ***
+racelatinx             -0.147160   0.005936 -24.790  < 2e-16 ***
+povertypoor            -0.111437   0.006776 -16.446  < 2e-16 ***
+raceasian:povertypoor  -0.239910   0.089380  -2.684  0.00727 ** 
+raceblack:povertypoor   0.056663   0.009208   6.153 7.61e-10 ***
+racelatinx:povertypoor  0.038915   0.016387   2.375  0.01756 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 4:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.016274   0.000606  26.853  < 2e-16 ***
+raceasian               0.033765   0.008284   4.076 4.59e-05 ***
+raceblack               0.122439   0.002210  55.416  < 2e-16 ***
+racelatinx              0.088008   0.004066  21.643  < 2e-16 ***
+povertypoor             0.037697   0.003683  10.236  < 2e-16 ***
+raceasian:povertypoor  -0.004170   0.073756  -0.057    0.955    
+raceblack:povertypoor   0.068421   0.005826  11.744  < 2e-16 ***
+racelatinx:povertypoor -0.065595   0.011011  -5.957 2.57e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 5:
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.239369   0.001167 205.046  < 2e-16 ***
+raceasian               0.052397   0.014015   3.739 0.000185 ***
+raceblack              -0.020024   0.003119  -6.420 1.37e-10 ***
+racelatinx              0.044963   0.005910   7.607 2.82e-14 ***
+povertypoor             0.012738   0.006771   1.881 0.059938 .  
+raceasian:povertypoor   0.340276   0.118430   2.873 0.004064 ** 
+raceblack:povertypoor   0.121040   0.009717  12.456  < 2e-16 ***
+racelatinx:povertypoor  0.040340   0.017885   2.255 0.024105 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 6:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.0809052  0.0007886 102.599  < 2e-16 ***
+raceasian              -0.0313970  0.0089713  -3.500 0.000466 ***
+raceblack               0.0279026  0.0020384  13.688  < 2e-16 ***
+racelatinx              0.1103974  0.0043857  25.172  < 2e-16 ***
+povertypoor             0.1819062  0.0049037  37.096  < 2e-16 ***
+raceasian:povertypoor  -0.2136570  0.0594918  -3.591 0.000329 ***
+raceblack:povertypoor  -0.2504287  0.0063888 -39.198  < 2e-16 ***
+racelatinx:povertypoor -0.1539961  0.0126648 -12.159  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Topic 7:
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             0.0447966  0.0004968  90.164  < 2e-16 ***
+raceasian              -0.0084241  0.0066083  -1.275    0.202    
+raceblack              -0.0069539  0.0014146  -4.916 8.86e-07 ***
+racelatinx             -0.0021756  0.0027878  -0.780    0.435    
+povertypoor            -0.0188209  0.0030871  -6.097 1.09e-09 ***
+raceasian:povertypoor   0.0059255  0.0402263   0.147    0.883    
+raceblack:povertypoor   0.0560321  0.0042817  13.086  < 2e-16 ***
+racelatinx:povertypoor  0.0355597  0.0084261   4.220 2.44e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

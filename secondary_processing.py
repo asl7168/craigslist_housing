@@ -21,6 +21,8 @@ fieldnames = ["post_id", "title", "price", "neighborhood", "map_address", "stree
 new_fieldnames = ["poverty","race","white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old"]
 
 
+
+#access and save census data
 def get_data(state,county,tract):
     r_new = requests.get('https://api.census.gov/data/2020/acs/acs5/profile?get=DP05_0064PE,DP05_0065PE,DP05_0067PE,DP05_0071PE,DP03_0119PE,DP03_0062E,DP02_0068PE,DP02_0094PE,DP04_0047PE,DP04_0018PE,DP04_0017PE,DP04_0003PE,DP03_0027PE,DP03_0029PE,DP03_0025E,DP04_0052PE,DP04_0051PE,DP04_0134E,DP02_0114PE&for=tract:'+tract+'&in=state:'+state+'%20county:'+county+'&key=901e1c41a36cd6bbee390e6cc013021757d66ffd')
     try:
@@ -114,6 +116,7 @@ def get_data(state,county,tract):
         }
     return race,total_income,total_other,race_diff
 
+#organize census data
 def sort_into_objects(data,is2020):
     race={}
     income={}
@@ -145,7 +148,7 @@ def sort_into_objects(data,is2020):
       }
     return race,income,other
       
-
+#compile demographic data into one
 def assign_categories(race,income,other,race_diff):
     demographics = {}
     for i in race.keys():
@@ -191,6 +194,7 @@ def assign_categories(race,income,other,race_diff):
         }
     return demographics
 
+#remove posts with NA for latitude/longitude before GIS processing
 def remove_NA(read_path,write_path):    
     rows=[]
     data = {}
@@ -210,9 +214,10 @@ def remove_NA(read_path,write_path):
             obj={}
             for key in fieldnames:
                 obj[key]=row[key]
-            writer.writerow(row)
+            writer.writerow(obj)
     return data
 
+#GIS processing -- get GEOID and typology (if applicable)
 def get_geoid(csv_read_path,csv_write_path,states):
 
     data = remove_NA(csv_read_path,csv_write_path)
@@ -250,20 +255,25 @@ def get_geoid(csv_read_path,csv_write_path,states):
         data[post_id]['GEOID'] = str(round(float(geoid)))
     return data
 
+
+#combine GIS data and census data
 def add_fields(data,key,demographics,repeat = False):
     d = data[key]
     if d.get('GEOID') and demographics.get(d['GEOID']):
       for key in new_fieldnames:
           d[key] = demographics[d['GEOID']][key]
-    elif d.get('GEOID') and not repeat:
-      temp_race,temp_income,temp_other,temp_race_diff = get_data(d['GEOID'][:2],d['GEOID'][2:5],d['GEOID'][5:])
-      temp_demographics = assign_categories(temp_race,temp_income,temp_other,temp_race_diff)
-      d = add_fields(data,key,temp_demographics,repeat = True)
+
+#this double checks census calls for missing data; slow and not consistently helpful
+#    elif d.get('GEOID') and not repeat:
+ #     temp_race,temp_income,temp_other,temp_race_diff = get_data(d['GEOID'][:2],d['GEOID'][2:5],d['GEOID'][5:])
+  #    temp_demographics = assign_categories(temp_race,temp_income,temp_other,temp_race_diff)
+   #   d = add_fields(data,key,temp_demographics,repeat = True)
     else:
       for key in new_fieldnames:
           d[key]='NA'
     return d
     
+#get demographic data for tracts rather than posts    
 def demographics_by_tract(metro_area,states):
   tracts = {}
   data = {}
@@ -275,14 +285,13 @@ def demographics_by_tract(metro_area,states):
     race,income,other,race_diff = get_data(state,'*','*')
     data = assign_categories(race,income,other,race_diff)
   for key in tracts:
-      #print(data)
       obj = data.get(key,None)
       if obj != None:
           obj['typology'] = tracts[key]['typology']
       tracts[key] = obj
   return tracts
        
-      
+#runs the whole demographic acquisition process      
 def get_demographics(metro_area,states):
   csv_read='csv_dumps/'+metro_area+'_csv_dump.csv'
   csv_write = 'csv_dumps/'+metro_area+'_filtered.csv'
@@ -297,13 +306,16 @@ def get_demographics(metro_area,states):
       data[key] = add_fields(data,key,demographics)
   return data
 
+#writes new data into complete csv
 def metro_area_data(metro_area,mode):
     states = state_codes[metro_area]
     data = get_demographics(metro_area, states)
         
     ids = []
-    isnew =  os.path.exists(f"./csv/{metro_area}_complete.csv")
-    if isnew:
+    isold =  os.path.exists(f"./csv/{metro_area}_complete.csv")
+   
+   
+    if isold and mode != 'w':
         with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
           reader = csv.DictReader(csvfile)
           for row in reader:
@@ -311,17 +323,21 @@ def metro_area_data(metro_area,mode):
     
     with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        if not isnew:
+        if not isold or mode == 'w':
           writer.writeheader()
         for key in data:
             if key not in ids:
-                writer.writerow(data[key]) 
-    
+                obj={}
+                for fieldname in fieldnames:
+                    obj[fieldname]=data[key].get(fieldname,'NA')
+                writer.writerow(obj) 
+
+#for mistakes--if a csv was written without a header, it can be fixed with this    
 def add_header(metro_area):
     csvfile = pd.read_csv(f"./csv/{metro_area}_complete.csv")
     csvfile.to_csv(f"./csv/{metro_area}_complete.csv",header=fieldnames,index=False)
 
-
+#write one large csv of all posts--for stm processing
 def write_csv():
     data = {}
     for metro_area in os.listdir('./csv'):
@@ -339,6 +355,8 @@ def write_csv():
         
         for key in data:
             item = data[key]
+            if item.get('race',None)==None:
+              continue
             orig_doc = str(item['posting_body'])
             
             doc = orig_doc.replace('\', \'',' ')
@@ -361,38 +379,24 @@ def write_csv():
             if item['poverty'] != 'NA' and obj['rent'] != 'NA' and obj['rent'] <= 10:
                 writer.writerow(obj)
 
+#runs html conversion for all cities
+def html_to_csv_dump():
+    ready = False
+    for metro_area in os.listdir('./html'):
+        if metro_area=='sfbay':
+            ready =True
+        if ready:
+            process_html("./html/"+metro_area)
 
-
+#runs secondary processing for all cities
+def process_csvs():
+    for metro_area in os.listdir('./html'):
+      print(metro_area)
+      metro_area_data(metro_area,'w')
 
 
 if __name__ == '__main__':
-#    write_csv()
-#    for metro_area in os.listdir('./html'):
- #       process_html("./html/"+metro_area)
- 
-    
-#    a=False
-    for metro_area in os.listdir('./html'):
-  #      if metro_area == 'houston': a = True
-   #     if a:
-          print(metro_area)
-          metro_area_data(metro_area,'w')
-    
-#    for metro_area in ['lasvegas','cincinnati','buffalo','seattle']:
- #      process_html("./html/"+metro_area)
-  #      jsons_to_csv("./json/"+metro_area)
-   #     print(metro_area)
-    #    metro_area_data(metro_area,'w')
-    
-    #mode = 'w'
-    #for metro_area in os.listdir('./json'):
-     #   print(metro_area)
-      #  data = json_to_dict(metro_area)
-       # write_csv(mode,data)
-        #mode = 'a'
 
-    # process_html("./html/chicago")
-    # print("1")
-    # jsons_to_csv("./json/chicago")
-    # testing('chicago')
-    # metro_area_data('dallas')
+    html_to_csv_dump()
+    process_csvs()
+ #   write_csv()
