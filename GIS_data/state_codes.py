@@ -50,7 +50,6 @@ state_codes = {
   'seattle':['53'],
   'sfbay':['06'],
   'stlouis':['29'],
-  'stpetersburg':['12'],
   'tampa':['12'],
   'washingtondc':['11','51','24'],
 }

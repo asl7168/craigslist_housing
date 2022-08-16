@@ -6,9 +6,23 @@ import json
 
 
 def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_quest: bool=False):
+    """ Cleans proxies at the given filepath into the standard form x.x.x.x:xxxx; when
+    downloading webshare.io proxies, they're of the form x.x.x.x:xxxx:user:password, 
+    which is a format that doesn't work with the requests library
+
+    Parameters
+    ----------
+        init (bool, optional): if the python script being created is for an initial scrape or cron scrape.
+            Defaults to False
+        filepath (str, optional): filepath to the root craigslist directory. Defaults to None
+        webshare_proxies (str, optional): filepath to webshare_proxies.txt. Defaults to None
+        for_quest (bool, optional): whether or not the python script is being run on QUEST (p31502 allocation).
+            Defaults to False
+    """
+    
     init_or_cron = "init" if init else "cron"  
-    if webshare_proxies: proxies = clean_webshare_proxies(webshare_proxies)  # clean proxies, then store them here
-    else: proxies = clean_webshare_proxies()
+    # make sure proxies are clean, then store them as proxies
+    proxies = clean_webshare_proxies() if not webshare_proxies else clean_webshare_proxies(webshare_proxies)
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
@@ -26,12 +40,12 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
 
     if not filepath:
         if for_quest: filepath = "/projects/p31502/projects/craigslist"
-        else: filepath = "./html"
+        else: filepath = "."
     else:
         filepath = filepath
 
     output = f"# to avoid issues with the html directory being in the wrong location, please use an absolute filepath\n" \
-             f"import sys\nsys.path.append(\"{'./' if not for_quest else '/projects/p31502/projects/craigslist'}\")\n\n" \
+             f"import sys\nsys.path.append(\"{filepath}/\")\n\n" \
              "from time import sleep\n" \
              "from cprint import cprint\n" \
              f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
@@ -50,6 +64,5 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
              "\t\t\tscrape_from(locations.index(location))\n\n" \
              "scrape_from()\n"
              
-
     with open(f"scripts/{init_or_cron}_scrape.py", "w") as script:
         script.write(output)

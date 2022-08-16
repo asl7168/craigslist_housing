@@ -1,6 +1,6 @@
 # to avoid issues with the html directory being in the wrong location, please use an absolute filepath
 import sys
-sys.path.append("/projects/p31502/projects/craigslist")
+sys.path.append("/projects/p31502/projects/craigslist/")
 
 from time import sleep
 from cprint import cprint
@@ -17,7 +17,7 @@ def scrape_from(idx: int=0):
 		except Exception as e:
 			try:
 				cprint(f"Encountered exception '{e}'\nTrying again in 30 seconds", c="r")
-			except:
+			except Exception:
 				cprint("Encountered an unprintable exception. Trying again in 30 seconds", c="r")
 			sleep(30)
 			scrape_from(locations.index(location))

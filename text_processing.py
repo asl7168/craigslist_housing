@@ -27,24 +27,19 @@ def find_strings(keywords, search_list):
     """ Searches for strings in a list and returns matches. This will be used to find 
     certain posting details from an aggregated list of options that users have when they create the post.
     Some are required like laundry and parking. Others are optional like flooring type, rent period, 
-    pet info, AC, etc. 
+    pet info, AC, etc.
 
     Parameters 
     ----------
-    keywords : list
-        A list of strings to search for
-
-    search_list : list
-        A list of strings to search in 
-
+        keywords (list): a list of strings to search for
+        search_list (list): a list of strings to search in 
 
     Returns
     -------
-    str
-        Either the full string from the list or "NA" if doesn't exisit  
+        match (str): either the full string from the list or "NA" if doesn't exisit  
     """
+
     match = [item for item in search_list for keyword in keywords if keyword in item] 
-    
     if len(match) == 0:
         return "NA"
     elif len(match) == 1:
@@ -56,21 +51,19 @@ def find_strings(keywords, search_list):
 def clean_if_exists(s):
     """ For some posting details such as rent period, app fee, flooring etc., we only need the
     info to the right of the ':'. This function checks if this info is included in post (i.e. not "NA")
-    and if so, splits and cleans it.
+    and if so, splits and cleans it
 
     Parameters
     ----------
-    s : str
-        The string to check and clean
+        s (str): the string to check and clean
 
     Returns
     -------
-    str
-        Either "NA" if input string is "NA" or split/stripped string 
+        s/output (str): either "NA" if input string is "NA" or split/stripped string 
     """
     
     if s != 'NA':
-        if not isinstance(s,str):
+        if not isinstance(s, str):
             s = s[0]
         output = s.split(':')[1].strip()
         return output
@@ -81,18 +74,17 @@ def clean_if_exists(s):
 def yes_if_exists(s):
     """ For some posting details, such as pets, no smoking, furnished, if they aren't explicitly marked, 
     it doesn't neccessarily mean that's not true for the property. This function checks for the existence 
-    of these details (checkbox options when making post) and assigns 'yes' if exists and 'NA' if not.
+    of these details (checkbox options when making post) and assigns 'yes' if exists and 'NA' if not
 
     Parameters
     ----------
-    s : str
-        The string to check
+        s (str): the string to check
 
     Returns
     -------
-    str
-        Either 'NA' if input string is 'NA' or 'yes'
+        bool, s (str): either True if s isn't "NA" or "NA" otherwise
     """
+
     if s != 'NA':
         return True
     else:
@@ -101,12 +93,14 @@ def yes_if_exists(s):
 
 def process_html(directory):
     """ Processes every new html file from the given directory to a csv_dump; if reposts are found,
-    updates the repost_dates in a ./csv/{city}_complete.csv file
+    updates the repost_dates in the appropriate ./csv/{city}_complete.csv file if it exists (otherwise
+    updates the building ./csv_dumps/{city}_csv_dump.csv)
 
     Parameters
     ----------
-        directory (string): filepath to directory of html files
+        directory (str): filepath to html directory
     """
+
     dir_split = directory.split("/")
     city = dir_split[-1] 
     nlp = spacy.load("en_core_web_sm")  # python -m spacy download en_core_web_sm
@@ -114,21 +108,20 @@ def process_html(directory):
     csv_dump_path = f"{'/'.join(dir_split[:-2])}/csv_dumps/{city}_csv_dump.csv"
     csv_complete_path = f"{'/'.join(dir_split[:-2])}/csv/{city}_complete.csv"
     if os.path.exists(csv_complete_path): 
-        csv_complete_exists = True
+        complete_exists = True
         csv_complete_df = pd.read_csv(csv_complete_path, usecols=cols, keep_default_na=False)
     else: 
-        csv_complete_exists = False
+        complete_exists = False
 
     csv_dump_df = pd.DataFrame(columns=cols)  # csv_dumps are a staging area; only store *new* posts in them
 
     for filename in tqdm(os.listdir(directory), desc=f"Processing html from {directory}..."):
         filepath = os.path.join(directory, filename)
-        
         if not os.path.isfile(filepath): continue
 
-        updatable_df = csv_dump_df if not csv_complete_exists else csv_complete_df  # df to update repost_dates in
+        updatable_df = csv_dump_df if not complete_exists else csv_complete_df  # df to update repost_dates in
         processed_ids = list(updatable_df["post_id"])
-        if int(filename.split("_")[-1]) in processed_ids: 
+        if int(filename.split("_")[-1]) in processed_ids:  # just the post_id (remove postid_ from the front)
             continue  # if post has been processed, don't reprocess
                 
         # open html and create soup
@@ -136,10 +129,8 @@ def process_html(directory):
             soup = BeautifulSoup(html_file, 'lxml')
         
         # get unique post ID
-        try:
-            post_id = int(soup.find(string=re.compile("post id")).split(':')[1].strip())
-        except:
-            continue
+        try: post_id = int(soup.find(string=re.compile("post id")).split(':')[1].strip())
+        except: continue
         
         posting_infos = soup.find('div', class_='postinginfos')  # posting/updating dates and times
         
@@ -149,17 +140,17 @@ def process_html(directory):
         updated = datetime[1] if len(datetime) > 1 else "NA"  # any additional datetimes will be updates
         
         # handle if a post is a repost
-        repost_of_script = str(soup('script')[3])
+        repost_of_script = str(soup('script')[3])  # the script with repost info is always the fourth
         repost_of = re.search(r"repost_of: (\d+)", repost_of_script)
-        repost_of = int(repost_of.group(1)) if repost_of else None
+        repost_of = int(repost_of.group(1)) if repost_of else None  # the post_id that this post is a repost of
         
         if repost_of:
-            if repost_of in processed_ids:  # if original has already been processed, append to repost_dates
+            if repost_of in processed_ids:  # if original has already been processed
                 repost_list = updatable_df.loc[updatable_df["post_id"] == repost_of]["repost_dates"].values[0]
 
                 if isinstance(repost_list, str): repost_list = literal_eval(repost_list)  # get list from str
 
-                repost_list.append(posted)
+                repost_list.append(posted)  # append to repost_dates
                 updatable_df.loc[updatable_df["post_id"] == repost_of]["repost_dates"] = [repost_list]
                 continue  # then go to the next post
             else:  # otherwise, handle later (see L277, L288)
@@ -173,17 +164,14 @@ def process_html(directory):
         
         # find pricing info, extract text, strip whitespace, remove non-integer characters
         pricing_info = title_text.find('span', class_="price")
-        if pricing_info:
-            price = round(float(pricing_info.text.strip().replace("$", "").replace(",", "")))
-        else:
-            price = "NA"
+        if pricing_info: price = round(float(pricing_info.text.strip().replace("$", "").replace(",", "")))
+        else: price = "NA"
         
         # if neighborhood is included (doesn't have to be), will be found here in the title text
         post_hood = title_text.find('small')
         neighborhood = post_hood.text.strip().strip('()') if post_hood else "NA"
         
-        # get availability date
-        # choose to grab the actual date instead of the text 'available jul 1' for example
+        # get availability date (actual date instead of e.g. 'available jul 1')
         availability = soup.find(class_="housing_movein_now property_date shared-line-bubble")
         available = availability.get('data-date') if availability else "NA"
         
@@ -197,7 +185,7 @@ def process_html(directory):
             data_accuracy = int(mapbox.find(id='map').get('data-accuracy'))
         
             # some posts just have street address, others include nearby cross streets formatted as
-            # 'street address near street'. We account for both
+            # 'street address near street' -- we account for both
             address = mapbox.find('div', class_="mapaddress")
             if address:
                 map_address = address.text
@@ -216,14 +204,13 @@ def process_html(directory):
         # get body of post
         posting_body = str(soup.find('section', id="postingbody"))
         posting_body = [unescape(text.replace("\n", "").replace("</section>", "")).strip() for text in re.split(r"<[^>]+>", 
-                        posting_body)]
+                        posting_body)]  # replace newlines and closing section tags with empty strings, unescape characters, etc
         posting_body = [text for text in posting_body if text != ""]
         docs = [nlp(s).sents for s in posting_body]  # do sentence segmentation on every string/item from the split body text
-        sents = [str(sent) for doc in docs for sent in doc][1:]  # get every sentence from every doc in docs; [1:] to exclude "QR..." bit
-        posting_body = [re.sub(r"(https?|www)?[^\s]+\.(com|org|net|be)(\/[^\s]+)*", "<URL>", sent) for sent in sents]  # basic URL tokenization
+        sents = [str(sent).strip() for doc in docs for sent in doc][1:]  # every sentence from every doc in docs; [1:] excludes "QR..." bit
+        posting_body = [re.sub(r"(https?|www)?[^\s]+\.(com|org|net|be)(\/[^\s]+)*", "<URL>", sent) for sent in sents]  # URL tokenization
 
-
-        # get urls for images if post has them
+        # get image urls
         images = []
         imgList = soup.find('div', id='thumbs')
         if imgList:
@@ -237,7 +224,7 @@ def process_html(directory):
         # the output of the user selecting specific options when they make the post. This gathers them in
         # a 'specifications' list which we can search through. There are two instances of the class "attrgroup",
         # the first is always just the bed/bath, sqft(if provided), and availability. The second has all
-        # the other apt features.
+        # the other apt features
         attrgroup = soup.find_all('p', class_="attrgroup")
         specs = [item.text for group in attrgroup for item in group.find_all("span")]
         
@@ -246,14 +233,14 @@ def process_html(directory):
         if bedbath != "NA": 
             bedbath_re = r"(\.?[0-9]+)+"
             
-            if not isinstance(bedbath, str): bedbath = bedbath[0]
+            if not isinstance(bedbath, str): bedbath = bedbath[0]  # sometimes bedbath is a list; only need [0]
             
             bedbath = bedbath.split("/")
             bed = bedbath[0]
-            bed = int(re.search(bedbath_re, bed).group())
+            bed = int(re.search(bedbath_re, bed).group())  # the number of beds
             
             bath = bedbath[1]
-            bath = re.search(bedbath_re, bath)
+            bath = re.search(bedbath_re, bath)  # the number of baths, if given in number format
             
             if bath: 
                 bath = float(bath.group())
@@ -262,7 +249,7 @@ def process_html(directory):
             elif re.search(r"split", bedbath[1]):
                 bath = "split"
 
-            bath = bath if bath else "NA"  # if there isn't an X.Y number of baths or
+            bath = bath if bath else "NA"  # if baths aren't listed at all
         else: 
             bed = bath = bedbath
         
@@ -272,8 +259,7 @@ def process_html(directory):
         # same for parking: there are a number of options but all accounted for by these 3 strings.
         parking = find_strings(['parking', 'garage', 'carport'], specs)
         
-        # optional details
-        # possble housing options
+        # optional housing details
         housing_type = ['apartment', 'condo', 'cottage', 'duplex', 'flat', 'house',
                         'in-law', 'loft', 'townhouse', 'manufactured', 'assisted', 'land']
         housing = find_strings(housing_type, specs)
@@ -282,7 +268,7 @@ def process_html(directory):
         sqft = find_strings(['ft2'], specs).replace('ft2','')
         if sqft != 'NA': sqft = int(sqft)
         
-        # the group of features/specifications that are formatted name: details
+        # the group of features/specifications that are formatted "name: details"
         # use our clean up function to makes things easier
         flooring = clean_if_exists(find_strings(['flooring'], specs))
         rent_period = clean_if_exists(find_strings(['rent period'], specs))
@@ -299,7 +285,7 @@ def process_html(directory):
         AC = yes_if_exists(find_strings(['air'], specs))
         EV_charging = yes_if_exists(find_strings(['EV'], specs))
         
-        # creating the dictionary
+        # creating the dictionary; store everything in a list so it can be inserted into the dataframe
         post_details = {
             "post_id": [post_id] if not repost_of else [repost_of],
             "title": [title.text],
@@ -341,7 +327,4 @@ def process_html(directory):
  
     print(csv_dump_df)
     csv_dump_df.to_csv(csv_dump_path, index=False)
-    if csv_complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False).fillna("")
-
-if __name__ == '__main__':
-    process_html("./html/chicago")
+    if complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False).fillna("")
