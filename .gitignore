@@ -8,8 +8,11 @@ webshare*
 stm-env*
 html
 json*
-csv_dumps
+csv*
 bin
+GIS_data/*
+!GIT_data/state_codes.py
 Rthings
+scripts/DEPRECATED
 .RData
 .Rhistory
