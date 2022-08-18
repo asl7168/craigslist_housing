@@ -6,12 +6,14 @@ __pycache__
 webshare*
 */webshare*
 stm-env*
-html
+html/*
 json*
-bin
+csv/*
+csv_dumps/*
+bin/*
 GIS_data/*
 !GIT_data/state_codes.py
 Rthings
-scripts/DEPRECATED
+scripts/DEPRECATED/*
 .RData
 .Rhistory
