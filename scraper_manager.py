@@ -6,9 +6,9 @@ import json
 
 
 def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_quest: bool=False):
-    """ Cleans proxies at the given filepath into the standard form x.x.x.x:xxxx; when
-    downloading webshare.io proxies, they're of the form x.x.x.x:xxxx:user:password, 
-    which is a format that doesn't work with the requests library
+    """ Creates python files to do an initial scrape of up to 25 pages of posts (3000 posts total) or
+    a daily scrape (every post made within 24 hours) for every location in GIS_data/state_codes.py 
+    (NOTE: these are not all city names; some are regions).
 
     Parameters
     ----------
