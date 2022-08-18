@@ -8,7 +8,6 @@ webshare*
 stm-env*
 html
 json*
-csv*
 bin
 GIS_data/*
 !GIT_data/state_codes.py
