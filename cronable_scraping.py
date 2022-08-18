@@ -22,7 +22,8 @@ from cprint import cprint
 
 # note: any instance of the number 120 is due to craigslist returning 120 results per page
 class CraigslistScraper:
-    def __init__(self, city: str, filepath: str=None, scrape_by_date: bool=True, number_of_pages: int=25, proxies: list=None):
+    def __init__(self, city: str, filepath: str=None, scrape_by_date: bool=True, number_of_pages: int=25, 
+                 use_rotating_link: bool=False, proxies: list=None):
         """ Creates a craigslist scraper for a specific city, and specifies whether it should scrape by posts made today, how
         many pages should be scraped if not, and a list of proxies to scrape using
 
@@ -32,6 +33,8 @@ class CraigslistScraper:
             filepath (str, optional): the filepath to the html directory. Defaults to None
             scrape_by_date (bool, optional): whether or not to scrape by posts made today. Defaults to True
             number_of_pages (int, optional): the number of pages to scrape (for an init scrape). Defaults to 25
+            use_rotating_link (bool, optional): whether or not to use the rotating proxy link (from webshare.io) instead of a proxy 
+                list. Defaults to False
             proxies (list, optional): a list of proxies to scrape using. Defaults to None
         """
         
@@ -46,7 +49,15 @@ class CraigslistScraper:
         self.base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&s="
         self.today_base_url = f"https://{city}.craigslist.org/d/apartments-housing-for-rent/search/apa?availabilityMode=0&postedToday=1&s="
 
-        if proxies: 
+        self.use_rotating_link = use_rotating_link
+        if use_rotating_link:
+            self.sleep_time = 0.22  # assume 100 proxies, and all just about work
+
+            self.curr_proxy = {
+                "http": f"http://{user}-rotate:{password}@p.webshare.io:80/", 
+                "https": f"http://{user}-rotate:{password}@p.webshare.io:80/"
+                }
+        elif proxies: 
             self.sleep_time = 20 / len(proxies) if 20 / len(proxies) > 0.015 else 0.015  # ~0.015s is the min for an avg spec Win PC
             
             self.curr_proxy = True
@@ -61,7 +72,9 @@ class CraigslistScraper:
 
 
     def change_proxy(self):
-        if self.curr_proxy:  # if there is a current proxy
+        if self.use_rotating_link:
+            return  # the rotating link changes the proxy every time, so we don't have to do anything for it
+        elif self.curr_proxy:  # if there is a current proxy
             if not self.avail_proxies:  # if no more proxies are available
                 self.avail_proxies = self.unavail_proxies  # move all proxies back into the available list
                 self.unavail_proxies = []  # clear the unavailable list 
@@ -99,20 +112,23 @@ class CraigslistScraper:
         search_results = html_soup.find("ul", id="search-results")
         posts = html_soup.find_all('li', class_='result-row')
         posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
-        
+
         if len(posts) == 0: 
             # a harvest moon is shown when we're out of results for non-daily; a train  is shown when we're out of results for daily
             if not html_soup.find("pre", id="moon") or not html_soup.find("pre", id="train"):  
                 body = html_soup.find("body")
                 if body and "blocked" in body.text:
-                    self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
-                    cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                    if not self.use_rotating_link:  # if we aren't using the rotating link, we should remove the faulty proxy
+                        self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
+                        cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                        
+                        new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
+                        self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
+                        cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+                    else:  # otherwise, we can't do anything about it
+                        cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
                     
-                    new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
-                    self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
-                    cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
-                    
-                    return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L74)
+                    return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L103)
             else:
                 cprint(f"No more search results!", c="y")
                 return [0, True, False]
@@ -228,11 +244,11 @@ class CraigslistScraper:
 
 
 #%%
-def do_init_scrape(city: str, filepath: str=None, proxies: str=None):
-    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, proxies=proxies)
+def do_init_scrape(city: str, filepath: str=None, use_rotating_link: bool=False, proxies: str=None):
+    scraper = CraigslistScraper(city, filepath=filepath, scrape_by_date=False, use_rotating_link=use_rotating_link, proxies=proxies)
     scraper.scrape()
 
 
-def do_cron_scrape(city: str, filepath: str=None, proxies: str=None):
-    scraper = CraigslistScraper(city, filepath=filepath, proxies=proxies)
+def do_cron_scrape(city: str, filepath: str=None, use_rotating_link: bool=False, proxies: str=None):
+    scraper = CraigslistScraper(city, filepath=filepath, use_rotating_link=use_rotating_link, proxies=proxies)
     scraper.scrape()

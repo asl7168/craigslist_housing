@@ -5,7 +5,7 @@ from math import floor, ceil
 import json
 
 
-def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_quest: bool=False):
+def setup(init: bool=False, filepath: str=None, use_rotating_link: bool=False, webshare_proxies: str=None, for_quest: bool=False):
     """ Creates python files to do an initial scrape of up to 25 pages of posts (3000 posts total) or
     a daily scrape (every post made within 24 hours) for every location in GIS_data/state_codes.py 
     (NOTE: these are not all city names; some are regions).
@@ -15,14 +15,14 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
         init (bool, optional): if the python script being created is for an initial scrape or cron scrape.
             Defaults to False
         filepath (str, optional): filepath to the root craigslist directory. Defaults to None
+        use_rotating_link (bool, optional): whether or not to use the rotating proxy link (from webshare.io) instead of a proxy 
+            list. Defaults to False
         webshare_proxies (str, optional): filepath to webshare_proxies.txt. Defaults to None
         for_quest (bool, optional): whether or not the python script is being run on QUEST (p31502 allocation).
             Defaults to False
     """
     
     init_or_cron = "init" if init else "cron"  
-    # make sure proxies are clean, then store them as proxies
-    proxies = clean_webshare_proxies() if not webshare_proxies else clean_webshare_proxies(webshare_proxies)
     locations = ["chicago", "atlanta", "boston", "cleveland", "denver", "losangeles", "memphis", "seattle", 
                 "sfbay", "austin", "dallas", "detroit", "houston", "lasvegas", "miami", "minneapolis", 
                 "newyork", "orangecounty", "philadelphia", "phoenix", "portland", "raleigh", "sacramento", 
@@ -44,25 +44,33 @@ def setup(init: bool=False, filepath: str=None, webshare_proxies: str=None, for_
     else:
         filepath = filepath
 
-    output = f"# to avoid issues with the html directory being in the wrong location, please use an absolute filepath\n" \
-             f"import sys\nsys.path.append(\"{filepath}/\")\n\n" \
-             "from time import sleep\n" \
-             "from cprint import cprint\n" \
-             f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
-             f"locations = {locations}\n" \
-             f"with open(\"{f'{filepath}/proxies/webshare_proxies.txt' if not webshare_proxies else webshare_proxies}\") " \
-             "as f: proxies = f.readlines()\n\n" \
-             "def scrape_from(idx: int=0):\n" \
-             "\tfor location in locations[idx:]:\n" \
-             "\t\ttry:\n"  \
-             "\t\t\tpcpy = proxies.copy()\n"  \
-             f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}/html\", proxies=pcpy)\n" \
-             "\t\texcept Exception as e:\n" \
-             "\t\t\ttry:\n\t\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
-             "\t\t\texcept Exception:\n\t\t\t\tcprint(\"Encountered an unprintable exception. Trying again in 30 seconds\", c=\"r\")\n" \
-             "\t\t\tsleep(30)\n" \
-             "\t\t\tscrape_from(locations.index(location))\n\n" \
-             "scrape_from()\n"
+    proxy_string = ""
+    if not use_rotating_link:
+        # make sure proxies are clean, then store them as proxies
+        proxies = clean_webshare_proxies() if not webshare_proxies else clean_webshare_proxies(webshare_proxies)
+        proxy_string = f"with open(\"{f'{filepath}/proxies/webshare_proxies.txt' if not webshare_proxies else webshare_proxies}\") " \
+             "as f: proxies = f.readlines()\n\n"
+    output = ""
+    output += f"# to avoid issues with the html directory being in the wrong location, please use an absolute filepath\n" \
+              f"import sys\nsys.path.append(\"{filepath}/\")\n\n" \
+              "from time import sleep\n" \
+              "from cprint import cprint\n" \
+              f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
+              f"locations = {locations}\n" \
+              f"{proxy_string}" \
+              "def scrape_from(idx: int=0):\n" \
+              "\tfor location in locations[idx:]:\n" \
+              "\t\ttry:\n"
+    output += "\t\t\tpcpy = proxies.copy()\n" if not use_rotating_link else ""
+    output += f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}/html\", "
+    output += f"proxies=pcpy" if not use_rotating_link else f"use_rotating_link=True"
+    output += ")\n" \
+              "\t\texcept Exception as e:\n" \
+              "\t\t\ttry:\n\t\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
+              "\t\t\texcept Exception:\n\t\t\t\tcprint(\"Encountered an unprintable exception. Trying again in 30 seconds\", c=\"r\")\n" \
+              "\t\t\tsleep(30)\n" \
+              "\t\t\tscrape_from(locations.index(location))\n\n" \
+              "scrape_from()\n"
              
     with open(f"scripts/{init_or_cron}_scrape.py", "w") as script:
         script.write(output)
