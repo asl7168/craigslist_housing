@@ -36,6 +36,7 @@ plotQuote(thoughts1, width = 30, main = "Topic 1")
 #different model to see how certain words are more common with certain groups within a single topic
 contentFit <- stm(documents = out$documents, vocab = out$vocab, K = 7, prevalence =~ is_white * poverty, content =~ is_white, max.em.its = 200, data = meta, init.type = "Spectral")
 plot(contentFit, type = "perspectives",topics = 1)
+labelTopics(contentFit)
 
 prep2 <- estimateEffect(1:7 ~ race * poverty, contentFit, meta = meta, uncertainty = "Global")
 summary(prep2)
