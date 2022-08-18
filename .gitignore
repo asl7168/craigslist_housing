@@ -7,6 +7,7 @@ webshare*
 */webshare*
 stm-env*
 html/*
+html-*
 json*
 csv/*
 csv_dumps/*
