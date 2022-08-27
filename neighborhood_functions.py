@@ -4,16 +4,21 @@ import matplotlib.pyplot as plt
 import json
 import csv
 import re
-import geoplot as gplt
+#import geoplot as gplt
 from shapely.geometry import Point
-from demographics_multistate import get_demographics, demographics_by_tract
+from secondary_processing import get_demographics, demographics_by_tract,remove_NA
 from GIS_data.state_codes import state_codes
+from collections import defaultdict
 
 fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 
               'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 
               'bathrooms', 'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 
               'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 
               'posting_body', 'images', 'url','mention','neighborhood_id']
+
+fieldnames_complete = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url","typology","GEOID","poverty","race","white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old"]
+              
+keys = ["white","black","asian","latinx","below25k","median_income","college","foreignborn","renteroccupied","last10yrs","vacancy","white_old","black_old","asian_old","latinx_old","below25k_old","median_income_old","college_old","foreignborn_old","renteroccupied_old","last10yrs_old","vacancy_old","professional","travel_time","new_residents","non_english","avg_rent","professional_old","travel_time_old","new_residents_old","non_english_old","avg_rent_old",'count']
 
 
 # generate average statistics for census tracts of each gentrification typology
@@ -204,3 +209,52 @@ def add_neighborhood():
         
         for ad in ads:
             writer.writerow(ad)
+            
+def neighborhood_demographics():  
+    remove_NA('./csv/chicago_complete.csv','./GIS_data/chicago/chicago_filtered.csv',fieldnames_complete)
+    
+    neighborhoods={}
+    
+    for key in keys:
+      neighborhoods[key] = defaultdict(float)
+      
+    df = gpd.read_file('./GIS_data/chicago/chicago_filtered.csv')
+    geometry = gpd.points_from_xy(df.longitude, df.latitude,crs = 'EPSG:4269')
+    posts = gpd.GeoDataFrame(data = df,geometry = geometry)
+    map_path = 'GIS_data/chicago/chicago_neighborhoods.shp'
+    city_map = gpd.read_file(map_path)
+    combined = gpd.sjoin(posts,city_map)
+    
+    for i in combined.index.values:
+        n = combined.at[i,'pri_neigh']
+        hasNA = False
+        for key in keys:
+          if not hasNA:
+            if key == "count": 
+                neighborhoods[key][n] += 1
+            elif combined.at[i,key]=="NA":
+                hasNA = True
+            else:
+                neighborhoods[key][n] += float(combined.at[i,key])
+    
+    data = []
+    for n in neighborhoods['count'].keys():
+        obj = {}
+        obj['name'] = n
+        for key in neighborhoods.keys():
+            if key == 'count':
+                obj[key] = neighborhoods[key][n]
+            else:
+                obj[key] = neighborhoods[key][n]/neighborhoods['count'][n]
+        data.append(obj)
+    
+    with open("./GIS_data/chicago/neighborhood_data.csv","w") as csvfile:
+        fieldnames = ['name'] +keys
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for item in data:
+            writer.writerow(item)
+            
+            
+if __name__ == '__main__':        
+  neighborhood_demographics()

@@ -1,0 +1,8 @@
+poverty 212533 defaultdict(<class 'int'>, {'nonpoor': 201126, 'poor': 11407})
+poverty 0.9525292310305631
+race 212533 defaultdict(<class 'int'>, {'white': 167822, 'black': 23816, 'latinx': 14478, 'asian': 6417})
+race 0.92099130028655
+3types 75009 defaultdict(<class 'int'>, {'Low': 20115, 'Mixed': 31926, 'Exclusive': 22968})
+3types 0.7115419670229514
+9types 75009 defaultdict(<class 'int'>, {'Low-Income/Susceptible to Displacement': 14696, 'Early/Ongoing Gentrification': 3367, 'At Risk of Becoming Exclusive': 12508, 'Ongoing Displacement': 1605, 'Stable Moderate/Mixed Income': 22068, 'At Risk of Gentrification': 3814, 'Becoming Exclusive': 3363, 'High Student Population': 1967, 'Advanced Gentrification': 4524, 'Stable/Advanced Exclusive': 7097})
+9types 0.7546417445482866

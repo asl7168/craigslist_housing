@@ -30,7 +30,6 @@ state_codes = {
   'nashville':['47'],
   'newjersey':['34'],
   'newyork':['36','34'],
-  'niagara':['36'],
   'norfolk':['51'],
   'oklahomacity':['40'],
   'orangecounty':['06'],

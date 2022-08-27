@@ -327,4 +327,4 @@ def process_html(directory):
  
     print(csv_dump_df)
     csv_dump_df.to_csv(csv_dump_path, index=False)
-    if complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False).fillna("")
+    if complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False)

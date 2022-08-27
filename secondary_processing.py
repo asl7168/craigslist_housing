@@ -195,7 +195,7 @@ def assign_categories(race,income,other,race_diff):
     return demographics
 
 #remove posts with NA for latitude/longitude before GIS processing
-def remove_NA(read_path,write_path):    
+def remove_NA(read_path,write_path,fieldnames_here=None):    
     rows=[]
     data = {}
     with open(read_path) as csvfile:
@@ -205,14 +205,15 @@ def remove_NA(read_path,write_path):
          data[str(row['post_id'])] = row
     
     with open(write_path,'w') as outfile:
-        fieldnames = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"]
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+        if not fieldnames_here:
+          fieldnames_here = ["post_id", "title", "price", "neighborhood", "map_address", "street_address", "latitude", "longitude", "data_accuracy", "posted", "updated", "repost_dates", "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", "images", "url"]
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames_here)
         writer.writeheader()
         
         for row in rows:
           if row['latitude'] != 'NA' and row['longitude'] !='NA':# and row.get('GEOID',None)==None:
             obj={}
-            for key in fieldnames:
+            for key in fieldnames_here:
                 obj[key]=row[key]
             writer.writerow(obj)
     return data
@@ -302,7 +303,6 @@ def get_demographics(metro_area,states):
     demographics_state = assign_categories(race,income,other,race_diff)
     demographics.update(demographics_state)
   data = get_geoid(csv_read,csv_write,states)
-  
   for key in data:
       data[key] = add_fields(data,key,demographics)
   return data
@@ -311,27 +311,42 @@ def get_demographics(metro_area,states):
 def metro_area_data(metro_area,mode):
     states = state_codes[metro_area]
     data = get_demographics(metro_area, states)
-        
-    ids = []
-    isold =  os.path.exists(f"./csv/{metro_area}_complete.csv")
-   
-   
-    if isold and mode != 'w':
-        with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
-          reader = csv.DictReader(csvfile)
-          for row in reader:
-            ids.append(row['post_id'])
+    path = f"./csv/{metro_area}_complete.csv"
+#    ids = []
+    isold =  os.path.exists(path)
     
-    with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        if not isold or mode == 'w':
-          writer.writeheader()
-        for key in data:
-            if key not in ids:
-                obj={}
-                for fieldname in fieldnames:
-                    obj[fieldname]=data[key].get(fieldname,'NA')
-                writer.writerow(obj) 
+    #print(len(data))
+    data_list = []
+    for key in data:
+        data_list.append(data[key])
+        
+    if isold and mode != 'w':
+#        with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
+ #         reader = csv.DictReader(csvfile)
+  #        for row in reader:
+   #         ids.append(row['post_id'])
+      old_df = pd.read_csv(path,dtype = str)
+      new_df = pd.DataFrame(data_list,dtype = str)
+      df = pd.concat([old_df,new_df])
+      print(len(old_df.index),len(new_df.index),len(df.index))
+    else:
+      df = pd.DataFrame(data_list,dtype = str)
+    
+    df = df.drop_duplicates(subset=['post_id'])
+    print(len(df.index))
+    df.to_csv(path, index = False, columns = fieldnames)
+    
+    
+#    with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
+ #       writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  #      if not isold or mode == 'w':
+   #       writer.writeheader()
+    #    for key in data:
+     #       if key not in ids:
+      #          obj={}
+       #         for fieldname in fieldnames:
+        #            obj[fieldname]=data[key].get(fieldname,'NA')
+         #       writer.writerow(obj) 
 
 #for mistakes--if a csv was written without a header, it can be fixed with this    
 def add_header(metro_area):
@@ -382,21 +397,37 @@ def write_csv():
 
 #runs html conversion for all cities
 def html_to_csv_dump():
-    ready = False
+#    ready = False
     for metro_area in os.listdir('./html'):
-        if metro_area=='sfbay':
-            ready =True
-        if ready:
+ #       if metro_area=='portland':
+  #          ready =True
+   #     if ready:
             process_html("./html/"+metro_area)
 
 #runs secondary processing for all cities
 def process_csvs():
     for metro_area in os.listdir('./html'):
-      print(metro_area)
-      metro_area_data(metro_area,'w')
+        print(metro_area)
+        metro_area_data(metro_area,'a')
 
+def fix_post_ids():
+    for area in os.listdir('./csv'):
+        print(area)
+        with open('./csv/'+area,'r') as csvfile:
+          reader = csv.DictReader(csvfile)
+          data = []
+          for row in reader:
+              obj = row
+              if obj['post_id']=='': continue
+              obj['post_id']= round(float(obj['post_id']))
+              data.append(obj)
+        with open('./csv/'+area,'w') as csvfile:
+          writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+          writer.writeheader()
+          for row in data:
+              writer.writerow(row)
 
 if __name__ == '__main__':
     html_to_csv_dump()
-    process_csvs()
+ #   process_csvs()
  #   write_csv()

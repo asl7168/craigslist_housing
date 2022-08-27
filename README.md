@@ -48,6 +48,22 @@ conda activate ./craig_env
 
 If you don't have access to the allocation, both venvs and conda envs can be created as usual.
 
+In order to run the stm functions in R, you can either do:
+
+conda:
+```bash
+conda activate ./stm-env
+```
+
+or:
+
+conda:
+```bash
+conda activate ./craig_env
+module load R/4.1.1
+module load pcre/8.44
+```
+
 ---
 
 ## Scraping
@@ -84,11 +100,13 @@ The full command we're running on QUEST is:
 There are multiple steps to processing the scraped HTML files from Craigslist. First, the important information is extracted from each HTML file for each city and added to a file called {location}_complete.csv using functions from [text_processing.py](./text_processing.py) -- if the post is a duplicate, it's ignored; and if it's a repost, the repost date is added to the previous row containing its data (but the data itself isn't duplicated). Then, demographic data is appended to each _complete CSV using functions from [secondary_processing.py](./secondary_processing.py). Finally, plots/models/figures are generated using [stm.R](./stm.R)
 
 ### Python Files
-TODO (more details if necessary)
+In [secondary_processing.py], demographic data is acquired by first using geopandas to assign a census tract GEOID to every post, and then using the census API to access the demographic information for that census tract. The maps used for geopandas are the 2018 census maps; only the maps for states with cities of interest were added to the files. The census data is from American Community Survey 5-year survey from 2020.
 
-For more information about [area_functions.py](./area_functions.py), [neighborhood_functions.py](./neighborhood_functions.py), and [secondary_processing.py](./secondary_processing.py), please read their docstrings and comments.
+The functions in [neighborhood_functions.py] are not used in the basic processing of craigslist posts--they are for more specific neighborhood functions. The first function is to average demographic data for all census tracts assigned to each gentrification typology for the sake of comparison. The latter functions are for specific neighborhoods. Not all cities have designated neighborhoods, so these have only been tested on Chicago. 
+
+For more information about [neighborhood_functions.py](./neighborhood_functions.py) and [secondary_processing.py](./secondary_processing.py), please read their docstrings and comments.
 
 ***NOTE: some of these files rely on the use of geopandas. As such, a conda env is required. See [Getting Started](#getting-started) for details.***
 
 ### R Files
-TODO (for stm.R)
+The structural topic model (stm) in [stm.R] accepts a large csv of all posts with demographic information, and outputs a variety of results. For memory purposes, it must be run using SLURM using [stm.sh] (./scripts/stm.sh). The text-based results are in [stm_output.log](./scripts/outfiles/stm_output.log) and the visual results are in [Rplots.pdf](./Rplots.pdf).
