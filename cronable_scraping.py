@@ -11,6 +11,9 @@ Some code and tips taken from: https://towardsdatascience.com/web-scraping-craig
 """
 #%%
 from requests import get
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 from datetime import date
 import time, os
 from bs4 import BeautifulSoup
@@ -70,6 +73,12 @@ class CraigslistScraper:
         self.init_posts = 0  # how many posts are found on a page in total
         self.dup_posts = 0  # how many posts on a page were duplicates
 
+        options = Options()
+        options.add_argument("--headless")
+        self.driver = webdriver.Firefox(service=Service("./geckodriver.exe"), options=options)
+
+        self.updated_frontend = False  # generally assume that we aren't using the frontend that's showing up for sfbay
+
 
     def change_proxy(self):
         if self.use_rotating_link:
@@ -102,44 +111,62 @@ class CraigslistScraper:
         
         self.change_proxy()
 
-        try:
-            page_data = get(url, proxies=self.curr_proxy)
-        except Exception:
-            time.sleep(10)
-            page_data = get(url, proxies=self.curr_proxy)
-            
-        html_soup = BeautifulSoup(page_data.text, 'html.parser')
-        search_results = html_soup.find("ul", id="search-results")
-        posts = html_soup.find_all('li', class_='result-row')
-        posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
+        if not self.updated_frontend:
+            try:
+                page_data = get(url, proxies=self.curr_proxy)
+            except Exception:
+                time.sleep(10)
+                page_data = get(url, proxies=self.curr_proxy)
+                
+            html_soup = BeautifulSoup(page_data.text, 'html.parser')
+            search_results = html_soup.find("ul", id="search-results")
+            posts = html_soup.find_all('li', class_='result-row')
+            posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
 
-        if len(posts) == 0: 
-            # a harvest moon is shown when we're out of results for non-daily; a train  is shown when we're out of results for daily
-            if not html_soup.find("pre", id="moon") or not html_soup.find("pre", id="train"):  
-                body = html_soup.find("body")
-                if body and "blocked" in body.text:
-                    if not self.use_rotating_link:  # if we aren't using the rotating link, we should remove the faulty proxy
-                        self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
-                        cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+            if len(posts) == 0: 
+                # a harvest moon is shown when we're out of results for non-daily; a train  is shown when we're out of results for daily
+                if not html_soup.find("pre", id="moon") or not html_soup.find("pre", id="train"):  
+                    body = html_soup.find("body")
+                    if body and "blocked" in body.text:
+                        if not self.use_rotating_link:  # if we aren't using the rotating link, we should remove the faulty proxy
+                            self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
+                            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                            
+                            new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
+                            self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
+                            cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+                        else:  # otherwise, we can't do anything about it
+                            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
                         
-                        new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
-                        self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
-                        cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
-                    else:  # otherwise, we can't do anything about it
-                        cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
-                    
-                    return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L103)
-            else:
-                cprint(f"No more search results!", c="y")
-                return [0, True, False]
+                        return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L103)
+                else:
+                    cprint(f"No more search results!", c="y")
+                    return [0, True, False]
 
-        posts_dict = {}
-        for post in posts:
-            post_title = post.find('a', class_='result-title hdrlnk')
-            post_id = post_title['id']
-            url = post_title['href']
-            posts_dict[post_id] = url
-        
+            posts_dict = {}
+            for post in posts:
+                post_title = post.find('a', class_='result-title hdrlnk')
+                post_id = post_title['id']
+                post_url = post_title['href']
+                posts_dict[post_id] = post_url
+
+        else:  # TODO: change get to selenium driver, change soup finds, etc
+            # don't get URL again, or we reset the page we're on
+            html_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+            search_results = html_soup.find("div", class_="results cl-results-page cl-search-view-mode-gallery")
+            posts = html_soup.find_all("li", class_="cl-search-result cl-search-view-mode-gallery")
+
+            # don't know how to determine if a post is from a "nearby area" or not in the new UI
+            # posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
+
+            posts_dict = {}
+            for post in posts:
+                post_title = post.find("span", class_="label")
+                
+                post_url = post.find("a", class_="cl-gallery")["href"]
+                post_id = post_url.split("/")[-1][:-5]
+                posts_dict[post_id] = post_url
+
         self.init_posts = len(posts_dict)
 
         for post_id in self.list_of_ids:
@@ -209,17 +236,36 @@ class CraigslistScraper:
 
         current_page = 0
         page_url = self.today_base_url
-        total_pages = ceil(float(BeautifulSoup(get(page_url).text, "html.parser").find("span", class_="totalcount").text) / 120)
+
+        self.driver.get(page_url)
+        time.sleep(3)
+        page_soup = BeautifulSoup(self.driver.page_source, "html.parser")
+
+        total_posts_today = page_soup.find("span", class_="totalcount")  # normal post range; craigslist may be/is updating frontend...
+        if total_posts_today: 
+            total_posts_str = total_posts_today.text
+        else:
+            total_posts_today = page_soup.find("span", class_="cl-page-number").text            
+            total_posts_str = total_posts_today.split(" ")[-1]
+            self.updated_frontend = True  # use updated frontend bs4 finds, etc.
+
+        total_pages = ceil(float(total_posts_str.replace(",", "")) / 120)
         gpp = self.get_page_of_posts(page_url)
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
             while not gpp[1] and gpp[2]:  # while there are results and they're not all duplicates
                 current_page_dict = gpp[0]
                 self.save_html_from_page(current_page_dict)
-                current_page += 120
-                page_url = self.today_base_url + str(current_page)
+                
+                if not self.updated_frontend:
+                    current_page += 120
+                    page_url = self.today_base_url + str(current_page)
+                else:
+                    self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only").click()  # next page
+                
+            # TODO: NO MORE SEARCH RESULTS IF THE BUTTON IS GREY (BUTTON CHECK AND MESSAGE IN GET POSTS BIT?)
+            # might not be necessary? try testing first ig
                 gpp = self.get_page_of_posts(page_url)
-
                 pbar.update(1)
 
 
