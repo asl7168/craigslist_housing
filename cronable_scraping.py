@@ -10,12 +10,15 @@ This script retrieves HTML pages for housing listings on Cragislist.
 Some code and tips taken from: https://towardsdatascience.com/web-scraping-craigslist-a-complete-tutorial-c41cea4f4981
 """
 #%%
+import os, sys
+if os.path.exists("/projects/p31502/projects/craigslist"): sys.path.append("projects/p31502/projects/craigslist")
+
 from requests import get
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 from datetime import date
-import time, os
+import time
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from math import ceil

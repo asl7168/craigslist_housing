@@ -195,14 +195,15 @@ def assign_categories(race,income,other,race_diff):
     return demographics
 
 #remove posts with NA for latitude/longitude before GIS processing
-def remove_NA(read_path,write_path,fieldnames_here=None):    
+def remove_NA(read_paths,write_path,fieldnames_here=None):    
     rows=[]
     data = {}
-    with open(read_path) as csvfile:
-       reader = csv.DictReader(csvfile)
-       for row in reader:
-         rows.append(row)
-         data[str(row['post_id'])] = row
+    for read_path in read_paths:
+      with open(read_path) as csvfile:
+         reader = csv.DictReader(csvfile)
+         for row in reader:
+           rows.append(row)
+           data[str(row['post_id'])] = row
     
     with open(write_path,'w') as outfile:
         if not fieldnames_here:
@@ -211,7 +212,7 @@ def remove_NA(read_path,write_path,fieldnames_here=None):
         writer.writeheader()
         
         for row in rows:
-          if row['latitude'] != 'NA' and row['longitude'] !='NA':# and row.get('GEOID',None)==None:
+          if row['latitude'] != 'NA' and row['longitude'] !='NA' and row['latitude'] != '' and row['longitude'] !='':
             obj={}
             for key in fieldnames_here:
                 obj[key]=row[key]
@@ -295,7 +296,7 @@ def demographics_by_tract(metro_area,states):
        
 #runs the whole demographic acquisition process      
 def get_demographics(metro_area,states):
-  csv_read='csv_dumps/'+metro_area+'_csv_dump.csv'
+  csv_read=['csv_dumps/'+metro_area+'_csv_dump.csv','csv/'+metro_area+'_complete.csv']
   csv_write = 'csv_dumps/'+metro_area+'_filtered.csv'
   demographics={}
   for state in states:
@@ -399,7 +400,7 @@ def write_csv():
 def html_to_csv_dump():
 #    ready = False
     for metro_area in os.listdir('./html'):
- #       if metro_area=='portland':
+ #       if metro_area=='atlanta':
   #          ready =True
    #     if ready:
             process_html("./html/"+metro_area)
@@ -408,7 +409,7 @@ def html_to_csv_dump():
 def process_csvs():
     for metro_area in os.listdir('./html'):
         print(metro_area)
-        metro_area_data(metro_area,'a')
+        metro_area_data(metro_area,'w')
 
 def fix_post_ids():
     for area in os.listdir('./csv'):
@@ -428,6 +429,6 @@ def fix_post_ids():
               writer.writerow(row)
 
 if __name__ == '__main__':
-    html_to_csv_dump()
- #   process_csvs()
+ #   html_to_csv_dump()
+    process_csvs()
  #   write_csv()

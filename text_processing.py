@@ -14,7 +14,7 @@ cols = ["post_id", "title", "price", "neighborhood", "map_address", "street_addr
         "available", "housing_type", "bedrooms", "bathrooms", "laundry", "parking", 
         "sqft", "flooring", "rent_period", "app_fee", "broker_fee", "cats_ok", "dogs_ok", 
         "no_smoking", "furnished", "wheelchair_access", "AC", "EV_charging", "posting_body", 
-        "images", "url", "poverty", "race", "white", "black", "asian", "latinx", "below25k",
+        "images", "url", "typology","GEOID","poverty", "race", "white", "black", "asian", "latinx", "below25k",
         "median_income", "college", "foreignborn", "renteroccupied", "last10yrs", "vacancy", 
         "white_old", "black_old", "asian_old", "latinx_old", "below25k_old", "median_income_old",
         "college_old", "foreignborn_old", "renteroccupied_old", "last10yrs_old", "vacancy_old",

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/projects/p31502/projects/craigslist/scripts/process_files.py", line 4, in <module>
+    from secondary_processing import html_to_csv_dump, process_csvs
+  File "/projects/p31502/projects/craigslist/secondary_processing.py", line 314
+    path = f"./csv/{metro_area}_complete.csv"
+                                            ^
+SyntaxError: invalid syntax
