@@ -1,0 +1,23 @@
+Getting posts from today (1 page)...:   0%|          | 0/1 [00:00<?, ?it/s]
+Saving html of posts on current page...:   0%|          | 0/27 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   4%|▎         | 1/27 [00:00<00:25,  1.04it/s][A
+Saving html of posts on current page...:   7%|▋         | 2/27 [00:02<00:32,  1.32s/it][A
+Saving html of posts on current page...:  11%|█         | 3/27 [00:03<00:24,  1.02s/it][A
+Saving html of posts on current page...:  15%|█▍        | 4/27 [00:04<00:30,  1.32s/it][A
+Saving html of posts on current page...:  19%|█▊        | 5/27 [00:05<00:24,  1.13s/it][A
+Saving html of posts on current page...:  22%|██▏       | 6/27 [00:06<00:23,  1.12s/it][A
+                                                                                       [AGetting posts from today (1 page)...:   0%|          | 0/1 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "/projects/p31502/projects/craigslist/scripts/cron_scrape.py", line 25, in <module>
+    scrape_from()
+  File "/projects/p31502/projects/craigslist/scripts/cron_scrape.py", line 16, in scrape_from
+    do_cron_scrape(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)
+  File "/projects/p31502/projects/craigslist/cronable_scraping.py", line 312, in do_cron_scrape
+    scraper.scrape()
+  File "/projects/p31502/projects/craigslist/cronable_scraping.py", line 296, in scrape
+    self.get_posts_from_today()
+  File "/projects/p31502/projects/craigslist/cronable_scraping.py", line 271, in get_posts_from_today
+    self.save_html_from_page(current_page_dict)
+  File "/projects/p31502/projects/craigslist/cronable_scraping.py", line 217, in save_html_from_page
+    time.sleep(self.sleep_time)
+KeyboardInterrupt

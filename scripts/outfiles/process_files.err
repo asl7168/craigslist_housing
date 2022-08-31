@@ -1,7 +1,22 @@
+/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/numpy/__init__.py:138: UserWarning: mkl-service package failed to import, therefore Intel(R) MKL initialization ensuring its correct out-of-the box operation under condition when Gnu OpenMP had already been loaded by Python process is not assured. Please install mkl-service package, see http://github.com/IntelPython/mkl-service
+  from . import _distributor_init
 Traceback (most recent call last):
   File "/projects/p31502/projects/craigslist/scripts/process_files.py", line 4, in <module>
     from secondary_processing import html_to_csv_dump, process_csvs
-  File "/projects/p31502/projects/craigslist/secondary_processing.py", line 314
-    path = f"./csv/{metro_area}_complete.csv"
-                                            ^
-SyntaxError: invalid syntax
+  File "/projects/p31502/projects/craigslist/secondary_processing.py", line 1, in <module>
+    from text_processing import process_html
+  File "/projects/p31502/projects/craigslist/text_processing.py", line 4, in <module>
+    import spacy
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/spacy/__init__.py", line 11, in <module>
+    from thinc.api import prefer_gpu, require_gpu, require_cpu  # noqa: F401
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/thinc/__init__.py", line 2, in <module>
+    import numpy
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/numpy/__init__.py", line 417, in <module>
+    import mkl
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/mkl/__init__.py", line 48, in <module>
+    with RTLD_for_MKL():
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/site-packages/mkl/__init__.py", line 33, in __enter__
+    import ctypes
+  File "/projects/p31502/projects/craigslist/craig_env/lib/python3.8/ctypes/__init__.py", line 7, in <module>
+    from _ctypes import Union, Structure, Array
+ImportError: libffi.so.8: cannot open shared object file: No such file or directory

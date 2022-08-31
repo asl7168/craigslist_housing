@@ -11,7 +11,11 @@ Some code and tips taken from: https://towardsdatascience.com/web-scraping-craig
 """
 #%%
 import os, sys
-if os.path.exists("/projects/p31502/projects/craigslist"): sys.path.append("projects/p31502/projects/craigslist")
+if os.path.exists("/projects/p31502/projects/craigslist"): 
+    sys.path.append("/projects/p31502/projects/craigslist")
+    gecko = "/projects/p31502/projects/craigslist/geckodriver"
+else:
+    gecko = "./geckodriver"
 
 from requests import get
 from selenium import webdriver
@@ -80,7 +84,7 @@ class CraigslistScraper:
 
         options = Options()
         options.add_argument("--headless")
-        self.driver = webdriver.Firefox(service=Service("./geckodriver"), options=options)
+        self.driver = webdriver.Firefox(service=Service(gecko), options=options)
 
         self.updated_frontend = False  # generally assume that we aren't using the frontend that's showing up for sfbay
 
