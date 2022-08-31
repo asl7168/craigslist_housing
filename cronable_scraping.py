@@ -35,7 +35,8 @@ class CraigslistScraper:
             city (str): the name of the city to scrape for (NOTE: confirm {city}.craigslist.org exists; it might named differently)
             filepath (str, optional): the filepath to the html directory. Defaults to None
             scrape_by_date (bool, optional): whether or not to scrape by posts made today. Defaults to True
-            number_of_pages (int, optional): the number of pages to scrape (for an init scrape). Defaults to 25
+            number_of_pages (int, optional): the number of pages to scrape (for an init scrape). Defaults to 25 for 3000 posts (NOTE:
+                the frontend update seems to set the cap to 10000, so this may need to change to 84 in the future for init scrapes)
             use_rotating_link (bool, optional): whether or not to use the rotating proxy link (from webshare.io) instead of a proxy 
                 list. Defaults to False
             proxies (list, optional): a list of proxies to scrape using. Defaults to None
@@ -261,10 +262,10 @@ class CraigslistScraper:
                     current_page += 120
                     page_url = self.today_base_url + str(current_page)
                 else:
-                    self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only").click()  # next page
+                    next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
+                    if next_page: next_page.click()
+                    else: break
                 
-            # TODO: NO MORE SEARCH RESULTS IF THE BUTTON IS GREY (BUTTON CHECK AND MESSAGE IN GET POSTS BIT?)
-            # might not be necessary? try testing first ig
                 gpp = self.get_page_of_posts(page_url)
                 pbar.update(1)
 
