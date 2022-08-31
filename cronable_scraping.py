@@ -17,6 +17,7 @@ from requests import get
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.by import By
 from datetime import date
 import time
 from bs4 import BeautifulSoup
@@ -153,7 +154,6 @@ class CraigslistScraper:
                 post_id = post_title['id']
                 post_url = post_title['href']
                 posts_dict[post_id] = post_url
-
         else:
             # don't get URL again, or we reset the page we're on
             html_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
@@ -221,9 +221,16 @@ class CraigslistScraper:
         for page in range(self.number_of_pages):
             page_url = self.base_url + str(page * 120)
             pbar.write(f"Getting a search result page at url '{page_url}'")
+            
+            if self.updated_frontend:
+                next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
+                if next_page: next_page.click()
+                else: break
+
             gpp = self.get_page_of_posts(page_url)
             if gpp[1]: break  # if there are no more results/posts, break
-            # don't care if we have duplicates, as we might need to get past/up to a few pages of duplicates
+
+            # don't generally care if we have duplicates, as we might need to get past/up to a few pages of duplicates
 
             pbar.write(f"Started with {self.init_posts} posts, {self.dup_posts} duplicates removed\n")
             current_page_dict = gpp[0]
@@ -259,10 +266,9 @@ class CraigslistScraper:
                 current_page_dict = gpp[0]
                 self.save_html_from_page(current_page_dict)
                 
-                if not self.updated_frontend:
-                    current_page += 120
-                    page_url = self.today_base_url + str(current_page)
-                else:
+                current_page += 120
+                page_url = self.today_base_url + str(current_page)
+                if self.updated_frontend:
                     next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
                     if next_page: next_page.click()
                     else: break
