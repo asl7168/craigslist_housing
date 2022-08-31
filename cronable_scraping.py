@@ -151,7 +151,7 @@ class CraigslistScraper:
                 post_url = post_title['href']
                 posts_dict[post_id] = post_url
 
-        else:  # TODO: change get to selenium driver, change soup finds, etc
+        else:
             # don't get URL again, or we reset the page we're on
             html_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             search_results = html_soup.find("div", class_="results cl-results-page cl-search-view-mode-gallery")
@@ -162,8 +162,6 @@ class CraigslistScraper:
 
             posts_dict = {}
             for post in posts:
-                post_title = post.find("span", class_="label")
-                
                 post_url = post.find("a", class_="cl-gallery")["href"]
                 post_id = post_url.split("/")[-1][:-5]
                 posts_dict[post_id] = post_url
