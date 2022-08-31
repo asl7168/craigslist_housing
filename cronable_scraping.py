@@ -76,7 +76,7 @@ class CraigslistScraper:
 
         options = Options()
         options.add_argument("--headless")
-        self.driver = webdriver.Firefox(service=Service("./geckodriver.exe"), options=options)
+        self.driver = webdriver.Firefox(service=Service("./geckodriver"), options=options)
 
         self.updated_frontend = False  # generally assume that we aren't using the frontend that's showing up for sfbay
 

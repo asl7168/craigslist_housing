@@ -18,3 +18,5 @@ Rthings
 scripts/DEPRECATED/*
 .RData
 .Rhistory
+temp*
+gecko*
