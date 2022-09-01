@@ -1,8 +1,5 @@
 from proxy_manager import clean_webshare_proxies
 from GIS_data.state_codes import state_codes
-import os
-from math import floor, ceil
-import json
 
 
 def setup(init: bool=False, filepath: str=None, use_rotating_link: bool=False, webshare_proxies: str=None, for_quest: bool=False):
@@ -46,8 +43,8 @@ def setup(init: bool=False, filepath: str=None, use_rotating_link: bool=False, w
 
     proxy_string = ""
     if not use_rotating_link:
-        # make sure proxies are clean, then store them as proxies
-        proxies = clean_webshare_proxies() if not webshare_proxies else clean_webshare_proxies(webshare_proxies)
+        # make sure proxies are clean
+        clean_webshare_proxies() if not webshare_proxies else clean_webshare_proxies(webshare_proxies)
         proxy_string = f"with open(\"{f'{filepath}/proxies/webshare_proxies.txt' if not webshare_proxies else webshare_proxies}\") " \
              "as f: proxies = f.readlines()\n\n"
     output = ""
@@ -55,19 +52,24 @@ def setup(init: bool=False, filepath: str=None, use_rotating_link: bool=False, w
               f"import sys\nsys.path.append(\"{filepath}/\")\n\n" \
               "from time import sleep\n" \
               "from cprint import cprint\n" \
-              f"from cronable_scraping import do_{init_or_cron}_scrape\n\n" \
+              f"from cronable_scraping import CraigslistScraper\n\n" \
               f"locations = {locations}\n" \
               f"{proxy_string}" \
               "def scrape_from(idx: int=0):\n" \
-              "\tfor location in locations[idx:]:\n" \
-              "\t\ttry:\n"
-    output += "\t\t\tpcpy = proxies.copy()\n" if not use_rotating_link else ""
-    output += f"\t\t\tdo_{init_or_cron}_scrape(city=location, filepath=\"{filepath}/html\", "
+              "\tfor location in locations[idx:]:\n"
+    output += "\t\tpcpy = proxies.copy()\n" if not use_rotating_link else ""
+    # don't actually want to use do_cron_scrape now that we use selenium -- need access to driver in event of error so we can quit it
+    # otherwise, if there are multiple errors (which cause reruns), instances of firefox can build up and cause issues
+    output += f"\t\tscraper = CraigslistScraper(city=location, filepath=\"{filepath}/html\", "
+    output += f"scrape_by_date=False, " if init else ""
     output += f"proxies=pcpy" if not use_rotating_link else f"use_rotating_link=True"
     output += ")\n" \
+              "\t\ttry:\n" \
+              "\t\t\tscraper.scrape()\n"\
               "\t\texcept Exception as e:\n" \
               "\t\t\ttry:\n\t\t\t\tcprint(f\"Encountered exception \'{e}\'\\nTrying again in 30 seconds\", c=\"r\")\n" \
               "\t\t\texcept Exception:\n\t\t\t\tcprint(\"Encountered an unprintable exception. Trying again in 30 seconds\", c=\"r\")\n" \
+              "\t\t\tscraper.driver.quit()\n" \
               "\t\t\tsleep(30)\n" \
               "\t\t\tscrape_from(locations.index(location))\n\n" \
               "scrape_from()\n"
