@@ -90,6 +90,7 @@ class CraigslistScraper:
         try: 
             self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
             self.updated_frontend = True
+            cprint("SITE HAS UPDATED FRONTEND", c="rB")
         except: 
             self.updated_frontend = False
 
@@ -259,7 +260,7 @@ class CraigslistScraper:
         time.sleep(3)
         page_soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
-        if self.updated_frontend:
+        if not self.updated_frontend:
             total_posts_today = page_soup.find("span", class_="totalcount")
             total_posts_str = total_posts_today.text
         else:
