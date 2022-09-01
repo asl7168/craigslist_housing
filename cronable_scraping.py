@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue   Jun 01   2021
-Updated          Jun-August 2022
+Updated          Jun-Sept 2022
 
 @author: lmcox, asl7168
 
@@ -85,8 +85,10 @@ class CraigslistScraper:
         options = Options()
         options.add_argument("--headless")
         self.driver = webdriver.Firefox(service=Service(gecko), options=options)
+        self.driver.get(self.base_url)
 
-        self.updated_frontend = False  # generally assume that we aren't using the frontend that's showing up for sfbay
+        self.updated_frontend = True if self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only") \
+            else False
 
 
     def change_proxy(self):
@@ -129,7 +131,7 @@ class CraigslistScraper:
                 
             html_soup = BeautifulSoup(page_data.text, 'html.parser')
             search_results = html_soup.find("ul", id="search-results")
-            posts = html_soup.find_all('li', class_='result-row')
+            posts = search_results.find_all('li', class_='result-row')
             posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
 
             if len(posts) == 0: 
@@ -162,7 +164,7 @@ class CraigslistScraper:
             # don't get URL again, or we reset the page we're on
             html_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             search_results = html_soup.find("div", class_="results cl-results-page cl-search-view-mode-gallery")
-            posts = html_soup.find_all("li", class_="cl-search-result cl-search-view-mode-gallery")
+            posts = search_results.find_all("li", class_="cl-search-result cl-search-view-mode-gallery")
 
             # don't know how to determine if a post is from a "nearby area" or not in the new UI
             # posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
@@ -254,13 +256,12 @@ class CraigslistScraper:
         time.sleep(3)
         page_soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
-        total_posts_today = page_soup.find("span", class_="totalcount")  # normal post range; craigslist may be/is updating frontend...
-        if total_posts_today: 
+        if self.updated_frontend:
+            total_posts_today = page_soup.find("span", class_="totalcount")
             total_posts_str = total_posts_today.text
         else:
             total_posts_today = page_soup.find("span", class_="cl-page-number").text            
             total_posts_str = total_posts_today.split(" ")[-1]
-            self.updated_frontend = True  # use updated frontend bs4 finds, etc.
 
         total_pages = ceil(float(total_posts_str.replace(",", "")) / 120)
         gpp = self.get_page_of_posts(page_url)
@@ -299,6 +300,7 @@ class CraigslistScraper:
             self.get_posts_by_number()
 
         cprint("Scraping completed!\n", c="gB")
+        self.driver.quit()
 
 
 #%%
