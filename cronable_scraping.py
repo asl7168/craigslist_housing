@@ -87,8 +87,11 @@ class CraigslistScraper:
         self.driver = webdriver.Firefox(service=Service(gecko), options=options)
         self.driver.get(self.base_url)
 
-        self.updated_frontend = True if self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only") \
-            else False
+        try: 
+            self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
+            self.updated_frontend = True
+        except: 
+            self.updated_frontend = False
 
 
     def change_proxy(self):
