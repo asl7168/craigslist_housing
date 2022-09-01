@@ -128,10 +128,10 @@ class CraigslistScraper:
 
         if not self.updated_frontend:
             try:
-                page_data = get(url, proxies=self.curr_proxy)
+                page_data = get(url, proxies=self.curr_proxy, timeout=(5, 5))
             except Exception:
                 time.sleep(10)
-                page_data = get(url, proxies=self.curr_proxy)
+                page_data = get(url, proxies=self.curr_proxy, timeout=(5, 5))
                 
             html_soup = BeautifulSoup(page_data.text, 'html.parser')
             search_results = html_soup.find("ul", id="search-results")
@@ -212,10 +212,10 @@ class CraigslistScraper:
             filename = os.path.join(self.filepath, post_id)
             
             try:
-                raw_html = get(url, proxies=self.curr_proxy)
+                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
             except Exception:
                 time.sleep(10)
-                raw_html = get(url, proxies=self.curr_proxy)
+                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
             
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)  # write the raw html to a file
