@@ -98,7 +98,7 @@ class CraigslistScraper:
         except: 
             self.updated_frontend = False
 
-        button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum" if self.updated_frontend else "span.cl-page-number")
+        button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum" if not self.updated_frontend else "span.cl-page-number")
         # don't know how to determine if there are no results or not in the new UI, so guessing it's the same for both (likely isn't)
         self.no_results = True if button_pagenum and button_pagenum.text == "no results" else False
 
