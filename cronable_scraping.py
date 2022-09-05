@@ -11,9 +11,12 @@ Some code and tips taken from: https://towardsdatascience.com/web-scraping-craig
 """
 #%%
 import os, sys
+os_type = sys.platform
 if os.path.exists("/projects/p31502/projects/craigslist"): 
     sys.path.append("/projects/p31502/projects/craigslist")
     gecko = "/projects/p31502/projects/craigslist/geckodriver"
+elif os_type == "win32":
+    gecko = "./geckodriver.exe"
 else:
     gecko = "./geckodriver"
 
@@ -85,7 +88,9 @@ class CraigslistScraper:
         options = Options()
         options.add_argument("--headless")
         self.driver = webdriver.Firefox(service=Service(gecko), options=options)
-        self.driver.get(self.base_url)
+        self.driver.get(self.today_base_url) if scrape_by_date else self.driver.get(self.base_url)
+        time.sleep(3)
+        self.no_posts = True if self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum").text == "no results" else False
 
         try: 
             self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
@@ -153,7 +158,7 @@ class CraigslistScraper:
                         else:  # otherwise, we can't do anything about it
                             cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
                         
-                        return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L103)
+                        return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L132)
                 else:
                     cprint(f"No more search results!", c="y")
                     return [0, True, False]
@@ -255,9 +260,6 @@ class CraigslistScraper:
 
         current_page = 0
         page_url = self.today_base_url
-
-        self.driver.get(page_url)
-        time.sleep(3)
         page_soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
         if not self.updated_frontend:
@@ -291,17 +293,20 @@ class CraigslistScraper:
         based on the result as well
         """
 
-        right_now = str(date.today()) + " " + str(time.time())
-        scrape_msg = f"Started scraping for {self.city} on: {right_now} | for all posts " 
-        sleep_msg = f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n"
+        if self.no_posts:
+            cprint(f"NO POSTS {'MADE TODAY' if self.scrape_by_date else 'CURRENTLY UP'} FOR {self.city}", c="yB")
+        else:
+            right_now = str(date.today()) + " " + str(time.time())
+            scrape_msg = f"Started scraping for {self.city} on: {right_now} | for all posts " 
+            sleep_msg = f"Sleeping for {str(self.sleep_time)} seconds between every post get (prevents Craigslist ban)\n"
 
-        # get search pages
-        if self.scrape_by_date: 
-            cprint(scrape_msg + f"today\n{sleep_msg}", c="c")
-            self.get_posts_from_today()
-        else: 
-            cprint(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}", c="c")
-            self.get_posts_by_number()
+            # get search pages
+            if self.scrape_by_date: 
+                cprint(scrape_msg + f"today\n{sleep_msg}", c="c")
+                self.get_posts_from_today()
+            else: 
+                cprint(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}", c="c")
+                self.get_posts_by_number()
 
         cprint("Scraping completed!\n", c="gB")
         self.driver.quit()
