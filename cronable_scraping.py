@@ -100,7 +100,7 @@ class CraigslistScraper:
 
         button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum" if self.updated_frontend else "span.cl-page-number")
         # don't know how to determine if there are no results or not in the new UI, so guessing it's the same for both (likely isn't)
-        self.no_posts = True if button_pagenum and button_pagenum.text == "no results" else False
+        self.no_results = True if button_pagenum and button_pagenum.text == "no results" else False
 
 
     def change_proxy(self):
@@ -296,7 +296,7 @@ class CraigslistScraper:
         based on the result as well
         """
 
-        if self.no_posts:
+        if self.no_results:
             cprint(f"NO POSTS {'MADE TODAY' if self.scrape_by_date else 'CURRENTLY UP'} FOR {self.city}", c="yB")
         else:
             right_now = str(date.today()) + " " + str(time.time())
