@@ -91,15 +91,16 @@ class CraigslistScraper:
         self.driver.get(self.today_base_url) if scrape_by_date else self.driver.get(self.base_url)
         time.sleep(3)
 
-        button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum")
-        self.no_posts = True if button_pagenum and button_pagenum.text == "no results" else False
-
         try: 
             self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
             self.updated_frontend = True
             cprint("SITE HAS UPDATED FRONTEND", c="rB")
         except: 
             self.updated_frontend = False
+
+        button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum" if self.updated_frontend else "span.cl-page-number")
+        # don't know how to determine if there are no results or not in the new UI, so guessing it's the same for both (likely isn't)
+        self.no_posts = True if button_pagenum and button_pagenum.text == "no results" else False
 
 
     def change_proxy(self):
