@@ -90,7 +90,9 @@ class CraigslistScraper:
         self.driver = webdriver.Firefox(service=Service(gecko), options=options)
         self.driver.get(self.today_base_url) if scrape_by_date else self.driver.get(self.base_url)
         time.sleep(3)
-        self.no_posts = True if self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum").text == "no results" else False
+
+        button_pagenum = self.driver.find_element(By.CSS_SELECTOR, "span.button.pagenum")
+        self.no_posts = True if button_pagenum and button_pagenum.text == "no results" else False
 
         try: 
             self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
