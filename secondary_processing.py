@@ -1,12 +1,16 @@
+import os, sys
+QUEST_path = "/projects/p31502/projects/craigslist"
+if os.path.exists(): 
+    sys.path.append(QUEST_path)
+    prefix = QUEST_path
+else:
+    prefix = "."
+
 from text_processing import process_html
 
 from GIS_data.state_codes import state_codes
-import json
-import os
 import csv
 import pandas as pd
-from tqdm import tqdm
-from collections import defaultdict
 
 import requests
 import csv
@@ -280,7 +284,7 @@ def add_fields(data,key,demographics,repeat = False):
 def demographics_by_tract(metro_area,states):
   tracts = {}
   data = {}
-  with open ('./GIS_data/displacement-typologies/data/downloads_for_public/'+metro_area+".csv") as csv_file:
+  with open (f"{prefix}/GIS_data/displacement-typologies/data/downloads_for_public/{metro_area}.csv") as csv_file:
     reader = csv.DictReader(csv_file)
     for row in reader:
       tracts[row['GEOID']] = {'typology': row['Typology']}
@@ -312,7 +316,7 @@ def get_demographics(metro_area,states):
 def metro_area_data(metro_area,mode):
     states = state_codes[metro_area]
     data = get_demographics(metro_area, states)
-    path = f"./csv/{metro_area}_complete.csv"
+    path = f"{prefix}/csv/{metro_area}_complete.csv"
 #    ids = []
     isold =  os.path.exists(path)
     
@@ -322,7 +326,7 @@ def metro_area_data(metro_area,mode):
         data_list.append(data[key])
         
     if isold and mode != 'w':
-#        with open(f"./csv/{metro_area}_complete.csv","r") as csvfile:
+#        with open(f"{prefix}/csv/{metro_area}_complete.csv","r") as csvfile:
  #         reader = csv.DictReader(csvfile)
   #        for row in reader:
    #         ids.append(row['post_id'])
@@ -338,7 +342,7 @@ def metro_area_data(metro_area,mode):
     df.to_csv(path, index = False, columns = fieldnames)
     
     
-#    with open(f"./csv/{metro_area}_complete.csv",mode) as csvfile:
+#    with open(f"{prefix}/csv/{metro_area}_complete.csv",mode) as csvfile:
  #       writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
   #      if not isold or mode == 'w':
    #       writer.writeheader()
@@ -351,20 +355,20 @@ def metro_area_data(metro_area,mode):
 
 #for mistakes--if a csv was written without a header, it can be fixed with this    
 def add_header(metro_area):
-    csvfile = pd.read_csv(f"./csv/{metro_area}_complete.csv")
-    csvfile.to_csv(f"./csv/{metro_area}_complete.csv",header=fieldnames,index=False)
+    csvfile = pd.read_csv(f"{prefix}/csv/{metro_area}_complete.csv")
+    csvfile.to_csv(f"{prefix}/csv/{metro_area}_complete.csv",header=fieldnames,index=False)
 
 #write one large csv of all posts--for stm processing
 def write_csv():
     data = {}
-    for metro_area in os.listdir('./csv'):
+    for metro_area in os.listdir(f'{prefix}/csv'):
         print(metro_area)
-        with open(f"./csv/{metro_area}","r") as csvfile:
+        with open(f"{prefix}/csv/{metro_area}","r") as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 data[row['post_id']] = row
     
-    with open(f'./csv_dumps/all_complete.csv', 'w') as csvfile:
+    with open(f'{prefix}/csv_dumps/all_complete.csv', 'w') as csvfile:
         fieldnames = ['documents', 'poverty', 'race', 'class', 'is_white',
                       'college', 'foreignborn', 'renteroccupied', 'last10yrs', 'vacancy', 'rent']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -399,22 +403,22 @@ def write_csv():
 #runs html conversion for all cities
 def html_to_csv_dump():
 #    ready = False
-    for metro_area in os.listdir('./html'):
+    for metro_area in os.listdir(f'{prefix}/html'):
  #       if metro_area=='atlanta':
   #          ready =True
    #     if ready:
-            process_html("./html/"+metro_area)
+            process_html(f"{prefix}/html/"+metro_area)
 
 #runs secondary processing for all cities
 def process_csvs():
-    for metro_area in os.listdir('./html'):
+    for metro_area in os.listdir(f'{prefix}/html'):
         print(metro_area)
         metro_area_data(metro_area,'w')
 
 def fix_post_ids():
-    for area in os.listdir('./csv'):
+    for area in os.listdir(f'{prefix}/csv'):
         print(area)
-        with open('./csv/'+area,'r') as csvfile:
+        with open(f'{prefix}/csv/'+area,'r') as csvfile:
           reader = csv.DictReader(csvfile)
           data = []
           for row in reader:
@@ -422,7 +426,7 @@ def fix_post_ids():
               if obj['post_id']=='': continue
               obj['post_id']= round(float(obj['post_id']))
               data.append(obj)
-        with open('./csv/'+area,'w') as csvfile:
+        with open(f'{prefix}/csv/'+area,'w') as csvfile:
           writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
           writer.writeheader()
           for row in data:
