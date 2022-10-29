@@ -180,7 +180,7 @@ class CraigslistScraper:
 
             # don't know how to determine if a post is from a "nearby area" or not in the new UI
             # posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
-
+            
             posts_dict = {}
             for post in posts:
                 post_url = post.find("a", class_="cl-gallery")["href"]

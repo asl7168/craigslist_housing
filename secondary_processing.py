@@ -1,6 +1,6 @@
 import os, sys
 QUEST_path = "/projects/p31502/projects/craigslist"
-if os.path.exists(): 
+if os.path.exists(QUEST_path): 
     sys.path.append(QUEST_path)
     prefix = QUEST_path
 else:
