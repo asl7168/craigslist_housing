@@ -183,7 +183,7 @@ class CraigslistScraper:
             
             posts_dict = {}
             for post in posts:
-                post_url = post.find("a", class_="cl-gallery")["href"]
+                post_url = post.find("a", class_="titlestring")["href"]
                 post_id = post_url.split("/")[-1][:-5]
                 posts_dict[post_id] = post_url
 
