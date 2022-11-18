@@ -60,7 +60,7 @@ def setup(init: bool=False, filepath: str=None, use_rotating_link: bool=False, w
     output += "\t\tpcpy = proxies.copy()\n" if not use_rotating_link else ""
     # don't actually want to use do_cron_scrape now that we use selenium -- need access to driver in event of error so we can quit it
     # otherwise, if there are multiple errors (which cause reruns), instances of firefox can build up and cause issues
-    output += f"\t\tscraper = CraigslistScraper(city=location, filepath=\"{filepath}/html\", "
+    output += f"\t\tscraper = CraigslistScraper(city=location, filepath=\"{filepath if not for_quest else '/projects/b1170/corpora/craigslist'}/html\", "
     output += f"scrape_by_date=False, " if init else ""
     output += f"proxies=pcpy" if not use_rotating_link else f"use_rotating_link=True"
     output += ")\n" \

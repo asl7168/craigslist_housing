@@ -3,8 +3,10 @@ QUEST_path = "/projects/p31502/projects/craigslist"
 if os.path.exists(QUEST_path): 
     sys.path.append(QUEST_path)
     prefix = QUEST_path
+    html_prefix = "/projects/b1170/corpora/craigslist"
 else:
     prefix = "."
+    html_prefix = prefix
 
 from text_processing import process_html
 
@@ -403,15 +405,15 @@ def write_csv():
 #runs html conversion for all cities
 def html_to_csv_dump():
 #    ready = False
-    for metro_area in os.listdir(f'{prefix}/html'):
+    for metro_area in os.listdir(f'{html_prefix}/html'):
  #       if metro_area=='atlanta':
   #          ready =True
    #     if ready:
-            process_html(f"{prefix}/html/"+metro_area)
+            process_html(f"{html_prefix}/html/"+metro_area)
 
 #runs secondary processing for all cities
 def process_csvs():
-    for metro_area in os.listdir(f'{prefix}/html'):
+    for metro_area in os.listdir(f'{html_prefix}/html'):
         print(metro_area)
         metro_area_data(metro_area,'w')
 

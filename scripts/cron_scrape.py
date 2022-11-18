@@ -12,7 +12,7 @@ with open("/projects/p31502/projects/craigslist/proxies/webshare_proxies.txt") a
 def scrape_from(idx: int=0):
 	for location in locations[idx:]:
 		pcpy = proxies.copy()
-		scraper = CraigslistScraper(city=location, filepath="/projects/p31502/projects/craigslist/html", proxies=pcpy)
+		scraper = CraigslistScraper(city=location, filepath="/projects/b1170/corpora/craigslist/html", proxies=pcpy)
 		try:
 			scraper.scrape()
 		except Exception as e:

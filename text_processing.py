@@ -100,13 +100,16 @@ def process_html(directory):
     ----------
         directory (str): filepath to html directory
     """
-
-    dir_split = directory.split("/")
+    d = directory
+    dir_split = d.split("/")
     city = dir_split[-1] 
     nlp = spacy.load("en_core_web_sm")  # python -m spacy download en_core_web_sm
 
-    csv_dump_path = f"{'/'.join(dir_split[:-2])}/csv_dumps/{city}_csv_dump.csv"
-    csv_complete_path = f"{'/'.join(dir_split[:-2])}/csv/{city}_complete.csv"
+    if "b1170" in d: d = "/projects/p31502/craigslist"
+    else: d = "/".join(dir_split[:-2])
+    
+    csv_dump_path = f"{d}/csv_dumps/{city}_csv_dump.csv"
+    csv_complete_path = f"{d}/csv/{city}_complete.csv"
     if os.path.exists(csv_complete_path): 
         complete_exists = True
         csv_complete_df = pd.read_csv(csv_complete_path, usecols=cols, keep_default_na=False)
