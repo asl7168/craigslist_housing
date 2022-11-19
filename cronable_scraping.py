@@ -242,8 +242,11 @@ class CraigslistScraper:
             
             if self.updated_frontend:
                 next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
-                if next_page: next_page.click()
-                else: break
+                if next_page: 
+                    if "bd-disabled" not in next_page.get_attribute("class"):
+                        next_page.click()
+                else: 
+                    break
 
             gpp = self.get_page_of_posts(page_url)
             if gpp[1]: break  # if there are no more results/posts, break
@@ -284,8 +287,11 @@ class CraigslistScraper:
                 page_url = self.today_base_url + str(current_page)
                 if self.updated_frontend:
                     next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
-                    if next_page: next_page.click()
-                    else: break
+                    if next_page: 
+                        if "bd-disabled" not in next_page.get_attribute("class"):
+                            next_page.click()
+                    else: 
+                        break
                 
                 gpp = self.get_page_of_posts(page_url)
                 pbar.update(1)
