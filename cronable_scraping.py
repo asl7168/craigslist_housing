@@ -245,6 +245,8 @@ class CraigslistScraper:
                 if next_page: 
                     if "bd-disabled" not in next_page.get_attribute("class"):
                         next_page.click()
+                    else:
+                        break
                 else: 
                     break
 
@@ -290,6 +292,8 @@ class CraigslistScraper:
                     if next_page: 
                         if "bd-disabled" not in next_page.get_attribute("class"):
                             next_page.click()
+                        else:
+                            break
                     else: 
                         break
                 
