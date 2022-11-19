@@ -235,31 +235,41 @@ class CraigslistScraper:
         """ Scrapes a number of pages equal to number_of_pages (or until no posts remain); used to do an initial scrape
         """
 
-        pbar = tqdm(total=self.number_of_pages, desc=f"Getting posts from {self.number_of_pages} page{'s' if self.number_of_pages > 1 else ''}...")
-        for page in range(self.number_of_pages):
-            page_url = self.base_url + str(page * 120)
-            pbar.write(f"Getting a search result page at url '{page_url}'")
-            
-            if self.updated_frontend:
-                next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
-                if next_page: 
-                    if "bd-disabled" not in next_page.get_attribute("class"):
-                        next_page.click()
+        current_page = 0
+        page_url = self.base_url
+        page_soup = BeautifulSoup(self.driver.page_source, "html.parser")
+
+        if not self.updated_frontend:
+            total_posts = page_soup.find("span", class_="totalcount")
+            total_posts_str = total_posts.text
+        else:
+            total_posts = page_soup.find("span", class_="cl-page-number").text            
+            total_posts_str = total_posts.split(" ")[-1]
+        
+        total_pages = ceil(float(total_posts_str.replace(",", "")) / 120) 
+        total_pages = total_pages if total_pages <= self.number_of_pages else self.number_of_pages
+        gpp = self.get_page_of_posts(page_url)
+
+        with tqdm(total=total_pages, desc=f"Getting posts from {total_pages} page{'s' if total_pages > 1 else''}...") as pbar:
+            while not gpp[1]:  # don't generally care if there's duplicates, as might need to get past/up to a few pages of them
+                current_page_dict = gpp[0]
+                self.save_html_from_page(current_page_dict)
+
+                current_page += 120
+                page_url = self.base_url + str(current_page)
+                if self.updated_frontend:
+                    next_page = self.driver.find_element(By.CSS_SELECTOR, "button.bd-button.cl-next-page.icon-only")
+                    if next_page:
+                        if "bd-disabled" not in next_page.get_attribute("class"):
+                            next_page.click()
+                        else:
+                            break
                     else:
                         break
-                else: 
-                    break
 
-            gpp = self.get_page_of_posts(page_url)
-            if gpp[1]: break  # if there are no more results/posts, break
-
-            # don't generally care if we have duplicates, as we might need to get past/up to a few pages of duplicates
-
-            pbar.write(f"Started with {self.init_posts} posts, {self.dup_posts} duplicates removed\n")
-            current_page_dict = gpp[0]
-            self.save_html_from_page(current_page_dict)
-
-            pbar.update(1)
+                pbar.write(f"Started with {self.init_posts} posts, {self.dup_posts} duplicates removes\n")
+                gpp = self.get_page_of_posts(page_url)
+                pbar.update(1)
 
 
     def get_posts_from_today(self):
