@@ -1,26 +1,629 @@
 Getting posts from today (1 page)...:   0%|          | 0/1 [00:00<?, ?it/s]
-Saving html of posts on current page...:   0%|          | 0/5 [00:00<?, ?it/s][A
-Saving html of posts on current page...:  20%|██        | 1/5 [00:01<00:04,  1.01s/it][A
-Saving html of posts on current page...:  40%|████      | 2/5 [00:02<00:03,  1.18s/it][A
-Saving html of posts on current page...:  60%|██████    | 3/5 [00:03<00:02,  1.15s/it][A
-Saving html of posts on current page...:  80%|████████  | 4/5 [00:05<00:01,  1.41s/it][A
-Saving html of posts on current page...: 100%|██████████| 5/5 [00:06<00:00,  1.26s/it][A
-                                                                                      [AGetting posts from today (1 page)...: 100%|██████████| 1/1 [00:07<00:00,  7.73s/it]Getting posts from today (1 page)...: 100%|██████████| 1/1 [00:07<00:00,  7.73s/it]
+Saving html of posts on current page...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Saving html of posts on current page...: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s][A
+                                                                                      [AGetting posts from today (1 page)...: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]Getting posts from today (1 page)...: 100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
 Getting posts from today (4 pages)...:   0%|          | 0/4 [00:00<?, ?it/s]
-Saving html of posts on current page...:   0%|          | 0/15 [00:00<?, ?it/s][A
-Saving html of posts on current page...:   7%|▋         | 1/15 [00:00<00:09,  1.42it/s][A
-Saving html of posts on current page...:  13%|█▎        | 2/15 [00:01<00:09,  1.31it/s][A
-Saving html of posts on current page...:  20%|██        | 3/15 [00:02<00:07,  1.55it/s][A
-Saving html of posts on current page...:  27%|██▋       | 4/15 [00:03<00:11,  1.02s/it][A
-Saving html of posts on current page...:  33%|███▎      | 5/15 [00:04<00:08,  1.24it/s][A
-Saving html of posts on current page...:  40%|████      | 6/15 [00:04<00:06,  1.43it/s][A
-Saving html of posts on current page...:  47%|████▋     | 7/15 [00:05<00:07,  1.07it/s][A
-Saving html of posts on current page...:  53%|█████▎    | 8/15 [00:07<00:07,  1.08s/it][A
-Saving html of posts on current page...:  60%|██████    | 9/15 [00:08<00:06,  1.11s/it][A
-Saving html of posts on current page...:  67%|██████▋   | 10/15 [00:09<00:05,  1.12s/it][A
-Saving html of posts on current page...:  73%|███████▎  | 11/15 [00:10<00:03,  1.02it/s][A
-Saving html of posts on current page...:  80%|████████  | 12/15 [00:11<00:03,  1.02s/it][A
-Saving html of posts on current page...:  87%|████████▋ | 13/15 [00:12<00:01,  1.02it/s][A
-Saving html of posts on current page...:  93%|█████████▎| 14/15 [00:14<00:01,  1.24s/it][A
-Saving html of posts on current page...: 100%|██████████| 15/15 [00:15<00:00,  1.28s/it][A
-                                                                                        [AGetting posts from today (4 pages)...:  25%|██▌       | 1/4 [00:19<00:57, 19.26s/it]Getting posts from today (4 pages)...:  25%|██▌       | 1/4 [00:19<00:57, 19.26s/it]
+Saving html of posts on current page...:   0%|          | 0/25 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   4%|▍         | 1/25 [00:00<00:18,  1.33it/s][A
+Saving html of posts on current page...:   8%|▊         | 2/25 [00:01<00:17,  1.31it/s][A
+Saving html of posts on current page...:  12%|█▏        | 3/25 [00:01<00:13,  1.66it/s][A
+Saving html of posts on current page...:  16%|█▌        | 4/25 [00:03<00:20,  1.03it/s][A
+Saving html of posts on current page...:  20%|██        | 5/25 [00:04<00:19,  1.01it/s][A
+Saving html of posts on current page...:  24%|██▍       | 6/25 [00:05<00:18,  1.01it/s][A
+Saving html of posts on current page...:  28%|██▊       | 7/25 [00:06<00:19,  1.06s/it][A
+Saving html of posts on current page...:  32%|███▏      | 8/25 [00:08<00:19,  1.14s/it][A
+Saving html of posts on current page...:  36%|███▌      | 9/25 [00:09<00:18,  1.16s/it][A
+Saving html of posts on current page...:  40%|████      | 10/25 [00:10<00:17,  1.14s/it][A
+Saving html of posts on current page...:  44%|████▍     | 11/25 [00:11<00:16,  1.17s/it][A
+Saving html of posts on current page...:  48%|████▊     | 12/25 [00:12<00:15,  1.16s/it][A
+Saving html of posts on current page...:  52%|█████▏    | 13/25 [00:13<00:12,  1.06s/it][A
+Saving html of posts on current page...:  56%|█████▌    | 14/25 [00:15<00:13,  1.27s/it][A
+Saving html of posts on current page...:  60%|██████    | 15/25 [00:16<00:12,  1.26s/it][A
+Saving html of posts on current page...:  64%|██████▍   | 16/25 [00:18<00:12,  1.41s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 17/25 [00:19<00:10,  1.35s/it][A
+Saving html of posts on current page...:  72%|███████▏  | 18/25 [00:21<00:11,  1.65s/it][A
+Saving html of posts on current page...:  76%|███████▌  | 19/25 [00:22<00:08,  1.50s/it][A
+Saving html of posts on current page...:  80%|████████  | 20/25 [00:24<00:07,  1.48s/it][A
+Saving html of posts on current page...:  84%|████████▍ | 21/25 [00:25<00:05,  1.36s/it][A
+Saving html of posts on current page...:  88%|████████▊ | 22/25 [00:27<00:04,  1.59s/it][A
+Saving html of posts on current page...:  92%|█████████▏| 23/25 [00:28<00:02,  1.31s/it][A
+Saving html of posts on current page...:  96%|█████████▌| 24/25 [00:28<00:01,  1.13s/it][A
+Saving html of posts on current page...: 100%|██████████| 25/25 [00:29<00:00,  1.03s/it][A
+                                                                                        [AGetting posts from today (4 pages)...:  25%|██▌       | 1/4 [00:32<01:36, 32.08s/it]Getting posts from today (4 pages)...:  25%|██▌       | 1/4 [00:32<01:36, 32.08s/it]
+Getting posts from today (1 page)...:   0%|          | 0/1 [00:00<?, ?it/s]
+Saving html of posts on current page...:   0%|          | 0/1 [00:00<?, ?it/s][A
+Saving html of posts on current page...: 100%|██████████| 1/1 [00:01<00:00,  1.11s/it][A
+                                                                                      [AGetting posts from today (1 page)...:   0%|          | 0/1 [00:01<?, ?it/s]
+Getting posts from today (1 page)...:   0%|          | 0/1 [00:00<?, ?it/s]
+Saving html of posts on current page...:   0%|          | 0/17 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   6%|▌         | 1/17 [00:00<00:09,  1.74it/s][A
+Saving html of posts on current page...:  12%|█▏        | 2/17 [00:01<00:13,  1.13it/s][A
+Saving html of posts on current page...:  18%|█▊        | 3/17 [00:02<00:13,  1.06it/s][A
+Saving html of posts on current page...:  24%|██▎       | 4/17 [00:04<00:16,  1.26s/it][A
+Saving html of posts on current page...:  29%|██▉       | 5/17 [00:04<00:11,  1.03it/s][A
+Saving html of posts on current page...:  35%|███▌      | 6/17 [00:05<00:08,  1.27it/s][A
+Saving html of posts on current page...:  41%|████      | 7/17 [00:06<00:07,  1.25it/s][A
+Saving html of posts on current page...:  47%|████▋     | 8/17 [00:07<00:07,  1.20it/s][A
+Saving html of posts on current page...:  53%|█████▎    | 9/17 [00:07<00:06,  1.21it/s][A
+Saving html of posts on current page...:  59%|█████▉    | 10/17 [00:08<00:05,  1.24it/s][A
+Saving html of posts on current page...:  65%|██████▍   | 11/17 [00:09<00:04,  1.42it/s][A
+Saving html of posts on current page...:  71%|███████   | 12/17 [00:09<00:03,  1.39it/s][A
+Saving html of posts on current page...:  76%|███████▋  | 13/17 [00:10<00:02,  1.54it/s][A
+Saving html of posts on current page...:  82%|████████▏ | 14/17 [00:11<00:02,  1.12it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 15/17 [00:12<00:01,  1.13it/s][A
+Saving html of posts on current page...:  94%|█████████▍| 16/17 [00:14<00:01,  1.09s/it][A
+Saving html of posts on current page...: 100%|██████████| 17/17 [00:14<00:00,  1.13it/s][A
+                                                                                        [AGetting posts from today (1 page)...:   0%|          | 0/1 [00:14<?, ?it/s]
+Getting posts from today (6 pages)...:   0%|          | 0/6 [00:00<?, ?it/s]
+Saving html of posts on current page...:   0%|          | 0/120 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   1%|          | 1/120 [00:00<01:11,  1.67it/s][A
+Saving html of posts on current page...:   2%|▏         | 2/120 [00:01<01:28,  1.33it/s][A
+Saving html of posts on current page...:   2%|▎         | 3/120 [00:01<01:16,  1.53it/s][A
+Saving html of posts on current page...:   3%|▎         | 4/120 [00:03<01:55,  1.00it/s][A
+Saving html of posts on current page...:   4%|▍         | 5/120 [00:03<01:33,  1.23it/s][A
+Saving html of posts on current page...:   5%|▌         | 6/120 [00:04<01:18,  1.45it/s][A
+Saving html of posts on current page...:   6%|▌         | 7/120 [00:05<01:24,  1.33it/s][A
+Saving html of posts on current page...:   7%|▋         | 8/120 [00:06<01:31,  1.22it/s][A
+Saving html of posts on current page...:   8%|▊         | 9/120 [00:07<01:32,  1.20it/s][A
+Saving html of posts on current page...:   8%|▊         | 10/120 [00:07<01:28,  1.24it/s][A
+Saving html of posts on current page...:   9%|▉         | 11/120 [00:08<01:15,  1.44it/s][A
+Saving html of posts on current page...:  10%|█         | 12/120 [00:10<01:50,  1.03s/it][A
+Saving html of posts on current page...:  11%|█         | 13/120 [00:10<01:32,  1.15it/s][A
+Saving html of posts on current page...:  12%|█▏        | 14/120 [00:12<01:52,  1.06s/it][A
+Saving html of posts on current page...:  12%|█▎        | 15/120 [00:13<01:48,  1.04s/it][A
+Saving html of posts on current page...:  13%|█▎        | 16/120 [00:14<02:07,  1.23s/it][A
+Saving html of posts on current page...:  14%|█▍        | 17/120 [00:15<01:44,  1.01s/it][A
+Saving html of posts on current page...:  15%|█▌        | 18/120 [00:16<01:40,  1.01it/s][A
+Saving html of posts on current page...:  16%|█▌        | 19/120 [00:16<01:27,  1.16it/s][A
+Saving html of posts on current page...:  17%|█▋        | 20/120 [00:17<01:28,  1.13it/s][A
+Saving html of posts on current page...:  18%|█▊        | 21/120 [00:18<01:16,  1.29it/s][A
+Saving html of posts on current page...:  18%|█▊        | 22/120 [00:20<01:48,  1.11s/it][A
+Saving html of posts on current page...:  19%|█▉        | 23/120 [00:20<01:27,  1.10it/s][A
+Saving html of posts on current page...:  20%|██        | 24/120 [00:21<01:13,  1.30it/s][A
+Saving html of posts on current page...:  21%|██        | 25/120 [00:21<01:03,  1.49it/s][A
+Saving html of posts on current page...:  22%|██▏       | 26/120 [00:22<01:06,  1.42it/s][A
+Saving html of posts on current page...:  22%|██▎       | 27/120 [00:23<01:11,  1.29it/s][A
+Saving html of posts on current page...:  23%|██▎       | 28/120 [00:24<01:25,  1.07it/s][A
+Saving html of posts on current page...:  24%|██▍       | 29/120 [00:25<01:33,  1.03s/it][A
+Saving html of posts on current page...:  25%|██▌       | 30/120 [00:27<01:39,  1.11s/it][A
+Saving html of posts on current page...:  26%|██▌       | 31/120 [00:27<01:31,  1.03s/it][A
+Saving html of posts on current page...:  27%|██▋       | 32/120 [00:29<01:34,  1.07s/it][A
+Saving html of posts on current page...:  28%|██▊       | 33/120 [00:30<01:32,  1.06s/it][A
+Saving html of posts on current page...:  28%|██▊       | 34/120 [00:31<01:34,  1.10s/it][A
+Saving html of posts on current page...:  29%|██▉       | 35/120 [00:32<01:35,  1.12s/it][A
+Saving html of posts on current page...:  30%|███       | 36/120 [00:33<01:32,  1.10s/it][A
+Saving html of posts on current page...:  31%|███       | 37/120 [00:34<01:38,  1.19s/it][A
+Saving html of posts on current page...:  32%|███▏      | 38/120 [00:36<01:48,  1.32s/it][A
+Saving html of posts on current page...:  32%|███▎      | 39/120 [00:37<01:45,  1.31s/it][A
+Saving html of posts on current page...:  33%|███▎      | 40/120 [00:38<01:38,  1.23s/it][A
+Saving html of posts on current page...:  34%|███▍      | 41/120 [00:40<01:37,  1.23s/it][A
+Saving html of posts on current page...:  35%|███▌      | 42/120 [00:41<01:34,  1.21s/it][A
+Saving html of posts on current page...:  36%|███▌      | 43/120 [00:42<01:39,  1.30s/it][A
+Saving html of posts on current page...:  37%|███▋      | 44/120 [00:44<01:39,  1.31s/it][A
+Saving html of posts on current page...:  38%|███▊      | 45/120 [00:45<01:34,  1.26s/it][A
+Saving html of posts on current page...:  38%|███▊      | 46/120 [00:46<01:29,  1.21s/it][A
+Saving html of posts on current page...:  39%|███▉      | 47/120 [00:47<01:30,  1.25s/it][A
+Saving html of posts on current page...:  40%|████      | 48/120 [00:49<01:50,  1.54s/it][A
+Saving html of posts on current page...:  41%|████      | 49/120 [00:51<01:46,  1.51s/it][A
+Saving html of posts on current page...:  42%|████▏     | 50/120 [00:53<01:55,  1.65s/it][A
+Saving html of posts on current page...:  42%|████▎     | 51/120 [00:54<01:45,  1.52s/it][A
+Saving html of posts on current page...:  43%|████▎     | 52/120 [00:55<01:35,  1.40s/it][A
+Saving html of posts on current page...:  44%|████▍     | 53/120 [00:56<01:29,  1.34s/it][A
+Saving html of posts on current page...:  45%|████▌     | 54/120 [00:57<01:21,  1.24s/it][A
+Saving html of posts on current page...:  46%|████▌     | 55/120 [00:58<01:12,  1.12s/it][A
+Saving html of posts on current page...:  47%|████▋     | 56/120 [00:59<01:13,  1.15s/it][A
+Saving html of posts on current page...:  48%|████▊     | 57/120 [01:01<01:13,  1.17s/it][A
+Saving html of posts on current page...:  48%|████▊     | 58/120 [01:02<01:18,  1.27s/it][A
+Saving html of posts on current page...:  49%|████▉     | 59/120 [01:03<01:17,  1.27s/it][A
+Saving html of posts on current page...:  50%|█████     | 60/120 [01:05<01:15,  1.26s/it][A
+Saving html of posts on current page...:  51%|█████     | 61/120 [01:05<01:06,  1.13s/it][A
+Saving html of posts on current page...:  52%|█████▏    | 62/120 [01:07<01:20,  1.39s/it][A
+Saving html of posts on current page...:  52%|█████▎    | 63/120 [01:08<01:11,  1.26s/it][A
+Saving html of posts on current page...:  53%|█████▎    | 64/120 [01:09<01:02,  1.11s/it][A
+Saving html of posts on current page...:  54%|█████▍    | 65/120 [01:10<01:03,  1.16s/it][A
+Saving html of posts on current page...:  55%|█████▌    | 66/120 [01:11<00:56,  1.05s/it][A
+Saving html of posts on current page...:  56%|█████▌    | 67/120 [01:13<01:10,  1.33s/it][A
+Saving html of posts on current page...:  57%|█████▋    | 68/120 [01:14<01:00,  1.16s/it][A
+Saving html of posts on current page...:  57%|█████▊    | 69/120 [01:15<00:59,  1.17s/it][A
+Saving html of posts on current page...:  58%|█████▊    | 70/120 [01:16<01:00,  1.20s/it][A
+Saving html of posts on current page...:  59%|█████▉    | 71/120 [01:18<01:06,  1.36s/it][A
+Saving html of posts on current page...:  60%|██████    | 72/120 [01:20<01:05,  1.36s/it][A
+Saving html of posts on current page...:  61%|██████    | 73/120 [01:21<00:58,  1.25s/it][A
+Saving html of posts on current page...:  62%|██████▏   | 74/120 [01:22<00:54,  1.19s/it][A
+Saving html of posts on current page...:  62%|██████▎   | 75/120 [01:23<00:55,  1.24s/it][A
+Saving html of posts on current page...:  63%|██████▎   | 76/120 [01:24<00:53,  1.21s/it][A
+Saving html of posts on current page...:  64%|██████▍   | 77/120 [01:26<00:56,  1.30s/it][A
+Saving html of posts on current page...:  65%|██████▌   | 78/120 [01:27<00:50,  1.19s/it][A
+Saving html of posts on current page...:  66%|██████▌   | 79/120 [01:28<00:48,  1.19s/it][A
+Saving html of posts on current page...:  67%|██████▋   | 80/120 [01:29<00:44,  1.10s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 81/120 [01:30<00:44,  1.15s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 82/120 [01:31<00:45,  1.19s/it][A
+Saving html of posts on current page...:  69%|██████▉   | 83/120 [01:33<00:48,  1.31s/it][A
+Saving html of posts on current page...:  70%|███████   | 84/120 [01:34<00:48,  1.35s/it][A
+Saving html of posts on current page...:  71%|███████   | 85/120 [01:36<00:46,  1.34s/it][A
+Saving html of posts on current page...:  72%|███████▏  | 86/120 [01:37<00:49,  1.45s/it][A
+Saving html of posts on current page...:  72%|███████▎  | 87/120 [01:38<00:44,  1.34s/it][A
+Saving html of posts on current page...:  73%|███████▎  | 88/120 [01:40<00:45,  1.41s/it][A
+Saving html of posts on current page...:  74%|███████▍  | 89/120 [01:41<00:40,  1.30s/it][A
+Saving html of posts on current page...:  75%|███████▌  | 90/120 [01:42<00:39,  1.31s/it][A
+Saving html of posts on current page...:  76%|███████▌  | 91/120 [01:43<00:33,  1.15s/it][A
+Saving html of posts on current page...:  77%|███████▋  | 92/120 [01:45<00:38,  1.39s/it][A
+Saving html of posts on current page...:  78%|███████▊  | 93/120 [01:46<00:30,  1.14s/it][A
+Saving html of posts on current page...:  78%|███████▊  | 94/120 [01:46<00:26,  1.03s/it][A
+Saving html of posts on current page...:  79%|███████▉  | 95/120 [01:47<00:21,  1.17it/s][A
+Saving html of posts on current page...:  80%|████████  | 96/120 [01:48<00:25,  1.05s/it][A
+Saving html of posts on current page...:  81%|████████  | 97/120 [01:49<00:19,  1.16it/s][A
+Saving html of posts on current page...:  82%|████████▏ | 98/120 [01:49<00:18,  1.22it/s][A
+Saving html of posts on current page...:  82%|████████▎ | 99/120 [01:50<00:16,  1.25it/s][A
+Saving html of posts on current page...:  83%|████████▎ | 100/120 [01:51<00:16,  1.22it/s][A
+Saving html of posts on current page...:  84%|████████▍ | 101/120 [01:52<00:15,  1.24it/s][A
+Saving html of posts on current page...:  85%|████████▌ | 102/120 [01:53<00:14,  1.27it/s][A
+Saving html of posts on current page...:  86%|████████▌ | 103/120 [01:53<00:11,  1.44it/s][A
+Saving html of posts on current page...:  87%|████████▋ | 104/120 [01:54<00:11,  1.40it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 105/120 [01:54<00:09,  1.62it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 106/120 [01:55<00:11,  1.22it/s][A
+Saving html of posts on current page...:  89%|████████▉ | 107/120 [01:56<00:10,  1.21it/s][A
+Saving html of posts on current page...:  90%|█████████ | 108/120 [02:13<01:06,  5.51s/it][A
+Saving html of posts on current page...:  91%|█████████ | 109/120 [02:13<00:43,  3.98s/it][A
+Saving html of posts on current page...:  92%|█████████▏| 110/120 [02:14<00:30,  3.03s/it][A
+Saving html of posts on current page...:  92%|█████████▎| 111/120 [02:14<00:20,  2.25s/it][A
+Saving html of posts on current page...:  93%|█████████▎| 112/120 [02:15<00:14,  1.83s/it][A
+Saving html of posts on current page...:  94%|█████████▍| 113/120 [02:16<00:09,  1.40s/it][A
+Saving html of posts on current page...:  95%|█████████▌| 114/120 [02:17<00:09,  1.52s/it][A
+Saving html of posts on current page...:  96%|█████████▌| 115/120 [02:18<00:05,  1.19s/it][A
+Saving html of posts on current page...:  97%|█████████▋| 116/120 [02:19<00:04,  1.02s/it][A
+Saving html of posts on current page...:  98%|█████████▊| 117/120 [02:19<00:02,  1.19it/s][A
+Saving html of posts on current page...:  98%|█████████▊| 118/120 [02:20<00:01,  1.22it/s][A
+Saving html of posts on current page...:  99%|█████████▉| 119/120 [02:20<00:00,  1.43it/s][A
+Saving html of posts on current page...: 100%|██████████| 120/120 [02:21<00:00,  1.39it/s][A
+                                                                                          [AGetting posts from today (6 pages)...:  17%|█▋        | 1/6 [02:22<11:53, 142.76s/it]
+Saving html of posts on current page...:   0%|          | 0/120 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   1%|          | 1/120 [00:00<01:42,  1.16it/s][A
+Saving html of posts on current page...:   2%|▏         | 2/120 [00:01<01:09,  1.71it/s][A
+Saving html of posts on current page...:   2%|▎         | 3/120 [00:01<01:16,  1.52it/s][A
+Saving html of posts on current page...:   3%|▎         | 4/120 [00:02<01:05,  1.77it/s][A
+Saving html of posts on current page...:   4%|▍         | 5/120 [00:03<01:18,  1.46it/s][A
+Saving html of posts on current page...:   5%|▌         | 6/120 [00:03<01:06,  1.70it/s][A
+Saving html of posts on current page...:   6%|▌         | 7/120 [00:04<00:59,  1.90it/s][A
+Saving html of posts on current page...:   7%|▋         | 8/120 [00:04<00:55,  2.02it/s][A
+Saving html of posts on current page...:   8%|▊         | 9/120 [00:05<01:00,  1.84it/s][A
+Saving html of posts on current page...:   8%|▊         | 10/120 [00:05<00:55,  1.97it/s][A
+Saving html of posts on current page...:   9%|▉         | 11/120 [00:06<00:53,  2.04it/s][A
+Saving html of posts on current page...:  10%|█         | 12/120 [00:06<01:02,  1.74it/s][A
+Saving html of posts on current page...:  11%|█         | 13/120 [00:07<01:01,  1.73it/s][A
+Saving html of posts on current page...:  12%|█▏        | 14/120 [00:08<01:03,  1.67it/s][A
+Saving html of posts on current page...:  12%|█▎        | 15/120 [00:08<01:10,  1.49it/s][A
+Saving html of posts on current page...:  13%|█▎        | 16/120 [00:09<01:15,  1.37it/s][A
+Saving html of posts on current page...:  14%|█▍        | 17/120 [00:10<01:12,  1.42it/s][A
+Saving html of posts on current page...:  15%|█▌        | 18/120 [00:11<01:15,  1.36it/s][A
+Saving html of posts on current page...:  16%|█▌        | 19/120 [00:12<01:19,  1.27it/s][A
+Saving html of posts on current page...:  17%|█▋        | 20/120 [00:12<01:15,  1.32it/s][A
+Saving html of posts on current page...:  18%|█▊        | 21/120 [00:14<01:34,  1.05it/s][A
+Saving html of posts on current page...:  18%|█▊        | 22/120 [00:15<01:30,  1.08it/s][A
+Saving html of posts on current page...:  19%|█▉        | 23/120 [00:15<01:21,  1.19it/s][A
+Saving html of posts on current page...:  20%|██        | 24/120 [00:16<01:21,  1.18it/s][A
+Saving html of posts on current page...:  21%|██        | 25/120 [00:17<01:08,  1.39it/s][A
+Saving html of posts on current page...:  22%|██▏       | 26/120 [00:17<00:59,  1.57it/s][A
+Saving html of posts on current page...:  22%|██▎       | 27/120 [00:18<01:03,  1.46it/s][A
+Saving html of posts on current page...:  23%|██▎       | 28/120 [00:19<01:05,  1.40it/s][A
+Saving html of posts on current page...:  24%|██▍       | 29/120 [00:20<01:25,  1.07it/s][A
+Saving html of posts on current page...:  25%|██▌       | 30/120 [00:21<01:22,  1.09it/s][A
+Saving html of posts on current page...:  26%|██▌       | 31/120 [00:22<01:17,  1.15it/s][A
+Saving html of posts on current page...:  27%|██▋       | 32/120 [00:22<01:05,  1.35it/s][A
+Saving html of posts on current page...:  28%|██▊       | 33/120 [00:24<01:34,  1.08s/it][A
+Saving html of posts on current page...:  28%|██▊       | 34/120 [00:24<01:16,  1.12it/s][A
+Saving html of posts on current page...:  29%|██▉       | 35/120 [00:25<01:04,  1.32it/s][A
+Saving html of posts on current page...:  30%|███       | 36/120 [00:26<01:06,  1.27it/s][A
+Saving html of posts on current page...:  31%|███       | 37/120 [00:26<00:56,  1.47it/s][A
+Saving html of posts on current page...:  32%|███▏      | 38/120 [00:28<01:14,  1.10it/s][A
+Saving html of posts on current page...:  32%|███▎      | 39/120 [00:28<01:01,  1.31it/s][A
+Saving html of posts on current page...:  33%|███▎      | 40/120 [00:29<01:02,  1.27it/s][A
+Saving html of posts on current page...:  34%|███▍      | 41/120 [00:30<01:04,  1.22it/s][A
+Saving html of posts on current page...:  35%|███▌      | 42/120 [00:31<01:16,  1.02it/s][A
+Saving html of posts on current page...:  36%|███▌      | 43/120 [00:32<01:12,  1.07it/s][A
+Saving html of posts on current page...:  37%|███▋      | 44/120 [00:32<00:59,  1.27it/s][A
+Saving html of posts on current page...:  38%|███▊      | 45/120 [00:33<00:52,  1.43it/s][A
+Saving html of posts on current page...:  38%|███▊      | 46/120 [00:34<00:54,  1.35it/s][A
+Saving html of posts on current page...:  39%|███▉      | 47/120 [00:34<00:54,  1.33it/s][A
+Saving html of posts on current page...:  40%|████      | 48/120 [00:35<00:55,  1.29it/s][A
+Saving html of posts on current page...:  41%|████      | 49/120 [00:36<00:47,  1.48it/s][A
+Saving html of posts on current page...:  42%|████▏     | 50/120 [00:36<00:46,  1.50it/s][A
+Saving html of posts on current page...:  42%|████▎     | 51/120 [00:37<00:41,  1.67it/s][A
+Saving html of posts on current page...:  43%|████▎     | 52/120 [00:38<00:44,  1.52it/s][A
+Saving html of posts on current page...:  44%|████▍     | 53/120 [00:38<00:47,  1.42it/s][A
+Saving html of posts on current page...:  45%|████▌     | 54/120 [00:40<00:58,  1.12it/s][A
+Saving html of posts on current page...:  46%|████▌     | 55/120 [00:40<00:53,  1.21it/s][A
+Saving html of posts on current page...:  47%|████▋     | 56/120 [00:41<00:50,  1.28it/s][A
+Saving html of posts on current page...:  48%|████▊     | 57/120 [00:43<01:02,  1.01it/s][A
+Saving html of posts on current page...:  48%|████▊     | 58/120 [00:43<00:51,  1.21it/s][A
+Saving html of posts on current page...:  49%|████▉     | 59/120 [00:44<00:59,  1.02it/s][A
+Saving html of posts on current page...:  50%|█████     | 60/120 [00:45<00:48,  1.23it/s][A
+Saving html of posts on current page...:  51%|█████     | 61/120 [00:45<00:41,  1.43it/s][A
+Saving html of posts on current page...:  52%|█████▏    | 62/120 [00:46<00:35,  1.64it/s][A
+Saving html of posts on current page...:  52%|█████▎    | 63/120 [00:48<01:02,  1.09s/it][A
+Saving html of posts on current page...:  53%|█████▎    | 64/120 [00:48<00:53,  1.04it/s][A
+Saving html of posts on current page...:  54%|█████▍    | 65/120 [00:49<00:49,  1.12it/s][A
+Saving html of posts on current page...:  55%|█████▌    | 66/120 [00:50<00:40,  1.32it/s][A
+Saving html of posts on current page...:  56%|█████▌    | 67/120 [00:51<00:50,  1.06it/s][A
+Saving html of posts on current page...:  57%|█████▋    | 68/120 [00:52<00:44,  1.17it/s][A
+Saving html of posts on current page...:  57%|█████▊    | 69/120 [00:53<00:46,  1.10it/s][A
+Saving html of posts on current page...:  58%|█████▊    | 70/120 [00:54<00:49,  1.01it/s][A
+Saving html of posts on current page...:  59%|█████▉    | 71/120 [00:55<00:52,  1.06s/it][A
+Saving html of posts on current page...:  60%|██████    | 72/120 [00:56<00:54,  1.14s/it][A
+Saving html of posts on current page...:  61%|██████    | 73/120 [00:58<00:53,  1.13s/it][A
+Saving html of posts on current page...:  62%|██████▏   | 74/120 [00:59<00:50,  1.11s/it][A
+Saving html of posts on current page...:  62%|██████▎   | 75/120 [01:00<00:49,  1.09s/it][A
+Saving html of posts on current page...:  63%|██████▎   | 76/120 [01:01<00:47,  1.07s/it][A
+Saving html of posts on current page...:  64%|██████▍   | 77/120 [01:02<00:52,  1.22s/it][A
+Saving html of posts on current page...:  65%|██████▌   | 78/120 [01:03<00:48,  1.16s/it][A
+Saving html of posts on current page...:  66%|██████▌   | 79/120 [01:05<00:53,  1.31s/it][A
+Saving html of posts on current page...:  67%|██████▋   | 80/120 [01:06<00:46,  1.16s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 81/120 [01:07<00:46,  1.19s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 82/120 [01:08<00:42,  1.11s/it][A
+Saving html of posts on current page...:  69%|██████▉   | 83/120 [01:09<00:41,  1.13s/it][A
+Saving html of posts on current page...:  70%|███████   | 84/120 [01:10<00:39,  1.09s/it][A
+Saving html of posts on current page...:  71%|███████   | 85/120 [01:12<00:51,  1.46s/it][A
+Saving html of posts on current page...:  72%|███████▏  | 86/120 [01:13<00:44,  1.32s/it][A
+Saving html of posts on current page...:  72%|███████▎  | 87/120 [01:15<00:45,  1.37s/it][A
+Saving html of posts on current page...:  73%|███████▎  | 88/120 [01:16<00:39,  1.22s/it][A
+Saving html of posts on current page...:  74%|███████▍  | 89/120 [01:17<00:37,  1.21s/it][A
+Saving html of posts on current page...:  75%|███████▌  | 90/120 [01:17<00:29,  1.02it/s][A
+Saving html of posts on current page...:  76%|███████▌  | 91/120 [01:18<00:26,  1.09it/s][A
+Saving html of posts on current page...:  77%|███████▋  | 92/120 [01:19<00:25,  1.10it/s][A
+Saving html of posts on current page...:  78%|███████▊  | 93/120 [01:20<00:24,  1.10it/s][A
+Saving html of posts on current page...:  78%|███████▊  | 94/120 [01:20<00:19,  1.31it/s][A
+Saving html of posts on current page...:  79%|███████▉  | 95/120 [01:21<00:19,  1.28it/s][A
+Saving html of posts on current page...:  80%|████████  | 96/120 [01:22<00:16,  1.47it/s][A
+Saving html of posts on current page...:  81%|████████  | 97/120 [01:23<00:16,  1.38it/s][A
+Saving html of posts on current page...:  82%|████████▏ | 98/120 [01:23<00:13,  1.58it/s][A
+Saving html of posts on current page...:  82%|████████▎ | 99/120 [01:23<00:12,  1.74it/s][A
+Saving html of posts on current page...:  83%|████████▎ | 100/120 [01:24<00:10,  1.92it/s][A
+Saving html of posts on current page...:  84%|████████▍ | 101/120 [01:24<00:10,  1.78it/s][A
+Saving html of posts on current page...:  85%|████████▌ | 102/120 [01:25<00:09,  1.90it/s][A
+Saving html of posts on current page...:  86%|████████▌ | 103/120 [01:25<00:08,  2.02it/s][A
+Saving html of posts on current page...:  87%|████████▋ | 104/120 [01:26<00:09,  1.71it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 105/120 [01:27<00:08,  1.74it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 106/120 [01:27<00:08,  1.67it/s][A
+Saving html of posts on current page...:  89%|████████▉ | 107/120 [01:28<00:08,  1.49it/s][A
+Saving html of posts on current page...:  90%|█████████ | 108/120 [01:29<00:08,  1.34it/s][A
+Saving html of posts on current page...:  91%|█████████ | 109/120 [01:30<00:07,  1.39it/s][A
+Saving html of posts on current page...:  92%|█████████▏| 110/120 [01:31<00:07,  1.34it/s][A
+Saving html of posts on current page...:  92%|█████████▎| 111/120 [01:31<00:07,  1.28it/s][A
+Saving html of posts on current page...:  93%|█████████▎| 112/120 [01:32<00:05,  1.35it/s][A
+Saving html of posts on current page...:  94%|█████████▍| 113/120 [01:34<00:06,  1.04it/s][A
+Saving html of posts on current page...:  95%|█████████▌| 114/120 [01:34<00:05,  1.09it/s][A
+Saving html of posts on current page...:  96%|█████████▌| 115/120 [01:35<00:04,  1.19it/s][A
+Saving html of posts on current page...:  97%|█████████▋| 116/120 [01:36<00:03,  1.20it/s][A
+Saving html of posts on current page...:  98%|█████████▊| 117/120 [01:36<00:02,  1.39it/s][A
+Saving html of posts on current page...:  98%|█████████▊| 118/120 [01:37<00:01,  1.52it/s][A
+Saving html of posts on current page...:  99%|█████████▉| 119/120 [01:38<00:00,  1.46it/s][A
+Saving html of posts on current page...: 100%|██████████| 120/120 [01:38<00:00,  1.42it/s][A
+                                                                                          [AGetting posts from today (6 pages)...:  33%|███▎      | 2/6 [04:02<07:50, 117.61s/it]
+Saving html of posts on current page...:   0%|          | 0/120 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   1%|          | 1/120 [00:00<01:38,  1.21it/s][A
+Saving html of posts on current page...:   2%|▏         | 2/120 [00:01<01:35,  1.24it/s][A
+Saving html of posts on current page...:   2%|▎         | 3/120 [00:02<01:14,  1.57it/s][A
+Saving html of posts on current page...:   3%|▎         | 4/120 [00:04<02:15,  1.17s/it][A
+Saving html of posts on current page...:   4%|▍         | 5/120 [00:04<01:45,  1.09it/s][A
+Saving html of posts on current page...:   5%|▌         | 6/120 [00:04<01:26,  1.32it/s][A
+Saving html of posts on current page...:   6%|▌         | 7/120 [00:05<01:23,  1.35it/s][A
+Saving html of posts on current page...:   7%|▋         | 8/120 [00:06<01:11,  1.56it/s][A
+Saving html of posts on current page...:   8%|▊         | 9/120 [00:07<01:39,  1.11it/s][A
+Saving html of posts on current page...:   8%|▊         | 10/120 [00:08<01:23,  1.31it/s][A
+Saving html of posts on current page...:   9%|▉         | 11/120 [00:08<01:25,  1.27it/s][A
+Saving html of posts on current page...:  10%|█         | 12/120 [00:09<01:28,  1.22it/s][A
+Saving html of posts on current page...:  11%|█         | 13/120 [00:11<01:43,  1.03it/s][A
+Saving html of posts on current page...:  12%|█▏        | 14/120 [00:11<01:38,  1.08it/s][A
+Saving html of posts on current page...:  12%|█▎        | 15/120 [00:12<01:22,  1.27it/s][A
+Saving html of posts on current page...:  13%|█▎        | 16/120 [00:12<01:11,  1.45it/s][A
+Saving html of posts on current page...:  14%|█▍        | 17/120 [00:13<01:15,  1.37it/s][A
+Saving html of posts on current page...:  15%|█▌        | 18/120 [00:14<01:16,  1.33it/s][A
+Saving html of posts on current page...:  16%|█▌        | 19/120 [00:15<01:18,  1.29it/s][A
+Saving html of posts on current page...:  17%|█▋        | 20/120 [00:15<01:07,  1.47it/s][A
+Saving html of posts on current page...:  18%|█▊        | 21/120 [00:16<01:06,  1.48it/s][A
+Saving html of posts on current page...:  18%|█▊        | 22/120 [00:16<01:00,  1.61it/s][A
+Saving html of posts on current page...:  19%|█▉        | 23/120 [00:17<01:04,  1.49it/s][A
+Saving html of posts on current page...:  20%|██        | 24/120 [00:18<01:06,  1.44it/s][A
+Saving html of posts on current page...:  21%|██        | 25/120 [00:19<01:23,  1.14it/s][A
+Saving html of posts on current page...:  22%|██▏       | 26/120 [00:20<01:17,  1.22it/s][A
+Saving html of posts on current page...:  22%|██▎       | 27/120 [00:21<01:11,  1.30it/s][A
+Saving html of posts on current page...:  23%|██▎       | 28/120 [00:22<01:28,  1.03it/s][A
+Saving html of posts on current page...:  24%|██▍       | 29/120 [00:22<01:13,  1.24it/s][A
+Saving html of posts on current page...:  25%|██▌       | 30/120 [00:24<01:27,  1.03it/s][A
+Saving html of posts on current page...:  26%|██▌       | 31/120 [00:24<01:11,  1.24it/s][A
+Saving html of posts on current page...:  27%|██▋       | 32/120 [00:25<01:00,  1.45it/s][A
+Saving html of posts on current page...:  28%|██▊       | 33/120 [00:25<00:53,  1.62it/s][A
+Saving html of posts on current page...:  28%|██▊       | 34/120 [00:27<01:23,  1.04it/s][A
+Saving html of posts on current page...:  29%|██▉       | 35/120 [00:28<01:24,  1.01it/s][A
+Saving html of posts on current page...:  30%|███       | 36/120 [00:29<01:32,  1.10s/it][A
+Saving html of posts on current page...:  31%|███       | 37/120 [00:30<01:21,  1.02it/s][A
+Saving html of posts on current page...:  32%|███▏      | 38/120 [00:32<01:41,  1.24s/it][A
+Saving html of posts on current page...:  32%|███▎      | 39/120 [00:32<01:19,  1.01it/s][A
+Saving html of posts on current page...:  33%|███▎      | 40/120 [00:33<01:11,  1.13it/s][A
+Saving html of posts on current page...:  34%|███▍      | 41/120 [00:34<01:07,  1.17it/s][A
+Saving html of posts on current page...:  35%|███▌      | 42/120 [00:35<01:07,  1.16it/s][A
+Saving html of posts on current page...:  36%|███▌      | 43/120 [00:35<01:04,  1.20it/s][A
+Saving html of posts on current page...:  37%|███▋      | 44/120 [00:36<01:01,  1.24it/s][A
+Saving html of posts on current page...:  38%|███▊      | 45/120 [00:36<00:51,  1.44it/s][A
+Saving html of posts on current page...:  38%|███▊      | 46/120 [00:37<00:52,  1.41it/s][A
+Saving html of posts on current page...:  39%|███▉      | 47/120 [00:38<00:45,  1.60it/s][A
+Saving html of posts on current page...:  40%|████      | 48/120 [00:39<00:59,  1.21it/s][A
+Saving html of posts on current page...:  41%|████      | 49/120 [00:40<00:58,  1.21it/s][A
+Saving html of posts on current page...:  42%|████▏     | 50/120 [00:41<01:14,  1.07s/it][A
+Saving html of posts on current page...:  42%|████▎     | 51/120 [00:42<00:59,  1.15it/s][A
+Saving html of posts on current page...:  43%|████▎     | 52/120 [00:43<00:58,  1.16it/s][A
+Saving html of posts on current page...:  44%|████▍     | 53/120 [00:43<00:48,  1.38it/s][A
+Saving html of posts on current page...:  45%|████▌     | 54/120 [00:44<00:51,  1.29it/s][A
+Saving html of posts on current page...:  46%|████▌     | 55/120 [00:44<00:43,  1.50it/s][A
+Saving html of posts on current page...:  47%|████▋     | 56/120 [00:46<01:07,  1.06s/it][A
+Saving html of posts on current page...:  48%|████▊     | 57/120 [00:47<00:54,  1.16it/s][A
+Saving html of posts on current page...:  48%|████▊     | 58/120 [00:47<00:49,  1.26it/s][A
+Saving html of posts on current page...:  49%|████▉     | 59/120 [00:48<00:41,  1.47it/s][A
+Saving html of posts on current page...:  50%|█████     | 60/120 [00:49<00:42,  1.42it/s][A
+Saving html of posts on current page...:  51%|█████     | 61/120 [00:49<00:42,  1.39it/s][A
+Saving html of posts on current page...:  52%|█████▏    | 62/120 [00:50<00:48,  1.19it/s][A
+Saving html of posts on current page...:  52%|█████▎    | 63/120 [00:52<00:55,  1.02it/s][A
+Saving html of posts on current page...:  53%|█████▎    | 64/120 [00:53<00:57,  1.02s/it][A
+Saving html of posts on current page...:  54%|█████▍    | 65/120 [00:55<01:12,  1.31s/it][A
+Saving html of posts on current page...:  55%|█████▌    | 66/120 [00:56<01:07,  1.26s/it][A
+Saving html of posts on current page...:  56%|█████▌    | 67/120 [00:57<01:00,  1.15s/it][A
+Saving html of posts on current page...:  57%|█████▋    | 68/120 [00:58<01:01,  1.19s/it][A
+Saving html of posts on current page...:  57%|█████▊    | 69/120 [00:59<00:53,  1.05s/it][A
+Saving html of posts on current page...:  58%|█████▊    | 70/120 [00:59<00:46,  1.08it/s][A
+Saving html of posts on current page...:  59%|█████▉    | 71/120 [01:00<00:41,  1.19it/s][A
+Saving html of posts on current page...:  60%|██████    | 72/120 [01:01<00:41,  1.15it/s][A
+Saving html of posts on current page...:  61%|██████    | 73/120 [01:02<00:41,  1.13it/s][A
+Saving html of posts on current page...:  62%|██████▏   | 74/120 [01:03<00:40,  1.14it/s][A
+Saving html of posts on current page...:  62%|██████▎   | 75/120 [01:04<00:44,  1.02it/s][A
+Saving html of posts on current page...:  63%|██████▎   | 76/120 [01:05<00:42,  1.03it/s][A
+Saving html of posts on current page...:  64%|██████▍   | 77/120 [01:06<00:45,  1.06s/it][A
+Saving html of posts on current page...:  65%|██████▌   | 78/120 [01:07<00:46,  1.11s/it][A
+Saving html of posts on current page...:  66%|██████▌   | 79/120 [01:09<00:45,  1.12s/it][A
+Saving html of posts on current page...:  67%|██████▋   | 80/120 [01:10<00:43,  1.09s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 81/120 [01:11<00:43,  1.11s/it][A
+Saving html of posts on current page...:  68%|██████▊   | 82/120 [01:12<00:44,  1.17s/it][A
+Saving html of posts on current page...:  69%|██████▉   | 83/120 [01:13<00:40,  1.10s/it][A
+Saving html of posts on current page...:  70%|███████   | 84/120 [01:15<00:44,  1.23s/it][A
+Saving html of posts on current page...:  71%|███████   | 85/120 [01:16<00:43,  1.25s/it][A
+Saving html of posts on current page...:  72%|███████▏  | 86/120 [01:17<00:39,  1.17s/it][A
+Saving html of posts on current page...:  72%|███████▎  | 87/120 [01:18<00:38,  1.18s/it][A
+Saving html of posts on current page...:  73%|███████▎  | 88/120 [01:19<00:33,  1.05s/it][A
+Saving html of posts on current page...:  74%|███████▍  | 89/120 [01:20<00:30,  1.01it/s][A
+Saving html of posts on current page...:  75%|███████▌  | 90/120 [01:21<00:30,  1.00s/it][A
+Saving html of posts on current page...:  76%|███████▌  | 91/120 [01:22<00:31,  1.10s/it][A
+Saving html of posts on current page...:  77%|███████▋  | 92/120 [01:24<00:34,  1.24s/it][A
+Saving html of posts on current page...:  78%|███████▊  | 93/120 [01:25<00:33,  1.25s/it][A
+Saving html of posts on current page...:  78%|███████▊  | 94/120 [01:26<00:31,  1.19s/it][A
+Saving html of posts on current page...:  79%|███████▉  | 95/120 [01:28<00:34,  1.39s/it][A
+Saving html of posts on current page...:  80%|████████  | 96/120 [01:30<00:40,  1.68s/it][A
+Saving html of posts on current page...:  81%|████████  | 97/120 [01:31<00:33,  1.46s/it][A
+Saving html of posts on current page...:  82%|████████▏ | 98/120 [01:32<00:29,  1.34s/it][A
+Saving html of posts on current page...:  82%|████████▎ | 99/120 [01:34<00:28,  1.37s/it][A
+Saving html of posts on current page...:  83%|████████▎ | 100/120 [01:34<00:24,  1.20s/it][A
+Saving html of posts on current page...:  84%|████████▍ | 101/120 [01:36<00:25,  1.33s/it][A
+Saving html of posts on current page...:  85%|████████▌ | 102/120 [01:37<00:23,  1.31s/it][A
+Saving html of posts on current page...:  86%|████████▌ | 103/120 [01:39<00:22,  1.30s/it][A
+Saving html of posts on current page...:  87%|████████▋ | 104/120 [01:40<00:19,  1.23s/it][A
+Saving html of posts on current page...:  88%|████████▊ | 105/120 [01:41<00:20,  1.37s/it][A
+Saving html of posts on current page...:  88%|████████▊ | 106/120 [01:42<00:18,  1.31s/it][A
+Saving html of posts on current page...:  89%|████████▉ | 107/120 [01:43<00:15,  1.20s/it][A
+Saving html of posts on current page...:  90%|█████████ | 108/120 [01:44<00:13,  1.09s/it][A
+Saving html of posts on current page...:  91%|█████████ | 109/120 [01:46<00:13,  1.20s/it][A
+Saving html of posts on current page...:  92%|█████████▏| 110/120 [01:47<00:12,  1.21s/it][A
+Saving html of posts on current page...:  92%|█████████▎| 111/120 [01:48<00:11,  1.22s/it][A
+Saving html of posts on current page...:  93%|█████████▎| 112/120 [01:49<00:08,  1.08s/it][A
+Saving html of posts on current page...:  94%|█████████▍| 113/120 [01:50<00:07,  1.07s/it][A
+Saving html of posts on current page...:  95%|█████████▌| 114/120 [01:52<00:07,  1.24s/it][A
+Saving html of posts on current page...:  96%|█████████▌| 115/120 [01:53<00:05,  1.14s/it][A
+Saving html of posts on current page...:  97%|█████████▋| 116/120 [01:54<00:04,  1.19s/it][A
+Saving html of posts on current page...:  98%|█████████▊| 117/120 [01:56<00:04,  1.40s/it][A
+Saving html of posts on current page...:  98%|█████████▊| 118/120 [01:57<00:02,  1.28s/it][A
+Saving html of posts on current page...:  99%|█████████▉| 119/120 [01:58<00:01,  1.19s/it][A
+Saving html of posts on current page...: 100%|██████████| 120/120 [01:59<00:00,  1.33s/it][A
+                                                                                          [AGetting posts from today (6 pages)...:  50%|█████     | 3/6 [06:03<05:57, 119.19s/it]
+Saving html of posts on current page...:   0%|          | 0/120 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   1%|          | 1/120 [00:01<03:09,  1.59s/it][A
+Saving html of posts on current page...:   2%|▏         | 2/120 [00:02<02:18,  1.18s/it][A
+Saving html of posts on current page...:   2%|▎         | 3/120 [00:03<01:54,  1.02it/s][A
+Saving html of posts on current page...:   3%|▎         | 4/120 [00:04<01:47,  1.08it/s][A
+Saving html of posts on current page...:   4%|▍         | 5/120 [00:05<02:20,  1.22s/it][A
+Saving html of posts on current page...:   5%|▌         | 6/120 [00:06<01:55,  1.01s/it][A
+Saving html of posts on current page...:   6%|▌         | 7/120 [00:07<01:45,  1.07it/s][A
+Saving html of posts on current page...:   7%|▋         | 8/120 [00:07<01:25,  1.31it/s][A
+Saving html of posts on current page...:   8%|▊         | 9/120 [00:09<01:51,  1.00s/it][A
+Saving html of posts on current page...:   8%|▊         | 10/120 [00:09<01:31,  1.20it/s][A
+Saving html of posts on current page...:   9%|▉         | 11/120 [00:10<01:24,  1.29it/s][A
+Saving html of posts on current page...:  10%|█         | 12/120 [00:10<01:18,  1.38it/s][A
+Saving html of posts on current page...:  11%|█         | 13/120 [00:11<01:22,  1.30it/s][A
+Saving html of posts on current page...:  12%|█▏        | 14/120 [00:12<01:20,  1.31it/s][A
+Saving html of posts on current page...:  12%|█▎        | 15/120 [00:12<01:13,  1.43it/s][A
+Saving html of posts on current page...:  13%|█▎        | 16/120 [00:13<01:03,  1.63it/s][A
+Saving html of posts on current page...:  14%|█▍        | 17/120 [00:13<01:01,  1.68it/s][A
+Saving html of posts on current page...:  15%|█▌        | 18/120 [00:14<00:56,  1.80it/s][A
+Saving html of posts on current page...:  16%|█▌        | 19/120 [00:15<01:18,  1.28it/s][A
+Saving html of posts on current page...:  17%|█▋        | 20/120 [00:16<01:19,  1.26it/s][A
+Saving html of posts on current page...:  18%|█▊        | 21/120 [00:17<01:36,  1.02it/s][A
+Saving html of posts on current page...:  18%|█▊        | 22/120 [00:18<01:19,  1.24it/s][A
+Saving html of posts on current page...:  19%|█▉        | 23/120 [00:19<01:19,  1.22it/s][A
+Saving html of posts on current page...:  20%|██        | 24/120 [00:19<01:07,  1.42it/s][A
+Saving html of posts on current page...:  21%|██        | 25/120 [00:20<01:10,  1.35it/s][A
+Saving html of posts on current page...:  22%|██▏       | 26/120 [00:20<01:00,  1.56it/s][A
+Saving html of posts on current page...:  22%|██▎       | 27/120 [00:22<01:30,  1.03it/s][A
+Saving html of posts on current page...:  23%|██▎       | 28/120 [00:23<01:14,  1.24it/s][A
+Saving html of posts on current page...:  24%|██▍       | 29/120 [00:23<01:09,  1.31it/s][A
+Saving html of posts on current page...:  25%|██▌       | 30/120 [00:24<00:59,  1.51it/s][A
+Saving html of posts on current page...:  26%|██▌       | 31/120 [00:24<01:01,  1.44it/s][A
+Saving html of posts on current page...:  27%|██▋       | 32/120 [00:25<00:54,  1.62it/s][A
+Saving html of posts on current page...:  28%|██▊       | 33/120 [00:26<00:57,  1.51it/s][A
+Saving html of posts on current page...:  28%|██▊       | 34/120 [00:27<01:03,  1.34it/s][A
+Saving html of posts on current page...:  29%|██▉       | 35/120 [00:27<01:06,  1.28it/s][A
+Saving html of posts on current page...:  30%|███       | 36/120 [00:28<00:56,  1.48it/s][A
+Saving html of posts on current page...:  31%|███       | 37/120 [00:28<00:53,  1.56it/s][A
+Saving html of posts on current page...:  32%|███▏      | 38/120 [00:29<00:47,  1.73it/s][A
+Saving html of posts on current page...:  32%|███▎      | 39/120 [00:30<00:52,  1.53it/s][A
+Saving html of posts on current page...:  33%|███▎      | 40/120 [00:30<00:46,  1.72it/s][A
+Saving html of posts on current page...:  34%|███▍      | 41/120 [00:30<00:41,  1.89it/s][A
+Saving html of posts on current page...:  35%|███▌      | 42/120 [00:31<00:38,  2.04it/s][A
+Saving html of posts on current page...:  36%|███▌      | 43/120 [00:32<00:41,  1.86it/s][A
+Saving html of posts on current page...:  37%|███▋      | 44/120 [00:32<00:38,  1.98it/s][A
+Saving html of posts on current page...:  38%|███▊      | 45/120 [00:32<00:35,  2.09it/s][A
+Saving html of posts on current page...:  38%|███▊      | 46/120 [00:33<00:41,  1.79it/s][A
+Saving html of posts on current page...:  39%|███▉      | 47/120 [00:34<00:40,  1.79it/s][A
+Saving html of posts on current page...:  40%|████      | 48/120 [00:34<00:42,  1.67it/s][A
+Saving html of posts on current page...:  41%|████      | 49/120 [00:35<00:47,  1.50it/s][A
+Saving html of posts on current page...:  42%|████▏     | 50/120 [00:36<00:50,  1.38it/s][A
+Saving html of posts on current page...:  42%|████▎     | 51/120 [00:37<00:48,  1.42it/s][A
+Saving html of posts on current page...:  43%|████▎     | 52/120 [00:37<00:49,  1.38it/s][A
+Saving html of posts on current page...:  44%|████▍     | 53/120 [00:38<00:50,  1.33it/s][A
+Saving html of posts on current page...:  45%|████▌     | 54/120 [00:39<00:48,  1.36it/s][A
+Saving html of posts on current page...:  46%|████▌     | 55/120 [00:41<01:19,  1.23s/it][A
+Saving html of posts on current page...:  47%|████▋     | 56/120 [00:42<01:11,  1.11s/it][A
+Saving html of posts on current page...:  48%|████▊     | 57/120 [00:43<01:01,  1.03it/s][A
+Saving html of posts on current page...:  48%|████▊     | 58/120 [00:44<00:57,  1.07it/s][A
+Saving html of posts on current page...:  49%|████▉     | 59/120 [00:44<00:47,  1.29it/s][A
+Saving html of posts on current page...:  50%|█████     | 60/120 [00:45<00:39,  1.51it/s][A
+Saving html of posts on current page...:  51%|█████     | 61/120 [00:45<00:37,  1.59it/s][A
+Saving html of posts on current page...:  52%|█████▏    | 62/120 [00:46<00:38,  1.50it/s][A
+Saving html of posts on current page...:  52%|█████▎    | 63/120 [00:47<00:51,  1.11it/s][A
+Saving html of posts on current page...:  53%|█████▎    | 64/120 [00:48<00:49,  1.14it/s][A
+Saving html of posts on current page...:  54%|█████▍    | 65/120 [00:49<00:46,  1.20it/s][A
+Saving html of posts on current page...:  55%|█████▌    | 66/120 [00:49<00:38,  1.42it/s][A
+Saving html of posts on current page...:  56%|█████▌    | 67/120 [00:51<00:56,  1.06s/it][A
+Saving html of posts on current page...:  57%|█████▋    | 68/120 [00:52<00:44,  1.16it/s][A
+Saving html of posts on current page...:  57%|█████▊    | 69/120 [00:52<00:38,  1.33it/s][A
+Saving html of posts on current page...:  58%|█████▊    | 70/120 [00:53<00:38,  1.29it/s][A
+Saving html of posts on current page...:  59%|█████▉    | 71/120 [00:53<00:32,  1.52it/s][A
+Saving html of posts on current page...:  60%|██████    | 72/120 [00:55<00:45,  1.05it/s][A
+Saving html of posts on current page...:  61%|██████    | 73/120 [00:55<00:36,  1.27it/s][A
+Saving html of posts on current page...:  62%|██████▏   | 74/120 [00:56<00:36,  1.25it/s][A
+Saving html of posts on current page...:  62%|██████▎   | 75/120 [00:57<00:36,  1.23it/s][A
+Saving html of posts on current page...:  63%|██████▎   | 76/120 [00:58<00:42,  1.04it/s][A
+Saving html of posts on current page...:  64%|██████▍   | 77/120 [00:59<00:39,  1.09it/s][A
+Saving html of posts on current page...:  65%|██████▌   | 78/120 [00:59<00:32,  1.30it/s][A
+Saving html of posts on current page...:  66%|██████▌   | 79/120 [01:00<00:27,  1.47it/s][A
+Saving html of posts on current page...:  67%|██████▋   | 80/120 [01:01<00:29,  1.34it/s][A
+Saving html of posts on current page...:  68%|██████▊   | 81/120 [01:02<00:29,  1.32it/s][A
+Saving html of posts on current page...:  68%|██████▊   | 82/120 [01:02<00:29,  1.29it/s][A
+Saving html of posts on current page...:  69%|██████▉   | 83/120 [01:03<00:24,  1.49it/s][A
+Saving html of posts on current page...:  70%|███████   | 84/120 [01:04<00:23,  1.51it/s][A
+Saving html of posts on current page...:  71%|███████   | 85/120 [01:04<00:20,  1.68it/s][A
+Saving html of posts on current page...:  72%|███████▏  | 86/120 [01:05<00:19,  1.72it/s][A
+Saving html of posts on current page...:  72%|███████▎  | 87/120 [01:05<00:21,  1.55it/s][A
+Saving html of posts on current page...:  73%|███████▎  | 88/120 [01:07<00:27,  1.18it/s][A
+Saving html of posts on current page...:  74%|███████▍  | 89/120 [01:07<00:25,  1.24it/s][A
+Saving html of posts on current page...:  75%|███████▌  | 90/120 [01:08<00:22,  1.31it/s][A
+Saving html of posts on current page...:  76%|███████▌  | 91/120 [01:09<00:28,  1.01it/s][A
+Saving html of posts on current page...:  77%|███████▋  | 92/120 [01:10<00:26,  1.06it/s][A
+Saving html of posts on current page...:  78%|███████▊  | 93/120 [01:12<00:28,  1.05s/it][A
+Saving html of posts on current page...:  78%|███████▊  | 94/120 [01:12<00:22,  1.16it/s][A
+Saving html of posts on current page...:  79%|███████▉  | 95/120 [01:12<00:18,  1.39it/s][A
+Saving html of posts on current page...:  80%|████████  | 96/120 [01:13<00:15,  1.57it/s][A
+Saving html of posts on current page...:  81%|████████  | 97/120 [01:15<00:25,  1.09s/it][A
+Saving html of posts on current page...:  82%|████████▏ | 98/120 [01:16<00:20,  1.07it/s][A
+Saving html of posts on current page...:  82%|████████▎ | 99/120 [01:16<00:18,  1.13it/s][A
+Saving html of posts on current page...:  83%|████████▎ | 100/120 [01:17<00:14,  1.34it/s][A
+Saving html of posts on current page...:  84%|████████▍ | 101/120 [01:18<00:18,  1.04it/s][A
+Saving html of posts on current page...:  85%|████████▌ | 102/120 [01:19<00:16,  1.07it/s][A
+Saving html of posts on current page...:  86%|████████▌ | 103/120 [01:20<00:17,  1.02s/it][A
+Saving html of posts on current page...:  87%|████████▋ | 104/120 [01:21<00:15,  1.03it/s][A
+Saving html of posts on current page...:  88%|████████▊ | 105/120 [01:23<00:16,  1.07s/it][A
+Saving html of posts on current page...:  88%|████████▊ | 106/120 [01:24<00:15,  1.10s/it][A
+Saving html of posts on current page...:  89%|████████▉ | 107/120 [01:25<00:14,  1.08s/it][A
+Saving html of posts on current page...:  90%|█████████ | 108/120 [01:26<00:12,  1.03s/it][A
+Saving html of posts on current page...:  91%|█████████ | 109/120 [01:27<00:11,  1.03s/it][A
+Saving html of posts on current page...:  92%|█████████▏| 110/120 [01:27<00:09,  1.04it/s][A
+Saving html of posts on current page...:  92%|█████████▎| 111/120 [01:29<00:10,  1.16s/it][A
+Saving html of posts on current page...:  93%|█████████▎| 112/120 [01:30<00:09,  1.17s/it][A
+Saving html of posts on current page...:  94%|█████████▍| 113/120 [01:32<00:09,  1.35s/it][A
+Saving html of posts on current page...:  95%|█████████▌| 114/120 [01:33<00:07,  1.33s/it][A
+Saving html of posts on current page...:  96%|█████████▌| 115/120 [01:35<00:07,  1.44s/it][A
+Saving html of posts on current page...:  97%|█████████▋| 116/120 [01:36<00:05,  1.30s/it][A
+Saving html of posts on current page...:  98%|█████████▊| 117/120 [01:37<00:03,  1.27s/it][A
+Saving html of posts on current page...:  98%|█████████▊| 118/120 [01:38<00:02,  1.15s/it][A
+Saving html of posts on current page...:  99%|█████████▉| 119/120 [01:41<00:01,  1.73s/it][A
+Saving html of posts on current page...: 100%|██████████| 120/120 [01:42<00:00,  1.53s/it][A
+                                                                                          [AGetting posts from today (6 pages)...:  67%|██████▋   | 4/6 [07:47<03:46, 113.08s/it]
+Saving html of posts on current page...:   0%|          | 0/120 [00:00<?, ?it/s][A
+Saving html of posts on current page...:   1%|          | 1/120 [00:01<02:16,  1.15s/it][A
+Saving html of posts on current page...:   2%|▏         | 2/120 [00:02<02:27,  1.25s/it][A
+Saving html of posts on current page...:   2%|▎         | 3/120 [00:02<01:40,  1.16it/s][A
+Saving html of posts on current page...:   3%|▎         | 4/120 [00:03<01:36,  1.20it/s][A
+Saving html of posts on current page...:   4%|▍         | 5/120 [00:04<01:50,  1.04it/s][A
+Saving html of posts on current page...:   5%|▌         | 6/120 [00:05<01:47,  1.06it/s][A
+Saving html of posts on current page...:   6%|▌         | 7/120 [00:06<01:27,  1.30it/s][A
+Saving html of posts on current page...:   7%|▋         | 8/120 [00:06<01:18,  1.43it/s][A
+Saving html of posts on current page...:   8%|▊         | 9/120 [00:07<01:08,  1.63it/s][A
+Saving html of posts on current page...:   8%|▊         | 10/120 [00:07<01:15,  1.47it/s][A
+Saving html of posts on current page...:   9%|▉         | 11/120 [00:08<01:05,  1.66it/s][A
+Saving html of posts on current page...:  10%|█         | 12/120 [00:08<00:58,  1.84it/s][A
+Saving html of posts on current page...:  11%|█         | 13/120 [00:09<01:01,  1.75it/s][A
+Saving html of posts on current page...:  12%|█▏        | 14/120 [00:10<01:03,  1.66it/s][A
+Saving html of posts on current page...:  12%|█▎        | 15/120 [00:10<01:00,  1.73it/s][A
+Saving html of posts on current page...:  13%|█▎        | 16/120 [00:11<00:55,  1.88it/s][A
+Saving html of posts on current page...:  14%|█▍        | 17/120 [00:11<01:01,  1.68it/s][A
+Saving html of posts on current page...:  15%|█▌        | 18/120 [00:12<00:59,  1.72it/s][A
+Saving html of posts on current page...:  16%|█▌        | 19/120 [00:13<01:01,  1.65it/s][A
+Saving html of posts on current page...:  17%|█▋        | 20/120 [00:13<01:07,  1.48it/s][A
+Saving html of posts on current page...:  18%|█▊        | 21/120 [00:14<01:11,  1.39it/s][A
+Saving html of posts on current page...:  18%|█▊        | 22/120 [00:15<01:08,  1.44it/s][A
+Saving html of posts on current page...:  19%|█▉        | 23/120 [00:16<01:09,  1.40it/s][A
+Saving html of posts on current page...:  20%|██        | 24/120 [00:16<01:11,  1.34it/s][A
+Saving html of posts on current page...:  21%|██        | 25/120 [00:17<01:08,  1.39it/s][A
+Saving html of posts on current page...:  22%|██▏       | 26/120 [00:19<01:29,  1.05it/s][A
+Saving html of posts on current page...:  22%|██▎       | 27/120 [00:19<01:25,  1.09it/s][A
+Saving html of posts on current page...:  23%|██▎       | 28/120 [00:20<01:16,  1.20it/s][A
+Saving html of posts on current page...:  24%|██▍       | 29/120 [00:21<01:15,  1.20it/s][A
+Saving html of posts on current page...:  25%|██▌       | 30/120 [00:21<01:03,  1.42it/s][A
+Saving html of posts on current page...:  26%|██▌       | 31/120 [00:22<00:54,  1.63it/s][A
+Saving html of posts on current page...:  27%|██▋       | 32/120 [00:22<00:52,  1.68it/s][A
+Saving html of posts on current page...:  28%|██▊       | 33/120 [00:23<00:56,  1.53it/s][A
+Saving html of posts on current page...:  28%|██▊       | 34/120 [00:24<01:16,  1.13it/s][A
+Saving html of posts on current page...:  29%|██▉       | 35/120 [00:25<01:13,  1.15it/s][A
+Saving html of posts on current page...:  30%|███       | 36/120 [00:26<01:09,  1.20it/s][A
+Saving html of posts on current page...:  31%|███       | 37/120 [00:26<01:00,  1.38it/s][A
+Saving html of posts on current page...:  32%|███▏      | 38/120 [00:28<01:25,  1.04s/it][A
+Saving html of posts on current page...:  32%|███▎      | 39/120 [00:29<01:08,  1.18it/s][A
+Saving html of posts on current page...:  33%|███▎      | 40/120 [00:29<00:57,  1.39it/s][A
+Saving html of posts on current page...:  34%|███▍      | 41/120 [00:30<00:59,  1.33it/s][A
+Saving html of posts on current page...:  35%|███▌      | 42/120 [00:30<00:50,  1.55it/s][A
+Saving html of posts on current page...:  36%|███▌      | 43/120 [00:32<01:07,  1.14it/s][A
+Saving html of posts on current page...:  37%|███▋      | 44/120 [00:32<00:55,  1.36it/s][A
+Saving html of posts on current page...:  38%|███▊      | 45/120 [00:33<00:57,  1.31it/s][A
+Saving html of posts on current page...:  38%|███▊      | 46/120 [00:34<00:58,  1.27it/s][A
+Saving html of posts on current page...:  39%|███▉      | 47/120 [00:35<01:09,  1.05it/s][A
+Saving html of posts on current page...:  40%|████      | 48/120 [00:36<01:05,  1.09it/s][A
+Saving html of posts on current page...:  41%|████      | 49/120 [00:36<00:54,  1.30it/s][A
+Saving html of posts on current page...:  42%|████▏     | 50/120 [00:37<00:46,  1.51it/s][A
+Saving html of posts on current page...:  42%|████▎     | 51/120 [00:38<00:50,  1.38it/s][A
+Saving html of posts on current page...:  43%|████▎     | 52/120 [00:38<00:50,  1.35it/s][A
+Saving html of posts on current page...:  44%|████▍     | 53/120 [00:39<00:51,  1.31it/s][A
+Saving html of posts on current page...:  45%|████▌     | 54/120 [00:40<00:43,  1.53it/s][A
+Saving html of posts on current page...:  46%|████▌     | 55/120 [00:40<00:42,  1.54it/s][A
+Saving html of posts on current page...:  47%|████▋     | 56/120 [00:41<00:38,  1.65it/s][A
+Saving html of posts on current page...:  48%|████▊     | 57/120 [00:41<00:37,  1.69it/s][A
+Saving html of posts on current page...:  48%|████▊     | 58/120 [00:42<00:40,  1.55it/s][A
+Saving html of posts on current page...:  49%|████▉     | 59/120 [00:43<00:51,  1.18it/s][A
+Saving html of posts on current page...:  50%|█████     | 60/120 [00:44<00:47,  1.27it/s][A
+Saving html of posts on current page...:  51%|█████     | 61/120 [00:45<00:44,  1.32it/s][A
+Saving html of posts on current page...:  52%|█████▏    | 62/120 [00:46<00:55,  1.04it/s][A
+Saving html of posts on current page...:  52%|█████▎    | 63/120 [00:47<00:45,  1.25it/s][A
+Saving html of posts on current page...:  53%|█████▎    | 64/120 [00:48<00:54,  1.03it/s][A
+Saving html of posts on current page...:  54%|█████▍    | 65/120 [00:48<00:43,  1.25it/s][A
+Saving html of posts on current page...:  55%|█████▌    | 66/120 [00:49<00:36,  1.48it/s][A
+Saving html of posts on current page...:  56%|█████▌    | 67/120 [00:49<00:31,  1.67it/s][A
+Saving html of posts on current page...:  57%|█████▋    | 68/120 [00:52<01:02,  1.19s/it][A
+Saving html of posts on current page...:  57%|█████▊    | 69/120 [00:53<00:57,  1.13s/it][A
+Saving html of posts on current page...:  58%|█████▊    | 70/120 [00:54<00:56,  1.13s/it][A
+Saving html of posts on current page...:  59%|█████▉    | 71/120 [00:55<00:51,  1.05s/it][A
+Saving html of posts on current page...:  60%|██████    | 72/120 [00:56<00:58,  1.22s/it][A
+Saving html of posts on current page...:  61%|██████    | 73/120 [00:57<00:45,  1.03it/s][A
+Saving html of posts on current page...:  62%|██████▏   | 74/120 [00:57<00:40,  1.14it/s][A
+Saving html of posts on current page...:  62%|██████▎   | 75/120 [00:58<00:35,  1.28it/s][A
+Saving html of posts on current page...:  63%|██████▎   | 76/120 [00:59<00:35,  1.23it/s][A
+Saving html of posts on current page...:  64%|██████▍   | 77/120 [01:00<00:34,  1.26it/s][A
+Saving html of posts on current page...:  65%|██████▌   | 78/120 [01:00<00:30,  1.39it/s][A
+Saving html of posts on current page...:  66%|██████▌   | 79/120 [01:01<00:26,  1.57it/s][A
+Saving html of posts on current page...:  67%|██████▋   | 80/120 [01:01<00:24,  1.62it/s][A
+Saving html of posts on current page...:  68%|██████▊   | 81/120 [01:02<00:21,  1.79it/s][A
+Saving html of posts on current page...:  68%|██████▊   | 82/120 [01:03<00:29,  1.27it/s][A
+Saving html of posts on current page...:  69%|██████▉   | 83/120 [01:04<00:28,  1.29it/s][A
