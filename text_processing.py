@@ -105,7 +105,7 @@ def process_html(directory):
     city = dir_split[-1] 
     nlp = spacy.load("en_core_web_sm")  # python -m spacy download en_core_web_sm
 
-    if "b1170" in d: d = "/projects/p31502/craigslist"
+    if "b1170" in d: d = "/projects/p31502/projects/craigslist"
     else: d = "/".join(dir_split[:-2])
     
     csv_dump_path = f"{d}/csv_dumps/{city}_csv_dump.csv"
