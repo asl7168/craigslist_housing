@@ -21,6 +21,7 @@ else:
     gecko = "./geckodriver"
 
 from requests import get
+from requests.exceptions import ProxyError
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
@@ -212,19 +213,25 @@ class CraigslistScraper:
         Returns: 
             None
         """
-
+        def get_raw_html():
+            try:
+                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
+                return raw_html
+            except ProxyError:  # TODO: remove the erroring proxy from usable proxies; make change_bad_proxy maybe?                
+                self.change_proxy()
+            except Exception:
+                time.sleep(10)
+                    
         for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page...", leave=False):
             self.change_proxy()
-            
+
             post_id = key
             url = dictionary_of_posts[key]
             filename = os.path.join(self.filepath, post_id)
-            
-            try:
-                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
-            except Exception:
-                time.sleep(10)
-                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
+           
+            raw_html = False
+            while not raw_html:  # had to loop like this instead of having get_raw_html recurse, for some reason...
+                raw_html = get_raw_html()
             
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)  # write the raw html to a file
