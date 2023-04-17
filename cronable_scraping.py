@@ -117,6 +117,18 @@ class CraigslistScraper:
             self.unavail_proxies.append(proxy_holder)  # add the curr_proxy to the unavailable list preemptively
 
 
+    def purge_curr_proxy(self):
+        if not self.use_rotating_link:  # if we aren't using the rotating link, we should remove the faulty proxy
+            self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
+            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
+                            
+            new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
+            self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
+            cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
+        else:  # otherwise, we can't do anything about it
+            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
+
+
     def get_page_of_posts(self, url):
         """ Takes the url of a page of search results and returns a dictionary of posts (after removing
             duplicate posts)
@@ -152,16 +164,7 @@ class CraigslistScraper:
                 if not html_soup.find("pre", id="moon") or not html_soup.find("pre", id="train"):  
                     body = html_soup.find("body")
                     if body and "blocked" in body.text:
-                        if not self.use_rotating_link:  # if we aren't using the rotating link, we should remove the faulty proxy
-                            self.unavail_proxies.remove(self.curr_proxy["http"].split("@")[-1])  # remove faulty proxy from this run (NOT FROM TXT FILE)
-                            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT", c="rB")
-                            
-                            new_sleep_time = 20 / (len(self.avail_proxies) + len(self.unavail_proxies))  # update the sleep time for new # of proxies
-                            self.sleep_time = new_sleep_time if new_sleep_time >= 0.015 else 0.015
-                            cprint(f"INCREASED sleep_time TO {self.sleep_time} SECONDS", c='y')
-                        else:  # otherwise, we can't do anything about it
-                            cprint(f"\nPROXY {self.curr_proxy} IS BLOCKED, BUT CAN'T BE REMOVED FROM THE RUN (SINCE use_rotating_link is True)", c="rB")
-                        
+                        self.purge_curr_proxy()                        
                         return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L132)
                 else:
                     cprint(f"No more search results!", c="y")
@@ -217,8 +220,9 @@ class CraigslistScraper:
             try:
                 raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
                 return raw_html
-            except (ProxyError, ConnectTimeout):  # TODO: remove the erroring proxy from usable proxies; make change_bad_proxy maybe?            
-                self.change_proxy()
+            except (ProxyError, ConnectTimeout):  # if the issue lies with the current proxy
+                self.purge_curr_proxy()  # remove it from the proxy list (not the file)    
+                self.change_proxy()  # change to a (hopefully better) one
             except Exception as e:
                 time.sleep(10)
                     
