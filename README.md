@@ -91,7 +91,7 @@ For more information about the functions included in [cronable_scraping.py](./cr
 
 The script that we run as a cronjob on Quest, [cron_scrape.sh](./scripts/cron_scrape.sh) relies primarily on [cron_scrape.py](./scripts/cron_scrape.py) for its functionality.
 
-Additionally, we consider it beneficial to automatically run a script like (clear_scrape_instances.sh)[./scripts/clear_scrape_instances.sh) to ensure that old Firefox, Geckodriver, and Python instances don't pile up (in the even of an error or otherwise).
+Additionally, we consider it beneficial to automatically run a script like [clear_scrape_instances.sh](./scripts/clear_scrape_instances.sh) to ensure that old Firefox, Geckodriver, and Python instances don't pile up (in the even of an error or otherwise).
 
 ---
 
