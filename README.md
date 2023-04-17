@@ -22,6 +22,7 @@ This project relies on the following dependencies:
 * geopandas
 * lxml == 4.9.1
 * pandas == 1.4.3
+* selenium == 4.4.3
 * spacy == 3.4.1
 * tqdm == 4.64.0
 
