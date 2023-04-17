@@ -21,7 +21,7 @@ else:
     gecko = "./geckodriver"
 
 from requests import get
-from requests.exceptions import ProxyError
+from requests.exceptions import ProxyError, ConnectTimeout
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
@@ -217,9 +217,9 @@ class CraigslistScraper:
             try:
                 raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
                 return raw_html
-            except ProxyError:  # TODO: remove the erroring proxy from usable proxies; make change_bad_proxy maybe?                
+            except (ProxyError, ConnectTimeout):  # TODO: remove the erroring proxy from usable proxies; make change_bad_proxy maybe?            
                 self.change_proxy()
-            except Exception:
+            except Exception as e:
                 time.sleep(10)
                     
         for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page...", leave=False):
