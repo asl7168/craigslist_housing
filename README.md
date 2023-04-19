@@ -22,6 +22,7 @@ This project relies on the following dependencies:
 * geopandas
 * lxml == 4.9.1
 * pandas == 1.4.3
+* selenium == 4.4.3
 * spacy == 3.4.1
 * tqdm == 4.64.0
 
@@ -89,10 +90,9 @@ For more information about the functions included in [cronable_scraping.py](./cr
 3. Set the frequency to daily (anything of the form `X X * * *`)
 4. Enter the command(s) to execute
 
-The full command we're running on QUEST is:
-```bash
-10 0 * * * source /projects/p31502/projects/craigslist/venv_craig_env/bin/activate; python /projects/p31502/projects/craigslist/scripts/cron_scrape.py 1> /projects/p31502/projects/craigslist/scripts/outfiles/cron_scrape.out 2> /projects/p31502/projects/craigslist/scripts/outfiles/cron_scrape.err; deactivate
-```
+The script that we run as a cronjob on Quest, [cron_scrape.sh](./scripts/cron_scrape.sh) relies primarily on [cron_scrape.py](./scripts/cron_scrape.py) for its functionality.
+
+Additionally, we consider it beneficial to automatically run a script like [clear_scrape_instances.sh](./scripts/clear_scrape_instances.sh) to ensure that old Firefox, Geckodriver, and Python instances don't pile up (in the even of an error or otherwise).
 
 ---
 
@@ -102,7 +102,7 @@ There are multiple steps to processing the scraped HTML files from Craigslist. F
 ### Python Files
 In [secondary_processing.py], demographic data is acquired by first using geopandas to assign a census tract GEOID to every post, and then using the census API to access the demographic information for that census tract. The maps used for geopandas are the 2018 census maps; only the maps for states with cities of interest were added to the files. The census data is from American Community Survey 5-year survey from 2020.
 
-The functions in [neighborhood_functions.py] are not used in the basic processing of craigslist posts--they are for more specific neighborhood functions. The first function is to average demographic data for all census tracts assigned to each gentrification typology for the sake of comparison. The latter functions are for specific neighborhoods. Not all cities have designated neighborhoods, so these have only been tested on Chicago. 
+The functions in [neighborhood_functions.py] are not used in the basic processing of craigslist posts -- they are for more specific neighborhood functions. The first function is to average demographic data for all census tracts assigned to each gentrification typology for the sake of comparison. The latter functions are for specific neighborhoods. Not all cities have designated neighborhoods, so these have only been tested on Chicago. 
 
 For more information about [neighborhood_functions.py](./neighborhood_functions.py) and [secondary_processing.py](./secondary_processing.py), please read their docstrings and comments.
 
