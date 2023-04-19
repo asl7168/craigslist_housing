@@ -25,3 +25,4 @@ def scrape_from(idx: int=0):
 			scrape_from(locations.index(location))
 
 scrape_from()
+cprint("\nFULL CRON SCRAPE COMPLETED!", c="gB")

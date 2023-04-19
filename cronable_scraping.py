@@ -343,7 +343,7 @@ class CraigslistScraper:
                 cprint(scrape_msg + f"currently up. Should take ~{self.sleep_time * 0.8} hours\n{sleep_msg}", c="c")
                 self.get_posts_by_number()
 
-        cprint("Scraping completed!\n", c="gB")
+        cprint(f"Scraping completed for {self.city}!\n", c="gB")
         self.driver.quit()
 
 
