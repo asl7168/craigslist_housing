@@ -1,6 +1,5 @@
 import pandas as pd
 from ast import literal_eval
-from sklearn.model_selection import train_test_split
 import json 
 from openai_credentials import skey
 
