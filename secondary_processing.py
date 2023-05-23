@@ -232,11 +232,11 @@ def get_geoid(csv_read_path,csv_write_path,states):
     df = geopandas.read_file(csv_write_path)
     geometry = geopandas.points_from_xy(df.longitude, df.latitude,crs = 'EPSG:4269')
     ads = geopandas.GeoDataFrame(data = df,geometry = geometry)
-    
+    #print(states,len(ads))
     for state in states:
       with_typology = state in ['13','17','08','06','53']
     
-      map_path = 'GIS_data/'+state+'/tl_2018_'+state+'_tract.shp'
+      map_path = '/projects/b1170/corpora/GIS_data/'+state+'/tl_2018_'+state+'_tract.shp'
       city_map = geopandas.read_file(map_path)
       
       combined = geopandas.sjoin(ads,city_map)
@@ -302,8 +302,8 @@ def demographics_by_tract(metro_area,states):
        
 #runs the whole demographic acquisition process      
 def get_demographics(metro_area,states):
-  csv_read=['csv_dumps/'+metro_area+'_csv_dump.csv','csv/'+metro_area+'_complete.csv']
-  csv_write = 'csv_dumps/'+metro_area+'_filtered.csv'
+  csv_read=[prefix+'/csv_dumps/'+metro_area+'_csv_dump.csv',prefix+'/csv/'+metro_area+'_complete.csv']
+  csv_write = prefix+'/csv_dumps/'+metro_area+'_filtered.csv'
   demographics={}
   for state in states:
     race,income,other,race_diff = get_data(state,'*','*')
@@ -403,19 +403,25 @@ def write_csv():
                 writer.writerow(obj)
 
 #runs html conversion for all cities
-def html_to_csv_dump():
+def html_to_csv_dump(metro_area=None):
 #    ready = False
+  if not metro_area:
     for metro_area in os.listdir(f'{html_prefix}/html'):
  #       if metro_area=='atlanta':
   #          ready =True
    #     if ready:
             process_html(f"{html_prefix}/html/"+metro_area)
+  else:
+    process_html(f"{html_prefix}/html/"+metro_area)
 
 #runs secondary processing for all cities
-def process_csvs():
+def process_csvs(metro_area=None):
+  if metro_area:
+    metro_area_data(metro_area,'a')
+  else:
     for metro_area in os.listdir(f'{html_prefix}/html'):
         print(metro_area)
-        metro_area_data(metro_area,'w')
+        metro_area_data(metro_area,'a')
 
 def fix_post_ids():
     for area in os.listdir(f'{prefix}/csv'):
@@ -434,7 +440,9 @@ def fix_post_ids():
           for row in data:
               writer.writerow(row)
 
+
 if __name__ == '__main__':
- #   html_to_csv_dump()
-    process_csvs()
+    html_to_csv_dump('seattle')
+ #   process_csvs()
  #   write_csv()
+ #process_csvs('muncie')

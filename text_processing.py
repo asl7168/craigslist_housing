@@ -116,16 +116,24 @@ def process_html(directory):
     else: 
         complete_exists = False
 
+    if not os.path.exists(f"/projects/b1170/corpora/craigslist/repost_html/"+city):
+      os.makedirs(f"/projects/b1170/corpora/craigslist/repost_html/"+city)
+    if not os.path.exists(f"/projects/b1170/corpora/craigslist/problem_html/"+city):
+      os.makedirs(f"/projects/b1170/corpora/craigslist/problem_html/"+city)
     csv_dump_df = pd.DataFrame(columns=cols)  # csv_dumps are a staging area; only store *new* posts in them
-
+    index = 0
+    continue_count=0
     for filename in tqdm(os.listdir(directory), desc=f"Processing html from {directory}..."):
         filepath = os.path.join(directory, filename)
-        if not os.path.isfile(filepath): continue
-
+        if not os.path.isfile(filepath): 
+          continue_count+=1
+          print("1")
+          continue
+        #print(filename)
         updatable_df = csv_dump_df if not complete_exists else csv_complete_df  # df to update repost_dates in
         processed_ids = list(updatable_df["post_id"])
-        if int(filename.split("_")[-1]) in processed_ids:  # just the post_id (remove postid_ from the front)
-            continue  # if post has been processed, don't reprocess
+        #if int(filename.split("_")[-1]) in processed_ids:  # just the post_id (remove postid_ from the front)
+         #   continue  # if post has been processed, don't reprocess
                 
         # open html and create soup
         with open(filepath, encoding='utf-8') as html_file:
@@ -133,7 +141,10 @@ def process_html(directory):
         
         # get unique post ID
         try: post_id = int(soup.find(string=re.compile("post id")).split(':')[1].strip())
-        except: continue
+        except: 
+          continue_count+=1
+          os.rename(filepath,os.path.join(f"/projects/b1170/corpora/craigslist/problem_html/"+city, filename))
+          continue
         
         posting_infos = soup.find('div', class_='postinginfos')  # posting/updating dates and times
         
@@ -155,6 +166,7 @@ def process_html(directory):
 
                 repost_list.append(posted)  # append to repost_dates
                 updatable_df.loc[updatable_df["post_id"] == repost_of]["repost_dates"] = [repost_list]
+                os.rename(filepath,os.path.join(f"/projects/b1170/corpora/craigslist/repost_html/"+city, filename))
                 continue  # then go to the next post
             else:  # otherwise, handle later (see L277, L288)
                 pass
@@ -327,7 +339,11 @@ def process_html(directory):
 
         post_details_df = pd.DataFrame(post_details)
         csv_dump_df = pd.concat([csv_dump_df, post_details_df], ignore_index=True).fillna("")
- 
+        if index%10000==0:
+          csv_dump_df.to_csv(csv_dump_path, index=False)
+        index +=1
+        #os.rename(filepath,os.path.join(f"/projects/b1170/corpora/craigslist/read_html/"+city,filename))
+    print(continue_count)
     print(csv_dump_df)
     csv_dump_df.to_csv(csv_dump_path, index=False)
     if complete_exists: csv_complete_df.to_csv(csv_complete_path, index=False)
