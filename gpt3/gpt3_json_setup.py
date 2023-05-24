@@ -1,7 +1,19 @@
 import pandas as pd
 from ast import literal_eval
 import json 
-from openai_credentials import skey
+from os import path 
+from math import ceil
+import jsonlines 
+
+max_upload_B = 150000000
+
+def chunk_list(lst, n):
+    sublist_size = ceil(len(lst) / n)
+    return list(
+        map(lambda x: lst[x * sublist_size:x * sublist_size + sublist_size],
+        list(range(n)))
+    )
+
 
 def json_setup(city: str):
     df = pd.read_csv(f"./csv_no_duplicates/{city}_complete.csv")
@@ -35,11 +47,28 @@ def json_setup(city: str):
     
     json_dir = "./json_files"
 
-    for filename in [f"{json_dir}/{city}_train.jsonl", f"{json_dir}/{city}_test.jsonl"]:
-        with open(filename, "w") as f:
+    filenames = [f"{json_dir}/{city}_train", f"{json_dir}/{city}_test"]
+    for filename in filenames:
+        with open(f"{filename}.jsonl", "w") as f:
             for entry in (train if "train" in filename else test):
                 json.dump(entry, f)
                 f.write("\n")
+
+        filesize = path.getsize(f"{filename}.jsonl")
+        if filesize > max_upload_B:  # if file size exceeds OpenAI max upload size of 150 MB, split the file
+            num_files = ceil(filesize / max_upload_B)
+            
+            dicts = []
+            with jsonlines.open(f"{filename}.jsonl", "r") as reader:
+                dicts = [d for d in reader]
+            
+            chunked_dicts = chunk_list(dicts, num_files)
+            for i in range(num_files):
+                with open(f"{filename}_{i}.jsonl", "w") as f:
+                    for entry in chunked_dicts[i]:
+                        json.dump(entry, f)
+                        f.write("\n")
+
 
 if __name__ == "__main__":
     json_setup("seattle")
