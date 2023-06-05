@@ -43,7 +43,7 @@ def prep_data(city: str):
     
     df["posting_body"] = df["posting_body"].apply(fix_body)
     df = df.dropna()
-    df.rename(columns={"posting_body": "text", "price": "label"})
+    df = df.rename(columns={"posting_body": "text", "price": "label"})
 
     ds = Dataset.from_pandas(df, preserve_index=False)
     ds = ds.train_test_split(test_size=0.2)
