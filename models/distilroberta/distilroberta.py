@@ -63,7 +63,7 @@ def tokenize_data(city: str):
     tokenizer = AutoTokenizer.from_pretrained("distilroberta-base")
 
     def tokenize_function(examples): 
-        return tokenizer(examples["posting_body"], padding="max_length")
+        return tokenizer(examples["posting_body"], padding="max_length", truncation=True) # not preferable, but seems necessary
     
     tokenized_ds = ds.map(tokenize_function, batched=True)
     tokenized_ds.save_to_disk(f"./{city}/datasets/{city}_tokenized.dataset")
