@@ -120,11 +120,9 @@ def test(city: str):
     trainer = Trainer(model=model)
 
     # train_predict = trainer.predict(tokenized_ds["train"])
-    test_predict = trainer.predict(tokenized_ds["test"])
-
+    test_predict = trainer.predict(tokenized_ds["test"]) # test_predict[0][i] = ith prediction
     print(test_predict)
-    print(test_predict[0])
-    print(test_predict[0][0])
+    [print(f"Body: {tokenized_ds['test']['text'][i][:20]} | Excpected: {tokenized_ds['test']['label'][i]} | Actual: {test_predict[0][i]}") for i in range(len(test_predict[0]))]
     
 
 
@@ -133,18 +131,3 @@ if __name__ == "__main__":
 
     if (len(sys.argv) > 2) and sys.argv[2] == "test": test(city)
     else: train(city)
-    
-
-"""TODO: ADAPT THIS TESTING CODE (EASY ENOUGH)
-from transformers import Trainer
-trainer = Trainer(model=model)
-def tokenize_function(examples):
-    return tokenizer(examples["text"], padding="max_length", truncation=True) 
-def pipeline_prediction(text):
-    df=pd.DataFrame({'text':[text]})
-    dataset = Dataset.from_pandas(df,preserve_index=False) 
-    tokenized_datasets = dataset.map(tokenize_function)
-    raw_pred, _, _ = trainer.predict(tokenized_datasets) 
-    return(raw_pred[0][0])
-    pipeline_prediction("🚨 Get 50% now!")
-"""

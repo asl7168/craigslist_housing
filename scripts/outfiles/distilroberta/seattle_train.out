@@ -3,4 +3,12 @@
 [0m[96mPrepping Data
 [0m[96mPrepping Complete
 [0m[95mTokenizing Complete
+[0m{'loss': 153004232549.4482, 'learning_rate': 3.3333333333333335e-05, 'epoch': 1.0}
+{'eval_loss': 193596817408.0, 'eval_rmse': 439996.375, 'eval_runtime': 183.5458, 'eval_samples_per_second': 236.802, 'eval_steps_per_second': 14.803, 'epoch': 1.0}
+{'loss': 152999946376.8349, 'learning_rate': 1.6666666666666667e-05, 'epoch': 2.0}
+{'eval_loss': 193592262656.0, 'eval_rmse': 439991.21875, 'eval_runtime': 183.2618, 'eval_samples_per_second': 237.169, 'eval_steps_per_second': 14.826, 'epoch': 2.0}
+{'loss': 152997957691.559, 'learning_rate': 0.0, 'epoch': 3.0}
+{'eval_loss': 193590755328.0, 'eval_rmse': 439989.5, 'eval_runtime': 182.8872, 'eval_samples_per_second': 237.655, 'eval_steps_per_second': 14.856, 'epoch': 3.0}
+{'train_runtime': 6910.9547, 'train_samples_per_second': 75.468, 'train_steps_per_second': 4.717, 'train_loss': 153000712205.94736, 'epoch': 3.0}
+[92mTRAINING COMPLETE
 [0m
