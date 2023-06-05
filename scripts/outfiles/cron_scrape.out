@@ -1,483 +1,144 @@
 [91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for chicago on: 2023-05-23 1684818624.4776707 | for all posts today
+[0m[96mStarted scraping for chicago on: 2023-06-05 1685941816.7766626 | for all posts today
 Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
 
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
 [0m[92;1mScraping completed for chicago!
 
 [0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for atlanta on: 2023-05-23 1684820550.4849653 | for all posts today
+[0m[96mStarted scraping for atlanta on: 2023-06-05 1685941903.9313474 | for all posts today
 Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
 
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
-[0m[92;1mScraping completed for atlanta!
-
-[0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for boston on: 2023-05-23 1684821066.7525504 | for all posts today
-Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
-
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
-[0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
-[0m[92;1mScraping completed for boston!
-
-[0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for cleveland on: 2023-05-23 1684821251.5055506 | for all posts today
-Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
-
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
-[0m[92;1mScraping completed for cleveland!
-
-[0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for denver on: 2023-05-23 1684821344.560412 | for all posts today
-Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
-
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
-[0m[92;1mScraping completed for denver!
-
-[0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for losangeles on: 2023-05-23 1684822935.4637558 | for all posts today
-Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
-
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.145:6662\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.145:6662\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
-[0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.158.187.178:7187\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.158.187.178:7187\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.41.177.55:5705\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.41.177.55:5705\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.141.116:5846\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.141.116:5846\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
-[0m[92;1mScraping completed for losangeles!
-
-[0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for memphis on: 2023-05-23 1684824427.016307 | for all posts today
-Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
-
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.189.209:5856\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.189.209:5856\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.250:6767\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.250:6767\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@154.16.243.124:6268\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@154.16.243.124:6268\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.145:6662\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.26.145:6662\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.27.121:6894\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.27.121:6894\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.190.56:6057\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.190.56:6057\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.20:6281\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.20:6281\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@67.227.119.52:6381\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@67.227.119.52:6381\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
@@ -489,111 +150,645 @@ PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@184.174.28.218:5233\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@184.174.28.218:5233\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
+[0m[92;1mScraping completed for atlanta!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for boston on: 2023-06-05 1685942147.8437881 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
+[0m[92;1mScraping completed for boston!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for cleveland on: 2023-06-05 1685942304.441384 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[92;1mScraping completed for cleveland!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for denver on: 2023-06-05 1685942344.308059 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.154.89.241:6332\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.154.89.241:6332\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@23.129.253.86:6704\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@23.129.253.86:6704\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.3125 SECONDS
-[0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.110:6371\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.110:6371\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
-[0m[93mINCREASED sleep_time TO 0.31746031746031744 SECONDS
-[0m[92;1mScraping completed for memphis!
+[0m[92;1mScraping completed for denver!
 
 [0m[91;1mSITE HAS UPDATED FRONTEND
-[0m[96mStarted scraping for seattle on: 2023-05-23 1684824621.71106 | for all posts today
+[0m[96mStarted scraping for losangeles on: 2023-06-05 1685942797.8601496 | for all posts today
 Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
 
 [0m[91;1m
 PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.190.56:6057\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@84.21.190.56:6057\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@66.78.34.159:5778\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.110:6371\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.110:6371\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.27.121:6894\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.27.121:6894\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.20:6281\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.245.25.20:6281\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@173.211.30.17:6451\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@67.227.119.52:6381\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@67.227.119.52:6381\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
 [0m[91;1m
-PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.223.227:8314\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.223.227:8314\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
 [0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
+[0m[92;1mScraping completed for losangeles!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for memphis on: 2023-06-05 1685943734.096856 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[92;1mScraping completed for memphis!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for seattle on: 2023-06-05 1685943882.7858574 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@5.181.43.23:7085\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@5.181.43.23:7085\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3125 SECONDS
+[0m[92;1mScraping completed for seattle!
+
+[0m[91;1mSITE HAS UPDATED FRONTEND
+[0m[96mStarted scraping for sfbay on: 2023-06-05 1685944981.6320794 | for all posts today
+Sleeping for 0.20833333333333334 seconds between every post get (prevents Craigslist ban)
+
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.107.132:8721\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21052631578947367 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.133.153:5501\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2127659574468085 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.158:7742\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21505376344086022 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.177:8772\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21739130434782608 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.143.173:8272\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.21978021978021978 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.191:6194\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2222222222222222 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.145:7225\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2247191011235955 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.54.189:8613\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22727272727272727 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.181.129:6571\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.22988505747126436 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.82.244.173:6647\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23255813953488372 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.88.161.142:7439\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23529411764705882 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.145.201:8796\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.23809523809523808 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.12.145.144:7568\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24096385542168675 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.34.197:7781\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24390243902439024 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.190.38:7059\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.24691358024691357 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.227.1.89:7685\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@138.128.40.40:6043\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.25316455696202533 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.65.107:8690\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2564102564102564 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@185.101.169.202:6746\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2597402597402597 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@172.245.157.60:6645\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2631578947368421 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.122:9198\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.26666666666666666 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.56.173.115:6098\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.56.173.115:6098\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2702702702702703 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@107.152.223.6:9419\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.273972602739726 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.144.235.142:7222\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2777777777777778 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@140.99.51.196:8012\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.28169014084507044 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@209.127.127.120:7218\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2857142857142857 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@198.20.191.4:7060\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.2898550724637681 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.108.28:6082\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29411764705882354 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.239.23.143:5904\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.29850746268656714 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@45.72.119.48:9124\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.30303030303030304 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@38.153.137.11:5319\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3076923076923077 SECONDS
+[0m[91;1m
+PROXY {'http': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n', 'https': 'http://lingmechlab:ling1mech2lab3proxy4access5@104.250.207.72:6470\n'} IS BLOCKED, AND HAS BEEN TAKEN OUT FOR THIS RUN. PLEASE REMOVE FROM PROXIES TXT
+[0m[93mINCREASED sleep_time TO 0.3125 SECONDS
 [0m

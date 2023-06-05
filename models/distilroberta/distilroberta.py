@@ -113,6 +113,11 @@ def train(city: str):
     cprint("TRAINING COMPLETE", c="g")
 
 
+if __name__ == "__main__":
+    city = sys.argv[1]
+    train(city)
+    
+
 """TODO: ADAPT THIS TESTING CODE (EASY ENOUGH)
 from transformers import Trainer
 trainer = Trainer(model=model)
