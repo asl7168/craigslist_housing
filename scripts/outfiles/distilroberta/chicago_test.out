@@ -1,0 +1,18 @@
+[94mTESTING
+[0m[95mTokenizing Data
+[0m[95mTokenizing Complete
+[0mPredictionOutput(predictions=array([[75.262054],
+       [75.26203 ],
+       [75.26206 ],
+       ...,
+       [75.262054],
+       [75.262054],
+       [75.26205 ]], dtype=float32), label_ids=array([1695., 1200., 1700., ..., 1825., 1476., 4285.], dtype=float32), metrics={'test_loss': 3879532.0, 'test_runtime': 19.0928, 'test_samples_per_second': 228.044, 'test_steps_per_second': 28.545})
+[[75.262054]
+ [75.26203 ]
+ [75.26206 ]
+ ...
+ [75.262054]
+ [75.262054]
+ [75.26205 ]]
+[75.262054]

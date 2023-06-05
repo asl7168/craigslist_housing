@@ -109,9 +109,30 @@ def train(city: str):
     cprint("TRAINING COMPLETE", c="g")
 
 
+def test(city: str):
+    cprint("TESTING", c="b")
+
+    city_root = f"./{city}"
+
+    tokenized_ds = tokenize_data(city)
+    tokenizer = AutoTokenizer.from_pretrained(f"{city_root}/tokenizer")
+    model = RobertaForSequenceClassification.from_pretrained(f"{city_root}/model")
+    trainer = Trainer(model=model)
+
+    # train_predict = trainer.predict(tokenized_ds["train"])
+    test_predict = trainer.predict(tokenized_ds["test"])
+
+    print(test_predict)
+    print(test_predict[0])
+    print(test_predict[0][0])
+    
+
+
 if __name__ == "__main__":
     city = sys.argv[1]
-    train(city)
+
+    if (len(sys.argv) > 2) and sys.argv[2] == "test": test(city)
+    else: train(city)
     
 
 """TODO: ADAPT THIS TESTING CODE (EASY ENOUGH)
