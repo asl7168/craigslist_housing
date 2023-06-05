@@ -79,12 +79,7 @@ def train(city: str):
     cprint("TRAINING START", c="y")
 
     setup_dirs(city)
-
-    tokenized_ds = None
-
-    if not exists(f"./{city}/datasets/{city}_tokenized.dataset"):
-        prep_data(city)
-        tokenized_ds = tokenize_data(city)
+    tokenized_ds = tokenize_data(city)
 
     # tokenized_ds = load_from_disk(f"./dataset_files/{city}_tokenized.dataset")
     tokenizer = AutoTokenizer.from_pretrained(f"./{city}/tokenizer/")
