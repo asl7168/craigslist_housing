@@ -12,7 +12,7 @@ sys.path.append(p)
 from cprint import cprint
 import pandas as pd
 from ast import literal_eval
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
+from transformers import AutoTokenizer, RobertaForSequenceClassification, Trainer, TrainingArguments
 from datasets import Dataset, load_from_disk
 from sklearn.metrics import mean_squared_error
 
@@ -84,7 +84,7 @@ def train(city: str):
 
     # tokenized_ds = load_from_disk(f"./dataset_files/{city}_tokenized.dataset")
     tokenizer = AutoTokenizer.from_pretrained(f"./{city}/tokenizer/")
-    model = AutoModelForSequenceClassification.from_pretrained("distilroberta-base", num_labels=1)
+    model = RobertaForSequenceClassification.from_pretrained("distilroberta-base", num_labels=1)
     model.resize_token_embeddings(len(tokenizer))
 
     def compute_metrics(eval_pred):
