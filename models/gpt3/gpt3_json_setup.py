@@ -16,7 +16,7 @@ def chunk_list(lst, n):
 
 
 def json_setup(city: str):
-    df = pd.read_csv(f"./csv_no_duplicates/{city}_complete.csv")
+    df = pd.read_csv(f"../../csv_no_duplicates/{city}_complete.csv")
     df = df[["price", "posting_body"]]  # only keep price (rent) and posting_body
     
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
