@@ -1,0 +1,8 @@
+[93mTRAINING START
+[0m[95mTokenizing Data
+[0m[95mTokenizing Complete
+[0m{'loss': 14698372194.7328, 'learning_rate': 0.0, 'epoch': 1.0}
+{'eval_loss': 4032042.5, 'eval_rmse': 2007.99462890625, 'eval_runtime': 18.4265, 'eval_samples_per_second': 236.29, 'eval_steps_per_second': 14.816, 'epoch': 1.0}
+{'train_runtime': 232.6233, 'train_samples_per_second': 74.855, 'train_steps_per_second': 4.681, 'train_loss': 14698372194.732782, 'epoch': 1.0}
+[92mTRAINING COMPLETE
+[0m

@@ -1,0 +1,10 @@
+[93mTRAINING START
+[0m[95mTokenizing Data
+[0m[95mTokenizing Complete
+[0m{'loss': 14698359677.2966, 'learning_rate': 2.5e-05, 'epoch': 1.0}
+{'eval_loss': 3994338.5, 'eval_rmse': 1998.5841064453125, 'eval_runtime': 18.2585, 'eval_samples_per_second': 238.464, 'eval_steps_per_second': 14.952, 'epoch': 1.0}
+{'loss': 14698227762.7769, 'learning_rate': 0.0, 'epoch': 2.0}
+{'eval_loss': 3956540.75, 'eval_rmse': 1989.1053466796875, 'eval_runtime': 18.2842, 'eval_samples_per_second': 238.129, 'eval_steps_per_second': 14.931, 'epoch': 2.0}
+{'train_runtime': 461.4714, 'train_samples_per_second': 75.467, 'train_steps_per_second': 4.72, 'train_loss': 14698293720.036732, 'epoch': 2.0}
+[92mTRAINING COMPLETE
+[0m

@@ -76,7 +76,7 @@ def tokenize_data(city: str):
     return tokenized_ds
 
 
-def train(city: str):
+def train(city: str, num_epochs: int):
     cprint("TRAINING START", c="y")
 
     setup_dirs(city)
@@ -96,38 +96,50 @@ def train(city: str):
     # increased save_total_limit from tutorial (2) to 8, just for safety
     training_args = TrainingArguments(output_dir=f"./{city}/train_output", logging_strategy="epoch", 
                                       evaluation_strategy="epoch", per_device_train_batch_size=16,
-                                      per_device_eval_batch_size=16, num_train_epochs=3, save_total_limit=8,
+                                      per_device_eval_batch_size=16, num_train_epochs=num_epochs, save_total_limit=8,
                                       save_strategy="no", load_best_model_at_end=False)
     
     trainer = Trainer(model=model, args=training_args, train_dataset=tokenized_ds["train"], 
                       eval_dataset=tokenized_ds["test"], compute_metrics=compute_metrics)
     trainer.train()
 
-    trainer.save_model(f"./{city}/trainer_model") # not sure which of these ways is more correct, so check both
-    model.save_pretrained(f"./{city}/model")
+    # trainer.save_model(f"./{city}/trainer_model") # not sure which of these ways is more correct, so check both
+    model.save_pretrained(f"./{city}/model{f'_e{num_epochs}' if num_epochs != 3 else ''}")
 
     cprint("TRAINING COMPLETE", c="g")
 
 
-def test(city: str):
+def test(city: str, num_epochs: int):
     cprint("TESTING", c="b")
 
     city_root = f"./{city}"
 
     tokenized_ds = tokenize_data(city)
-    tokenizer = AutoTokenizer.from_pretrained(f"{city_root}/tokenizer")
-    model = RobertaForSequenceClassification.from_pretrained(f"{city_root}/model")
+    # tokenizer = AutoTokenizer.from_pretrained(f"{city_root}/tokenizer")
+    model = RobertaForSequenceClassification.from_pretrained(f"{city_root}/model{f'_e{num_epochs}' if num_epochs != 3 else ''}")
     trainer = Trainer(model=model)
 
     # train_predict = trainer.predict(tokenized_ds["train"])
     test_predict = trainer.predict(tokenized_ds["test"]) # test_predict[0][i] = ith prediction
     print(test_predict)
-    [print(f"Body: {tokenized_ds['test']['text'][i][:20]} | Excpected: {tokenized_ds['test']['label'][i]} | Actual: {test_predict[0][i]}") for i in range(len(test_predict[0]))]
-    
+    [print(f"Body: {tokenized_ds['test']['text'][i][:20]} | Excpected: {tokenized_ds['test']['label'][i]} | Actual: {test_predict[0][i]}") for i in range(len(test_predict[0]))]    
 
 
 if __name__ == "__main__":
-    city = sys.argv[1]
+    mode = sys.argv[1]
+    remaining_args = len(sys.argv) - 2 # - 2 for filename, mode
+    city = ""
+    num_epochs = 3
 
-    if (len(sys.argv) > 2) and sys.argv[2] == "test": test(city)
-    else: train(city)
+    if remaining_args >= 1:
+        city = str(sys.argv[2])
+        num_epochs = int(sys.argv[3])
+    else:
+        cprint("INVALID NUMBER OF ARGS. REQUIRE city: str AND num_epochs: int, NO OPTIONAL ARGS")
+    
+    if mode == "train":
+        train(city, num_epochs)  
+    elif mode == "test":
+        test(city, num_epochs)
+    else:
+        cprint("PLEASE USE A VALID MODE: (train | test)")

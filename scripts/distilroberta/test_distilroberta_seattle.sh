@@ -6,12 +6,12 @@
 #SBATCH -n 1                                                # Number of cores (processors)
 #SBATCH -t 48:00:00                                         # Walltime/duration of job
 #SBATCH --mem=16G                                           # Memory per node in GB needed for a job. Also see --mem-per-cpu
-#SBATCH --output=./outfiles/distilroberta/chicago_train.out # Path for output must already exist
-#SBATCH --error=./outfiles/distilroberta/chicago_train.err  # Path for error must already exist
-#SBATCH --job-name="distilling chicago"
+#SBATCH --output=../outfiles/distilroberta/seattle_test.out # Path for output must already exist
+#SBATCH --error=../outfiles/distilroberta/seattle_test.err  # Path for error must already exist
+#SBATCH --job-name="testing seattle"
 
 module purge
 cd /projects/p31502/projects/craigslist
 source ./venv_craig_env/bin/activate
 cd ./models/distilroberta
-python distilroberta.py chicago
+python distilroberta.py test seattle 
