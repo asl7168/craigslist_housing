@@ -1,8 +1,9 @@
+from cprint import cprint
 import pandas as pd
 from ast import literal_eval
 import json 
 from os import path 
-from math import ceil
+from math import ceil, floor
 import jsonlines 
 
 max_upload_B = 150000000
@@ -15,10 +16,15 @@ def chunk_list(lst, n):
     )
 
 
-def json_setup(city: str):
+def json_setup(city: str, bin: bool = False):
+    cprint(f"Starting json setup for {city}, binning{' not' if not bin else ''} enabled", c="y")
+
     df = pd.read_csv(f"../../csv_no_duplicates/{city}_complete.csv")
-    df = df[["price", "posting_body"]]  # only keep price (rent) and posting_body
-    
+    df = df[["posting_body", "price"]]  # only keep price (rent) and posting_body
+    df = df.astype({"posting_body": "string", "price": "float"})
+
+    df = df.loc[(df["price"] >= 500) & (df["price"] <= 6000)]
+
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
 
     def prepare_body(body):
@@ -31,18 +37,33 @@ def json_setup(city: str):
         https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset for more details
         """ 
         return " " + price 
-    
-    df["posting_body"] = df["posting_body"].apply(prepare_body)
-    df = df.astype({"price": "string","posting_body": "string"})
-    df["price"] = df["price"].apply(prepare_price)
 
-    df = df.rename(columns={"price": "completion", "posting_body": "prompt"})
-    df = df.reindex(columns=["prompt", "completion"])  # swap column ordering to fit OpenAI preferred format
     df = df.dropna()
+    df["posting_body"] = df["posting_body"].apply(prepare_body)
     
-    train_df = df.sample(frac=0.8)
+    if not bin: 
+        df["price"] = df["price"].apply(prepare_price)
+        df = df.rename(columns={"posting_body": "prompt", "price": "completion"})
+    else:
+        max_price = df["price"].max()
+        num_buckets = ceil(max_price / 500)
+        buckets = [f" {i*500 if i == 0 else i*500 + 1}-{(i+1)*500}" for i in range(num_buckets)]
+        
+        def bin_price(price):
+            # print(f"{floor(price / 500)} vs. {num_buckets} | price = {price} | max_price = {max_price}")
+            b = floor(price / 500)
+            return buckets[b if b < num_buckets else num_buckets - 1]
+
+        df["binned_price"] = df["price"].apply(bin_price)
+        df = df.rename(columns={"posting_body": "prompt", "binned_price": "completion"})
+    
+    
+    output_df = df[["prompt", "completion"]]
+    output_df = output_df.astype({"prompt": "string", "completion": "string"})
+    
+    train_df = output_df.sample(frac=0.8)
     train = train_df.to_dict(orient="records")
-    test_df = df.drop(train_df.index)
+    test_df = output_df.drop(train_df.index)
     test = test_df.to_dict(orient="records")
     
     json_dir = "./json_files"
@@ -69,7 +90,9 @@ def json_setup(city: str):
                         json.dump(entry, f)
                         f.write("\n")
 
+    cprint(f"Completed json setup for {city}", c="g")
+
 
 if __name__ == "__main__":
-    json_setup("seattle")
-    json_setup("chicago")
+    json_setup("seattle", True)
+    json_setup("chicago", True)
