@@ -5,6 +5,11 @@ import json
 from os import path 
 from math import ceil, floor
 import jsonlines 
+import openai
+from openai_credentials import skey, org 
+
+openai.api_key = skey
+openai.organization = org
 
 max_upload_B = 150000000
 
@@ -91,6 +96,34 @@ def json_setup(city: str, bin: bool = False):
                         f.write("\n")
 
     cprint(f"Completed json setup for {city}", c="g")
+
+
+def completion_generation(city: str, model: str, n: int = 10, randomize: bool = True):
+    # ENSURE TEST DATA IS GOOD, NOT TOO LONG, ETC. USING $ openai tools fine_tunes.prepare_data -f CITY_test.jsonl
+    
+    # to get a fine-tuned model name, openai.FineTune.list(), pick one of the fine-tunes, and use 
+    # key "fine_tuned_model"
+    
+    # seattle is largest, and only has one test file, so don't need to possibly get multiple files afaik
+    df = None 
+    with jsonlines.open(f"./json_files/{city}_test.jsonl") as test_file:
+        df = pd.DataFrame(test_file)
+
+    df.rename(columns={"prompt": "prompt", "completion": "expected_completion"})
+
+    results_df = df.loc[:n-1]
+    if randomize: df = df.sample(frac=1)  # shuffle df, keeping old indices (for now; probably won't matter)
+
+    results_df["actual_completion"] = "N/A" 
+
+    for idx, row in results_df.iterrows():
+        results_df.at[idx, "actual_completion"] = openai.Completion.create(model=model, 
+                                                                           prompt=row["prompt"], 
+                                                                           max_tokens=3, 
+                                                                           temperature=0)["choices"][0]["text"]
+    
+    print(results_df)
+    results_df.to_csv(f"./completions/{city}_{n}{'_random' if randomize else ''}_completions.csv")
 
 
 if __name__ == "__main__":
