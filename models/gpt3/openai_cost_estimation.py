@@ -1,29 +1,43 @@
 import jsonlines
-from math import ceil 
+import tiktoken
+from cprint import cprint
 
-prefix = "./json_files"
 
-def round_up_1000s(n: int):
-    return int(ceil(n / 1000.0)) * 1000
+def get_cost(city: str, models: str or list = "ada"):
+    models_list = [models] if type(models) == str else models
+    
+    encoding = tiktoken.get_encoding("r50k_base")  # used for all gpt3 models
+    prompts = []
+    completions = []
 
-def ada_cost(n: int):
-    return round((round_up_1000s(n) / 1000) * 0.0004, 2)
+    with jsonlines.open(f"./json_files/{city}_train.jsonl") as reader:
+        for d in reader:
+            prompts.append(d["prompt"])
+            completions.append(d["completion"])
+
+    prompts_tokens = sum([len(encoding.encode(p)) for p in prompts])
+    completions_tokens = sum([len(encoding.encode(c)) for c in completions])
+    tokens = prompts_tokens + completions_tokens
+    
+    for model in models_list:
+        cost_per_1k_token = -1
+        c = "w"
+
+        if model == "ada":
+            cost_per_1k_token = 0.0004
+            c = "c"
+        elif model == "davinci":
+            cost_per_1k_token = 0.03
+            c = "r"
+
+        cost = (tokens / 1000) * cost_per_1k_token
+
+        cprint(f"{city} {model} training will cost ~${round(cost, 2)} per epoch " +
+               f"(~${round(cost * 4, 2)} for default 4 epochs)", c=c)
+        
+    print()
+
 
 if __name__ == "__main__":
-    s_tkn_ct = 0
-    alt_s_tkn_ct = 0
-    c_tkn_ct = 0
-    alt_c_tkn_ct = 0
-
-    for f in [f"{prefix}/seattle_train.jsonl", f"{prefix}/chicago_train.jsonl"]:
-        seattle = "s" == f[0]
-        with jsonlines.open(f) as reader:
-            prompts = [d['prompt'] for d in [di for di in reader]]
-            tokens = len([t for p in prompts for t in p.split()])
-            alt_tokens = len([t for p in prompts for t in p.split(" ")])
-            if seattle: s_tkn_ct = tokens; alt_s_tkn_ct = alt_tokens
-            else: c_tkn_ct = tokens; alt_c_tkn_ct = alt_tokens
-
-        print(f"{'Seattle' if seattle else 'Chicago'} Ada training will cost somewhere around " +
-              f"between ${ada_cost(s_tkn_ct if seattle else c_tkn_ct)} and " + 
-              f"${ada_cost(alt_s_tkn_ct if seattle else alt_c_tkn_ct)}")
+    get_cost("chicago", ["ada", "davinci"])
+    get_cost("seattle", ["ada", "davinci"])
