@@ -120,8 +120,6 @@ def json_setup(city: str, only_body: bool = True):
             test = test_df.to_dict(orient="records")
             
             for filename in filenames:
-                
-                # then just write the proper file no matter what
                 write_json_file(filename, train if "train" in filename else test)
             
             cprint(f"        done", c="m")
@@ -156,17 +154,23 @@ def write_train_subfiles(city: str, task: str, train_nums: set, body_prompt: boo
 
 
 def upload_train_files(city: str):
+    log_dir = "./training_logs"
+    if not path.exists(log_dir): mkdir(log_dir)
+
     cprint(f"Uploading all train files for {city}", c="y")
 
+    d = {}
     for task in tasks_and_cols:
         json_dir = f"./{task}/{city}/json_files"
         train_files = [f for f in listdir(json_dir) if "train" in f]
-        # [print(f"{json_dir}/{f}") for f in train_test_files]
-        [openai.File.create(file=open(f"{json_dir}/{f}"), purpose="fine-tune", 
-                                      user_provided_filename=f) 
-                        for f in train_files]
-        cprint(f"\t{city} {task} task upload done", c="c")
+        d = d | {f:openai.File.create(file=open(f"{json_dir}/{f}"), purpose="fine-tune", 
+                                      user_provided_filename=f)["id"] for f in train_files}
+        
+        cprint(f"    {city} {task} task upload done", c="c")
     
+    with open(f"{log_dir}/{city}_train_files.json", "w") as logfile:
+        json.dump(d, logfile, indent=2)
+
     cprint(f"Completed file upload for {city}\n", c="g")
 
 
@@ -210,7 +214,7 @@ if __name__ == "__main__":
     # json_setup("seattle", only_body=False)
     # write_train_subfiles("seattle", "rent", ada_sizes)
     
-    # upload_train_files("chicago")
+    upload_train_files("chicago")
     # upload_train_files("seattle")
 
     cprint("Nothing to do right now!", c="m")
