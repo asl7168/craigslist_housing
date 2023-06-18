@@ -2,7 +2,7 @@ from cprint import cprint
 import pandas as pd
 from ast import literal_eval
 import json 
-from os import path 
+from os import path, mkdir
 from math import ceil, floor
 import jsonlines 
 import openai
@@ -11,7 +11,10 @@ from openai_credentials import skey, org
 openai.api_key = skey
 openai.organization = org
 
+tasks_and_cols = {"rent": "rent_class", "income": "income_class", "race": "race"}
+sep_tk = " <SEP>\n"
 max_upload_B = 150000000
+
 
 def chunk_list(lst, n):
     sublist_size = ceil(len(lst) / n)
@@ -21,93 +24,102 @@ def chunk_list(lst, n):
     )
 
 
-def json_setup(city: str, bin: bool = False):
-    cprint(f"Starting json setup for {city}, binning{' not' if not bin else ''} enabled", c="y")
+def json_setup(city: str):
+    """
+    https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset
+    - Each prompt should end with a fixed separator to inform the model when the prompt ends and the 
+      completion begins. A simple separator which generally works well is \n\n###\n\n. The separator 
+      should not appear elsewhere in any prompt.
+    - Each completion should start with a whitespace due to our tokenization, which tokenizes most words 
+      with a preceding whitespace.
+    - Each completion should end with a fixed stop sequence to inform the model when the completion ends. 
+      A stop sequence could be \n, ###, or any other token that does not appear in any completion.
+    """
+    cprint(f"Started json setup for {city}", c="y")
 
-    df = pd.read_csv(f"../../csv_no_duplicates/{city}_complete.csv")
-    df = df[["posting_body", "price"]]  # only keep price (rent) and posting_body
-    df = df.astype({"posting_body": "string", "price": "float"})
-
-    df = df.loc[(df["price"] >= 500) & (df["price"] <= 6000)]
-
+    df = pd.read_csv(f"../../LLM_data/{city}_prepared.csv")
+    
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
-
-    def prepare_body(body):
-        return " ".join(body) + " -=>"  # turn list of strings into one string and add a unique suffix
-
-    def prepare_price(price): 
-        """
-        The completion should start with a whitespace character (` `). This tends to produce better 
-        results due to the tokenization we use. See 
-        https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset for more details
-        """ 
-        return " " + price 
-
-    df = df.dropna()
-    df["posting_body"] = df["posting_body"].apply(prepare_body)
+    df.dropna()  # shouldn't be any, but just in case
     
-    if not bin: 
-        df["price"] = df["price"].apply(prepare_price)
-        df = df.rename(columns={"posting_body": "prompt", "price": "completion"})
-    else:
-        max_price = df["price"].max()
-        num_buckets = ceil(max_price / 500)
-        buckets = [f" {i*500 if i == 0 else i*500 + 1}-{(i+1)*500}" for i in range(num_buckets)]
+    def concat_body(body):
+        return " ".join(body)  # turn list of strings into one string; TODO: fix this in text_processing
+    
+    df["posting_body"] = df["posting_body"].apply(concat_body)
+
+    for task in tasks_and_cols:
+        task_dir = f"./{task}"
+        city_dir = f"{task_dir}/{city}"
+        json_dir = f"{city_dir}/json_files"
+        filenames = [f"{json_dir}/{city}_{task}_train", f"{json_dir}/{city}_{task}_test"]
+
+        if not path.exists(task_dir): mkdir(task_dir)
+        if not path.exists(city_dir): mkdir(city_dir)
+        if not path.exists(json_dir): mkdir(json_dir)
+
+        col = tasks_and_cols[task]
         
-        def bin_price(price):
-            # print(f"{floor(price / 500)} vs. {num_buckets} | price = {price} | max_price = {max_price}")
-            b = floor(price / 500)
-            return buckets[b if b < num_buckets else num_buckets - 1]
+        output_df = df[["posting_body", col]]
+        output_df = output_df.rename(columns={"posting_body": "prompt", col: "completion"})
+        output_df = output_df.astype({"prompt": "string", "completion": "string"})
+        
+        if task == "rent":
+            output_df["prompt"] = output_df["prompt"] + " Is rent cheap, average, or expensive?"
+        elif task == "income":
+            output_df["prompt"] = output_df["prompt"] + " Is income low, average, or high?"
+        elif task == "race":
+            output_df["prompt"] = output_df["prompt"] + " Is this area white or POC?"
 
-        df["binned_price"] = df["price"].apply(bin_price)
-        df = df.rename(columns={"posting_body": "prompt", "binned_price": "completion"})
-    
-    
-    output_df = df[["prompt", "completion"]]
-    output_df = output_df.astype({"prompt": "string", "completion": "string"})
-    
-    train_df = output_df.sample(frac=0.8)
-    train = train_df.to_dict(orient="records")
-    test_df = output_df.drop(train_df.index)
-    test = test_df.to_dict(orient="records")
-    
-    json_dir = "./json_files"
+        output_df["prompt"] = output_df["prompt"] + sep_tk
+        output_df["completion"] = " " + output_df["completion"] + " <STOP>"
+        train_df = output_df.sample(frac=0.8)
+        train = train_df.to_dict(orient="records")
+        
+        test_df = output_df.drop(train_df.index)
+        test = test_df.to_dict(orient="records")
+        
+        for filename in filenames:
+            with open(f"{filename}.jsonl", "w") as f:
+                for entry in (train if "train" in filename else test):
+                    json.dump(entry, f)
+                    f.write("\n")
 
-    filenames = [f"{json_dir}/{city}_train", f"{json_dir}/{city}_test"]
-    for filename in filenames:
-        with open(f"{filename}.jsonl", "w") as f:
-            for entry in (train if "train" in filename else test):
-                json.dump(entry, f)
-                f.write("\n")
+            filesize = path.getsize(f"{filename}.jsonl")
+            if filesize > max_upload_B:  # if file size exceeds OpenAI max upload size of 150 MB, split the file
+                num_files = ceil(filesize / max_upload_B)
+                
+                dicts = []
+                with jsonlines.open(f"{filename}.jsonl", "r") as reader:
+                    dicts = [d for d in reader]
+                
+                chunked_dicts = chunk_list(dicts, num_files)
+                for i in range(num_files):
+                    with open(f"{filename}_{i}.jsonl", "w") as f:
+                        for entry in chunked_dicts[i]:
+                            json.dump(entry, f)
+                            f.write("\n")
 
-        filesize = path.getsize(f"{filename}.jsonl")
-        if filesize > max_upload_B:  # if file size exceeds OpenAI max upload size of 150 MB, split the file
-            num_files = ceil(filesize / max_upload_B)
-            
-            dicts = []
-            with jsonlines.open(f"{filename}.jsonl", "r") as reader:
-                dicts = [d for d in reader]
-            
-            chunked_dicts = chunk_list(dicts, num_files)
-            for i in range(num_files):
-                with open(f"{filename}_{i}.jsonl", "w") as f:
-                    for entry in chunked_dicts[i]:
-                        json.dump(entry, f)
-                        f.write("\n")
+        cprint(f"\t{city} {task} task setup done", c="c")
 
-    cprint(f"Completed json setup for {city}", c="g")
+    cprint(f"Completed json setup for {city}\n", c="g")
 
 
-def completion_generation(city: str, model: str, n: int = 10, randomize: bool = True):
+def completion_generation(city: str, task: str, model: str, n: int = 10, randomize: bool = True):
     # ENSURE TEST DATA IS GOOD, NOT TOO LONG, ETC. USING $ openai tools fine_tunes.prepare_data -f CITY_test.jsonl
     
     # to get a fine-tuned model name, openai.FineTune.list(), pick one of the fine-tunes, and use 
     # key "fine_tuned_model"
+
+    prefix = f"./{task}/{city}"
+    json_dir = f"{prefix}/json_files"
+    test_file = f"{json_dir}/{city}_{task}_test.jsonl"
     
-    # seattle is largest, and only has one test file, so don't need to possibly get multiple files afaik
+    completions_dir = f"{prefix}/completions"
+    if not path.exists(completions_dir): mkdir(completions_dir)
+    
     df = None 
-    with jsonlines.open(f"./json_files/{city}_test.jsonl") as test_file:
-        df = pd.DataFrame(test_file)
+    with jsonlines.open(test_file) as f:
+        df = pd.DataFrame(f)
 
     df.rename(columns={"prompt": "prompt", "completion": "expected_completion"})
 
@@ -119,13 +131,13 @@ def completion_generation(city: str, model: str, n: int = 10, randomize: bool = 
     for idx, row in results_df.iterrows():
         results_df.at[idx, "actual_completion"] = openai.Completion.create(model=model, 
                                                                            prompt=row["prompt"], 
-                                                                           max_tokens=3, 
+                                                                           max_tokens=5, # TODO: figure out new max  
                                                                            temperature=0)["choices"][0]["text"]
     
     print(results_df)
-    results_df.to_csv(f"./completions/{city}_{n}{'_random' if randomize else ''}_completions.csv")
+    results_df.to_csv(f"{completions_dir}/{city}_{n}{'_random' if randomize else ''}_completions.csv")
 
 
 if __name__ == "__main__":
-    json_setup("seattle", True)
-    json_setup("chicago", True)
+    json_setup("chicago")
+    json_setup("seattle")

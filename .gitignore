@@ -27,3 +27,4 @@ csv_process*
 csv_no_duplicates/
 *credentials*
 */distilroberta/*/
+LLM_data/
