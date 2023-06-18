@@ -2,11 +2,12 @@ from cprint import cprint
 import pandas as pd
 from ast import literal_eval
 import json 
-from os import path, mkdir
-from math import ceil, floor
+from os import path, mkdir, listdir
+from math import ceil
 import jsonlines 
 import openai
 from openai_credentials import skey, org 
+import tiktoken
 
 openai.api_key = skey
 openai.organization = org
@@ -24,7 +25,30 @@ def chunk_list(lst, n):
     )
 
 
-def json_setup(city: str):
+def write_json_file(f: str, d: dict, n: int = -1):
+    filename = f"{f}{f'_{n}' if n > -1 else ''}"
+    with open(f"{filename}.jsonl", "w") as f:
+        for entry in d:
+            json.dump(entry, f)
+            f.write("\n")
+
+    filesize = path.getsize(f"{filename}.jsonl")
+    if filesize > max_upload_B:  # if file size exceeds OpenAI max upload size of 150 MB, split the file
+        num_files = ceil(filesize / max_upload_B)
+        
+        dicts = []
+        with jsonlines.open(f"{filename}.jsonl", "r") as reader:
+            dicts = [d for d in reader]
+        
+        chunked_dicts = chunk_list(dicts, num_files)
+        for i in range(num_files):
+            with open(f"{filename}_{i}.jsonl", "w") as f:
+                for entry in chunked_dicts[i]:
+                    json.dump(entry, f)
+                    f.write("\n")
+
+
+def json_setup(city: str, train_nums: int or set = None):
     """
     https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset
     - Each prompt should end with a fixed separator to inform the model when the prompt ends and the 
@@ -35,6 +59,7 @@ def json_setup(city: str):
     - Each completion should end with a fixed stop sequence to inform the model when the completion ends. 
       A stop sequence could be \n, ###, or any other token that does not appear in any completion.
     """
+    
     cprint(f"Started json setup for {city}", c="y")
 
     df = pd.read_csv(f"../../LLM_data/{city}_prepared.csv")
@@ -46,6 +71,19 @@ def json_setup(city: str):
         return " ".join(body)  # turn list of strings into one string; TODO: fix this in text_processing
     
     df["posting_body"] = df["posting_body"].apply(concat_body)
+    encoding = tiktoken.get_encoding("r50k_base")  # remove prompts > 2048 tokens
+
+    def tokenize_body(body):
+        return len(encoding.encode(body))
+
+    df["body_tokens"] = df["posting_body"].apply(tokenize_body)
+    df = df.astype({"title": "string", "posting_body": "string", "rent_class": "string", 
+                    "income_class": "string", "race": "string", "body_tokens": "int"})
+    df = df[df["body_tokens"] <= 2048]
+    
+    if train_nums:
+        train_nums = set(train_nums) if type(train_nums) == list else train_nums
+        train_nums = {t for t in train_nums if t < len(df)} if type(train_nums) == set else {train_nums}
 
     for task in tasks_and_cols:
         task_dir = f"./{task}"
@@ -61,7 +99,6 @@ def json_setup(city: str):
         
         output_df = df[["posting_body", col]]
         output_df = output_df.rename(columns={"posting_body": "prompt", col: "completion"})
-        output_df = output_df.astype({"prompt": "string", "completion": "string"})
         
         if task == "rent":
             output_df["prompt"] = output_df["prompt"] + " Is rent cheap, average, or expensive?"
@@ -72,6 +109,8 @@ def json_setup(city: str):
 
         output_df["prompt"] = output_df["prompt"] + sep_tk
         output_df["completion"] = " " + output_df["completion"] + " <STOP>"
+        
+        # TODO: should we still do 80/20 split first, then take train_nums from train, or just do train_nums and put the rest in test?
         train_df = output_df.sample(frac=0.8)
         train = train_df.to_dict(orient="records")
         
@@ -79,29 +118,35 @@ def json_setup(city: str):
         test = test_df.to_dict(orient="records")
         
         for filename in filenames:
-            with open(f"{filename}.jsonl", "w") as f:
-                for entry in (train if "train" in filename else test):
-                    json.dump(entry, f)
-                    f.write("\n")
+            if "train" in filename:
+                if train_nums:
+                    # loop through train_nums and make a file for each
+                    for tn in train_nums:
+                        _train = train_df.sample(tn).to_dict(orient="records")
+                        write_json_file(filename, _train, tn)
+                        cprint(f"\t\t{city} {task} {tn} items setup done")
 
-            filesize = path.getsize(f"{filename}.jsonl")
-            if filesize > max_upload_B:  # if file size exceeds OpenAI max upload size of 150 MB, split the file
-                num_files = ceil(filesize / max_upload_B)
-                
-                dicts = []
-                with jsonlines.open(f"{filename}.jsonl", "r") as reader:
-                    dicts = [d for d in reader]
-                
-                chunked_dicts = chunk_list(dicts, num_files)
-                for i in range(num_files):
-                    with open(f"{filename}_{i}.jsonl", "w") as f:
-                        for entry in chunked_dicts[i]:
-                            json.dump(entry, f)
-                            f.write("\n")
+            # then just write the proper file no matter what
+            write_json_file(filename, train if "train" in filename else test)
 
         cprint(f"\t{city} {task} task setup done", c="c")
 
     cprint(f"Completed json setup for {city}\n", c="g")
+
+
+def upload_train_files(city: str):
+    cprint(f"Uploading all train files for {city}", c="y")
+
+    for task in tasks_and_cols:
+        json_dir = f"./{task}/{city}/json_files"
+        train_files = [f for f in listdir(json_dir) if "train" in f]
+        # [print(f"{json_dir}/{f}") for f in train_test_files]
+        [openai.File.create(file=open(f"{json_dir}/{f}"), purpose="fine-tune", 
+                                      user_provided_filename=f) 
+                        for f in train_files]
+        cprint(f"\t{city} {task} task upload done", c="c")
+    
+    cprint(f"Completed file upload for {city}\n", c="g")
 
 
 def completion_generation(city: str, task: str, model: str, n: int = 10, randomize: bool = True):
@@ -139,5 +184,11 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
 
 
 if __name__ == "__main__":
-    json_setup("chicago")
-    json_setup("seattle")
+    # ada_sizes = [100, 1000, 10000]
+    # json_setup("chicago")
+    # json_setup("seattle", ada_sizes)
+
+    # upload_train_files("chicago")
+    # upload_train_files("seattle")
+
+    cprint("Nothing to do right now!", c="m")
