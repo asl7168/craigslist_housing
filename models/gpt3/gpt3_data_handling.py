@@ -48,7 +48,7 @@ def write_json_file(f: str, d: dict, n: int = -1):
                     f.write("\n")
 
 
-def json_setup(city: str, train_nums: int or set = None):
+def json_setup(city: str, only_body: bool = True):
     """
     https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset
     - Each prompt should end with a fixed separator to inform the model when the prompt ends and the 
@@ -59,11 +59,12 @@ def json_setup(city: str, train_nums: int or set = None):
     - Each completion should end with a fixed stop sequence to inform the model when the completion ends. 
       A stop sequence could be \n, ###, or any other token that does not appear in any completion.
     """
-    
     cprint(f"Started json setup for {city}", c="y")
 
     df = pd.read_csv(f"../../LLM_data/{city}_prepared.csv")
     
+    prompt_fields = ["posting_body"] if only_body else ["posting_body", "title"]
+
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
     df.dropna()  # shouldn't be any, but just in case
     
@@ -71,6 +72,8 @@ def json_setup(city: str, train_nums: int or set = None):
         return " ".join(body)  # turn list of strings into one string; TODO: fix this in text_processing
     
     df["posting_body"] = df["posting_body"].apply(concat_body)
+    
+    # TODO: don't actually do body token checking here; do it elsewhere
     encoding = tiktoken.get_encoding("r50k_base")  # remove prompts > 2048 tokens
 
     def tokenize_body(body):
@@ -80,12 +83,9 @@ def json_setup(city: str, train_nums: int or set = None):
     df = df.astype({"title": "string", "posting_body": "string", "rent_class": "string", 
                     "income_class": "string", "race": "string", "body_tokens": "int"})
     df = df[df["body_tokens"] <= 2048]
-    
-    if train_nums:
-        train_nums = set(train_nums) if type(train_nums) == list else train_nums
-        train_nums = {t for t in train_nums if t < len(df)} if type(train_nums) == set else {train_nums}
 
     for task in tasks_and_cols:
+        cprint(f"    Making files for {task}", c="c")
         task_dir = f"./{task}"
         city_dir = f"{task_dir}/{city}"
         json_dir = f"{city_dir}/json_files"
@@ -97,41 +97,62 @@ def json_setup(city: str, train_nums: int or set = None):
 
         col = tasks_and_cols[task]
         
-        output_df = df[["posting_body", col]]
-        output_df = output_df.rename(columns={"posting_body": "prompt", col: "completion"})
-        
-        if task == "rent":
-            output_df["prompt"] = output_df["prompt"] + " Is rent cheap, average, or expensive?"
-        elif task == "income":
-            output_df["prompt"] = output_df["prompt"] + " Is income low, average, or high?"
-        elif task == "race":
-            output_df["prompt"] = output_df["prompt"] + " Is this area white or POC?"
+        for prompt_field in prompt_fields:
+            cprint(f"        {prompt_field}", c="b")
+            filenames = [f"{f}_TITLE" for f in filenames] if prompt_field == "title" else filenames 
+            output_df = df[[prompt_field, col]]
+            output_df = output_df.rename(columns={prompt_field: "prompt", col: "completion"})
+            
+            if task == "rent":
+                output_df["prompt"] = output_df["prompt"] + " Is rent cheap, average, or expensive?"
+            elif task == "income":
+                output_df["prompt"] = output_df["prompt"] + " Is income low, average, or high?"
+            elif task == "race":
+                output_df["prompt"] = output_df["prompt"] + " Is this area white or POC?"
 
-        output_df["prompt"] = output_df["prompt"] + sep_tk
-        output_df["completion"] = " " + output_df["completion"] + " <STOP>"
+            output_df["prompt"] = output_df["prompt"] + sep_tk
+            output_df["completion"] = " " + output_df["completion"] + " <STOP>"
         
-        # TODO: should we still do 80/20 split first, then take train_nums from train, or just do train_nums and put the rest in test?
-        train_df = output_df.sample(frac=0.8)
-        train = train_df.to_dict(orient="records")
-        
-        test_df = output_df.drop(train_df.index)
-        test = test_df.to_dict(orient="records")
-        
-        for filename in filenames:
-            if "train" in filename:
-                if train_nums:
-                    # loop through train_nums and make a file for each
-                    for tn in train_nums:
-                        _train = train_df.sample(tn).to_dict(orient="records")
-                        write_json_file(filename, _train, tn)
-                        cprint(f"\t\t{city} {task} {tn} items setup done")
+            train_df = output_df.sample(frac=0.8)
+            train = train_df.to_dict(orient="records")
+            
+            test_df = output_df.drop(train_df.index)
+            test = test_df.to_dict(orient="records")
+            
+            for filename in filenames:
+                
+                # then just write the proper file no matter what
+                write_json_file(filename, train if "train" in filename else test)
+            
+            cprint(f"        done", c="m")
 
-            # then just write the proper file no matter what
-            write_json_file(filename, train if "train" in filename else test)
-
-        cprint(f"\t{city} {task} task setup done", c="c")
+        cprint(f"    done", c="m")
 
     cprint(f"Completed json setup for {city}\n", c="g")
+
+
+def write_train_subfiles(city: str, task: str, train_nums: set, body_prompt: bool = True):
+    if task not in tasks_and_cols:
+        cprint("Please provide a valid task", c="r")
+        return 
+    
+    original = f"./{task}/{city}/json_files/{city}_{task}_train"
+    if not body_prompt: original += "_TITLE"
+
+    dicts = []
+    with jsonlines.open(f"{original}.jsonl") as reader:
+            for d in reader:
+                dicts.append(d)
+
+    df = pd.DataFrame.from_records(dicts)
+    temp_df = df.sample(max(train_nums))
+
+    train_nums = list(train_nums)
+    train_nums.sort(reverse=True)
+    for tn in train_nums:
+        temp_df = temp_df.sample(tn)
+        print(f"Writing subfile with {tn} items")
+        write_json_file(original, temp_df.to_dict(orient="records"), tn)
 
 
 def upload_train_files(city: str):
@@ -184,10 +205,11 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
 
 
 if __name__ == "__main__":
-    # ada_sizes = [100, 1000, 10000]
+    ada_sizes = {100, 1000, 10000}
     # json_setup("chicago")
-    # json_setup("seattle", ada_sizes)
-
+    # json_setup("seattle", only_body=False)
+    # write_train_subfiles("seattle", "rent", ada_sizes)
+    
     # upload_train_files("chicago")
     # upload_train_files("seattle")
 
