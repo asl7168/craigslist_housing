@@ -25,8 +25,8 @@ def chunk_list(lst, n):
     )
 
 
-def write_json_file(f: str, d: dict, n: int = -1):
-    filename = f"{f}{f'_{n}' if n > -1 else ''}"
+def write_json_file(f: str, d: dict, n: int = None):
+    filename = f"{f}{f'_{n}' if n else ''}"
     with open(f"{filename}.jsonl", "w") as f:
         for entry in d:
             json.dump(entry, f)
@@ -108,7 +108,7 @@ def json_setup(city: str, only_body: bool = True):
             elif task == "income":
                 output_df["prompt"] = output_df["prompt"] + " Is income low, average, or high?"
             elif task == "race":
-                output_df["prompt"] = output_df["prompt"] + " Is this area white or POC?"
+                output_df["prompt"] = output_df["prompt"] + " Is this area white or nonwhite?" # TODO: make sure we're using nonwhite now
 
             output_df["prompt"] = output_df["prompt"] + sep_tk
             output_df["completion"] = " " + output_df["completion"] + " <STOP>"
@@ -207,14 +207,15 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
     print(results_df)
     results_df.to_csv(f"{completions_dir}/{city}_{n}{'_random' if randomize else ''}_completions.csv")
 
+# TODO: some gpt4 completion maker. Ask Denis what our plan is with that and figure out how to get it going, etc.
 
 if __name__ == "__main__":
-    ada_sizes = {100, 1000, 10000}
+    # ada_sizes = {100, 1000, 10000}
     # json_setup("chicago")
     # json_setup("seattle", only_body=False)
     # write_train_subfiles("seattle", "rent", ada_sizes)
     
-    upload_train_files("chicago")
+    # upload_train_files("chicago")
     # upload_train_files("seattle")
 
     cprint("Nothing to do right now!", c="m")
