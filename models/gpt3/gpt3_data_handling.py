@@ -61,7 +61,7 @@ def json_setup(city: str, only_body: bool = True):
     """
     cprint(f"Started json setup for {city}", c="y")
 
-    df = pd.read_csv(f"../../LLM_data/{city}_prepared.csv")
+    df = pd.read_csv(f"../../LLM_data/{city}_clean.csv")
     
     prompt_fields = ["posting_body"] if only_body else ["posting_body", "title"]
 
@@ -108,7 +108,7 @@ def json_setup(city: str, only_body: bool = True):
             elif task == "income":
                 output_df["prompt"] = output_df["prompt"] + " Is income low, average, or high?"
             elif task == "race":
-                output_df["prompt"] = output_df["prompt"] + " Is this area white or nonwhite?" # TODO: make sure we're using nonwhite now
+                output_df["prompt"] = output_df["prompt"] + " Is this area White or Non-White?"
 
             output_df["prompt"] = output_df["prompt"] + sep_tk
             output_df["completion"] = " " + output_df["completion"] + " <STOP>"
@@ -210,12 +210,12 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
 # TODO: some gpt4 completion maker. Ask Denis what our plan is with that and figure out how to get it going, etc.
 
 if __name__ == "__main__":
-    # ada_sizes = {100, 1000, 10000}
+    # ada_sizes = {5, 50, 500, 5000}
     # json_setup("chicago")
     # json_setup("seattle", only_body=False)
     # write_train_subfiles("seattle", "rent", ada_sizes)
     
-    # upload_train_files("chicago")
-    # upload_train_files("seattle")
+    upload_train_files("chicago")
+    upload_train_files("seattle")
 
     cprint("Nothing to do right now!", c="m")

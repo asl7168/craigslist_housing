@@ -17,7 +17,7 @@ with open("./training_logs/seattle_train_files.json") as f:
 train_files = {"chicago": chicago_train_files, "seattle": seattle_train_files}
 
 
-def update_finetune_log(c: str, t: str, m: str, n: int, b: bool, v: dict):
+def update_finetune_log(c: str, t: str, m: str, n: int, b: bool, v):
     b_str = "body" if b else "title"
 
     data = {}
@@ -41,6 +41,7 @@ def update_finetune_log(c: str, t: str, m: str, n: int, b: bool, v: dict):
                     update_data()
             else:
                 data[c][t] = {}
+                update_data()
         else:
             data[c] = {}
             update_data()
@@ -57,10 +58,11 @@ def train(city: str, task: str, model: str = "ada", n: int = None, body_prompt: 
     suffix = f"{city}_{task}_{prompt_str}{n_str}"
     train_id = train_files[city][filename]
     
-    response_dict = {"id": "TESTING"} # openai.FineTune.create(training_file=train_id, model="ada", suffix=suffix)
+    response = openai.FineTune.create(training_file=train_id, model=model, suffix=suffix)
+    print(response)
+    update_finetune_log(city, task, model, n, body_prompt, response)
     
-    update_finetune_log(city, task, model, n, body_prompt, response_dict)
-    return response_dict["id"]
+    return response["id"]
 
 
 def rent_train(city: str, model: str = "ada", n: int = None, body_prompt: bool = True):
@@ -80,7 +82,7 @@ def get_finetune_events():
         finetune_log = json.load(f)
 
     data = {}
-    i = 0 # TEMP
+    # i = 0 # TEMP
     for c in finetune_log.keys():
         data[c] = {}
         for t in finetune_log[c].keys():
@@ -90,8 +92,8 @@ def get_finetune_events():
                 for b in finetune_log[c][t][m].keys():
                     data[c][t][m][b] = {}
                     for n in finetune_log[c][t][m][b].keys():
-                        data[c][t][m][b][n] = i # openai.FineTune.list_events(id=data[c][m][n]["id"])
-                        i += 1 # TEMP
+                        data[c][t][m][b][n] = openai.FineTune.list_events(id=finetune_log[c][t][m][b][n]["id"])
+                        # i += 1 # TEMP
 
     with open("./training_logs/events.json", "w") as f:
         json.dump(data, f, indent=4, sort_keys=True)
@@ -119,23 +121,18 @@ Not sure this would *exactly* work but I think it gets everything that's needed?
 
 if __name__ == "__main__":
     # TODO: these calls ONE BY ONE PREFERABLY
-    # rent_train("seattle", n=100)
-    # rent_train("seattle", n=1000)
-    # rent_train("seattle", n=10000)
+    # rent_train("seattle", n=5)
+    # rent_train("seattle", n=50)
+    # rent_train("seattle", n=500)
+    # rent_train("seattle", n=5000)
+    # rent_train("seattle")
 
-    # rent_train("seattle", "babbage", 100)
-    # rent_train("seattle", "curie", 100)
-    # rent_train("seattle", "davinci", 100)
+    # rent_train("seattle", "babbage", ???)
+    # rent_train("seattle", "curie", ???)
+    # rent_train("seattle", "davinci", ???)
     
     # rent_train("seattle", n=???, False)
     
     # TODO: other tasks for chicago and seattle on X model (ada?) and Y posts
-    rent_train("chicago", n=100)
-    rent_train("chicago", n=1000)
-    rent_train("chicago", n=10000)
-    rent_train("chicago", "babbage")
-    rent_train("chicago", "curie")
-    rent_train("chicago", "davinci")
-    rent_train("seattle")
-    race_train("chicago", body_prompt=False)
+    
     get_finetune_events()

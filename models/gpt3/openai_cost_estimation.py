@@ -10,7 +10,7 @@ def get_cost(city: str, models: str or list = "ada"):
     prompts = []
     completions = []
 
-    with jsonlines.open(f"./json_files/{city}_train.jsonl") as reader:
+    with jsonlines.open(f"./rent/{city}/json_files/{city}_rent_train.jsonl") as reader:
         for d in reader:
             prompts.append(d["prompt"])
             completions.append(d["completion"])
