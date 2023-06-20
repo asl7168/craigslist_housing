@@ -119,17 +119,16 @@ Not sure this would *exactly* work but I think it gets everything that's needed?
 
 if __name__ == "__main__":
     # TODO: these calls ONE BY ONE PREFERABLY
-    # rent_train("seattle", n=5)
-    # rent_train("seattle", n=50)
-    # rent_train("seattle", n=500)
-    # rent_train("seattle", n=5000)
-    # rent_train("seattle")
+    # rent_train("chicago", n=5)
+    # rent_train("chicago", n=50)
+    # rent_train("chicago", n=500)
+    # rent_train("chicago")
 
-    # rent_train("seattle", "babbage", ???)
-    # rent_train("seattle", "curie", ???)
-    # rent_train("seattle", "davinci", ???)
+    # rent_train("chicago", "babbage", ???)
+    # rent_train("chicago", "curie", ???)
+    # rent_train("chicago", "davinci", ???)
     
-    # rent_train("seattle", n=???, False)
+    # rent_train("chicago", n=???, False)
     
     # TODO: other tasks for chicago and seattle on X model (ada?) and Y posts
     
