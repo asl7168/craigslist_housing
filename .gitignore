@@ -13,6 +13,7 @@ GIS_data/*
 !GIT_data/state_codes.py
 Rthings
 scripts/DEPRECATED/*
+scripts/outfiles/csv_process*
 .RData
 .Rhistory
 *temp*
@@ -24,3 +25,5 @@ csv_no_duplicates/
 */distilroberta/*/
 LLM_data/
 training_logs/
+crime/
+education/

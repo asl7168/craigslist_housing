@@ -14,4 +14,4 @@ module purge
 cd /projects/p31502/projects/craigslist
 source ./venv_craig_env/bin/activate
 cd ./models/distilroberta
-python distilroberta.py test seattle 
+python distilroberta.py test seattle 3

@@ -342,6 +342,8 @@ def metro_area_data(metro_area,mode):
     df = df.drop_duplicates(subset=['post_id'])
     print(len(df.index))
     df.to_csv(path, index = False, columns = fieldnames)
+    df = df.drop_duplicates(subset=['title','price','street_address','bedrooms','bathrooms','sqft','posting_body'])
+    df.to_csv(f"{prefix}/csv_no_duplicates/{metro_area}_complete.csv",index=False)
     
     
 #    with open(f"{prefix}/csv/{metro_area}_complete.csv",mode) as csvfile:

@@ -49,3 +49,4 @@ phoenix
 atlanta
 portland
 sfbay
+seattle
