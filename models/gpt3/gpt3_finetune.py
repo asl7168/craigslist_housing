@@ -59,7 +59,7 @@ def train(city: str, task: str, model: str = "ada", n: int = None, body_prompt: 
     train_id = train_files[city][filename]
     
     response = openai.FineTune.create(training_file=train_id, model=model, suffix=suffix)
-    print(response)
+    # print(response)
     update_finetune_log(city, task, model, n, body_prompt, response)
     
     return response["id"]
@@ -82,7 +82,6 @@ def get_finetune_events():
         finetune_log = json.load(f)
 
     data = {}
-    # i = 0 # TEMP
     for c in finetune_log.keys():
         data[c] = {}
         for t in finetune_log[c].keys():
@@ -93,7 +92,6 @@ def get_finetune_events():
                     data[c][t][m][b] = {}
                     for n in finetune_log[c][t][m][b].keys():
                         data[c][t][m][b][n] = openai.FineTune.list_events(id=finetune_log[c][t][m][b][n]["id"])
-                        # i += 1 # TEMP
 
     with open("./training_logs/events.json", "w") as f:
         json.dump(data, f, indent=4, sort_keys=True)

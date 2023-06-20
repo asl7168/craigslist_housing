@@ -193,19 +193,21 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
 
     df.rename(columns={"prompt": "prompt", "completion": "expected_completion"})
 
-    results_df = df.loc[:n-1]
     if randomize: df = df.sample(frac=1)  # shuffle df, keeping old indices (for now; probably won't matter)
 
+    results_df = df.loc[:n-1]
     results_df["actual_completion"] = "N/A" 
 
     for idx, row in results_df.iterrows():
         results_df.at[idx, "actual_completion"] = openai.Completion.create(model=model, 
                                                                            prompt=row["prompt"], 
+                                                                           stop=" <STOP>",
                                                                            max_tokens=5, # TODO: figure out new max  
                                                                            temperature=0)["choices"][0]["text"]
     
     print(results_df)
-    results_df.to_csv(f"{completions_dir}/{city}_{n}{'_random' if randomize else ''}_completions.csv")
+    output_filename = model.replace(":", "+")
+    results_df.to_csv(f"{completions_dir}/{output_filename}_{n}{'_random' if randomize else ''}_completions.csv")
 
 # TODO: some gpt4 completion maker. Ask Denis what our plan is with that and figure out how to get it going, etc.
 
@@ -215,7 +217,13 @@ if __name__ == "__main__":
     # json_setup("seattle", only_body=False)
     # write_train_subfiles("seattle", "rent", ada_sizes)
     
-    upload_train_files("chicago")
-    upload_train_files("seattle")
+    # upload_train_files("chicago")
+    # upload_train_files("seattle")
 
+    datasize_models = ["ada:ft-lingmechlab:seattle-rent-5-2023-06-19-23-33-36",
+                       "ada:ft-lingmechlab:seattle-rent-50-2023-06-19-23-37-04",
+                       "ada:ft-lingmechlab:seattle-rent-500-2023-06-19-23-46-08",
+                       "5000 MODEL HERE",
+                       "~50000/FULL MODEL HERE"]
+    # [completion_generation("seattle", "rent", m, n=100) for m in datasize_models]
     cprint("Nothing to do right now!", c="m")
