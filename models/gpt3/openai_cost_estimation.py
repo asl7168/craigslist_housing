@@ -39,5 +39,5 @@ def get_cost(city: str, models: str or list = "ada"):
 
 
 if __name__ == "__main__":
-    get_cost("chicago", ["ada", "davinci"])
+    # get_cost("chicago", ["ada", "davinci"])
     get_cost("seattle", ["ada", "davinci"])

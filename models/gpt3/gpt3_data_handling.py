@@ -8,6 +8,7 @@ import jsonlines
 import openai
 from openai_credentials import skey, org 
 import tiktoken
+from tqdm import tqdm 
 
 openai.api_key = skey
 openai.organization = org
@@ -174,12 +175,22 @@ def upload_train_files(city: str):
     cprint(f"Completed file upload for {city}\n", c="g")
 
 
-def completion_generation(city: str, task: str, model: str, n: int = 10, randomize: bool = True):
-    # ENSURE TEST DATA IS GOOD, NOT TOO LONG, ETC. USING $ openai tools fine_tunes.prepare_data -f CITY_test.jsonl
+def make_completions(output_dir: str, model: str, n: int, df: pd.DataFrame, randomize: bool):
+    for idx, row in tqdm(df.iterrows(), total=df.shape[0], desc=model):
+        df.at[idx, "actual_completion"] = openai.Completion.create(model=model, 
+                                                                           prompt=row["prompt"], 
+                                                                           stop=" <STOP>",
+                                                                           max_tokens=5,  
+                                                                           temperature=0)["choices"][0]["text"]
     
-    # to get a fine-tuned model name, openai.FineTune.list(), pick one of the fine-tunes, and use 
-    # key "fine_tuned_model"
+    output_filename = model.replace(":", "+")
+    df.to_csv(f"{output_dir}/{output_filename}_{n}{'_random' if randomize else ''}_completions.csv") 
 
+    print(df)
+    return df
+
+
+def completion_prep(city: str, task: str, n: int, randomize: bool):
     prefix = f"./{task}/{city}"
     json_dir = f"{prefix}/json_files"
     test_file = f"{json_dir}/{city}_{task}_test.jsonl"
@@ -191,23 +202,30 @@ def completion_generation(city: str, task: str, model: str, n: int = 10, randomi
     with jsonlines.open(test_file) as f:
         df = pd.DataFrame(f)
 
-    df.rename(columns={"prompt": "prompt", "completion": "expected_completion"})
+    df = df.astype(str)
+    df = df.rename(columns={"prompt": "prompt", "completion": "expected_completion"})
 
     if randomize: df = df.sample(frac=1)  # shuffle df, keeping old indices (for now; probably won't matter)
 
-    results_df = df.loc[:n-1]
+    results_df = df.head(n)
+    results_df["expected_completion"] = results_df["expected_completion"].str.slice(0,-7)  # remove " <STOP>" from end
     results_df["actual_completion"] = "N/A" 
 
-    for idx, row in results_df.iterrows():
-        results_df.at[idx, "actual_completion"] = openai.Completion.create(model=model, 
-                                                                           prompt=row["prompt"], 
-                                                                           stop=" <STOP>",
-                                                                           max_tokens=5, # TODO: figure out new max  
-                                                                           temperature=0)["choices"][0]["text"]
-    
-    print(results_df)
-    output_filename = model.replace(":", "+")
-    results_df.to_csv(f"{completions_dir}/{output_filename}_{n}{'_random' if randomize else ''}_completions.csv")
+    return completions_dir, results_df
+
+
+def model_completions(city: str, task: str, model: list, n: int = 10, randomize: bool = True):
+    completions_dir, results_df = completion_prep(city, task, n, randomize)
+
+    make_completions(completions_dir, model, n, results_df, randomize)
+
+
+def multimodel_completions(city: str, task: str, models: list, n: int = 10, randomize: bool = True):
+    completions_dir, results_df = completion_prep(city, task, n, randomize)
+
+    for m in models:
+        make_completions(completions_dir, m, n, results_df, randomize)
+
 
 # TODO: some gpt4 completion maker. Ask Denis what our plan is with that and figure out how to get it going, etc.
 
@@ -223,7 +241,8 @@ if __name__ == "__main__":
     datasize_models = ["ada:ft-lingmechlab:seattle-rent-5-2023-06-19-23-33-36",
                        "ada:ft-lingmechlab:seattle-rent-50-2023-06-19-23-37-04",
                        "ada:ft-lingmechlab:seattle-rent-500-2023-06-19-23-46-08",
-                       "5000 MODEL HERE",
-                       "~50000/FULL MODEL HERE"]
-    # [completion_generation("seattle", "rent", m, n=100) for m in datasize_models]
-    cprint("Nothing to do right now!", c="m")
+                       "ada:ft-lingmechlab:seattle-rent-5000-2023-06-20-00-06-15",
+                       "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42"]
+    # multimodel_completions("seattle", "rent", datasize_models, n=100)
+    model_completions("seattle", "rent", "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42", 11984)
+    # cprint("Nothing to do right now!", c="m")
