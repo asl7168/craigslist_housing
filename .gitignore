@@ -27,3 +27,5 @@ LLM_data/
 training_logs/
 crime/
 education/
+split_csvs/
+*.tar.gz
