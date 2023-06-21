@@ -184,7 +184,7 @@ def make_completions(output_dir: str, model: str, n: int, df: pd.DataFrame, rand
                                                                            temperature=0)["choices"][0]["text"]
     
     output_filename = model.replace(":", "+")
-    df.to_csv(f"{output_dir}/{output_filename}_{n}{'_random' if randomize else ''}_completions.csv") 
+    df.to_csv(f"{output_dir}/{output_filename}_{n if n else len(df)}{'_random' if randomize else ''}_completions.csv") 
 
     print(df)
     return df
@@ -207,7 +207,7 @@ def completion_prep(city: str, task: str, n: int, randomize: bool, final_model: 
     
     if randomize: df = df.sample(frac=1, random_state=1)  # shuffle df
 
-    results_df = df.head(n)
+    results_df = df.head(n) if n else df  # if n == None, use the full dev/test set
     results_df["expected_completion"] = results_df["expected_completion"].str.slice(0,-7)  # remove " <STOP>" from end
     results_df["actual_completion"] = "N/A" 
 
@@ -243,8 +243,11 @@ if __name__ == "__main__":
                            "ada:ft-lingmechlab:seattle-rent-5000-2023-06-20-00-06-15",
                            "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42"]"""
     
-    datasize_models = ["CHICAGO DATASIZE MODELS HERE"]
-    # TODO: MAKE SURE UPDATED COMPLETIONS CODE FOR DEV/TEST DIFFERENTIATION WORKS
-    # multimodel_completions("seattle", "rent", datasize_models, n=100)
-    # model_completions("seattle", "rent", "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42", 11984)
-    # cprint("Nothing to do right now!", c="m")
+    datasize_models = ["ada:ft-lingmechlab:chicago-rent-5-2023-06-20-23-56-37",
+                       "ada:ft-lingmechlab:chicago-rent-50-2023-06-20-23-57-51",
+                       "ada:ft-lingmechlab:chicago-rent-500-2023-06-21-00-03-48",
+                       "ada:ft-lingmechlab:chicago-rent-2023-06-21-00-19-11"]
+    # model_completions("chicago", "rent", "ada:ft-lingmechlab:chicago-rent-5-2023-06-20-23-56-37", 10)
+    # multimodel_completions("chicago", "rent", datasize_models, n=None)
+    # OLD model_completions("seattle", "rent", "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42", 11984)
+    cprint("Nothing to do right now!", c="m")
