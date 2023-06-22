@@ -8,6 +8,9 @@ else:
     prefix = "."
     html_prefix = prefix
 
+import spacy
+nlp = spacy.load('en_core_web_lg')
+
 
 import csv
 import pandas as pd
@@ -20,6 +23,8 @@ from GIS_data.state_codes import state_codes
 import tiktoken
 
 encoding = tiktoken.get_encoding("r50k_base")  # remove prompts > 2048 tokens
+
+
 
 def get_data(state,county,tract):
   r_new = requests.get('https://api.census.gov/data/2021/acs/acs5/profile?get=DP03_0062E,DP05_0064PE,DP05_0065PE,DP05_0067PE,DP05_0071PE&for=tract:'+tract+'&in=state:'+state+'%20county:'+county+'&key=901e1c41a36cd6bbee390e6cc013021757d66ffd')
@@ -136,16 +141,20 @@ def drop_duplicates(metro_area):
   #print(df.drop_duplicates(subset=['posting_body','title']).shape)
 
 def clean_text(metro_area):
+  places = get_lists()
   data=[]
   with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv','r') as csvfile:
     reader = csv.DictReader(csvfile)
     for i,row in enumerate(reader):
-      obj = row
-      text = row['posting_body']
-      text = re.sub(r'\$\s?(\d,?(\.\d+)?){1,}',"PRICE",text)
-      obj['posting_body']=text
-      obj['race']='Non-White' if row['race']=='POC' else 'White'
-      data.append(obj)
+        if i%100==0:
+          print(i)
+        obj = row
+        text = row['posting_body']
+        #text = re.sub(r'\$\s?(\d,?(\.\d+)?){1,}',"PRICE",text)
+        obj['posting_body']=transform_texts(text,places)
+        obj['race']='Non-White' if row['race']=='POC' else 'White'
+        data.append(obj)
+        #print(obj)
   with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv','w') as csvfile:
     writer = csv.DictWriter(csvfile,fieldnames=['post_id','title','posting_body','rent_class','income_class','race'])
     writer.writeheader()
@@ -168,16 +177,45 @@ def clean_text(metro_area):
   new_df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv',index=False)
   print(new_df.shape)
 
+def transform_texts(text,places):
+  #ret = []
+  #print('\t...transforming texts', end = ' ', flush=True)
+  #for idx, text in enumerate(texts):
+   #   if idx % 1000 == 0: print(idx, end = ' ', flush=True)
+  doc = nlp(text)
+  noent = ' '.join([t.text if not t.ent_type_ else t.ent_type_ for t in doc])
+  noneigh = re.sub('|'.join(places), 'PLACE', noent)
+  ret=re.sub('[0-9]+', 'num', noneigh)
+  ret=re.sub("\' , \'"," ",ret)
+  ret=re.sub(r"\[ \'|\' \]","",ret)
 
-    
+  return ret
+
+
+def get_lists():
+  places=['pilsen','evanston',"skokie","arlington",'wicker park','lakeview']
+  with open("/projects/p31502/projects/craigslist/GIS_data/chicago_neighborhoods.csv",'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+      places.append(row['PRI_NEIGH'])
+      places+=row['SEC_NEIGH'].split(",")
+  places=list(set(places))
+  print(places)
+  with open("/projects/p31502/projects/craigslist/GIS_data/us_cities.txt",'r') as infile:
+    for row in infile:
+      places.append(re.sub('\n','',row))
+  places=list(set([p.lower() for p in places]))
+  return places
+
+
 
     
 
 #update_demographics("chicago") 
 #get_stats('chicago')
 #get_stats('seattle')
-drop_duplicates('chicago')
-drop_duplicates('seattle')
+#drop_duplicates('chicago')
+#drop_duplicates('seattle')
 clean_text('chicago')
-clean_text('seattle')
-
+#clean_text('seattle')
+#get_lists()
