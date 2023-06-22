@@ -124,12 +124,17 @@ if __name__ == "__main__":
     # rent_train("chicago", n=500)
     # rent_train("chicago")
 
-    # rent_train("chicago", "babbage", ???)
-    # rent_train("chicago", "curie", ???)
-    # rent_train("chicago", "davinci", ???)
+    # rent_train("chicago", "babbage")
+    # rent_train("chicago", "curie")
+    # rent_train("chicago", "davinci")
     
-    # rent_train("chicago", n=???, False)
+    # rent_train("chicago", ?????"davinci"?????, False)
     
     # TODO: other tasks for chicago and seattle on X model (ada?) and Y posts
     
+    # race_train("chicago", MODEL AS DETERMINED BY a-d COMPARISONS)
+    # income_train("chicago", )
+
+    # race_train("seattle", , n=CHICAGO TRAIN SIZE)
+    # income_train("seattle", n=CHICAGO TRAIN SIZE)
     get_finetune_events()

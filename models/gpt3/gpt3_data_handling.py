@@ -228,26 +228,22 @@ def multimodel_completions(city: str, task: str, models: list, n: int = 10, rand
 
 
 if __name__ == "__main__":
-    # ada_sizes = {5, 50, 500}
-    # json_setup("chicago", only_body=False)
-    # write_train_subfiles("chicago", "rent", ada_sizes)
+    ada_sizes = {5, 50, 500}
+    json_setup("chicago", only_body=False)
+    write_train_subfiles("chicago", "rent", ada_sizes)
 
     # json_setup("seattle")
+    # write_train_subfiles("seattle", "rent", {CHICAGO TRAIN SIZE})
+    # write_train_subfiles("seattle", "race", {})
+    # write_train_subfiles("seattle", "income", {})
     
     # upload_train_files("chicago")
-    # upload_train_files("seattle")  # TODO: make sure seattle files are good, then upload (for final models)
+    # upload_train_files("seattle") 
 
-    """old_datasize_models = ["ada:ft-lingmechlab:seattle-rent-5-2023-06-19-23-33-36",
-                           "ada:ft-lingmechlab:seattle-rent-50-2023-06-19-23-37-04",
-                           "ada:ft-lingmechlab:seattle-rent-500-2023-06-19-23-46-08",
-                           "ada:ft-lingmechlab:seattle-rent-5000-2023-06-20-00-06-15",
-                           "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42"]"""
-    
-    datasize_models = ["ada:ft-lingmechlab:chicago-rent-5-2023-06-20-23-56-37",
-                       "ada:ft-lingmechlab:chicago-rent-50-2023-06-20-23-57-51",
-                       "ada:ft-lingmechlab:chicago-rent-500-2023-06-21-00-03-48",
-                       "ada:ft-lingmechlab:chicago-rent-2023-06-21-00-19-11"]
-    # model_completions("chicago", "rent", "ada:ft-lingmechlab:chicago-rent-5-2023-06-20-23-56-37", 10)
+    datasize_models = ["",
+                       "",
+                       "",
+                       ""]
+    # model_completions("chicago", "rent", , 10)
     # multimodel_completions("chicago", "rent", datasize_models, n=None)
-    # OLD model_completions("seattle", "rent", "ada:ft-lingmechlab:seattle-rent-2023-06-20-01-56-42", 11984)
     cprint("Nothing to do right now!", c="m")
