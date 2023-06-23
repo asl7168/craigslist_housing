@@ -118,7 +118,6 @@ Not sure this would *exactly* work but I think it gets everything that's needed?
 """
 
 if __name__ == "__main__":
-    # TODO: these calls ONE BY ONE PREFERABLY
     # rent_train("chicago", n=5)
     # rent_train("chicago", n=50)
     # rent_train("chicago", n=500)

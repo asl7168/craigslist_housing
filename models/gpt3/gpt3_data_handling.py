@@ -63,13 +63,14 @@ def json_setup(city: str, only_body: bool = True):
     prompt_fields = ["posting_body"] if only_body else ["posting_body", "title"]
 
     df = pd.read_csv(f"../../LLM_data/{city}_clean.csv")
+    """ # NOW DONE IN update_data.py
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
     
     def concat_body(body):
         return " ".join(body)  # turn list of strings into one string; TODO: fix this in text_processing
     
     df["posting_body"] = df["posting_body"].apply(concat_body)
-    
+    """
     df = df.astype({"title": "string", "posting_body": "string", "rent_class": "string", 
                     "income_class": "string", "race": "string"})
     
@@ -190,10 +191,10 @@ def make_completions(output_dir: str, model: str, n: int, df: pd.DataFrame, rand
     return df
 
 
-def completion_prep(city: str, task: str, n: int, randomize: bool, final_model: bool):
+def completion_prep(city: str, task: str, n: int, body_prompt: bool, randomize: bool, final_model: bool):
     prefix = f"./{task}/{city}"
     json_dir = f"{prefix}/json_files"
-    t_file = f"{json_dir}/{city}_{task}_{'dev' if not final_model else 'test'}.jsonl"
+    t_file = f"{json_dir}/{city}_{task}_{'dev' if not final_model else 'test'}{'_TITLE' if not body_prompt else ''}.jsonl"
     
     completions_dir = f"{prefix}/completions"
     if not path.exists(completions_dir): mkdir(completions_dir)
@@ -214,36 +215,44 @@ def completion_prep(city: str, task: str, n: int, randomize: bool, final_model: 
     return completions_dir, results_df
 
 
-def model_completions(city: str, task: str, model: list, n: int = 10, randomize: bool = True, final_model: bool = False):
-    completions_dir, results_df = completion_prep(city, task, n, randomize, final_model)
+def model_completions(city: str, task: str, model: list, n: int = 10, body_prompt: bool = True, randomize: bool = True, final_model: bool = False):
+    completions_dir, results_df = completion_prep(city, task, n, body_prompt, randomize, final_model)
 
     make_completions(completions_dir, model, n, results_df, randomize)
 
 
-def multimodel_completions(city: str, task: str, models: list, n: int = 10, randomize: bool = True, final_model: bool = False):
-    completions_dir, results_df = completion_prep(city, task, n, randomize, final_model)
+def multimodel_completions(city: str, task: str, models: list, n: int = 10, body_prompt: bool = True, randomize: bool = True, final_model: bool = False):
+    completions_dir, results_df = completion_prep(city, task, n, body_prompt, randomize, final_model)
 
     for m in models:
         make_completions(completions_dir, m, n, results_df, randomize)
 
 
 if __name__ == "__main__":
-    ada_sizes = {5, 50, 500}
-    json_setup("chicago", only_body=False)
-    write_train_subfiles("chicago", "rent", ada_sizes)
+    # ada_sizes = {5, 50, 500}
+    # json_setup("chicago", only_body=False)
+    # write_train_subfiles("chicago", "rent", ada_sizes)
 
     # json_setup("seattle")
-    # write_train_subfiles("seattle", "rent", {CHICAGO TRAIN SIZE})
-    # write_train_subfiles("seattle", "race", {})
-    # write_train_subfiles("seattle", "income", {})
+    # write_train_subfiles("seattle", "rent", {4079})
+    # write_train_subfiles("seattle", "race", {4079})
+    # write_train_subfiles("seattle", "income", {4079})
     
     # upload_train_files("chicago")
     # upload_train_files("seattle") 
 
-    datasize_models = ["",
-                       "",
-                       "",
-                       ""]
-    # model_completions("chicago", "rent", , 10)
+    datasize_models = ["ada:ft-lingmechlab:chicago-rent-5-2023-06-22-21-58-32",
+                       "ada:ft-lingmechlab:chicago-rent-50-2023-06-22-22-39-13",
+                       "ada:ft-lingmechlab:chicago-rent-500-2023-06-22-23-18-31",
+                       "ada:ft-lingmechlab:chicago-rent-2023-06-23-00-20-18"]
     # multimodel_completions("chicago", "rent", datasize_models, n=None)
+
+    tier_models = ["babbage:ft-lingmechlab:chicago-rent-2023-06-22-22-18-40",
+                   "curie:ft-lingmechlab:chicago-rent-2023-06-22-22-41-58",
+                   "davinci:ft-lingmechlab:chicago-rent-2023-06-23-00-08-29"]
+
+    # multimodel_completions("chicago", "rent", tier_models, n=None)
+
+    # TODO: model_completions("chicago", "rent", TITLEMODEL, n=None, body_prompt=False)
+
     cprint("Nothing to do right now!", c="m")
