@@ -127,13 +127,11 @@ if __name__ == "__main__":
     # rent_train("chicago", "curie")
     # rent_train("chicago", "davinci")
     
-    # rent_train("chicago", ?????"davinci"?????, False)
+    # rent_train("chicago", "davinci", body_prompt=False)
     
-    # TODO: other tasks for chicago and seattle on X model (ada?) and Y posts
-    
-    # race_train("chicago", MODEL AS DETERMINED BY a-d COMPARISONS)
-    # income_train("chicago", )
+    # rent_train("seattle", "ada")
+    # rent_train("seattle", "babbage")
+    # rent_train("seattle", "curie")
 
-    # race_train("seattle", , n=CHICAGO TRAIN SIZE)
-    # income_train("seattle", n=CHICAGO TRAIN SIZE)
+    # TODO: FINAL TASK TRAINS
     get_finetune_events()

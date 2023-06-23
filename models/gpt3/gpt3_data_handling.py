@@ -62,7 +62,7 @@ def json_setup(city: str, only_body: bool = True):
     cprint(f"Started json setup for {city}", c="y")
     prompt_fields = ["posting_body"] if only_body else ["posting_body", "title"]
 
-    df = pd.read_csv(f"../../LLM_data/{city}_clean.csv")
+    df = pd.read_csv(f"../../LLM_data/{city}_final.csv")
     """ # NOW DONE IN update_data.py
     df["posting_body"] = df["posting_body"].apply(lambda x: literal_eval(x))
     
@@ -253,6 +253,7 @@ if __name__ == "__main__":
 
     # multimodel_completions("chicago", "rent", tier_models, n=None)
 
-    # TODO: model_completions("chicago", "rent", TITLEMODEL, n=None, body_prompt=False)
+    # model_completions("chicago", "rent", "davinci:ft-lingmechlab:chicago-rent-title-2023-06-23-05-48-03", n=None, body_prompt=False)
 
+    # TODO: seattle tier models
     cprint("Nothing to do right now!", c="m")
