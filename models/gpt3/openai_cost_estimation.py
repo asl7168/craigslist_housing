@@ -57,6 +57,6 @@ def get_cost(city: str, models: str or list = "ada", dataset: str = "train"):
 
 if __name__ == "__main__":
     # get_cost("chicago", ["ada", "babbage", "curie", "davinci"])
-    get_cost("seattle", ["ada", "babbage", "curie", "davinci"])
+    # get_cost("seattle", ["ada", "babbage", "curie", "davinci"])
     get_cost("seattle", ["ada", "babbage", "curie"], "dev")
-    get_cost("seattle", ["ada", "babbage", "curie"], "test")
+    # get_cost("seattle", ["ada", "babbage", "curie"], "test")

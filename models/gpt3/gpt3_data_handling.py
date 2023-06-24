@@ -222,6 +222,9 @@ def model_completions(city: str, task: str, model: list, n: int = 10, body_promp
 
 
 def multimodel_completions(city: str, task: str, models: list, n: int = 10, body_prompt: bool = True, randomize: bool = True, final_model: bool = False):
+    # this is pretty inefficient on large dev/test sets due to the linear for loop, etc.
+    # actual parallelization/threading would be complicated -- easy solution is to run completions for multiple 
+    # models in different instances of terminal (not especially sophisticated, but works just fine)
     completions_dir, results_df = completion_prep(city, task, n, body_prompt, randomize, final_model)
 
     for m in models:
@@ -233,10 +236,9 @@ if __name__ == "__main__":
     # json_setup("chicago", only_body=False)
     # write_train_subfiles("chicago", "rent", ada_sizes)
 
+    # sada_sizes = {5, 50, 500, 5000}
     # json_setup("seattle")
-    # write_train_subfiles("seattle", "rent", {4079})
-    # write_train_subfiles("seattle", "race", {4079})
-    # write_train_subfiles("seattle", "income", {4079})
+    # write_train_subfiles("seattle", "rent", sada_sizes)
     
     # upload_train_files("chicago")
     # upload_train_files("seattle") 
@@ -255,5 +257,19 @@ if __name__ == "__main__":
 
     # model_completions("chicago", "rent", "davinci:ft-lingmechlab:chicago-rent-title-2023-06-23-05-48-03", n=None, body_prompt=False)
 
-    # TODO: seattle tier models
+    stier_models = ["ada:ft-lingmechlab:seattle-rent-2023-06-23-22-08-58", 
+                    "babbage:ft-lingmechlab:seattle-rent-2023-06-23-13-11-30", 
+                    "curie:ft-lingmechlab:seattle-rent-2023-06-23-13-42-08"]
+    
+    sdatasize_models = ["ada:ft-lingmechlab:seattle-rent-5-2023-06-24-01-59-09", 
+                        "ada:ft-lingmechlab:seattle-rent-50-2023-06-24-02-20-25",
+                        "ada:ft-lingmechlab:seattle-rent-500-2023-06-24-02-29-21",
+                        "ada:ft-lingmechlab:seattle-rent-5000-2023-06-24-04-01-38"]
+    # multimodel_completions("seattle", "rent", stier_models, n=None)
+
+                     
+    sfinal_models = ["ada:ft-lingmechlab:seattle-race-2023-06-23-23-57-59",
+                     "ada:ft-lingmechlab:seattle-rent-2023-06-23-22-08-58",
+                     "ada:ft-lingmechlab:seattle-income-2023-06-24-01-56-14"]
+
     cprint("Nothing to do right now!", c="m")

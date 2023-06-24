@@ -134,4 +134,13 @@ if __name__ == "__main__":
     # rent_train("seattle", "curie")
 
     # TODO: FINAL TASK TRAINS
+    # rent_train("seattle")
+    # rent_train("seattle", n=5)
+    # rent_train("seattle", n=50)
+    # rent_train("seattle", n=500)
+    # rent_train("seattle", n=5000)
+
+    # race_train("seattle")
+    # income_train("seattle")
+    
     get_finetune_events()
