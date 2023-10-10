@@ -8,8 +8,8 @@ else:
     prefix = "."
     html_prefix = prefix
 
-import spacy
-nlp = spacy.load('en_core_web_lg')
+#import spacy
+#nlp = spacy.load('en_core_web_lg')
 
 
 import csv
@@ -141,7 +141,7 @@ def drop_duplicates(metro_area):
   #print(df.drop_duplicates(subset=['posting_body','title']).shape)
 
 def clean_text(metro_area):
-  places = get_lists()
+  places = get_lists(metro_area)
   data=[]
   with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv','r') as csvfile:
     reader = csv.DictReader(csvfile)
@@ -149,12 +149,18 @@ def clean_text(metro_area):
         if i%100==0:
           print(i)
         obj = row
-        text = row['posting_body']
-        #text = re.sub(r'\$\s?(\d,?(\.\d+)?){1,}',"PRICE",text)
-        obj['posting_body']=transform_texts(text,places)
-        obj['race']='Non-White' if row['race']=='POC' else 'White'
+        for key in ['title','posting_body']:
+          text = row[key]
+          text = re.sub(r'^\[\'','',text)
+          text = re.sub(r'\'\]$','',text)
+          text = re.sub(r'\', \'',' ' ,text)
+          #text = re.sub(r'\$\s?(\d,?(\.\d+)?){1,}',"PRICE",text)
+          obj[key]=transform_texts(text,places)
+          
+        #obj['race']='Non-White' if row['race']=='POC' else 'White'
         data.append(obj)
-        #print(obj)
+        if i<10:
+          print(obj)
   with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv','w') as csvfile:
     writer = csv.DictWriter(csvfile,fieldnames=['post_id','title','posting_body','rent_class','income_class','race'])
     writer.writeheader()
@@ -177,37 +183,110 @@ def clean_text(metro_area):
   new_df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv',index=False)
   print(new_df.shape)
 
+def adjust_titles(metro_area):
+  places = get_lists(metro_area)
+  data={}
+  with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_clean.csv','r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for i,row in enumerate(reader):
+        if i%100==0:
+          print(i)
+        obj = row
+        for key in ['title']:
+          text = row[key]
+          text = re.sub(r'^\[\'','',text)
+          text = re.sub(r'\'\]$','',text)
+          text = re.sub(r'\', \'',' ' ,text)
+          #text = re.sub(r'\$\s?(\d,?(\.\d+)?){1,}',"PRICE",text)
+          obj[key]=transform_texts(text,places)
+        obj['race']='Non-White' if row['race']=='POC' else 'White'
+        data[obj['post_id']]=obj
+  errors=0
+  with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_masked.csv','r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for i,row in enumerate(reader):
+      obj = data.get(row['post_id'],None)
+      if obj:
+        obj['posting_body']=row['posting_body']
+        data[row['post_id']] = obj
+      else:
+        errors+=1
+  data_list=[]
+  for key in data:
+    data_list.append(data[key])
+  print(errors)
+  df = pd.DataFrame(data_list)
+  df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_new.csv',index=False)
+  print(df.head())
+  
+def remove_duplicates(metro_area):
+  print("1")
+  ids=[]
+  with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_masked_old.csv','r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for i,row in enumerate(reader):
+      ids.append(row['post_id'])
+  data = []
+  print("2")
+  with open(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_new.csv','r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for i,row in enumerate(reader):
+      if row['post_id'] in ids:
+        data.append(row)
+  df = pd.DataFrame(data)
+  df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_final.csv',index=False)
+  print(df.shape)
+
+def deduplication(metro_area):
+  df = pd.read_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_final.csv')
+  print(df.shape)
+  df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_final_old.csv',index=False)
+  df = df.drop_duplicates(subset=['posting_body'])
+  print(df.shape)
+  df.to_csv(f'/projects/p31502/projects/craigslist/LLM_data/{metro_area}_final.csv',index=False)
+  
+
 def transform_texts(text,places):
   #ret = []
   #print('\t...transforming texts', end = ' ', flush=True)
   #for idx, text in enumerate(texts):
    #   if idx % 1000 == 0: print(idx, end = ' ', flush=True)
-  doc = nlp(text)
-  noent = ' '.join([t.text if not t.ent_type_ else t.ent_type_ for t in doc])
-  noneigh = re.sub('|'.join(places), 'PLACE', noent)
+  #doc = nlp(text)
+  #noent = ' '.join([t.text if not t.ent_type_ else t.ent_type_ for t in doc])
+  noent = text
+  noneigh = re.sub('[^A-Za-z]|[^A-Za-z]'.join(places), ' PLACE ', noent,flags = re.I)
+  noneigh = re.sub('$|'.join(places)+"$", 'PLACE', noneigh,flags = re.I)
+  noneigh = re.sub('^'+'|^'.join(places), 'PLACE', noneigh,flags = re.I)
   ret=re.sub('[0-9]+', 'num', noneigh)
-  ret=re.sub("\' , \'"," ",ret)
-  ret=re.sub(r"\[ \'|\' \]","",ret)
 
-  return ret
+  return ret 
 
 
-def get_lists():
-  places=['pilsen','evanston',"skokie","arlington",'wicker park','lakeview']
-  with open("/projects/p31502/projects/craigslist/GIS_data/chicago_neighborhoods.csv",'r') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-      places.append(row['PRI_NEIGH'])
-      places+=row['SEC_NEIGH'].split(",")
+def get_lists(metro_area):
+  places=[]
+  if metro_area=='chicago':
+    places+=['pilsen','evanston',"skokie","arlington",'lakeview']
+    with open("/projects/p31502/projects/craigslist/GIS_data/chicago_neighborhoods.csv",'r') as csvfile:
+      reader = csv.DictReader(csvfile)
+      for row in reader:
+        places.append(row['PRI_NEIGH'])
+        places+=row['SEC_NEIGH'].split(",")
+  elif metro_area=='seattle':
+    with open("/projects/p31502/projects/craigslist/GIS_data/seattle_neighborhoods.csv",'r') as csvfile:
+      reader = csv.DictReader(csvfile)
+      for row in reader:
+        places.append(row['L_HOOD'])
+        places.append(row['S_HOOD'])
+        if row['S_HOOD_ALT_NAMES'] !='':
+          places+=row['S_HOOD_ALT_NAMES'].split(", ")
   places=list(set(places))
   print(places)
   with open("/projects/p31502/projects/craigslist/GIS_data/us_cities.txt",'r') as infile:
     for row in infile:
       places.append(re.sub('\n','',row))
-  places=list(set([p.lower() for p in places]))
-  return places
-
-
+  places=list(set([p.strip().lower() for p in places]+[re.sub(' ','',p).lower() for p in places if len(p.split(" "))>1]))
+  #print(places)
+  return places 
 
     
 
@@ -215,7 +294,12 @@ def get_lists():
 #get_stats('chicago')
 #get_stats('seattle')
 #drop_duplicates('chicago')
+#adjust_titles('chicago')
 #drop_duplicates('seattle')
-clean_text('chicago')
+#adjust_titles('seattle')
+#clean_text('chicago')
 #clean_text('seattle')
-#get_lists()
+#get_lists('chicago')
+#remove_duplicates('seattle')
+deduplication('chicago')
+deduplication('seattle')

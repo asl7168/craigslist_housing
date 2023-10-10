@@ -179,8 +179,8 @@ class CraigslistScraper:
         else:
             # don't get URL again, or we reset the page we're on
             html_soup = BeautifulSoup(self.driver.page_source, 'html.parser')
-            search_results = html_soup.find("div", class_="results cl-results-page cl-search-view-mode-gallery")
-            posts = search_results.find_all("a", class_="main")
+            search_results = html_soup.find("div", class_="results cl-results-page")
+            posts = search_results.find_all("a", class_="cl-app-anchor text-only posting-title")
 
             # don't know how to determine if a post is from a "nearby area" or not in the new UI
             # posts = [post for post in posts if not post.find("span", class_="nearby")]  # remove results from "nearby areas"
