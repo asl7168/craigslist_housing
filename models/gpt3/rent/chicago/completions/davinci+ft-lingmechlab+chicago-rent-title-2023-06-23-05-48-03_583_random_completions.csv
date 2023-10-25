@@ -1,0 +1,1167 @@
+,prompt,expected_completion,actual_completion
+255,"SUBLEASE PLACE ! num BEDROOM , Laundry in unit! Is rent cheap, average, or expensive? <SEP>
+", average, average
+323,"Do you want Stainless Steel? One block to Lakefront! Is rent cheap, average, or expensive? <SEP>
+", average, average
+65,"Rocking num Bedroom, num Bath in Horner Park, Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+111,"Beautiful, light filled, FURNISHED numBR with porch Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+268,"num Bedroom - Heat Included - Tons of Light. Pets! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+553,"Apartment for rent num/num-num/num Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+47,"Sunny and Spacious! Separate dining room! Brown Line! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+458,"Beautiful num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+347,"RARE Luxurious Convertible num Bedroom - Pool, W/D + num MONTH FREE! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+529,"Amazing num bed, num bath at Residences at PLACE  Washer/dryer included! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+421,"MUST SEE beautiful num bed with in-unit w/d & parking space avail Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+345,"Noble num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+0,"Stunning! New Rehabs! Balcony! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+435,"Simply stunning! Luxurious num Bed / num Bath in PLACE  Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+250,"Snuggle up with FIDO in our charming num bd, num ba! We're pet-friendly! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+292,"Central A/C! Steps to the Lake! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+409,"Great num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+425,"Wonderful One Bed Apartment In South PLACE  Available Now! Is rent cheap, average, or expensive? <SEP>
+", average, average
+197,"Tons of Natural Light Luxury One Bed Doorstaff Gym W/D! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+41,"Large num Bed in Prime PLACE -- LOTS OF SPACE FREE HEAT! Is rent cheap, average, or expensive? <SEP>
+", average, average
+439,"The living is easy at Residences at PLACE  Comfortable num bed/num bath! Is rent cheap, average, or expensive? <SEP>
+", average, average
+306,"PLACE num Bed + Den - May numst Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+412,"Modern num-Bed w/ In-Unit Laundry & Central Air Is rent cheap, average, or expensive? <SEP>
+", average, average
+132,"Huge layout with King size BR! Pets! Blue Line! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+90,"Enjoy the comfort of your new num bed / num bath! Washer/dryer included! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+569,"$num - Ravenswood high-rise modern numbr, utilities included, avail num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+443,"Amenity Rich Building Close To Red Line Lease Today num Month Free Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+223,"Updated Kitchen! Awesome one bed in PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+502,"Location! Heat Included! Formal Dining Room! Updated! Ready num/num! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+307,"numbr - numftnum - Furnished Studio Apartment Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+85,"PLACE Condo for Rent! Pool and Fitness Center on site! Is rent cheap, average, or expensive? <SEP>
+", average, average
+370,"Full Amenity num Bedroom Apartment in PLACE Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+530,"$num / numbr - Cozy One Bedroom in PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+578,"Updated Convertible Unit - $num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+361,"num Bed num Bath PLACE Apartment Is rent cheap, average, or expensive? <SEP>
+", average, average
+493,"PLACEvated num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+527,"PLACE Convertible num bedroom in GORGEOUS newer Amenity building Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+165,"Furnished Studio in PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+289,"Charming & Roomy num-Bed - FREE HEAT - PLACE Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+492,"Spectacular num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+257,"PLACE numBR Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+17,"Modern South PLACE  num bedroom, rooftop sky deck, gym, cta Is rent cheap, average, or expensive? <SEP>
+", average, average
+554,"One bedroom Apartment for rent Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+550,"Historic PLACE num Bedroom Gem Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+214,"Large PLACE num BR Condo For Rent Steps to lake, walk to everything Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+192,"Move in fee waived! Heat, water and gas included- Dining Room Is rent cheap, average, or expensive? <SEP>
+", average, average
+49,"Don't miss this fabulous num Bed, num Bath! Highly desirable location! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+179,"Huge num Bed, Steps to Blue Line, Huge Kitchen, Pets OK Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+516,"Leland PLACE  heated num-bed on the top floor Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+362,"Spacious numbr in PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+350,"PLACE duplex w Laundry in unit & patio Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+411,"Luxury PLACE Market num Bedroom, W/D, Balcony, Gym, Market Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+232,"The living is easy at Residences at PLACE  Comfortable num bed/num bath! Is rent cheap, average, or expensive? <SEP>
+", average, average
+261,"num North Washtenaw Ave.#num [num Bathroom] [num Bedroom] Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+312,"AMAZING LOCATION- num BED COMPLIMENTARY FIBER INTERNET Is rent cheap, average, or expensive? <SEP>
+", average, average
+404,"Ravenswood numBd numBa GRNT SS DW HWF Pet Friendly W/D On-Site,Walk in Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+172,"Large num Bed in Prime PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, average
+543,"Astounding num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+260,"Perfected num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+273,"Impeccable Studio with Sundeck Access Is rent cheap, average, or expensive? <SEP>
+", average, average
+535,"Incredible num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+159,"Beautiful Updated num Bedroom Apartment Is rent cheap, average, or expensive? <SEP>
+", average, average
+120,"GORGEOUS LOFT-STYLE - numst fl Is rent cheap, average, or expensive? <SEP>
+", average, average
+29,"Furnished Studio - Great Monthly Rates! Is rent cheap, average, or expensive? <SEP>
+", average, average
+66,"PLACE, newly remodeled num bed/num bath plus den, yard, num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+552,"PLACE one bedroom - num S Allport - Great location Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+487,"ONE BED with In unit laundry! Newer Construction! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+335,"num N. PLACE Ave. Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+334,"Awesome num bedroom+den unit with hardwood floors and stainless steel Is rent cheap, average, or expensive? <SEP>
+", average, average
+293,"Huge Concrete Loft in South PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+225,"Beautiful PLACE One Bedroom Loft with in unit W/D Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+3,"One Bedroom PLUS Den with a deck! Hot PLACE Noble Square Locati Is rent cheap, average, or expensive? <SEP>
+", average, average
+274,"Beautiful Modern Rehab PLACE num Bedroom Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+9,"Start living large! You'll love our num bed, num bath! num Sq Ft! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+162,"Extremely Affordable! PLACE Hi-Rise! Free basic cable TV and intern Is rent cheap, average, or expensive? <SEP>
+", average, average
+413,"Ideal num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+119,"Spacious and elegant! You've found your ideal num bed / num bath! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+394,"Heavenly num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+349,"Top of the Line Luxury Living! Amazing Neighborhood! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+124,"Boutique luxury in PLACE  numBedroom, in-unit W/D, Pool, Gym Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+92,"Contemporary PLACE apt near Brn Line!, Free Heat, On-Site W/D Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+187,"Unreal num Bedroom, num Bath in Ravenswood, Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+218,"LOVELY num bed Vintage UPD Kith Granite-SS App! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+161,"West PLACE Convertible One Bedroom! Hardwood, WD, Pool, High Ceilings Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+308,"BRAND NEW CONVERTIBLE num BEDROOM IN TRENDY PLACE Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+69,"Unblemished num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+40,"AmazingLocation!!+num Bedroom PLACE PetsOk num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+462,"num Bedroom in SL. Floor to Ceiling Windows, W/D In-Unit, Hdwd, Balcony Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+485,"Bright num BR PLACE Apt - Quiet Street - Blue Line - Holstein Park Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+147,"Furnished Studio - Great Monthly Rates Is rent cheap, average, or expensive? <SEP>
+", average, average
+242,"Splendid One Bed Apt For Rent!! Inquire Asap! Is rent cheap, average, or expensive? <SEP>
+", average, average
+38,"Amazing num bed in PLACE with indoor pool and doorman Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+457,"Gorgeous Rehabbed Unit! Prime PLACE Lincoln Park Location! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+464,"num Bed with amazing views of the city Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+326,"Sunny top floor Loyola num bed w/ free heat, eat-in kitchen Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+379,"Great space for every taste. You'll love our num bed, num bath! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+34,"Just remodeled and outstanding condo in desirable Silver Tower PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+67,"LAST LOFT ONE BEDROOM BOOK TODAY PRIVATE BALCONY Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+39,"Beautiful Condo in PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+558,"South PLACE num-bedroom, in-unit W/D! large windows, walk to Trader Joes Is rent cheap, average, or expensive? <SEP>
+", average, average
+446,"Comfortable num sq ft num bd, num ba for all your needs. Call us now! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+135,"Heat Included! Location! Dishwasher! Small Dog Ok! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+355,"numBedroom available in Ravenswood at PLACE Ashland avail Mid Dec! Is rent cheap, average, or expensive? <SEP>
+", average, average
+539,"num Block To The Redline! Heat Included! Large Floorplan! Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+453,"PERFECT num Bedroom Unit in a Luxe PLACE Building Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+62,"Wonderfully Rehabbed PLACE One bedroom! New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+363,"Spacious PLACE num Bedroom, Balcony, Near Red Line, Whole Foods Is rent cheap, average, or expensive? <SEP>
+", average, average
+285,"Appealing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+373,"Praiseworthy num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+107,"Luxury num Bedroom in PLACE - Washer/Dryer, Gym On Site, Hardwood FL Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+31,"Sizable num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+365,"Parking INCLUDED! num bed condo in PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+479,"In Unit Laundry! Luxury Hi-rise! All Amenities! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+465,"Sublease Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+189,"numbed / numbath Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+244,"tunning New Rehab! Floor to Ceiling Windows! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+419,"Desirable PLACE num bedroom Convertible, Gym& Pool LAST ONE LEFT! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+5,"Come tour our beautiful num bed, num bath! Full size washer and dryer! Is rent cheap, average, or expensive? <SEP>
+", average, average
+59,"RARE HAMPDEN COURT ONE BEDROOM  $num Is rent cheap, average, or expensive? <SEP>
+", average, average
+525,"Picturesque num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+236,"Appealing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+476,"Radiant num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+74,"PLACE num bed ,deck , parking spot , avail num-num num w belden Is rent cheap, average, or expensive? <SEP>
+", average, average
+407,"Stunning renovated num bed, num bath! Gorgeous floors, kitchens, & more Is rent cheap, average, or expensive? <SEP>
+", average, average
+436,"Gorgeous num rm num bed with deck in East Humboldt Is rent cheap, average, or expensive? <SEP>
+", average, average
+447,"One Month Free w/ Move in Fees Waived Book Your Tour Today Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+572,"NEW LISTING: num Bedroom, PLACE  Available: num/num/num, NEWER KITCHEN Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+173,"Updated one bed, heat included! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+441,"Heat Included! Kitchen W/Dishwasher! Dog Friendly! Ready! Is rent cheap, average, or expensive? <SEP>
+", average, average
+500,"Studio Apartment Available Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+531,"HEART IF PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+68,"Engaging num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+442,"num BEDROOM EVERYTHING BRAND NEW NO PLACE DEPOSIT ADAMS & PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+4,"Beautiful num Large Condo for Rent. large Living hall , dining hall and kitchen. Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+160,"Extraordinary num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+406,"num Bedroom Aparment Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+19,"Incredible One Bed Apartment In The PLACE  Schedule Your Tour! Is rent cheap, average, or expensive? <SEP>
+", average, average
+524,"Large garden apartment in convenient location! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+117,"Beautiful South PLACE Apartment Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+180,"Converted studio Apartment in PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+78,"Beautiful unit w washer/dryer, stainless appliances, and huge pool Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+430,"Bright numbr Near PLACE Dr. Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+483,"PLACE num Bedroom with Everything Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+506,"Amazing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+42,"Amazing num bed in PLACE with w/d in unit and walk in closets Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+467,"Precious num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+470,"Gorgeous Gut rehab! Laundry in the unit! Is rent cheap, average, or expensive? <SEP>
+", average, average
+237,"Sunny PLACE num-Bed  FREE HEAT! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+133,"PLACE numBD numBA PLACE GRNT S/S DW HWF CENTRAL AIR W/D IN-UNIT Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+195,"num Bed num Bath Condo for rent PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+434,"Luxe num Bed - In Unit WD - massive windows - sauna hot tub Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+328,"Condo quality One Bedroom w/ Central AC on Leland Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+510,"Luxury num Bedroom apartment in PLACE  W/D in unit and Rooftop Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+514,"West PLACE Jr. num-bedroom! In-unit W/D, num-block to Jewel, numhr doorstaff Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+375,"Great location right by the Lake, numbed/numbath in PLACE for April! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+305,"Floor to Ceiling Windows! Stunning New Rehab! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+494,"Recently Remodeled num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+291,"Location/Price and W/D In unit Studio  PLACE park Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+233,"Amazing num Bedroom, PLACE  InUnit Laundry, Pets OK Is rent cheap, average, or expensive? <SEP>
+", average, average
+157,"Newly updated! num bed w/ dishwasher, king-sized bedroom, free heat Is rent cheap, average, or expensive? <SEP>
+", average, average
+16,"numBR/numBA Luxury Apartment in PLACE Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+559,"Location! Heat Included! Dishwasher! Small Dog Ok! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", average, average
+201,"Matchless num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+403,"Private num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+207,"PLACE Convertible (Internet and Water included) Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+102,"numb with stainless and granite Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+577,"num Bedroom Apartment- $num/ parking available for additional fee Is rent cheap, average, or expensive? <SEP>
+", average, average
+555,"Huge num Bed, Living + Dining Rm EZ walk to PLACE Blue Line,, Pets OK Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+428,"West PLACE num Bedroom- Close to Everything With Luxury Amenities! Is rent cheap, average, or expensive? <SEP>
+", average, average
+146,"Perfect South PLACE Location! Private Balcony! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+429,"PLACE One Bedroom Apartment For Rent! Contact us! Is rent cheap, average, or expensive? <SEP>
+", average, average
+437,"Cheerful num Bedroom, num Bath in Ravenswood, Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+224,"Stylish num Bed +Den/ num Bath Apartment in Hip PLACE Neighborhood Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+128,"--PRIME LOCATION- PLACE -num BED num BATH--TOP FLOOR--ROOF DECK-- Is rent cheap, average, or expensive? <SEP>
+", average, average
+247,"Mammoth num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+440,"Incredible num Bedroom PLACE Location! Private Balcony! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+110,"Beautiful and Affordable! PLACE Park Location! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+396,"num  Spacious numBed just put on the market! Heat/Cooking Gas Incld Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+311,"num bedroom with Den new rehab heat included lots of light Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+395,"In Unit Laundry! Total Rehab! Is rent cheap, average, or expensive? <SEP>
+", average, average
+540,"Amazing PLACE Convertible num-Bedroom, In-Unit W/D and Gym!! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+517,"Captivating On Carmen! Top Floor numBR/numBA Available! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+142,"ROOFTOP POOL & GRILLS, DOG RUN, BALCONY, ON SITE GYM, W/D IN UNIT Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+426,"South PLACE num Bedroom! W/D In-Unit, Hdwd, Balcony Is rent cheap, average, or expensive? <SEP>
+", average, average
+6,"Location! Formal Dining Room! Heat Included! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+249,"num Bedroom Available in Prime PLACE Location w/ Amenities! Is rent cheap, average, or expensive? <SEP>
+", average, average
+11,"Updated Kitchen & Bath! HVAC! In Unit Laundry! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", average, average
+284,"In Unit Laundry! Gut Rehab numBD/numBa With New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+400,"PLACE apartment for rent with PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+267,"PLACE num-Bed w/ Laundry In-Unit & Central Air! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+58,"PLACE Completely Updated One bedroom with garage parking Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+498,"Updated, Charming num-Bed * Roscoe Village * Central Air Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+541,"** New num Bedroom Apartment in PLACE ** Avail Thru June numst Is rent cheap, average, or expensive? <SEP>
+", average, average
+444,"LARGE num-Bed- Tons Of Amentities Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+186,"Pristine PLACE numBD With HEAT INCLUDED! No PLACE Deposit! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+344,"One Bed in PLACE Hirise! Great Layout and Building Amenities! Is rent cheap, average, or expensive? <SEP>
+", average, average
+505,"Studio Apartment Available Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+246,"Unique/Spacious num Bed w/ Exposed Brick! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+101,"PLACE numBd numBa Quartz SS DW HWF A/C W/D In-Unit Pets OK Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+258,"PLACE's Newest Property! Currently Offering num Month Free Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+104,"Bright PLACE num Bedroom Heat Included Cats ok num/num $num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+575,"Gorgeous num Bedroom in Great PLACE Location Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+499,"East PLACE num Bedroom! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+341,"Wonderful num bed / num bath in prime location! Close to everything! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+18,"Quality num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+168,"Wonderfully Rehabbed PLACE One Bedroom! New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+339,"Modern PLACE num-bed - Amazing Location! Is rent cheap, average, or expensive? <SEP>
+", average, average
+121,"Sunny, top floor num bedroom, num bath - num months re-let lease Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+473,"Great numBR in Downtown PLACE - Parking Included Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+423,"num BR loft in PLACE (incl cable/internet) Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+388,"FOR RENT - num S Justine St - numR Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+378,"Amazing Rehabbed num Bed w/ In unit WD & Central Air Is rent cheap, average, or expensive? <SEP>
+", average, average
+580,"One bedroom apartment in PLACE $num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+420,"Lavish lifestyle amenities! Stunning luxury community! num Bed, num Bath Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+80,"Newly-Renovated num Bedroom in PLACE  Dishwasher, Hardwood, Gym! Is rent cheap, average, or expensive? <SEP>
+", average, average
+46,"A Convertible/ Studio apartment in south PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+286,"Excellent num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+526,"Updated num Bed num Bath in PLACE with Roof deck Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+93,"Astounding num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+213,"num BEDROOM EVERYTHING BRAND NEW NO PLACE DEPOSIT PLACE & PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+501,"*Brand New Everything* numBd/numBa in PLACE  In-Unit Laundry! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+81,"Classic num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+241,"Spacious Courtyard One Bed w/ HEAT INCLUDED! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+576,"Amazing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+314,"Modern, Eco Friendly South PLACE Jr. num bedroom. W/D, Balcony, Hwd, Gym Is rent cheap, average, or expensive? <SEP>
+", average, average
+346,"East PLACE num-Bed - FREE HEAT! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+245,"Appealing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+115,"Gut-Rehabbed num BR in Prime PLACE Location; Pets OK! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+376,"Spacious PLACE Studio with lake views and in unit W/D Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+564,"Affordable! One bed in PLACE  HEAT AND GAS FREE! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+277,"Completely Redesigned New Building With numbed available! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+488,"Unrivaled num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+385,"Lovely PLACE Hirise for a Great Rate! Full Amenities! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+139,"Brewery Lofts #num num Bed AVAIL num.num $num,num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+106,"Ground Floor Renovated num-Bed in Superb Location! Heat & Water Included Is rent cheap, average, or expensive? <SEP>
+", average, average
+82,"Sunny One Bedroom One Bathroom in PLACE Square Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+204,"Wonderfully Rehabbed PLACE Two bedroom! New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+221,"Extra Large One Bedroom Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+374,"PLACE Views! num Bedroom, Prime Location, Gym, Rooftop Deck, New! Is rent cheap, average, or expensive? <SEP>
+", average, average
+88,"Premium Luxury num Sq Ft, num Bed / num Bath in PLACE Heights Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+185,"PLACE West PLACE brand new num BR remodel Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+318,"Laundry in unit !num Bedroom in PLACE  Swimming Pool! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+414,"Furnished Studio Is rent cheap, average, or expensive? <SEP>
+", average, average
+351,"Modern Loft Style Jr. num Bedroom in South PLACE  W/D in unit! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+95,"Classic num bedroom with office near PLACE and Ukranian Village Is rent cheap, average, or expensive? <SEP>
+", average, average
+424,"Luxury num bedroom in full Amenity Building Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+402,"New Rehab num Bedroom, num Bath Available num/num/num! Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+122,"Intimate numBR + Den vintage apartment with contemporary updates Is rent cheap, average, or expensive? <SEP>
+", average, average
+511,"Well-Priced  num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+486,"num bedroom apartment - Shoreline Park Is rent cheap, average, or expensive? <SEP>
+", average, average
+23,"PLACE Living, Convertible, Jr num bedroom, Balcony, Pool, Gym Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+164,"Spacious num bed w/ FREE heat Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+13,"Amazing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+484,"num blocks to the Blue line Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+61,"Extraordinary num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+449,"numBedroom with sun room Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+239,"PLACE num bedroom on PLACE Drive Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+547,"Amazing Deal in Foodie Heaven PLACE  Jr num bed- Walk-in Closet, W/D Is rent cheap, average, or expensive? <SEP>
+", average, average
+315,"Stunning renovated num bed, num bath! Gorgeous floors, kitchens, & more Is rent cheap, average, or expensive? <SEP>
+", average, average
+570,"PLACE Haven: A Symphony of Luxury and Modernity Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+70,"PLACE TOWER num BEDROOM IN PLACE PARK Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+295,"Central Air! Rehabbed PLACE One bedroom! Lovely! Is rent cheap, average, or expensive? <SEP>
+", average, average
+98,"Remarkable num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+283,"num BR Loft in the PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+536,"NO CREDIT CHECK ONE BEDROOM APARTMENT Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+489,"Trendy numBR Loft Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+342,"Dynamite num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+127,"PLACE Lake Front Downtown num/num Most Utilites & Internet  Included Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+1,"Fully furnished/ $num.num/Utilities Included Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+477,"Total Rehab! Heat Included Is rent cheap, average, or expensive? <SEP>
+", average, average
+27,"Top floor! Ample natural light! New floors & Pets! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+89,"Great price, affordable One Bedroom in Middle of PLACE  Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+73,"Large East PLACE numBD. Dining Room & Heat Included! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+417,"UNIQUE LIVE//WORK num BED num BATH FULLY UPDATED  SUPER MODERN Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+171,"Furnished Studio Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+474,"Luxurious Living! Convertible w/ Upgraded Kitchen, In-Unit W/D, Gym Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+383,"Beautiful numBed numBathroom Apt PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+304,"Large PLACE num bedroom w/BALCONY! Great location w/Amenities! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+91,"Newly Renovated numbd/numba Top Floor in Charming Building -  num/num (flex) Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+491,"Spacious num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+125,"Classic num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+565,"NEW LISTING: num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+12,"num BEDROOM EVERYTHING BRAND NEW NO PLACE DEPOSIT LOREL & PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+450,"PLACEvated mid century style num bed in PLACE East Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+582,"num bed num Bath Apartment with Rooftop Pool in PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+360,"Super Affordable num Bedroom! Most Utilities Included!! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+238,"num Bed / num Bath in PLACE  Great Location! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+438,"May/June Sublet with Full Lease Available num/num Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+422,"Spacious num Bedroom W/dishwasher, A/C Units provided Is rent cheap, average, or expensive? <SEP>
+", average, average
+143,"Beautiful unit in PLACE with in unit washer/dryer and hw floors Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+551,"Heavenly num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+14,"Incomparable num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+548,"Sunny num bed w/ separate dining room, free heat, FREE LAUNDRY Is rent cheap, average, or expensive? <SEP>
+", average, average
+448,"Stunning High End PLACE Convertible in Ultra Luxury High Rise! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+208,"Remodeled numBR in PLACE  Elmwood/Dempster - Heat Incld- Purple Line Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+131,"Upgraded num Bedroom num Bathroom Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+174,"Perfected num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+408,"Furnished Studio - Great Monthly Rates! Is rent cheap, average, or expensive? <SEP>
+", average, average
+191,"Live the luxury life you love! Beautiful num br num ba in PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+270,"Large one Bedroom Apartment Heated Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+123,"num bed/numbath PLACE apt available!!! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+138,"PLACE vintage charm Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+51,"Immaculate, large num bedroom condo rental with parking & heat included Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+459,"PLACE Updated In Unit Laundry Pet Friendly Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+112,"num BED /numBA num W George St- Gut Renovation- PLACE Park Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+265,"UPDATED num bed in PLACE  NEAR THE LAKE!!! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+410,"Central Air! Rehabbed PLACE One bedroom! Lovely! Is rent cheap, average, or expensive? <SEP>
+", average, average
+272,"Sleek South PLACE num bedroom! Hardwood Floors, W/D in unit, Pool, Gym, Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+256,"Apartment for Rent Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+455,"Large num Bedroom, PLACE  Dishwasher, Spacious Beds, Pets OK Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+105,"Amazing Price! Great Location Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+300,"A+ Better Business Bureau Rating Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+574,"Remodeled one bed in PLACE  Brand new! Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+386,"Beautiful num Bedroom Unit Available At The Grand Palmer Lodge! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+482,"Ideal num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+230,"Stainless Steel Appliances! Wonderful Location! Walk to Everything! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+153,"One bed in PLACE with in unit laundry & central air/heat Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+521,"STUNNING Modern num Bed in Hub of Ravenswood - Central Air! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+533,"Amazing num bed, num bath at Residences at PLACE  Washer/dryer included! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+294,"Appealing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+150,"Duplexnum Bedroom, PLACE  HWF, Pets OK, Close to Everything! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+382,"All you've been looking for! Stylish upgraded num SqFt num BD / num BA! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+163,"One Bedroom in PLACE Square Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+167,"Ravenswood One Bed Lease Today One Month Free!! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+329,"Sunny num/num plus den and patio Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+206,"Appealing num Bedroom, num Bath in Ravenswood, Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+188,"Amazing PLACE num Bedroom Convertible in a Great Location Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+366,"Live right on the border of PLACE and PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+324,"$num,num / numbr - $num numbr-Apartment Alternative StudioWoodspring Suites Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+145,"Perfect Convertible Studio! South PLACE  washer/dryer, rooftop deck! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+358,"West PLACE jr num bed, w/d, lg closets, great views Is rent cheap, average, or expensive? <SEP>
+", average, average
+226,"Location! Heat Included! New Kitchen! Small Dog Ok! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", average, average
+216,"PLACEvated numBD apt in PLACE w/ Heat Included. Steps to Red Line. Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+451,"Large living room and Dining area with fireplace. Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+532,"Now Is The time In Noble Square! Homey numBR/numBA+Den Available! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+298,"PLACE Loft At North & Wells w/New Kitchen & Exposed Brick! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+519,"Cozy Rehabbed num Bed, with Central Air and In-Unit Washer/Dryer! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+392,"Laundry in unit! Large One bedroom plus den! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+368,"Ravenswood Modern Rehab num Bed with a Deck Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+427,"High-End Condo Quality One Bed In PLACE High-Rise! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+175,"Rare PLACE Jr One bedroom! Is rent cheap, average, or expensive? <SEP>
+", average, average
+523,"Awesome num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+538,"Astonishingly Beautiful num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+229,"Amenity Rich Building Close To Red Line Lease Today num Month Free Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+364,"Stylish loft style numbd/numb apt with exposed brick and HUGE windows Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+280,"Nice num Bedroom In Ravenswood; Cats OK! Is rent cheap, average, or expensive? <SEP>
+", average, average
+560,"PLACE Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+228,"Central Air! Rehabbed PLACE One bedroom! Lovely! Is rent cheap, average, or expensive? <SEP>
+", average, average
+100,"Sparkling num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+290,"Modern South PLACE num Bedroom-WD, Gym,Rooftop, Floor to Ceiling Windows! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+518,"Convertible w/Laundry~Outstanding Amenities~Luxe Finish~Pets OK! Is rent cheap, average, or expensive? <SEP>
+", average, average
+53,"LARGE SUNNY with Views of LAKE & CITY Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+227,"num Bedroom w/ private balcony, in unit w/d & walk in closet and pool Is rent cheap, average, or expensive? <SEP>
+", average, average
+566,"Refreshing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+581,"Beautiful PLACE num Bed available June Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+154,"Spacious PLACE num Bedroom, Rooftop, Gym, Market, Dog Park! Is rent cheap, average, or expensive? <SEP>
+", average, average
+251,"Fully Furnished Studio with Utilities Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+275,"GREAT PRICE! num/num PLACE  Pool, Gym, LOCATION! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+158,"GREAT VALUE!! PLACE num bedroom Convertible STUNNING VIEWS!!! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+271,"Astounding num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+44,"PLACE: NEWLY RENOVATED num BEDROOM - W/D IN UNIT - BACK YARD Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+573,"Spacious New Construction w/In-Unit Laundry in Heart of PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+113,"Beautifully rehabbed! Small Pets ok! Is rent cheap, average, or expensive? <SEP>
+", average, average
+415,"Affordable num bedroom and Laundry in Unit! Is rent cheap, average, or expensive? <SEP>
+", average, average
+211,"Need a bigger place to call home? Check us out! num SqFt, num Bed Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+108,"** Huge apartment in extremely secure hi-rise** Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+320,"Delightful num bed / num bath in PLACE  num Sq Ft. Great value! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+169,"Huge layout! Heat included! Pets! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+79,"Sunny & Renovated num Bed num Bath w/ Gas and Heat Included Is rent cheap, average, or expensive? <SEP>
+", average, average
+50,"Beckoning num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+84,"One bedroom luxury apt Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+8,"Awesome Location! PLACE numBD Apt. Gas and Heat Included! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+32,"Absolutely Gorgeous One Bed Apartment In PLACE  Take A Tour! Is rent cheap, average, or expensive? <SEP>
+", average, average
+99,"PLACE dream num bedroom for rent Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+109,"Large num Bedroom Apartment--Great Location--Affordable! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+136,"Heat Included! Large Floorplan! Dishwasher! Small Dog Ok! Is rent cheap, average, or expensive? <SEP>
+", average, average
+330,"Updated num Bedroom, PLACE  Dishwasher, Pets OK num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+222,"Spacious num bed in great location near the Brown line Is rent cheap, average, or expensive? <SEP>
+", average, average
+28,"Appealing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+287,"incredible modern num bedroom ! PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+481,"Sunny Great Price num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+55,"Spacious PLACE numBD near Red Line!, Pet-friendly, On-Site W/D Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+156,"COZY num BEDROOM HEART OF PLACE  Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+507,"You will love having your own washer/dryer at Residences at PLACE  Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+522,"Dazzling num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+310,"num sqft num bd, num ba ready to lease! Come on over and check us out! Is rent cheap, average, or expensive? <SEP>
+", average, average
+48,"num BR available in Roscoe Village Available October numst Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+83,"Brilliant num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+460,"MODERN AND SPACIOUS numBD~Near the Lake Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+33,"Exquisite num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+35,"Incredible num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+331,"PLACE Huge num Bed, Pets OK, April numst Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+63,"Beautiful Kitchen! Spacious Flooprlan! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+509,"*Brand New* numBd/numBa in PLACE  Pet Friendly! In-Building Laundry! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+544,"Classic num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+322,"Live In A PLACE one bedroom at an affordable price! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+372,"Amazing num Bedroom in PLACE River w Great Views and Stunning Location! Is rent cheap, average, or expensive? <SEP>
+", average, average
+445,"Gorgeous numbr in PLACE Craign Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+234,"Premium Luxury num Sq Ft, num Bed / num Bath in PLACE Heights Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+579,"Brand New Construction w/ In Unit Laundry in PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+343,"Perfect PLACE Location! Is rent cheap, average, or expensive? <SEP>
+", average, average
+45,"One bedroom garden apartment on lovely street Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+303,"In Unit Laundry! Gut Rehab num bedroom with New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+512,"PLACEthtaking num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+177,"Magnificent num Bedroom. Nice sundeck! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+219,"Great PLACE num Bed, num Bath. Hardwood Floors. Utilities Included. Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+495,"Victorian building in PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+296,"Ideal num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+21,"Enravishing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+248,"Cats and Dogs Welcome! We are Pet Friendly! num BD / num BA Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+571,"Newly Rehabbed Cozy num Bed in Bricktown Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+325,"Fantastic num Bed Condo in Prime PLACE Close to Lake Is rent cheap, average, or expensive? <SEP>
+", average, average
+309,"Leland PLACE  num-bed heated Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+199,"Furnished Studio - Great Monthly Rates! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+137,"num/num High End Condo numBR- Parking, W/D in unit, Granite, SS Appliances Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+24,"One bedroom apartment for rent with storage, used yard and sidedrive Is rent cheap, average, or expensive? <SEP>
+", average, average
+399,"num Bedroom Mother in laws suite available Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+184,"--Historic Timber Loft- PLACE -num BED num BATH--CLOSE TO IT ALL-- Is rent cheap, average, or expensive? <SEP>
+", average, average
+205,"Location! Heat Included! Dishwasher! Dog Friendly! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+134,"PLACE Plaza numbedroom numbath apt Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+299,"Appealing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+116,"Amazing Building with Amenities Galore! Rooftop Pool Open Year Round! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+212,"Awesome PLACE Location! Updated Kitchen and W/D In-Unit! Is rent cheap, average, or expensive? <SEP>
+", average, average
+561,"Modern, SPACIOUS num-Bed * Central Air * Dishwasher * PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+567,"Condo Quality numBD In High-Rise With Fitness Center! Is rent cheap, average, or expensive? <SEP>
+", average, average
+557,"New and Pristine num Bedroom Convertible in PLACE  Gym, Pool +More Is rent cheap, average, or expensive? <SEP>
+", average, average
+433,"Pristine PLACE num bedroom Apartment Is rent cheap, average, or expensive? <SEP>
+", average, average
+231,"PLACE,numbedroom, GYM, Indoor POOL, Sauna, Shops,bars Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+405,"PLACE Hi rise Luxury Condo for Rent! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+217,"Large numBR+Den Unit in Modern Complex- Flexible Start and End Dates Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+56,"Luxury One-Bedroom in Heart of PLACE  Pool, Gym, Food and Location Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+317,"Gorgeous num Bedroom, PLACE  InUnit Laundry, Central Air Is rent cheap, average, or expensive? <SEP>
+", average, average
+183,"Beautifull updated num bedroom ! PLACE  Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+480,"Dazzling num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+563,"Bright sunny apartment Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+340,"PLACE Updated num Bedroom In Unit Laundry Is rent cheap, average, or expensive? <SEP>
+", average, average
+181,"Don't miss this fabulous num Bed, num Bath! Highly desirable location! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+97,"Stunning & Spacious Convertible in PLACE  Contact us! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+114,"Gracefully Elegant num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+397,"Convertible In PLACE  MASSIVE Closets, DW, & Pool! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+278,"Delightful num bed / num bath in PLACE  num Sq Ft. Great value! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+432,"Nicenum bed in PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+118,"Dazzling num bed w/IN UNIT; Red Line, num/num, num/num, num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+568,"Amazing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+170,"Video Tour Available! num Bedroom, num Bath in PLACE  Avail: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+401,"numth flr, Flly frnshed, utilities included, parking spot, pool/gym Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+389,"BRAND NEW LUXURY BUILDING OPENING num/num/num - BEAUTIFUL num BEDROOM Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+537,"Take a look at this spacious one bedroom with Heat included!! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+54,"Appealing num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+176,"Private num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+327,"num S Wood St #numF Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+194,"PLACE Gem! New floors and king room. Ample natural light! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+198,"Don't miss this fabulous num Bed, num Bath! Highly desirable location! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+463,"PLACE Convertible with Balcony, Massive Closet, Pool, Gym Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+352,"Convertible num bedroom in trendy PLACE  W/D In Unit Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+182,"Quality num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+266,"PLACE Downtown PLACE num Bedroom, Large Balcony + Washer Dryer Is rent cheap, average, or expensive? <SEP>
+", average, average
+354,"num N. Canal St.  Rent $num per month Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+103,"num NORTH FRANCISCO Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+220,"Location! Heat Included! Major Closet Space! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+130,"num Bedroom Appartment for Rent Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+353,"Gorgeous Rehabbed Apt w\ In Unit!  PLACE Roscoe Village Border Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+371,"Unparalleled num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+338,"Live In A PLACE one bedroom at an affordable price! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+472,"Radiant num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+60,"Affordable AND Great Location! In unit Laundry! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+94,"James House Apt num/num - PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+193,"Central Air! Rehabbed PLACE One bedroom! Lovely! Is rent cheap, average, or expensive? <SEP>
+", average, average
+140,"Classic num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+416,"Spacious PLACE num Bedroom with amazing amenities Is rent cheap, average, or expensive? <SEP>
+", average, average
+148,"Nicely rehabbed**** PLACE numbd**** INTERNET INCLUDED! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+202,"Vintage PLACE Andersonville num Bed w/ heat included! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+152,"Street Facing Renovated PLACE num-bed Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+377,"Platinum PLACE  PLACE Luxury Convertible, Balcony, W/D Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+391,"PLACE - Lofted Convertible num Bedroom - Dishwasher - Pool / Gym Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+337,"PLACE convertible num bedroom steal! Door staff, large gym here Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+380,"Outstanding num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+520,"Gorgeous num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+10,"LUXURY num Bedroom Convertible Printer's Row! Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+269,"Furnished Studio - Great Monthly Rates! Is rent cheap, average, or expensive? <SEP>
+", average, average
+96,"This One Bedroom is Pet Friendly! 🐕🐈 Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+210,"Loft style numbd/numb apt with exposed brick, high ceiling, and large wind Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+240,"Large num Bedroom apartment Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+57,"***Priced to Move! PLACE Loft in the Heart of the Action!*** Is rent cheap, average, or expensive? <SEP>
+", average, average
+452,"PLACE num bedroom plus den Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+301,"Appealing num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+496,"HUGE numbd/Walk in Closet/Free Fiber internet Is rent cheap, average, or expensive? <SEP>
+", average, average
+359,"What a Rarity! Central Air in a Rehabbed PLACE One Bedroom! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+36,"Spacious and Perfectly Located Condo Is rent cheap, average, or expensive? <SEP>
+", average, average
+30,"num bedroom near downtown PLACE Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+20,"Choice num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+549,"num Bedroom - designer interior - PLACE - Available May numst Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+332,"Spacious, comfortable num Sq Ft num bed, num bath! Now showing! Is rent cheap, average, or expensive? <SEP>
+", average, average
+75,"EAST PLACE numBD+Den GRNT S/S DW HWF A/C W/D IN-UNIT CATS OK Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+200,"Ravenswood num Bed w/ Central Air, Dishwasher Is rent cheap, average, or expensive? <SEP>
+", average, average
+77,"PLACE Beach! Spacious one bedroom with a spectacular view. Is rent cheap, average, or expensive? <SEP>
+", average, average
+263,"Start living large! You'll love our num bed, num bath! num Sq Ft! Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+203,"num BEDROOM PLACE PARK Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+149,"Check out this deal! Amazing num Bed num Bath in PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+475,"PLACE Large sunny one bedroom apartment Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+76,"Underpriced num Bedroom in North PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+2,"Bright, Spacious Loft in Prime PLACE Location - $num Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+546,"Beautiful vintage num bed on Cornelia and Sheffield Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+469,"In Unit Laundry! Gut Rehab numBD/numBa With New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+52,"PLACEvated PLACE apartment near Brown Line! Free Heat, Free Gas Is rent cheap, average, or expensive? <SEP>
+", average, average
+262,"Beautiful Brand New Property PLACE Schedule Tour Today Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+461,"PLACE LOW RISE LOFT CONDO Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+253,"Cute Modern PLACE num Bed - Gym Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+504,"Dazzling num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+384,"PLACE - numBD/num.numBTH apartment on Armitage! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+259,"Spacious num bed right by Loyola  PLACE  Is rent cheap, average, or expensive? <SEP>
+", expensive, cheap
+333,"num BEDROOM APARTMENT EVERYTHING BRAND NEW Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+369,"Nice PLACE num bedroom~ W/D, Gym, Steam Room, Indoor Pool & Bball Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+321,"Look at this spacious one bedroom with updated kitchen & Heat included Is rent cheap, average, or expensive? <SEP>
+", average, average
+151,"Nice big num bedroom apartment Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+302,"Spacious PLACE num bedroom, BALCONY, Large Closets! numhr doorstaff Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+190,"Wonderfully Rehabbed PLACE One Bedroom! New Kitchen! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+348,"Cute num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+243,"SPACIOUS numBED IN RAVENSWOOD W/ FREE HEAT & GAS!!!! AVAIL num/num Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+87,"BRAND NEW num Bed in PLACE Balcony, Laundry, Full Amenity~Pets OK! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+528,"Location! Formal Dining Room! Dishwasher! Small Dog Ok! Ready num/num! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+418,"Top Floor Corner num bedroom Plus sunroom Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+288,"PLACE num-BEDROOM PENTHOUSE Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+166,"Awesome location num block to blue line Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+545,"What a Rarity! Central Air in a Rehabbed PLACE One Bedroom! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+155,"Charming numBr Sublet num/num-num/num w/ option to renew (furnished available) Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+356,"NEW GUT REHAB IN PLACE PARK Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+381,"Apt for Rent: Than Tower Unit num (numBR/numBA) Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+279,"Spacious East PLACE numBD Apt. near Red Line! On-Site W/D Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+126,"Stunning num bed num bath Is rent cheap, average, or expensive? <SEP>
+", average, expensive
+22,"Studios and One-Bedroom Units Near Downtown PLACE  $num-$num (num Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+282,"Hip num Bedroom, num Bath in PLACE  Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+471,"Ravenswood Manor - Garden Apartment for Rent Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+367,"Must See! Lofted num Bedroom, In-unit Laundry, Balcony, Pool, Gym, Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+25,"Super cute num bed w/ heat included, balcony, shared yard, cats okay Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+196,"Beautiful! Granite Kitchen! Stainless Steel! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+64,"num bedroom Condo for Rent -Sublease *($num) Is rent cheap, average, or expensive? <SEP>
+", average, average
+15,"PLACE num bedroom, large closets,  across from lake Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+466,"Simply stunning! Luxurious num Bed / num Bath in PLACE  Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+297,"Spacious num bed garden unit w/ free heat and cooking gas! Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+336,"Beautiful num bed num bath in the heart of PLACE Is rent cheap, average, or expensive? <SEP>
+", average, average
+26,"Rehabbed Kitchen & Bath! Pet Friendly! Ready Now! Is rent cheap, average, or expensive? <SEP>
+", average, average
+43,"PLACE num BED CONDO GRANITE S/S W/D DECK BIG BEDROOM Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+497,"Classy num Bedroom, num Bath in Ravenswood, Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+515,"PLACEvated num Bedroom in South PLACE with Balcony and Roofdeck Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+556,"Studio In PLACE With W/D, WI Closet, & Fitness Center! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+454,"PLACE One Bedroom Condo For Rent Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+387,"Upscale num Bedroom South PLACE  W/D, Hwd, Full Length Windows, Gym/Pool Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+71,"Pets Welcome! We accept indoor cats and dogs! Ask for details! Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+542,"Location! Heat Included! Updated Kitchen & Bathroom! Small Dog Ok! Is rent cheap, average, or expensive? <SEP>
+", average, average
+456,"NEW LISTING num Bedroom, PLACE  Heat, WIFI, Cable INCLUDED  num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+431,"River West Loft Living! num-num' ceilings, Exposed brick & timbers, Gym Is rent cheap, average, or expensive? <SEP>
+", average, average
+264,"Simply beautiful num bed / num bath in prime PLACE neighborhood Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+209,"Quintessential num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+316,"Spacious & Modern num Bedroom in PLACE - W/D in-unit! Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+513,"AMAZING num BED AVAILABLE - $num,num Is rent cheap, average, or expensive? <SEP>
+", average, average
+313,"Courtyard Building In The Heart Of PLACE  Pets Welcome! Is rent cheap, average, or expensive? <SEP>
+", average, average
+534,"Incredible num bedroom ! separate living /dining area! PLACE  Is rent cheap, average, or expensive? <SEP>
+", average, average
+319,"Cool PLACE apt near Red Line!, Free Heat, Free Gas Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+7,"Heat Included! Updated Kitchen! Great Location! Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+393,"Spacious One Bedroom in PLACE RE-LET Is rent cheap, average, or expensive? <SEP>
+", cheap, average
+141,"num N. PLACE in PLACE numBed-HDWD,SS Appl,DW,MW,Laundry on Site Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+86,"Fully Furnished num Bedroom In PLACE Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+478,"Gorgeous num Bedroom, num Bath in Ravenswood, Available: Now Is rent cheap, average, or expensive? <SEP>
+", average, average
+503,"HUGE num Bed, PLACE Vintage Charm, Dining Rm, Sun Rm, Pets OK Is rent cheap, average, or expensive? <SEP>
+", average, average
+215,"Luxury num BD Sublet thru July numst - PLACE Is rent cheap, average, or expensive? <SEP>
+", expensive, expensive
+562,"PLACEvated PLACE num Bedroom Apartment! (num-num) Is rent cheap, average, or expensive? <SEP>
+", average, average
+398,"HEART OF PLACE MOVE IN FEES WAIVED BOOK TODAY WONT LAST LONG Is rent cheap, average, or expensive? <SEP>
+", average, average
+490,"Hip num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, average
+252,"numbr Top floor apartment Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+468,"Great Value for this num Bedroom in PLACE - Steps from Oglivie Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+357,"Very sunny one bedroom apartment Is rent cheap, average, or expensive? <SEP>
+", average, average
+254,"Valuable num Bedroom, num Bath in PLACE  Available: num/num/num Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+276,"Gorgeous PLACE Apt! Bay Windows~Balcony~In Unit Laundry~Must See! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+178,"Rehabbed Pet Friendly Studio! Recently Updated! Close To Red Line! Is rent cheap, average, or expensive? <SEP>
+", average, cheap
+281,"Beautiful South PLACE One Bedroom Loft Is rent cheap, average, or expensive? <SEP>
+", cheap, expensive
+390,"Furnished Studio - Great Monthly Rates! Is rent cheap, average, or expensive? <SEP>
+", average, average
+508,"Spacious and elegant! You've found your ideal num bed / num bath! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+129,"PLACE: num` BED num BATH HDWD S/S DW MICRO GRANITE BALCONY Is rent cheap, average, or expensive? <SEP>
+", cheap, cheap
+144,"num bedroom in Hot PLACE Market Location - In unit laundry - Doorman Is rent cheap, average, or expensive? <SEP>
+", average, average
+72,"Check out this lovely num bed apt with view of Lake Michigan!! Is rent cheap, average, or expensive? <SEP>
+", expensive, average
+235,"Rehab num Bedroom, Heat Included, PLACE  Dishwasher, Pets Ok Is rent cheap, average, or expensive? <SEP>
+", average, average
+37,"Location! Heat & Gas Included! Updated Bathroom! Elevator Building! Is rent cheap, average, or expensive? <SEP>
+", average, average

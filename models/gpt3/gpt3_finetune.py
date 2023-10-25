@@ -118,18 +118,29 @@ Not sure this would *exactly* work but I think it gets everything that's needed?
 """
 
 if __name__ == "__main__":
-    # TODO: these calls ONE BY ONE PREFERABLY
     # rent_train("chicago", n=5)
     # rent_train("chicago", n=50)
     # rent_train("chicago", n=500)
     # rent_train("chicago")
 
-    # rent_train("chicago", "babbage", ???)
-    # rent_train("chicago", "curie", ???)
-    # rent_train("chicago", "davinci", ???)
+    # rent_train("chicago", "babbage")
+    # rent_train("chicago", "curie")
+    # rent_train("chicago", "davinci")
     
-    # rent_train("chicago", n=???, False)
+    # rent_train("chicago", "davinci", body_prompt=False)
     
-    # TODO: other tasks for chicago and seattle on X model (ada?) and Y posts
+    # rent_train("seattle", "ada")
+    # rent_train("seattle", "babbage")
+    # rent_train("seattle", "curie")
+
+    # TODO: FINAL TASK TRAINS
+    # rent_train("seattle")
+    # rent_train("seattle", n=5)
+    # rent_train("seattle", n=50)
+    # rent_train("seattle", n=500)
+    # rent_train("seattle", n=5000)
+
+    # race_train("seattle")
+    # income_train("seattle")
     
     get_finetune_events()
