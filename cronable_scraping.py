@@ -149,10 +149,10 @@ class CraigslistScraper:
 
         if not self.updated_frontend:
             try:
-                page_data = get(url, proxies=self.curr_proxy, timeout=(5, 5))
+                page_data = get(url, proxies=self.curr_proxy, timeout=5)
             except Exception:
                 time.sleep(10)
-                page_data = get(url, proxies=self.curr_proxy, timeout=(5, 5))
+                page_data = get(url, proxies=self.curr_proxy, timeout=5)
                 
             html_soup = BeautifulSoup(page_data.text, 'html.parser')
             search_results = html_soup.find("ul", id="search-results")
@@ -165,7 +165,7 @@ class CraigslistScraper:
                     body = html_soup.find("body")
                     if body and "blocked" in body.text:
                         self.purge_curr_proxy()                        
-                        return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L132)
+                        return self.get_page_of_posts(url)  # return the results of a new run instead of continuing (proxy changed on L148)
                 else:
                     cprint(f"No more search results!", c="y")
                     return [0, True, False]
@@ -216,15 +216,31 @@ class CraigslistScraper:
         Returns: 
             None
         """
+        
+        url = None
+
         def get_raw_html():
             try:
-                raw_html = get(url, proxies=self.curr_proxy, timeout=(5, 5))
-                return raw_html
+                raw_html = get(url, proxies=self.curr_proxy, timeout=5)
+                if raw_html:
+                    if "request has been blocked" in raw_html.text:
+                        self.purge_curr_proxy()
+                        self.change_proxy()
+                        return None
+                    else:
+                        return raw_html
+                else:
+                    self.change_proxy()
+                    return None
             except (ProxyError, ConnectTimeout):  # if the issue lies with the current proxy
                 self.purge_curr_proxy()  # remove it from the proxy list (not the file)    
                 self.change_proxy()  # change to a (hopefully better) one
+                return None
             except Exception as e:
+                cprint(f"Tried getting raw_html. Exception {type(e).__name__}: {type(e).__cause__}\n{e}", c="r")
+                self.change_proxy()
                 time.sleep(10)
+                return None
                     
         for key in tqdm(dictionary_of_posts.keys(), desc="Saving html of posts on current page...", leave=False):
             self.change_proxy()
@@ -233,9 +249,10 @@ class CraigslistScraper:
             url = dictionary_of_posts[key]
             filename = os.path.join(self.filepath, post_id)
            
-            raw_html = False
+            raw_html = None
             while not raw_html:  # had to loop like this instead of having get_raw_html recurse, for some reason...
                 raw_html = get_raw_html()
+                time.sleep(self.sleep_time)
             
             with open(filename, 'w', encoding = 'utf-8') as file:
                 file.write(raw_html.text)  # write the raw html to a file
@@ -303,7 +320,7 @@ class CraigslistScraper:
         gpp = self.get_page_of_posts(page_url)
 
         with tqdm(total=total_pages, desc=f"Getting posts from today ({total_pages} page{'s' if total_pages > 1 else ''})...") as pbar:
-            while not gpp[1] and gpp[2]:  # while there are results and they're not all duplicates
+            while not gpp[1]: # and gpp[2]:  # while there are results and they're not all duplicates
                 current_page_dict = gpp[0]
                 self.save_html_from_page(current_page_dict)
                 
