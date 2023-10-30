@@ -17,12 +17,13 @@ def scrape_from(idx: int=0):
 			scraper.scrape()
 		except Exception as e:
 			try:
-				cprint(f"Encountered exception '{e}'\nTrying again in 30 seconds", c="r")
+				cprint(f"Encountered exception '{type(e).__name__}': {e}\nTrying again in 30 seconds", c="r")
 			except Exception:
 				cprint("Encountered an unprintable exception. Trying again in 30 seconds", c="r")
 			scraper.driver.quit()
 			sleep(30)
 			scrape_from(locations.index(location))
+		scraper.driver.quit()
 
 scrape_from()
 cprint("\nFULL CRON SCRAPE COMPLETED!", c="gB")
