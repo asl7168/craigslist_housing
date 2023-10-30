@@ -222,6 +222,7 @@ class CraigslistScraper:
         def get_raw_html():
             try:
                 raw_html = get(url, proxies=self.curr_proxy, timeout=5)
+                # cprint(f"curr_proxy: {self.curr_proxy}\ncurr_url: {url}\n", c="b")
                 if raw_html:
                     if "request has been blocked" in raw_html.text:
                         self.purge_curr_proxy()
@@ -230,8 +231,13 @@ class CraigslistScraper:
                     else:
                         return raw_html
                 else:
-                    self.change_proxy()
-                    return None
+                    try:
+                        if raw_html.status_code == 410:  # if raw_html exists, but the related post was removed, skip it
+                            return "SKIP"
+                    except AttributeError:  # if there was no response at all, try again
+                        cprint(f"No response from {url}. Trying again with a different proxy", c="y")
+                        self.change_proxy()
+                        return None
             except (ProxyError, ConnectTimeout):  # if the issue lies with the current proxy
                 self.purge_curr_proxy()  # remove it from the proxy list (not the file)    
                 self.change_proxy()  # change to a (hopefully better) one
@@ -254,8 +260,9 @@ class CraigslistScraper:
                 raw_html = get_raw_html()
                 time.sleep(self.sleep_time)
             
-            with open(filename, 'w', encoding = 'utf-8') as file:
-                file.write(raw_html.text)  # write the raw html to a file
+            if raw_html != "SKIP":  # if the post was removed, don't save the removal text
+                with open(filename, 'w', encoding = 'utf-8') as file:
+                    file.write(raw_html.text)  # write the raw html to a file
 
             time.sleep(self.sleep_time)
 
